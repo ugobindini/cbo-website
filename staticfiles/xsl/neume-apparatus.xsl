@@ -4,10 +4,10 @@
   <xsl:template match="teiHeader"/>
 
   <xsl:template match="body">
-    <xsl:apply-templates select=".//app[@type='text']"/>
+    <xsl:apply-templates select=".//app[@type='neume']"/>
   </xsl:template>
 
-  <xsl:template match="app[@type='text']">
+  <xsl:template match="app[@type='neume']">
     <b style="margin-right: 5px;"><xsl:value-of select="ancestor::lg/@n"/>.<xsl:value-of select="ancestor::l/@n"/></b>
     <xsl:apply-templates select="./lem/*" />
     <i><xsl:value-of select="./lem/@wit" /></i>
