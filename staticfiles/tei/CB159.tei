@@ -67,26 +67,21 @@
               </seg>
             </w>
             <rhyme label="a">
-              <app>
-                <lem>
-                  <w>
-                    <seg type="syll" part="I" met="+">tem<notatedMusic>
-                        <neume fontname="buranus" glyph.num="7" label="vi)"></neume>
-                      </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="M">po<notatedMusic>
-                        <neume fontname="buranus" glyph.num="44" label="cl"></neume>
-                      </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="F">re<notatedMusic>
-                        <neume fontname="buranus" glyph.num="104" label="ci"></neume>
-                        <neume fontname="buranus" glyph.num="68" label="qisu2"></neume>
-                      </notatedMusic>
-                    </seg>
-                  </w>
-                </lem>
-                <note>p. ras.</note>
-              </app>
+              <w>
+                <seg type="syll" part="I" met="+">tem<notatedMusic>
+                    <neume fontname="buranus" glyph.num="7" label="vi)"></neume>
+                  </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">po<notatedMusic>
+                    <neume fontname="buranus" glyph.num="44" label="cl"></neume>
+                  </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">re<notatedMusic>
+                    <neume fontname="buranus" glyph.num="104" label="ci"></neume>
+                    <neume fontname="buranus" glyph.num="68" label="qisu2"></neume>
+                  </notatedMusic>
+                </seg>
+              </w>
             </rhyme>
           </l>
           <l n="2" met="8pp" rhyme="a">

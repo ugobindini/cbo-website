@@ -92,10 +92,11 @@ if __name__ == "__main__":
         out_py_file.write(f'\t"{glyph.nabc_code}": {glyph.id},\n')
     out_py_file.write("}")
 
-    ##### Convert the PDF files to SVG #####
+    ##### Convert the PDF files to SVG, and copy them to the staticfiles folder as well #####
 
     for (x, glyph) in enumerate(glyphs):
         subprocess.run(f"pdf2svg {fontname}{x+1}-eps-converted-to.pdf svg/{fontname}{x+1}.svg", shell=True)
+        subprocess.run(f"cp svg/{fontname}{x+1}.svg ../staticfiles/img/svg", shell=True)
 
     ##### Move the EPS files and PDF files in the corresponding subfolders #####
 

@@ -75,25 +75,29 @@
               </seg>
             </w>
             <rhyme label="a">
-              <app>
-                <lem>
-                  <w>
+              <w>
+                <app type="neume">
+                  <lem>
                     <seg type="syll" part="I">ves<notatedMusic>
                         <neume fontname="buranus" glyph.num="1" label="pu"></neume>
                       </notatedMusic>
                     </seg>
-                    <seg type="syll" part="M" met="+">ti<notatedMusic>
+                  </lem>
+                  <note>corr. ex <seg type="syll" part="I">ves<notatedMusic>
                         <neume fontname="buranus" glyph.num="6" label="vi"></neume>
                       </notatedMusic>
                     </seg>
-                    <seg type="syll" part="F">tur<notatedMusic>
-                        <neume fontname="buranus" glyph.num="6" label="vi"></neume>
-                      </notatedMusic>
-                    </seg>
-                  </w>
-                </lem>
-                <note>corr. ex. ... </note>
-              </app>
+                  </note>
+                </app>
+                <seg type="syll" part="M" met="+">ti<notatedMusic>
+                    <neume fontname="buranus" glyph.num="6" label="vi"></neume>
+                  </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">tur<notatedMusic>
+                    <neume fontname="buranus" glyph.num="6" label="vi"></neume>
+                  </notatedMusic>
+                </seg>
+              </w>
             </rhyme>
           </l>
           <l n="2" met="10p" rhyme="a">
@@ -287,7 +291,7 @@
               <seg type="syll" part="I">co</seg>
               <seg type="syll" part="F">ma</seg>
             </w>
-            <app>
+            <app type="text">
               <lem wit="HS V">
                 <rhyme label="a">
                   <w>
@@ -563,7 +567,7 @@
             </seg>
           </l>
           <l n="4" met="11p" real="10p" rhyme="a">
-            <app>
+            <app type="text">
               <lem>
                 <w>
                   <seg type="syll" part="I">Sub</seg>
@@ -768,7 +772,7 @@
                   <neume fontname="buranus" glyph.num="6" label="vi"></neume>
                 </notatedMusic>
               </seg>
-              <app>
+              <app type="neume">
                 <lem>
                   <seg type="syll" part="F">ner<notatedMusic>
                       <neume fontname="buranus" glyph.num="1" label="pu"></neume>
@@ -798,7 +802,7 @@
             </w>
             <rhyme label="a">
               <w>
-                <app>
+                <app type="neume">
                   <lem>
                     <seg type="syll" part="I" met="+">chu<notatedMusic>
                         <neume fontname="buranus" glyph.num="1" label="pu"></neume>
@@ -828,7 +832,7 @@
           </l>
           <l n="3" met="4+3-" rhyme="a">
             <seg type="hemistich" met="4">
-              <app>
+              <app type="text">
                 <lem wit="HS V">
                   <w>
                     <seg type="syll" part="I" met="+">Chun<notatedMusic>
@@ -842,16 +846,7 @@
                   </w>
                 </lem>
                 <rdg wit="ms">
-                  <w>
-                    <seg type="syll" part="I" met="+">chun<notatedMusic>
-                        <neume fontname="buranus" glyph.num="6" label="vi"></neume>
-                      </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="F">ne<notatedMusic>
-                        <neume fontname="buranus" glyph.num="1" label="pu"></neume>
-                      </notatedMusic>
-                    </seg>
-                  </w>
+                  <w>chunne</w>
                 </rdg>
               </app>
               <w>
