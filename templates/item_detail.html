@@ -36,12 +36,12 @@
     displayXML("{% static 'xsl/text.xsl' %}", "/staticfiles".concat('/', tei_filename), "text-div");
     displayXML("{% static 'xsl/text-apparatus.xsl' %}", "/staticfiles".concat('/', tei_filename), "text-app-div");
     displayXML("{% static 'xsl/neume-apparatus.xsl' %}", "/staticfiles".concat('/', tei_filename), "neume-app-div");
-    console.log(getElementById("text-app-div").childNodes.length)
-    console.log(getElementById("text-app-div").childNodes.length)
-    if (getElementById("text-app-div").childNodes.length == 0) {
+    console.log(document.getElementById("text-app-div").childNodes.length)
+    console.log(document.getElementById("text-app-div").childNodes.length)
+    if (document.getElementById("text-app-div").childNodes.length == 0) {
       getElementById("text-app-head").hide()
     }
-    if (getElementById("neume-app-div").childNodes.length == 0) {
+    if (document.getElementById("neume-app-div").childNodes.length == 0) {
       getElementById("neume-app-head").hide()
     }
 </script>
