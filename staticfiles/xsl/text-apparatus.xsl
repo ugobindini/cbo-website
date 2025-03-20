@@ -4,6 +4,9 @@
   <xsl:template match="teiHeader"/>
 
   <xsl:template match="body">
+    <xsl:if test=".//app[@type='text']">
+      <p class="text-font font-bold">Critical apparatus (text)</p>
+    </xsl:if>
     <xsl:apply-templates select=".//app[@type='text']"/>
   </xsl:template>
 

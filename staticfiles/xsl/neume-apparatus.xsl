@@ -5,7 +5,7 @@
 
   <xsl:template match="body">
     <xsl:if test=".//app[@type='neume']">
-      <p class="text-font font-bold" id="neume-app-head">Critical apparatus (neumes)</p>
+      <p class="text-font font-bold">Critical apparatus (neumes)</p>
     </xsl:if>
     <xsl:apply-templates select=".//app[@type='neume']"/>
   </xsl:template>
