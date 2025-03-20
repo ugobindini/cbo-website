@@ -42,9 +42,7 @@
   </xsl:template>
 
   <xsl:template match="w">
-  <span class="word text-font">
-    <xsl:apply-templates/>
-  </span>
+  <span class="word text-font"><xsl:text/><xsl:value-of select="normalize-space($text)"/><xsl:text/></span>
   </xsl:template>
 
   <xsl:template match="seg[@type='syll']">
