@@ -39,7 +39,7 @@
   </xsl:template>
 
   <xsl:template match="w">
-  <span class="word text-font">
+  <span class="word">
     <xsl:apply-templates/>
   </span>
   </xsl:template>

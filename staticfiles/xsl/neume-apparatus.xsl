@@ -4,6 +4,9 @@
   <xsl:template match="teiHeader"/>
 
   <xsl:template match="body">
+    <xsl:if test=".//app[@type='neume']">
+      <p class="text-font font-bold" id="neume-app-head">Critical apparatus (neumes)</p>
+    </xsl:if>
     <xsl:apply-templates select=".//app[@type='neume']"/>
   </xsl:template>
 
@@ -39,7 +42,7 @@
   </xsl:template>
 
   <xsl:template match="w">
-  <span class="word text-font">
+  <span class="word">
     <xsl:apply-templates/>
   </span>
   </xsl:template>
