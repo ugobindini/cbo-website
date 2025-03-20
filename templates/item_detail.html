@@ -37,10 +37,10 @@
     displayXML("{% static 'xsl/text-apparatus.xsl' %}", "/staticfiles".concat('/', tei_filename), "text-app-div");
     displayXML("{% static 'xsl/neume-apparatus.xsl' %}", "/staticfiles".concat('/', tei_filename), "neume-app-div");
     if (document.getElementById("text-app-div").childNodes.length == 0) {
-      document.getElementById("text-app-head").hide()
+      $("#text-app-head").hide();
     }
     if (document.getElementById("neume-app-div").childNodes.length == 0) {
-      document.getElementById("neume-app-head").hide()
+      $("#neume-app-head").hide();
     }
 </script>
 
