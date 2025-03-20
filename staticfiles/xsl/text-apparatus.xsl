@@ -46,31 +46,12 @@
 
   <xsl:template match="seg[@type='syll']">
     <xsl:variable name="text"><xsl:value-of select="./text()"/></xsl:variable>
-    <span class="neumed-syll">
-      <span class="syl">
-        <xsl:choose>
-          <xsl:when test="@met='+'">
-            <div class="syl-text stressed-syl">
-              <xsl:value-of select="normalize-space($text)"/>
-            </div>
-          </xsl:when>
-          <xsl:otherwise>
-            <div class="syl-text">
-              <xsl:value-of select="normalize-space($text)"/>
-            </div>
-          </xsl:otherwise>
-        </xsl:choose>
-        <span class="syl-dash">
-          <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
-        </span>
+    <span class="syl">
+      <span class="syl-text stressed-syl">
+        <xsl:value-of select="normalize-space($text)"/>
       </span>
-      <span class="neumes non-selectable">
-        <span class="consonant-space"><xsl:value-of select="normalize-space($text)"/></span>
-        <xsl:for-each select="notatedMusic/neume">
-          <img class="neume-small">
-            <xsl:attribute name="src">/staticfiles/img/svg/<xsl:value-of select="@fontname"/><xsl:value-of select="@glyph.num"/>.svg</xsl:attribute>
-          </img>
-        </xsl:for-each>
+      <span class="syl-dash">
+        <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
       </span>
     </span>
   </xsl:template>
