@@ -33,7 +33,7 @@
   </xsl:template>
 
   <xsl:template match="note">
-    <span class="font-it" style="margin-right: 10px;">
+    <span class="font-it" style="margin-right: 10px; margin-left: 5px;">
       <xsl:apply-templates />
     </span>
   </xsl:template>
