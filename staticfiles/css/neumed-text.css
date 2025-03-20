@@ -142,9 +142,6 @@ p {
 .apparatus-in-text {
   position: relative;
   display: inline-flex;
-}
-
-.apparatus-in-text .word {
   border-bottom: 1px dotted black;
   margin-bottom: -1px;
 }

@@ -157,7 +157,7 @@
   <xsl:template match="seg[@type='syll']">
     <xsl:variable name="text"><xsl:value-of select="./text()"/></xsl:variable>
     <span class="neumed-syll">
-      <span class="syl">
+      <span class="syl text-font">
         <xsl:choose>
           <xsl:when test="@met='+'">
             <span class="syl-text stressed-syl">

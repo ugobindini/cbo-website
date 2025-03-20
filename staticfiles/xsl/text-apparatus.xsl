@@ -2,6 +2,7 @@
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template match="teiHeader"/>
+  <xsl:template match="text()" />
 
   <xsl:template match="body">
     <xsl:if test=".//app[@type='text']">
@@ -42,12 +43,20 @@
   </xsl:template>
 
   <xsl:template match="w">
-  <span class="word text-font"><xsl:text/><xsl:value-of select="normalize-space($text)"/><xsl:text/></span>
+    <span class="word text-font">
+      <xsl:choose>
+        <xsl:when test=".//seg[@type='syll']">
+          <xsl:apply-templates />
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="."/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </span>
   </xsl:template>
 
   <xsl:template match="seg[@type='syll']">
-    <xsl:variable name="text"><xsl:value-of select="./text()"/></xsl:variable>
-    <xsl:text/><xsl:value-of select="normalize-space($text)"/><xsl:text/>
+    <xsl:value-of select="normalize-space(.)"/>
   </xsl:template>
 
 </xsl:stylesheet>
