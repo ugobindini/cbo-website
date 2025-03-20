@@ -395,7 +395,7 @@
           </l>
           <l n="5" met="8pp+7p" rhyme="b">
             <seg type="hemistich" met="8pp">
-              <app>
+              <app type="text">
                 <lem wit="HS">
                   <w>
                     <seg type="syll" part="I">Pel</seg>
@@ -598,7 +598,7 @@
               </w>
             </seg>
             <seg type="hemistich" met="7p" rhyme="b">
-              <app>
+              <app type="text">
                 <lem>
                   <w>
                     <seg type="syll" part="I">in</seg>
@@ -829,7 +829,7 @@
             </rhyme>
           </l>
           <l n="2" met="8pp" rhyme="a">
-            <app>
+            <app type="text">
               <lem>
                 <w>
                   <seg type="syll" part="I">re</seg>
@@ -938,7 +938,7 @@
               <w>
                 <seg type="syll">tunc</seg>
               </w>
-              <app>
+              <app type="text">
                 <lem wit="HS">
                   <w>
                     <seg type="syll" part="I">can</seg>
@@ -949,7 +949,7 @@
                   <w>canctus</w>
                 </rdg>
               </app>
-              <app>
+              <app type="text">
                 <lem>
                   <w>
                     <seg type="syll" part="I" met="+">vo</seg>
@@ -995,7 +995,7 @@
                 <seg type="syll" part="I">ve</seg>
                 <seg type="syll" part="F">ris</seg>
               </w>
-              <app>
+              <app type="text">
                 <lem wit="V">
                   <w>
                     <seg type="syll" part="I">pre</seg>
@@ -1113,7 +1113,7 @@
             <w>
               <seg type="syll">ist</seg>
             </w>
-            <app>
+            <app type="text">
               <lem>
                 <w>
                   <seg type="syll" part="I" met="+">wun</seg>

@@ -381,7 +381,7 @@
             <w>
               <seg type="syll">nix</seg>
             </w>
-            <app>
+            <app type="text">
               <lem wit="HS">
                 <w>
                   <seg type="syll">et</seg>
@@ -422,7 +422,7 @@
               <w>
                 <seg type="syll">iam</seg>
               </w>
-              <app>
+              <app type="text">
                 <lem wit="HS V">
                   <rhyme label="a1">
                     <w>
@@ -757,7 +757,7 @@
           </l>
           <l n="5" met="A4" rhyme="c">
             <w>
-              <app>
+              <app type="neume">
                 <lem>
                   <seg type="syll">Ich<notatedMusic>
                       <neume fontname="buranus" glyph.num="1" label="pu"></neume>
@@ -856,7 +856,7 @@
                 </notatedMusic>
               </seg>
             </w>
-            <app>
+            <app type="text">
               <lem wit="HS V">
                 <w>
                   <seg type="syll" part="I">er<notatedMusic>
