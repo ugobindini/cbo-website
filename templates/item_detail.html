@@ -22,10 +22,10 @@
 <div id="tei-display" class="cbo-text-frame cbo-border-inset cbo-border-sand">
   <div id="text-div" style="text-size: 16px;"></div>
   <hr/>
-  <p class="text-font font-bold">Critical apparatus (text)</p>
+  <p class="text-font font-bold" id="text-app-head">Critical apparatus (text)</p>
   <div class="text-font font-small" id="text-app-div"></div>
   <hr/>
-  <p class="text-font font-bold">Critical apparatus (neumes)</p>
+  <p class="text-font font-bold" id="neume-app-head">Critical apparatus (neumes)</p>
   <div class="text-font font-small" id="neume-app-div"></div>
 </div>
 
@@ -36,6 +36,12 @@
     displayXML("{% static 'xsl/text.xsl' %}", "/staticfiles".concat('/', tei_filename), "text-div");
     displayXML("{% static 'xsl/text-apparatus.xsl' %}", "/staticfiles".concat('/', tei_filename), "text-app-div");
     displayXML("{% static 'xsl/neume-apparatus.xsl' %}", "/staticfiles".concat('/', tei_filename), "neume-app-div");
+    if (getElementById("text-app-div").childNodes.length == 0) {
+      getElementById("text-app-head").hide()
+    }
+    if (getElementById("neume-app-div").childNodes.length == 0) {
+      getElementById("neume-app-head").hide()
+    }
 </script>
 
 {% endblock %}
