@@ -42,24 +42,19 @@
   </xsl:template>
 
   <xsl:template match="w">
-  <span class="word">
+  <span class="word text-font">
     <xsl:apply-templates/>
   </span>
   </xsl:template>
 
   <xsl:template match="seg[@type='syll']">
     <xsl:variable name="text"><xsl:value-of select="./text()"/></xsl:variable>
+    <span class="syl-dash text-font">
+      <xsl:if test="@part='M' or  @part='F'"><xsl:text>-</xsl:text></xsl:if>
+    </span>
     <span class="neumed-syll">
-      <span class="syl">
-        <span class="syl-dash text-font">
-          <xsl:if test="@part='M' or  @part='F'"><xsl:text>-</xsl:text></xsl:if>
-        </span>
-        <div class="syl-text text-font">
-          <xsl:value-of select="normalize-space($text)"/>
-        </div>
-        <span class="syl-dash text-font">
-          <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
-        </span>
+      <span class="syl-text text-font">
+        <xsl:value-of select="normalize-space($text)"/>
       </span>
       <span class="neumes non-selectable">
         <span class="consonant-space"><xsl:value-of select="normalize-space($text)"/></span>
@@ -69,6 +64,9 @@
           </img>
         </xsl:for-each>
       </span>
+    </span>
+    <span class="syl-dash text-font">
+      <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
     </span>
   </xsl:template>
 
