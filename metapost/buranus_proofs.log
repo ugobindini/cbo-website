@@ -1,0 +1,2373 @@
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.3.30)  19 MAR 2025 14:59
+ restricted system commands enabled.
+**buranus_proofs.tex
+(./buranus_proofs.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/Users/ugobindini/Library/texlive/2
+024/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "/usr/local/texlive/2024/texmf-dist/tex/luatex/luaotfload/fontloader-
+2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/Users/ugobindini/Library/texlive/2
+024/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/local/texlive/202
+4/texmf-dist/tex/latex/koma-script/scrarticle.cls
+Document Class: scrarticle 2023/07/07 v3.41 KOMA-Script document class (article
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2023/07/07 v3.41 KOMA-Script document class (article)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip48
+\scr@dte@tocline@numbox=\box51
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 133.
+Class scrartcl Info: File `scrsize11pt.clo' used instead of
+(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 244
+1.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2023/07/07 v3.41 KOMA-Script font size class option (11pt
+)
+luaotfload | db : Font names database loaded from /Users/ugobindini/Library/texl
+ive/2024/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2023/07/07 v3.41 KOMA-Script package (type area)
+\ta@bcor=\skip49
+\ta@div=\count186
+\ta@hblk=\skip50
+\ta@vblk=\skip51
+\ta@temp=\skip52
+\footheight=\skip53
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1799.
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\scr@dte@section@maxnumwidth=\skip54
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 5082.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 5082.
+\scr@dte@part@maxnumwidth=\skip55
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 5090.
+\scr@dte@subsection@maxnumwidth=\skip56
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 5100.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 5100.
+\scr@dte@subsubsection@maxnumwidth=\skip57
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 5110.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 5110.
+\scr@dte@paragraph@maxnumwidth=\skip58
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 5121.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 5121.
+\scr@dte@subparagraph@maxnumwidth=\skip59
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 5131.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 5131.
+\abovecaptionskip=\skip60
+\belowcaptionskip=\skip61
+\c@pti@nb@sid@b@x=\box52
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 6309.
+\scr@dte@figure@maxnumwidth=\skip62
+\c@figure=\count193
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 6325.
+\scr@dte@table@maxnumwidth=\skip63
+\c@table=\count194
+Class scrartcl Info: Redefining `\numberline' on input line 6495.
+\bibindent=\dimen139
+))
+(./mp_style.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count195
+\calc@Bcount=\count196
+\calc@Adimen=\dimen140
+\calc@Bdimen=\dimen141
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count197
+\calc@Cskip=\skip66
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip67
+\LTright=\skip68
+\LTpre=\skip69
+\LTpost=\skip70
+\LTchunksize=\count198
+\LTcapwidth=\dimen144
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@gbox=\box57
+\LT@cols=\count199
+\LT@rows=\count266
+\c@LT@tables=\count267
+\c@LT@chunks=\count268
+\LT@p@ftn=\toks18
+)
+Class scrartcl Info: longtable captions redefined on input line 8.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-02-20 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count269
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box58
+)
+(./buranus_proofs.aux)
+\openout1 = buranus_proofs.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
+.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+Package scrbase Info: activating english \abstractname on input line 9.
+Package scrbase Info: activating english \partname on input line 9.
+Package scrbase Info: activating english \figurename on input line 9.
+Package scrbase Info: activating english \tablename on input line 9.
+Package scrbase Info: activating english \contentsname on input line 9.
+Package scrbase Info: activating english \listfigurename on input line 9.
+Package scrbase Info: activating english \listtablename on input line 9.
+Package scrbase Info: activating english \refname on input line 9.
+Package scrbase Info: activating english \indexname on input line 9.
+
+(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count270
+\scratchdimen=\dimen145
+\scratchbox=\box59
+\nofMPsegments=\count271
+\nofMParguments=\count272
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count273
+\MPscratchDim=\dimen146
+\MPnumerator=\count274
+\makeMPintoPDFobject=\count275
+\everyMPtoPDFconversion=\toks20
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package epstopdf Info: Source file: <buranus1.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1163 bytes
+(epstopdf)             Output file: <buranus1-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus1-eps-converted-to.
+pdf buranus1.eps>
+(epstopdf)             \includegraphics on input line 16.
+system(repstopdf --outfile=buranus1-eps-converted-to.pdf buranus1.eps) executed.
+Package epstopdf Info: Result file: <buranus1-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 14:59:58
+(epstopdf)                    size: 2479 bytes.
+<buranus1-eps-converted-to.pdf, id=1, 5.01875pt x 4.015pt>
+File: buranus1-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus1-eps-converted-to.pdf>
+Package luatex.def Info: buranus1-eps-converted-to.pdf  used on input line 16.
+(luatex.def)             Requested size: 2.20824pt x 1.7666pt.
+Package epstopdf Info: Source file: <buranus2.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1214 bytes
+(epstopdf)             Output file: <buranus2-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus2-eps-converted-to.
+pdf buranus2.eps>
+(epstopdf)             \includegraphics on input line 17.
+system(repstopdf --outfile=buranus2-eps-converted-to.pdf buranus2.eps) executed.
+Package epstopdf Info: Result file: <buranus2-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 14:59:59
+(epstopdf)                    size: 2510 bytes.
+<buranus2-eps-converted-to.pdf, id=2, 10.0375pt x 4.015pt>
+File: buranus2-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus2-eps-converted-to.pdf>
+Package luatex.def Info: buranus2-eps-converted-to.pdf  used on input line 17.
+(luatex.def)             Requested size: 4.4165pt x 1.7666pt.
+Package epstopdf Info: Source file: <buranus3.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1218 bytes
+(epstopdf)             Output file: <buranus3-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus3-eps-converted-to.
+pdf buranus3.eps>
+(epstopdf)             \includegraphics on input line 18.
+system(repstopdf --outfile=buranus3-eps-converted-to.pdf buranus3.eps) executed.
+Package epstopdf Info: Result file: <buranus3-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 14:59:59
+(epstopdf)                    size: 2503 bytes.
+<buranus3-eps-converted-to.pdf, id=3, 6.0225pt x 8.03pt>
+File: buranus3-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus3-eps-converted-to.pdf>
+Package luatex.def Info: buranus3-eps-converted-to.pdf  used on input line 18.
+(luatex.def)             Requested size: 2.6499pt x 3.5332pt.
+Package epstopdf Info: Source file: <buranus4.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1421 bytes
+(epstopdf)             Output file: <buranus4-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus4-eps-converted-to.
+pdf buranus4.eps>
+(epstopdf)             \includegraphics on input line 19.
+system(repstopdf --outfile=buranus4-eps-converted-to.pdf buranus4.eps) executed.
+Package epstopdf Info: Result file: <buranus4-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 14:59:59
+(epstopdf)                    size: 2574 bytes.
+<buranus4-eps-converted-to.pdf, id=4, 12.045pt x 8.03pt>
+File: buranus4-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus4-eps-converted-to.pdf>
+Package luatex.def Info: buranus4-eps-converted-to.pdf  used on input line 19.
+(luatex.def)             Requested size: 5.2998pt x 3.5332pt.
+Package epstopdf Info: Source file: <buranus5.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1632 bytes
+(epstopdf)             Output file: <buranus5-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus5-eps-converted-to.
+pdf buranus5.eps>
+(epstopdf)             \includegraphics on input line 20.
+system(repstopdf --outfile=buranus5-eps-converted-to.pdf buranus5.eps) executed.
+Package epstopdf Info: Result file: <buranus5-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:00
+(epstopdf)                    size: 2641 bytes.
+<buranus5-eps-converted-to.pdf, id=5, 18.0675pt x 8.03pt>
+File: buranus5-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus5-eps-converted-to.pdf>
+Package luatex.def Info: buranus5-eps-converted-to.pdf  used on input line 20.
+(luatex.def)             Requested size: 7.9497pt x 3.5332pt.
+Package epstopdf Info: Source file: <buranus6.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1172 bytes
+(epstopdf)             Output file: <buranus6-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus6-eps-converted-to.
+pdf buranus6.eps>
+(epstopdf)             \includegraphics on input line 21.
+system(repstopdf --outfile=buranus6-eps-converted-to.pdf buranus6.eps) executed.
+Package epstopdf Info: Result file: <buranus6-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:00
+(epstopdf)                    size: 2476 bytes.
+<buranus6-eps-converted-to.pdf, id=6, 13.04875pt x 14.0525pt>
+File: buranus6-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus6-eps-converted-to.pdf>
+Package luatex.def Info: buranus6-eps-converted-to.pdf  used on input line 21.
+(luatex.def)             Requested size: 5.74146pt x 6.1831pt.
+Package epstopdf Info: Source file: <buranus7.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1337 bytes
+(epstopdf)             Output file: <buranus7-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus7-eps-converted-to.
+pdf buranus7.eps>
+(epstopdf)             \includegraphics on input line 22.
+system(repstopdf --outfile=buranus7-eps-converted-to.pdf buranus7.eps) executed.
+Package epstopdf Info: Result file: <buranus7-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:00
+(epstopdf)                    size: 2551 bytes.
+<buranus7-eps-converted-to.pdf, id=7, 19.07124pt x 16.06pt>
+File: buranus7-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus7-eps-converted-to.pdf>
+Package luatex.def Info: buranus7-eps-converted-to.pdf  used on input line 22.
+(luatex.def)             Requested size: 8.39136pt x 7.0664pt.
+Package epstopdf Info: Source file: <buranus8.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1373 bytes
+(epstopdf)             Output file: <buranus8-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus8-eps-converted-to.
+pdf buranus8.eps>
+(epstopdf)             \includegraphics on input line 23.
+system(repstopdf --outfile=buranus8-eps-converted-to.pdf buranus8.eps) executed.
+Package epstopdf Info: Result file: <buranus8-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:01
+(epstopdf)                    size: 2530 bytes.
+<buranus8-eps-converted-to.pdf, id=8, 22.0825pt x 17.06375pt>
+File: buranus8-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus8-eps-converted-to.pdf>
+Package luatex.def Info: buranus8-eps-converted-to.pdf  used on input line 23.
+(luatex.def)             Requested size: 9.71631pt x 7.50806pt.
+Package epstopdf Info: Source file: <buranus9.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1479 bytes
+(epstopdf)             Output file: <buranus9-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus9-eps-converted-to.
+pdf buranus9.eps>
+(epstopdf)             \includegraphics on input line 24.
+system(repstopdf --outfile=buranus9-eps-converted-to.pdf buranus9.eps) executed.
+Package epstopdf Info: Result file: <buranus9-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:01
+(epstopdf)                    size: 2581 bytes.
+<buranus9-eps-converted-to.pdf, id=9, 19.07124pt x 14.0525pt>
+File: buranus9-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus9-eps-converted-to.pdf>
+Package luatex.def Info: buranus9-eps-converted-to.pdf  used on input line 24.
+(luatex.def)             Requested size: 8.39136pt x 6.1831pt.
+Package epstopdf Info: Source file: <buranus10.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1693 bytes
+(epstopdf)             Output file: <buranus10-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus10-eps-converted-to
+.pdf buranus10.eps>
+(epstopdf)             \includegraphics on input line 25.
+system(repstopdf --outfile=buranus10-eps-converted-to.pdf buranus10.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus10-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:01
+(epstopdf)                    size: 2641 bytes.
+<buranus10-eps-converted-to.pdf, id=10, 19.07124pt x 15.05624pt>
+File: buranus10-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus10-eps-converted-to.pdf>
+Package luatex.def Info: buranus10-eps-converted-to.pdf  used on input line 25.
+
+(luatex.def)             Requested size: 8.39136pt x 6.62476pt.
+Package epstopdf Info: Source file: <buranus11.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1981 bytes
+(epstopdf)             Output file: <buranus11-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus11-eps-converted-to
+.pdf buranus11.eps>
+(epstopdf)             \includegraphics on input line 26.
+system(repstopdf --outfile=buranus11-eps-converted-to.pdf buranus11.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus11-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:02
+(epstopdf)                    size: 2712 bytes.
+<buranus11-eps-converted-to.pdf, id=11, 27.10126pt x 15.05624pt>
+File: buranus11-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus11-eps-converted-to.pdf>
+Package luatex.def Info: buranus11-eps-converted-to.pdf  used on input line 26.
+
+(luatex.def)             Requested size: 11.92458pt x 6.62476pt.
+Package epstopdf Info: Source file: <buranus12.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1733 bytes
+(epstopdf)             Output file: <buranus12-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus12-eps-converted-to
+.pdf buranus12.eps>
+(epstopdf)             \includegraphics on input line 27.
+system(repstopdf --outfile=buranus12-eps-converted-to.pdf buranus12.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus12-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:02
+(epstopdf)                    size: 2653 bytes.
+<buranus12-eps-converted-to.pdf, id=12, 22.0825pt x 18.0675pt>
+File: buranus12-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus12-eps-converted-to.pdf>
+Package luatex.def Info: buranus12-eps-converted-to.pdf  used on input line 27.
+
+(luatex.def)             Requested size: 9.71631pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus13.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1865 bytes
+(epstopdf)             Output file: <buranus13-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus13-eps-converted-to
+.pdf buranus13.eps>
+(epstopdf)             \includegraphics on input line 28.
+system(repstopdf --outfile=buranus13-eps-converted-to.pdf buranus13.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus13-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:02
+(epstopdf)                    size: 2675 bytes.
+<buranus13-eps-converted-to.pdf, id=13, 23.08624pt x 18.0675pt>
+File: buranus13-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus13-eps-converted-to.pdf>
+Package luatex.def Info: buranus13-eps-converted-to.pdf  used on input line 28.
+
+(luatex.def)             Requested size: 10.15796pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus14.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2151 bytes
+(epstopdf)             Output file: <buranus14-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus14-eps-converted-to
+.pdf buranus14.eps>
+(epstopdf)             \includegraphics on input line 29.
+system(repstopdf --outfile=buranus14-eps-converted-to.pdf buranus14.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus14-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:02
+(epstopdf)                    size: 2745 bytes.
+<buranus14-eps-converted-to.pdf, id=14, 30.1125pt x 18.0675pt>
+File: buranus14-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus14-eps-converted-to.pdf>
+Package luatex.def Info: buranus14-eps-converted-to.pdf  used on input line 29.
+
+(luatex.def)             Requested size: 13.24953pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus15.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1558 bytes
+(epstopdf)             Output file: <buranus15-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus15-eps-converted-to
+.pdf buranus15.eps>
+(epstopdf)             \includegraphics on input line 30.
+system(repstopdf --outfile=buranus15-eps-converted-to.pdf buranus15.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus15-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:03
+(epstopdf)                    size: 2613 bytes.
+<buranus15-eps-converted-to.pdf, id=15, 23.08624pt x 16.06pt>
+File: buranus15-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus15-eps-converted-to.pdf>
+Package luatex.def Info: buranus15-eps-converted-to.pdf  used on input line 30.
+
+(luatex.def)             Requested size: 10.15796pt x 7.0664pt.
+Package epstopdf Info: Source file: <buranus16.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1721 bytes
+(epstopdf)             Output file: <buranus16-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus16-eps-converted-to
+.pdf buranus16.eps>
+(epstopdf)             \includegraphics on input line 31.
+system(repstopdf --outfile=buranus16-eps-converted-to.pdf buranus16.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus16-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:03
+(epstopdf)                    size: 2644 bytes.
+<buranus16-eps-converted-to.pdf, id=16, 26.0975pt x 17.06375pt>
+File: buranus16-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus16-eps-converted-to.pdf>
+Package luatex.def Info: buranus16-eps-converted-to.pdf  used on input line 31.
+
+(luatex.def)             Requested size: 11.48293pt x 7.50806pt.
+Package epstopdf Info: Source file: <buranus17.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1683 bytes
+(epstopdf)             Output file: <buranus17-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus17-eps-converted-to
+.pdf buranus17.eps>
+(epstopdf)             \includegraphics on input line 32.
+system(repstopdf --outfile=buranus17-eps-converted-to.pdf buranus17.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus17-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:03
+(epstopdf)                    size: 2599 bytes.
+<buranus17-eps-converted-to.pdf, id=17, 21.07875pt x 18.0675pt>
+File: buranus17-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus17-eps-converted-to.pdf>
+Package luatex.def Info: buranus17-eps-converted-to.pdf  used on input line 32.
+
+(luatex.def)             Requested size: 9.27466pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus18.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1714 bytes
+(epstopdf)             Output file: <buranus18-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus18-eps-converted-to
+.pdf buranus18.eps>
+(epstopdf)             \includegraphics on input line 33.
+system(repstopdf --outfile=buranus18-eps-converted-to.pdf buranus18.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus18-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:04
+(epstopdf)                    size: 2611 bytes.
+<buranus18-eps-converted-to.pdf, id=18, 26.0975pt x 15.05624pt>
+File: buranus18-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus18-eps-converted-to.pdf>
+Package luatex.def Info: buranus18-eps-converted-to.pdf  used on input line 33.
+
+(luatex.def)             Requested size: 11.48293pt x 6.62476pt.
+Package epstopdf Info: Source file: <buranus19.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1847 bytes
+(epstopdf)             Output file: <buranus19-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus19-eps-converted-to
+.pdf buranus19.eps>
+(epstopdf)             \includegraphics on input line 34.
+system(repstopdf --outfile=buranus19-eps-converted-to.pdf buranus19.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus19-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:04
+(epstopdf)                    size: 2639 bytes.
+<buranus19-eps-converted-to.pdf, id=19, 27.10126pt x 18.0675pt>
+File: buranus19-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus19-eps-converted-to.pdf>
+Package luatex.def Info: buranus19-eps-converted-to.pdf  used on input line 34.
+
+(luatex.def)             Requested size: 11.92458pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus20.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1999 bytes
+(epstopdf)             Output file: <buranus20-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus20-eps-converted-to
+.pdf buranus20.eps>
+(epstopdf)             \includegraphics on input line 35.
+system(repstopdf --outfile=buranus20-eps-converted-to.pdf buranus20.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus20-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:04
+(epstopdf)                    size: 2678 bytes.
+<buranus20-eps-converted-to.pdf, id=20, 33.12375pt x 15.05624pt>
+File: buranus20-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus20-eps-converted-to.pdf>
+Package luatex.def Info: buranus20-eps-converted-to.pdf  used on input line 35.
+
+(luatex.def)             Requested size: 14.57448pt x 6.62476pt.
+Package epstopdf Info: Source file: <buranus21.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1874 bytes
+(epstopdf)             Output file: <buranus21-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus21-eps-converted-to
+.pdf buranus21.eps>
+(epstopdf)             \includegraphics on input line 36.
+system(repstopdf --outfile=buranus21-eps-converted-to.pdf buranus21.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus21-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:05
+(epstopdf)                    size: 2648 bytes.
+<buranus21-eps-converted-to.pdf, id=21, 29.10875pt x 15.05624pt>
+File: buranus21-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus21-eps-converted-to.pdf>
+Package luatex.def Info: buranus21-eps-converted-to.pdf  used on input line 36.
+
+(luatex.def)             Requested size: 12.80788pt x 6.62476pt.
+Package epstopdf Info: Source file: <buranus22.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2057 bytes
+(epstopdf)             Output file: <buranus22-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus22-eps-converted-to
+.pdf buranus22.eps>
+(epstopdf)             \includegraphics on input line 37.
+system(repstopdf --outfile=buranus22-eps-converted-to.pdf buranus22.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus22-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:05
+(epstopdf)                    size: 2717 bytes.
+<buranus22-eps-converted-to.pdf, id=22, 37.13875pt x 15.05624pt>
+File: buranus22-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus22-eps-converted-to.pdf>
+Package luatex.def Info: buranus22-eps-converted-to.pdf  used on input line 37.
+
+(luatex.def)             Requested size: 16.3411pt x 6.62476pt.
+Package epstopdf Info: Source file: <buranus23.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2009 bytes
+(epstopdf)             Output file: <buranus23-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus23-eps-converted-to
+.pdf buranus23.eps>
+(epstopdf)             \includegraphics on input line 38.
+system(repstopdf --outfile=buranus23-eps-converted-to.pdf buranus23.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus23-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:05
+(epstopdf)                    size: 2675 bytes.
+<buranus23-eps-converted-to.pdf, id=23, 30.1125pt x 18.0675pt>
+File: buranus23-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus23-eps-converted-to.pdf>
+Package luatex.def Info: buranus23-eps-converted-to.pdf  used on input line 38.
+
+(luatex.def)             Requested size: 13.24953pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus24.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2044 bytes
+(epstopdf)             Output file: <buranus24-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus24-eps-converted-to
+.pdf buranus24.eps>
+(epstopdf)             \includegraphics on input line 39.
+system(repstopdf --outfile=buranus24-eps-converted-to.pdf buranus24.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus24-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:06
+(epstopdf)                    size: 2682 bytes.
+<buranus24-eps-converted-to.pdf, id=24, 32.12pt x 15.05624pt>
+File: buranus24-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus24-eps-converted-to.pdf>
+Package luatex.def Info: buranus24-eps-converted-to.pdf  used on input line 39.
+
+(luatex.def)             Requested size: 14.13283pt x 6.62476pt.
+Package epstopdf Info: Source file: <buranus25.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1358 bytes
+(epstopdf)             Output file: <buranus25-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus25-eps-converted-to
+.pdf buranus25.eps>
+(epstopdf)             \includegraphics on input line 40.
+system(repstopdf --outfile=buranus25-eps-converted-to.pdf buranus25.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus25-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:06
+(epstopdf)                    size: 2514 bytes.
+<buranus25-eps-converted-to.pdf, id=25, 13.04875pt x 14.0525pt>
+File: buranus25-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus25-eps-converted-to.pdf>
+Package luatex.def Info: buranus25-eps-converted-to.pdf  used on input line 40.
+
+(luatex.def)             Requested size: 5.74146pt x 6.1831pt.
+Package epstopdf Info: Source file: <buranus26.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1523 bytes
+(epstopdf)             Output file: <buranus26-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus26-eps-converted-to
+.pdf buranus26.eps>
+(epstopdf)             \includegraphics on input line 41.
+system(repstopdf --outfile=buranus26-eps-converted-to.pdf buranus26.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus26-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:06
+(epstopdf)                    size: 2591 bytes.
+<buranus26-eps-converted-to.pdf, id=26, 19.07124pt x 16.06pt>
+File: buranus26-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus26-eps-converted-to.pdf>
+Package luatex.def Info: buranus26-eps-converted-to.pdf  used on input line 41.
+
+(luatex.def)             Requested size: 8.39136pt x 7.0664pt.
+Package epstopdf Info: Source file: <buranus27.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2062 bytes
+(epstopdf)             Output file: <buranus27-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus27-eps-converted-to
+.pdf buranus27.eps>
+(epstopdf)             \includegraphics on input line 42.
+system(repstopdf --outfile=buranus27-eps-converted-to.pdf buranus27.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus27-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:06
+(epstopdf)                    size: 2707 bytes.
+<buranus27-eps-converted-to.pdf, id=27, 33.12375pt x 18.0675pt>
+File: buranus27-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus27-eps-converted-to.pdf>
+Package luatex.def Info: buranus27-eps-converted-to.pdf  used on input line 42.
+
+(luatex.def)             Requested size: 14.57448pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus28.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1276 bytes
+(epstopdf)             Output file: <buranus28-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus28-eps-converted-to
+.pdf buranus28.eps>
+(epstopdf)             \includegraphics on input line 43.
+system(repstopdf --outfile=buranus28-eps-converted-to.pdf buranus28.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus28-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:07
+(epstopdf)                    size: 2528 bytes.
+<buranus28-eps-converted-to.pdf, id=28, 11.04124pt x 8.03pt>
+File: buranus28-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus28-eps-converted-to.pdf>
+Package luatex.def Info: buranus28-eps-converted-to.pdf  used on input line 43.
+
+(luatex.def)             Requested size: 4.85815pt x 3.5332pt.
+Package epstopdf Info: Source file: <buranus29.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1489 bytes
+(epstopdf)             Output file: <buranus29-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus29-eps-converted-to
+.pdf buranus29.eps>
+(epstopdf)             \includegraphics on input line 44.
+system(repstopdf --outfile=buranus29-eps-converted-to.pdf buranus29.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus29-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:07
+(epstopdf)                    size: 2590 bytes.
+<buranus29-eps-converted-to.pdf, id=29, 17.06375pt x 8.03pt>
+File: buranus29-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus29-eps-converted-to.pdf>
+Package luatex.def Info: buranus29-eps-converted-to.pdf  used on input line 44.
+
+(luatex.def)             Requested size: 7.50806pt x 3.5332pt.
+Package epstopdf Info: Source file: <buranus30.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1405 bytes
+(epstopdf)             Output file: <buranus30-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus30-eps-converted-to
+.pdf buranus30.eps>
+(epstopdf)             \includegraphics on input line 45.
+system(repstopdf --outfile=buranus30-eps-converted-to.pdf buranus30.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus30-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:07
+(epstopdf)                    size: 2588 bytes.
+<buranus30-eps-converted-to.pdf, id=30, 17.06375pt x 17.06375pt>
+File: buranus30-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus30-eps-converted-to.pdf>
+Package luatex.def Info: buranus30-eps-converted-to.pdf  used on input line 45.
+
+(luatex.def)             Requested size: 7.50806pt x 7.50806pt.
+Package epstopdf Info: Source file: <buranus31.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1590 bytes
+(epstopdf)             Output file: <buranus31-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus31-eps-converted-to
+.pdf buranus31.eps>
+(epstopdf)             \includegraphics on input line 46.
+system(repstopdf --outfile=buranus31-eps-converted-to.pdf buranus31.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus31-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:08
+(epstopdf)                    size: 2657 bytes.
+<buranus31-eps-converted-to.pdf, id=31, 23.08624pt x 19.07124pt>
+File: buranus31-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus31-eps-converted-to.pdf>
+Package luatex.def Info: buranus31-eps-converted-to.pdf  used on input line 46.
+
+(luatex.def)             Requested size: 10.15796pt x 8.39136pt.
+Package epstopdf Info: Source file: <buranus32.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1776 bytes
+(epstopdf)             Output file: <buranus32-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus32-eps-converted-to
+.pdf buranus32.eps>
+(epstopdf)             \includegraphics on input line 47.
+system(repstopdf --outfile=buranus32-eps-converted-to.pdf buranus32.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus32-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:08
+(epstopdf)                    size: 2689 bytes.
+<buranus32-eps-converted-to.pdf, id=32, 24.09pt x 18.0675pt>
+File: buranus32-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus32-eps-converted-to.pdf>
+Package luatex.def Info: buranus32-eps-converted-to.pdf  used on input line 47.
+
+(luatex.def)             Requested size: 10.59961pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus33.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1908 bytes
+(epstopdf)             Output file: <buranus33-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus33-eps-converted-to
+.pdf buranus33.eps>
+(epstopdf)             \includegraphics on input line 48.
+system(repstopdf --outfile=buranus33-eps-converted-to.pdf buranus33.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus33-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:08
+(epstopdf)                    size: 2711 bytes.
+<buranus33-eps-converted-to.pdf, id=33, 25.09375pt x 21.07875pt>
+File: buranus33-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus33-eps-converted-to.pdf>
+Package luatex.def Info: buranus33-eps-converted-to.pdf  used on input line 48.
+
+(luatex.def)             Requested size: 11.04128pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus34.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2065 bytes
+(epstopdf)             Output file: <buranus34-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus34-eps-converted-to
+.pdf buranus34.eps>
+(epstopdf)             \includegraphics on input line 49.
+system(repstopdf --outfile=buranus34-eps-converted-to.pdf buranus34.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus34-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:08
+(epstopdf)                    size: 2760 bytes.
+<buranus34-eps-converted-to.pdf, id=34, 31.11626pt x 18.0675pt>
+File: buranus34-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus34-eps-converted-to.pdf>
+Package luatex.def Info: buranus34-eps-converted-to.pdf  used on input line 49.
+
+(luatex.def)             Requested size: 13.69118pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus35.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1933 bytes
+(epstopdf)             Output file: <buranus35-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus35-eps-converted-to
+.pdf buranus35.eps>
+(epstopdf)             \includegraphics on input line 50.
+system(repstopdf --outfile=buranus35-eps-converted-to.pdf buranus35.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus35-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:09
+(epstopdf)                    size: 2719 bytes.
+<buranus35-eps-converted-to.pdf, id=35, 27.10126pt x 18.0675pt>
+File: buranus35-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus35-eps-converted-to.pdf>
+Package luatex.def Info: buranus35-eps-converted-to.pdf  used on input line 50.
+
+(luatex.def)             Requested size: 11.92458pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus36.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2063 bytes
+(epstopdf)             Output file: <buranus36-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus36-eps-converted-to
+.pdf buranus36.eps>
+(epstopdf)             \includegraphics on input line 51.
+system(repstopdf --outfile=buranus36-eps-converted-to.pdf buranus36.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus36-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:09
+(epstopdf)                    size: 2746 bytes.
+<buranus36-eps-converted-to.pdf, id=36, 28.105pt x 21.07875pt>
+File: buranus36-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus36-eps-converted-to.pdf>
+Package luatex.def Info: buranus36-eps-converted-to.pdf  used on input line 51.
+
+(luatex.def)             Requested size: 12.36623pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus37.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2225 bytes
+(epstopdf)             Output file: <buranus37-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus37-eps-converted-to
+.pdf buranus37.eps>
+(epstopdf)             \includegraphics on input line 52.
+system(repstopdf --outfile=buranus37-eps-converted-to.pdf buranus37.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus37-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:09
+(epstopdf)                    size: 2786 bytes.
+<buranus37-eps-converted-to.pdf, id=37, 31.11626pt x 21.07875pt>
+File: buranus37-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus37-eps-converted-to.pdf>
+Package luatex.def Info: buranus37-eps-converted-to.pdf  used on input line 52.
+
+(luatex.def)             Requested size: 13.69118pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus38.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2220 bytes
+(epstopdf)             Output file: <buranus38-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus38-eps-converted-to
+.pdf buranus38.eps>
+(epstopdf)             \includegraphics on input line 53.
+system(repstopdf --outfile=buranus38-eps-converted-to.pdf buranus38.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus38-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:10
+(epstopdf)                    size: 2790 bytes.
+<buranus38-eps-converted-to.pdf, id=38, 34.1275pt x 18.0675pt>
+File: buranus38-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus38-eps-converted-to.pdf>
+Package luatex.def Info: buranus38-eps-converted-to.pdf  used on input line 53.
+
+(luatex.def)             Requested size: 15.01613pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus39.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2280 bytes
+(epstopdf)             Output file: <buranus39-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus39-eps-converted-to
+.pdf buranus39.eps>
+(epstopdf)             \includegraphics on input line 54.
+system(repstopdf --outfile=buranus39-eps-converted-to.pdf buranus39.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus39-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:10
+(epstopdf)                    size: 2814 bytes.
+<buranus39-eps-converted-to.pdf, id=39, 34.1275pt x 21.07875pt>
+File: buranus39-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus39-eps-converted-to.pdf>
+Package luatex.def Info: buranus39-eps-converted-to.pdf  used on input line 54.
+
+(luatex.def)             Requested size: 15.01613pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus40.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1618 bytes
+(epstopdf)             Output file: <buranus40-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus40-eps-converted-to
+.pdf buranus40.eps>
+(epstopdf)             \includegraphics on input line 55.
+system(repstopdf --outfile=buranus40-eps-converted-to.pdf buranus40.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus40-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:10
+(epstopdf)                    size: 2650 bytes.
+<buranus40-eps-converted-to.pdf, id=40, 22.0825pt x 18.0675pt>
+File: buranus40-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus40-eps-converted-to.pdf>
+Package luatex.def Info: buranus40-eps-converted-to.pdf  used on input line 55.
+
+(luatex.def)             Requested size: 9.71631pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus41.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1768 bytes
+(epstopdf)             Output file: <buranus41-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus41-eps-converted-to
+.pdf buranus41.eps>
+(epstopdf)             \includegraphics on input line 56.
+system(repstopdf --outfile=buranus41-eps-converted-to.pdf buranus41.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus41-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:11
+(epstopdf)                    size: 2711 bytes.
+<buranus41-eps-converted-to.pdf, id=41, 32.12pt x 20.075pt>
+File: buranus41-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus41-eps-converted-to.pdf>
+Package luatex.def Info: buranus41-eps-converted-to.pdf  used on input line 56.
+
+(luatex.def)             Requested size: 14.13283pt x 8.83301pt.
+Package epstopdf Info: Source file: <buranus42.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1965 bytes
+(epstopdf)             Output file: <buranus42-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus42-eps-converted-to
+.pdf buranus42.eps>
+(epstopdf)             \includegraphics on input line 57.
+system(repstopdf --outfile=buranus42-eps-converted-to.pdf buranus42.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus42-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:11
+(epstopdf)                    size: 2750 bytes.
+<buranus42-eps-converted-to.pdf, id=42, 23.08624pt x 17.06375pt>
+File: buranus42-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus42-eps-converted-to.pdf>
+Package luatex.def Info: buranus42-eps-converted-to.pdf  used on input line 57.
+
+(luatex.def)             Requested size: 10.15796pt x 7.50806pt.
+Package epstopdf Info: Source file: <buranus43.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1367 bytes
+(epstopdf)             Output file: <buranus43-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus43-eps-converted-to
+.pdf buranus43.eps>
+(epstopdf)             \includegraphics on input line 58.
+system(repstopdf --outfile=buranus43-eps-converted-to.pdf buranus43.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus43-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:11
+(epstopdf)                    size: 2532 bytes.
+<buranus43-eps-converted-to.pdf, id=43, 22.0825pt x 16.06pt>
+File: buranus43-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus43-eps-converted-to.pdf>
+Package luatex.def Info: buranus43-eps-converted-to.pdf  used on input line 58.
+
+(luatex.def)             Requested size: 9.71631pt x 7.0664pt.
+Package epstopdf Info: Source file: <buranus44.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1417 bytes
+(epstopdf)             Output file: <buranus44-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus44-eps-converted-to
+.pdf buranus44.eps>
+(epstopdf)             \includegraphics on input line 59.
+system(repstopdf --outfile=buranus44-eps-converted-to.pdf buranus44.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus44-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:11
+(epstopdf)                    size: 2549 bytes.
+<buranus44-eps-converted-to.pdf, id=44, 24.09pt x 17.06375pt>
+File: buranus44-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus44-eps-converted-to.pdf>
+Package luatex.def Info: buranus44-eps-converted-to.pdf  used on input line 59.
+
+(luatex.def)             Requested size: 10.59961pt x 7.50806pt.
+Package epstopdf Info: Source file: <buranus45.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1538 bytes
+(epstopdf)             Output file: <buranus45-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus45-eps-converted-to
+.pdf buranus45.eps>
+(epstopdf)             \includegraphics on input line 60.
+system(repstopdf --outfile=buranus45-eps-converted-to.pdf buranus45.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus45-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:12
+(epstopdf)                    size: 2600 bytes.
+<buranus45-eps-converted-to.pdf, id=45, 24.09pt x 17.06375pt>
+File: buranus45-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus45-eps-converted-to.pdf>
+Package luatex.def Info: buranus45-eps-converted-to.pdf  used on input line 60.
+
+(luatex.def)             Requested size: 10.59961pt x 7.50806pt.
+Package epstopdf Info: Source file: <buranus46.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1539 bytes
+(epstopdf)             Output file: <buranus46-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus46-eps-converted-to
+.pdf buranus46.eps>
+(epstopdf)             \includegraphics on input line 61.
+system(repstopdf --outfile=buranus46-eps-converted-to.pdf buranus46.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus46-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:12
+(epstopdf)                    size: 2566 bytes.
+<buranus46-eps-converted-to.pdf, id=46, 24.09pt x 17.06375pt>
+File: buranus46-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus46-eps-converted-to.pdf>
+Package luatex.def Info: buranus46-eps-converted-to.pdf  used on input line 61.
+
+(luatex.def)             Requested size: 10.59961pt x 7.50806pt.
+Package epstopdf Info: Source file: <buranus47.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1630 bytes
+(epstopdf)             Output file: <buranus47-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus47-eps-converted-to
+.pdf buranus47.eps>
+(epstopdf)             \includegraphics on input line 62.
+system(repstopdf --outfile=buranus47-eps-converted-to.pdf buranus47.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus47-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:12
+(epstopdf)                    size: 2615 bytes.
+<buranus47-eps-converted-to.pdf, id=47, 30.1125pt x 17.06375pt>
+File: buranus47-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus47-eps-converted-to.pdf>
+Package luatex.def Info: buranus47-eps-converted-to.pdf  used on input line 62.
+
+(luatex.def)             Requested size: 13.24953pt x 7.50806pt.
+Package epstopdf Info: Source file: <buranus48.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1817 bytes
+(epstopdf)             Output file: <buranus48-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus48-eps-converted-to
+.pdf buranus48.eps>
+(epstopdf)             \includegraphics on input line 63.
+system(repstopdf --outfile=buranus48-eps-converted-to.pdf buranus48.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus48-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:13
+(epstopdf)                    size: 2650 bytes.
+<buranus48-eps-converted-to.pdf, id=48, 30.1125pt x 27.10126pt>
+File: buranus48-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus48-eps-converted-to.pdf>
+Package luatex.def Info: buranus48-eps-converted-to.pdf  used on input line 63.
+
+(luatex.def)             Requested size: 13.24953pt x 11.92458pt.
+Package epstopdf Info: Source file: <buranus49.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1799 bytes
+(epstopdf)             Output file: <buranus49-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus49-eps-converted-to
+.pdf buranus49.eps>
+(epstopdf)             \includegraphics on input line 64.
+system(repstopdf --outfile=buranus49-eps-converted-to.pdf buranus49.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus49-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:13
+(epstopdf)                    size: 2646 bytes.
+<buranus49-eps-converted-to.pdf, id=49, 28.105pt x 18.0675pt>
+File: buranus49-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus49-eps-converted-to.pdf>
+Package luatex.def Info: buranus49-eps-converted-to.pdf  used on input line 64.
+
+(luatex.def)             Requested size: 12.36623pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus50.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1573 bytes
+(epstopdf)             Output file: <buranus50-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus50-eps-converted-to
+.pdf buranus50.eps>
+(epstopdf)             \includegraphics on input line 65.
+system(repstopdf --outfile=buranus50-eps-converted-to.pdf buranus50.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus50-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:13
+(epstopdf)                    size: 2656 bytes.
+<buranus50-eps-converted-to.pdf, id=50, 28.105pt x 20.075pt>
+File: buranus50-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus50-eps-converted-to.pdf>
+Package luatex.def Info: buranus50-eps-converted-to.pdf  used on input line 65.
+
+(luatex.def)             Requested size: 12.36623pt x 8.83301pt.
+Package epstopdf Info: Source file: <buranus51.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1903 bytes
+(epstopdf)             Output file: <buranus51-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus51-eps-converted-to
+.pdf buranus51.eps>
+(epstopdf)             \includegraphics on input line 66.
+system(repstopdf --outfile=buranus51-eps-converted-to.pdf buranus51.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus51-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:13
+(epstopdf)                    size: 2771 bytes.
+<buranus51-eps-converted-to.pdf, id=51, 28.105pt x 21.07875pt>
+File: buranus51-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus51-eps-converted-to.pdf>
+Package luatex.def Info: buranus51-eps-converted-to.pdf  used on input line 66.
+
+(luatex.def)             Requested size: 12.36623pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus52.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2120 bytes
+(epstopdf)             Output file: <buranus52-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus52-eps-converted-to
+.pdf buranus52.eps>
+(epstopdf)             \includegraphics on input line 67.
+system(repstopdf --outfile=buranus52-eps-converted-to.pdf buranus52.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus52-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:14
+(epstopdf)                    size: 2831 bytes.
+<buranus52-eps-converted-to.pdf, id=52, 28.105pt x 21.07875pt>
+File: buranus52-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus52-eps-converted-to.pdf>
+Package luatex.def Info: buranus52-eps-converted-to.pdf  used on input line 67.
+
+(luatex.def)             Requested size: 12.36623pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus53.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1516 bytes
+(epstopdf)             Output file: <buranus53-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus53-eps-converted-to
+.pdf buranus53.eps>
+(epstopdf)             \includegraphics on input line 68.
+system(repstopdf --outfile=buranus53-eps-converted-to.pdf buranus53.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus53-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:14
+(epstopdf)                    size: 2592 bytes.
+<buranus53-eps-converted-to.pdf, id=53, 28.105pt x 17.06375pt>
+File: buranus53-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus53-eps-converted-to.pdf>
+Package luatex.def Info: buranus53-eps-converted-to.pdf  used on input line 68.
+
+(luatex.def)             Requested size: 12.36623pt x 7.50806pt.
+Package epstopdf Info: Source file: <buranus54.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1667 bytes
+(epstopdf)             Output file: <buranus54-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus54-eps-converted-to
+.pdf buranus54.eps>
+(epstopdf)             \includegraphics on input line 69.
+system(repstopdf --outfile=buranus54-eps-converted-to.pdf buranus54.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus54-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:14
+(epstopdf)                    size: 2674 bytes.
+<buranus54-eps-converted-to.pdf, id=54, 22.0825pt x 17.06375pt>
+File: buranus54-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus54-eps-converted-to.pdf>
+Package luatex.def Info: buranus54-eps-converted-to.pdf  used on input line 69.
+
+(luatex.def)             Requested size: 9.71631pt x 7.50806pt.
+Package epstopdf Info: Source file: <buranus55.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1852 bytes
+(epstopdf)             Output file: <buranus55-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus55-eps-converted-to
+.pdf buranus55.eps>
+(epstopdf)             \includegraphics on input line 70.
+system(repstopdf --outfile=buranus55-eps-converted-to.pdf buranus55.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus55-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:15
+(epstopdf)                    size: 2747 bytes.
+<buranus55-eps-converted-to.pdf, id=55, 28.105pt x 19.07124pt>
+File: buranus55-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus55-eps-converted-to.pdf>
+Package luatex.def Info: buranus55-eps-converted-to.pdf  used on input line 70.
+
+(luatex.def)             Requested size: 12.36623pt x 8.39136pt.
+Package epstopdf Info: Source file: <buranus56.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1835 bytes
+(epstopdf)             Output file: <buranus56-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus56-eps-converted-to
+.pdf buranus56.eps>
+(epstopdf)             \includegraphics on input line 71.
+system(repstopdf --outfile=buranus56-eps-converted-to.pdf buranus56.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus56-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:15
+(epstopdf)                    size: 2743 bytes.
+<buranus56-eps-converted-to.pdf, id=56, 33.12375pt x 20.075pt>
+File: buranus56-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus56-eps-converted-to.pdf>
+Package luatex.def Info: buranus56-eps-converted-to.pdf  used on input line 71.
+
+(luatex.def)             Requested size: 14.57448pt x 8.83301pt.
+Package epstopdf Info: Source file: <buranus57.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2053 bytes
+(epstopdf)             Output file: <buranus57-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus57-eps-converted-to
+.pdf buranus57.eps>
+(epstopdf)             \includegraphics on input line 72.
+system(repstopdf --outfile=buranus57-eps-converted-to.pdf buranus57.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus57-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:15
+(epstopdf)                    size: 2805 bytes.
+<buranus57-eps-converted-to.pdf, id=57, 33.12375pt x 20.075pt>
+File: buranus57-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus57-eps-converted-to.pdf>
+Package luatex.def Info: buranus57-eps-converted-to.pdf  used on input line 72.
+
+(luatex.def)             Requested size: 14.57448pt x 8.83301pt.
+Package epstopdf Info: Source file: <buranus58.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2206 bytes
+(epstopdf)             Output file: <buranus58-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus58-eps-converted-to
+.pdf buranus58.eps>
+(epstopdf)             \includegraphics on input line 73.
+system(repstopdf --outfile=buranus58-eps-converted-to.pdf buranus58.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus58-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:16
+(epstopdf)                    size: 2843 bytes.
+<buranus58-eps-converted-to.pdf, id=58, 33.12375pt x 21.07875pt>
+File: buranus58-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus58-eps-converted-to.pdf>
+Package luatex.def Info: buranus58-eps-converted-to.pdf  used on input line 73.
+
+(luatex.def)             Requested size: 14.57448pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus59.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2499 bytes
+(epstopdf)             Output file: <buranus59-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus59-eps-converted-to
+.pdf buranus59.eps>
+(epstopdf)             \includegraphics on input line 74.
+system(repstopdf --outfile=buranus59-eps-converted-to.pdf buranus59.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus59-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:16
+(epstopdf)                    size: 2912 bytes.
+<buranus59-eps-converted-to.pdf, id=59, 45.16875pt x 21.07875pt>
+File: buranus59-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus59-eps-converted-to.pdf>
+Package luatex.def Info: buranus59-eps-converted-to.pdf  used on input line 74.
+
+(luatex.def)             Requested size: 19.8743pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus60.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2054 bytes
+(epstopdf)             Output file: <buranus60-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus60-eps-converted-to
+.pdf buranus60.eps>
+(epstopdf)             \includegraphics on input line 75.
+system(repstopdf --outfile=buranus60-eps-converted-to.pdf buranus60.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus60-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:16
+(epstopdf)                    size: 2804 bytes.
+<buranus60-eps-converted-to.pdf, id=60, 39.14626pt x 21.07875pt>
+File: buranus60-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus60-eps-converted-to.pdf>
+Package luatex.def Info: buranus60-eps-converted-to.pdf  used on input line 75.
+
+(luatex.def)             Requested size: 17.2244pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus61.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2052 bytes
+(epstopdf)             Output file: <buranus61-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus61-eps-converted-to
+.pdf buranus61.eps>
+(epstopdf)             \includegraphics on input line 76.
+system(repstopdf --outfile=buranus61-eps-converted-to.pdf buranus61.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus61-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:16
+(epstopdf)                    size: 2808 bytes.
+<buranus61-eps-converted-to.pdf, id=61, 39.14626pt x 20.075pt>
+File: buranus61-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus61-eps-converted-to.pdf>
+Package luatex.def Info: buranus61-eps-converted-to.pdf  used on input line 76.
+
+(luatex.def)             Requested size: 17.2244pt x 8.83301pt.
+Package epstopdf Info: Source file: <buranus62.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2341 bytes
+(epstopdf)             Output file: <buranus62-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus62-eps-converted-to
+.pdf buranus62.eps>
+(epstopdf)             \includegraphics on input line 77.
+system(repstopdf --outfile=buranus62-eps-converted-to.pdf buranus62.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus62-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:17
+(epstopdf)                    size: 2876 bytes.
+<buranus62-eps-converted-to.pdf, id=62, 45.16875pt x 21.07875pt>
+File: buranus62-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus62-eps-converted-to.pdf>
+Package luatex.def Info: buranus62-eps-converted-to.pdf  used on input line 77.
+
+(luatex.def)             Requested size: 19.8743pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus63.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2030 bytes
+(epstopdf)             Output file: <buranus63-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus63-eps-converted-to
+.pdf buranus63.eps>
+(epstopdf)             \includegraphics on input line 78.
+system(repstopdf --outfile=buranus63-eps-converted-to.pdf buranus63.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus63-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:17
+(epstopdf)                    size: 2790 bytes.
+<buranus63-eps-converted-to.pdf, id=63, 37.13875pt x 20.075pt>
+File: buranus63-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus63-eps-converted-to.pdf>
+Package luatex.def Info: buranus63-eps-converted-to.pdf  used on input line 78.
+
+(luatex.def)             Requested size: 16.3411pt x 8.83301pt.
+Package epstopdf Info: Source file: <buranus64.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2396 bytes
+(epstopdf)             Output file: <buranus64-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus64-eps-converted-to
+.pdf buranus64.eps>
+(epstopdf)             \includegraphics on input line 79.
+system(repstopdf --outfile=buranus64-eps-converted-to.pdf buranus64.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus64-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:17
+(epstopdf)                    size: 2890 bytes.
+<buranus64-eps-converted-to.pdf, id=64, 39.14626pt x 21.07875pt>
+File: buranus64-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus64-eps-converted-to.pdf>
+Package luatex.def Info: buranus64-eps-converted-to.pdf  used on input line 79.
+
+(luatex.def)             Requested size: 17.2244pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus65.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2009 bytes
+(epstopdf)             Output file: <buranus65-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus65-eps-converted-to
+.pdf buranus65.eps>
+(epstopdf)             \includegraphics on input line 80.
+system(repstopdf --outfile=buranus65-eps-converted-to.pdf buranus65.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus65-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:18
+(epstopdf)                    size: 2780 bytes.
+<buranus65-eps-converted-to.pdf, id=65, 28.105pt x 17.06375pt>
+File: buranus65-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus65-eps-converted-to.pdf>
+Package luatex.def Info: buranus65-eps-converted-to.pdf  used on input line 80.
+
+(luatex.def)             Requested size: 12.36623pt x 7.50806pt.
+Package epstopdf Info: Source file: <buranus66.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2226 bytes
+(epstopdf)             Output file: <buranus66-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus66-eps-converted-to
+.pdf buranus66.eps>
+(epstopdf)             \includegraphics on input line 81.
+system(repstopdf --outfile=buranus66-eps-converted-to.pdf buranus66.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus66-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:18
+(epstopdf)                    size: 2844 bytes.
+<buranus66-eps-converted-to.pdf, id=66, 28.105pt x 17.06375pt>
+File: buranus66-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus66-eps-converted-to.pdf>
+Package luatex.def Info: buranus66-eps-converted-to.pdf  used on input line 81.
+
+(luatex.def)             Requested size: 12.36623pt x 7.50806pt.
+Package epstopdf Info: Source file: <buranus67.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1886 bytes
+(epstopdf)             Output file: <buranus67-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus67-eps-converted-to
+.pdf buranus67.eps>
+(epstopdf)             \includegraphics on input line 82.
+system(repstopdf --outfile=buranus67-eps-converted-to.pdf buranus67.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus67-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:18
+(epstopdf)                    size: 2733 bytes.
+<buranus67-eps-converted-to.pdf, id=67, 28.105pt x 18.0675pt>
+File: buranus67-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus67-eps-converted-to.pdf>
+Package luatex.def Info: buranus67-eps-converted-to.pdf  used on input line 82.
+
+(luatex.def)             Requested size: 12.36623pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus68.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2038 bytes
+(epstopdf)             Output file: <buranus68-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus68-eps-converted-to
+.pdf buranus68.eps>
+(epstopdf)             \includegraphics on input line 83.
+system(repstopdf --outfile=buranus68-eps-converted-to.pdf buranus68.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus68-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:19
+(epstopdf)                    size: 2776 bytes.
+<buranus68-eps-converted-to.pdf, id=68, 29.10875pt x 18.0675pt>
+File: buranus68-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus68-eps-converted-to.pdf>
+Package luatex.def Info: buranus68-eps-converted-to.pdf  used on input line 83.
+
+(luatex.def)             Requested size: 12.80788pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus69.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2197 bytes
+(epstopdf)             Output file: <buranus69-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus69-eps-converted-to
+.pdf buranus69.eps>
+(epstopdf)             \includegraphics on input line 84.
+system(repstopdf --outfile=buranus69-eps-converted-to.pdf buranus69.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus69-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:19
+(epstopdf)                    size: 2805 bytes.
+<buranus69-eps-converted-to.pdf, id=69, 35.13126pt x 18.0675pt>
+File: buranus69-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus69-eps-converted-to.pdf>
+Package luatex.def Info: buranus69-eps-converted-to.pdf  used on input line 84.
+
+(luatex.def)             Requested size: 15.45778pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus70.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2170 bytes
+(epstopdf)             Output file: <buranus70-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus70-eps-converted-to
+.pdf buranus70.eps>
+(epstopdf)             \includegraphics on input line 85.
+system(repstopdf --outfile=buranus70-eps-converted-to.pdf buranus70.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus70-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:19
+(epstopdf)                    size: 2793 bytes.
+<buranus70-eps-converted-to.pdf, id=70, 30.1125pt x 21.07875pt>
+File: buranus70-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus70-eps-converted-to.pdf>
+Package luatex.def Info: buranus70-eps-converted-to.pdf  used on input line 85.
+
+(luatex.def)             Requested size: 13.24953pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus71.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2329 bytes
+(epstopdf)             Output file: <buranus71-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus71-eps-converted-to
+.pdf buranus71.eps>
+(epstopdf)             \includegraphics on input line 86.
+system(repstopdf --outfile=buranus71-eps-converted-to.pdf buranus71.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus71-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:19
+(epstopdf)                    size: 2837 bytes.
+<buranus71-eps-converted-to.pdf, id=71, 36.135pt x 21.07875pt>
+File: buranus71-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus71-eps-converted-to.pdf>
+Package luatex.def Info: buranus71-eps-converted-to.pdf  used on input line 86.
+
+(luatex.def)             Requested size: 15.89943pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus72.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2327 bytes
+(epstopdf)             Output file: <buranus72-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus72-eps-converted-to
+.pdf buranus72.eps>
+(epstopdf)             \includegraphics on input line 87.
+system(repstopdf --outfile=buranus72-eps-converted-to.pdf buranus72.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus72-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:20
+(epstopdf)                    size: 2840 bytes.
+<buranus72-eps-converted-to.pdf, id=72, 36.135pt x 18.0675pt>
+File: buranus72-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus72-eps-converted-to.pdf>
+Package luatex.def Info: buranus72-eps-converted-to.pdf  used on input line 87.
+
+(luatex.def)             Requested size: 15.89943pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus73.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2486 bytes
+(epstopdf)             Output file: <buranus73-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus73-eps-converted-to
+.pdf buranus73.eps>
+(epstopdf)             \includegraphics on input line 88.
+system(repstopdf --outfile=buranus73-eps-converted-to.pdf buranus73.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus73-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:20
+(epstopdf)                    size: 2874 bytes.
+<buranus73-eps-converted-to.pdf, id=73, 42.1575pt x 18.0675pt>
+File: buranus73-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus73-eps-converted-to.pdf>
+Package luatex.def Info: buranus73-eps-converted-to.pdf  used on input line 88.
+
+(luatex.def)             Requested size: 18.54935pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus74.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2195 bytes
+(epstopdf)             Output file: <buranus74-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus74-eps-converted-to
+.pdf buranus74.eps>
+(epstopdf)             \includegraphics on input line 89.
+system(repstopdf --outfile=buranus74-eps-converted-to.pdf buranus74.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus74-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:20
+(epstopdf)                    size: 2804 bytes.
+<buranus74-eps-converted-to.pdf, id=74, 32.12pt x 18.0675pt>
+File: buranus74-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus74-eps-converted-to.pdf>
+Package luatex.def Info: buranus74-eps-converted-to.pdf  used on input line 89.
+
+(luatex.def)             Requested size: 14.13283pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus75.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2325 bytes
+(epstopdf)             Output file: <buranus75-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus75-eps-converted-to
+.pdf buranus75.eps>
+(epstopdf)             \includegraphics on input line 90.
+system(repstopdf --outfile=buranus75-eps-converted-to.pdf buranus75.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus75-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:21
+(epstopdf)                    size: 2834 bytes.
+<buranus75-eps-converted-to.pdf, id=75, 33.12375pt x 21.07875pt>
+File: buranus75-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus75-eps-converted-to.pdf>
+Package luatex.def Info: buranus75-eps-converted-to.pdf  used on input line 90.
+
+(luatex.def)             Requested size: 14.57448pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus76.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2484 bytes
+(epstopdf)             Output file: <buranus76-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus76-eps-converted-to
+.pdf buranus76.eps>
+(epstopdf)             \includegraphics on input line 91.
+system(repstopdf --outfile=buranus76-eps-converted-to.pdf buranus76.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus76-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:21
+(epstopdf)                    size: 2872 bytes.
+<buranus76-eps-converted-to.pdf, id=76, 39.14626pt x 21.07875pt>
+File: buranus76-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus76-eps-converted-to.pdf>
+Package luatex.def Info: buranus76-eps-converted-to.pdf  used on input line 91.
+
+(luatex.def)             Requested size: 17.2244pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus77.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2487 bytes
+(epstopdf)             Output file: <buranus77-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus77-eps-converted-to
+.pdf buranus77.eps>
+(epstopdf)             \includegraphics on input line 92.
+system(repstopdf --outfile=buranus77-eps-converted-to.pdf buranus77.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus77-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:21
+(epstopdf)                    size: 2871 bytes.
+<buranus77-eps-converted-to.pdf, id=77, 36.135pt x 21.07875pt>
+File: buranus77-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus77-eps-converted-to.pdf>
+Package luatex.def Info: buranus77-eps-converted-to.pdf  used on input line 92.
+
+(luatex.def)             Requested size: 15.89943pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus78.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2256 bytes
+(epstopdf)             Output file: <buranus78-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus78-eps-converted-to
+.pdf buranus78.eps>
+(epstopdf)             \includegraphics on input line 93.
+system(repstopdf --outfile=buranus78-eps-converted-to.pdf buranus78.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus78-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:21
+(epstopdf)                    size: 2826 bytes.
+<buranus78-eps-converted-to.pdf, id=78, 32.12pt x 20.075pt>
+File: buranus78-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus78-eps-converted-to.pdf>
+Package luatex.def Info: buranus78-eps-converted-to.pdf  used on input line 93.
+
+(luatex.def)             Requested size: 14.13283pt x 8.83301pt.
+Package epstopdf Info: Source file: <buranus79.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1944 bytes
+(epstopdf)             Output file: <buranus79-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus79-eps-converted-to
+.pdf buranus79.eps>
+(epstopdf)             \includegraphics on input line 94.
+system(repstopdf --outfile=buranus79-eps-converted-to.pdf buranus79.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus79-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:22
+(epstopdf)                    size: 2755 bytes.
+<buranus79-eps-converted-to.pdf, id=79, 28.105pt x 17.06375pt>
+File: buranus79-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus79-eps-converted-to.pdf>
+Package luatex.def Info: buranus79-eps-converted-to.pdf  used on input line 94.
+
+(luatex.def)             Requested size: 12.36623pt x 7.50806pt.
+Package epstopdf Info: Source file: <buranus80.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2129 bytes
+(epstopdf)             Output file: <buranus80-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus80-eps-converted-to
+.pdf buranus80.eps>
+(epstopdf)             \includegraphics on input line 95.
+system(repstopdf --outfile=buranus80-eps-converted-to.pdf buranus80.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus80-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:22
+(epstopdf)                    size: 2826 bytes.
+<buranus80-eps-converted-to.pdf, id=80, 34.1275pt x 19.07124pt>
+File: buranus80-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus80-eps-converted-to.pdf>
+Package luatex.def Info: buranus80-eps-converted-to.pdf  used on input line 95.
+
+(luatex.def)             Requested size: 15.01613pt x 8.39136pt.
+Package epstopdf Info: Source file: <buranus81.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2164 bytes
+(epstopdf)             Output file: <buranus81-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus81-eps-converted-to
+.pdf buranus81.eps>
+(epstopdf)             \includegraphics on input line 96.
+system(repstopdf --outfile=buranus81-eps-converted-to.pdf buranus81.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus81-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:22
+(epstopdf)                    size: 2813 bytes.
+<buranus81-eps-converted-to.pdf, id=81, 37.13875pt x 19.07124pt>
+File: buranus81-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus81-eps-converted-to.pdf>
+Package luatex.def Info: buranus81-eps-converted-to.pdf  used on input line 96.
+
+(luatex.def)             Requested size: 16.3411pt x 8.39136pt.
+Package epstopdf Info: Source file: <buranus82.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2112 bytes
+(epstopdf)             Output file: <buranus82-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus82-eps-converted-to
+.pdf buranus82.eps>
+(epstopdf)             \includegraphics on input line 97.
+system(repstopdf --outfile=buranus82-eps-converted-to.pdf buranus82.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus82-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:23
+(epstopdf)                    size: 2821 bytes.
+<buranus82-eps-converted-to.pdf, id=82, 39.14626pt x 20.075pt>
+File: buranus82-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus82-eps-converted-to.pdf>
+Package luatex.def Info: buranus82-eps-converted-to.pdf  used on input line 97.
+
+(luatex.def)             Requested size: 17.2244pt x 8.83301pt.
+Package epstopdf Info: Source file: <buranus83.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2328 bytes
+(epstopdf)             Output file: <buranus83-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus83-eps-converted-to
+.pdf buranus83.eps>
+(epstopdf)             \includegraphics on input line 98.
+system(repstopdf --outfile=buranus83-eps-converted-to.pdf buranus83.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus83-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:23
+(epstopdf)                    size: 2887 bytes.
+<buranus83-eps-converted-to.pdf, id=83, 45.16875pt x 21.07875pt>
+File: buranus83-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus83-eps-converted-to.pdf>
+Package luatex.def Info: buranus83-eps-converted-to.pdf  used on input line 98.
+
+(luatex.def)             Requested size: 19.8743pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus84.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2384 bytes
+(epstopdf)             Output file: <buranus84-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus84-eps-converted-to
+.pdf buranus84.eps>
+(epstopdf)             \includegraphics on input line 99.
+system(repstopdf --outfile=buranus84-eps-converted-to.pdf buranus84.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus84-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:23
+(epstopdf)                    size: 2910 bytes.
+<buranus84-eps-converted-to.pdf, id=84, 39.14626pt x 20.075pt>
+File: buranus84-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus84-eps-converted-to.pdf>
+Package luatex.def Info: buranus84-eps-converted-to.pdf  used on input line 99.
+
+(luatex.def)             Requested size: 17.2244pt x 8.83301pt.
+Package epstopdf Info: Source file: <buranus85.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2325 bytes
+(epstopdf)             Output file: <buranus85-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus85-eps-converted-to
+.pdf buranus85.eps>
+(epstopdf)             \includegraphics on input line 100.
+system(repstopdf --outfile=buranus85-eps-converted-to.pdf buranus85.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus85-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:24
+(epstopdf)                    size: 2891 bytes.
+<buranus85-eps-converted-to.pdf, id=85, 39.14626pt x 21.07875pt>
+File: buranus85-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus85-eps-converted-to.pdf>
+Package luatex.def Info: buranus85-eps-converted-to.pdf  used on input line 100
+.
+(luatex.def)             Requested size: 17.2244pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus86.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2329 bytes
+(epstopdf)             Output file: <buranus86-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus86-eps-converted-to
+.pdf buranus86.eps>
+(epstopdf)             \includegraphics on input line 101.
+system(repstopdf --outfile=buranus86-eps-converted-to.pdf buranus86.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus86-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:24
+(epstopdf)                    size: 2888 bytes.
+<buranus86-eps-converted-to.pdf, id=86, 45.16875pt x 20.075pt>
+File: buranus86-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus86-eps-converted-to.pdf>
+Package luatex.def Info: buranus86-eps-converted-to.pdf  used on input line 101
+.
+(luatex.def)             Requested size: 19.8743pt x 8.83301pt.
+Package epstopdf Info: Source file: <buranus87.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2615 bytes
+(epstopdf)             Output file: <buranus87-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus87-eps-converted-to
+.pdf buranus87.eps>
+(epstopdf)             \includegraphics on input line 102.
+system(repstopdf --outfile=buranus87-eps-converted-to.pdf buranus87.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus87-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:24
+(epstopdf)                    size: 2960 bytes.
+<buranus87-eps-converted-to.pdf, id=87, 51.19125pt x 21.07875pt>
+File: buranus87-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus87-eps-converted-to.pdf>
+Package luatex.def Info: buranus87-eps-converted-to.pdf  used on input line 102
+.
+(luatex.def)             Requested size: 22.52422pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus88.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2307 bytes
+(epstopdf)             Output file: <buranus88-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus88-eps-converted-to
+.pdf buranus88.eps>
+(epstopdf)             \includegraphics on input line 103.
+system(repstopdf --outfile=buranus88-eps-converted-to.pdf buranus88.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus88-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:24
+(epstopdf)                    size: 2878 bytes.
+<buranus88-eps-converted-to.pdf, id=88, 43.16125pt x 20.075pt>
+File: buranus88-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus88-eps-converted-to.pdf>
+Package luatex.def Info: buranus88-eps-converted-to.pdf  used on input line 103
+.
+(luatex.def)             Requested size: 18.991pt x 8.83301pt.
+Package epstopdf Info: Source file: <buranus89.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2593 bytes
+(epstopdf)             Output file: <buranus89-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus89-eps-converted-to
+.pdf buranus89.eps>
+(epstopdf)             \includegraphics on input line 104.
+system(repstopdf --outfile=buranus89-eps-converted-to.pdf buranus89.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus89-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:25
+(epstopdf)                    size: 2943 bytes.
+<buranus89-eps-converted-to.pdf, id=89, 49.18375pt x 21.07875pt>
+File: buranus89-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus89-eps-converted-to.pdf>
+Package luatex.def Info: buranus89-eps-converted-to.pdf  used on input line 104
+.
+(luatex.def)             Requested size: 21.6409pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus90.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2286 bytes
+(epstopdf)             Output file: <buranus90-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus90-eps-converted-to
+.pdf buranus90.eps>
+(epstopdf)             \includegraphics on input line 105.
+system(repstopdf --outfile=buranus90-eps-converted-to.pdf buranus90.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus90-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:25
+(epstopdf)                    size: 2861 bytes.
+<buranus90-eps-converted-to.pdf, id=90, 34.1275pt x 17.06375pt>
+File: buranus90-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus90-eps-converted-to.pdf>
+Package luatex.def Info: buranus90-eps-converted-to.pdf  used on input line 105
+.
+(luatex.def)             Requested size: 15.01613pt x 7.50806pt.
+Package epstopdf Info: Source file: <buranus91.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2503 bytes
+(epstopdf)             Output file: <buranus91-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus91-eps-converted-to
+.pdf buranus91.eps>
+(epstopdf)             \includegraphics on input line 106.
+system(repstopdf --outfile=buranus91-eps-converted-to.pdf buranus91.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus91-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:25
+(epstopdf)                    size: 2922 bytes.
+<buranus91-eps-converted-to.pdf, id=91, 34.1275pt x 17.06375pt>
+File: buranus91-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus91-eps-converted-to.pdf>
+Package luatex.def Info: buranus91-eps-converted-to.pdf  used on input line 106
+.
+(luatex.def)             Requested size: 15.01613pt x 7.50806pt.
+Package epstopdf Info: Source file: <buranus92.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2315 bytes
+(epstopdf)             Output file: <buranus92-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus92-eps-converted-to
+.pdf buranus92.eps>
+(epstopdf)             \includegraphics on input line 107.
+system(repstopdf --outfile=buranus92-eps-converted-to.pdf buranus92.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus92-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:26
+(epstopdf)                    size: 2853 bytes.
+<buranus92-eps-converted-to.pdf, id=92, 35.13126pt x 18.0675pt>
+File: buranus92-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus92-eps-converted-to.pdf>
+Package luatex.def Info: buranus92-eps-converted-to.pdf  used on input line 107
+.
+(luatex.def)             Requested size: 15.45778pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus93.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2471 bytes
+(epstopdf)             Output file: <buranus93-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus93-eps-converted-to
+.pdf buranus93.eps>
+(epstopdf)             \includegraphics on input line 108.
+system(repstopdf --outfile=buranus93-eps-converted-to.pdf buranus93.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus93-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:26
+(epstopdf)                    size: 2888 bytes.
+<buranus93-eps-converted-to.pdf, id=93, 41.15375pt x 18.0675pt>
+File: buranus93-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus93-eps-converted-to.pdf>
+Package luatex.def Info: buranus93-eps-converted-to.pdf  used on input line 108
+.
+(luatex.def)             Requested size: 18.1077pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus94.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2447 bytes
+(epstopdf)             Output file: <buranus94-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus94-eps-converted-to
+.pdf buranus94.eps>
+(epstopdf)             \includegraphics on input line 109.
+system(repstopdf --outfile=buranus94-eps-converted-to.pdf buranus94.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus94-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:26
+(epstopdf)                    size: 2883 bytes.
+<buranus94-eps-converted-to.pdf, id=94, 36.135pt x 21.07875pt>
+File: buranus94-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus94-eps-converted-to.pdf>
+Package luatex.def Info: buranus94-eps-converted-to.pdf  used on input line 109
+.
+(luatex.def)             Requested size: 15.89943pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus95.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2472 bytes
+(epstopdf)             Output file: <buranus95-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus95-eps-converted-to
+.pdf buranus95.eps>
+(epstopdf)             \includegraphics on input line 110.
+system(repstopdf --outfile=buranus95-eps-converted-to.pdf buranus95.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus95-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:27
+(epstopdf)                    size: 2889 bytes.
+<buranus95-eps-converted-to.pdf, id=95, 38.1425pt x 18.0675pt>
+File: buranus95-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus95-eps-converted-to.pdf>
+Package luatex.def Info: buranus95-eps-converted-to.pdf  used on input line 110
+.
+(luatex.def)             Requested size: 16.78275pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus96.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2602 bytes
+(epstopdf)             Output file: <buranus96-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus96-eps-converted-to
+.pdf buranus96.eps>
+(epstopdf)             \includegraphics on input line 111.
+system(repstopdf --outfile=buranus96-eps-converted-to.pdf buranus96.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus96-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:27
+(epstopdf)                    size: 2921 bytes.
+<buranus96-eps-converted-to.pdf, id=96, 39.14626pt x 21.07875pt>
+File: buranus96-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus96-eps-converted-to.pdf>
+Package luatex.def Info: buranus96-eps-converted-to.pdf  used on input line 111
+.
+(luatex.def)             Requested size: 17.2244pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus97.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2758 bytes
+(epstopdf)             Output file: <buranus97-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus97-eps-converted-to
+.pdf buranus97.eps>
+(epstopdf)             \includegraphics on input line 112.
+system(repstopdf --outfile=buranus97-eps-converted-to.pdf buranus97.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus97-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:27
+(epstopdf)                    size: 2962 bytes.
+<buranus97-eps-converted-to.pdf, id=97, 45.16875pt x 21.07875pt>
+File: buranus97-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus97-eps-converted-to.pdf>
+Package luatex.def Info: buranus97-eps-converted-to.pdf  used on input line 112
+.
+(luatex.def)             Requested size: 19.8743pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus98.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2604 bytes
+(epstopdf)             Output file: <buranus98-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus98-eps-converted-to
+.pdf buranus98.eps>
+(epstopdf)             \includegraphics on input line 113.
+system(repstopdf --outfile=buranus98-eps-converted-to.pdf buranus98.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus98-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:27
+(epstopdf)                    size: 2923 bytes.
+<buranus98-eps-converted-to.pdf, id=98, 42.1575pt x 18.0675pt>
+File: buranus98-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus98-eps-converted-to.pdf>
+Package luatex.def Info: buranus98-eps-converted-to.pdf  used on input line 113
+.
+(luatex.def)             Requested size: 18.54935pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus99.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2760 bytes
+(epstopdf)             Output file: <buranus99-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus99-eps-converted-to
+.pdf buranus99.eps>
+(epstopdf)             \includegraphics on input line 114.
+system(repstopdf --outfile=buranus99-eps-converted-to.pdf buranus99.eps) execute
+d.
+Package epstopdf Info: Result file: <buranus99-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:28
+(epstopdf)                    size: 2959 bytes.
+<buranus99-eps-converted-to.pdf, id=99, 48.18pt x 18.0675pt>
+File: buranus99-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus99-eps-converted-to.pdf>
+Package luatex.def Info: buranus99-eps-converted-to.pdf  used on input line 114
+.
+(luatex.def)             Requested size: 21.19925pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus100.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2920 bytes
+(epstopdf)             Output file: <buranus100-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus100-eps-converted-t
+o.pdf buranus100.eps>
+(epstopdf)             \includegraphics on input line 115.
+system(repstopdf --outfile=buranus100-eps-converted-to.pdf buranus100.eps) execu
+ted.
+Package epstopdf Info: Result file: <buranus100-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:28
+(epstopdf)                    size: 2998 bytes.
+<buranus100-eps-converted-to.pdf, id=100, 48.18pt x 21.07875pt>
+File: buranus100-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus100-eps-converted-to.pdf>
+Package luatex.def Info: buranus100-eps-converted-to.pdf  used on input line 11
+5.
+(luatex.def)             Requested size: 21.19925pt x 9.27466pt.
+Package epstopdf Info: Source file: <buranus101.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2160 bytes
+(epstopdf)             Output file: <buranus101-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus101-eps-converted-t
+o.pdf buranus101.eps>
+(epstopdf)             \includegraphics on input line 116.
+system(repstopdf --outfile=buranus101-eps-converted-to.pdf buranus101.eps) execu
+ted.
+Package epstopdf Info: Result file: <buranus101-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:28
+(epstopdf)                    size: 2815 bytes.
+<buranus101-eps-converted-to.pdf, id=101, 34.1275pt x 18.0675pt>
+File: buranus101-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus101-eps-converted-to.pdf>
+Package luatex.def Info: buranus101-eps-converted-to.pdf  used on input line 11
+6.
+(luatex.def)             Requested size: 15.01613pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus102.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2223 bytes
+(epstopdf)             Output file: <buranus102-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus102-eps-converted-t
+o.pdf buranus102.eps>
+(epstopdf)             \includegraphics on input line 117.
+system(repstopdf --outfile=buranus102-eps-converted-to.pdf buranus102.eps) execu
+ted.
+Package epstopdf Info: Result file: <buranus102-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:29
+(epstopdf)                    size: 2836 bytes.
+<buranus102-eps-converted-to.pdf, id=102, 34.1275pt x 17.06375pt>
+File: buranus102-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus102-eps-converted-to.pdf>
+Package luatex.def Info: buranus102-eps-converted-to.pdf  used on input line 11
+7.
+(luatex.def)             Requested size: 15.01613pt x 7.50806pt.
+Package epstopdf Info: Source file: <buranus103.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2751 bytes
+(epstopdf)             Output file: <buranus103-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus103-eps-converted-t
+o.pdf buranus103.eps>
+(epstopdf)             \includegraphics on input line 118.
+system(repstopdf --outfile=buranus103-eps-converted-to.pdf buranus103.eps) execu
+ted.
+Package epstopdf Info: Result file: <buranus103-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:29
+(epstopdf)                    size: 2975 bytes.
+<buranus103-eps-converted-to.pdf, id=103, 44.165pt x 18.0675pt>
+File: buranus103-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus103-eps-converted-to.pdf>
+Package luatex.def Info: buranus103-eps-converted-to.pdf  used on input line 11
+8.
+(luatex.def)             Requested size: 19.43265pt x 7.9497pt.
+Package epstopdf Info: Source file: <buranus104.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1550 bytes
+(epstopdf)             Output file: <buranus104-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus104-eps-converted-t
+o.pdf buranus104.eps>
+(epstopdf)             \includegraphics on input line 119.
+system(repstopdf --outfile=buranus104-eps-converted-to.pdf buranus104.eps) execu
+ted.
+Package epstopdf Info: Result file: <buranus104-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:29
+(epstopdf)                    size: 2574 bytes.
+<buranus104-eps-converted-to.pdf, id=104, 20.075pt x 15.05624pt>
+File: buranus104-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus104-eps-converted-to.pdf>
+Package luatex.def Info: buranus104-eps-converted-to.pdf  used on input line 11
+9.
+(luatex.def)             Requested size: 8.83301pt x 6.62476pt.
+Package epstopdf Info: Source file: <buranus105.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1736 bytes
+(epstopdf)             Output file: <buranus105-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus105-eps-converted-t
+o.pdf buranus105.eps>
+(epstopdf)             \includegraphics on input line 120.
+system(repstopdf --outfile=buranus105-eps-converted-to.pdf buranus105.eps) execu
+ted.
+Package epstopdf Info: Result file: <buranus105-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:30
+(epstopdf)                    size: 2611 bytes.
+<buranus105-eps-converted-to.pdf, id=105, 20.075pt x 15.05624pt>
+File: buranus105-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus105-eps-converted-to.pdf>
+Package luatex.def Info: buranus105-eps-converted-to.pdf  used on input line 12
+0.
+(luatex.def)             Requested size: 8.83301pt x 6.62476pt.
+Package epstopdf Info: Source file: <buranus106.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1900 bytes
+(epstopdf)             Output file: <buranus106-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus106-eps-converted-t
+o.pdf buranus106.eps>
+(epstopdf)             \includegraphics on input line 121.
+system(repstopdf --outfile=buranus106-eps-converted-to.pdf buranus106.eps) execu
+ted.
+Package epstopdf Info: Result file: <buranus106-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:30
+(epstopdf)                    size: 2686 bytes.
+<buranus106-eps-converted-to.pdf, id=106, 31.11626pt x 15.05624pt>
+File: buranus106-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus106-eps-converted-to.pdf>
+Package luatex.def Info: buranus106-eps-converted-to.pdf  used on input line 12
+1.
+(luatex.def)             Requested size: 13.69118pt x 6.62476pt.
+Package epstopdf Info: Source file: <buranus107.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1838 bytes
+(epstopdf)             Output file: <buranus107-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus107-eps-converted-t
+o.pdf buranus107.eps>
+(epstopdf)             \includegraphics on input line 122.
+system(repstopdf --outfile=buranus107-eps-converted-to.pdf buranus107.eps) execu
+ted.
+Package epstopdf Info: Result file: <buranus107-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:30
+(epstopdf)                    size: 2643 bytes.
+<buranus107-eps-converted-to.pdf, id=107, 27.10126pt x 15.05624pt>
+File: buranus107-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus107-eps-converted-to.pdf>
+Package luatex.def Info: buranus107-eps-converted-to.pdf  used on input line 12
+2.
+(luatex.def)             Requested size: 11.92458pt x 6.62476pt.
+Package epstopdf Info: Source file: <buranus108.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1891 bytes
+(epstopdf)             Output file: <buranus108-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus108-eps-converted-t
+o.pdf buranus108.eps>
+(epstopdf)             \includegraphics on input line 123.
+system(repstopdf --outfile=buranus108-eps-converted-to.pdf buranus108.eps) execu
+ted.
+Package epstopdf Info: Result file: <buranus108-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:30
+(epstopdf)                    size: 2642 bytes.
+<buranus108-eps-converted-to.pdf, id=108, 26.0975pt x 24.09pt>
+File: buranus108-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus108-eps-converted-to.pdf>
+Package luatex.def Info: buranus108-eps-converted-to.pdf  used on input line 12
+3.
+(luatex.def)             Requested size: 11.48293pt x 10.59961pt.
+Package epstopdf Info: Source file: <buranus109.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 2239 bytes
+(epstopdf)             Output file: <buranus109-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus109-eps-converted-t
+o.pdf buranus109.eps>
+(epstopdf)             \includegraphics on input line 124.
+system(repstopdf --outfile=buranus109-eps-converted-to.pdf buranus109.eps) execu
+ted.
+Package epstopdf Info: Result file: <buranus109-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:31
+(epstopdf)                    size: 2707 bytes.
+<buranus109-eps-converted-to.pdf, id=109, 33.12375pt x 24.09pt>
+File: buranus109-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus109-eps-converted-to.pdf>
+Package luatex.def Info: buranus109-eps-converted-to.pdf  used on input line 12
+4.
+(luatex.def)             Requested size: 14.57448pt x 10.59961pt.
+Package epstopdf Info: Source file: <buranus110.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1572 bytes
+(epstopdf)             Output file: <buranus110-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus110-eps-converted-t
+o.pdf buranus110.eps>
+(epstopdf)             \includegraphics on input line 125.
+system(repstopdf --outfile=buranus110-eps-converted-to.pdf buranus110.eps) execu
+ted.
+Package epstopdf Info: Result file: <buranus110-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:31
+(epstopdf)                    size: 2574 bytes.
+<buranus110-eps-converted-to.pdf, id=110, 19.07124pt x 24.09pt>
+File: buranus110-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus110-eps-converted-to.pdf>
+Package luatex.def Info: buranus110-eps-converted-to.pdf  used on input line 12
+5.
+(luatex.def)             Requested size: 8.39136pt x 10.59961pt.
+Package epstopdf Info: Source file: <buranus111.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1637 bytes
+(epstopdf)             Output file: <buranus111-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus111-eps-converted-t
+o.pdf buranus111.eps>
+(epstopdf)             \includegraphics on input line 126.
+system(repstopdf --outfile=buranus111-eps-converted-to.pdf buranus111.eps) execu
+ted.
+Package epstopdf Info: Result file: <buranus111-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:31
+(epstopdf)                    size: 2598 bytes.
+<buranus111-eps-converted-to.pdf, id=111, 19.07124pt x 24.09pt>
+File: buranus111-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus111-eps-converted-to.pdf>
+Package luatex.def Info: buranus111-eps-converted-to.pdf  used on input line 12
+6.
+(luatex.def)             Requested size: 8.39136pt x 10.59961pt.
+Package epstopdf Info: Source file: <buranus112.eps>
+(epstopdf)                    date: 2025-03-19 14:59:56
+(epstopdf)                    size: 1737 bytes
+(epstopdf)             Output file: <buranus112-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=buranus112-eps-converted-t
+o.pdf buranus112.eps>
+(epstopdf)             \includegraphics on input line 127.
+system(repstopdf --outfile=buranus112-eps-converted-to.pdf buranus112.eps) execu
+ted.
+Package epstopdf Info: Result file: <buranus112-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-19 15:00:32
+(epstopdf)                    size: 2649 bytes.
+<buranus112-eps-converted-to.pdf, id=112, 25.09375pt x 26.0975pt>
+File: buranus112-eps-converted-to.pdf Graphic file (type pdf)
+<use buranus112-eps-converted-to.pdf>
+Package luatex.def Info: buranus112-eps-converted-to.pdf  used on input line 12
+7.
+(luatex.def)             Requested size: 11.04128pt x 11.48293pt.
+
+Overfull \hbox (87.794pt too wide) in alignment at lines 15--127
+ [][][][] 
+ []
+
+[1
+
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./buranus
+1-eps-converted-to.pdf><./buranus2-eps-converted-to.pdf><./buranus3-eps-converte
+d-to.pdf><./buranus4-eps-converted-to.pdf><./buranus5-eps-converted-to.pdf><./bu
+ranus6-eps-converted-to.pdf><./buranus7-eps-converted-to.pdf><./buranus8-eps-con
+verted-to.pdf><./buranus9-eps-converted-to.pdf><./buranus10-eps-converted-to.pdf
+><./buranus11-eps-converted-to.pdf><./buranus12-eps-converted-to.pdf><./buranus1
+3-eps-converted-to.pdf><./buranus14-eps-converted-to.pdf><./buranus15-eps-conver
+ted-to.pdf><./buranus16-eps-converted-to.pdf><./buranus17-eps-converted-to.pdf><
+./buranus18-eps-converted-to.pdf><./buranus19-eps-converted-to.pdf><./buranus20-
+eps-converted-to.pdf><./buranus21-eps-converted-to.pdf><./buranus22-eps-converte
+d-to.pdf><./buranus23-eps-converted-to.pdf><./buranus24-eps-converted-to.pdf><./
+buranus25-eps-converted-to.pdf><./buranus26-eps-converted-to.pdf><./buranus27-ep
+s-converted-to.pdf><./buranus28-eps-converted-to.pdf><./buranus29-eps-converted-
+to.pdf><./buranus30-eps-converted-to.pdf><./buranus31-eps-converted-to.pdf><./bu
+ranus32-eps-converted-to.pdf><./buranus33-eps-converted-to.pdf><./buranus34-eps-
+converted-to.pdf><./buranus35-eps-converted-to.pdf><./buranus36-eps-converted-to
+.pdf><./buranus37-eps-converted-to.pdf><./buranus38-eps-converted-to.pdf><./bura
+nus39-eps-converted-to.pdf><./buranus40-eps-converted-to.pdf>] [2<./buranus41-ep
+s-converted-to.pdf><./buranus42-eps-converted-to.pdf><./buranus43-eps-converted-
+to.pdf><./buranus44-eps-converted-to.pdf><./buranus45-eps-converted-to.pdf><./bu
+ranus46-eps-converted-to.pdf><./buranus47-eps-converted-to.pdf><./buranus48-eps-
+converted-to.pdf><./buranus49-eps-converted-to.pdf><./buranus50-eps-converted-to
+.pdf><./buranus51-eps-converted-to.pdf><./buranus52-eps-converted-to.pdf><./bura
+nus53-eps-converted-to.pdf><./buranus54-eps-converted-to.pdf><./buranus55-eps-co
+nverted-to.pdf><./buranus56-eps-converted-to.pdf><./buranus57-eps-converted-to.p
+df><./buranus58-eps-converted-to.pdf><./buranus59-eps-converted-to.pdf><./buranu
+s60-eps-converted-to.pdf><./buranus61-eps-converted-to.pdf><./buranus62-eps-conv
+erted-to.pdf><./buranus63-eps-converted-to.pdf><./buranus64-eps-converted-to.pdf
+><./buranus65-eps-converted-to.pdf><./buranus66-eps-converted-to.pdf><./buranus6
+7-eps-converted-to.pdf><./buranus68-eps-converted-to.pdf><./buranus69-eps-conver
+ted-to.pdf><./buranus70-eps-converted-to.pdf><./buranus71-eps-converted-to.pdf><
+./buranus72-eps-converted-to.pdf><./buranus73-eps-converted-to.pdf><./buranus74-
+eps-converted-to.pdf><./buranus75-eps-converted-to.pdf><./buranus76-eps-converte
+d-to.pdf><./buranus77-eps-converted-to.pdf><./buranus78-eps-converted-to.pdf><./
+buranus79-eps-converted-to.pdf><./buranus80-eps-converted-to.pdf><./buranus81-ep
+s-converted-to.pdf><./buranus82-eps-converted-to.pdf><./buranus83-eps-converted-
+to.pdf>] [3<./buranus84-eps-converted-to.pdf><./buranus85-eps-converted-to.pdf><
+./buranus86-eps-converted-to.pdf><./buranus87-eps-converted-to.pdf><./buranus88-
+eps-converted-to.pdf><./buranus89-eps-converted-to.pdf><./buranus90-eps-converte
+d-to.pdf><./buranus91-eps-converted-to.pdf><./buranus92-eps-converted-to.pdf><./
+buranus93-eps-converted-to.pdf><./buranus94-eps-converted-to.pdf><./buranus95-ep
+s-converted-to.pdf><./buranus96-eps-converted-to.pdf><./buranus97-eps-converted-
+to.pdf><./buranus98-eps-converted-to.pdf><./buranus99-eps-converted-to.pdf><./bu
+ranus100-eps-converted-to.pdf><./buranus101-eps-converted-to.pdf><./buranus102-e
+ps-converted-to.pdf><./buranus103-eps-converted-to.pdf><./buranus104-eps-convert
+ed-to.pdf><./buranus105-eps-converted-to.pdf><./buranus106-eps-converted-to.pdf>
+<./buranus107-eps-converted-to.pdf><./buranus108-eps-converted-to.pdf><./buranus
+109-eps-converted-to.pdf><./buranus110-eps-converted-to.pdf><./buranus111-eps-co
+nverted-to.pdf><./buranus112-eps-converted-to.pdf>] (./buranus_proofs.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+)
+
+Here is how much of LuaTeX's memory you used:
+ 5615 strings out of 476447
+ 195342,1977958 words of node,token memory allocated
+ 461 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 59 glue_spec,
+ 4 attribute_list, 1 write nodes
+   avail lists: 2:3407,3:674,4:3,5:636,6:3,7:15256,9:3818,11:464
+ 27457 multiletter control sequences out of 65536+600000
+ 16 fonts using 849519 bytes
+ 122i,8n,114p,10918b,273s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.ot
+f></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman10-regular
+.otf>
+Output written on buranus_proofs.pdf (3 pages, 105556 bytes).
+
+PDF statistics: 366 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+

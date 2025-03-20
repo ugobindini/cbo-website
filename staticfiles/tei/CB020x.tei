@@ -1,0 +1,67 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">Pange lingua gloriose</l>
+          <l n="2">virginis martirium,</l>
+          <l n="3">gemme iubar preciose</l>
+          <l n="4">descendat in medium,</l>
+          <l n="5">ut illustret tenebrose</l>
+          <l n="6">mentis domicilium.</l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">Imminente passione</l>
+          <l n="2">virgo hec interserit,</l>
+          <l n="3">assequatur Iesu bone</l>
+          <l n="4">quod a te pecierit</l>
+          <l n="5">suo quisquis in agone</l>
+          <l n="6">mei memor fuerit.</l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">In hoc capud amputatur</l>
+          <l n="2">fluit lac cum sanguine</l>
+          <l n="3">angelorum sublevatur</l>
+          <l n="4">corpus multitudine</l>
+          <l n="5">et Sinay collocatur</l>
+          <l n="6">in supremo culmine.</l>
+        </lg>
+        <lg type="strophe" n="IV">
+          <l n="1">Hoc declarat hoc <app>
+              <lem>
+                <w>explanat</w>
+              </lem>
+            </app>
+          </l>
+          <l n="2">meritum virgineum,</l>
+          <l n="3">quod ex eius tumba manat</l>
+          <l n="4">incessanter oleum</l>
+          <l n="5">cuius virtus omnis sanat</l>
+          <l n="6">doloris aculeum.</l>
+        </lg>
+        <lg type="strophe" n="V">
+          <l n="1">Cum doloris corporalis</l>
+          <l n="2">ut sanat hec untio</l>
+          <l n="3">sic liquoris spiritalis</l>
+          <l n="4">mundet nos infusio,</l>
+          <l n="5">ut eterno temporalis</l>
+          <l n="6">dolor cedat gaudio.</l>
+        </lg>
+        <lg type="strophe" n="VI">
+          <l n="1">
+            <app>
+              <lem>
+                <w>Gloria</w>
+              </lem>
+            </app> sit Iesu bone</l>
+          <l n="2">tibi nunc et iugiter</l>
+          <l n="3">qui certantes in agone</l>
+          <l n="4">adiuvas fideliter</l>
+          <l n="5">et mercedem das corone</l>
+          <l n="6">vincenti viriliter.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,214 @@
+p {
+  margin: 0.2em;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-it {
+  font-style: italic;
+}
+
+.text-font {
+  font-family: Junicode;
+  font-style: normal;
+}
+
+.font-small {
+  text-size: 12px;
+}
+
+.non-selectable {
+  /* Avoid text selection */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.bottom-container {
+  align-items: flex-end;
+}
+
+.poem {
+  flex-direction: column;
+}
+
+.strophe {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  counter-reset: line;
+}
+
+.strophe-heading {
+  display: flex;
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+.refrain-heading {
+  display: flex;
+  font-style: italic;
+  margin-left: 30px;
+}
+
+.verse {
+  display: flex;
+  counter-increment: line;
+}
+
+.verse:before{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 30px;
+  margin: 0 10px 0 0;
+  content: counter(line);
+  color: gray;
+  text-size: 10px;
+}
+
+.verse:not(:nth-child(5n+1)):before {
+   visibility: hidden;
+}
+
+.verse-text {
+  display: flex;
+  width: 100%;
+  margin: 0 20px 0 0;
+}
+
+.verse-met,.verse-real {
+  width: 130px;
+  margin: 0 5px 0 5px;
+}
+
+.verse-rhyme {
+  width: 100px;
+  margin: 0 5px 0 5px;
+}
+
+.hemistich {
+  display: flex;
+  margin: 0 30px 0 0;
+}
+
+.word {
+  display: inline-flex;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.neumed-syll {
+  display: inline-flex;
+  flex-direction: column-reverse;
+}
+
+.neumes {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.neume {
+  scale: 80%;
+}
+
+.neume-small {
+  scale: 60%;
+}
+
+.consonant-space {
+  background-color: White;
+  color: white;
+  display: inline-block;
+  height: 18px;
+}
+
+.syl {
+  display: inline-flex;
+}
+
+.verse-met,.verse-rhyme,.verse-real {
+  display: flex;
+  align-items: flex-end;
+}
+
+.verse-real {
+  font-weight: 700;
+}
+
+.apparatus-in-text {
+  position: relative;
+  display: inline-flex;
+}
+
+.apparatus-in-text .word {
+  border-bottom: 1px dotted black;
+  margin-bottom: -1px;
+}
+
+.apparatus-in-text .apparatus-note {
+  visibility: hidden;
+  display: inline-block;
+  background-color: white;
+  border-radius: 6px;
+  border-style: inset;
+  border-width: 2px;
+  border-color: IndianRed;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -10px;
+  margin-right: -290px;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.apparatus-in-text .apparatus-note::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 20px;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.apparatus-in-text:hover .apparatus-note {
+  visibility: visible;
+  opacity: 1;
+}
+
+.lem {
+  display: inline-block;
+  vertical-align: text-bottom;
+  line-height: 15px;
+}
+
+.rdg {
+  display: inline-block;
+  vertical-align: text-bottom;
+  line-height: 15px;
+}
+
+.wit {
+  margin-right: 10px;
+}
+
+.prose-text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.spoken-text {
+  margin-left: 10px;
+}
+
+
+

@@ -1,0 +1,28 @@
+{% extends "base_generic.html" %}
+
+{% block title %}
+<title>CBO Browse</title>
+{% endblock %}
+
+{% block content %}
+  <h1>Browse Carmina Burana Online</h1>
+  <form action="" method="get">
+    <table>
+    {{ form.as_table }}
+    </table>
+    <input type="submit" value="Submit">
+  </form>
+
+  {% if source_list %}
+  <ul>
+    {% for source in source_list %}
+    <li>
+      <a href="{{ source.get_absolute_url }}">{{ source.bib_id }}</a>
+      ({{source.location}})
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>There are no available sources.</p>
+  {% endif %}
+{% endblock %}

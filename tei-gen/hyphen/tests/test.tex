@@ -1,0 +1,19 @@
+% !TEX TS-program = lualatex
+\documentclass{article}
+% tiny file for LuaLaTeX using the patterns
+\usepackage{fontspec,showhyphens}
+\usepackage{luacode}
+\begin{document}
+
+\begin{luacode}
+local patfile = io.open('../patterns/hyph.la.liturgical.txt')
+langobject = lang.new()
+lang.patterns(langobject, patfile:read('*all'))
+patfile:close()
+\end{luacode}
+
+\language\directlua{tex.sprint(lang.id(langobject))}
+
+adoramus
+
+\end{document}

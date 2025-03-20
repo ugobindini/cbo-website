@@ -1,0 +1,47 @@
+<msDesc>
+  <msIdentifier>
+    <country>Austria</country>
+    <settlement>Linz</settlement>
+    <institution>Bundesstaatliche Studienbibliothek</institution>
+    <idno>A-LIs 324 olim Cc III 9</idno>
+  </msIdentifier>
+  <head></head>
+  <msContents>
+    <msItem>
+      <locus from="30a" to="45b">1a-52b</locus>
+      <title>Liber fabularum</title>
+    </msItem>
+    <msItem>
+      <locus from="52b" to="56b">52b-56b</locus>
+      <title>De figuris psalterii</title>
+    </msItem>
+    <msItem>
+      <locus from="56b" to="67a">56b-67a</locus>
+      <title>De posituris vel distinctionibus, de barbarismis, etc.</title>
+    </msItem>
+    <msItem>
+      <locus from="67a" to="79a">67a-79a</locus>
+      <author>Remigius von Auxerre</author>
+      <title>Expositio super Donatum</title>
+    </msItem>
+    <msItem>
+      <locus from="79a" to="81b">79a-81b</locus>
+      <title>De verbo, de interiectione</title>
+    </msItem>
+  </msContents>
+  <physDesc>
+    <objectDesc>
+      <supportDesc>
+        <support><material>Parchment</material></support>
+        <extent>83 leaves <dimensions unit="mm"><height>275</height><width>175</width></dimensions></extent>
+      </supportDesc>
+    </objectDesc>
+    <musicalNotation>Adiastematic neumes, East Frankish.</musicalNotation>
+  </physDesc>
+  <history>
+    <origin>12th century; notated piece on <locus from="83v" to="83v">f. 83v</locus>: 13th century, <origPlace>Garsten abbey</origPlace>, <country>Austria</country>.</origin>
+  </history>
+  <additional></additional>
+  <msPart></msPart>
+  <msFrag></msFrag>
+</msDesc>

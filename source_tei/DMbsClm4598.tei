@@ -1,0 +1,42 @@
+<msDesc>
+  <msIdentifier>
+    <country>Germany</country>
+    <settlement>München</settlement>
+    <institution>Bayerische Staatsbibliothek</institution>
+    <idno>D-Mbs Clm 4598</idno>
+  </msIdentifier>
+  <head></head>
+  <msContents>
+    <summary>Originally three separate parts: Cantica canticorum, Septem epistolae catholicae, Petrus Riga: Aurora. CB100 ist copied on <locus from="61r" to="61r">f. 61r</locus> as an addition, according to the printed catalogue in the 2nd half of the 13th century.</summary>
+    <msItem>
+      <locus from="1v" to="28r">1v-28r</locus>
+      <title>Cantica canticorum cum Glossa ordinaria</title>
+    </msItem>
+    <msItem>
+      <locus from="29r" to="59v">29r-59v</locus>
+      <title>Septem epistolae catholicae cum Glossa ordinaria</title>
+    </msItem>
+    <msItem>
+      <locus from="62r" to="127va">62r-127va</locus>
+      <author>Petrus Riga</author>
+      <title>Aurora</title>
+    </msItem>
+  </msContents>
+  <physDesc>
+    <objectDesc>
+      <supportDesc>
+        <extent>127 leaves <dimensions unit="cm"><height>23</height><width>15.5</width></dimensions></extent>
+      </supportDesc>
+    </objectDesc>
+    <musicalNotation>Adiastematic neumes, East Frankish.</musicalNotation>
+  </physDesc>
+  <history>
+    <origin>Late 12th century, around 1200, 1st half of the 13th century.</origin>
+    <provenance>Benediktbeuren (former shelfmark Bened. 98).</provenance>
+  </history>
+  <additional></additional>
+  <msPart></msPart>
+  <msFrag></msFrag>
+</msDesc>
+
+<!-- https://daten.digitale-sammlungen.de/~db/0010/bsb00106370/images/index.html -->

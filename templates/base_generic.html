@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% block head %}
+  {% block title %}
+  <title>CBO</title>
+  {% endblock %}
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- Add additional CSS in static file -->
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+  <link rel="stylesheet" href="{% static 'css/neumed-text.css' %}"/>
+  {% endblock %}
+</head>
+<body>
+<div class="page-container">
+  {% block navbar %}
+  <!-- Navbar (sit on top) -->
+  <div class="cbo-top">
+    <div class="cbo-bar cbo-white cbo-wide cbo-padding cbo-card">
+      <a href="{% url 'index' %}" class="cbo-bar-item cbo-button"><b>CBO</b> Carmina Burana Online</a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="cbo-right cbo-hide-small">
+        <!--<a href="{% url 'browse_index' %}" class="cbo-bar-item cbo-button">Browse</a>-->
+        <a href="{% url 'sources' %}" class="cbo-bar-item cbo-button">Sources</a>
+        <a href="{% url 'items' %}" class="cbo-bar-item cbo-button">Items</a>
+        <a href="{% url 'about_index' %}" class="cbo-bar-item cbo-button">About</a>
+      </div>
+    </div>
+  </div>
+  {% endblock %}
+
+  {% block header %}
+  <!-- Header -->
+  <header class="cbo-display-container cbo-content cbo-wide" style="max-width:1500px;" id="home">
+    {% load static %}
+    <img class="cbo-image" src="{% static 'img/cbo_home.png' %}" alt="CBO" width="1500" height="800">
+    <div class="cbo-display-middle cbo-margin-top cbo-center">
+      <!--
+      <h1 class="cbo-xxlarge cbo-text-white">
+        <span class="cbo-padding cbo-black cbo-opacity-min"><b>CBO</b></span>
+        <span class="cbo-hide-small cbo-text-light-grey">Carmina Burana Online</span>
+      </h1>
+      -->
+    </div>
+  </header>
+  {% endblock %}
+
+  <main>
+    <div class="cbo-content">
+      {% block content %}
+      {% endblock %}
+    </div>
+  </main>
+
+  {% block footer %}
+  <!-- Footer -->
+  <footer class="cbo-center cbo-black cbo-padding-16">
+    <p>Footer</p>
+  </footer>
+  {% endblock %}
+</div>
+</body>
+</html>

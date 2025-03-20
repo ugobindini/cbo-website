@@ -1,0 +1,87 @@
+<msDesc>
+  <msIdentifier>
+    <country>Austria</country>
+    <settlement>Klosterneuburg</settlement>
+    <institution>Augustiner-Chorherrenstift</institution>
+    <repository>Bibliothek</repository>
+    <idno>A-KN 574</idno>
+  </msIdentifier>
+  <head></head>
+  <msContents>
+    <summary>Theological manuscript, composite manuscript.</summary>
+    <msItem>
+      <locus from="1va" to="4rb">1va-4rb</locus>
+      <author>Bernardus Claraevallensis</author>
+      <title>Sermo in dominica infra octavam assumptionis</title>
+    </msItem>
+    <msItem>
+      <locus from="4v" to="4v">4v</locus>
+      <title>Glossae in Sacram Scripturam et nota</title>
+    </msItem>
+    <msItem>
+      <locus from="5ra" to="56ra">5ra-56ra</locus>
+      <title>Sermones de sanctis et de tempore</title>
+    </msItem>
+    <msItem>
+      <locus from="56ra" to="60va">56ra-60va</locus>
+      <title>Nota de diversis</title>
+    </msItem>
+    <msItem>
+      <locus from="60va" to="70va">60va-70va</locus>
+      <title>Sermo in annunciatione S.M.</title>
+    </msItem>
+    <msItem>
+      <locus from="70vb" to="71vb">70vb-71vb</locus>
+      <title>Versus memoriales de variis materiis</title>
+    </msItem>
+    <msItem>
+      <locus from="73ra" to="96rb">73ra-96rb</locus>
+      <author>Alanus ab Insulis</author>
+      <title>Elucidatio in Cantica canticorum</title>
+    </msItem>
+    <msItem>
+      <locus from="97ra" to="114vb">97ra-114vb</locus>
+      <title>Expositiones topologicae cunctorum Psalmorum et versuum Psalterii</title>
+    </msItem>
+    <msItem>
+      <locus from="115ra" to="121vb">115ra-121vb</locus>
+      <title>Descriptiones gemmarum pretiosarum</title>
+    </msItem>
+    <msItem>
+      <locus from="123ra" to="135va">123ra-135va</locus>
+      <author>Iocundus Traiectensis</author>
+      <title>Vita beati Servatii episcopi et confessoris</title>
+    </msItem>
+    <msItem>
+      <locus from="135vb" to="139va">135vb-139va</locus>
+      <title>Officium rhythmicum de s. Catharinae, cum neumis</title>
+    </msItem>
+    <msItem>
+      <locus from="139va" to="142vb">139va-142vb</locus>
+      <title>Officium rhythmicum de s. Thoma Cantuariensi, cum neumis</title>
+    </msItem>
+    <msItem>
+      <locus from="142vb" to="144va">142vb-144va</locus>
+      <title>Ordo (ludus) paschalis (Klosterneuburger Osterspiel), cum neumis</title>
+    </msItem>
+    <msItem>
+      <locus from="145r" to="145v">145r-v</locus>
+      <title>Glossae in Sacram Scripturam</title>
+    </msItem>
+  </msContents>
+  <physDesc>
+    <objectDesc>
+      <supportDesc>
+        <support><material>Parchment</material></support>
+        <extent>145 leaves <dimensions unit="mm"><height>310</height><width>216</width></dimensions></extent>
+      </supportDesc>
+    </objectDesc>
+    <musicNotation>Adiastematic neumes, East Frankish.</musicNotation>
+  </physDesc>
+  <history>
+    <origin>First half of the 13th century, <origPlace>Klosterneuburg</origPlace>.</origin>
+  </history>
+  <additional></additional>
+  <msPart></msPart>
+  <msFrag></msFrag>
+</msDesc>

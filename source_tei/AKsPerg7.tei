@@ -1,0 +1,72 @@
+<msDesc>
+  <msIdentifier>
+    <country>Austria</country>
+    <settlement>Klagenfurt</settlement>
+    <institution>Studienbibliothek (Universitätsbibliothek)</institution>
+    <idno>A-Ks Perg. 7</idno>
+  </msIdentifier>
+  <head></head>
+  <msContents>
+    <msItem>
+      <locus from="1a" to="2a">1a-2a</locus>
+      <title>Excerpta theologica</title>
+    </msItem>
+    <msItem>
+      <locus from="2b" to="5a">2b-5a</locus>
+      <title>Epistolae (numero 11)</title>
+      <incipit>A. o. salutem et spiritii sancti consolationem</incipit>
+    </msItem>
+    <msItem>
+      <locus from="5b" to="5b">5b</locus>
+      <title>Moralia. Quatuor genera sunt hominum</title>
+    </msItem>
+    <msItem>
+      <locus from="6a" to="7a">6a-7a</locus>
+      <title>Carmina latina</title>
+    </msItem>
+    <msItem>
+      <locus from="6b" to="7b">6b(prope 4c), 7a, lin. 22-29, 7b</locus>
+      <title>Moralia</title>
+    </msItem>
+    <msItem>
+      <locus from="8a" to="13b">8a, 8b, 9a-13b</locus>
+      <title>Expositio mystica quorundam nominum</title>
+      <incipit>Ego quasi libanus non incisus vaporavi</incipit>
+    </msItem>
+    <msItem>
+      <locus from="7b" to="13b">7b, 8a, 8b-13b</locus>
+      <title>Opus mysticum de S. Maria</title>
+      <incipit>Assumpta est <choice><expan>Maria</expan><abbr>M</abbr></choice> <choice><expan>magno</expan><abbr>m</abbr></choice> <choice><expan>cum</expan><abbr>c</abbr></choice> <choice><expan>gaudio</expan><abbr>g</abbr></choice> angeli</incipit>
+    </msItem>
+    <msItem>
+      <locus from="14a" to="29a">14a-29a</locus>
+      <title>Sermons</title>
+      <incipit>Nostis fratres dilectissimi, est revelata veritati</incipit>
+    </msItem>
+    <msItem>
+      <locus from="30a" to="45b">30a-45b</locus>
+      <title>Homiliae</title>
+      <incipit>Erexit Jacob lapidem in <choice><expan>titulum</expan><abbr>ti</abbr></choice></incipit>
+    </msItem>
+    <msItem>
+      <locus from="46a" to="47b">46a-47b</locus>
+      <author>Gislebertus Crispinus, abbas Westmonasterienses</author>
+      <incipit>Quia christiani te dicunt litteris eruditum</incipit>
+    </msItem>
+
+  </msContents>
+  <physDesc>
+    <objectDesc>
+      <supportDesc>
+        <support><material>Parchment</material></support>
+        <extent>47 leaves <dimensions unit="mm"><height>155</height><width>115</width></dimensions></extent>
+      </supportDesc>
+    </objectDesc>
+  </physDesc>
+  <history>
+    <origin>End of 12th century.</origin>
+  </history>
+  <additional></additional>
+  <msPart></msPart>
+  <msFrag></msFrag>
+</msDesc>

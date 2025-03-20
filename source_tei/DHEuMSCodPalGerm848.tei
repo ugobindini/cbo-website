@@ -1,0 +1,596 @@
+<msDesc>
+  <msIdentifier>
+    <country>Germany</country>
+    <settlement>Heidelberg</settlement>
+    <institution>Universitätsbibliothek</institution>
+    <idno>D-HEu MS Cod. Pal. Germ. 848</idno>
+    <msName>Grosse Heidelberger Liederhandschrift ("Codex Manesse")</msName>
+  </msIdentifier>
+  <head></head>
+  <msContents>
+    <msItem>
+      <locus from="4v" to="5v">4v-5v</locus>
+      <author>Register</author>
+    </msItem>
+    <msItem>
+      <locus from="6r" to="6v">6r-6v</locus>
+      <author>Kaiser Heinrich</author>
+    </msItem>
+    <msItem>
+      <locus from="7r" to="7v">7r-7v</locus>
+      <author>König Konrad der Junge</author>
+    </msItem>
+    <msItem>
+      <locus from="8r" to="9v">8r-9v</locus>
+      <author>König Tirol und Fridebrant sein Sohn (Epos)</author>
+    </msItem>
+    <msItem>
+      <locus from="10r" to="11r">10r-11r</locus>
+      <author>König Wenzel von Böhmen</author>
+    </msItem>
+    <msItem>
+      <locus from="11v" to="12v">11v-12v</locus>
+      <author>Herzog Heinrich von Breslau</author>
+    </msItem>
+    <msItem>
+      <locus from="13r" to="14r">13r-14r</locus>
+      <author>Markgraf Otto von Brandenburg</author>
+    </msItem>
+    <msItem>
+      <locus from="14v" to="16v">14v-16v</locus>
+      <author>Markgraf Heinrich von Meißen</author>
+    </msItem>
+    <msItem>
+      <locus from="17r" to="17v">17r-17v</locus>
+      <author>Der Herzog von Anhalt</author>
+    </msItem>
+    <msItem>
+      <locus from="18r" to="19v">18r-19v</locus>
+      <author>Herzog Johann von Brabant</author>
+    </msItem>
+    <msItem>
+      <locus from="20r" to="22r">20r-22r</locus>
+      <author>Graf Rudolf von Neuenburg</author>
+    </msItem>
+    <msItem>
+      <locus from="22v" to="23v">22v-23v</locus>
+      <author>Graf Kraft I. von Toggenburg[1]</author>
+    </msItem>
+    <msItem>
+      <locus from="24r" to="25v">24r-25v</locus>
+      <author>Graf Konrad von Kirchberg</author>
+    </msItem>
+    <msItem>
+      <locus from="26r" to="26v">26r-26v</locus>
+      <author>Graf Friedrich von Leiningen</author>
+    </msItem>
+    <msItem>
+      <locus from="27r" to="28v">27r-28v</locus>
+      <author>Graf Otto von Botenlauben</author>
+    </msItem>
+    <msItem>
+      <locus from="29r" to="29v">29r-29v</locus>
+      <author>Der Markgraf von Hohenburg</author>
+    </msItem>
+    <msItem>
+      <locus from="30r" to="32r">30r-32r</locus>
+      <author>Herr Heinrich von Veldeke</author>
+    </msItem>
+    <msItem>
+      <locus from="32v" to="41v">32v-41v</locus>
+      <author>Herr Gottfried von Neifen</author>
+    </msItem>
+    <msItem>
+      <locus from="42r" to="43r">42r-43r</locus>
+      <author>Graf Albrecht von Haigerloch</author>
+    </msItem>
+    <msItem>
+      <locus from="43v" to="46r">43v-46r</locus>
+      <author>Graf Wernher von Homberg</author>
+    </msItem>
+    <msItem>
+      <locus from="46v" to="48r">46v-48r</locus>
+      <author>Herr Jakob von Warte</author>
+    </msItem>
+    <msItem>
+      <locus from="48v" to="51v">48v-51v</locus>
+      <author>Bruder Eberhard von Sax</author>
+    </msItem>
+    <msItem>
+      <locus from="52r" to="53v">52r-53v</locus>
+      <author>Herr Walther von Klingen</author>
+    </msItem>
+    <msItem>
+      <locus from="54r" to="59r">54r-59r</locus>
+      <author>Herr Rudolf von Rotenburg</author>
+    </msItem>
+    <msItem>
+      <locus from="59v" to="61r">59v-61r</locus>
+      <author>Herr Heinrich von Sax</author>
+    </msItem>
+    <msItem>
+      <locus from="61v" to="62v">61v-62v</locus>
+      <author>Herr Heinrich von Frauenberg</author>
+    </msItem>
+    <msItem>
+      <locus from="63r" to="63v">63r-63v</locus>
+      <author>Der von Kürenberg</author>
+    </msItem>
+    <msItem>
+      <locus from="64r" to="66r">64r-66r</locus>
+      <author>Herr Dietmar von Aist</author>
+    </msItem>
+    <msItem>
+      <locus from="66v" to="68v">66v-68v</locus>
+      <author>Der von Gliers</author>
+    </msItem>
+    <msItem>
+      <locus from="69r" to="70r">69r-70r</locus>
+      <author>Herr Wernher von Teufen</author>
+    </msItem>
+    <msItem>
+      <locus from="70v" to="71r">70v-71r</locus>
+      <author>Herr Heinrich von Stretlingen</author>
+    </msItem>
+    <msItem>
+      <locus from="71v" to="72v">71v-72v</locus>
+      <author>Herr Kristan von Hamle</author>
+    </msItem>
+    <msItem>
+      <locus from="73r" to="75r">73r-75r</locus>
+      <author>Herr Ulrich von Gutenburg</author>
+    </msItem>
+    <msItem>
+      <locus from="75v" to="76r">75v-76r</locus>
+      <author>Herr Heinrich von der Mure</author>
+    </msItem>
+    <msItem>
+      <locus from="76v" to="82r">76v-82r</locus>
+      <author>Herr Heinrich von Morungen</author>
+    </msItem>
+    <msItem>
+      <locus from="82v" to="84r">82v-84r</locus>
+      <author>Der Schenk von Limpurg</author>
+    </msItem>
+    <msItem>
+      <locus from="84v" to="97v">84v-97v</locus>
+      <author>Schenk Ulrich von Winterstetten</author>
+    </msItem>
+    <msItem>
+      <locus from="98r" to="109v">98r-109v</locus>
+      <author>Herr Reinmar der Alte</author>
+    </msItem>
+    <msItem>
+      <locus from="110r" to="113r">110r-113r</locus>
+      <author>Herr Birkart von Hohenfels</author>
+    </msItem>
+    <msItem>
+      <locus from="113v" to="114v">113v-114v</locus>
+      <author>Herr Hesso von Reinach</author>
+    </msItem>
+    <msItem>
+      <locus from="115r" to="116r">115r-116r</locus>
+      <author>Der Burggraf von Lienz</author>
+    </msItem>
+    <msItem>
+      <locus from="116v" to="119r">116v-119r</locus>
+      <author>Herr Friedrich von Hausen</author>
+    </msItem>
+    <msItem>
+      <locus from="119v" to="120r">119v-120r</locus>
+      <author>Der Burggraf von Rietenburg</author>
+    </msItem>
+    <msItem>
+      <locus from="120v" to="121v">120v-121v</locus>
+      <author>Herr Meinloh von Sevelingen</author>
+    </msItem>
+    <msItem>
+      <locus from="122r" to="123v">122r-123v</locus>
+      <author>Herr Heinrich von Rugge</author>
+    </msItem>
+    <msItem>
+      <locus from="124r" to="145v">124r-145v</locus>
+      <author>Herr Walther von der Vogelweide</author>
+    </msItem>
+    <msItem>
+      <locus from="146r" to="149r">146r-149r</locus>
+      <author>Herr Hiltbolt von Schwangau</author>
+    </msItem>
+    <msItem>
+      <locus from="149v" to="150v">149v-150v</locus>
+      <author>Herr Wolfram von Eschenbach</author>
+    </msItem>
+    <msItem>
+      <locus from="151r" to="157v">151r-157v</locus>
+      <author>Von Singenberg, Truchseß zu St. Gallen</author>
+    </msItem>
+    <msItem>
+      <locus from="158r" to="160r">158r-160r</locus>
+      <author>Der von Sachsendorf</author>
+    </msItem>
+    <msItem>
+      <locus from="160v" to="162r">160v-162r</locus>
+      <author>Wachsmut von Künzingen</author>
+    </msItem>
+    <msItem>
+      <locus from="162v" to="164r">162v-164r</locus>
+      <author>Herr Wilhelm von Heinzenburg</author>
+    </msItem>
+    <msItem>
+      <locus from="164v" to="166r">164v-166r</locus>
+      <author>Herr Leuthold von Seven</author>
+    </msItem>
+    <msItem>
+      <locus from="166v" to="169r">166v-169r</locus>
+      <author>Herr Walther von Metze</author>
+    </msItem>
+    <msItem>
+      <locus from="169v" to="177v">169v-177v</locus>
+      <author>Herr Rubin</author>
+    </msItem>
+    <msItem>
+      <locus from="178r" to="179r">178r-179r</locus>
+      <author>Herr Bernger von Horheim</author>
+    </msItem>
+    <msItem>
+      <locus from="179v" to="181r">179v-181r</locus>
+      <author>Der von Johansdorf</author>
+    </msItem>
+    <msItem>
+      <locus from="181v" to="182r">181v-182r</locus>
+      <author>Herr Engelhardt von Adelnburg</author>
+    </msItem>
+    <msItem>
+      <locus from="182v" to="183r">182v-183r</locus>
+      <author>Herr Bligger von Steinach</author>
+    </msItem>
+    <msItem>
+      <locus from="183v" to="184r">183v-184r</locus>
+      <author>Herr Wachsmut von Mühlhausen</author>
+    </msItem>
+    <msItem>
+      <locus from="184v" to="187v">184v-187v</locus>
+      <author>Herr Hartmann von Aue</author>
+    </msItem>
+    <msItem>
+      <locus from="188r" to="190r">188r-190r</locus>
+      <author>Herr Reinmar von Brennenberg</author>
+    </msItem>
+    <msItem>
+      <locus from="190v" to="192r">190v-192r</locus>
+      <author>Johann von Ringgenberg</author>
+    </msItem>
+    <msItem>
+      <locus from="192v" to="193v">192v-193v</locus>
+      <author>Albrecht Marschall von Rapperswil</author>
+    </msItem>
+    <msItem>
+      <locus from="194r" to="195v">194r-195v</locus>
+      <author>Herr Otto vom Turne</author>
+    </msItem>
+    <msItem>
+      <locus from="196r" to="197r">196r-197r</locus>
+      <author>ohne Namen</author>
+    </msItem>
+    <msItem>
+      <locus from="197v" to="200v">197v-200v</locus>
+      <author>Herr Goesli von Ehenheim</author>
+    </msItem>
+    <msItem>
+      <locus from="201r" to="202r">201r-202r</locus>
+      <author>Der von Wildonie (Herrand von Wildon)</author>
+    </msItem>
+    <msItem>
+      <locus from="202v" to="203v">202v-203v</locus>
+      <author>Der von Suonegge</author>
+    </msItem>
+    <msItem>
+      <locus from="204r" to="204v">204r-204v</locus>
+      <author>Von Scharpfenberg (Heinrich von Scharpfenberg oder Leopold von Scharpfenberg)</author>
+    </msItem>
+    <msItem>
+      <locus from="205r" to="212v">205r-212v</locus>
+      <author>Herr Konrad, der Schenk von Landeck</author>
+    </msItem>
+    <msItem>
+      <locus from="213r" to="216v">213r-216v</locus>
+      <author>Der Winsbeke</author>
+    </msItem>
+    <msItem>
+      <locus from="217r" to="219r">217r-219r</locus>
+      <author>Die Winsbekin</author>
+    </msItem>
+    <msItem>
+      <locus from="219v" to="226r">219v-226r</locus>
+      <author>„Klingsor von Ungarland“ (siehe Sängerkrieg auf der Wartburg)</author>
+    </msItem>
+    <msItem>
+      <locus from="226v" to="227v">226v-227v</locus>
+      <author>Kristan von Luppin, eine Thüring</author>
+    </msItem>
+    <msItem>
+      <locus from="228r" to="229r">228r-229r</locus>
+      <author>Herr Heinrich Hetzbold von Weißensee</author>
+    </msItem>
+    <msItem>
+      <locus from="229v" to="230v">229v-230v</locus>
+      <author>Der Düring</author>
+    </msItem>
+    <msItem>
+      <locus from="231r" to="236v">231r-236v</locus>
+      <author>Winli</author>
+    </msItem>
+    <msItem>
+      <locus from="237r" to="247r">237r-247r</locus>
+      <author>Herr Ulrich von Lichtenstein</author>
+    </msItem>
+    <msItem>
+      <locus from="247v" to="248r">247v-248r</locus>
+      <author>Von Munegiur</author>
+    </msItem>
+    <msItem>
+      <locus from="248v" to="249r">248v-249r</locus>
+      <author>Von Raute</author>
+    </msItem>
+    <msItem>
+      <locus from="249v" to="250v">249v-250v</locus>
+      <author>Herr Konrad von Altstetten</author>
+    </msItem>
+    <msItem>
+      <locus from="251r" to="251v">251r-251v</locus>
+      <author>Herr Bruno von Hornberg</author>
+    </msItem>
+    <msItem>
+      <locus from="252r" to="253r">252r-253r</locus>
+      <author>Herr Hugo von Werbenwag</author>
+    </msItem>
+    <msItem>
+      <locus from="253v" to="254v">253v-254v</locus>
+      <author>Der Püller</author>
+    </msItem>
+    <msItem>
+      <locus from="255r" to="256r">255r-256r</locus>
+      <author>Von Trostberg</author>
+    </msItem>
+    <msItem>
+      <locus from="256v" to="257r">256v-257r</locus>
+      <author>Hartmann von Starkenberg</author>
+    </msItem>
+    <msItem>
+      <locus from="257v" to="258r">257v-258r</locus>
+      <author>Von Stadegge (Rudolf II. von Stadeck)</author>
+    </msItem>
+    <msItem>
+      <locus from="258v" to="260v">258v-260v</locus>
+      <author>Herr Brunwart von Augheim</author>
+    </msItem>
+    <msItem>
+      <locus from="261r" to="262r">261r-262r</locus>
+      <author>Von Stamheim[2]</author>
+    </msItem>
+    <msItem>
+      <locus from="262v" to="263v">262v-263v</locus>
+      <author>Herr Goeli</author>
+    </msItem>
+    <msItem>
+      <locus from="264r" to="270v">264r-270v</locus>
+      <author>Der Tannhäuser</author>
+    </msItem>
+    <msItem>
+      <locus from="271r" to="272v">271r-272v</locus>
+      <author>Von Buchein (eventuell Walther von Buchheim oder Johannes von Buchheim)</author>
+    </msItem>
+    <msItem>
+      <locus from="273r" to="281r">273r-281r</locus>
+      <author>Herr Neidhart</author>
+    </msItem>
+    <msItem>
+      <locus from="281v" to="284v">281v-284v</locus>
+      <author>Meister Heinrich Teschler</author>
+    </msItem>
+    <msItem>
+      <locus from="285r" to="289v">285r-289v</locus>
+      <author>Rost, Kirchherr zu Sarnen</author>
+    </msItem>
+    <msItem>
+      <locus from="290r" to="292r">290r-292r</locus>
+      <author>Der Hardegger</author>
+    </msItem>
+    <msItem>
+      <locus from="292v" to="294v">292v-294v</locus>
+      <author>Der Schulmeister von Eßlingen</author>
+    </msItem>
+    <msItem>
+      <locus from="295r" to="298v">295r-298v</locus>
+      <author>Walther von Breisach (ohne Miniatur)</author>
+    </msItem>
+    <msItem>
+      <locus from="299r" to="299v">299r-299v</locus>
+      <author>Von Wissenlo</author>
+    </msItem>
+    <msItem>
+      <locus from="300r" to="301v">300r-301v</locus>
+      <author>Von Wengen</author>
+    </msItem>
+    <msItem>
+      <locus from="302r" to="302v">302r-302v</locus>
+      <author>Herr Pfeffel</author>
+    </msItem>
+    <msItem>
+      <locus from="303r" to="304v">303r-304v</locus>
+      <author>Der Taler (eventuell Leuthold von Tal)</author>
+    </msItem>
+    <msItem>
+      <locus from="305r" to="308r">305r-308r</locus>
+      <author>Der tugendhafte Schreiber[3]</author>
+    </msItem>
+    <msItem>
+      <locus from="308v" to="310v">308v-310v</locus>
+      <author>Steinmar</author>
+    </msItem>
+    <msItem>
+      <locus from="311r" to="311v">311r-311v</locus>
+      <author>Herr Alram von Gresten</author>
+    </msItem>
+    <msItem>
+      <locus from="312r" to="312v">312r-312v</locus>
+      <author>Herr Reinmar der Fiedler</author>
+    </msItem>
+    <msItem>
+      <locus from="313r" to="314r">313r-314r</locus>
+      <author>Herr Hawart (eventuell Hawardus de Holzwane)</author>
+    </msItem>
+    <msItem>
+      <locus from="314v" to="316r">314v-316r</locus>
+      <author>Herr Günther von dem Vorste</author>
+    </msItem>
+    <msItem>
+      <locus from="316v" to="317v">316v-317v</locus>
+      <author>Herr Friedrich der Knecht</author>
+    </msItem>
+    <msItem>
+      <locus from="318r" to="318v">318r-318v</locus>
+      <author>Burggraf von Regensburg</author>
+    </msItem>
+    <msItem>
+      <locus from="319r" to="320r">319r-320r</locus>
+      <author>Herr Niune</author>
+    </msItem>
+    <msItem>
+      <locus from="320v" to="321r">320v-321r</locus>
+      <author>Herr Geltar</author>
+    </msItem>
+    <msItem>
+      <locus from="321v" to="322v">321v-322v</locus>
+      <author>Herr Dietmar der Setzer</author>
+    </msItem>
+    <msItem>
+      <locus from="323r" to="338v">323r-338v</locus>
+      <author>Herr Reinmar von Zweter</author>
+    </msItem>
+    <msItem>
+      <locus from="339r" to="341v">339r-341v</locus>
+      <author>Der junge Meißner</author>
+    </msItem>
+    <msItem>
+      <locus from="342r" to="342r">342r-342r</locus>
+      <author>Der alte Meißner (ohne Miniatur)</author>
+    </msItem>
+    <msItem>
+      <locus from="342v" to="344r">342v-344r</locus>
+      <author>Von Obernburg</author>
+    </msItem>
+    <msItem>
+      <locus from="344v" to="348v">344v-348v</locus>
+      <author>Bruder Wernher</author>
+    </msItem>
+    <msItem>
+      <locus from="349r" to="354v">349r-354v</locus>
+      <author>Der Marner</author>
+    </msItem>
+    <msItem>
+      <locus from="355r" to="357v">355r-357v</locus>
+      <author>Süßkind von Trimberg</author>
+    </msItem>
+    <msItem>
+      <locus from="358r" to="358v">358r-358v</locus>
+      <author>Gast (ohne Miniatur)</author>
+    </msItem>
+    <msItem>
+      <locus from="359r" to="360v">359r-360v</locus>
+      <author>Von Buwenburg (eventuell Ulrich von Buwenburg)</author>
+    </msItem>
+    <msItem>
+      <locus from="361r" to="361v">361r-361v</locus>
+      <author>Heinrich von Tettingen</author>
+    </msItem>
+    <msItem>
+      <locus from="362r" to="363v">362r-363v</locus>
+      <author>Rudolf der Schreiber</author>
+    </msItem>
+    <msItem>
+      <locus from="364r" to="370v">364r-370v</locus>
+      <author>Meister Gottfried von Straßburg</author>
+    </msItem>
+    <msItem>
+      <locus from="371r" to="380v">371r-380v</locus>
+      <author>Meister Johannes Hadlaub</author>
+    </msItem>
+    <msItem>
+      <locus from="381r" to="382v">381r-382v</locus>
+      <author>Regenbogen</author>
+    </msItem>
+    <msItem>
+      <locus from="383r" to="393v">383r-393v</locus>
+      <author>Meister Konrad von Würzburg</author>
+    </msItem>
+    <msItem>
+      <locus from="394r" to="394v">394r-394v</locus>
+      <author>Kunz von Rosenheim</author>
+    </msItem>
+    <msItem>
+      <locus from="395r" to="395v">395r-395v</locus>
+      <author>Rubin von Rüdeger</author>
+    </msItem>
+    <msItem>
+      <locus from="396r" to="397r">396r-397r</locus>
+      <author>Der Kol von Nüssen</author>
+    </msItem>
+    <msItem>
+      <locus from="397v" to="398v">397v-398v</locus>
+      <author>Der Dürner</author>
+    </msItem>
+    <msItem>
+      <locus from="399r" to="406v">399r-406v</locus>
+      <author>Meister Frauenlob</author>
+    </msItem>
+    <msItem>
+      <locus from="407r" to="409v">407r-409v</locus>
+      <author>Meister Friedrich von Sonnenburg</author>
+    </msItem>
+    <msItem>
+      <locus from="410r" to="411v">410r-411v</locus>
+      <author>Meister Sigeher</author>
+    </msItem>
+    <msItem>
+      <locus from="412r" to="413r">412r-413r</locus>
+      <author>Der wilde Alexander</author>
+    </msItem>
+    <msItem>
+      <locus from="413v" to="415r">413v-415r</locus>
+      <author>Meister Rumelant von Sachsen</author>
+    </msItem>
+    <msItem>
+      <locus from="415v" to="417v">415v-417v</locus>
+      <author>Spervogel</author>
+    </msItem>
+    <msItem>
+      <locus from="418r" to="421v">418r-421v</locus>
+      <author>Boppe</author>
+    </msItem>
+    <msItem>
+      <locus from="422r" to="423r">422r-423r</locus>
+      <author>Der Litschauer</author>
+    </msItem>
+    <msItem>
+      <locus from="423v" to="428r">423v-428r</locus>
+      <author>Der Kanzler</author>
+    </msItem>
+  </msContents>
+  <physDesc>
+    <objectDesc>
+      <supportDesc>
+        <support><material>Parchment</material></support>
+        <extent>426 leaves <dimensions unit="cm"><height>34.8-35.4</height><width>25-26</width></dimensions></extent>
+      </supportDesc>
+    </objectDesc>
+  </physDesc>
+  <history>
+    <origin>Around <date>1300</date>, with additions up to around 1340, <settlement>Zurich</settlement>.</origin>
+  </history>
+  <additional></additional>
+  <msPart></msPart>
+  <msFrag></msFrag>
+</msDesc>
+
+<!-- https://digi.ub.uni-heidelberg.de/diglit/miller2016/0739/image,info -->

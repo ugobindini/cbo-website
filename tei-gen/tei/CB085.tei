@@ -1,0 +1,37 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">Veris dulcis in tempore</l>
+          <l n="2">florenti stat sub arbore</l>
+          <l n="3">Juliana cum sorore.</l>
+          <l n="4">dulcis amor!</l>
+        </lg>
+        <lg type="refrain">
+          <l n="1">Qui te caret hoc tempore</l>
+          <l n="2">fit vilior.</l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">Ecce florescunt arbores,</l>
+          <l n="2">lascive canunt volucres,</l>
+          <l n="3">inde tepescunt virgines.</l>
+          <l n="4">dulcis amor!</l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">Ecce florescunt lilia</l>
+          <l n="2">et virgines dant agmina,</l>
+          <l n="3">summo deorum carmina.</l>
+          <l n="4">dulcis amor!</l>
+        </lg>
+        <lg type="strophe" n="IV">
+          <l n="1">Si tenerem quam cupio</l>
+          <l n="2">in nemore sub folio</l>
+          <l n="3">oscularer cum gaudio.</l>
+          <l n="4">dulcis amor!</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

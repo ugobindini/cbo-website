@@ -1,0 +1,51 @@
+<msDesc>
+  <msIdentifier>
+    <country>Germany</country>
+    <settlement>Berlin</settlement>
+    <institution>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</institution>
+    <repository>Abteilung Handschriften und historische Drucke</repository>
+    <idno>D-Bsbha ms. germ. fol. 1062</idno>
+    <msName>Riedegger Handschrift</msName>
+  </msIdentifier>
+  <head></head>
+  <msContents>
+    <summary>Composite manuscript with epic texts and songs (among others Neidhart Songs).</summary>
+    <msItem>
+      <locus from="1r" to="35r">1r-35r</locus>
+      <author>Hartmann von Aue</author>
+      <title>Iwein</title>
+    </msItem>
+    <msItem>
+      <locus from="35r" to="48r">35r-48r</locus>
+      <author>Stricker</author>
+      <title>Pfaffe Amis</title>
+    </msItem>
+    <msItem>
+      <locus from="48r" to="62r">48r-62r</locus>
+      <author>Neidhart</author>
+      <title type="desc">Lieder</title>
+    </msItem>
+    <msItem>
+      <locus from="63r" to="102v">63r-102v</locus>
+      <title>Dietrichs Flucht</title>
+    </msItem>
+    <msItem>
+      <locus from="102v" to="136v">102v-136v</locus>
+      <title>Rabenschlacht</title>
+    </msItem>
+  </msContents>
+  <physDesc>
+    <objectDesc>
+      <supportDesc>
+        <support><material>Parchment</material></support>
+        <extent>137 leaves <dimensions unit="cm"><height>330</height><width>235</width></dimensions></extent>
+      </supportDesc>
+    </objectDesc>
+  </physDesc>
+  <history>
+    <origin>Around 1300, <origPlace>Niederösterreich</origPlace></origin>
+  </history>
+  <additional></additional>
+  <msPart></msPart>
+  <msFrag></msFrag>
+</msDesc>

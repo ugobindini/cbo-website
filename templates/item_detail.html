@@ -1,0 +1,37 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+
+{% load static %}
+<script src="{% static 'javascript/tei_init.js' %}"></script>
+
+<h1>CB {{ item.abstract_item.cb_id }}</h1>
+<h2>{{ item.title }}</h2>
+<p>Source: <a href="{{ item.source.get_absolute_url }}">{{ item.source.bib_id }}</a> ({{ item.source.location }})</p>
+<p>Folio: {{ item.foliation_str }}.</p>
+
+{{ item.tei_file|json_script:"tei-file" }}
+
+<button id="stressedSyllablesButton">Highlight stressed syllables</button>
+<button id="showNeumesButton">Show neumes</button>
+<button id="hideNeumesButton">Hide neumes</button>
+<button id="plainTextButton">Plain text</button>
+
+<script src="{% static 'javascript/toggle_buttons.js' %}"></script>
+
+<div id="tei-display" class="cbo-text-frame cbo-border-inset cbo-border-sand">
+  <div id="text-div" style="text-size: 16px;"></div>
+  <hr/>
+  <div class="text-font font-small" id="text-app-div"></div>
+  <div class="text-font font-small" id="music-app-div"></div>
+</div>
+
+<script type="text/javascript">
+    const filename = JSON.parse(document.getElementById('tei-file').textContent);
+    const tei_filename = 'tei'.concat('/', filename).concat('.', 'tei');
+    console.log(tei_filename);
+    displayXML("{% static 'xsl/text.xsl' %}", "/staticfiles".concat('/', tei_filename), "text-div");
+    displayXML("{% static 'xsl/text-apparatus.xsl' %}", "/staticfiles".concat('/', tei_filename), "text-app-div");
+</script>
+
+{% endblock %}
