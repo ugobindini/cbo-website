@@ -49,7 +49,7 @@
 
   <xsl:template match="seg[@type='syll']">
     <xsl:variable name="text"><xsl:value-of select="./text()"/></xsl:variable>
-    <xsl:value-of select="."/>
+    <xsl:text/><xsl:value-of select="."/><xsl:text/>
   </xsl:template>
 
 </xsl:stylesheet>
