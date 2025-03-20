@@ -498,10 +498,15 @@
           </seg>pholorum.
         </p>
         <p>In diebus illis.</p>
-        <p>Multitudinis ludentium erat cor unum et tunica nulla, et <seg type="syll" part="I">hy<notatedMusic>
-              <neume fontname="buranus" glyph.num="30" label="pe"></neume>
-            </notatedMusic>
-          </seg>emps erat.
+        <p>Multitudinis ludentium erat cor unum et tunica nulla, et
+          <w>
+            <seg type="syll" part="I">hy<notatedMusic>
+                <neume fontname="buranus" glyph.num="30" label="pe"></neume>
+              </notatedMusic>
+            </seg>
+            <seg type="syll" part="F">emps</seg>
+          </w>
+          erat.
       </p>
         <p>Et iactabant
           <w>

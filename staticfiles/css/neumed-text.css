@@ -101,6 +101,7 @@ p {
 }
 
 .neumed-syll {
+  vertical-align: bottom;
   display: inline-flex;
   flex-direction: column-reverse;
 }
@@ -122,8 +123,7 @@ p {
 .consonant-space {
   background-color: White;
   color: white;
-  display: inline-block;
-  height: 18px;
+  /*display: inline-block;*/
 }
 
 .syl {
@@ -207,5 +207,10 @@ p {
   margin-left: 10px;
 }
 
+.text-paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
 
 
