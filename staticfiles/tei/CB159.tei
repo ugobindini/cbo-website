@@ -83,13 +83,14 @@
                         <neume fontname="buranus" glyph.num="68" label="qisu2"></neume>
                       </notatedMusic>
                     </seg>
-                    <note><seg type="syll" part="F">re<notatedMusic>
-                        <neume fontname="buranus" glyph.num="104" label="cl"></neume>
-                      </notatedMusic>
-                    </seg> eras. et corr. <seg type="syll" part="F">re<notatedMusic>
-                        <neume fontname="buranus" glyph.num="104" label="ci"></neume>
-                      </notatedMusic>
-                    </seg>
+                    <note>
+                      <seg type="syll" part="F">re<notatedMusic>
+                          <neume fontname="buranus" glyph.num="44" label="cl"></neume>
+                        </notatedMusic>
+                      </seg> eras. et corr. <seg type="syll" part="F">re<notatedMusic>
+                          <neume fontname="buranus" glyph.num="104" label="ci"></neume>
+                        </notatedMusic>
+                      </seg>
                     </note>
                   </lem>
                 </app>
@@ -193,7 +194,7 @@
                   </seg>
                 </lem>
                 <note>corr. ex <seg type="syll" part="I">Dul<notatedMusic>
-                      <neume fontname="buranus" glyph.num="7" label="vi"></neume>
+                      <neume fontname="buranus" glyph.num="6" label="vi"></neume>
                     </notatedMusic>
                   </seg>
                 </note>

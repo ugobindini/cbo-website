@@ -55,6 +55,7 @@
     <span class="neumed-syll">
       <span class="syl-text text-font">
         <xsl:value-of select="normalize-space($text)"/>
+        <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
       </span>
       <span class="neumes non-selectable">
         <span class="consonant-space"><xsl:value-of select="normalize-space($text)"/></span>
@@ -65,9 +66,7 @@
         </xsl:for-each>
       </span>
     </span>
-    <span class="syl-dash text-font">
-      <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
-    </span>
+
   </xsl:template>
 
 </xsl:stylesheet>
