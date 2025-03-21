@@ -128,14 +128,18 @@
                     <neume fontname="buranus" glyph.num="44" label="cl"></neume>
                   </notatedMusic>
                 </seg>
-                <app>
+                <app type="neume">
                   <lem>
                     <seg type="syll" part="F">it<notatedMusic>
                         <neume fontname="buranus" glyph.num="6" label="vi"></neume>
                       </notatedMusic>
                     </seg>
                   </lem>
-                  <note>non leg. coni. ... </note>
+                  <note>non leg. coni. <seg type="syll" part="F">it<notatedMusic>
+                        <neume fontname="buranus" glyph.num="6" label="vi"></neume>
+                      </notatedMusic>
+                    </seg>
+                  </note>
                 </app>
               </w>
               <rhyme label="a">
@@ -171,14 +175,18 @@
                     <neume fontname="buranus" glyph.num="44" label="cl"></neume>
                   </notatedMusic>
                 </seg>
-                <app>
+                <app type="neume">
                   <lem>
                     <seg type="syll" part="F">bus<notatedMusic>
                         <neume fontname="buranus" glyph.num="1" label="pu"></neume>
                       </notatedMusic>
                     </seg>
                   </lem>
-                  <note>lect. dub. coni. ... </note>
+                  <note>lect. dub. coni. <seg type="syll" part="F">bus<notatedMusic>
+                        <neume fontname="buranus" glyph.num="1" label="pu"></neume>
+                      </notatedMusic>
+                    </seg>
+                  </note>
                 </app>
               </w>
               <rhyme label="b">
@@ -557,7 +565,7 @@
           </lg>
           <lg n="b2" type="metrical-unit" met="6p/6p">
             <l n="7" met="6p" rhyme="b">
-              <app>
+              <app type="text">
                 <lem wit="HS V">
                   <w>
                     <seg type="syll" part="I">fa</seg>
@@ -1367,7 +1375,7 @@
           <lg n="c2" type="metrical-unit" met="A2+A2/A3-">
             <l n="11" met="A2+A2" rhyme="d+d">
               <seg type="hemistich" met="A2" rhyme="d">
-                <app>
+                <app type="text">
                   <lem>
                     <w>
                       <seg type="syll">uz</seg>
@@ -1415,7 +1423,7 @@
                 <seg type="syll" part="I" met="+">al</seg>
                 <seg type="syll" part="F">le</seg>
               </w>
-              <app>
+              <app type="text">
                 <lem>
                   <w>
                     <seg type="syll" part="I" met="+">wi</seg>

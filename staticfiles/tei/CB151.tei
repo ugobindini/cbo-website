@@ -167,7 +167,7 @@
           </l>
           <l n="4" met="5pp" rhyme="b">
             <w>
-              <app>
+              <app type="neume">
                 <lem>
                   <seg type="syll" part="I">ri<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi"></neume>
@@ -240,7 +240,7 @@
                 </seg>
               </w>
               <rhyme label="d">
-                <app>
+                <app type="text">
                   <lem wit="HS V">
                     <w>
                       <seg type="syll" part="I" met="+">al<notatedMusic>
@@ -271,30 +271,25 @@
                 </seg>
               </w>
               <rhyme label="d">
-                <app>
-                  <lem>
-                    <w>
-                      <seg type="syll" part="I" met="+">can<notatedMusic>
-                          <neume fontname="buranus" glyph.num="30" label="pe"></neume>
-                        </notatedMusic>
-                      </seg>
+                <w>
+                  <seg type="syll" part="I" met="+">can<notatedMusic>
+                      <neume fontname="buranus" glyph.num="30" label="pe"></neume>
+                    </notatedMusic>
+                  </seg>
+                  <app type="neume">
+                    <lem>
                       <seg type="syll" part="F">dent,<notatedMusic>
                           <neume fontname="buranus" glyph.num="6" label="vi"></neume>
                         </notatedMusic>
                       </seg>
-                    </w>
-                  </lem>
-                  <rdg wit="ms">
-                    <w>
-                      <seg type="syll" part="I" met="+">can<notatedMusic>
-                          <neume fontname="buranus" glyph.num="30" label="pe"></neume>
+                    </lem>
+                    <note>spat. vac. coni. <seg type="syll" part="F">dent,<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi"></neume>
                         </notatedMusic>
                       </seg>
-                      <seg type="syll" part="F">dent</seg>
-                    </w>
-                  </rdg>
-                  <note>The missing neume is conjectured based on the corresponding melodic passage in other strophes.</note>
-                </app>
+                    </note>
+                  </app>
+                </w>
               </rhyme>
             </seg>
           </l>
@@ -421,30 +416,25 @@
             </seg>
           </l>
           <l n="2" met="5pp" rhyme="b">
-            <app>
-              <lem>
-                <w>
+            <w>
+              <app type="neume">
+                <lem>
                   <seg type="syll" part="I">so<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi"></neume>
                     </notatedMusic>
                   </seg>
-                  <seg type="syll" part="F">nant<notatedMusic>
-                      <neume fontname="buranus" glyph.num="44" label="cl"></neume>
+                </lem>
+                <note>spat. vac. coni. <seg type="syll" part="I">so<notatedMusic>
+                      <neume fontname="buranus" glyph.num="6" label="vi"></neume>
                     </notatedMusic>
                   </seg>
-                </w>
-              </lem>
-              <rdg wit="ms">
-                <w>
-                  <seg type="syll" part="I">so</seg>
-                  <seg type="syll" part="F">nant<notatedMusic>
-                      <neume fontname="buranus" glyph.num="44" label="cl"></neume>
-                    </notatedMusic>
-                  </seg>
-                </w>
-              </rdg>
-              <note>The missing neume is conjectured based on the corresponding melodic passage in other strophes.</note>
-            </app>
+                </note>
+              </app>
+              <seg type="syll" part="F">nant<notatedMusic>
+                  <neume fontname="buranus" glyph.num="44" label="cl"></neume>
+                </notatedMusic>
+              </seg>
+            </w>
             <rhyme label="b">
               <w>
                 <seg type="syll" part="I" met="+">gar<notatedMusic>
@@ -628,14 +618,18 @@
               </seg>
             </w>
             <w>
-              <app>
+              <app type="neume">
                 <lem>
                   <seg type="syll" part="I">ar<notatedMusic>
                       <neume fontname="buranus" glyph.num="44" label="cl"></neume>
                     </notatedMusic>
                   </seg>
                 </lem>
-                <note>non leg. coni. ...</note>
+                <note>non leg. coni. <seg type="syll" part="I">ar<notatedMusic>
+                      <neume fontname="buranus" glyph.num="44" label="cl"></neume>
+                    </notatedMusic>
+                  </seg>
+                </note>
               </app>
               <seg type="syll" part="M">des<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi"></neume>
@@ -845,7 +839,7 @@
         <lg type="strophe" n="IV" met="4p+4p/5pp/4p+4p/5pp/5pp/4p+4p/8p/5pp" rhyme="a+a/b/a+a/b/c/d+d/d/c">
           <l n="1" met="4p+4p" rhyme="a+a">
             <seg type="hemistich" met="4p" rhyme="a">
-              <app>
+              <app type="text">
                 <lem wit="V">
                   <w>
                     <seg type="syll" part="I">Pre</seg>
@@ -1009,7 +1003,7 @@
                 <seg type="syll">dum</seg>
               </w>
               <rhyme label="a">
-                <app>
+                <app type="text">
                   <lem wit="HS">
                     <w>
                       <seg type="syll" part="I" met="+">ster</seg>
@@ -1020,7 +1014,7 @@
                     <w>cerno</w>
                   </rdg>
                   <note>
-                  With c corrected over scraping
+                  letter 'c' corrected over scraping
                 </note>
                 </app>
               </rhyme>
