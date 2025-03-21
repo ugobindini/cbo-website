@@ -147,25 +147,25 @@
                 </notatedMusic>
               </seg>
             </w>
-            <app>
-              <lem>
-                <w>
-                  <seg type="syll" part="I">pre<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi"></neume>
-                    </notatedMusic>
-                  </seg>
-                  <seg type="syll" part="M">mi<notatedMusic>
-                      <neume fontname="buranus" glyph.num="1" label="pu"></neume>
-                    </notatedMusic>
-                  </seg>
+            <w>
+              <seg type="syll" part="I">pre<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi"></neume>
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">mi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu"></neume>
+                </notatedMusic>
+              </seg>
+              <app type="neume">
+                <lem>
                   <seg type="syll" part="F">um,<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi"></neume>
                     </notatedMusic>
                   </seg>
-                </w>
-              </lem>
-              <note>Last neume edited based on the corresponding passage in other strophes</note>
-            </app>
+                </lem>
+                <note>coni.</note>
+              </app>
+            </w>
           </l>
           <l n="7">
             <w>
@@ -1481,25 +1481,25 @@
                 </notatedMusic>
               </seg>
             </w>
-            <app>
-              <lem>
-                <w>
-                  <seg type="syll" part="I">tu<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi"></neume>
-                    </notatedMusic>
-                  </seg>
+            <w>
+              <seg type="syll" part="I">tu<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi"></neume>
+                </notatedMusic>
+              </seg>
+              <app type="neume">
+                <lem>
                   <seg type="syll" part="M">ti<notatedMusic>
                       <neume fontname="buranus" glyph.num="1" label="pu"></neume>
                     </notatedMusic>
                   </seg>
-                  <seg type="syll" part="F">us,<notatedMusic>
-                      <neume fontname="buranus" glyph.num="53" label="po"></neume>
-                    </notatedMusic>
-                  </seg>
-                </w>
-              </lem>
-              <note>Missing neume edited based on corresponding passage in other strophes.</note>
-            </app>
+                </lem>
+                <note>coni.</note>
+              </app>
+              <seg type="syll" part="F">us,<notatedMusic>
+                  <neume fontname="buranus" glyph.num="53" label="po"></neume>
+                </notatedMusic>
+              </seg>
+            </w>
           </l>
           <l n="9">
             <w>
