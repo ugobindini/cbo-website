@@ -56,7 +56,6 @@ p {
 .verse {
   display: flex;
   counter-increment: line;
-  align-items: flex-end;
 }
 
 .verse:before{
@@ -76,6 +75,7 @@ p {
 
 .verse-text {
   display: flex;
+  align-items: flex-end;
   width: 100%;
   margin: 0 20px 0 0;
 }
@@ -92,11 +92,13 @@ p {
 
 .hemistich {
   display: flex;
+  align-items: flex-end;
   margin: 0 30px 0 0;
 }
 
 .word {
   display: inline-flex;
+  align-items: flex-end;
   margin-right: 5px;
   margin-left: 5px;
 }
