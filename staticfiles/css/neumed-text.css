@@ -56,6 +56,7 @@ p {
 .verse {
   display: flex;
   counter-increment: line;
+  align-items: flex-end;
 }
 
 .verse:before{
