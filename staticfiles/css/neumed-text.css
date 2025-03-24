@@ -102,7 +102,7 @@ p {
 }
 
 .neumed-syll {
-  vertical-align: bottom;
+  /*vertical-align: bottom;*/
   display: inline-flex;
   flex-direction: column-reverse;
 }
