@@ -3018,7 +3018,7 @@
               </seg>
               <seg type="syll" part="F">cob<notatedMusic>
                 <neume fontname="buranus" glyph.num="44" label="cl" />
-                <neume fontname="buranus" glyph.num="52" label="to!pm" />
+                <neume fontname="buranus" glyph.num="0" label="?" />
               </notatedMusic>
               </seg>
             </w> etc.
@@ -7986,7 +7986,7 @@
         <stage>Respondeant prophete</stage>
         <sp>
           <div type="poem">
-            <lg type="strophe" n="XLI">
+            <lg type="strophe">
               <l n="1">
                 <w>
                   <seg type="syll">Si<notatedMusic>
@@ -9052,14 +9052,10 @@
               </notatedMusic>
               </seg>
             </w>
-            <w>
-              <seg type="syll" part="I">Do<notatedMusic>
-                <neume fontname="buranus" glyph.num="6" label="vi" />
-              </notatedMusic>
-              </seg>
-              <seg type="syll" part="M">mi</seg>
-              <seg type="syll" part="F">ni</seg>
-            </w> etc.
+            <seg type="syll" part="I">Do<notatedMusic>
+              <neume fontname="buranus" glyph.num="6" label="vi" />
+            </notatedMusic>
+            </seg>mini etc.
           </p>
         </sp>
         <stage>Deinde Maria vadat casualiter nichil cogitans de Elisabeth vetula Iohanne impregnata et salutet eam et dicat</stage>
@@ -12496,7 +12492,8 @@
                       <neume fontname="buranus" glyph.num="6" label="vi" />
                     </notatedMusic>
                     </seg>
-                  </w> hebetatur
+                  </w>
+                  <w>hebetatur</w>
                 </seg>
               </l>
               <l n="3">
