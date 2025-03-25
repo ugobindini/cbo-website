@@ -16,7 +16,14 @@
 
   <xsl:template match="app[@type='text']">
     <b style="margin-right: 5px;"><xsl:value-of select="ancestor::lg/@n"/>.<xsl:value-of select="ancestor::l/@n"/></b>
-    <xsl:apply-templates select="./lem/*" />
+    <xsl:choose>
+      <xsl:when test="./lem/l">
+        <xsl:value-of select="./lem/l[first()]/@n" />-<xsl:value-of select="./lem/l[last()]/@n" />
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates select="./lem/*" />
+      </xsl:otherwise>
+    </xsl:choose>
     <i><xsl:value-of select="./lem/@wit" /></i>
     <xsl:if test="./rdg">
       <xsl:choose>
