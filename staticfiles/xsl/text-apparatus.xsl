@@ -3,10 +3,6 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template match="teiHeader"/>
 
-  <xsl:template match="app[@type='neume']">
-    <xsl:apply-templates select="./lem/*" />
-  </xsl:template>
-
   <xsl:template match="body">
     <xsl:if test=".//app[@type='text']">
       <p class="text-font font-bold">Critical apparatus (text)</p>
