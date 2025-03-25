@@ -16,14 +16,7 @@
 
   <xsl:template match="app[@type='text']">
     <b style="margin-right: 5px;"><xsl:value-of select="ancestor::lg/@n"/>.<xsl:value-of select="ancestor::l/@n"/></b>
-    <xsl:choose>
-      <xsl:when test="./lem/l">
-        <xsl:value-of select="./lem/l[first()]/@n" />-<xsl:value-of select="./lem/l[last()]/@n" />
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:apply-templates select="./lem/*" />
-      </xsl:otherwise>
-    </xsl:choose>
+    <xsl:apply-templates select="./lem/*" />
     <i><xsl:value-of select="./lem/@wit" /></i>
     <xsl:if test="./rdg">
       <xsl:choose>
@@ -47,7 +40,7 @@
   </xsl:template>
 
   <xsl:template match="note">
-    <span class="font-it" style="margin-right: 10px;">
+    <span class="font-it" style="margin-right: 10px; margin-left: 5px;">
       <xsl:apply-templates />
     </span>
   </xsl:template>
@@ -56,7 +49,7 @@
     <span class="word text-font">
       <xsl:choose>
         <xsl:when test=".//seg[@type='syll']">
-          <xsl:apply-templates />
+          <xsl:apply-templates select=".//seg[@type='syll']"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:value-of select="."/>
