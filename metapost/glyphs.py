@@ -214,6 +214,11 @@ GLYPHS = [
 		paths=[('pes', None), ('punctum', '(-6u, 0)')]
 	),
 	Glyph(
+		description='Pes liquescent + 1 prepunctum',
+		code='pe)pp1',
+		paths=[('pes_liquescent', None), ('punctum', '(-6u, 0)')]
+	),
+	Glyph(
 		description='Pes + porrectus',
 		code='pe!po',
 		paths=[('pes', None), ('porrectus_end', 'point 1000 of pes')]
