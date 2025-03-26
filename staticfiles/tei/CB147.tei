@@ -69,7 +69,7 @@
             <w>
               <seg type="syll" part="I">le</seg>
               <seg type="syll" part="M">ge</seg>
-              <seg type="syll" part="F">rem</seg>
+              <seg type="syll" part="F">rem,</seg>
             </w>
           </l>
           <l n="5" met="7pp" rhyme="d">
@@ -128,7 +128,7 @@
               </w>
               <w>
                 <seg type="syll" part="I">ca</seg>
-                <seg type="syll" part="F">no</seg>
+                <seg type="syll" part="F">no,</seg>
               </w>
             </seg>
             <seg type="hemistich" met="4p" rhyme="a">
@@ -893,7 +893,7 @@
           </l>
           <l n="5" met="4" rhyme="c">
             <w>
-              <seg type="syll" part="I">«vro<notatedMusic>
+              <seg type="syll" part="I">«Vro<notatedMusic>
                   <neume fontname="buranus" glyph.num="28" label="ep"></neume>
                 </notatedMusic>
               </seg>
