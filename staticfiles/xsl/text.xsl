@@ -189,8 +189,8 @@
     <span class="apparatus-in-text">
       <div class="apparatus-note text-font font-small">
         <xsl:attribute name="class">
-          <xsl:if test="@type='text'">cbo-border-red </xsl:if>
-          <xsl:if test="@type='neume'">cbo-border-blue </xsl:if>
+          <xsl:if test="@type='text'"><xsl:value-of select="concat(@class,' cbo-border-red')"/></xsl:if>
+          <xsl:if test="@type='neume'"><xsl:value-of select="concat(@class,' cbo-border-blue')"/></xsl:if>
         </xsl:attribute>
         <xsl:apply-templates select="./rdg" />
         <xsl:apply-templates select="./note" />
