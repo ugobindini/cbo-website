@@ -153,10 +153,8 @@ p {
   visibility: hidden;
   display: inline-block;
   background-color: white;
-  border-radius: 6px;
-  border-style: inset;
-  border-width: 2px;
-  border-color: IndianRed;
+  border-radius: 5px;
+  border-width: 3px;
   padding: 5px 0;
   position: absolute;
   z-index: 1;
@@ -166,6 +164,10 @@ p {
   margin-right: -290px;
   opacity: 1;
   transition: opacity 0.3s;
+}
+
+.apparatus-in-text .apparatus-note:hover {
+  z-index: 50;
 }
 
 .apparatus-in-text .apparatus-note::after {
