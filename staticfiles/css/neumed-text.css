@@ -153,6 +153,7 @@ p {
   visibility: hidden;
   display: inline-block;
   background-color: white;
+  border-style: inset;
   border-radius: 5px;
   border-width: 3px;
   padding: 5px 0;
