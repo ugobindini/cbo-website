@@ -82,7 +82,6 @@ PATHS = [
 		name='pes_liquescent',
 		command=path_join('pes', 'liquescence_loop')
 	),
-
 	Path(
 		name='epiphonus',
 		command='(2u,4.5u)..(0,2u)..(3u,0)..{right rotated 60}(7.5u,4.5u)',
@@ -91,6 +90,10 @@ PATHS = [
 	Path(
 		name='substropha',
 		command='(0,0)..(1.5u,-2u)..(0,-4u)'
+	),
+	Path(
+		name='episema',
+		command='(0,0)--(6u,0)'
 	),
 	Path(
 		name='short_stroke',

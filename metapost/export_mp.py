@@ -92,6 +92,9 @@ if __name__ == "__main__":
         out_py_file.write(f'\t"{glyph.nabc_code}": {glyph.id},\n')
     out_py_file.write("}")
 
+    ##### Copy the dict.py file in staticfiles #####
+    subprocess.run(f"cp buranus_dict.py ../staticfiles/tei", shell=True)
+
     ##### Convert the PDF files to SVG, and copy them to the staticfiles folder as well #####
 
     for (x, glyph) in enumerate(glyphs):

@@ -10,6 +10,8 @@ class Glyph:
 	def metapost(self):
 		return "\n".join([f"% {self.description}"] + [f"% {self.code}"] + [path_by_name(path).metapost_draw(shifted=shifted) for (path, shifted) in self.paths])
 
+	def json(self, n):
+		return {"description": self.description, "code": self.code, "n": n}
 
 
 GLYPHS = [
@@ -244,6 +246,11 @@ GLYPHS = [
 		paths=[('virga', None), ('clivis_end_liquescent', None)]
 	),
 	Glyph(
+		description='Clivis episemata (?)',
+		code='cl-',
+		paths=[('virga', None), ('clivis_end_liquescent', None), ('episema', '(10.5u,3u)')]
+	),
+	Glyph(
 		description='Clivis with stroke',
 		code='cl/',
 		paths=[('virga', None), ('clivis_end', None), ('stroke', '(-9u,-4.5u)')]
@@ -434,6 +441,11 @@ GLYPHS = [
 		paths=[('torculus', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)'), ('punctum', '(-18u,0)')]
 	),
 	Glyph(
+		description='Quilisma 3 loops + 1 prepunctum + clivis + 2 subpuncta',
+		code='qlpp1!clsu2',
+		paths=[('torculus', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)'), ('punctum', '(-18u,0)'), ('punctum', '(15u,3u)'), ('punctum', '(18u,0)')]
+	),
+	Glyph(
 		description='Quilisma 3 loops + clivis + oriscus',
 		code='ql!cl!or',
 		paths=[('torculus', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)'), ('liquescence_loop', '(point 1000 of torculus - point 0 of liquescence_loop)')]
@@ -569,13 +581,18 @@ GLYPHS = [
 		paths=[('virga', None), ('punctum', '(-12u,-16.5u)'), ('punctum', '(-15u,-21u)')]
 	),
 	Glyph(
+		description='Scandicus liquescent',
+		code='sc)',
+		paths=[('virga_liq', None), ('punctum', '(-12u,-16.5u)'), ('punctum', '(-15u,-21u)')]
+	),
+	Glyph(
 		description='Scandicus with tractulus as middle note',
 		code='sc-',
 		paths=[('virga', None), ('tractulus', '(-15u,-16.5u)'), ('punctum', '(-15u,-21u)')]
 	),
 	Glyph(
-		description='Scandicus liquescent',
-		code='sc)',
-		paths=[('virga_liq', None), ('punctum', '(-12u,-16.5u)'), ('punctum', '(-15u,-21u)')]
+		description='Scandicus with tractulus as middle note + quilisma 3 loops',
+		code='sc-!ql',
+		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)'), ('tractulus', '(-6u,-4.5u)'), ('punctum', '(-9u,-9u)')]
 	),
 ]
