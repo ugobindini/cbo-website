@@ -63,27 +63,27 @@ GLYPHS = [
 	Glyph(
 		description='Pressus maior',
 		code='pr',
-		paths=[('virga', None), ('oriscus', None), ('punctum', '(0,-12u)')]
+		paths=[('virga', None), ('oriscus', None), ('punctum', '(3u,-9u)')]
 	),
 	Glyph(
 		description='Pressus maior + stropha',
 		code='pr!st',
-		paths=[('virga', None), ('oriscus', None), ('punctum', '(0,-12u)'), ('stropha', '(12u,-6u)')]
+		paths=[('virga', None), ('oriscus', None), ('punctum', '(3u,-9u)'), ('stropha', '(15u,-6u)')]
 	),
 	Glyph(
 		description='Virga + oriscus + punctum (separated form) (?)',
 		code='vi!or!pu',
-		paths=[('virga', None), ('oriscus', '(3u,-3u)'), ('punctum', '(3u,-15u)')]
+		paths=[('virga', None), ('oriscus', '(3u,-3u)'), ('punctum', '(6u,-9u)')]
 	),
 	Glyph(
 		description='Virga strata + 2 subpuncta',
 		code='vssu2',
-		paths=[('virga', None), ('oriscus', None), ('punctum', '(6u,-10.5u)'), ('punctum', '(9u,-15u)')]
+		paths=[('virga', None), ('oriscus', None), ('punctum', '(6u,-7.5u)'), ('punctum', '(9u,-12u)')]
 	),
 	Glyph(
 		description='Virga strata + 2 subpuncta + stropha',
 		code='vssu2!st',
-		paths=[('virga', None), ('oriscus', None), ('punctum', '(6u,-10.5u)'), ('punctum', '(9u,-15u)'), ('stropha', '(15u,-6u)')]
+		paths=[('virga', None), ('oriscus', None), ('punctum', '(6u,-7.5u)'), ('punctum', '(9u,-12u)'), ('stropha', '(15u,-6u)')]
 	),
 	Glyph(
 		description='Virga liquescent + 1 subpunctum',
@@ -248,7 +248,7 @@ GLYPHS = [
 	Glyph(
 		description='Clivis episemata (?)',
 		code='cl-',
-		paths=[('virga', None), ('clivis_end_liquescent', None), ('episema', '(10.5u,3u)')]
+		paths=[('virga', None), ('clivis_end', None), ('episema', '(10.5u,3u)')]
 	),
 	Glyph(
 		description='Clivis with stroke',
@@ -278,12 +278,12 @@ GLYPHS = [
 	Glyph(
 		description='Torculus + oriscus',
 		code='to!or',
-		paths=[('torculus', None), ('oriscus', '(point 1000 of torculus)')]
+		paths=[('torculus', None), ('connector', '(point 1000 of torculus)'), ('oriscus', '((6u,4u) + (point 1000 of torculus))')]
 	),
 	Glyph(
 		description='Torculus + pressus minor',
 		code='to!pm',
-		paths=[('torculus', None), ('oriscus', '(point 1000 of torculus)'), ('punctum', '(12u, 3u)')]
+		paths=[('torculus', None), ('connector', '(point 1000 of torculus)'), ('oriscus', '((6u,4u) + (point 1000 of torculus))'), ('punctum', '(24u, 3u)')]
 	),
 	Glyph(
 		description='Porrectus',
@@ -593,6 +593,6 @@ GLYPHS = [
 	Glyph(
 		description='Scandicus with tractulus as middle note + quilisma 3 loops',
 		code='sc-!ql',
-		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)'), ('tractulus', '(-6u,-4.5u)'), ('punctum', '(-9u,-9u)')]
+		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)'), ('tractulus', '(-12u,-4.5u)'), ('punctum', '(-15u,-9u)')]
 	),
 ]

@@ -12,6 +12,9 @@ tractulus=(0,0)..(3u,0)..(6u,0.5u);
 path stropha;
 stropha=(0,0)..(1.5u,3u)..(0,6u);
 
+path substropha;
+substropha=(0,0)..(1.5u,-2u)..(0,-4u);
+
 path virga;
 virga=(0,0)--(-9u,-12u)--(-7.5u,-11u);
 
@@ -27,6 +30,9 @@ clivis_hor=(0,0)..(0.75[0,10.5u],3u)..(10.5u,3u);
 path clivis_end;
 clivis_end=clivis_hor&(virga shifted (point 1000 of clivis_hor - point 0 of virga));
 
+path clivis_end_liquescent;
+clivis_end_liquescent=clivis_end&(substropha shifted (point 1000 of clivis_end - point 0 of substropha));
+
 path torculus;
 torculus=pes&(clivis_end shifted (point 1000 of pes - point 0 of clivis_end));
 
@@ -40,16 +46,13 @@ path virga_liq;
 virga_liq=reverse virga&(liquescence_loop shifted (point 1000 of reverse virga - point 0 of liquescence_loop));
 
 path oriscus;
-oriscus=((0,0){down rotated 20}..{down}(0,-4.5u))&(liquescence_loop shifted ((0,-4.5u) - point 0 of liquescence_loop));
+oriscus=((0,0){down rotated 45}..(2u,-2u)..{up rotated -45}(4.5u,0)--(7.5u,-2u));
 
 path pes_liquescent;
 pes_liquescent=pes&(liquescence_loop shifted (point 1000 of pes - point 0 of liquescence_loop));
 
 path epiphonus;
 epiphonus=(2u,4.5u)..(0,2u)..(3u,0)..{right rotated 60}(7.5u,4.5u);
-
-path substropha;
-substropha=(0,0)..(1.5u,-2u)..(0,-4u);
 
 path episema;
 episema=(0,0)--(6u,0);
@@ -63,11 +66,11 @@ stroke=(0,0)--(18u,3u);
 path ancus_loop;
 ancus_loop=(0,0)..(7.5u,0)..(7.5u,-7.5u);
 
-path clivis_end_liquescent;
-clivis_end_liquescent=clivis_end&(substropha shifted (point 1000 of clivis_end - point 0 of substropha));
-
 path mystery_loop;
 mystery_loop=(0,0)..(4.5u,3u)..(9u,-3u);
+
+path connector;
+connector=(0,0)--(6u,4u);
 
 beginfig(1);
 % Punctum
@@ -133,7 +136,7 @@ beginfig(10);
 % pr
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw oriscus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
-draw punctum shifted (0,-12u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
+draw punctum shifted (3u,-9u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
 beginfig(11);
@@ -141,8 +144,8 @@ beginfig(11);
 % pr!st
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw oriscus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
-draw punctum shifted (0,-12u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
-draw stropha shifted (12u,-6u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
+draw punctum shifted (3u,-9u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
+draw stropha shifted (15u,-6u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
 beginfig(12);
@@ -150,7 +153,7 @@ beginfig(12);
 % vi!or!pu
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw oriscus shifted (3u,-3u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
-draw punctum shifted (3u,-15u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
+draw punctum shifted (6u,-9u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
 beginfig(13);
@@ -158,8 +161,8 @@ beginfig(13);
 % vssu2
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw oriscus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
-draw punctum shifted (6u,-10.5u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
-draw punctum shifted (9u,-15u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
+draw punctum shifted (6u,-7.5u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
+draw punctum shifted (9u,-12u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
 beginfig(14);
@@ -167,8 +170,8 @@ beginfig(14);
 % vssu2!st
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw oriscus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
-draw punctum shifted (6u,-10.5u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
-draw punctum shifted (9u,-15u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
+draw punctum shifted (6u,-7.5u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
+draw punctum shifted (9u,-12u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 draw stropha shifted (15u,-6u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
@@ -440,7 +443,7 @@ beginfig(47);
 % Clivis episemata (?)
 % cl-
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
-draw clivis_end_liquescent withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
+draw clivis_end withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw episema shifted (10.5u,3u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
@@ -488,15 +491,17 @@ beginfig(53);
 % Torculus + oriscus
 % to!or
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
-draw oriscus shifted (point 1000 of torculus) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
+draw connector shifted (point 1000 of torculus) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
+draw oriscus shifted ((6u,4u) + (point 1000 of torculus)) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
 beginfig(54);
 % Torculus + pressus minor
 % to!pm
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
-draw oriscus shifted (point 1000 of torculus) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
-draw punctum shifted (12u, 3u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
+draw connector shifted (point 1000 of torculus) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
+draw oriscus shifted ((6u,4u) + (point 1000 of torculus)) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
+draw punctum shifted (24u, 3u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
 beginfig(55);
@@ -1073,12 +1078,12 @@ endfig;
 
 beginfig(116);
 % Scandicus with tractulus as middle note + quilisma 3 loops
-% sc-
+% sc-!ql
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw pes_loop shifted (-12u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
-draw tractulus shifted (-6u,-4.5u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
-draw punctum shifted (-9u,-9u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
+draw tractulus shifted (-12u,-4.5u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
+draw punctum shifted (-15u,-9u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
 bye

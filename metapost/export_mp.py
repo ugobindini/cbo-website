@@ -91,6 +91,7 @@ if __name__ == "__main__":
     for glyph in glyphs:
         out_py_file.write(f'\t"{glyph.nabc_code}": {glyph.id},\n')
     out_py_file.write("}")
+    out_py_file.close()
 
     ##### Copy the dict.py file in staticfiles #####
     subprocess.run(f"cp buranus_dict.py ../staticfiles/tei", shell=True)

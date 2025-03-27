@@ -39,6 +39,10 @@ PATHS = [
 		command='(0,0)..(1.5u,3u)..(0,6u)'
 	),
 	Path(
+		name='substropha',
+		command='(0,0)..(1.5u,-2u)..(0,-4u)'
+	),
+	Path(
 		name='virga',
 		command='(0,0)--(-9u,-12u)--(-7.5u,-11u)'
 	),
@@ -59,6 +63,10 @@ PATHS = [
 		command=path_join('clivis_hor', 'virga')
 	),
 	Path(
+		name='clivis_end_liquescent',
+		command=path_join('clivis_end', 'substropha')
+	),
+	Path(
 		name='torculus',
 		command=path_join('pes', 'clivis_end')
 	),
@@ -76,7 +84,7 @@ PATHS = [
 	),
 	Path(
 		name='oriscus',
-		command='((0,0){down rotated 20}..{down}(0,-4.5u))&(liquescence_loop shifted ((0,-4.5u) - point 0 of liquescence_loop))'
+		command='((0,0){down rotated 45}..(2u,-2u)..{up rotated -45}(4.5u,0)--(7.5u,-2u))'
 	),
 	Path(
 		name='pes_liquescent',
@@ -86,10 +94,6 @@ PATHS = [
 		name='epiphonus',
 		command='(2u,4.5u)..(0,2u)..(3u,0)..{right rotated 60}(7.5u,4.5u)',
 		pen=pen_by_name('epiphonus')
-	),
-	Path(
-		name='substropha',
-		command='(0,0)..(1.5u,-2u)..(0,-4u)'
 	),
 	Path(
 		name='episema',
@@ -108,12 +112,12 @@ PATHS = [
 		command='(0,0)..(7.5u,0)..(7.5u,-7.5u)'
 	),
 	Path(
-		name='clivis_end_liquescent',
-		command=path_join('clivis_end', 'substropha')
-	),
-	Path(
 		name='mystery_loop',
 		command='(0,0)..(4.5u,3u)..(9u,-3u)'
+	),
+	Path(
+		name='connector',
+		command='(0,0)--(6u,4u)'
 	)
 ]
 
