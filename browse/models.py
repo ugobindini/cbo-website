@@ -259,7 +259,3 @@ class Item(models.Model):
     def get_absolute_url(self):
         """Returns the URL to access a particular instance of the model."""
         return reverse('item-detail', args=[str(self.pk)])
-
-
-class Neume(models.Model):
-    pass

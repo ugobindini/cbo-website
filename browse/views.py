@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django import forms
-from .models import Source, Item, Neume
+from .models import Source, Item
 
 from browse.forms import BrowseSourceForm
 
@@ -51,11 +51,3 @@ class ItemListView(generic.ListView):
 class ItemDetailView(generic.DetailView):
     model = Item
     template_name = 'item_detail.html'
-
-class NeumeListView(generic.ListView):
-    model = Neume
-    template_name = 'neumes.html'
-
-class NeumeDetailView(generic.DetailView):
-    model = Neume
-    template_name = 'neume_detail.html'
