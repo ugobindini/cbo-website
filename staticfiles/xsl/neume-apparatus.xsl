@@ -32,14 +32,14 @@
   </xsl:template>
 
   <xsl:template match="rdg">
-    <span class="flex-wrapper rdg font-it">
+    <span class="flex-wrapper font-it" style="display: inline-flex;">
       <xsl:apply-templates />
     </span>
     <i style="margin-right: 10px;"><xsl:value-of select="@wit" /></i>
   </xsl:template>
 
   <xsl:template match="note">
-    <span class="flex-wrapper font-it" style="margin-right: 10px; margin-left: 5px;">
+    <span class="flex-wrapper font-it" style="display: inline-flex; margin-right: 10px; margin-left: 5px;">
       <xsl:apply-templates />
     </span>
   </xsl:template>
