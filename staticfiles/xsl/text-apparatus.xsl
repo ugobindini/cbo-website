@@ -4,14 +4,16 @@
   <xsl:template match="teiHeader"/>
 
   <xsl:template match="app[@type='neume']">
-    
+    <xsl:apply-templates select="./lem/*" />
   </xsl:template>
 
   <xsl:template match="body">
     <xsl:if test=".//app[@type='text']">
       <p class="text-font font-bold">Critical apparatus (text)</p>
+      <div class="text-paragraph">
+        <xsl:apply-templates select=".//app[@type='text']" />
+      </div>
     </xsl:if>
-    <xsl:apply-templates select=".//app[@type='text']"/>
   </xsl:template>
 
   <xsl:template match="app[@type='text']">
