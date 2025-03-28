@@ -27,15 +27,7 @@
         </xsl:otherwise>
       </xsl:choose>
     </xsl:if>
-    <xsl:apply-templates select="./rdg" />
     <xsl:apply-templates select="./note" />
-  </xsl:template>
-
-  <xsl:template match="rdg">
-    <span class="flex-wrapper font-it" style="display: inline-flex;">
-      <xsl:apply-templates />
-    </span>
-    <i style="margin-right: 10px;"><xsl:value-of select="@wit" /></i>
   </xsl:template>
 
   <xsl:template match="note">
@@ -54,15 +46,11 @@
         <xsl:value-of select="normalize-space($text)"/>
         <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
       </span>
-      <span class="neumes non-selectable">
-        <span class="consonant-space"><xsl:value-of select="normalize-space($text)"/></span>
-        <xsl:for-each select="notatedMusic/neume">
-          <img class="neume-small">
-            <xsl:attribute name="src">/staticfiles/img/svg/<xsl:value-of select="@fontname"/><xsl:value-of select="@glyph.num"/>.svg</xsl:attribute>
-          </img>
-        </xsl:for-each>
-      </span>
     </span>
+  </xsl:template>
+
+  <xsl:template match="text()">
+    <xsl:value-of select="." />
   </xsl:template>
 
 </xsl:stylesheet>
