@@ -44,12 +44,6 @@
     </span>
   </xsl:template>
 
-  <xsl:template match="w">
-  <span class="word text-font">
-    <xsl:apply-templates/>
-  </span>
-  </xsl:template>
-
   <xsl:template match="seg[@type='syll']">
     <xsl:variable name="text"><xsl:value-of select="./text()"/></xsl:variable>
     <span class="syl-dash text-font">
@@ -69,7 +63,6 @@
         </xsl:for-each>
       </span>
     </span>
-
   </xsl:template>
 
 </xsl:stylesheet>
