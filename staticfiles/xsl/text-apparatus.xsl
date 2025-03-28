@@ -10,7 +10,7 @@
   <xsl:template match="body">
     <xsl:if test=".//app[@type='text']">
       <p class="text-font font-bold">Critical apparatus (text)</p>
-      <div class="text-paragraph">
+      <div class="flex-wrapper">
         <xsl:apply-templates select=".//app[@type='text']" />
       </div>
     </xsl:if>
@@ -35,14 +35,14 @@
   </xsl:template>
 
   <xsl:template match="rdg">
-    <span class="rdg font-it">
+    <span class="flex-wrapper rdg font-it">
       <xsl:apply-templates />
     </span>
     <i style="margin-right: 10px;"><xsl:value-of select="@wit" /></i>
   </xsl:template>
 
   <xsl:template match="note">
-    <span class="font-it" style="margin-right: 10px;">
+    <span class="flex-wrapper font-it" style="margin-right: 10px;">
       <xsl:apply-templates />
     </span>
   </xsl:template>

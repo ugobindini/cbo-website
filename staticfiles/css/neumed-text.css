@@ -104,7 +104,6 @@ p {
 }
 
 .neumed-syll {
-  /*vertical-align: bottom;*/
   display: inline-flex;
   flex-direction: column-reverse;
 }
@@ -236,6 +235,11 @@ p {
   border-width: 3px;
   padding: 8px;
   border-color: #f44336;
+}
+
+.flex-wrapper {
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 
