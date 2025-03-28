@@ -6,8 +6,10 @@
   <xsl:template match="body">
     <xsl:if test=".//app[@type='neume']">
       <p class="text-font font-bold">Critical apparatus (neumes)</p>
+      <div class="text-paragraph">
+        <xsl:apply-templates select=".//app[@type='neume']" />
+      </div>
     </xsl:if>
-    <xsl:apply-templates select=".//app[@type='neume']"/>
   </xsl:template>
 
   <xsl:template match="app[@type='neume']">

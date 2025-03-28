@@ -188,14 +188,12 @@ p {
 }
 
 .lem {
-  display: inline-block;
-  vertical-align: text-bottom;
+  display: inline-flex;
   line-height: 15px;
 }
 
 .rdg {
-  display: inline-block;
-  vertical-align: text-bottom;
+  display: inline-flex;
   line-height: 15px;
 }
 
