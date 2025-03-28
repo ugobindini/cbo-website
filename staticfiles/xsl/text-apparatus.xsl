@@ -51,7 +51,7 @@
     <span class="word text-font">
       <xsl:choose>
         <xsl:when test=".//seg[@type='syll']">
-          <xsl:apply-templates select=".//seg[@type='syll']"/>
+          <xsl:apply-templates />
         </xsl:when>
         <xsl:otherwise>
           <xsl:value-of select="."/>
