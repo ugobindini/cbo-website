@@ -38,7 +38,7 @@
         var glyphs = [];
         $.each(data, function(i, glyph) {
           id = parseInt(glyph.n)
-          glyphs.push("<span class='neume-span'><a href='neume_detail.html?n=" + id + "'><img src='img/svg/buranus" + id + ".svg'></a></span>");
+          glyphs.push("<span class='neume-span'><a href='/staticfiles/neume_detail.html?n=" + id + "'><img src='img/svg/buranus" + id + ".svg'></a></span>");
         });
 
         $( "<div />", {
