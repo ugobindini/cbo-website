@@ -31,7 +31,7 @@
   </xsl:template>
 
   <xsl:template match="note">
-    <span class="flex-wrapper font-it" style="display: inline-flex; margin-right: 10px; margin-left: 5px;">
+    <span class="flex-wrapper font-it" style="display: inline-flex; margin-right: 10px; margin-left: 5px; white-space: pre-wrap;">
       <xsl:apply-templates />
     </span>
   </xsl:template>
@@ -45,6 +45,14 @@
       <span class="syl-text text-font">
         <xsl:value-of select="normalize-space($text)"/>
         <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
+      </span>
+      <span class="neumes non-selectable">
+        <span class="consonant-space"><xsl:value-of select="normalize-space($text)"/></span>
+        <xsl:for-each select="notatedMusic/neume">
+          <img class="neume-small">
+            <xsl:attribute name="src">/staticfiles/img/svg/<xsl:value-of select="@fontname"/><xsl:value-of select="@glyph.num"/>.svg</xsl:attribute>
+          </img>
+        </xsl:for-each>
       </span>
     </span>
   </xsl:template>
