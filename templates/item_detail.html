@@ -22,18 +22,18 @@
 <div id="tei-display" class="cbo-text-frame cbo-border-inset cbo-border-sand">
   <div id="text-div" style="text-size: 16px;"></div>
   <hr/>
-  <div class="text-font font-small" id="text-app-div"></div>
+  <div class="text-paragraph text-font font-small" id="text-app-div"></div>
   <hr/>
-  <div class="text-font font-small" id="neume-app-div"></div>
+  <div class="text-paragraph text-font font-small" id="neume-app-div"></div>
 </div>
 
 <script type="text/javascript">
-    const filename = JSON.parse(document.getElementById('tei-file').textContent);
-    const tei_filename = 'tei'.concat('/', filename).concat('.', 'tei');
-    console.log(tei_filename);
-    displayXML("{% static 'xsl/text.xsl' %}", "/staticfiles".concat('/', tei_filename), "text-div");
-    displayXML("{% static 'xsl/text-apparatus.xsl' %}", "/staticfiles".concat('/', tei_filename), "text-app-div");
-    displayXML("{% static 'xsl/neume-apparatus.xsl' %}", "/staticfiles".concat('/', tei_filename), "neume-app-div");
+  const filename = JSON.parse(document.getElementById('tei-file').textContent);
+  const tei_filename = 'tei'.concat('/', filename).concat('.', 'tei');
+  console.log(tei_filename);
+  displayXML("{% static 'xsl/text.xsl' %}", "/staticfiles".concat('/', tei_filename), "text-div");
+  displayXML("{% static 'xsl/text-apparatus.xsl' %}", "/staticfiles".concat('/', tei_filename), "text-app-div");
+  displayXML("{% static 'xsl/neume-apparatus.xsl' %}", "/staticfiles".concat('/', tei_filename), "neume-app-div");
 </script>
 
 {% endblock %}

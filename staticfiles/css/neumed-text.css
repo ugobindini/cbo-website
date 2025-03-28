@@ -219,4 +219,25 @@ p {
   align-items: flex-end;
 }
 
+.neumes-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.neume-span {
+  display: inline;
+  height: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 10px;
+  margin: 2px;
+}
+
+.neume-span:hover {
+  border-width: 3px;
+  padding: 8px;
+  border-color: #f44336;
+}
+
 

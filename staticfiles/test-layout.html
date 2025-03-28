@@ -13,5 +13,20 @@
 <body>
   <h1>Neumes</h1>
 
-  <script src="javascript/neumes.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $.getJSON('json/buranus.json', function(data) {
+        var glyphs = [];
+        $.each(data, function(i, glyph) {
+          id = parseInt(glyph.n)
+          glyphs.push("<span class='neume-span'><a href='neume_detail.html?n=" + id + "'><img src='img/svg/buranus" + id + ".svg'></a></span>");
+        });
+
+        $( "<div />", {
+          "class": "neumes-container",
+          html: glyphs.join("")
+        }).appendTo("body");
+      });
+    });
+  </script>
 </body>

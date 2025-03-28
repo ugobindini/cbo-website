@@ -3,7 +3,7 @@ $(document).ready(function(){
     var glyphs = [];
     $.each(data, function(i, glyph) {
       id = parseInt(glyph.n) + 1
-      glyphs.push("<a><img src='img/svg/buranus" + id + ".svg'></a>");
+      glyphs.push("<a href='neume_detail.html?n=" + id + "'><img src='img/svg/buranus" + id + ".svg'></a>");
     });
 
     $( "<ul/>", {

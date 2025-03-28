@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/neumed-text.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div id="main"></div>
+
+  <script type="text/javascript">
+    async function displayXML(xsl, xml, id, n) {
+      console.log(xsl);
+      console.log(xml);
+      console.log(id);
+
+      const parser = new DOMParser();
+      const xsltProcessor = new XSLTProcessor();
+
+      // Load the XSLT file
+      const xslResponse = await fetch(xsl);
+      const xslText = await xslResponse.text();
+      const xslStylesheet = parser.parseFromString(xslText, "application/xml");
+      xsltProcessor.importStylesheet(xslStylesheet);
+
+      xsltProcessor.setParameter(null, "n", n);
+
+      // Load the XML file
+      const xmlResponse = await fetch(xml);
+      const xmlText = await xmlResponse.text();
+      const xmlDoc = parser.parseFromString(xmlText, "application/xml");
+
+      const fragment = xsltProcessor.transformToFragment(xmlDoc, document);
+
+      document.getElementById(id).textContent = "";
+      document.getElementById(id).appendChild(fragment);
+
+      // Set leading consonants
+      $(document).ready(function(){
+        $(".consonant-space").each(function() {
+          $(this).html($(this).html().split(/[aeiouAEIOUyYůöǒ].*/));
+        });
+      });
+    }
+  </script>
+<script type="text/javascript">
+  var url = new URL(window.location.href);
+  var n = url.searchParams.get("n");
+  console.log(n);
+
+  displayXML("xsl/neume_detail.xsl", "tei/CB227.tei", "main", n);
+</script>
+
+</body>
+</html>

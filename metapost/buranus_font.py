@@ -26,8 +26,8 @@ if __name__ == "__main__":
 	mp_file.close()
 
 	# Export to local and static .json file
-	for filename in ['buranus.json', '../staticfiles/javascript/json/buranus.json']:
+	for filename in ['buranus.json', '../staticfiles/json/buranus.json']:
 		json_file = open(filename, 'w')
-		json_file.write(json.dumps([glyph.json(n) for (n, glyph) in enumerate(GLYPHS)], indent=2))
+		json_file.write(json.dumps([glyph.json(n+1) for (n, glyph) in enumerate(GLYPHS)], indent=2))
 		json_file.close()
 
