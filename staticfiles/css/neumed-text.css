@@ -132,6 +132,10 @@ p {
   display: inline-flex;
 }
 
+.syl-dash {
+  display: inline-flex;
+}
+
 .verse-met,.verse-rhyme,.verse-real {
   display: flex;
   align-items: flex-end;
