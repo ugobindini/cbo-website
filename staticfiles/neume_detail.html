@@ -2,58 +2,99 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>CBO</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="css/neumed-text.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-
-  <div id="main"></div>
-
-  <script type="text/javascript">
-    async function displayXML(xsl, xml, id, n) {
-      console.log(xsl);
-      console.log(xml);
-      console.log(id);
-
-      const parser = new DOMParser();
-      const xsltProcessor = new XSLTProcessor();
-
-      // Load the XSLT file
-      const xslResponse = await fetch(xsl);
-      const xslText = await xslResponse.text();
-      const xslStylesheet = parser.parseFromString(xslText, "application/xml");
-      xsltProcessor.importStylesheet(xslStylesheet);
-
-      xsltProcessor.setParameter(null, "n", n);
-
-      // Load the XML file
-      const xmlResponse = await fetch(xml);
-      const xmlText = await xmlResponse.text();
-      const xmlDoc = parser.parseFromString(xmlText, "application/xml");
-
-      const fragment = xsltProcessor.transformToFragment(xmlDoc, document);
-
-      document.getElementById(id).textContent = "";
-      document.getElementById(id).appendChild(fragment);
-
-      // Set leading consonants
-      $(document).ready(function(){
-        $(".consonant-space").each(function() {
-          $(this).html($(this).html().split(/[aeiouAEIOUyYůöǒ].*/));
-        });
-      });
-    }
+  <script>
+     $(document).ready(function(){
+        $('#navbar').load("/staticfiles/html/navbar.html");
+        $('#header').load("/staticfiles/html/header.html");
+        $('#footer').load("/staticfiles/html/footer.html");
+     });
   </script>
+  <link rel="stylesheet" href="/staticfiles/css/style.css"/>
+  <link rel="stylesheet" href="/staticfiles/css/neumed-text.css"/>
+</head>
+<body>
+<div class="page-container">
+  <!-- Navbar (sit on top) -->
+  <div id="navbar" class="cbo-top" />
+
+  <!-- Header -->
+  <header class="cbo-display-container cbo-content cbo-wide" style="max-width: 1500px;" id="header" />
+
+  <div id="img" />
+
+  <p id="description"></p>
+
+  <div id="usage"></div>
+
+  <!-- Footer -->
+  <footer class="cbo-center cbo-black cbo-padding-16">
+
+  </footer>
+</div>
+
+<script type="text/javascript">
+  async function displayXML(xsl, xml, id, n) {
+    console.log(xsl);
+    console.log(xml);
+    console.log(id);
+
+    const parser = new DOMParser();
+    const xsltProcessor = new XSLTProcessor();
+
+    // Load the XSLT file
+    const xslResponse = await fetch(xsl);
+    const xslText = await xslResponse.text();
+    const xslStylesheet = parser.parseFromString(xslText, "application/xml");
+    xsltProcessor.importStylesheet(xslStylesheet);
+
+    xsltProcessor.setParameter(null, "n", n);
+
+    // Load the XML file
+    const xmlResponse = await fetch(xml);
+    const xmlText = await xmlResponse.text();
+    const xmlDoc = parser.parseFromString(xmlText, "application/xml");
+
+    const fragment = xsltProcessor.transformToFragment(xmlDoc, document);
+
+    document.getElementById(id).textContent = "";
+    document.getElementById(id).appendChild(fragment);
+
+    // Set leading consonants
+    $(document).ready(function(){
+      $(".consonant-space").each(function() {
+        $(this).html($(this).html().split(/[aeiouAEIOUyYůöǒ].*/));
+      });
+    });
+  }
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $.getJSON('json/buranus.json', function(data) {
+      var glyphs = [];
+      $.each(data, function(i, glyph) {
+        id = parseInt(glyph.n)
+        glyphs.push("<span class='neume-span'><a href='/staticfiles/neume_detail.html?n=" + id + "'><img src='img/svg/buranus" + id + ".svg'></a></span>");
+      });
+
+      $( "<div />", {
+        "class": "neumes-container",
+        html: glyphs.join("")
+      }).appendTo("#neumes");
+    });
+  });
+</script>
+
 <script type="text/javascript">
   var url = new URL(window.location.href);
   var n = url.searchParams.get("n");
   console.log(n);
 
-  displayXML("xsl/neume_detail.xsl", "tei/CB227.tei", "main", n);
+  displayXML("xsl/neume_detail.xsl", "tei/CB227.tei", "usage", n);
 </script>
 
 </body>
 </html>
+
