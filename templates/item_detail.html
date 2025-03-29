@@ -10,7 +10,7 @@
 <p>Source: <a href="{{ item.source.get_absolute_url }}">{{ item.source.bib_id }}</a> ({{ item.source.location }})</p>
 <p>Folio: {{ item.foliation_str }}.</p>
 
-{{ item.tei_file|json_script:"tei-file" }}
+{{ item.tei_path|json_script:"tei-path" }}
 
 <button id="stressedSyllablesButton">Highlight stressed syllables</button>
 <button id="showNeumesButton">Show neumes</button>
@@ -28,12 +28,11 @@
 </div>
 
 <script type="text/javascript">
-  const filename = JSON.parse(document.getElementById('tei-file').textContent);
-  const tei_filename = 'tei'.concat('/', filename).concat('.', 'tei');
-  console.log(tei_filename);
-  displayXML("{% static 'xsl/text.xsl' %}", "/staticfiles".concat('/', tei_filename), "text-div");
-  displayXML("{% static 'xsl/text-apparatus.xsl' %}", "/staticfiles".concat('/', tei_filename), "text-app-div");
-  displayXML("{% static 'xsl/neume-apparatus.xsl' %}", "/staticfiles".concat('/', tei_filename), "neume-app-div");
+  const tei_path = JSON.parse(document.getElementById('tei-path').textContent);
+  console.log(tei_path);
+  displayXML("{% static 'xsl/text.xsl' %}", "{% static 'tei/' %}".concat('/',  tei_path), "text-div");
+  displayXML("{% static 'xsl/text-apparatus.xsl' %}", "/staticfiles".concat('/', tei_path), "text-app-div");
+  displayXML("{% static 'xsl/neume-apparatus.xsl' %}", "/staticfiles".concat('/', tei_path), "neume-app-div");
 </script>
 
 {% endblock %}

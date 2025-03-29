@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Language, Author, Genre, Theme, TextType, TextTypeSpecification, Source, AbstractItem, Item
+from .models import Language, Author, Genre, Theme, TextType, TextTypeSpecification, Source, AbstractItem, Item, Neume
 
 
 class SourceAdmin(admin.ModelAdmin):
@@ -36,3 +36,4 @@ admin.site.register(TextTypeSpecification)
 admin.site.register(Source, SourceAdmin)
 admin.site.register(AbstractItem, AbstractItemAdmin)
 admin.site.register(Item, ItemAdmin)
+admin.site.register(Neume)

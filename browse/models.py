@@ -259,3 +259,20 @@ class Item(models.Model):
     def get_absolute_url(self):
         """Returns the URL to access a particular instance of the model."""
         return reverse('item-detail', args=[str(self.pk)])
+
+    @property
+    def tei_path(self):
+        return self.tei_file + ".tei"
+
+
+class Neume(models.Model):
+    n = models.IntegerField()
+    description = models.CharField(max_length=200, help_text="Description of the glyph.")
+
+    @property
+    def svg_path(self):
+        return "buranus" + self.n + ".svg"
+
+    def get_absolute_url(self):
+        """Returns the URL to access a particular instance of the model."""
+        return reverse('neume-detail', args=[str(self.pk)])
