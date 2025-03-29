@@ -5,3 +5,5 @@
   {% endfor %}
 </div>
 {% else %}
+<p>In preparation</p>
+{% endif %}
