@@ -31,8 +31,8 @@
   const tei_path = JSON.parse(document.getElementById('tei-path').textContent);
   console.log(tei_path);
   displayXML("{% static 'xsl/text.xsl' %}", "{% static 'tei/' %}".concat('/',  tei_path), "text-div");
-  displayXML("{% static 'xsl/text-apparatus.xsl' %}", "/staticfiles".concat('/', tei_path), "text-app-div");
-  displayXML("{% static 'xsl/neume-apparatus.xsl' %}", "/staticfiles".concat('/', tei_path), "neume-app-div");
+  displayXML("{% static 'xsl/text-apparatus.xsl' %}", "{% static 'tei/' %}".concat('/', tei_path), "text-app-div");
+  displayXML("{% static 'xsl/neume-apparatus.xsl' %}", "{% static 'tei/' %}".concat('/', tei_path), "neume-app-div");
 </script>
 
 {% endblock %}
