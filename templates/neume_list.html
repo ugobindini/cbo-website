@@ -6,6 +6,14 @@
 
 <h1>Neume List</h1>
 
-<p>In preparation...</p>
+{% if neume_list %}
+<div class="flex-wrapper">
+  {% for neume in neume_list %}
+  <a href="{{ neume.get_absolute_url }}"><span class="neume-span"><img src="{% static 'svg/' %}{{ neume.svg_path }}"></span></a>
+  {% endfor %}
+</div>
+{% else %}
+<p>In preparation</p>
+{% endif %}
 
 {% endblock %}

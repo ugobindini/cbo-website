@@ -269,9 +269,14 @@ class Neume(models.Model):
     n = models.IntegerField()
     description = models.CharField(max_length=200, help_text="Description of the glyph.")
 
+    def __str__(self):
+        """String for representing the Model object (in Admin site etc.)"""
+        res = f"{self.n} {self.description}"
+        return res
+
     @property
     def svg_path(self):
-        return "buranus" + self.n + ".svg"
+        return f"buranus{self.n}.svg"
 
     def get_absolute_url(self):
         """Returns the URL to access a particular instance of the model."""
