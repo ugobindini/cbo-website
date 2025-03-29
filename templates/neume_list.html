@@ -1,7 +1,11 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
+
+{% load static %}
+
 <h1>Neume List</h1>
+
 {% if neume_list %}
 <div class="flex-wrapper">
   {% for neume in neume_list %}
@@ -9,6 +13,9 @@
   {% endfor %}
 </div>
 {% else %}
+
 <p>In preparation...</p>
+
 {% endif %}
+
 {% endblock %}
