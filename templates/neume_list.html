@@ -9,7 +9,7 @@
 {% if neume_list %}
 <div class="neumes-container">
   {% for neume in neume_list %}
-  <a href="{{ neume.get_absolute_url }}"><span class="neume-span"><img src="{% static 'img/svg/' %}{{ neume.svg_path }}"></span></a>
+  <span class="neume-span"><a href="{{ neume.get_absolute_url }}"><img src="{% static 'img/svg/' %}{{ neume.svg_path }}"></a></span>
   {% endfor %}
 </div>
 {% else %}
