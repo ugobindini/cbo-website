@@ -214,9 +214,5 @@
     </span>
   </xsl:template>
 
-  <xsl:template match="text()">
-    <xsl:value-of select="." />
-  </xsl:template>
-
 </xsl:stylesheet>
 
