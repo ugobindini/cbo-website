@@ -265,7 +265,7 @@ class Item(models.Model):
     def tei_path(self):
         import os
         from django.conf import settings
-        return os.path.join(os.path.join(settings.STATIC_URL, 'tei'), self.tei_file + ".tei")
+        return os.path.join(os.path.join(settings.STATIC_ROOT, 'tei'), self.tei_file + ".tei")
 
     def transform(self, xsl_file):
         # Given the xsl file (only filename, no path), transforms item's tei file
