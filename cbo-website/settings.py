@@ -116,7 +116,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 # STATIC_ROOT = os.path.join(BASE_DIR, "static") # uncomment for local servering
-# STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles") # uncomment for pythonanywhere
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles") # uncomment for pythonanywhere
 STATIC_URL = 'staticfiles/'
 # STATICFILES_DIRS = (os.path.join(BASE_DIR, "staticfiles"), ) # uncomment for local servering
 
