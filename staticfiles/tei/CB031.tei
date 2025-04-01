@@ -148,7 +148,7 @@
                   </seg>
                 </w>
               </lem>
-              <rdg wit="ms V">
+              <rdg wit="cod V">
                 <w>et</w>
               </rdg>
               <rdg wit="W">
@@ -777,7 +777,7 @@
               </seg>
             </w>
             <app type="text">
-              <lem wit="ms HS W T">
+              <lem wit="cod HS W T">
                 <w>
                   <seg type="syll" part="I">per<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi"></neume>
@@ -805,7 +805,7 @@
           </l>
           <l n="8">
             <app type="text">
-              <lem wit="ms HS W T">
+              <lem wit="cod HS W T">
                 <w>
                   <seg type="syll">ne<notatedMusic>
                       <neume fontname="buranus" glyph.num="1" label="pu"></neume>
@@ -965,7 +965,7 @@
                     </seg>
                   </w>
                 </lem>
-                <rdg wit="ms HS">
+                <rdg wit="cod HS">
                   <w>non</w>
                 </rdg>
               </app>
@@ -1035,7 +1035,7 @@
                   </seg>
                 </w>
               </lem>
-              <rdg wit="ms">
+              <rdg wit="cod">
                 <w>vestra</w>
               </rdg>
             </app>
@@ -1176,7 +1176,7 @@
                     </seg>
                   </w>
                 </lem>
-                <rdg wit="ms">
+                <rdg wit="cod">
                   <w>Diane</w>
                 </rdg>
               </app>
@@ -1648,7 +1648,7 @@
                   </seg>
                 </w>
               </lem>
-              <rdg wit="ms">
+              <rdg wit="cod">
                 <w>servierit</w>
               </rdg>
             </app>
@@ -1699,7 +1699,7 @@
                   </seg>
                 </w>
               </lem>
-              <rdg wit="ms">
+              <rdg wit="cod">
                 <w>Irę</w>
               </rdg>
             </app>
@@ -1911,7 +1911,7 @@
               </seg>
             </w>
             <app type="text">
-              <lem wit="ms V">
+              <lem wit="cod V">
                 <w>
                   <seg type="syll">ab<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi"></neume>
@@ -1973,7 +1973,7 @@
         <lg type="strophe" n="VIII">
           <l n="1">
             <app type="text">
-              <lem wit="ms V">
+              <lem wit="cod V">
                 <w>
                   <seg type="syll" part="I">Re<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi"></neume>
@@ -2038,7 +2038,7 @@
                 <rdg wit="HS V W T">
                   <w>Sy(i)nonis</w>
                 </rdg>
-                <rdg wit="ms">
+                <rdg wit="cod">
                   <w>Symonis</w>
                 </rdg>
               </app>
@@ -2204,7 +2204,7 @@
               </seg>
             </w>
             <app type="text">
-              <lem wit="ms V T">
+              <lem wit="cod V T">
                 <w>
                   <seg type="syll" part="I">fu<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi"></neume>
@@ -2443,7 +2443,7 @@
           </l>
           <l n="6">
             <app type="text">
-              <lem wit="ms V">
+              <lem wit="cod V">
                 <w>
                   <seg type="syll">que<notatedMusic>
                       <neume fontname="buranus" glyph.num="1" label="pu"></neume>

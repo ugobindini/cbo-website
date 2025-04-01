@@ -213,9 +213,14 @@
               </rhyme>
             </seg>
             <seg type="hemistich" met="7p" rhyme="b">
-              <w>
-                <seg type="syll">nos</seg>
-              </w>
+              <app type="text">
+                <lem wit="HS V T">
+                  <w>
+                    <seg type="syll">nos</seg>
+                  </w>
+                </lem>
+                <rdg wit="cod"><w>non</w></rdg>
+              </app>
               <w>
                 <seg type="syll" part="I">ces</seg>
                 <seg type="syll" part="F">sat</seg>
@@ -252,9 +257,14 @@
               </rhyme>
             </seg>
             <seg type="hemistich" met="7p" rhyme="b">
-              <w>
-                <seg type="syll">que</seg>
-              </w>
+              <app type="text">
+                <lem wit="cod V">
+                  <w>
+                    <seg type="syll">que</seg>
+                  </w>
+                </lem>
+                <rdg wit="HS T"><w>quem</w></rdg>
+              </app>
               <w>
                 <seg type="syll" part="I">pa</seg>
                 <seg type="syll" part="M">ti</seg>
@@ -403,10 +413,10 @@
                     <seg type="syll" part="F">tur</seg>
                   </w>
                 </lem>
-                <rdg wit="ms">
+                <rdg wit="cod">
                   <w>pellantes</w>
                 </rdg>
-                <rdg wit="V">
+                <rdg wit="V T">
                   <w>pellamus</w>
                 </rdg>
               </app>
@@ -608,10 +618,10 @@
                     <seg type="syll" part="F">tur</seg>
                   </w>
                 </lem>
-                <rdg wit="ms">
+                <rdg wit="cod">
                   <w>immuterentur</w>
                 </rdg>
-                <rdg wit="HS V">
+                <rdg wit="HS V T">
                   <w>immutarentur</w>
                 </rdg>
               </app>
@@ -837,10 +847,10 @@
                   <seg type="syll" part="F">sent</seg>
                 </w>
               </lem>
-              <rdg wit="ms V">
+              <rdg wit="cod V">
                 <w>recenssent</w>
               </rdg>
-              <rdg wit="HS">
+              <rdg wit="HS T">
                 <w>recensens</w>
               </rdg>
             </app>
@@ -939,15 +949,13 @@
                 <seg type="syll">tunc</seg>
               </w>
               <app type="text">
-                <lem wit="HS">
+                <lem wit="HS T">
                   <w>
                     <seg type="syll" part="I">can</seg>
                     <seg type="syll" part="F">tus</seg>
                   </w>
                 </lem>
-                <rdg wit="ms V">
-                  <w>canctus</w>
-                </rdg>
+                <rdg wit="cod V"><w>canctus</w></rdg>
               </app>
               <app type="text">
                 <lem>
@@ -957,12 +965,8 @@
                     <seg type="syll" part="F">chrum</seg>
                   </w>
                 </lem>
-                <rdg wit="HS">
-                  <w>volucrum</w>
-                </rdg>
-                <rdg wit="ms V">
-                  <w>volucrhum</w>
-                </rdg>
+                <rdg wit="HS T"><w>volucrum</w></rdg>
+                <rdg wit="cod V"><w>volucrhum</w></rdg>
               </app>
             </seg>
             <seg type="hemistich" met="7p" rhyme="b">
@@ -996,7 +1000,7 @@
                 <seg type="syll" part="F">ris</seg>
               </w>
               <app type="text">
-                <lem wit="V">
+                <lem wit="V T">
                   <w>
                     <seg type="syll" part="I">pre</seg>
                     <seg type="syll" part="M">co</seg>
@@ -1004,12 +1008,8 @@
                     <seg type="syll" part="F">a?</seg>
                   </w>
                 </lem>
-                <rdg wit="ms">
-                  <w>precordia</w>
-                </rdg>
-                <rdg wit="HS">
-                  <w>presentia</w>
-                </rdg>
+                <rdg wit="cod"><w>precordia</w></rdg>
+                <rdg wit="HS"><w>presentia</w></rdg>
               </app>
             </seg>
             <seg type="hemistich" met="7p" rhyme="b">
@@ -1121,12 +1121,9 @@
                   <seg type="syll" part="F" met="+">lich</seg>
                 </w>
               </lem>
-              <rdg wit="ms">
-                <w>wnnechclich</w>
-              </rdg>
-              <rdg wit="HS V">
-                <w>wunnechclich</w>
-              </rdg>
+              <rdg wit="cod"><w>wnnechclich</w></rdg>
+              <rdg wit="HS V"><w>wunnechclich</w></rdg>
+              <rdg wit="T"><w>wünnechlîch</w></rdg>
             </app>
             <rhyme label="a">
               <w>
@@ -1139,11 +1136,11 @@
             <seg type="hemistich" met="4">
               <w>
                 <seg type="syll" part="I" met="+">Tan</seg>
-                <seg type="syll" part="F">zen</seg>
+                <seg type="syll" part="F">zen,</seg>
               </w>
               <w>
                 <seg type="syll" part="I" met="+">rei</seg>
-                <seg type="syll" part="F">en</seg>
+                <seg type="syll" part="F">en,</seg>
               </w>
               <w>
                 <seg type="syll" part="I" met="+">sprin</seg>

@@ -382,7 +382,7 @@
               <seg type="syll">nix</seg>
             </w>
             <app type="text">
-              <lem wit="HS">
+              <lem wit="HS T">
                 <w>
                   <seg type="syll">et</seg>
                 </w>
@@ -392,7 +392,7 @@
                   <seg type="syll" part="F">ra,</seg>
                 </w>
               </lem>
-              <rdg wit="ms">
+              <rdg wit="cod">
                 <w>et</w>
                 <w>ethera</w>
               </rdg>
@@ -400,6 +400,7 @@
                 <w>et</w>
                 <w>cethera</w>
               </rdg>
+              <note><w>cethera</w>, c- eras. et corr. <w>ethera</w> man. r.?</note>
             </app>
           </l>
           <l n="3" met="4p+4p" rhyme="a1+a1">
@@ -423,7 +424,7 @@
                 <seg type="syll">iam</seg>
               </w>
               <app type="text">
-                <lem wit="HS V">
+                <lem wit="HS V T">
                   <rhyme label="a1">
                     <w>
                       <seg type="syll" part="I" met="+">su</seg>
@@ -431,7 +432,7 @@
                     </w>
                   </rhyme>
                 </lem>
-                <rdg wit="ms">
+                <rdg wit="cod">
                   <w>surgit</w>
                 </rdg>
               </app>
@@ -856,27 +857,17 @@
                 </notatedMusic>
               </seg>
             </w>
-            <app type="text">
-              <lem wit="HS V">
-                <w>
-                  <seg type="syll" part="I">er<notatedMusic>
-                      <neume fontname="buranus" glyph.num="45" label="cl"></neume>
-                    </notatedMusic>
-                  </seg>
-                  <seg type="syll" part="M" met="+">zei<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi"></neume>
-                    </notatedMusic>
-                  </seg>
-                  <seg type="syll" part="F">ge</seg>
-                </w>
-              </lem>
-              <rdg wit="ms">
-              ex <w>erheigeı</w>
-              </rdg>
-              <note>
-              The scribe wrote initially <w>erheige</w> with a stem after the last 'e', which he didn't correct, but added a stroke to transform the 'h' into a 'z'.
-            </note>
-            </app>
+            <w>
+              <seg type="syll" part="I">er<notatedMusic>
+                  <neume fontname="buranus" glyph.num="45" label="cl"></neume>
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M" met="+">zei<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi"></neume>
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ge</seg>
+            </w>
             <w>
               <seg type="syll" part="I" met="+">i<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi"></neume>

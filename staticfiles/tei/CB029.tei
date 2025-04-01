@@ -8,47 +8,67 @@
           <l n="2">et luto luxurie</l>
           <l n="3">volveris, inutile</l>
           <l n="4">tempus perdens, Panphile!</l>
-          <l n="5">Cur offensas numinum</l>
+          <l n="5">Cur offensas <app type="text">
+              <lem wit="HS V W T">numinum</lem>
+              <rdg wit="cod"><w>minimum</w></rdg>
+            </app></l>
           <l n="6">aut derisum hominum</l>
           <l n="7">non metuis,</l>
           <l n="8">dum destruis</l>
-          <l n="9">corpus, rem et animam?</l>
+          <l n="9"><app type="text">
+              <lem wit="HS V W T">corpus, rem et</lem>
+              <rdg wit="cod"><w>corpus</w><w>et</w><w>rem</w></rdg>
+            </app> animam?</l>
           <l n="10">Salva saltem ultimam</l>
           <l n="11">vite portiunculam,</l>
           <l n="12">offerens celestibus</l>
-          <l n="13">pro iuvente floribus</l>
+          <l n="13">pro <app type="text">
+            <lem wit="HS W T">iuvente</lem>
+            <rdg wit="cod"><w>iuventutis</w> p. corr. ex <w>iuventute</w> ut vid.</rdg>
+            <rdg wit="V"><w>iuventutis</w></rdg>
+          </app> floribus</l>
           <l n="14">senectutis stipulam!</l>
         </lg>
         <lg type="strophe" n="II">
           <l n="1">Forsan ludo Veneris</l>
-          <l n="2">ultra vires ureris,</l>
+          <l n="2">ultra vires ureris</l>
           <l n="3">ut amoris tedium</l>
           <l n="4">tibi sit remedium.</l>
           <l n="5">Sed si te medullitus</l>
           <l n="6">exsiccatum penitus</l>
-          <l n="7">exhaurias,</l>
+          <l n="7">exhaurias</l>
           <l n="8">ut febrias,</l>
-          <l n="9">nichil tamen proficis,</l>
+          <l n="9">nichil tamen proficis</l>
           <l n="10">dum ad tempus deficis;</l>
           <l n="11">nam insurget artius</l>
-          <l n="12">Ydra multiplicior,</l>
+          <l n="12">Ydra multiplicior</l>
           <l n="13">et post casum fortior</l>
           <l n="14">surget Terre filius.</l>
         </lg>
         <lg type="strophe" n="III">
-          <l n="1">Et stes pede stabili</l>
+          <l n="1"><app type="text">
+            <lem wit="HS W T">Ut</lem>
+            <rdg wit="cod V"><w>Et</w></rdg>
+          </app> stes pede stabili</l>
           <l n="2">sine casu facili,</l>
           <l n="3">cave precipicium,</l>
           <l n="4">devitando vitium.</l>
-          <l n="5">set si te vexaverit</l>
+          <l n="5">Set si te vexaverit</l>
           <l n="6">aut si comprehenderit</l>
-          <l n="7">Egiptia,</l>
+          <l n="7"><app type="text">
+            <lem wit="V">Egiptia,</lem>
+            <rdg wit="HS"><w>Egyptia</w></rdg>
+            <rdg wit="cod HS"><w>egiptiaca</w></rdg>
+          </app></l>
           <l n="8">mox pallia</l>
-          <l n="9">fugitivus desere,</l>
+          <l n="9">fugitivus desere</l>
           <l n="10">nec lucteris temere;</l>
-          <l n="11">nam resistens vincitur</l>
+          <l n="11">nam resistens <app type="text">
+            <lem wit="HS V W T"><w>vincitur</w></lem>
+            <rdg wit="cod."><w>vincit</w> ut vid.</rdg>
+          </app></l>
           <l n="12">in hoc belli genere,</l>
-          <l n="13">et qui novit cedere,</l>
+          <l n="13">et qui novit cedere</l>
           <l n="14">fugiendo fugitur.</l>
         </lg>
       </div>

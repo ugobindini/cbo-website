@@ -518,7 +518,7 @@
             </w>
             <rhyme label="a">
               <app type="text">
-                <lem wit="ms V">
+                <lem wit="cod V">
                   <w>
                     <seg type="syll" part="I" met="+">ag<notatedMusic>
                         <neume fontname="buranus" glyph.num="15" label="vi)su1"></neume>
@@ -555,7 +555,7 @@
                   </seg>
                 </w>
               </lem>
-              <rdg wit="ms V">
+              <rdg wit="cod V">
                 <w>summa</w>
               </rdg>
             </app>

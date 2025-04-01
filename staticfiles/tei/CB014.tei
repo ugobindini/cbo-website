@@ -137,7 +137,7 @@
             </seg>
             <seg type="hemistich">
               <app type="text">
-                <lem wit="ms V">
+                <lem wit="cod V">
                   <w>
                     <seg type="syll" part="I">pa<notatedMusic>
                         <neume fontname="buranus" glyph.num="1" label="pu"></neume>
@@ -317,7 +317,7 @@
             </seg>
             <seg type="hemistich">
               <app type="text">
-                <lem wit="ms V">
+                <lem wit="cod V">
                   <w>
                     <seg type="syll" part="I">tan<notatedMusic>
                         <neume fontname="buranus" glyph.num="1" label="pu"></neume>
@@ -1002,7 +1002,7 @@
           <l n="2">
             <seg type="hemistich">
               <app type="text">
-                <lem wit="ms HS T">
+                <lem wit="cod HS T">
                   <w>
                     <seg type="syll">cur<notatedMusic>
                         <neume fontname="buranus" glyph.num="7" label="vi)"></neume>
@@ -1073,7 +1073,7 @@
                   <w>tunc</w>
                   <w>nobilis</w>
                 </rdg>
-                <rdg wit="ms">
+                <rdg wit="cod">
                   <w>Troiarum</w>
                   <w>nobiles</w>
                 </rdg>
@@ -1144,7 +1144,7 @@
                     </seg>
                   </w>
                 </lem>
-                <rdg wit="ms">
+                <rdg wit="cod">
                   <w>qui</w>
                 </rdg>
               </app>
@@ -1195,7 +1195,7 @@
                     </seg>
                   </w>
                 </lem>
-                <rdg wit="ms">
+                <rdg wit="cod">
                   <w>gratia</w>
                 </rdg>
               </app>
@@ -1258,7 +1258,7 @@
                     </seg>
                   </w>
                 </lem>
-                <rdg wit="ms">
+                <rdg wit="cod">
                   <w>facundia</w>
                 </rdg>
               </app>
@@ -1327,7 +1327,7 @@
                 </seg>
               </w>
               <app type="text">
-                <lem wit="ms">
+                <lem wit="cod">
                   <w>
                     <seg type="syll" part="I">lu<notatedMusic>
                         <neume fontname="buranus" glyph.num="6" label="vi"></neume>

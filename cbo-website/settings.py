@@ -115,9 +115,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles") # change to 'staticfiles' and (possibly?) comment line 120 for deploying on pythonanywhere
+STATIC_ROOT = os.path.join(BASE_DIR, "static") # uncomment for local servering
+# STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles") # uncomment for pythonanywhere
 STATIC_URL = 'staticfiles/'
-#STATICFILES_DIRS = (os.path.join(BASE_DIR, "staticfiles"), )
+STATICFILES_DIRS = (os.path.join(BASE_DIR, "staticfiles"), ) # uncomment for local servering
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field

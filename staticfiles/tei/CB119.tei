@@ -387,7 +387,7 @@
               </seg>
             </w>
             <app type="text">
-              <lem wit="ms V T">
+              <lem wit="cod V T">
                 <w>
                   <seg type="syll" part="I">ex<notatedMusic>
                       <neume fontname="buranus" glyph.num="1" label="pu"></neume>
@@ -514,7 +514,7 @@
               </seg>
             </w>
             <app type="text">
-              <lem wit="ms V T">
+              <lem wit="cod V T">
                 <w>
                   <seg type="syll" part="I">flo<notatedMusic>
                       <neume fontname="buranus" glyph.num="1" label="pu"></neume>
@@ -568,7 +568,7 @@
               </seg>
             </w>
             <app type="text">
-              <lem wit="ms V T">
+              <lem wit="cod V T">
                 <w>
                   <seg type="syll" part="I">red<notatedMusic>
                       <neume fontname="buranus" glyph.num="45" label="cl"></neume>
@@ -633,7 +633,7 @@
               </seg>
             </w>
             <app type="text">
-              <lem wit="ms V T">
+              <lem wit="cod V T">
                 <w>
                   <seg type="syll" part="I">pi<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi"></neume>
@@ -809,7 +809,7 @@
               </seg>
             </w>
             <app type="text">
-              <lem wit="ms V">
+              <lem wit="cod V">
                 <w>
                   <seg type="syll" part="I">pi<notatedMusic>
                       <neume fontname="buranus" glyph.num="1" label="pu"></neume>
@@ -860,7 +860,7 @@
           </l>
           <l n="3" met="10pp" rhyme="a">
             <app type="text">
-              <lem wit="ms V">
+              <lem wit="cod V">
                 <w>
                   <seg type="syll">Ut<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi"></neume>
@@ -1048,7 +1048,7 @@
                   </seg>
                 </w>
               </lem>
-              <rdg wit="ms">
+              <rdg wit="cod">
                 <w>flammia</w>
               </rdg>
               <note>-i- exp.</note>
@@ -1066,7 +1066,7 @@
                   </seg>
                 </w>
               </lem>
-              <rdg wit="ms">
+              <rdg wit="cod">
                 <w>calet</w>
               </rdg>
             </app>
@@ -1177,7 +1177,7 @@
                   </seg>
                 </w>
               </lem>
-              <rdg wit="ms V">
+              <rdg wit="cod V">
                 <w>ungent</w>
               </rdg>
             </app>
@@ -1213,7 +1213,7 @@
                   </app>
                 </w>
               </lem>
-              <rdg wit="ms HS V">
+              <rdg wit="cod HS V">
                 <w>quando</w>
               </rdg>
             </app>
