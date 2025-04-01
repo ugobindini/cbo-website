@@ -3,39 +3,39 @@
     <encodingDesc>
       <charDecl>
         <char xml:id="ae">
-          <localProp name="Name" value="Latin a with small e above"></localProp>
-          <localProp name="entity" value="ae"></localProp>
-          <mapping type="composed">aͤ</mapping>
+          <localProp name="Name" value="Latin a with small e above" />
+          <localProp name="entity" value="ae" />
+          <mapping type="composed">a&#868;</mapping>
           <mapping type="PUA">U+E42C</mapping>
         </char>
         <char xml:id="oe">
-          <localProp name="Name" value="Latin o with small e above"></localProp>
-          <localProp name="entity" value="oe"></localProp>
-          <mapping type="composed">oͤ</mapping>
+          <localProp name="Name" value="Latin o with small e above" />
+          <localProp name="entity" value="oe" />
+          <mapping type="composed">o&#868;</mapping>
           <mapping type="PUA">U+E644</mapping>
         </char>
         <char xml:id="ov">
-          <localProp name="Name" value="Latin o with small v above"></localProp>
-          <localProp name="entity" value="ov"></localProp>
-          <mapping type="composed">oͮ</mapping>
+          <localProp name="Name" value="Latin o with small v above" />
+          <localProp name="entity" value="ov" />
+          <mapping type="composed">o&#878;</mapping>
           <mapping type="PUA">U+E647</mapping>
         </char>
         <char xml:id="ou">
-          <localProp name="Name" value="Latin o with small u above"></localProp>
-          <localProp name="entity" value="ou"></localProp>
-          <mapping type="composed">oͧ</mapping>
+          <localProp name="Name" value="Latin o with small u above" />
+          <localProp name="entity" value="ou" />
+          <mapping type="composed">o&#871;</mapping>
           <mapping type="PUA">U+E646</mapping>
         </char>
         <char xml:id="ue">
-          <localProp name="Name" value="Latin u with small e above"></localProp>
-          <localProp name="entity" value="ue"></localProp>
-          <mapping type="composed">uͤ</mapping>
+          <localProp name="Name" value="Latin u with small e above" />
+          <localProp name="entity" value="ue" />
+          <mapping type="composed">u&#868;</mapping>
           <mapping type="PUA">U+E72B</mapping>
         </char>
         <char xml:id="uo">
-          <localProp name="Name" value="Latin u with small o above"></localProp>
-          <localProp name="entity" value="uo"></localProp>
-          <mapping type="composed">uͦ</mapping>
+          <localProp name="Name" value="Latin u with small o above" />
+          <localProp name="entity" value="uo" />
+          <mapping type="composed">u&#870;</mapping>
           <mapping type="PUA">U+E72D</mapping>
         </char>
       </charDecl>
@@ -49,41 +49,41 @@
             <seg type="hemistich" met="8pp">
               <w>
                 <seg type="syll" part="I">Ter<notatedMusic>
-                    <neume fontname="buranus" glyph.num="1" label="pu"></neume>
+                    <neume fontname="buranus" glyph.num="1" label="pu" />
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="F">ra<notatedMusic>
-                    <neume fontname="buranus" glyph.num="6" label="vi"></neume>
+                    <neume fontname="buranus" glyph.num="6" label="vi" />
                   </notatedMusic>
                 </seg>
               </w>
               <w>
                 <seg type="syll">iam<notatedMusic>
-                    <neume fontname="buranus" glyph.num="6" label="vi"></neume>
+                    <neume fontname="buranus" glyph.num="6" label="vi" />
                   </notatedMusic>
                 </seg>
               </w>
               <w>
                 <seg type="syll" part="I">pan<notatedMusic>
-                    <neume fontname="buranus" glyph.num="45" label="cl"></neume>
+                    <neume fontname="buranus" glyph.num="45" label="cl" />
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="F">dit<notatedMusic>
-                    <neume fontname="buranus" glyph.num="6" label="vi"></neume>
+                    <neume fontname="buranus" glyph.num="6" label="vi" />
                   </notatedMusic>
                 </seg>
               </w>
               <w>
                 <seg type="syll" part="I" met="+">gre<notatedMusic>
-                    <neume fontname="buranus" glyph.num="1" label="pu"></neume>
+                    <neume fontname="buranus" glyph.num="1" label="pu" />
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="M">mi<notatedMusic>
-                    <neume fontname="buranus" glyph.num="6" label="vi"></neume>
+                    <neume fontname="buranus" glyph.num="6" label="vi" />
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="F">um<notatedMusic>
-                    <neume fontname="buranus" glyph.num="6" label="vi"></neume>
+                    <neume fontname="buranus" glyph.num="6" label="vi" />
                   </notatedMusic>
                 </seg>
               </w>
@@ -91,34 +91,34 @@
             <seg type="hemistich" met="7p" rhyme="a">
               <w>
                 <seg type="syll" part="I">ver<notatedMusic>
-                    <neume fontname="buranus" glyph.num="1" label="pu"></neume>
+                    <neume fontname="buranus" glyph.num="1" label="pu" />
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="M">na<notatedMusic>
-                    <neume fontname="buranus" glyph.num="6" label="vi"></neume>
+                    <neume fontname="buranus" glyph.num="6" label="vi" />
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="F">li<notatedMusic>
-                    <neume fontname="buranus" glyph.num="1" label="pu"></neume>
+                    <neume fontname="buranus" glyph.num="1" label="pu" />
                   </notatedMusic>
                 </seg>
               </w>
               <rhyme label="a">
                 <w>
                   <seg type="syll" part="I">le<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi"></neume>
+                      <neume fontname="buranus" glyph.num="6" label="vi" />
                     </notatedMusic>
                   </seg>
                   <seg type="syll" part="M">ni<notatedMusic>
-                      <neume fontname="buranus" glyph.num="1" label="pu"></neume>
+                      <neume fontname="buranus" glyph.num="1" label="pu" />
                     </notatedMusic>
                   </seg>
                   <seg type="syll" part="M" met="+">ta<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi"></neume>
+                      <neume fontname="buranus" glyph.num="6" label="vi" />
                     </notatedMusic>
                   </seg>
                   <seg type="syll" part="F">te,<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi"></neume>
+                      <neume fontname="buranus" glyph.num="6" label="vi" />
                     </notatedMusic>
                   </seg>
                 </w>
@@ -219,9 +219,7 @@
                     <seg type="syll">nos</seg>
                   </w>
                 </lem>
-                <rdg wit="cod">
-                  <w>non</w>
-                </rdg>
+                <rdg wit="cod"><w>non</w></rdg>
               </app>
               <w>
                 <seg type="syll" part="I">ces</seg>
@@ -265,9 +263,7 @@
                     <seg type="syll">que</seg>
                   </w>
                 </lem>
-                <rdg wit="HS T">
-                  <w>quem</w>
-                </rdg>
+                <rdg wit="HS T"><w>quem</w></rdg>
               </app>
               <w>
                 <seg type="syll" part="I">pa</seg>
@@ -417,12 +413,8 @@
                     <seg type="syll" part="F">tur</seg>
                   </w>
                 </lem>
-                <rdg wit="cod">
-                  <w>pellantes</w>
-                </rdg>
-                <rdg wit="V T">
-                  <w>pellamus</w>
-                </rdg>
+                <rdg wit="cod"><w>pellantes</w></rdg>
+                <rdg wit="V T"><w>pellamus</w></rdg>
               </app>
               <w>
                 <seg type="syll" part="I">nu</seg>
@@ -622,12 +614,8 @@
                     <seg type="syll" part="F">tur</seg>
                   </w>
                 </lem>
-                <rdg wit="cod">
-                  <w>immuterentur</w>
-                </rdg>
-                <rdg wit="HS V T">
-                  <w>immutarentur</w>
-                </rdg>
+                <rdg wit="cod"><w>immuterentur</w></rdg>
+                <rdg wit="HS V T"><w>immutarentur</w></rdg>
               </app>
               <rhyme label="b">
                 <w>
@@ -851,12 +839,8 @@
                   <seg type="syll" part="F">sent</seg>
                 </w>
               </lem>
-              <rdg wit="cod V">
-                <w>recenssent</w>
-              </rdg>
-              <rdg wit="HS T">
-                <w>recensens</w>
-              </rdg>
+              <rdg wit="cod V"><w>recenssent</w></rdg>
+              <rdg wit="HS T"><w>recensens</w></rdg>
             </app>
             <rhyme label="a">
               <w>
@@ -959,9 +943,7 @@
                     <seg type="syll" part="F">tus</seg>
                   </w>
                 </lem>
-                <rdg wit="cod V">
-                  <w>canctus</w>
-                </rdg>
+                <rdg wit="cod V"><w>canctus</w></rdg>
               </app>
               <app type="text">
                 <lem>
@@ -971,12 +953,8 @@
                     <seg type="syll" part="F">chrum</seg>
                   </w>
                 </lem>
-                <rdg wit="HS T">
-                  <w>volucrum</w>
-                </rdg>
-                <rdg wit="cod V">
-                  <w>volucrhum</w>
-                </rdg>
+                <rdg wit="HS T"><w>volucrum</w></rdg>
+                <rdg wit="cod V"><w>volucrhum</w></rdg>
               </app>
             </seg>
             <seg type="hemistich" met="7p" rhyme="b">
@@ -1018,12 +996,8 @@
                     <seg type="syll" part="F">a?</seg>
                   </w>
                 </lem>
-                <rdg wit="cod">
-                  <w>precordia</w>
-                </rdg>
-                <rdg wit="HS">
-                  <w>presentia</w>
-                </rdg>
+                <rdg wit="cod"><w>precordia</w></rdg>
+                <rdg wit="HS"><w>presentia</w></rdg>
               </app>
             </seg>
             <seg type="hemistich" met="7p" rhyme="b">
@@ -1055,7 +1029,7 @@
               <seg type="syll">Nu</seg>
             </w>
             <w>
-              <seg type="syll" met="+">suͤln</seg>
+              <seg type="syll" met="+">su&#868;ln</seg>
             </w>
             <w>
               <seg type="syll">wir</seg>
@@ -1065,7 +1039,7 @@
               <seg type="syll" part="F">le</seg>
             </w>
             <w>
-              <seg type="syll" part="I" met="+">froͧ</seg>
+              <seg type="syll" part="I" met="+">fro&#871;</seg>
               <seg type="syll" part="F">de</seg>
             </w>
             <rhyme label="a">
@@ -1107,7 +1081,7 @@
               <seg type="syll" part="F">hen</seg>
             </w>
             <w>
-              <seg type="syll" part="I" met="+">bluͦ</seg>
+              <seg type="syll" part="I" met="+">blu&#870;</seg>
               <seg type="syll" part="F">men</seg>
             </w>
             <rhyme label="a">
@@ -1135,15 +1109,9 @@
                   <seg type="syll" part="F" met="+">lich</seg>
                 </w>
               </lem>
-              <rdg wit="cod">
-                <w>wnnechclich</w>
-              </rdg>
-              <rdg wit="HS V">
-                <w>wunnechclich</w>
-              </rdg>
-              <rdg wit="T">
-                <w>wünnechlîch</w>
-              </rdg>
+              <rdg wit="cod"><w>wnnechclich</w></rdg>
+              <rdg wit="HS V"><w>wunnechclich</w></rdg>
+              <rdg wit="T"><w>w&#252;nnechl&#238;ch</w></rdg>
             </app>
             <rhyme label="a">
               <w>
@@ -1175,14 +1143,14 @@
                 <seg type="syll">mit</seg>
               </w>
               <w>
-                <seg type="syll" part="I" met="+">froͤ</seg>
+                <seg type="syll" part="I" met="+">fro&#868;</seg>
                 <seg type="syll" part="F">de</seg>
               </w>
               <w>
                 <seg type="syll">und</seg>
               </w>
               <w>
-                <seg type="syll" met="+">oͧch</seg>
+                <seg type="syll" met="+">o&#871;ch</seg>
               </w>
               <w>
                 <seg type="syll">mit</seg>
@@ -1205,7 +1173,7 @@
                 <seg type="syll" part="F">met</seg>
               </w>
               <w>
-                <seg type="syll" part="I" met="+">guͦ</seg>
+                <seg type="syll" part="I" met="+">gu&#870;</seg>
                 <seg type="syll" part="F">ten</seg>
               </w>
               <w>

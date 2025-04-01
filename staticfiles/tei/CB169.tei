@@ -3,33 +3,33 @@
     <encodingDesc>
       <charDecl>
         <char xml:id="ae">
-          <localProp name="Name" value="Latin a with small e above"></localProp>
-          <localProp name="entity" value="ae"></localProp>
-          <mapping type="composed">aͤ</mapping>
+          <localProp name="Name" value="Latin a with small e above" />
+          <localProp name="entity" value="ae" />
+          <mapping type="composed">a&#868;</mapping>
           <mapping type="PUA">U+E42C</mapping>
         </char>
         <char xml:id="oe">
-          <localProp name="Name" value="Latin o with small e above"></localProp>
-          <localProp name="entity" value="oe"></localProp>
-          <mapping type="composed">oͤ</mapping>
+          <localProp name="Name" value="Latin o with small e above" />
+          <localProp name="entity" value="oe" />
+          <mapping type="composed">o&#868;</mapping>
           <mapping type="PUA">U+E644</mapping>
         </char>
         <char xml:id="ov">
-          <localProp name="Name" value="Latin o with small v above"></localProp>
-          <localProp name="entity" value="ov"></localProp>
-          <mapping type="composed">oͮ</mapping>
+          <localProp name="Name" value="Latin o with small v above" />
+          <localProp name="entity" value="ov" />
+          <mapping type="composed">o&#878;</mapping>
           <mapping type="PUA">U+E647</mapping>
         </char>
         <char xml:id="ue">
-          <localProp name="Name" value="Latin u with small e above"></localProp>
-          <localProp name="entity" value="ue"></localProp>
-          <mapping type="composed">uͤ</mapping>
+          <localProp name="Name" value="Latin u with small e above" />
+          <localProp name="entity" value="ue" />
+          <mapping type="composed">u&#868;</mapping>
           <mapping type="PUA">U+E72B</mapping>
         </char>
         <char xml:id="uo">
-          <localProp name="Name" value="Latin u with small o above"></localProp>
-          <localProp name="entity" value="uo"></localProp>
-          <mapping type="composed">uͦ</mapping>
+          <localProp name="Name" value="Latin u with small o above" />
+          <localProp name="entity" value="uo" />
+          <mapping type="composed">u&#870;</mapping>
           <mapping type="PUA">U+E72D</mapping>
         </char>
       </charDecl>

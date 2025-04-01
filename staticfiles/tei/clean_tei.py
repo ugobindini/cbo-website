@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 # Generic program to handle large corrections/updates/modifications of TEI files
+import lxml.etree
 
 from buranus_dict import NABC_TO_FONT_ID
 
@@ -27,18 +28,8 @@ if __name__ == "__main__":
 		tei_file.close()
 
 		# Add core code modifying the tree here!
+		for rdg in tree.findall('.//rdg'):
+			rdg.text = None
+		#####
 
-		for neume in tree.getroot().findall(".//neume"):
-			try:
-				label = neume.attrib['label']
-			except:
-				print(name)
-				print(neume.attrib['label'])
-
-			if '>' in label:
-				neume.set('label', label.replace('>', ')'))
-
-		tei_file = open(name, 'w')
-		ET.indent(tree)
-		tree.write(tei_file, encoding="unicode")
-		tei_file.close()
+		tree.write(name)

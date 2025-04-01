@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
@@ -8,11 +8,8 @@
           <l n="2">virtutum insignia,</l>
           <l n="3">cordis ei presentemus</l>
           <l n="4">et oris obsequia,</l>
-          <l n="5">
-            <app>
-              <lem>
-                <w>ut</w>
-              </lem>
+          <l n="5"><app>
+              <lem>ut</lem>
             </app> ab ipsa reportemus</l>
           <l n="6">equa laudum premia.</l>
         </lg>

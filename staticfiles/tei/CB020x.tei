@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
@@ -29,11 +29,8 @@
         </lg>
         <lg type="strophe" n="IV">
           <l n="1">Hoc declarat hoc <app>
-              <lem>
-                <w>explanat</w>
-              </lem>
-            </app>
-          </l>
+              <lem>explanat</lem>
+            </app></l>
           <l n="2">meritum virgineum,</l>
           <l n="3">quod ex eius tumba manat</l>
           <l n="4">incessanter oleum</l>
