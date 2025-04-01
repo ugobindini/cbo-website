@@ -11,17 +11,18 @@
 
   <xsl:template match="body">
     <xsl:if test=".//app[@type='text']">
-      <p class="text-font font-bold">Critical apparatus (text)</p>
-      <div class="flex-wrapper">
-        <xsl:apply-templates select=".//app[@type='text']" />
+      <div class="text-font font-small">
+        <p class="text-font font-bold">Critical apparatus (text)</p>
+        <div class="flex-wrapper">
+          <xsl:apply-templates select=".//app[@type='text']" />
+        </div>
       </div>
     </xsl:if>
   </xsl:template>
 
   <xsl:template match="app[@type='text']">
     <b style="margin-right: 5px;"><xsl:value-of select="ancestor::lg/@n"/>.<xsl:value-of select="ancestor::l/@n"/></b>
-    <xsl:apply-templates select="./lem/*" />
-    <i><xsl:value-of select="./lem/@wit" /></i>
+    <xsl:apply-templates select="./lem" />
     <xsl:if test="./rdg">
       <xsl:choose>
         <xsl:when test="./lem/@wit">
@@ -34,6 +35,13 @@
     </xsl:if>
     <xsl:apply-templates select="./rdg" />
     <xsl:apply-templates select="./note" />
+  </xsl:template>
+
+  <xsl:template match="lem">
+    <span class="flex-wrapper lem text-font">
+      <xsl:apply-templates />
+    </span>
+    <i style="margin-left: 3px;"><xsl:value-of select="@wit" /></i>
   </xsl:template>
 
   <xsl:template match="rdg">

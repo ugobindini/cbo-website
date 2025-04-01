@@ -3,17 +3,19 @@
 {% block content %}
 
 {% load static %}
-<script src="{% static 'javascript/neume_init.js' %}"></script>
+<script src="{% static 'javascript/set_leading_consonants.js' %}"></script>
 
 <h1>Neume</h1>
 <img src="{% static 'img/svg/' %}{{ neume.svg_path }}">
-
 <p>{{ neume.description }}</p>
 
-<p>In preparation</p>
+<h2>Occurrences in the edited items</h2>
 
-<script type="text/javascript">
-
-</script>
+{% for item, snippet in items %}
+<p style="margin-top: 20px;">CB {{ item.abstract_item.cb_id }} <a href="{{ item.get_absolute_url }}">{{ item.title }}</a></p>
+{% autoescape off %}
+  {{ snippet }}
+{% endautoescape %}
+{% endfor %}
 
 {% endblock %}

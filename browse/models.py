@@ -1,3 +1,4 @@
+import lxml.etree
 from django.db import models
 from django.urls import reverse
 from django.db.models import UniqueConstraint
@@ -262,7 +263,52 @@ class Item(models.Model):
 
     @property
     def tei_path(self):
-        return self.tei_file + ".tei"
+        import os
+        from django.conf import settings
+        return os.path.join(os.path.join(settings.STATICFILES_DIRS[0], 'tei'), self.tei_file + ".tei")
+
+    def transform(self, xsl_file):
+        # Given the xsl file (only filename, no path), transforms item's tei file
+        # IMPORTANT: the xsl file must produce a tree with one root
+        import os
+        from django.conf import settings
+        from lxml import etree, html
+        xsl = etree.parse(os.path.join(os.path.join(settings.STATICFILES_DIRS[0], 'xsl'), xsl_file))
+        transform = etree.XSLT(xsl)
+        try:
+            return lxml.html.tostring(transform(etree.parse(self.tei_path))).decode('UTF-8')
+        except:
+            return ''
+
+    def count_neumes(self, n):
+        # Counts the neumes of type n in the piece
+        import xml.etree.ElementTree as ET
+        tree = ET.parse(self.tei_path)
+        return len(tree.findall(f".//neume[@glyph.num='{n}']"))
+
+    def neume_detail_transform(self, n):
+        import os
+        from django.conf import settings
+        from lxml import etree, html
+        xsl = etree.parse(os.path.join(os.path.join(settings.STATICFILES_DIRS[0], 'xsl'), 'neume_detail.xsl'))
+        transform = etree.XSLT(xsl)
+        try:
+            return lxml.html.tostring(transform(etree.parse(self.tei_path), n=str(n))).decode('UTF-8')
+        except:
+            return ''
+
+    @property
+    def text_transform(self):
+        return self.transform('text.xsl')
+
+    @property
+    def neume_apparatus_transform(self):
+        return self.transform('neume-apparatus.xsl')
+
+    @property
+    def text_apparatus_transform(self):
+        return self.transform('text-apparatus.xsl')
+
 
 
 class Neume(models.Model):

@@ -192,7 +192,9 @@
                   <seg type="syll" part="F">ris,</seg>
                 </w>
               </lem>
-              <rdg wit="cod"><w>cetheris</w></rdg>
+              <rdg wit="cod">
+                <w>cetheris</w>
+              </rdg>
               <note>-h- exp. (man. r. ?)</note>
             </app>
           </l>
@@ -753,7 +755,8 @@
                   </seg>
                 </w>
               </lem>
-              <note>corr. ex <w>izt</w></note>
+              <note>corr. ex <w>izt</w>
+              </note>
             </app>
             <w>
               <seg type="syll">iz<notatedMusic>

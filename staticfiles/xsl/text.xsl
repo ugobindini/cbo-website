@@ -3,6 +3,12 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template match="teiHeader"/>
 
+  <xsl:template match="body">
+    <div style="text-size: 16px;">
+      <xsl:apply-templates />
+    </div>
+  </xsl:template>
+
   <xsl:template match="castList" />
 
   <xsl:template match="div[@type='drama']">
@@ -195,8 +201,12 @@
         <xsl:apply-templates select="./rdg" />
         <xsl:apply-templates select="./note" />
       </div>
-      <xsl:apply-templates select="./lem/*" />
+      <xsl:apply-templates select="./lem" />
     </span>
+  </xsl:template>
+
+  <xsl:template match="lem">
+    <xsl:apply-templates />
   </xsl:template>
 
   <xsl:template match="rdg">

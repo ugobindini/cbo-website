@@ -1,0 +1,6 @@
+// Set leading consonants
+$(document).ready(function(){
+  $(".consonant-space").each(function() {
+    $(this).html($(this).html().split(/[aeiouAEIOUyYůöǒ].*/));
+  });
+});

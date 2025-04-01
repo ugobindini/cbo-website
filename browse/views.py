@@ -65,19 +65,12 @@ class NeumeDetailView(generic.DetailView):
 
     def get_context_data(self, **kwargs):
         context = super(NeumeDetailView, self).get_context_data(**kwargs)
+        context['items'] = []
         n = self.get_object().n
         print(n)
 
-        import xml.etree.ElementTree as ET
-        import os
-        from django.conf import settings
-
-        tei_path = os.path.join(os.path.join(settings.BASE_DIR, 'staticfiles'), 'tei')
-
-        for tei_file in os.listdir(tei_path):
-            print(tei_file)
-            if tei_file.endswith(".tei"):
-                tree = ET.parse(os.path.join(tei_path, tei_file))
-                print(tree.find(f"neume[@glyph.num='{n}']2"))
+        for item in Item.objects.all():
+            if item.count_neumes(n):
+                context['items'].append((item, item.neume_detail_transform(n)))
 
         return context

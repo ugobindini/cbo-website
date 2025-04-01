@@ -5,31 +5,14 @@
   <xsl:param name="n" select="null" />
 
   <xsl:template match="body">
-    <xsl:apply-templates select=".//neume" />
-  </xsl:template>
-
-  <xsl:template match="neume">
-    <xsl:if test="@glyph.num=$n">
-      <xsl:choose>
-        <xsl:when test="ancestor::l">
-          <xsl:apply-templates select="ancestor::l" />
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:apply-templates select="ancestor::p" />
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:if>
-  </xsl:template>
-
-  <xsl:template match="l">
-  <div class="verse-text text-font">
-    <xsl:apply-templates />
-  </div>
-  </xsl:template>
-
-  <xsl:template match="p">
-    <div class="text-paragraph text-font">
-      <xsl:apply-templates />
+    <div>
+      <xsl:for-each select=".//l | .//p">
+        <xsl:if test=".//neume[@glyph.num=$n]">
+          <div class="flex-wrapper text-font" style="margin-left: 15px;">
+            <xsl:apply-templates />
+          </div>
+        </xsl:if>
+      </xsl:for-each>
     </div>
   </xsl:template>
 
@@ -51,8 +34,6 @@
       <span class="syl text-font">
         <span class="syl-text">
           <xsl:value-of select="normalize-space($text)"/>
-        </span>
-        <span class="syl-dash">
           <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
         </span>
       </span>
