@@ -2,23 +2,23 @@
   <teiHeader></teiHeader>
   <text>
     <body>
-      <div type="poem">
-        <lg type="strophe" n="I">
-          <l n="1">In lacu miserie</l>
-          <l n="2">et luto luxurie</l>
-          <l n="3">volveris, inutile</l>
-          <l n="4">tempus perdens, Panphile!</l>
-          <l n="5">Cur offensas <app type="text">
+      <div type="poem" met="7pp/7pp/7pp/7pp/7pp/7pp/4pp/4pp/7pp/7pp/7pp/7pp/7pp/7pp" rhyme="a/a/b/b/c/c/d/d/e/e/f/g/g/f">
+        <lg type="strophe" n="I" met="7pp/7pp/7pp/7pp/7pp/7pp/4pp/4pp/7pp/7pp/7pp/7pp/7pp/7pp" rhyme="a/a/b/b/c/c/d/d/e/e/e/f/f/e">
+          <l n="1" met="7pp" rhyme="a">In lacu miserie</l>
+          <l n="2" met="7pp" rhyme="a">et luto luxurie</l>
+          <l n="3" met="7pp" rhyme="b">volveris, inutile</l>
+          <l n="4" met="7pp" rhyme="b">tempus perdens, Panphile!</l>
+          <l n="5" met="7pp" rhyme="c">Cur offensas <app type="text">
               <lem wit="HS V W T">numinum</lem>
               <rdg wit="cod">
                 <w>minimum</w>
               </rdg>
             </app>
           </l>
-          <l n="6">aut derisum hominum</l>
-          <l n="7">non metuis,</l>
-          <l n="8">dum destruis</l>
-          <l n="9">
+          <l n="6" met="7pp" rhyme="c">aut derisum hominum</l>
+          <l n="7" met="4pp" rhyme="d">non metuis,</l>
+          <l n="8" met="4pp" rhyme="d">dum destruis</l>
+          <l n="9" met="7pp" rhyme="e">
             <app type="text">
               <lem wit="HS V W T">corpus, rem et</lem>
               <rdg wit="cod">
@@ -27,10 +27,10 @@
                 <w>rem</w>
               </rdg>
             </app> animam?</l>
-          <l n="10">Salva saltem ultimam</l>
-          <l n="11">vite portiunculam,</l>
-          <l n="12">offerens celestibus</l>
-          <l n="13">pro <app type="text">
+          <l n="10" met="7pp" rhyme="e">Salva saltem ultimam</l>
+          <l n="11" met="7pp" rhyme="e">vite portiunculam,</l>
+          <l n="12" met="7pp" rhyme="f">offerens celestibus</l>
+          <l n="13" met="7pp" rhyme="f">pro <app type="text">
               <lem wit="HS W T">iuvente</lem>
               <rdg wit="cod">
                 <w>iuventutis</w> p. corr. ex <w>iuventute</w> ut vid.</rdg>
@@ -38,38 +38,38 @@
                 <w>iuventutis</w>
               </rdg>
             </app> floribus</l>
-          <l n="14">senectutis stipulam!</l>
+          <l n="14" met="7pp" rhyme="e">senectutis stipulam!</l>
         </lg>
-        <lg type="strophe" n="II">
-          <l n="1">Forsan ludo Veneris</l>
-          <l n="2">ultra vires ureris</l>
-          <l n="3">ut amoris tedium</l>
-          <l n="4">tibi sit remedium.</l>
-          <l n="5">Sed si te medullitus</l>
-          <l n="6">exsiccatum penitus</l>
-          <l n="7">exhaurias</l>
-          <l n="8">ut febrias,</l>
-          <l n="9">nichil tamen proficis</l>
-          <l n="10">dum ad tempus deficis;</l>
-          <l n="11">nam insurget artius</l>
-          <l n="12">Ydra multiplicior</l>
-          <l n="13">et post casum fortior</l>
-          <l n="14">surget Terre filius.</l>
+        <lg type="strophe" n="II" met="7pp/7pp/7pp/7pp/7pp/7pp/4pp/4pp/7pp/7pp/7pp/7pp/7pp/7pp" rhyme="a/a/b/b/c/c/d/d/e/e/f/g/g/f">
+          <l n="1" met="7pp" rhyme="a">Forsan ludo Veneris</l>
+          <l n="2" met="7pp" rhyme="a">ultra vires ureris</l>
+          <l n="3" met="7pp" rhyme="b">ut amoris tedium</l>
+          <l n="4" met="7pp" rhyme="b">tibi sit remedium.</l>
+          <l n="5" met="7pp" rhyme="c">Sed si te medullitus</l>
+          <l n="6" met="7pp" rhyme="c">exsiccatum penitus</l>
+          <l n="7" met="4pp" rhyme="d">exhaurias</l>
+          <l n="8" met="4pp" rhyme="d">ut febrias,</l>
+          <l n="9" met="7pp" rhyme="e">nichil tamen proficis</l>
+          <l n="10" met="7pp" rhyme="e">dum ad tempus deficis;</l>
+          <l n="11" met="7pp" rhyme="f">nam insurget artius</l>
+          <l n="12" met="7pp" rhyme="g">Ydra multiplicior</l>
+          <l n="13" met="7pp" rhyme="g">et post casum fortior</l>
+          <l n="14" met="7pp" rhyme="f">surget Terre filius.</l>
         </lg>
-        <lg type="strophe" n="III">
-          <l n="1">
+        <lg type="strophe" n="III" met="7pp/7pp/7pp/7pp/7pp/7pp/4pp/4pp/7pp/7pp/7pp/7pp/7pp/7pp" rhyme="a/a/b/b/c/c/d/d/e/e/f/g/g/f">
+          <l n="1" met="7pp" rhyme="a">
             <app type="text">
               <lem wit="HS W T">Ut</lem>
               <rdg wit="cod V">
                 <w>Et</w>
               </rdg>
             </app> stes pede stabili</l>
-          <l n="2">sine casu facili,</l>
-          <l n="3">cave precipicium,</l>
-          <l n="4">devitando vitium.</l>
-          <l n="5">Set si te vexaverit</l>
-          <l n="6">aut si comprehenderit</l>
-          <l n="7">
+          <l n="2" met="7pp" rhyme="a">sine casu facili,</l>
+          <l n="3" met="7pp" rhyme="b">cave precipicium,</l>
+          <l n="4" met="7pp" rhyme="b">devitando vitium.</l>
+          <l n="5" met="7pp" rhyme="c">Set si te vexaverit</l>
+          <l n="6" met="7pp" rhyme="c">aut si comprehenderit</l>
+          <l n="7" met="4pp" rhyme="d">
             <app type="text">
               <lem wit="V">Egiptia,</lem>
               <rdg wit="HS">
@@ -80,18 +80,18 @@
               </rdg>
             </app>
           </l>
-          <l n="8">mox pallia</l>
-          <l n="9">fugitivus desere</l>
-          <l n="10">nec lucteris temere;</l>
-          <l n="11">nam resistens <app type="text">
+          <l n="8" met="4pp" rhyme="d">mox pallia</l>
+          <l n="9" met="7pp" rhyme="e">fugitivus desere</l>
+          <l n="10" met="7pp" rhyme="e">nec lucteris temere;</l>
+          <l n="11" met="7pp" rhyme="f">nam resistens <app type="text">
               <lem wit="HS V W T">vincitur</lem>
               <rdg wit="cod.">
                 <w>vincit</w> ut vid.</rdg>
             </app>
           </l>
-          <l n="12">in hoc belli genere,</l>
-          <l n="13">et qui novit cedere</l>
-          <l n="14">fugiendo fugitur.</l>
+          <l n="12" met="7pp" rhyme="g">in hoc belli genere,</l>
+          <l n="13" met="7pp" rhyme="g">et qui novit cedere</l>
+          <l n="14" met="7pp" rhyme="f">fugiendo fugitur.</l>
         </lg>
       </div>
     </body>
