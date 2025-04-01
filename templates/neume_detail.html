@@ -11,8 +11,8 @@
 
 <h2>Occurrences in the edited items</h2>
 
-{% for item, snippet in items %}
-<p style="margin-top: 20px;">CB {{ item.abstract_item.cb_id }} <a href="{{ item.get_absolute_url }}">{{ item.title }}</a></p>
+{% for item, k, snippet in items %}
+<p style="margin-top: 20px;">CB {{ item.abstract_item.cb_id }} <a href="{{ item.get_absolute_url }}">{{ item.title }}</a> ({{ k }})</p>
 {% autoescape off %}
   {{ snippet }}
 {% endautoescape %}

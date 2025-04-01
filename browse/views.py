@@ -70,7 +70,8 @@ class NeumeDetailView(generic.DetailView):
         print(n)
 
         for item in Item.objects.all():
-            if item.count_neumes(n):
-                context['items'].append((item, item.neume_detail_transform(n)))
+            k = item.count_neumes(n)
+            if k:
+                context['items'].append((item, k, item.neume_detail_transform(n)))
 
         return context
