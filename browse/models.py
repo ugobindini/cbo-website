@@ -273,7 +273,7 @@ class Item(models.Model):
         import os
         from django.conf import settings
         from lxml import etree, html
-        xsl = etree.parse(os.path.join(os.path.join(settings.STATICFILES_DIRS[0], 'xsl'), xsl_file))
+        xsl = etree.parse(os.path.join(os.path.join(settings.STATIC_ROOT, 'xsl'), xsl_file))
         transform = etree.XSLT(xsl)
         try:
             return lxml.html.tostring(transform(etree.parse(self.tei_path))).decode('UTF-8')
@@ -290,7 +290,7 @@ class Item(models.Model):
         import os
         from django.conf import settings
         from lxml import etree, html
-        xsl = etree.parse(os.path.join(os.path.join(settings.STATICFILES_DIRS[0], 'xsl'), 'neume_detail.xsl'))
+        xsl = etree.parse(os.path.join(os.path.join(settings.STATIC_ROOT, 'xsl'), 'neume_detail.xsl'))
         transform = etree.XSLT(xsl)
         try:
             return lxml.html.tostring(transform(etree.parse(self.tei_path), n=str(n))).decode('UTF-8')
