@@ -502,7 +502,7 @@
               <seg type="syll" part="F">o,</seg>
             </w>
           </l>
-          <l n="6" met="5pp+9pp" rhyme="c">
+          <l n="6" met="5pp+9pp" real="5pp+11pp" rhyme="c">
             <seg type="hemistich" met="5pp">
               <w>
                 <seg type="syll" part="I">mi</seg>
@@ -514,7 +514,7 @@
                 <seg type="syll" part="F">tur</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="9pp" rhyme="c">
+            <seg type="hemistich" met="9pp" real="11pp" rhyme="c">
               <w>
                 <seg type="syll">quod</seg>
               </w>
