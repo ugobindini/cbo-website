@@ -252,7 +252,7 @@
                       </seg>
                     </w>
                   </lem>
-                  <rdg wit="cod"><w>algent</w></rdg>
+                  <rdg wit="cod."><w>algent</w></rdg>
                 </app>
               </rhyme>
             </seg>
@@ -840,7 +840,7 @@
                     <seg type="syll" part="F">stat</seg>
                   </w>
                 </lem>
-                <rdg wit="cod HS"><w>Restat</w></rdg>
+                <rdg wit="cod. HS"><w>Restat</w></rdg>
               </app>
               <rhyme label="a">
                 <w>
@@ -1002,7 +1002,7 @@
                       <seg type="syll" part="F">no,</seg>
                     </w>
                   </lem>
-                  <rdg wit="cod V"><w>cerno</w></rdg>
+                  <rdg wit="cod. V"><w>cerno</w></rdg>
                   <note>letter 'c' corrected over scraping</note>
                 </app>
               </rhyme>

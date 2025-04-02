@@ -137,7 +137,7 @@
             </seg>
             <seg type="hemistich">
               <app type="text">
-                <lem wit="cod V">
+                <lem wit="cod. V">
                   <w>
                     <seg type="syll" part="I">pa<notatedMusic>
                         <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -315,7 +315,7 @@
             </seg>
             <seg type="hemistich">
               <app type="text">
-                <lem wit="cod V">
+                <lem wit="cod. V">
                   <w>
                     <seg type="syll" part="I">tan<notatedMusic>
                         <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -997,7 +997,7 @@
           <l n="2">
             <seg type="hemistich">
               <app type="text">
-                <lem wit="cod HS T">
+                <lem wit="cod. HS T">
                   <w>
                     <seg type="syll">cur<notatedMusic>
                         <neume fontname="buranus" glyph.num="7" label="vi)" />
@@ -1062,7 +1062,7 @@
                   </w>
                 </lem>
                 <rdg wit="HS V T"><w>Troia</w><w>tunc</w><w>nobilis</w></rdg>
-                <rdg wit="cod"><w>Troiarum</w><w>nobiles</w></rdg>
+                <rdg wit="cod."><w>Troiarum</w><w>nobiles</w></rdg>
               </app>
             </seg>
           </l>
@@ -1130,7 +1130,7 @@
                     </seg>
                   </w>
                 </lem>
-                <rdg wit="cod"><w>qui</w></rdg>
+                <rdg wit="cod."><w>qui</w></rdg>
               </app>
               <w>
                 <seg type="syll" part="I">san<notatedMusic>
@@ -1179,7 +1179,7 @@
                     </seg>
                   </w>
                 </lem>
-                <rdg wit="cod"><w>gratia</w></rdg>
+                <rdg wit="cod."><w>gratia</w></rdg>
               </app>
             </seg>
           </l>
@@ -1240,7 +1240,7 @@
                     </seg>
                   </w>
                 </lem>
-                <rdg wit="cod"><w>facundia</w></rdg>
+                <rdg wit="cod."><w>facundia</w></rdg>
               </app>
             </seg>
           </l>
@@ -1307,7 +1307,7 @@
                 </seg>
               </w>
               <app type="text">
-                <lem wit="cod">
+                <lem wit="cod.">
                   <w>
                     <seg type="syll" part="I">lu<notatedMusic>
                         <neume fontname="buranus" glyph.num="6" label="vi" />

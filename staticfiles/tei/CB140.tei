@@ -219,7 +219,7 @@
                     <seg type="syll">nos</seg>
                   </w>
                 </lem>
-                <rdg wit="cod"><w>non</w></rdg>
+                <rdg wit="cod."><w>non</w></rdg>
               </app>
               <w>
                 <seg type="syll" part="I">ces</seg>
@@ -258,7 +258,7 @@
             </seg>
             <seg type="hemistich" met="7p" rhyme="b">
               <app type="text">
-                <lem wit="cod V">
+                <lem wit="cod. V">
                   <w>
                     <seg type="syll">que</seg>
                   </w>
@@ -413,7 +413,7 @@
                     <seg type="syll" part="F">tur</seg>
                   </w>
                 </lem>
-                <rdg wit="cod"><w>pellantes</w></rdg>
+                <rdg wit="cod."><w>pellantes</w></rdg>
                 <rdg wit="V T"><w>pellamus</w></rdg>
               </app>
               <w>
@@ -614,7 +614,7 @@
                     <seg type="syll" part="F">tur</seg>
                   </w>
                 </lem>
-                <rdg wit="cod"><w>immuterentur</w></rdg>
+                <rdg wit="cod."><w>immuterentur</w></rdg>
                 <rdg wit="HS V T"><w>immutarentur</w></rdg>
               </app>
               <rhyme label="b">
@@ -839,7 +839,7 @@
                   <seg type="syll" part="F">sent</seg>
                 </w>
               </lem>
-              <rdg wit="cod V"><w>recenssent</w></rdg>
+              <rdg wit="cod. V"><w>recenssent</w></rdg>
               <rdg wit="HS T"><w>recensens</w></rdg>
             </app>
             <rhyme label="a">
@@ -943,7 +943,7 @@
                     <seg type="syll" part="F">tus</seg>
                   </w>
                 </lem>
-                <rdg wit="cod V"><w>canctus</w></rdg>
+                <rdg wit="cod. V"><w>canctus</w></rdg>
               </app>
               <app type="text">
                 <lem>
@@ -954,7 +954,7 @@
                   </w>
                 </lem>
                 <rdg wit="HS T"><w>volucrum</w></rdg>
-                <rdg wit="cod V"><w>volucrhum</w></rdg>
+                <rdg wit="cod. V"><w>volucrhum</w></rdg>
               </app>
             </seg>
             <seg type="hemistich" met="7p" rhyme="b">
@@ -996,7 +996,7 @@
                     <seg type="syll" part="F">a?</seg>
                   </w>
                 </lem>
-                <rdg wit="cod"><w>precordia</w></rdg>
+                <rdg wit="cod."><w>precordia</w></rdg>
                 <rdg wit="HS"><w>presentia</w></rdg>
               </app>
             </seg>
@@ -1109,7 +1109,7 @@
                   <seg type="syll" part="F" met="+">lich</seg>
                 </w>
               </lem>
-              <rdg wit="cod"><w>wnnechclich</w></rdg>
+              <rdg wit="cod."><w>wnnechclich</w></rdg>
               <rdg wit="HS V"><w>wunnechclich</w></rdg>
               <rdg wit="T"><w>w&#252;nnechl&#238;ch</w></rdg>
             </app>
