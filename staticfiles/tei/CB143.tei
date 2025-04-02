@@ -392,14 +392,9 @@
                   <seg type="syll" part="F">ra,</seg>
                 </w>
               </lem>
-              <rdg wit="cod"><w>et</w>
-                <w>ethera</w>
-              </rdg>
-              <rdg wit="V"><w>et</w>
-                <w>cethera</w>
-              </rdg>
-              <note>
-                <w>cethera</w>, c- eras. et corr. <w>ethera</w> man. r.?</note>
+              <rdg wit="cod"><w>et</w><w>ethera</w></rdg>
+              <rdg wit="V"><w>et</w><w>cethera</w></rdg>
+              <note><w>cethera</w>, c- eras. et corr. <w>ethera</w> man. r.?</note>
             </app>
           </l>
           <l n="3" met="4p+4p" rhyme="a1+a1">
@@ -431,8 +426,7 @@
                     </w>
                   </rhyme>
                 </lem>
-                <rdg wit="cod"><w>surgit</w>
-                </rdg>
+                <rdg wit="cod"><w>surgit</w></rdg>
               </app>
             </seg>
           </l>

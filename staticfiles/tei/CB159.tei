@@ -84,15 +84,13 @@
                       </notatedMusic>
                     </seg>
                   </lem>
-                  <note>
-                    <seg type="syll" part="F">re<notatedMusic>
+                  <note><seg type="syll" part="F">re<notatedMusic>
                         <neume fontname="buranus" glyph.num="45" label="cl" />
                       </notatedMusic>
                     </seg> eras. et corr. <seg type="syll" part="F">re<notatedMusic>
                         <neume fontname="buranus" glyph.num="107" label="ci" />
                       </notatedMusic>
-                    </seg>
-                  </note>
+                    </seg></note>
                 </app>
               </w>
             </rhyme>
@@ -196,8 +194,7 @@
                 <note>corr. ex <seg type="syll" part="I">Dul<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi" />
                     </notatedMusic>
-                  </seg>
-                </note>
+                  </seg></note>
               </app>
               <seg type="syll" part="F">cis<notatedMusic>
                   <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -535,8 +532,7 @@
                     </seg>
                   </w>
                 </lem>
-                <rdg wit="HS"><w>gemina</w>
-                </rdg>
+                <rdg wit="HS"><w>gemina</w></rdg>
               </app>
             </rhyme>
           </l>
@@ -554,8 +550,7 @@
                   </seg>
                 </w>
               </lem>
-              <rdg wit="cod V"><w>summa</w>
-              </rdg>
+              <rdg wit="cod V"><w>summa</w></rdg>
             </app>
             <w>
               <seg type="syll" part="I">de<notatedMusic>

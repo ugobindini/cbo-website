@@ -192,8 +192,7 @@
                   <seg type="syll" part="F">ris,</seg>
                 </w>
               </lem>
-              <rdg wit="cod"><w>cetheris</w>
-              </rdg>
+              <rdg wit="cod"><w>cetheris</w></rdg>
               <note>-h- exp. (man. r. ?)</note>
             </app>
           </l>
@@ -367,9 +366,7 @@
                   <seg type="syll" part="F">us.</seg>
                 </w>
               </lem>
-              <note>
-                <w>mutius</w> del. et corr. s.l. man. r. <w>mudius</w>
-              </note>
+              <note><w>mutius</w> del. et corr. s.l. man. r. <w>mudius</w></note>
             </app>
           </l>
         </lg>
@@ -754,8 +751,7 @@
                   </seg>
                 </w>
               </lem>
-              <note>corr. ex <w>izt</w>
-              </note>
+              <note>corr. ex <w>izt</w></note>
             </app>
             <w>
               <seg type="syll">iz<notatedMusic>
@@ -787,8 +783,7 @@
                     </notatedMusic>
                   </seg>
                 </lem>
-                <note>
-                  <seg type="syll">er<notatedMusic>
+                <note><seg type="syll">er<notatedMusic>
                       <neume fontname="buranus" glyph.num="7" label="vi)" />
                     </notatedMusic>
                   </seg> eras. et corr. <seg type="syll">er<notatedMusic>
@@ -1007,14 +1002,11 @@
                     <note>non leg., coni. <seg type="syll">ho.&#187;<notatedMusic>
                           <neume fontname="buranus" glyph.num="6" label="vi" />
                         </notatedMusic>
-                      </seg>
-                    </note>
+                      </seg></note>
                   </app>
                 </w>
               </lem>
-              <note>
-                <w>wol</w> exp. et corr. s.l. man. r. <w>ho</w>
-              </note>
+              <note><w>wol</w> exp. et corr. s.l. man. r. <w>ho</w></note>
             </app>
           </l>
         </lg>

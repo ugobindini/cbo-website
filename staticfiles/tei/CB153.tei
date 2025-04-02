@@ -138,8 +138,7 @@
                   <note>non leg. coni. <seg type="syll" part="F">it<notatedMusic>
                         <neume fontname="buranus" glyph.num="6" label="vi" />
                       </notatedMusic>
-                    </seg>
-                  </note>
+                    </seg></note>
                 </app>
               </w>
               <rhyme label="a">
@@ -185,8 +184,7 @@
                   <note>lect. dub. coni. <seg type="syll" part="F">bus<notatedMusic>
                         <neume fontname="buranus" glyph.num="1" label="pu" />
                       </notatedMusic>
-                    </seg>
-                  </note>
+                    </seg></note>
                 </app>
               </w>
               <rhyme label="b">
@@ -572,8 +570,7 @@
                     <seg type="syll" part="F">vet</seg>
                   </w>
                 </lem>
-                <rdg wit="cod"><w>favent</w>
-                </rdg>
+                <rdg wit="cod"><w>favent</w></rdg>
               </app>
               <w>
                 <seg type="syll">et</seg>
@@ -1380,10 +1377,7 @@
                       <seg type="syll">uz</seg>
                     </w>
                   </lem>
-                  <rdg wit="cod"><w>
-                      <seg type="syll">ouz</seg>
-                    </w>
-                  </rdg>
+                  <rdg wit="cod"><w>ouz</w></rdg>
                   <note>Annotation 'uz' above the word by a later hand; expunctuation of the main word.</note>
                 </app>
                 <w>

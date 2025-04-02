@@ -86,8 +86,7 @@
                   <note>corr. ex <seg type="syll" part="I">ves<notatedMusic>
                         <neume fontname="buranus" glyph.num="6" label="vi" />
                       </notatedMusic>
-                    </seg>
-                  </note>
+                    </seg></note>
                 </app>
                 <seg type="syll" part="M" met="+">ti<notatedMusic>
                     <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -302,8 +301,7 @@
                   </w>
                 </rhyme>
               </lem>
-              <rdg wit="cod"><w>disgregrata</w>
-              </rdg>
+              <rdg wit="cod"><w>disgregrata</w></rdg>
             </app>
           </l>
           <l n="2" met="10p" rhyme="a">
@@ -582,14 +580,8 @@
                   <seg type="syll" part="F">na,</seg>
                 </w>
               </lem>
-              <rdg wit="cod V"><w>subveni</w>
-                <w>mi</w>
-                <w>domina</w>
-              </rdg>
-              <rdg wit="HS"><w>subvenias</w>
-                <w>mi</w>
-                <w>domina</w>
-              </rdg>
+              <rdg wit="cod V"><w>subveni</w><w>mi</w><w>domina</w></rdg>
+              <rdg wit="HS"><w>subvenias</w><w>mi</w><w>domina</w></rdg>
             </app>
             <rhyme label="a">
               <w>
@@ -809,8 +801,7 @@
                   <note>spat. vac.  coni. <seg type="syll" part="I" met="+">chu<notatedMusic>
                         <neume fontname="buranus" glyph.num="1" label="pu" />
                       </notatedMusic>
-                    </seg>
-                  </note>
+                    </seg></note>
                 </app>
                 <seg type="syll" part="M">ni<notatedMusic>
                     <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -842,8 +833,7 @@
                     </seg>
                   </w>
                 </lem>
-                <rdg wit="cod"><w>chunne</w>
-                </rdg>
+                <rdg wit="cod"><w>chunne</w></rdg>
               </app>
               <w>
                 <seg type="syll" met="+">ir<notatedMusic>

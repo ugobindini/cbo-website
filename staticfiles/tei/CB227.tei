@@ -3810,8 +3810,7 @@
                       <note>corr. ex <seg type="syll" part="F">tus<notatedMusic>
                             <neume fontname="buranus" glyph.num="1" label="pu" />
                           </notatedMusic>
-                        </seg>
-                      </note>
+                        </seg></note>
                     </app>
                   </w>
                   <w>
@@ -3823,15 +3822,13 @@
                           </notatedMusic>
                         </seg>
                       </lem>
-                      <note>
-                        <seg type="syll">fex<notatedMusic>
+                      <note><seg type="syll">fex<notatedMusic>
                             <neume fontname="buranus" glyph.num="107" label="ci" />
                           </notatedMusic>
                         </seg> corr ex. <seg type="syll">fex<notatedMusic>
                             <neume fontname="buranus" glyph.num="1" label="pu" />
                           </notatedMusic>
-                        </seg>
-                      </note>
+                        </seg></note>
                     </app>
                   </w>
                   <w>
@@ -11148,8 +11145,7 @@
                       <note>corr. ex <seg type="syll">sit<notatedMusic>
                             <neume fontname="buranus" glyph.num="1" label="pu" />
                           </notatedMusic>
-                        </seg>
-                      </note>
+                        </seg></note>
                     </app>
                   </w>
                   <w>

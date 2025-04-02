@@ -177,8 +177,7 @@
                 <note>spat. vac. coni. <seg type="syll" part="I">ri<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi" />
                     </notatedMusic>
-                  </seg>
-                </note>
+                  </seg></note>
               </app>
               <seg type="syll" part="F">dent<notatedMusic>
                   <neume fontname="buranus" glyph.num="45" label="cl" />
@@ -253,8 +252,7 @@
                       </seg>
                     </w>
                   </lem>
-                  <rdg wit="cod"><w>algent</w>
-                  </rdg>
+                  <rdg wit="cod"><w>algent</w></rdg>
                 </app>
               </rhyme>
             </seg>
@@ -285,8 +283,7 @@
                     <note>spat. vac. coni. <seg type="syll" part="F">dent,<notatedMusic>
                           <neume fontname="buranus" glyph.num="6" label="vi" />
                         </notatedMusic>
-                      </seg>
-                    </note>
+                      </seg></note>
                   </app>
                 </w>
               </rhyme>
@@ -426,8 +423,7 @@
                 <note>spat. vac. coni. <seg type="syll" part="I">so<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi" />
                     </notatedMusic>
-                  </seg>
-                </note>
+                  </seg></note>
               </app>
               <seg type="syll" part="F">nant<notatedMusic>
                   <neume fontname="buranus" glyph.num="45" label="cl" />
@@ -627,8 +623,7 @@
                 <note>non leg. coni. <seg type="syll" part="I">ar<notatedMusic>
                       <neume fontname="buranus" glyph.num="45" label="cl" />
                     </notatedMusic>
-                  </seg>
-                </note>
+                  </seg></note>
               </app>
               <seg type="syll" part="M">des<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -845,8 +840,7 @@
                     <seg type="syll" part="F">stat</seg>
                   </w>
                 </lem>
-                <rdg wit="cod HS"><w>Restat</w>
-                </rdg>
+                <rdg wit="cod HS"><w>Restat</w></rdg>
               </app>
               <rhyme label="a">
                 <w>
@@ -1008,11 +1002,8 @@
                       <seg type="syll" part="F">no,</seg>
                     </w>
                   </lem>
-                  <rdg wit="cod V"><w>cerno</w>
-                  </rdg>
-                  <note>
-                  letter 'c' corrected over scraping
-                </note>
+                  <rdg wit="cod V"><w>cerno</w></rdg>
+                  <note>letter 'c' corrected over scraping</note>
                 </app>
               </rhyme>
             </seg>
