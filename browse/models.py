@@ -3,6 +3,7 @@ from django.db import models
 from django.urls import reverse
 from django.db.models import UniqueConstraint
 from django.db.models.functions import Lower
+from .indentify import indentify
 
 
 class Language(models.Model):
@@ -266,17 +267,22 @@ class Item(models.Model):
         import os
         from django.conf import settings
         return os.path.join(os.path.join(settings.STATIC_ROOT, 'tei'), self.tei_file + ".tei")
+        # return os.path.join(os.path.join(settings.STATICFILES_DIRS[0], 'tei'), self.tei_file + ".tei")
 
-    def transform(self, xsl_file):
+    def transform(self, xsl_file, indent=False):
         # Given the xsl file (only filename, no path), transforms item's tei file
         # IMPORTANT: the xsl file must produce a tree with one root
         import os
         from django.conf import settings
         from lxml import etree, html
         xsl = etree.parse(os.path.join(os.path.join(settings.STATIC_ROOT, 'xsl'), xsl_file))
+        # xsl = etree.parse(os.path.join(os.path.join(settings.STATICFILES_DIRS[0], 'xsl'), xsl_file))
         transform = etree.XSLT(xsl)
+        result = transform(etree.parse(self.tei_path))
+        if indent:
+            indentify(result)
         try:
-            return lxml.html.tostring(transform(etree.parse(self.tei_path))).decode('UTF-8')
+            return lxml.html.tostring(result).decode('UTF-8')
         except:
             return ''
 
@@ -291,6 +297,7 @@ class Item(models.Model):
         from django.conf import settings
         from lxml import etree, html
         xsl = etree.parse(os.path.join(os.path.join(settings.STATIC_ROOT, 'xsl'), 'neume_detail.xsl'))
+        # xsl = etree.parse(os.path.join(os.path.join(settings.STATICFILES_DIRS[0], 'xsl'), 'neume_detail.xsl'))
         transform = etree.XSLT(xsl)
         try:
             return lxml.html.tostring(transform(etree.parse(self.tei_path), n=str(n))).decode('UTF-8')
@@ -299,7 +306,7 @@ class Item(models.Model):
 
     @property
     def text_transform(self):
-        return self.transform('text.xsl')
+        return self.transform('text.xsl', indent=True)
 
     @property
     def neume_apparatus_transform(self):

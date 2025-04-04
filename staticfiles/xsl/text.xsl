@@ -55,6 +55,8 @@
 
   <xsl:template match="div[@type='poem']">
     <div class="poem">
+      <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
+      <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
       <xsl:apply-templates select=".//lg[@type='strophe'] | .//lg[@type='refrain']" mode="poem" />
     </div>
   </xsl:template>
@@ -67,6 +69,12 @@
 
   <xsl:template match="lg[@type='strophe']" mode="poem">
     <div class="strophe">
+      <xsl:if test="@met">
+        <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
+      </xsl:if>
+      <xsl:if test="@rhyme">
+        <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
+      </xsl:if>
       <xsl:choose>
         <xsl:when test="./@n">
           <div class="text-font strophe-heading"><xsl:value-of select="@n"/></div>
@@ -84,6 +92,8 @@
 
   <xsl:template match="lg[@type='strophe']" mode="leich">
     <div class="strophe">
+      <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
+      <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
       <xsl:choose>
         <xsl:when test="./@n">
           <div class="text-font strophe-heading"><xsl:value-of select="@n"/></div>
@@ -101,6 +111,12 @@
 
   <xsl:template match="lg[@type='refrain']" mode="poem">
     <div class="strophe">
+      <xsl:if test="@met">
+        <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
+      </xsl:if>
+      <xsl:if test="@rhyme">
+        <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
+      </xsl:if>
       <xsl:choose>
         <xsl:when test="./head">
           <div class="text-font refrain-heading"><xsl:value-of select="./head"/></div>
@@ -121,6 +137,8 @@
 
   <xsl:template match="lg[@type='versicle']">
     <div class="strophe">
+      <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
+      <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
       <div class="text-font strophe-heading"><xsl:value-of select="@n"/></div>
       <xsl:apply-templates>
         <xsl:with-param name="showmet" select="0"/>
