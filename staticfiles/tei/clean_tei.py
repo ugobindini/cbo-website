@@ -60,7 +60,7 @@ if __name__ == "__main__":
 
 		# Add core code modifying the tree here!
 
-		for div in tree.getroot().findall(".//div[@type='poem']"):
+		for div in tree.getroot().findall(".//div[@type='sequence']"):
 			try:
 				met = div.get('met')
 			except:
@@ -70,7 +70,7 @@ if __name__ == "__main__":
 			except:
 				print("WARNING: Attribute @rhyme not specified in div of type @poem")
 
-			strophes = div.findall(".//lg[@type='strophe']")
+			strophes = div.findall(".//lg[@type='versicle']")
 			for strophe in strophes:
 				if 'met' not in strophe.keys():
 					strophe.set('met', met)
