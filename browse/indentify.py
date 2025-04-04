@@ -28,13 +28,13 @@ def indentify(tree):
 	for poem in tree.findall(".//div[@class='poem']"):
 		global_met = poem.get('data-met')
 		for lg in poem.findall("./div[@class='strophe']"):
-			if 'met' in lg.keys():
+			if 'data-met' in lg.keys():
 				met = lg.get('data-met')
 			else:
 				met = global_met
 
 			parsed_met = parse(met)
 			for (n, verse) in enumerate(lg.findall(".//div[@class='verse']")):
-				verse.set('data-indent', str(parsed_met[n])) # verse.set('style', f"margin-left: calc({parsed_met[n]} * 30px)" + verse.get('style'))
+				verse.set('data-indent', str(parsed_met[n]))
 
 	return tree

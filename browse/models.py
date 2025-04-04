@@ -3,8 +3,11 @@ from django.db import models
 from django.urls import reverse
 from django.db.models import UniqueConstraint
 from django.db.models.functions import Lower
+from django.conf import settings
 from .indentify import indentify
 
+#static_root = settings.STATICFILES_DIRS[0]
+static_root = settings.STATIC_ROOT # comment for local servering
 
 class Language(models.Model):
     """Model representing a language."""
@@ -265,18 +268,14 @@ class Item(models.Model):
     @property
     def tei_path(self):
         import os
-        from django.conf import settings
-        return os.path.join(os.path.join(settings.STATIC_ROOT, 'tei'), self.tei_file + ".tei")
-        # return os.path.join(os.path.join(settings.STATICFILES_DIRS[0], 'tei'), self.tei_file + ".tei")
+        return os.path.join(os.path.join(static_root, 'tei'), self.tei_file + ".tei")
 
     def transform(self, xsl_file, indent=False):
         # Given the xsl file (only filename, no path), transforms item's tei file
         # IMPORTANT: the xsl file must produce a tree with one root
         import os
-        from django.conf import settings
         from lxml import etree, html
-        xsl = etree.parse(os.path.join(os.path.join(settings.STATIC_ROOT, 'xsl'), xsl_file))
-        # xsl = etree.parse(os.path.join(os.path.join(settings.STATICFILES_DIRS[0], 'xsl'), xsl_file))
+        xsl = etree.parse(os.path.join(os.path.join(static_root, 'xsl'), xsl_file))
         transform = etree.XSLT(xsl)
         result = transform(etree.parse(self.tei_path))
         if indent:
@@ -294,10 +293,8 @@ class Item(models.Model):
 
     def neume_detail_transform(self, n):
         import os
-        from django.conf import settings
         from lxml import etree, html
-        xsl = etree.parse(os.path.join(os.path.join(settings.STATIC_ROOT, 'xsl'), 'neume_detail.xsl'))
-        # xsl = etree.parse(os.path.join(os.path.join(settings.STATICFILES_DIRS[0], 'xsl'), 'neume_detail.xsl'))
+        xsl = etree.parse(os.path.join(os.path.join(static_root, 'xsl'), 'neume_detail.xsl'))
         transform = etree.XSLT(xsl)
         try:
             return lxml.html.tostring(transform(etree.parse(self.tei_path), n=str(n))).decode('UTF-8')

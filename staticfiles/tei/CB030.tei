@@ -37,8 +37,8 @@
   </teiHeader>
   <text>
     <body>
-      <div type="poem" xml:lang="latin" met="7pp/3pp/4pp/7pp/6p/3pp/4pp/6p" rhyme="a/a/a/a/b/c/c/b">
-        <lg type="strophe" n="I" met="7pp/3pp/4pp/7pp/6p/3pp/4pp/6p" rhyme="a/a/a/a/b/c/c/b">
+      <div type="poem" xml:lang="latin" met="7pp/3pp+4pp/7pp/6p/3pp+4pp/6p" rhyme="a/a/a/a/b/c/c/b">
+        <lg type="strophe" n="I" met="7pp/3pp+4pp/7pp/6p/3pp+4pp/6p" rhyme="a/a/a/a/b/c/c/b">
           <l n="1" met="7pp" rhyme="a">
             <w>
               <seg type="syll">Dum<notatedMusic>
@@ -255,7 +255,7 @@
             </w>
           </l>
         </lg>
-        <lg type="strophe" n="II" met="7pp/3pp/4pp/7pp/6p/3pp/4pp/6p" rhyme="a/a/a/a/b/c/c/b">
+        <lg type="strophe" n="II" met="7pp/3pp+4pp/7pp/6p/3pp+4pp/6p" rhyme="a/a/a/a/b/c/c/b">
           <l n="1" met="7pp" rhyme="a">
             <w>
               <seg type="syll" part="I">A<notatedMusic>
@@ -488,7 +488,7 @@
             </w>
           </l>
         </lg>
-        <lg type="strophe" n="III" met="7pp/3pp/4pp/7pp/6p/3pp/4pp/6p" rhyme="a/a/a/a/b/c/c/b">
+        <lg type="strophe" n="III" met="7pp/3pp+4pp/7pp/6p/3pp+4pp/6p" rhyme="a/a/a/a/b/c/c/b">
           <l n="1" met="7pp" rhyme="a">
             <w>
               <seg type="syll" part="I">E<notatedMusic>
@@ -716,7 +716,7 @@
             </w>
           </l>
         </lg>
-        <lg type="strophe" n="IV" met="7pp/3pp/4pp/7pp/6p/3pp/4pp/6p" rhyme="a/a/a/a/b/c/c/b">
+        <lg type="strophe" n="IV" met="7pp/3pp+4pp/7pp/6p/3pp+4pp/6p" rhyme="a/a/a/a/b/c/c/b">
           <l n="1" met="7pp" rhyme="a">
             <w>
               <seg type="syll" part="I">Vo<notatedMusic>
