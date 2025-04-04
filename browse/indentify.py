@@ -7,8 +7,6 @@ def parse(met):
 	for element in elements:
 		ints.append(sum([int(x) for x in re.findall(r'\d+', element)]))
 
-	return ints
-
 	ints = [x - max(ints) for x in ints]
 	k = 0
 	res = [0 for _ in range(len(ints))]
