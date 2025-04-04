@@ -386,10 +386,18 @@
                       <neume fontname="buranus" glyph.num="6" label="vi" />
                     </notatedMusic>
                     </seg>
-                    <seg type="syll" part="M">re<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
-                    </seg>
+                    <app type="neume">
+                      <lem>
+                        <seg type="syll" part="M">re<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                      </lem>
+                      <note>vel <seg type="syll" part="M">re<notatedMusic>
+                        <neume fontname="buranus" glyph.num="25" label="vi/" />
+                      </notatedMusic>
+                      </seg></note>
+                    </app>
                     <seg type="syll" part="F">a,<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi" />
                     </notatedMusic>
@@ -445,10 +453,18 @@
               </w>
               <rhyme label="b">
                 <w>
-                  <seg type="syll" part="I">den<notatedMusic>
-                    <neume fontname="buranus" glyph.num="6" label="vi" />
-                  </notatedMusic>
-                  </seg>
+                  <app type="neume">
+                    <lem>
+                      <seg type="syll" part="I">den<notatedMusic>
+                        <neume fontname="buranus" glyph.num="6" label="vi" />
+                      </notatedMusic>
+                      </seg>
+                    </lem>
+                    <note>vel <seg type="syll" part="I">den<notatedMusic>
+                      <neume fontname="buranus" glyph.num="25" label="vi/" />
+                    </notatedMusic>
+                    </seg></note>
+                  </app>
                   <seg type="syll" part="M" met="+">sa<notatedMusic>
                     <neume fontname="buranus" glyph.num="1" label="pu" />
                   </notatedMusic>
