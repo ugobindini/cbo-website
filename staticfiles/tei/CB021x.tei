@@ -2,34 +2,34 @@
   <teiHeader />
   <text>
     <body>
-      <div type="poem">
-        <lg type="strophe" n="I">
-          <l n="1">Presens dies expendatur</l>
-          <l n="2">in eius preconium,</l>
-          <l n="3">cuius virtus dilatatur</l>
-          <l n="4">in ore laudantium,</l>
-          <l n="5">si gestorum teneatur</l>
-          <l n="6">finis et inicium.</l>
+      <div type="poem" xml:lang="latin" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+        <lg type="strophe" n="I" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+          <l n="1" met="8p" rhyme="a">Presens dies expendatur</l>
+          <l n="2" met="7pp" rhyme="b">in eius preconium,</l>
+          <l n="3" met="8p" rhyme="a">cuius virtus dilatatur</l>
+          <l n="4" met="7pp" rhyme="b">in ore laudantium,</l>
+          <l n="5" met="8p" rhyme="a">si gestorum teneatur</l>
+          <l n="6" met="7pp" rhyme="b">finis et inicium.</l>
         </lg>
-        <lg type="strophe" n="II">
-          <l n="1">Verbo vite roboratus</l>
-          <l n="2">prosiliit Porfirius</l>
-          <l n="3">cum ducentis decollatus</l>
-          <l n="4">migrat palme socius,</l>
-          <l n="5">Katerine cruciatus</l>
-          <l n="6">maturat Maxentius.</l>
+        <lg type="strophe" n="II" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+          <l n="1" met="8p" rhyme="a">Verbo vite roboratus</l>
+          <l n="2" met="7pp" rhyme="b">prosiliit Porfirius</l>
+          <l n="3" met="8p" rhyme="a">cum ducentis decollatus</l>
+          <l n="4" met="7pp" rhyme="b">migrat palme socius,</l>
+          <l n="5" met="8p" rhyme="a">Katerine cruciatus</l>
+          <l n="6" met="7pp" rhyme="b">maturat Maxentius.</l>
         </lg>
-        <lg type="strophe" n="III">
-          <l n="1">Imminente passione...</l>
+        <lg type="strophe" n="III" met="8p" rhyme="a">
+          <l n="1" met="8p" rhyme="a">Imminente passione...</l>
         </lg>
-        <lg type="strophe" n="IV">
-          <l n="1">Hoc declarat, hoc exemplat...</l>
+        <lg type="strophe" n="IV" met="8p" rhyme="a">
+          <l n="1" met="8p" rhyme="a">Hoc declarat, hoc exemplat...</l>
         </lg>
-        <lg type="strophe" n="V">
-          <l n="1">Cum doloris corporalis...</l>
+        <lg type="strophe" n="V" met="8p" rhyme="a">
+          <l n="1" met="8p" rhyme="a">Cum doloris corporalis...</l>
         </lg>
-        <lg type="strophe" n="VI">
-          <l n="1">Gloria et honor...</l>
+        <lg type="strophe" n="VI" met="8p" rhyme="a">
+          <l n="1" met="8p" rhyme="a">Gloria et honor...</l>
         </lg>
       </div>
     </body>

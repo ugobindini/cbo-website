@@ -2,61 +2,54 @@
   <teiHeader />
   <text>
     <body>
-      <div type="poem">
-        <lg type="strophe" n="I">
-          <l n="1">Pange lingua gloriose</l>
-          <l n="2">virginis martirium,</l>
-          <l n="3">gemme iubar preciose</l>
-          <l n="4">descendat in medium,</l>
-          <l n="5">ut illustret tenebrose</l>
-          <l n="6">mentis domicilium.</l>
+      <div type="poem" xml:lang="latin" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+        <lg type="strophe" n="I" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+          <l n="1" met="8p" rhyme="a">Pange lingua gloriose</l>
+          <l n="2" met="7pp" rhyme="b">virginis martirium,</l>
+          <l n="3" met="8p" rhyme="a">gemme iubar preciose</l>
+          <l n="4" met="7pp" rhyme="b">descendat in medium,</l>
+          <l n="5" met="8p" rhyme="a">ut illustret tenebrose</l>
+          <l n="6" met="7pp" rhyme="b">mentis domicilium.</l>
         </lg>
-        <lg type="strophe" n="II">
-          <l n="1">Imminente passione</l>
-          <l n="2">virgo hec interserit,</l>
-          <l n="3">assequatur Iesu bone</l>
-          <l n="4">quod a te pecierit</l>
-          <l n="5">suo quisquis in agone</l>
-          <l n="6">mei memor fuerit.</l>
+        <lg type="strophe" n="II" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+          <l n="1" met="8p" rhyme="a">Imminente passione</l>
+          <l n="2" met="7pp" rhyme="b">virgo hec interserit,</l>
+          <l n="3" met="8p" rhyme="a">assequatur Iesu bone</l>
+          <l n="4" met="7pp" rhyme="b">quod a te pecierit</l>
+          <l n="5" met="8p" rhyme="a">suo quisquis in agone</l>
+          <l n="6" met="7pp" rhyme="b">mei memor fuerit.</l>
         </lg>
-        <lg type="strophe" n="III">
-          <l n="1">In hoc capud amputatur</l>
-          <l n="2">fluit lac cum sanguine</l>
-          <l n="3">angelorum sublevatur</l>
-          <l n="4">corpus multitudine</l>
-          <l n="5">et Sinay collocatur</l>
-          <l n="6">in supremo culmine.</l>
+        <lg type="strophe" n="III" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+          <l n="1" met="8p" rhyme="a">In hoc capud amputatur</l>
+          <l n="2" met="7pp" rhyme="b">fluit lac cum sanguine</l>
+          <l n="3" met="8p" rhyme="a">angelorum sublevatur</l>
+          <l n="4" met="7pp" rhyme="b">corpus multitudine</l>
+          <l n="5" met="8p" rhyme="a">et Sinay collocatur</l>
+          <l n="6" met="7pp" rhyme="b">in supremo culmine.</l>
         </lg>
-        <lg type="strophe" n="IV">
-          <l n="1">Hoc declarat hoc <app>
-              <lem>explanat</lem>
-            </app></l>
-          <l n="2">meritum virgineum,</l>
-          <l n="3">quod ex eius tumba manat</l>
-          <l n="4">incessanter oleum</l>
-          <l n="5">cuius virtus omnis sanat</l>
-          <l n="6">doloris aculeum.</l>
+        <lg type="strophe" n="IV" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+          <l n="1" met="8p" rhyme="a">Hoc declarat hoc explanat</l>
+          <l n="2" met="7pp" rhyme="b">meritum virgineum,</l>
+          <l n="3" met="8p" rhyme="a">quod ex eius tumba manat</l>
+          <l n="4" met="7pp" rhyme="b">incessanter oleum</l>
+          <l n="5" met="8p" rhyme="a">cuius virtus omnis sanat</l>
+          <l n="6" met="7pp" rhyme="b">doloris aculeum.</l>
         </lg>
-        <lg type="strophe" n="V">
-          <l n="1">Cum doloris corporalis</l>
-          <l n="2">ut sanat hec untio</l>
-          <l n="3">sic liquoris spiritalis</l>
-          <l n="4">mundet nos infusio,</l>
-          <l n="5">ut eterno temporalis</l>
-          <l n="6">dolor cedat gaudio.</l>
+        <lg type="strophe" n="V" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+          <l n="1" met="8p" rhyme="a">Cum doloris corporalis</l>
+          <l n="2" met="7pp" rhyme="b">ut sanat hec untio</l>
+          <l n="3" met="8p" rhyme="a">sic liquoris spiritalis</l>
+          <l n="4" met="7pp" rhyme="b">mundet nos infusio,</l>
+          <l n="5" met="8p" rhyme="a">ut eterno temporalis</l>
+          <l n="6" met="7pp" rhyme="b">dolor cedat gaudio.</l>
         </lg>
-        <lg type="strophe" n="VI">
-          <l n="1">
-            <app>
-              <lem>
-                <w>Gloria</w>
-              </lem>
-            </app> sit Iesu bone</l>
-          <l n="2">tibi nunc et iugiter</l>
-          <l n="3">qui certantes in agone</l>
-          <l n="4">adiuvas fideliter</l>
-          <l n="5">et mercedem das corone</l>
-          <l n="6">vincenti viriliter.</l>
+        <lg type="strophe" n="VI" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+          <l n="1" met="8p" rhyme="a">Gloria sit Iesu bone</l>
+          <l n="2" met="7pp" rhyme="b">tibi nunc et iugiter</l>
+          <l n="3" met="8p" rhyme="a">qui certantes in agone</l>
+          <l n="4" met="7pp" rhyme="b">adiuvas fideliter</l>
+          <l n="5" met="8p" rhyme="a">et mercedem das corone</l>
+          <l n="6" met="7pp" rhyme="b">vincenti viriliter.</l>
         </lg>
       </div>
     </body>

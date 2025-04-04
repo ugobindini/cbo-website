@@ -2,61 +2,57 @@
   <teiHeader />
   <text>
     <body>
-      <div type="poem">
-        <lg type="strophe" n="I">
-          <l n="1">Katerine collaudemus</l>
-          <l n="2">virtutum insignia,</l>
-          <l n="3">cordis ei presentemus</l>
-          <l n="4">et oris obsequia,</l>
-          <l n="5"><app>
-              <lem>ut</lem>
-            </app> ab ipsa reportemus</l>
-          <l n="6">equa laudum premia.</l>
+      <div type="poem" xml:lang="latin" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+        <lg type="strophe" n="I" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+          <l n="1" met="8p" rhyme="a">Katerine collaudemus</l>
+          <l n="2" met="7pp" rhyme="b">virtutum insignia,</l>
+          <l n="3" met="8p" rhyme="a">cordis ei presentemus</l>
+          <l n="4" met="7pp" rhyme="b">et oris obsequia,</l>
+          <l n="5" met="8p" rhyme="a">ut ab ipsa reportemus</l>
+          <l n="6" met="7pp" rhyme="b">equa laudum premia.</l>
         </lg>
-        <lg type="strophe" n="II">
-          <l n="1">Multa fide Katerina</l>
-          <l n="2">iudicem Maxentium</l>
-          <l n="3">non formidat; lex divina</l>
-          <l n="4">set format eloquium,</l>
-          <l n="5">quod confutat ex doctrina</l>
-          <l n="6">errores gentilium.</l>
+        <lg type="strophe" n="II" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+          <l n="1" met="8p" rhyme="a">Multa fide Katerina</l>
+          <l n="2" met="7pp" rhyme="b">iudicem Maxentium</l>
+          <l n="3" met="8p" rhyme="a">non formidat; lex divina</l>
+          <l n="4" met="7pp" rhyme="b">set format eloquium,</l>
+          <l n="5" met="8p" rhyme="a">quod confutat ex doctrina</l>
+          <l n="6" met="7pp" rhyme="b">errores gentilium.</l>
         </lg>
-        <lg type="strophe" n="III">
-          <l n="1">Victi Christo confitentur</l>
-          <l n="2">relictis erroribus.</l>
-          <l n="3">iudex iubet, ut crementur;</l>
-          <l n="4">nec pilis nec vestibus</l>
-          <l n="5">nocet ignis, et torrentur</l>
-          <l n="6">inustis corporibus.</l>
+        <lg type="strophe" n="III" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+          <l n="1" met="8p" rhyme="a">Victi Christo confitentur</l>
+          <l n="2" met="7pp" rhyme="b">relictis erroribus.</l>
+          <l n="3" met="8p" rhyme="a">iudex iubet, ut crementur;</l>
+          <l n="4" met="7pp" rhyme="b">nec pilis nec vestibus</l>
+          <l n="5" met="8p" rhyme="a">nocet ignis, et torrentur</l>
+          <l n="6" met="7pp" rhyme="b">inustis corporibus.</l>
         </lg>
-        <lg type="strophe" n="IV">
-          <l n="1">Post hec blande rex molitur</l>
-          <l n="2">virginem seducere,</l>
-          <l n="3">nec promissis emollitur</l>
-          <l n="4">nec terretur verbere;</l>
-          <l n="5">compeditur, custoditur</l>
-          <l n="6">tetro clausa carcere.</l>
+        <lg type="strophe" n="IV" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+          <l n="1" met="8p" rhyme="a">Post hec blande rex molitur</l>
+          <l n="2" met="7pp" rhyme="b">virginem seducere,</l>
+          <l n="3" met="8p" rhyme="a">nec promissis emollitur</l>
+          <l n="4" met="7pp" rhyme="b">nec terretur verbere;</l>
+          <l n="5" met="8p" rhyme="a">compeditur, custoditur</l>
+          <l n="6" met="7pp" rhyme="b">tetro clausa carcere.</l>
         </lg>
-        <lg type="strophe" n="V">
-          <l n="1">Clause lumen ne claudatur,</l>
-          <l n="2">illucet Porfirio,</l>
-          <l n="3">qui regine federatur</l>
-          <l n="4">fidei collegio;</l>
-          <l n="5">quorum fidem imitatur</l>
-          <l n="6">ducentena concio.</l>
+        <lg type="strophe" n="V" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+          <l n="1" met="8p" rhyme="a">Clause lumen ne claudatur,</l>
+          <l n="2" met="7pp" rhyme="b">illucet Porfirio,</l>
+          <l n="3" met="8p" rhyme="a">qui regine federatur</l>
+          <l n="4" met="7pp" rhyme="b">fidei collegio;</l>
+          <l n="5" met="8p" rhyme="a">quorum fidem imitatur</l>
+          <l n="6" met="7pp" rhyme="b">ducentena concio.</l>
         </lg>
-        <lg type="strophe" n="VI">
-          <l n="1">Huius ergo concionis</l>
-          <l n="2">concordes constantia</l>
-          <l n="3">vim mundane passionis</l>
-          <l n="4">pari pacientia</l>
-          <l n="5">superemus, ut in bonis</l>
-          <l n="6">regnemur in gloria.</l>
-        </lg>
-        <lg type="strophe">
-          <l n="7">Amen.</l>
+        <lg type="strophe" n="VI" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
+          <l n="1" met="8p" rhyme="a">Huius ergo concionis</l>
+          <l n="2" met="7pp" rhyme="b">concordes constantia</l>
+          <l n="3" met="8p" rhyme="a">vim mundane passionis</l>
+          <l n="4" met="7pp" rhyme="b">pari pacientia</l>
+          <l n="5" met="8p" rhyme="a">superemus, ut in bonis</l>
+          <l n="6" met="7pp" rhyme="b">regnemur in gloria.</l>
         </lg>
       </div>
+      <p>Amen.</p>
     </body>
   </text>
 </TEI>
