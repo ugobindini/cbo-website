@@ -4,7 +4,7 @@ from django.urls import reverse
 from django.db.models import UniqueConstraint
 from django.db.models.functions import Lower
 from django.conf import settings
-from indentify import indentify
+from .indentify import indentify
 
 #static_root = settings.STATICFILES_DIRS[0]
 static_root = settings.STATIC_ROOT # comment for local servering
