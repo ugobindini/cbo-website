@@ -35,7 +35,4 @@ if __name__ == "__main__":
 					print(f"{name}, {neume.attrib['label']} : {neume.attrib['glyph.num']} -> 0")
 				neume.set('glyph.num', '0')
 
-		tei_file = open("test" + name, 'w')
-		ET.indent(tree)
-		tree.write(tei_file, encoding="unicode", method="xml")
-		tei_file.close()
+		tree.write(name)
