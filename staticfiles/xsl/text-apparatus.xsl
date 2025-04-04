@@ -21,7 +21,7 @@
   </xsl:template>
 
   <xsl:template match="app[@type='text']">
-    <b style="margin-right: 6px;"><xsl:value-of select="ancestor::lg/@n"/>.<xsl:value-of select="ancestor::l/@n"/></b>
+    <b style="margin-left: -5px; margin-right: 5px;"><xsl:value-of select="ancestor::lg/@n"/>.<xsl:value-of select="ancestor::l/@n"/></b>
     <xsl:apply-templates select="./lem" />
     <xsl:if test="./rdg">
       <xsl:choose>
