@@ -9,6 +9,7 @@ import os
 import argparse
 import xml.etree.ElementTree as ET
 
+
 def last_stressed_syllable_index(met):
     """
     Given a metric symbol (4p, A3-, ...) returns the index (negative) of the last stressed syllable
@@ -21,6 +22,7 @@ def last_stressed_syllable_index(met):
         return -2
     else:
         return -1
+
 
 def propagate_metrical_info(strophe, attrib, value):
 	verses_value = value.split('/')
@@ -60,9 +62,9 @@ if __name__ == "__main__":
 
 		# Add core code modifying the tree here!
 
-		for div in tree.getroot().findall(".//div[@type='sequence']"):
+		for div in tree.getroot().findall(".//div[@type='poem']"):
 			try:
-				met = div.get('met')
+				poem_met = div.get('met')
 			except:
 				print("WARNING: Attribute @met not specified in div of type @poem")
 			try:
@@ -70,9 +72,10 @@ if __name__ == "__main__":
 			except:
 				print("WARNING: Attribute @rhyme not specified in div of type @poem")
 
-			strophes = div.findall(".//lg[@type='versicle']")
+			strophes = div.findall(".//lg[@type='strophe']")
 			for strophe in strophes:
 				if 'met' not in strophe.keys():
+					met = poem_met
 					strophe.set('met', met)
 				else:
 					met = strophe.get('met')
