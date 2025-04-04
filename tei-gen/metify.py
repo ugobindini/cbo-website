@@ -69,7 +69,7 @@ if __name__ == "__main__":
 		# Second step: signal the last accented syllable of each verse/hemistich by setting @met='+'.
 
 		for x in tree.getroot().findall(".//l") + tree.getroot().findall(".//seg[@type='hemistich']"):
-			syllables = x.findall("./seg[@type='word']/seg[@type='syll']")
+			syllables = x.findall("./w/seg[@type='syll']")
 			if len(syllables) and x.get('met') is not None:
 				i = last_stressed_syllable_index(x.get('met'))
 				try:
@@ -80,7 +80,7 @@ if __name__ == "__main__":
 		# Third step: enclose last word of each verse/hemistich in a <rhyme> tag with the correct @label.
 
 		for x in tree.getroot().findall(".//l") + tree.getroot().findall(".//seg[@type='hemistich']"):
-			words = x.findall("./seg[@type='word']")
+			words = x.findall("./w")
 			if len(words) and x.get('rhyme') is not None:
 				label = x.get('rhyme')
 				rhyme = ET.Element('rhyme', attrib={'label': label})

@@ -85,8 +85,8 @@
               <seg type="syll" part="F">na,</seg>
             </w>
           </l>
-          <l n="6" met="4p+4p" rhyme="b">
-            <seg type="hemistich" met="4p">
+          <l n="6" met="4p+4p" rhyme="e+e">
+            <seg type="hemistich" met="4p" rhyme="e">
               <w>
                 <seg type="syll">me</seg>
               </w>
@@ -96,7 +96,7 @@
                 <seg type="syll" part="F">rem,</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="4p" rhyme="b">
+            <seg type="hemistich" met="4p" rhyme="e">
               <w>
                 <seg type="syll" part="I">mun</seg>
                 <seg type="syll" part="F">do</seg>
@@ -211,8 +211,8 @@
               <seg type="syll" part="F">a</seg>
             </w>
           </l>
-          <l n="6" met="4p+4p" rhyme="b">
-            <seg type="hemistich" met="4p">
+          <l n="6" met="4p+4p" rhyme="e+e">
+            <seg type="hemistich" met="4p" rhyme="e">
               <w>
                 <seg type="syll" part="I">de</seg>
                 <seg type="syll" part="M">can</seg>
@@ -329,8 +329,8 @@
               <seg type="syll" part="F">us,</seg>
             </w>
           </l>
-          <l n="6" met="4p+4p" rhyme="b">
-            <seg type="hemistich" met="4p">
+          <l n="6" met="4p+4p" rhyme="e+e">
+            <seg type="hemistich" met="4p" rhyme="e">
               <w>
                 <seg type="syll">si</seg>
               </w>
@@ -551,8 +551,8 @@
               </seg>
             </w>
           </l>
-          <l n="6" met="4p+4p" rhyme="b">
-            <seg type="hemistich" met="4p">
+          <l n="6" met="4p+4p" rhyme="e+e">
+            <seg type="hemistich" met="4p" rhyme="e">
               <w>
                 <seg type="syll" part="I">ac<notatedMusic>
                     <neume fontname="buranus" glyph.num="6" label="vi" />
