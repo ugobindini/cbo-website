@@ -1277,7 +1277,7 @@
         </sp>
         <stage>Maria Magdalena cantet</stage>
         <sp who="#mar-magd">
-          <div type="poem">
+          <div type="poem" met="7pp+6p/7pp+6p" rhyme="a+b/a+b">
             <lg type="strophe" n="I">
               <l n="1">
                 <seg type="hemistich">
@@ -1849,7 +1849,7 @@
         </sp>
         <stage>Modo vadat Maria cum puellis ad mercatorem cantando</stage>
         <sp who="#mar-magd">
-          <div type="poem">
+          <div type="poem" met="7pp+6p/7pp+6p" rhyme="a/a">
             <lg type="strophe" n="I">
               <l n="1">
                 <seg type="hemistich">
@@ -2138,7 +2138,7 @@
         </sp>
         <stage>Mercator cantet</stage>
         <sp who="#merc">
-          <div type="poem">
+          <div type="poem" met="7pp+6p/7pp+6p" rhyme="a/a">
             <lg type="strophe" n="I">
               <l n="1">
                 <seg type="hemistich">
@@ -2433,7 +2433,7 @@
         </sp>
         <stage>Maria Magdalena</stage>
         <sp who="#mar-magd" xml:lang="middle-high-german">
-          <div type="poem">
+          <div type="poem" met="?/?" rhyme="a/a">
             <lg type="strophe" n="I">
               <l n="1">
                 <w>
@@ -2610,7 +2610,7 @@
                 </w>
               </l>
             </lg>
-            <lg type="refrain">
+            <lg type="refrain" met="?/?" rhyme="A/B">
               <l n="1">
                 <w>
                   <seg type="syll">Seht<notatedMusic>
@@ -2851,7 +2851,7 @@
                 </app>
               </l>
             </lg>
-            <lg type="refrain">
+            <lg type="refrain" met="?" rhyme="A">
               <l n="1">
                 <w>
                   <seg type="syll">Seht<notatedMusic>
@@ -3051,7 +3051,7 @@
                 </w>
               </l>
             </lg>
-            <lg type="refrain">
+            <lg type="refrain" met="?" rhyme="A">
               <l n="1">
                 <w>
                   <seg type="syll">Seht<notatedMusic>
@@ -3077,7 +3077,7 @@
         </sp>
         <stage>Postea vadat dormitum et angelus cantet</stage>
         <sp who="#angelus">
-          <div type="poem">
+          <div type="poem" met="8p/7pp/7pp/7p/8p/8p/10p/7p/7pp" rhyme="a/b/b/c/d/d/e/f/e">
             <lg type="strophe">
               <l n="1">
                 <w>
@@ -3467,7 +3467,7 @@
         </sp>
         <stage>Tunc accedat amator quem Maria salutet et cum parum locuntur, cantet Maria ad puellas</stage>
         <sp who="#mar-magd">
-          <div type="poem">
+          <div type="poem" met="?/?/?" rhyme="a/a/b">
             <lg type="strophe">
               <l n="1">
                 <w>
@@ -3769,7 +3769,7 @@
         </sp>
         <stage>Mercator respondeat</stage>
         <sp who="#merc" xml:lang="middle-high-german">
-          <div type="poem">
+          <div type="poem" met="?/?/?" rhyme="?/?/?">
             <lg type="strophe">
               <l n="1">
                 <w>
@@ -4099,8 +4099,8 @@
         </sp>
         <stage>Et iterum postea obdormiat et angelus veniat cantando ut supra et iterum evanescat.</stage>
         <sp who="#mar-magd">
-          <div type="poem">
-            <lg type="strophe">
+          <div type="poem" met="7pp+6p/7pp+6p" rhyme="a/a">
+            <lg type="strophe" n="I">
               <l n="1">
                 <seg type="hemistich">
                   <w>
@@ -4245,7 +4245,9 @@
                   </w>
                 </seg>
               </l>
-              <l n="3">
+            </lg>
+            <lg type="strophe" n="II">
+              <l n="1">
                 <seg type="hemistich">
                   <w>
                     <seg type="syll">Heu,<notatedMusic>
@@ -4315,7 +4317,7 @@
                   </w>
                 </seg>
               </l>
-              <l n="4">
+              <l n="2">
                 <seg type="hemistich">
                   <w>
                     <seg type="syll">que<notatedMusic>
@@ -4532,8 +4534,8 @@
         </sp>
         <stage>Maria</stage>
         <sp who="#mar-magd">
-          <div type="poem">
-            <lg type="strophe">
+          <div type="poem" met="7pp+6p/7pp+6p" rhyme="a/a">
+            <lg type="strophe" n="I">
               <l n="1">
                 <seg type="hemistich">
                   <w>
@@ -4682,7 +4684,9 @@
                   </w>
                 </seg>
               </l>
-              <l n="3">
+            </lg>
+            <lg type="strophe" n="II">
+              <l n="1">
                 <seg type="hemistich">
                   <w>
                     <seg type="syll">ut<notatedMusic>
@@ -4755,7 +4759,7 @@
                   </w>
                 </seg>
               </l>
-              <l n="4">
+              <l n="2">
                 <seg type="hemistich">
                   <w>
                     <seg type="syll">et<notatedMusic>
@@ -4837,7 +4841,7 @@
         <stage>Tunc deponat vestimenta secularia et induat nigrum pallium, et amator recedat et diabolus veniat ad mercatorem</stage>
         <sp>
           <div type="poem">
-            <lg type="strophe">
+            <lg type="strophe" met="10pp/10pp/10pp/8p" rhyme="a/a/a/b">
               <l n="1">
                 <w>
                   <seg type="syll">Dic<notatedMusic>
@@ -5043,7 +5047,7 @@
         </sp>
         <stage>Mercator respondeat</stage>
         <sp>
-          <div type="poem">
+          <div type="poem" met="10pp/10pp/9pp/4?" rhyme="a/a/a/b">
             <lg type="strophe">
               <l n="1">
                 <w>
@@ -5255,8 +5259,8 @@
         </sp>
         <stage>Accepto ungento vadat ad dominicam personam cantando flendo</stage>
         <sp>
-          <div type="poem">
-            <lg type="strophe">
+          <div type="poem" met="7pp+6p/7pp+6p" rhyme="a/a">
+            <lg type="strophe" n="I">
               <l n="1">
                 <seg type="hemistich">
                   <w>
@@ -5400,7 +5404,9 @@
                   </w>
                 </seg>
               </l>
-              <l n="3">
+            </lg>
+            <lg type="strophe" n="II">
+              <l n="1">
                 <seg type="hemistich">
                   <w>
                     <seg type="syll">huic<notatedMusic>
@@ -5472,7 +5478,7 @@
                   </w>
                 </seg>
               </l>
-              <l n="4">
+              <l n="2">
                 <seg type="hemistich">
                   <w>
                     <seg type="syll">qui<notatedMusic>
@@ -5550,7 +5556,7 @@
         </sp>
         <stage>Item</stage>
         <sp xml:lang="middle-high-german">
-          <div type="poem">
+          <div type="poem" met="?/?/?/?" rhyme="a/a/b/b">
             <lg type="strophe">
               <l>Iesus troest der sele min</l>
               <l>la mich dir enpholhen sin</l>
@@ -5561,7 +5567,7 @@
         </sp>
         <stage>Item</stage>
         <sp xml:lang="middle-high-german">
-          <div type="poem">
+          <div type="poem" met="?/?/?/?" rhyme="a/a/b/b">
             <lg type="strophe">
               <l>Ich chume niht uon den fu&#870;ezzen dein</l>
               <l>du erloesest mich uon den sunden mein.</l>
@@ -6082,7 +6088,7 @@
         </sp>
         <stage>Dicit Iesus</stage>
         <sp who="#ies">
-          <div type="poem">
+          <div type="poem" met="7pp+6p/7pp+6p" rhyme="a/a">
             <lg type="strophe" n="I">
               <l n="1">
                 <seg type="hemistich">
@@ -6504,7 +6510,7 @@
         </sp>
         <stage>Symon respondeat</stage>
         <sp who="#petrus">
-          <div type="poem">
+          <div type="poem" met="7pp+6p" rhyme="a">
             <lg type="strophe">
               <l>
                 <seg type="hemistich">
@@ -6583,7 +6589,7 @@
         </sp>
         <stage>Iesus dicit</stage>
         <sp who="#ies">
-          <div type="poem">
+          <div type="poem" met="7pp+6p" rhyme="a">
             <lg type="strophe">
               <l>
                 <seg type="hemistich">
@@ -6750,7 +6756,7 @@
         </sp>
         <stage>Tunc Maria surgat et vadat lamentando cantans</stage>
         <sp who="#mar-magd">
-          <div type="poem">
+          <div type="poem" met="?/?/?/?" rhyme="a/a/b/b">
             <lg type="strophe" n="I">
               <l n="1">
                 <w>
@@ -7711,7 +7717,7 @@
         </sp>
         <stage>Iesum respondeat</stage>
         <sp who="#ies">
-          <div type="poem">
+          <div type="poem" met="7pp/9pp/8pp/8pp" rhyme="a/a/a/a">
             <lg type="strophe">
               <l n="1">
                 <w>
@@ -7881,7 +7887,7 @@
         </sp>
         <stage>Pontifices cantent</stage>
         <sp>
-          <div type="poem">
+          <div type="poem" met="7pp/8pp/8pp/8pp" rhyme="?/?/?/?">
             <lg type="strophe">
               <l n="1">
                 <w>
@@ -9424,12 +9430,13 @@
         </sp>
         <stage>Iesus illi respondeat</stage>
         <sp who="#ies">
-          <div type="poem">
+          <div type="poem" met="8p/9p/7pp/7pp/4p" rhyme="a/a/b/b/c">
             <lg type="strophe">
-              <l>O Iuda ad quid venisti</l>
-              <l>Peccatum magnum tu fecisti</l>
-              <l>me Iudeis traditum ducis</l>
-              <l>ad patibolum cruciandum.</l>
+              <l n="1">O Iuda ad quid venisti</l>
+              <l n="2">Peccatum magnum tu fecisti</l>
+              <l n="3">me Iudeis traditum</l>
+              <l n="4">ducis ad patibolum</l>
+              <l n="5">cruciandum.</l>
             </lg>
           </div>
         </sp>
@@ -12497,10 +12504,8 @@
         </sp>
         <stage>Tunc veniat mater domini lamentando cum Iohanne ewangelista, et ipsa accedens crucem respicit crucifixum</stage>
         <sp who="#maria" xml:lang="middle-high-german">
-          <div type="poem">
-            <lg type="strophe">
-              <l n="1">
-                <w>
+          <p>
+            <w>
                   <seg type="syll" part="I">A<notatedMusic>
                       <neume fontname="buranus" glyph.num="81" label="ql" />
                       <neume fontname="buranus" glyph.num="39" label="pesu3-!st" />
@@ -12565,8 +12570,10 @@
                     </notatedMusic>
                   </seg>
                 </w>
-              </l>
-              <l n="2">
+          </p>
+          <div type="poem" met="?/?/?/?" rhyme="a/a/b/b">
+            <lg type="strophe">
+              <l n="1">
                 <w>
                   <seg type="syll" part="I">a<notatedMusic>
                       <neume fontname="buranus" glyph.num="7" label="vi)" />
@@ -12612,7 +12619,7 @@
                   </seg>
                 </w>
               </l>
-              <l n="3">
+              <l n="2">
                 <w>
                   <seg type="syll">daz<notatedMusic>
                       <neume fontname="buranus" glyph.num="83" label="ql!an" />
@@ -12664,7 +12671,7 @@
                   </seg>
                 </w>
               </l>
-              <l n="4">
+              <l n="3">
                 <w>
                   <seg type="syll">ze<notatedMusic>
                       <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -12719,7 +12726,7 @@
                   </seg>
                 </w>
               </l>
-              <l n="5">
+              <l n="4">
                 <w>
                   <seg type="syll" part="I">a<notatedMusic>
                       <neume fontname="buranus" glyph.num="105" label="qs" />
@@ -12779,7 +12786,7 @@
         </sp>
         <stage>Item</stage>
         <sp who="#maria" xml:lang="middle-high-german">
-          <div type="poem">
+          <div type="poem" met="?/?/?/?" rhyme="a/a/b/b">
             <lg type="strophe">
               <l n="1">
                 <w>
@@ -12991,7 +12998,7 @@
         </sp>
         <stage>Item</stage>
         <sp who="#maria" xml:lang="middle-high-german">
-          <div type="poem">
+          <div type="poem" met="?/?/?/?" rhyme="a/a/b/b">
             <lg type="strophe">
               <l n="1">
                 <w>
@@ -13191,7 +13198,7 @@
         </sp>
         <stage>Item</stage>
         <sp who="#maria" xml:lang="middle-high-german">
-          <div type="poem">
+          <div type="poem" met="?/?/?/?" rhyme="a/a/b/b">
             <lg type="strophe">
               <l n="1">
                 <w>
@@ -13388,7 +13395,7 @@
         </sp>
         <stage>Item mater domini omni ploratu exhibens multos planctus et clamat ad mulieres flentes et conquerendo valde</stage>
         <sp who="#maria">
-          <div type="poem">
+          <div type="poem" met="8pp/8pp/6pp/6pp/6pp" rhyme="a/a/b/b/a">
             <lg type="strophe" n="I">
               <l n="1">
                 <w>
@@ -13741,7 +13748,7 @@
                 </w>
               </l>
             </lg>
-            <lg type="strophe" n="III">
+            <lg type="strophe" n="III" met="6pp/6pp/6pp/6pp/6pp/6pp/6pp/6pp/6pp/6pp" rhyme="a/b/a/b/c/c/c/d/d/c">
               <l n="1">
                 <w>
                   <seg type="syll" part="I">Tris<notatedMusic>
@@ -14061,7 +14068,7 @@
         </sp>
         <stage>Tunc Maria amplexetur Iohannem et cantet eum habens inter brachia </stage>
         <sp who="#maria">
-          <div type="poem">
+          <div type="poem" met="8p/8p/7pp/7pp/6p/7pp/7pp/6p" rhyme="a/a/b/b/c/d/d/c">
             <lg type="strophe">
               <l n="1">
                 <w>
@@ -14378,7 +14385,7 @@
         </sp>
         <stage>Iohannes ad hec</stage>
         <sp who="#iohannes">
-          <div type="poem">
+          <div type="poem" met="8p/8p/7pp/8pp" rhyme="a/a/b/b">
             <lg type="strophe">
               <l n="1">
                 <w>
@@ -14686,7 +14693,7 @@
         </sp>
         <stage>Tunc Longinus veniat cum lancea et perforet latus eius et ille dicat aperte</stage>
         <sp who="#longinus" xml:lang="middle-high-german">
-          <div type="poem">
+          <div type="poem" met="?/?" rhyme="a/a">
             <lg type="strophe">
               <l n="1">
                 <w>
@@ -14917,7 +14924,7 @@
         </sp>
         <stage>Item</stage>
         <sp who="#longinus" xml:lang="middle-high-german">
-          <div type="poem">
+          <div type="poem" met="?/?" rhyme="a/a">
             <lg type="strophe">
               <l n="1">
                 <w>
