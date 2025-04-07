@@ -6,8 +6,8 @@ from django.db.models.functions import Lower
 from django.conf import settings
 from .indentify import indentify
 
-static_root = settings.STATICFILES_DIRS[0]
-#static_root = settings.STATIC_ROOT # comment for local servering
+#static_root = settings.STATICFILES_DIRS[0]
+static_root = settings.STATIC_ROOT # comment for local servering
 
 class Language(models.Model):
     """Model representing a language."""
