@@ -687,7 +687,7 @@
           </l>
         </lg>
         <lg type="strophe" n="III" met="8pp+4pp/8pp+4pp/7pp/11pp/11pp/7pp/11p/11pp+6p" rhyme="i+a/i+a/b/c/c/b/d/d">
-          <l n="1" met="8pp+4pp" real="8pp+4pp" rhyme="i+a">
+          <l n="1" met="11pp" real="8pp+4pp" rhyme="i+a">
             <seg type="hemistich" met="8pp" real="8pp" rhyme="i">
               <w>
                 <seg type="syll" part="I">Cir</seg>
@@ -715,7 +715,7 @@
               </rhyme>
             </seg>
           </l>
-          <l n="2" met="8pp+4pp" real="8pp+4pp" rhyme="i+a">
+          <l n="2" met="11pp" real="8pp+4pp" rhyme="i+a">
             <seg type="hemistich" met="8pp" rhyme="i">
               <w>
                 <seg type="syll" part="I">Pe</seg>

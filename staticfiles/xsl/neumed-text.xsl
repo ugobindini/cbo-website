@@ -15,6 +15,10 @@
     <b><xsl:apply-templates /></b>
   </xsl:template>
 
+  <xsl:template match="lg[@type='refrain']/head">
+    <div class="refrain-heading"><xsl:apply-templates /></div>
+  </xsl:template>
+
   <xsl:template match="div[@type='drama']">
     <div class="prose-text">
       <xsl:apply-templates/>
@@ -96,11 +100,9 @@
         <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
       </xsl:if>
       <xsl:choose>
-        <xsl:when test="./head">
-          <div class="text-font refrain-heading"><xsl:value-of select="./head"/></div>
-        </xsl:when>
+        <xsl:when test="./head" />
         <xsl:otherwise>
-          <div class="text-font refrain-heading">[Refl.]</div>
+          <div class="refrain-heading">[Refl.]</div>
         </xsl:otherwise>
       </xsl:choose>
       <xsl:apply-templates />
@@ -145,7 +147,7 @@
   </xsl:template>
 
   <xsl:template match="w">
-  <span class="word">
+  <span class="word text-font" style="vertical-align: bottom;">
     <xsl:apply-templates/>
   </span>
   </xsl:template>
