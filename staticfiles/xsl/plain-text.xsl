@@ -4,15 +4,19 @@
   <xsl:template match="teiHeader"/>
 
   <xsl:template match="body">
-    <div style="text-size: 16px;">
+    <div class="text-font" style="text-size: 16px;">
       <xsl:apply-templates />
     </div>
   </xsl:template>
 
   <xsl:template match="castList" />
 
+  <xsl:template match="head">
+    <b><xsl:apply-templates /></b>
+  </xsl:template>
+
   <xsl:template match="div[@type='drama']">
-    <div class="text-font prose-text">
+    <div class="prose-text">
       <xsl:apply-templates/>
     </div>
   </xsl:template>
@@ -30,8 +34,8 @@
   </xsl:template>
 
   <xsl:template match="div[@type='prose']">
-    <div class="text-font prose-text">
-      <div class="text-font font-bold">
+    <div class="prose-text">
+      <div class="font-bold">
         <xsl:apply-templates select="./head"/>
       </div>
       <xsl:apply-templates select="./p"/>
@@ -46,28 +50,26 @@
 
   <xsl:template match="div[@type='sequence']">
     <div class="poem">
-      <div class="text-font font-bold">
+      <div class="font-bold">
         <xsl:apply-templates select="./head"/>
       </div>
       <xsl:apply-templates select=".//lg[@type='versicle']"/>
     </div>
   </xsl:template>
 
-  <xsl:template match="div[@type='poem']">
+  <xsl:template match="div[@type='poem'] | div[@type='leich']">
     <div class="poem">
-      <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
-      <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
-      <xsl:apply-templates select=".//lg[@type='strophe'] | .//lg[@type='refrain']" mode="poem" />
+      <xsl:if test="@met">
+        <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
+      </xsl:if>
+      <xsl:if test="@rhyme">
+        <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
+      </xsl:if>
+      <xsl:apply-templates />
     </div>
   </xsl:template>
 
-  <xsl:template match="div[@type='leich']">
-    <div class="poem">
-      <xsl:apply-templates select=".//lg[@type='strophe'] | .//lg[@type='refrain']" mode="leich" />
-    </div>
-  </xsl:template>
-
-  <xsl:template match="lg[@type='strophe']" mode="poem">
+  <xsl:template match="lg[@type='strophe']">
     <div class="strophe">
       <xsl:if test="@met">
         <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
@@ -77,39 +79,18 @@
       </xsl:if>
       <xsl:choose>
         <xsl:when test="./@n">
-          <div class="text-font strophe-heading"><xsl:value-of select="@n"/></div>
+          <div class="strophe-heading"><xsl:value-of select="@n"/></div>
         </xsl:when>
         <xsl:otherwise>
-          <div style="display: hidden;"></div>
+          <div style="display: hidden;" />
           <!-- a small hack to make the verse numbers work even when there is no strophe number -->
         </xsl:otherwise>
       </xsl:choose>
-      <xsl:apply-templates>
-        <xsl:with-param name="showmet" select="position()"/>
-      </xsl:apply-templates>
+      <xsl:apply-templates />
     </div>
   </xsl:template>
 
-  <xsl:template match="lg[@type='strophe']" mode="leich">
-    <div class="strophe">
-      <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
-      <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
-      <xsl:choose>
-        <xsl:when test="./@n">
-          <div class="text-font strophe-heading"><xsl:value-of select="@n"/></div>
-        </xsl:when>
-        <xsl:otherwise>
-          <div style="display: hidden;"></div>
-          <!-- a small hack to make the verse numbers work even when there is no strophe number -->
-        </xsl:otherwise>
-      </xsl:choose>
-      <xsl:apply-templates>
-        <xsl:with-param name="showmet" select="1"/>
-      </xsl:apply-templates>
-    </div>
-  </xsl:template>
-
-  <xsl:template match="lg[@type='refrain']" mode="poem">
+  <xsl:template match="lg[@type='refrain']">
     <div class="strophe">
       <xsl:if test="@met">
         <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
@@ -119,46 +100,40 @@
       </xsl:if>
       <xsl:choose>
         <xsl:when test="./head">
-          <div class="text-font refrain-heading"><xsl:value-of select="./head"/></div>
+          <div class="refrain-heading"><xsl:value-of select="./head"/></div>
         </xsl:when>
         <xsl:otherwise>
-          <div class="text-font refrain-heading"></div>
+          <div class="refrain-heading">[Refl.]</div>
         </xsl:otherwise>
       </xsl:choose>
-      <xsl:apply-templates select="*[not(self::head)]">
-        <xsl:with-param name="showmet" select="1"/>
-      </xsl:apply-templates>
+      <xsl:apply-templates />
     </div>
-  </xsl:template>
-
-  <xsl:template match="lg[@type='refrain']" mode="leich">
-    <xsl:apply-templates select="." mode="poem" />
   </xsl:template>
 
   <xsl:template match="lg[@type='versicle']">
     <div class="strophe">
       <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
       <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
-      <div class="text-font strophe-heading"><xsl:value-of select="@n"/></div>
-      <xsl:apply-templates>
-        <xsl:with-param name="showmet" select="0"/>
-      </xsl:apply-templates>
+      <div class="strophe-heading"><xsl:value-of select="@n"/></div>
+      <xsl:apply-templates />
     </div>
   </xsl:template>
 
   <xsl:template match="l">
-    <xsl:param name="showmet"/>
     <div class="verse">
-      <div class="verse-text text-font">
+      <div class="verse-text">
         <xsl:apply-templates/>
       </div>
       <div class="verse-met non-selectable">
-        <xsl:if test="$showmet = 1">
-          <xsl:value-of select="@met"/>
-        </xsl:if>
-      </div>
-      <div class="verse-real non-selectable">
-        <xsl:value-of select="@real"/>
+        <b><xsl:value-of select="@real"/></b>
+        <xsl:choose>
+          <xsl:when test="@real">
+            <b><xsl:value-of select="@real"/></b>(<xsl:value-of select="@met"/>)
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="@met"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </div>
       <div class="verse-rhyme non-selectable">
         <xsl:value-of select="@rhyme"/>
@@ -173,43 +148,22 @@
   </xsl:template>
 
   <xsl:template match="w">
-  <span class="word text-font">
+  <span class="word">
     <xsl:apply-templates/>
   </span>
   </xsl:template>
 
+  <xsl:strip-space elements="w" />
+
   <xsl:template match="seg[@type='syll']">
-    <xsl:variable name="text"><xsl:value-of select="./text()"/></xsl:variable>
-    <span class="neumed-syll">
-      <span class="syl text-font">
-        <xsl:choose>
-          <xsl:when test="@met='+'">
-            <span class="syl-text stressed-syl">
-              <xsl:value-of select="normalize-space($text)"/>
-            </span>
-          </xsl:when>
-          <xsl:otherwise>
-            <span class="syl-text">
-              <xsl:value-of select="normalize-space($text)"/>
-            </span>
-          </xsl:otherwise>
-        </xsl:choose>
-        <span class="syl-dash">
-          <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
-        </span>
-      </span>
-      <span class="neumes non-selectable">
-        <span class="consonant-space"><xsl:value-of select="normalize-space($text)"/></span>
-        <xsl:for-each select="notatedMusic/neume">
-          <img class="neume">
-            <xsl:attribute name="src">/staticfiles/img/svg/<xsl:value-of select="@fontname"/><xsl:value-of select="@glyph.num"/>.svg</xsl:attribute>
-          </img>
-        </xsl:for-each>
-      </span>
-    </span>
+    <xsl:value-of select="normalize-space(.)"/>
   </xsl:template>
 
-  <xsl:template match="app">
+  <xsl:template match="app[@type='neume']">
+    <xsl:apply-templates select="./lem/*" />
+  </xsl:template>
+
+  <xsl:template match="app[@type='text']">
     <span class="apparatus-in-text">
       <div class="apparatus-note font-small">
         <xsl:attribute name="class">

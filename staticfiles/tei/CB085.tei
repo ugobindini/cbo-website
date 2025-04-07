@@ -2,34 +2,34 @@
   <teiHeader />
   <text>
     <body>
-      <div type="poem">
-        <lg type="strophe" n="I">
-          <l n="1">Veris dulcis in tempore</l>
-          <l n="2">florenti stat sub arbore</l>
-          <l n="3">Iuliana cum sorore.</l>
-          <l n="4">Dulcis amor!</l>
+      <div type="poem" met="8pp/8pp/8pp/4p" rhyme="a/a/a/B">
+        <lg type="strophe" n="I" met="8pp/8pp/8pp/4p" rhyme="a/a/a/B">
+          <l n="1" met="8pp" rhyme="a">Veris dulcis in tempore</l>
+          <l n="2" met="8pp" rhyme="a">florenti stat sub arbore</l>
+          <l n="3" met="8pp" rhyme="a">Iuliana cum sorore.</l>
+          <l n="4" met="4p" rhyme="B">Dulcis amor!</l>
         </lg>
-        <lg type="refrain">
+        <lg type="refrain" met="8pp/4p" rhyme="A/B">
           <head>Refl.</head>
           <l n="1">Qui te caret hoc tempore</l>
           <l n="2">fit vilior.</l>
         </lg>
-        <lg type="strophe" n="II">
-          <l n="1">Ecce florescunt arbores,</l>
-          <l n="2">lascive canunt volucres,</l>
-          <l n="3">inde tepescunt virgines.</l>
-          <l n="4">dulcis amor!</l>
+        <lg type="strophe" n="II" met="8pp/8pp/8pp/4p" rhyme="a/a/a/B">
+          <l n="1" met="8pp" rhyme="a">Ecce florescunt arbores,</l>
+          <l n="2" met="8pp" rhyme="a">lascive canunt volucres,</l>
+          <l n="3" met="8pp" rhyme="a">inde tepescunt virgines.</l>
+          <l n="4" met="4p" rhyme="B">dulcis amor!</l>
         </lg>
-        <lg type="strophe" n="III">
-          <l n="1">Ecce florescunt lilia</l>
-          <l n="2">et virgines dant agmina,</l>
-          <l n="3">summa deorum carmina.</l>
-          <l n="4">dulcis amor!</l>
+        <lg type="strophe" n="III" met="8pp/8pp/8pp/4p" rhyme="a/a/a/B">
+          <l n="1" met="8pp" rhyme="a">Ecce florescunt lilia</l>
+          <l n="2" met="8pp" rhyme="a">et virgines dant agmina,</l>
+          <l n="3" met="8pp" rhyme="a">summa deorum carmina.</l>
+          <l n="4" met="4p" rhyme="B">Dulcis amor!</l>
         </lg>
-        <lg type="strophe" n="IV">
-          <l n="1">Si tenerem quam cupio</l>
-          <l n="2">in nemore sub folio</l>
-          <l n="3">oscularer cum gaudio.</l>
+        <lg type="strophe" n="IV" met="8pp/8pp/8pp" rhyme="a/a/a">
+          <l n="1" met="8pp" rhyme="a">Si tenerem quam cupio</l>
+          <l n="2" met="8pp" rhyme="a">in nemore sub folio</l>
+          <l n="3" met="8pp" rhyme="a">oscularer cum gaudio.</l>
         </lg>
       </div>
     </body>

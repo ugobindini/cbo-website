@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 
-from constants import BASIC_SHAPES, NABC_TO_FONT_ID
+from constants import BASIC_SHAPES
+from buranus_dict import NABC_TO_FONT_ID
 
 class Neume:
     """

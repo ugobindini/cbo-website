@@ -1,19 +1,18 @@
 {% extends "base_generic.html" %}
 
-{% block content %}
-
 {% load static %}
 
-<h1>Neume List</h1>
-
-{% if neume_list %}
-<div class="neumes-container">
-  {% for neume in neume_list %}
-  <a class="neume-span" href="{{ neume.get_absolute_url }}"><img src="{% static 'img/svg/' %}{{ neume.svg_path }}"></a>
-  {% endfor %}
+{% block content %}
+<div class="flex-column" style="flex: 20%">
+  <!-- add side content here -->
 </div>
-{% else %}
-<p>In preparation</p>
-{% endif %}
+<div style="flex: 80%">
+  <h1>Neume List</h1>
 
+  <div class="neumes-container">
+    {% for neume in neume_list %}
+    <a class="neume-span" href="{{ neume.get_absolute_url }}"><img src="{% static 'img/svg/' %}{{ neume.svg_path }}"></a>
+    {% endfor %}
+  </div>
+</div>
 {% endblock %}

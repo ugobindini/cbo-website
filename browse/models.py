@@ -270,6 +270,15 @@ class Item(models.Model):
         import os
         return os.path.join(os.path.join(static_root, 'tei'), self.tei_file + ".tei")
 
+    @property
+    def is_notated(self):
+        import xml.etree.ElementTree as ET
+        tree = ET.parse(self.tei_path)
+        if tree.find(".//neume") is not None:
+            return True
+        else:
+            return False
+
     def transform(self, xsl_file, indent=False):
         # Given the xsl file (only filename, no path), transforms item's tei file
         # IMPORTANT: the xsl file must produce a tree with one root
@@ -302,8 +311,16 @@ class Item(models.Model):
             return ''
 
     @property
-    def text_transform(self):
-        return self.transform('text.xsl', indent=True)
+    def neumed_text_transform(self):
+        return self.transform('neumed-text.xsl', indent=True)
+
+    @property
+    def plain_text_transform(self):
+        return self.transform('plain-text.xsl', indent=True)
+
+    @property
+    def diplomatic_transform(self):
+        return self.transform('diplomatic.xsl', indent=True)
 
     @property
     def neume_apparatus_transform(self):
@@ -312,7 +329,6 @@ class Item(models.Model):
     @property
     def text_apparatus_transform(self):
         return self.transform('text-apparatus.xsl')
-
 
 
 class Neume(models.Model):

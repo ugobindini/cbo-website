@@ -62,11 +62,11 @@ p {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  width: 30px;
-  margin: 0 10px 0 0;
+  width: 25px;
+  margin: 0 5px 0 0;
   content: counter(line);
   color: gray;
-  text-size: 10px;
+  text-size: 8px;
 }
 
 .verse:not(:nth-child(5n+1)):before {
@@ -77,18 +77,18 @@ p {
   display: flex;
   align-items: flex-end;
   white-space: pre-wrap;
-  width: 1200px;
+  box-sizing: border-box;
+  flex: 80%;
   margin: 0 20px 0 0;
 }
 
-.verse-met,.verse-real {
-  width: 130px;
-  margin: 0 5px 0 5px;
-}
-
-.verse-rhyme {
-  width: 100px;
-  margin: 0 5px 0 5px;
+.verse-met,.verse-real,.verse-rhyme {
+  display: flex;
+  align-items: end;
+  flex: 10%;
+  margin: 0 3px 0 3px;
+  font-family: Verdana;
+  font-size: 11px;
 }
 
 .hemistich {
@@ -135,11 +135,6 @@ p {
 
 .syl-dash {
   display: inline-flex;
-}
-
-.verse-met,.verse-rhyme,.verse-real {
-  display: flex;
-  align-items: flex-end;
 }
 
 .verse-real {
@@ -226,7 +221,7 @@ p {
 
 .neume-span {
   display: inline;
-  height: 45px;
+  height: 24px;
   border-style: solid;
   border-width: 1px;
   border-color: black;

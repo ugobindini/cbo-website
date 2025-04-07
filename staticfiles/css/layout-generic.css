@@ -1,0 +1,18 @@
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.cbo-button {
+  transition: 0.3s;
+}
+
+.flex-50 {
+  flex: 50%;
+}
+
+.tab{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+}

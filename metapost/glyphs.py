@@ -436,6 +436,11 @@ GLYPHS = [
 		paths=[('torculus', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)')]
 	),
 	Glyph(
+		description='Quilisma 3 loops + clivis liquescent',
+		code='ql!cl)',
+		paths=[('torculus_liquescent', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)')]
+	),
+	Glyph(
 		description='Quilisma 3 loops + 1 prepunctum + clivis',
 		code='qlpp1!cl',
 		paths=[('torculus', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)'), ('punctum', '(-18u,0)')]

@@ -93,8 +93,9 @@ if __name__ == "__main__":
     out_py_file.write("}")
     out_py_file.close()
 
-    ##### Copy the dict.py file in staticfiles #####
+    ##### Copy the dict.py file in staticfiles and tei-gen #####
     subprocess.run(f"cp buranus_dict.py ../staticfiles/tei", shell=True)
+    subprocess.run(f"cp buranus_dict.py ../tei-gen", shell=True)
 
     ##### Convert the PDF files to SVG, and copy them to the staticfiles folder as well #####
 

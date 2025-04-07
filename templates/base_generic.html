@@ -12,6 +12,7 @@
   {% load static %}
   <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
   <link rel="stylesheet" href="{% static 'css/neumed-text.css' %}"/>
+  <link rel="stylesheet" href="{% static 'css/layout-generic.css' %}"/>
   {% endblock %}
 </head>
 <body>
@@ -49,11 +50,9 @@
   </header>
   {% endblock %}
 
-  <main>
-    <div class="cbo-content">
-      {% block content %}
-      {% endblock %}
-    </div>
+  <main style="display: flex;">
+    {% block content %}
+    {% endblock %}
   </main>
 
   {% block footer %}

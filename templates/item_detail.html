@@ -1,37 +1,118 @@
 {% extends "base_generic.html" %}
 
-{% block content %}
-
 {% load static %}
 
-<h1>CB {{ item.abstract_item.cb_id }}</h1>
-<h2>{{ item.title }}</h2>
-<p>Source: <a href="{{ item.source.get_absolute_url }}">{{ item.source.bib_id }}</a> ({{ item.source.location }})</p>
-<p>Folio: {{ item.foliation_str }}.</p>
+{% block content %}
 
-{{ item.tei_file|json_script:"tei-file" }}
+<style>
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ffed7f;
+}
 
-<button id="stressedSyllablesButton">Highlight stressed syllables</button>
-<button id="showNeumesButton">Show neumes</button>
-<button id="hideNeumesButton">Hide neumes</button>
-<button id="plainTextButton">Plain text</button>
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 0;
+}
+</style>
 
-<script src="{% static 'javascript/toggle_buttons.js' %}"></script>
-<script src="{% static 'javascript/set_leading_consonants.js' %}"></script>
-<script src="{% static 'javascript/indent.js' %}"></script>
-
-<div id="tei-display" class="cbo-text-frame cbo-border-inset cbo-border-sand">
-  {% autoescape off %}
-    {{ item.text_transform }}
-  {% endautoescape %}
-  <hr/>
-  {% autoescape off %}
-    {{ item.text_apparatus_transform }}
-  {% endautoescape %}
-  <hr/>
-  {% autoescape off %}
-    {{ item.neume_apparatus_transform }}
-  {% endautoescape %}
+<div class="flex-column" style="flex: 20%;">
+  <div class="flex-column" style="position: fixed; top: 50%;">
+    <div class="cbo-white cbo-wide cbo-padding cbo-card" style="margin: 3px 0 3px 0;">
+      <button id="stressedSyllablesButton" class="cbo-button" style="width: 100%;">Highlight stressed syllables</button>
+    </div>
+    <div class="cbo-white cbo-wide cbo-padding cbo-card" style="margin: 3px 0 3px 0;">
+      <button id="toggleMetricButton" class="cbo-button" style="width: 100%;">Show metrical analysis</button>
+    </div>
+    <div class="cbo-white cbo-wide cbo-padding cbo-card" style="margin: 3px 0 3px 0;">
+      <button id="toggleRhymeButton" class="cbo-button" style="width: 100%;">Show rhyme scheme</button>
+    </div>
+  </div>
 </div>
 
+<div style="flex: 80%;">
+  <h1>CB {{ item.abstract_item.cb_id }}</h1>
+  <h2>{{ item.title }}</h2>
+  <p>Source: <a href="{{ item.source.get_absolute_url }}">{{ item.source.bib_id }}</a> ({{ item.source.location }})</p>
+  <p>Folio: {{ item.foliation_str }}.</p>
+
+  {{ item.tei_file|json_script:"tei-file" }}
+
+  <script src="{% static 'javascript/toggle_buttons.js' %}"></script>
+  <script src="{% static 'javascript/set_leading_consonants.js' %}"></script>
+  <script src="{% static 'javascript/indent.js' %}"></script>
+
+  <div style="display: flex;">
+    <div class="cbo-border-inset cbo-border-sand flex-50 flex-column">
+      <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
+        {% if item.is_notated %}
+        <button id="defaultOpen" class="tablinks cbo-bar-item cbo-button" onclick="openTab(event, 'neumedText')">Edition</button>
+        <button class="tablinks cbo-bar-item cbo-button" onclick="openTab(event, 'plainText')">Plain text</button>
+        {% else %}
+        <button id="defaultOpen" class="tablinks cbo-bar-item cbo-button" onclick="openTab(event, 'plainText')">Edition</button>
+        {% endif %}
+        <button class="tablinks cbo-bar-item cbo-button" onclick="openTab(event, 'diplomatic')">Diplomatic</button>
+      </div>
+
+      <div id="neumedText" class="tabcontent">
+        {% autoescape off %}
+        {{ item.neumed_text_transform }}
+        {% endautoescape %}
+        <hr/>
+        {% autoescape off %}
+        {{ item.text_apparatus_transform }}
+        {% endautoescape %}
+        <hr/>
+        {% autoescape off %}
+        {{ item.neume_apparatus_transform }}
+        {% endautoescape %}
+      </div>
+
+      <div id="plainText" class="tabcontent">
+        {% autoescape off %}
+        {{ item.plain_text_transform }}
+        {% endautoescape %}
+        <hr/>
+        {% autoescape off %}
+        {{ item.text_apparatus_transform }}
+        {% endautoescape %}
+      </div>
+
+      <div id="diplomatic" class="tabcontent">
+        {% autoescape off %}
+        {{ item.diplomatic_transform }}
+        {% endautoescape %}
+        <hr/>
+        {% autoescape off %}
+        {{ item.text_apparatus_transform }}
+        {% endautoescape %}
+        {% if item.is_notated %}
+          <hr/>
+          {% autoescape off %}
+          {{ item.neume_apparatus_transform }}
+          {% endautoescape %}
+        {% endif %}
+      </div>
+    </div>
+    <div class="cbo-border-inset cbo-border-sand flex-50">
+    </div>
+  </div>
+</div>
+<script>
+  function openTab(evt, tabName) {
+    $('.tabcontent').hide();
+    $('.tablinks').removeClass('active');
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.classList.add("active");
+  }
+</script>
+<script>
+  document.getElementById("defaultOpen").click();
+  $(document).ready(function(){
+    $(".verse-met").toggle();
+    $(".verse-real").toggle();
+    $(".verse-rhyme").toggle();
+  });
+</script>
 {% endblock %}

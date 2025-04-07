@@ -1,21 +1,27 @@
 {% extends "base_generic.html" %}
 
-{% block content %}
-
 {% load static %}
+
+{% block content %}
 <script src="{% static 'javascript/set_leading_consonants.js' %}"></script>
+<div class="flex-column" style="flex: 20%">
+  <!-- add side content here -->
+</div>
+<div style="flex: 80%">
+  <h1>Neume</h1>
+  <img src="{% static 'img/svg/' %}{{ neume.svg_path }}">
+  <p>{{ neume.description }}</p>
 
-<h1>Neume</h1>
-<img src="{% static 'img/svg/' %}{{ neume.svg_path }}">
-<p>{{ neume.description }}</p>
+  <h2>Occurrences in the edited items</h2>
 
-<h2>Occurrences in the edited items</h2>
-
-{% for item, k, snippet in items %}
-<p style="margin-top: 20px;">CB {{ item.abstract_item.cb_id }} <a href="{{ item.get_absolute_url }}">{{ item.title }}</a> ({{ k }})</p>
-{% autoescape off %}
-  {{ snippet }}
-{% endautoescape %}
-{% endfor %}
+  {% for item, k, snippet in items %}
+  <p style="margin-top: 20px;">CB {{ item.abstract_item.cb_id }} <a href="{{ item.get_absolute_url }}">{{ item.title }}</a> ({{ k }})</p>
+  <div class="cbo-border-inset cbo-border-sand">
+    {% autoescape off %}
+      {{ snippet }}
+    {% endautoescape %}
+  </div>
+  {% endfor %}
+</div>
 
 {% endblock %}

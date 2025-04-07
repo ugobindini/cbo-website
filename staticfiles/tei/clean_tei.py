@@ -27,7 +27,7 @@ def last_stressed_syllable_index(met):
 def propagate_metrical_info(strophe, attrib, value):
 	verses_value = value.split('/')
 	verses = strophe.findall(".//l")
-	assert len(verses_value) == len(verses), f"ERROR: metify.py: mismatch in the number of verses."
+	assert len(verses_value) == len(verses), f"ERROR: metify.py: mismatch in the number of verses: {len(verses_value)}, {len(verses)}"
 	for (i, verse) in enumerate(verses):
 		verse.set(attrib, verses_value[i])
 		hemis = verse.findall(".//seg[@type='hemistich']")
