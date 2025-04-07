@@ -55,7 +55,7 @@
   </xsl:template>
 
   <xsl:template match="w">
-    <span class="word text-font">
+    <span class="word text-font" style="vertical-align: bottom;">
       <xsl:apply-templates/>
     </span>
   </xsl:template>

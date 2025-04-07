@@ -17,5 +17,6 @@ $(document).ready(function(){
   $("#toggleRhymeButton").click(function(){
     $(".verse-rhyme").toggle();
     var text = $(this).text().includes("Show") ? 'Hide rhyme scheme' : 'Show rhyme scheme';
+    $(this).text(text)
   });
 });
