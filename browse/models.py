@@ -292,6 +292,7 @@ class Item(models.Model):
         try:
             return lxml.html.tostring(result).decode('UTF-8')
         except:
+            print("Error: not able to convert")
             return ''
 
     def count_neumes(self, n):
@@ -320,7 +321,7 @@ class Item(models.Model):
 
     @property
     def diplomatic_transform(self):
-        return self.transform('diplomatic.xsl', indent=True)
+        return self.transform('diplomatic.xsl')
 
     @property
     def neume_apparatus_transform(self):
