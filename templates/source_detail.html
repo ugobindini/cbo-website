@@ -1,17 +1,21 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-<!-- TODO: back to sources -->
-<h1>{{ source.bib_id }}</h1>
-<h3>{{ source.location }} ({{ source.country }})</h3>
-<h4>Datation</h4>
-<p>{{ source.century }} century.</p>
-{% if source.notation %}
-<h4>Type of musical notation</h4>
-<p>{{ source.notation }}.</p>
-{% endif %}
-{% if source.url %}
-<h4>External link</h4>
-<a href="{{ source.url }}" target="_blank">{{ source.url }}</a>
-{% endif %}
+<div class="flex-column" style="flex: 20%">
+  <!-- add side content here -->
+</div>
+<div style="flex: 80%">
+  <h1>{{ source.bib_id }}</h1>
+  <h3>{{ source.location }} ({{ source.country }})</h3>
+  <h4>Datation</h4>
+  <p>{{ source.century }} century.</p>
+  {% if source.notation %}
+  <h4>Type of musical notation</h4>
+  <p>{{ source.notation }}.</p>
+  {% endif %}
+  {% if source.url %}
+  <h4>External link</h4>
+  <a href="{{ source.url }}" target="_blank">{{ source.url }}</a>
+  {% endif %}
+</div>
 {% endblock %}
