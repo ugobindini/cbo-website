@@ -4,9 +4,9 @@
   <xsl:template match="teiHeader"/>
 
   <xsl:template match="body">
-    <div class="text-font flex-wrapper" style="text-size: 16px;">
+    <p class="text-font" style="text-size: 16px;">
       <xsl:apply-templates />
-    </div>
+    </p>
   </xsl:template>
 
   <xsl:template match="castList" />
