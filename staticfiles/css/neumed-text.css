@@ -164,6 +164,16 @@
   margin-right: 10px;
 }
 
+.app-note {
+  display: inline-flex;
+  align-items: flex-end;
+  flex-wrap: per-wrap;
+  margin-right: 10px;
+  margin-left: 5px;
+  white-space: pre-wrap;
+  font-style: italic;
+}
+
 .prose-text {
   margin-bottom: 30px;
 }

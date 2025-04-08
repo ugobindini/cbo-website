@@ -33,9 +33,9 @@
   </xsl:template>
 
   <xsl:template match="note">
-    <span class="flex-wrapper" style="display: inline-flex; margin-right: 10px; margin-left: 5px; white-space: pre-wrap;"><i>
+    <span class="flex-wrapper app-note">
       <xsl:apply-templates />
-    </i></span>
+    </span>
   </xsl:template>
 
   <xsl:template match="seg[@type='syll']">
