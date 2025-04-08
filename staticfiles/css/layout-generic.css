@@ -11,3 +11,9 @@
   flex: 50%;
 }
 
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+

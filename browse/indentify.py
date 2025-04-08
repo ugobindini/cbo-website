@@ -25,9 +25,9 @@ def parse(met):
 
 def indentify(tree):
 	# Input: a html tree (lxml format)
-	for poem in tree.findall(".//div[@class='poem']"):
+	for poem in tree.findall(".//div[@data-type='poem']"):
 		global_met = poem.get('data-met')
-		for lg in poem.findall("./div[@class='strophe']"):
+		for lg in poem.findall("./div[@data-type='strophe']"):
 			if 'data-met' in lg.keys():
 				met = lg.get('data-met')
 			else:

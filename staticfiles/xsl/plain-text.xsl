@@ -4,7 +4,7 @@
   <xsl:template match="teiHeader"/>
 
   <xsl:template match="body">
-    <div class="text-font" style="text-size: 16px;">
+    <div class="text-font" style="font-size: 16px;">
       <xsl:apply-templates />
     </div>
   </xsl:template>
@@ -16,17 +16,17 @@
   </xsl:template>
 
   <xsl:template match="lg[@type='refrain']/head">
-    <div class="refrain-heading"><xsl:apply-templates /></div>
+    <div class="lg-heading"><i><xsl:apply-templates /></i></div>
   </xsl:template>
 
   <xsl:template match="div[@type='drama']">
-    <div class="prose-text">
+    <div class="prose-text flex-column">
       <xsl:apply-templates/>
     </div>
   </xsl:template>
 
   <xsl:template match="move | stage">
-    <p><i><xsl:apply-templates /></i></p>
+    <p class="margin-6px"><i><xsl:apply-templates /></i></p>
   </xsl:template>
 
   <xsl:template match="sp">
@@ -36,25 +36,25 @@
   </xsl:template>
 
   <xsl:template match="div[@type='prose']">
-    <div class="prose-text">
+    <div class="prose-text flex-column">
       <p><b><xsl:apply-templates select="./head"/></b></p>
       <xsl:apply-templates select="./p"/>
     </div>
   </xsl:template>
 
   <xsl:template match="p">
-    <p><xsl:apply-templates /></p>
+    <p class="margin-6px"><xsl:apply-templates /></p>
   </xsl:template>
 
   <xsl:template match="div[@type='sequence']">
-    <div class="poem">
+    <div class="flex-column" data-type="poem">
       <p><b><xsl:apply-templates select="./head"/></b></p>
       <xsl:apply-templates select=".//lg[@type='versicle']"/>
     </div>
   </xsl:template>
 
   <xsl:template match="div[@type='poem'] | div[@type='leich']">
-    <div class="poem">
+    <div class="flex-column" data-type="poem">
       <xsl:if test="@met">
         <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
       </xsl:if>
@@ -66,7 +66,7 @@
   </xsl:template>
 
   <xsl:template match="lg[@type='strophe']">
-    <div class="strophe">
+    <div class="flex-column strophe" data-type="strophe">
       <xsl:if test="@met">
         <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
       </xsl:if>
@@ -75,7 +75,7 @@
       </xsl:if>
       <xsl:choose>
         <xsl:when test="./@n">
-          <div class="strophe-heading"><xsl:value-of select="@n"/></div>
+          <div class="lg-heading"><b><xsl:value-of select="@n"/></b></div>
         </xsl:when>
         <xsl:otherwise>
           <div style="display: hidden;" />
@@ -87,7 +87,7 @@
   </xsl:template>
 
   <xsl:template match="lg[@type='refrain']">
-    <div class="strophe">
+    <div class="flex-column strophe" data-type="strophe">
       <xsl:if test="@met">
         <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
       </xsl:if>
@@ -97,7 +97,7 @@
       <xsl:choose>
         <xsl:when test="./head" />
         <xsl:otherwise>
-          <div class="refrain-heading">[Refl.]</div>
+          <div class="lg-heading"><i>[Refl.]</i></div>
         </xsl:otherwise>
       </xsl:choose>
       <xsl:apply-templates />
@@ -105,10 +105,10 @@
   </xsl:template>
 
   <xsl:template match="lg[@type='versicle']">
-    <div class="strophe">
+    <div class="flex-column strophe" data-type="strophe">
       <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
       <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
-      <div class="strophe-heading"><xsl:value-of select="@n"/></div>
+      <div class="lg-heading"><b><xsl:value-of select="@n"/></b></div>
       <xsl:apply-templates />
     </div>
   </xsl:template>

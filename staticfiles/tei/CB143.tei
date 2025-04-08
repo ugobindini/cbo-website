@@ -1,46 +1,5 @@
 <TEI>
-  <teiHeader>
-    <encodingDesc>
-      <charDecl>
-        <char xml:id="ae">
-          <localProp name="Name" value="Latin a with small e above" />
-          <localProp name="entity" value="ae" />
-          <mapping type="composed">a&#868;</mapping>
-          <mapping type="PUA">U+E42C</mapping>
-        </char>
-        <char xml:id="oe">
-          <localProp name="Name" value="Latin o with small e above" />
-          <localProp name="entity" value="oe" />
-          <mapping type="composed">o&#868;</mapping>
-          <mapping type="PUA">U+E644</mapping>
-        </char>
-        <char xml:id="ov">
-          <localProp name="Name" value="Latin o with small v above" />
-          <localProp name="entity" value="ov" />
-          <mapping type="composed">o&#878;</mapping>
-          <mapping type="PUA">U+E647</mapping>
-        </char>
-        <char xml:id="ou">
-          <localProp name="Name" value="Latin o with small u above" />
-          <localProp name="entity" value="ou" />
-          <mapping type="composed">o&#871;</mapping>
-          <mapping type="PUA">U+E646</mapping>
-        </char>
-        <char xml:id="ue">
-          <localProp name="Name" value="Latin u with small e above" />
-          <localProp name="entity" value="ue" />
-          <mapping type="composed">u&#868;</mapping>
-          <mapping type="PUA">U+E72B</mapping>
-        </char>
-        <char xml:id="uo">
-          <localProp name="Name" value="Latin u with small o above" />
-          <localProp name="entity" value="uo" />
-          <mapping type="composed">u&#870;</mapping>
-          <mapping type="PUA">U+E72D</mapping>
-        </char>
-      </charDecl>
-    </encodingDesc>
-  </teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem" xml:lang="latin" met="4p+4p/7pp/4p+4p/7pp/7pp/4p+4p/7pp" rhyme="a+a/b/a+a/b/b/c+c/b">

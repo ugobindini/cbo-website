@@ -1,40 +1,5 @@
 <TEI>
-  <teiHeader>
-    <encodingDesc>
-      <charDecl>
-        <char xml:id="ae">
-          <localProp name="Name" value="Latin a with small e above" />
-          <localProp name="entity" value="ae" />
-          <mapping type="composed">a&#868;</mapping>
-          <mapping type="PUA">U+E42C</mapping>
-        </char>
-        <char xml:id="oe">
-          <localProp name="Name" value="Latin o with small e above" />
-          <localProp name="entity" value="oe" />
-          <mapping type="composed">o&#868;</mapping>
-          <mapping type="PUA">U+E644</mapping>
-        </char>
-        <char xml:id="ov">
-          <localProp name="Name" value="Latin o with small v above" />
-          <localProp name="entity" value="ov" />
-          <mapping type="composed">o&#878;</mapping>
-          <mapping type="PUA">U+E647</mapping>
-        </char>
-        <char xml:id="ue">
-          <localProp name="Name" value="Latin u with small e above" />
-          <localProp name="entity" value="ue" />
-          <mapping type="composed">u&#868;</mapping>
-          <mapping type="PUA">U+E72B</mapping>
-        </char>
-        <char xml:id="uo">
-          <localProp name="Name" value="Latin u with small o above" />
-          <localProp name="entity" value="uo" />
-          <mapping type="composed">u&#870;</mapping>
-          <mapping type="PUA">U+E72D</mapping>
-        </char>
-      </charDecl>
-    </encodingDesc>
-  </teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="leich" xml:lang="latin">
@@ -45,7 +10,7 @@
               <seg type="syll" part="I">Mul<notatedMusic>
                   <neume fontname="buranus" glyph.num="32" label="pesu2" />
                   <neume fontname="buranus" glyph.num="108" label="ci" />
-                  <neume fontname="buranus" glyph.num="9" label="vs" />
+                  <neume fontname="buranus" glyph.num="0" label="?" />
                 </notatedMusic>
               </seg>
               <seg type="syll" part="M">ti<notatedMusic>
@@ -305,7 +270,7 @@
             <w>
               <seg type="syll" part="I">vo<notatedMusic>
                   <neume fontname="buranus" glyph.num="108" label="ci" />
-                  <neume fontname="buranus" glyph.num="67" label="qi!or" />
+                  <neume fontname="buranus" glyph.num="0" label="?" />
                 </notatedMusic>
               </seg>
               <seg type="syll" part="F">tum<notatedMusic>
@@ -761,7 +726,7 @@
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="M">tha<notatedMusic>
-                    <neume fontname="buranus" glyph.num="94" label="ql!or" />
+                    <neume fontname="buranus" glyph.num="0" label="?" />
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="M" met="+">re<notatedMusic>
@@ -782,7 +747,7 @@
                 </notatedMusic>
               </seg>
               <seg type="syll" part="F">se<notatedMusic>
-                  <neume fontname="buranus" glyph.num="67" label="qi!or" />
+                  <neume fontname="buranus" glyph.num="0" label="?" />
                 </notatedMusic>
               </seg>
             </w>
@@ -1063,7 +1028,7 @@
             <rhyme label="e">
               <w>
                 <seg type="syll" part="I" met="+">mo<notatedMusic>
-                    <neume fontname="buranus" glyph.num="94" label="ql!or" />
+                    <neume fontname="buranus" glyph.num="0" label="?" />
                     <neume fontname="buranus" glyph.num="111" label="ci!st" />
                   </notatedMusic>
                 </seg>
@@ -1219,7 +1184,7 @@
             <rhyme label="e">
               <w>
                 <seg type="syll" part="I" met="+">mo<notatedMusic>
-                    <neume fontname="buranus" glyph.num="94" label="ql!or" />
+                    <neume fontname="buranus" glyph.num="0" label="?" />
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="M">ri<notatedMusic>
@@ -1237,7 +1202,7 @@
             <rhyme label="e">
               <w>
                 <seg type="syll" part="I" met="+">mo<notatedMusic>
-                    <neume fontname="buranus" glyph.num="94" label="ql!or" />
+                    <neume fontname="buranus" glyph.num="0" label="?" />
                     <neume fontname="buranus" glyph.num="111" label="ci!st" />
                   </notatedMusic>
                 </seg>
