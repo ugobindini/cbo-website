@@ -22,9 +22,7 @@
   </xsl:template>
 
   <xsl:template match="move | stage">
-    <p class="font-it">
-      <xsl:apply-templates />
-    </p>
+    <p><i><xsl:apply-templates /></i></p>
   </xsl:template>
 
   <xsl:template match="sp">
@@ -35,24 +33,18 @@
 
   <xsl:template match="div[@type='prose']">
     <div class="prose-text">
-      <div class="font-bold">
-        <xsl:apply-templates select="./head"/>
-      </div>
+      <p><b><xsl:apply-templates select="./head"/></b></p>
       <xsl:apply-templates select="./p"/>
     </div>
   </xsl:template>
 
   <xsl:template match="p">
-    <div class="text-paragraph">
-      <xsl:apply-templates />
-    </div>
+    <p><xsl:apply-templates /></p>
   </xsl:template>
 
   <xsl:template match="div[@type='sequence']">
     <div class="poem">
-      <div class="font-bold">
-        <xsl:apply-templates select="./head"/>
-      </div>
+      <p><b><xsl:apply-templates select="./head"/></b></p>
       <xsl:apply-templates select=".//lg[@type='versicle']"/>
     </div>
   </xsl:template>
@@ -125,7 +117,6 @@
         <xsl:apply-templates/>
       </div>
       <div class="verse-met non-selectable">
-        <b><xsl:value-of select="@real"/></b>
         <xsl:choose>
           <xsl:when test="@real">
             <b><xsl:value-of select="@real"/></b>(<xsl:value-of select="@met"/>)
@@ -191,9 +182,9 @@
   </xsl:template>
 
   <xsl:template match="note">
-    <span class="font-it" style="margin-right: 10px;">
+    <span style="margin-right: 10px;"><i>
       <xsl:apply-templates />
-    </span>
+    </i></span>
   </xsl:template>
 
 </xsl:stylesheet>

@@ -1,5 +1,5 @@
 p {
-  margin: 0.2em;
+  margin: 6px;
 }
 
 .font-bold {
@@ -13,6 +13,7 @@ p {
 .text-font {
   font-family: Junicode;
   font-style: normal;
+  word-spacing: 2px;
 }
 
 .font-small {
@@ -208,12 +209,6 @@ p {
   margin-left: 10px;
 }
 
-.text-paragraph {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-}
-
 .neumes-container {
   display: flex;
   flex-wrap: wrap;
@@ -239,5 +234,10 @@ p {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
+}
+
+p > .word {
+  margin-left: 0;
+  margin-right: 0;
 }
 

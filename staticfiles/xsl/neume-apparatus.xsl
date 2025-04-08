@@ -6,7 +6,7 @@
   <xsl:template match="body">
     <xsl:if test=".//app[@type='neume']">
       <div class="text-font font-small">
-        <p class="text-font font-bold">Critical apparatus (neumes)</p>
+        <p><b>Critical apparatus (neumes)</b></p>
         <div class="flex-wrapper">
           <xsl:apply-templates select=".//app[@type='neume']" />
         </div>
@@ -33,9 +33,9 @@
   </xsl:template>
 
   <xsl:template match="note">
-    <span class="flex-wrapper font-it" style="display: inline-flex; margin-right: 10px; margin-left: 5px; white-space: pre-wrap;">
+    <span class="flex-wrapper" style="display: inline-flex; margin-right: 10px; margin-left: 5px; white-space: pre-wrap;"><i>
       <xsl:apply-templates />
-    </span>
+    </i></span>
   </xsl:template>
 
   <xsl:template match="seg[@type='syll']">

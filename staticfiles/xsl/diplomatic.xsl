@@ -119,9 +119,9 @@
   </xsl:template>
 
   <xsl:template match="note">
-    <span class="font-it" style="margin-right: 10px;">
+    <span><i>
       <xsl:apply-templates />
-    </span>
+    </i></span>
   </xsl:template>
 
 </xsl:stylesheet>

@@ -26,9 +26,7 @@
   </xsl:template>
 
   <xsl:template match="move | stage">
-    <p class="font-it">
-      <xsl:apply-templates />
-    </p>
+    <p><i><xsl:apply-templates /></i></p>
   </xsl:template>
 
   <xsl:template match="sp">
@@ -44,17 +42,12 @@
   </xsl:template>
 
   <xsl:template match="p">
-    <div class="text-paragraph">
-      <xsl:apply-templates />
-    </div>
+    <p><xsl:apply-templates /></p>
   </xsl:template>
 
   <xsl:template match="div[@type='sequence']">
     <div class="poem">
-      <div class="font-bold">
-        <xsl:apply-templates select="./head"/>
-      </div>
-      <xsl:apply-templates select=".//lg[@type='versicle']"/>
+      <xsl:apply-templates select="./head | .//lg[@type='versicle']"/>
     </div>
   </xsl:template>
 
@@ -119,7 +112,6 @@
   </xsl:template>
 
   <xsl:template match="l">
-    <xsl:param name="showmet"/>
     <div class="verse">
       <div class="verse-text">
         <xsl:apply-templates/>
@@ -146,15 +138,11 @@
   </div>
   </xsl:template>
 
-  <xsl:template match="w">
-  <span class="word text-font" style="vertical-align: bottom;">
-    <xsl:apply-templates/>
-  </span>
-  </xsl:template>
+  <xsl:template match="w"><span class="word text-font" style="vertical-align: bottom;"><xsl:apply-templates/></span></xsl:template>
 
   <xsl:template match="seg[@type='syll']">
     <xsl:variable name="text"><xsl:value-of select="./text()"/></xsl:variable>
-    <span class="neumed-syll">
+    <span class="neumed-syll" style="vertical-align: bottom;">
       <span class="syl">
         <xsl:if test="@met='+'">
           <xsl:attribute name="data-met">+</xsl:attribute>
@@ -203,9 +191,9 @@
   </xsl:template>
 
   <xsl:template match="note">
-    <span class="font-it" style="margin-right: 10px;">
+    <span style="margin-right: 10px;"><i>
       <xsl:apply-templates />
-    </span>
+    </i></span>
   </xsl:template>
 
 </xsl:stylesheet>
