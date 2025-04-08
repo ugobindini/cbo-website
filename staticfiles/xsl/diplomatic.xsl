@@ -34,7 +34,6 @@
   </xsl:template>
 
   <xsl:template match="div[@type='prose']">
-    <b><xsl:apply-templates select="./head"/></b>
     <xsl:apply-templates />
   </xsl:template>
 
