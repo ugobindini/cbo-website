@@ -137,7 +137,11 @@
   </div>
   </xsl:template>
 
-  <xsl:template match="w"><span class="word text-font" style="vertical-align: bottom;"><xsl:apply-templates/></span></xsl:template>
+  <xsl:template match="w">
+    <span class="word text-font" style="vertical-align: bottom;">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
 
   <xsl:template match="seg[@type='syll']">
     <xsl:variable name="text"><xsl:value-of select="./text()"/></xsl:variable>
