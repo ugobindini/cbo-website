@@ -6650,8 +6650,8 @@
         <stage>Symon respondeat</stage>
         <sp who="#petrus">
           <div type="poem" met="7pp+6p" rhyme="a">
-            <lg type="strophe" met="7pp+6p" rhyme="a">
-              <l met="7pp+6p" rhyme="a">
+            <lg type="strophe">
+              <l>
                 <seg type="hemistich">
                   <w>
                     <seg type="syll" part="I">Es<notatedMusic>
@@ -6729,8 +6729,8 @@
         <stage>Iesus dicit</stage>
         <sp who="#ies">
           <div type="poem" met="7pp+6p" rhyme="a">
-            <lg type="strophe" met="7pp+6p" rhyme="a">
-              <l met="7pp+6p" rhyme="a">
+            <lg type="strophe">
+              <l>
                 <seg type="hemistich">
                   <w>
                     <seg type="syll" part="I">Tu<notatedMusic>
