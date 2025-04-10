@@ -2,21 +2,8 @@
   margin: 6px;
 }
 
-.text-font {
-  font-family: Junicode;
-  font-style: normal;
-  word-spacing: 2px;
-}
-
 .font-small {
   font-size: 14px;
-}
-
-.non-selectable {
-  /* Avoid text selection */
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
 }
 
 .strophe {
@@ -60,11 +47,11 @@
 .verse-met,.verse-rhyme {
   display: flex;
   align-items: flex-end;
-  padding-bottom: 2px;
+  padding-bottom: 3px;
   flex: 10%;
   margin: 0 3px 0 3px;
   font-family: Verdana;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .hemistich {

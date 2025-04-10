@@ -2,10 +2,10 @@
   <teiHeader />
   <text>
     <body>
-      <div type="poem" xml:lang="latin" met="8pp+7p/8pp+7p/7pp+7p/7pp+7p/8pp+7p" rhyme="a/a/b/b/b">
-        <lg type="strophe" n="I" met="8pp+7p/8pp+7p/7pp+7p/7pp+7p/8pp+7p" rhyme="a/a/b/c+b/c+b">
-          <l n="1" met="8pp+7p" rhyme="a">
-            <seg type="hemistich" met="8pp">
+      <div type="poem" met="8pp+7p/8pp+7p/7pp+7p/7pp+7p/8pp+7p" rhyme="a/a/b/b/b">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">Ter<notatedMusic>
                     <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -47,7 +47,7 @@
                 </seg>
               </w>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="a">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">ver<notatedMusic>
                     <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -84,8 +84,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="2" met="8pp+7p" rhyme="a">
-            <seg type="hemistich" met="8pp">
+          <l n="2">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">quod</seg>
               </w>
@@ -103,7 +103,7 @@
                 <seg type="syll" part="F">rat</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="a">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">bru</seg>
                 <seg type="syll" part="M">ma</seg>
@@ -119,8 +119,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="3" met="7pp+7p" rhyme="b">
-            <seg type="hemistich" met="7pp">
+          <l n="3">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">Dul</seg>
                 <seg type="syll" part="F">ci</seg>
@@ -135,7 +135,7 @@
                 <seg type="syll" part="F">tu</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">fa</seg>
                 <seg type="syll" part="M">vo</seg>
@@ -153,8 +153,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="4" met="7pp+7p" rhyme="c+b">
-            <seg type="hemistich" met="7pp" rhyme="c">
+          <l n="4" rhyme="c+b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">se</seg>
                 <seg type="syll" part="F">vum</seg>
@@ -171,7 +171,7 @@
                 </w>
               </rhyme>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="b">
+            <seg type="hemistich">
               <app type="text">
                 <lem wit="HS V T">
                   <w>
@@ -194,8 +194,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="5" met="8pp+7p" rhyme="c1+b">
-            <seg type="hemistich" met="8pp" rhyme="c1">
+          <l n="5" rhyme="c+b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">Tam</seg>
               </w>
@@ -215,7 +215,7 @@
                 </w>
               </rhyme>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="b">
+            <seg type="hemistich">
               <app type="text">
                 <lem wit="cod. V">
                   <w>
@@ -239,9 +239,9 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="II" met="8pp+7p/8pp+7p/7pp+7p/7pp+7p/8pp+7p" rhyme="[a]/[a]/c+b/c+b/b">
-          <l n="1" met="8pp+7p" real="8pp+[7p]" rhyme="[a]">
-            <seg type="hemistich" met="8pp">
+        <lg type="strophe" n="II">
+          <l n="1" met="8pp+[7p]" rhyme="[a]">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">Nunc</seg>
               </w>
@@ -259,10 +259,10 @@
                 <seg type="syll" part="F">nes,</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="7p" real="[7p]" rhyme="[a]">[...]</seg>
+            <seg type="hemistich">[...]</seg>
           </l>
-          <l n="2" met="8pp+7p" real="8pp+[7p]" rhyme="[a]">
-            <seg type="hemistich" met="8pp">
+          <l n="2" met="8pp+[7p]" rhyme="[a]">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">nunc</seg>
               </w>
@@ -280,10 +280,10 @@
                 <seg type="syll" part="F">cres</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="7p" real="[7p]" rhyme="[a]">[...]</seg>
+            <seg type="hemistich">[...]</seg>
           </l>
-          <l n="3" met="7pp+7p" rhyme="c+b">
-            <seg type="hemistich" met="7pp" rhyme="c">
+          <l n="3" rhyme="c+b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">mo</seg>
                 <seg type="syll" part="F">do</seg>
@@ -300,7 +300,7 @@
                 </w>
               </rhyme>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">est,</seg>
               </w>
@@ -322,8 +322,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="4" met="7pp+7p" rhyme="c+b">
-            <seg type="hemistich" met="7pp" rhyme="c">
+          <l n="4" rhyme="c+b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">et</seg>
               </w>
@@ -340,7 +340,7 @@
                 </w>
               </rhyme>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">qui</seg>
               </w>
@@ -362,8 +362,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="5" met="8pp+7p" rhyme="b">
-            <seg type="hemistich" met="8pp">
+          <l n="5">
+            <seg type="hemistich">
               <app type="text">
                 <lem wit="HS">
                   <w>
@@ -385,7 +385,7 @@
                 <seg type="syll" part="F">mi,</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">dum</seg>
               </w>
@@ -406,9 +406,9 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="III" met="8pp+7p/8pp+7p/7pp+7p/7pp+7p/8pp+7p" rhyme="a/a/b/b/b">
-          <l n="1" met="8pp+7p" real="8pp+6p" rhyme="a">
-            <seg type="hemistich" met="8pp">
+        <lg type="strophe" n="III">
+          <l n="1" met="8pp+6p">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">Ec</seg>
                 <seg type="syll" part="F">ce,</seg>
@@ -426,7 +426,7 @@
                 <seg type="syll" part="F">a</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="7p" real="6p" rhyme="a">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">fruc</seg>
                 <seg type="syll" part="F">tu</seg>
@@ -441,8 +441,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="2" met="8pp+7p" real="7pp+7p" rhyme="a">
-            <seg type="hemistich" met="8pp" real="7pp">
+          <l n="2" met="7pp+7p">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">Pul</seg>
                 <seg type="syll" part="F">so</seg>
@@ -457,7 +457,7 @@
                 <seg type="syll" part="F">em</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="a">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">tam</seg>
               </w>
@@ -475,8 +475,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="3" met="7pp+7p" real="8p+6p" rhyme="b">
-            <seg type="hemistich" met="8p">
+          <l n="3" met="8p+6p">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">tel</seg>
                 <seg type="syll" part="F">lus</seg>
@@ -494,7 +494,7 @@
                 <seg type="syll" part="F">tus</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="7p" real="6p" rhyme="b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">gran</seg>
                 <seg type="syll" part="F">de</seg>
@@ -511,8 +511,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="4" met="7pp+7p" rhyme="b">
-            <seg type="hemistich" met="7pp">
+          <l n="4">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">gy</seg>
                 <seg type="syll" part="F">gnit</seg>
@@ -525,7 +525,7 @@
                 <seg type="syll" part="F">ros</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">nec</seg>
               </w>
@@ -545,8 +545,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="5" met="8pp+7p" rhyme="b">
-            <seg type="hemistich" met="8pp">
+          <l n="5">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">Ca</seg>
                 <seg type="syll" part="M">to</seg>
@@ -562,7 +562,7 @@
                 <seg type="syll" part="F">bus</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="b">
+            <seg type="hemistich">
               <app type="text">
                 <lem>
                   <w>
@@ -585,9 +585,9 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="IV" met="8pp+7p/8pp+7p/7pp+7p/7pp+7p/8pp+7p" rhyme="a/a/b/c+b/c+b">
-          <l n="1" met="8pp+7p" rhyme="a">
-            <seg type="hemistich" met="8pp">
+        <lg type="strophe" n="IV">
+          <l n="1">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">Fron</seg>
                 <seg type="syll" part="F">de</seg>
@@ -603,7 +603,7 @@
                 <seg type="syll" part="F">tur,</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="a">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">iam</seg>
               </w>
@@ -621,8 +621,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="2" met="8pp+7p" rhyme="a">
-            <seg type="hemistich" met="8pp">
+          <l n="2">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">cum</seg>
               </w>
@@ -638,7 +638,7 @@
                 <seg type="syll" part="F">bus</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="a">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">iam</seg>
               </w>
@@ -658,8 +658,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="3" met="7pp+7p" rhyme="b">
-            <seg type="hemistich" met="7pp">
+          <l n="3">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">Spa</seg>
                 <seg type="syll" part="M">ci</seg>
@@ -674,7 +674,7 @@
                 <seg type="syll">est</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">per</seg>
               </w>
@@ -692,8 +692,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="4" met="7pp+7p" rhyme="c+b">
-            <seg type="hemistich" met="7pp" rhyme="c">
+          <l n="4" rhyme="c+b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">dul</seg>
                 <seg type="syll" part="M">ci</seg>
@@ -710,7 +710,7 @@
                 </w>
               </rhyme>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">iam</seg>
               </w>
@@ -730,8 +730,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="5" met="8pp+7p" rhyme="c+b">
-            <seg type="hemistich" met="8pp" rhyme="c">
+          <l n="5" rhyme="c+b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">dul</seg>
                 <seg type="syll" part="M">cis</seg>
@@ -749,7 +749,7 @@
                 </w>
               </rhyme>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">cum</seg>
               </w>
@@ -768,8 +768,8 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="V" met="8pp/8pp/7pp/8pp/8pp+7p/7pp+7p/8pp+7p" rhyme="a/a1/a/a/b/c+b/c+b">
-          <l n="1" met="8pp" rhyme="a">
+        <lg type="strophe" n="V" met="8pp/8pp/7pp/8pp/8pp+7p/7pp+7p/8pp+7p" rhyme="a/a/a/a/b/b/a+b">
+          <l n="1">
             <w>
               <seg type="syll" part="I">Ve</seg>
               <seg type="syll" part="F">rum</seg>
@@ -789,7 +789,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="2" met="8pp" rhyme="a">
+          <l n="2">
             <app type="text">
               <lem>
                 <w>
@@ -811,7 +811,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="3" met="7pp" rhyme="a">
+          <l n="3">
             <w>
               <seg type="syll" part="I">sen</seg>
               <seg type="syll" part="M">ci</seg>
@@ -828,7 +828,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="4" met="8pp" rhyme="a">
+          <l n="4">
             <w>
               <seg type="syll" part="I">fi</seg>
               <seg type="syll" part="F">unt</seg>
@@ -846,8 +846,8 @@
               </w>
             </rhyme>
           </l>
-          <l n="5" met="8pp+7p" rhyme="b">
-            <seg type="hemistich" met="8pp">
+          <l n="5">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">si</seg>
               </w>
@@ -867,7 +867,7 @@
                 <seg type="syll" part="F">o,</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">nec</seg>
               </w>
@@ -887,8 +887,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="6" met="7pp+7p" rhyme="b">
-            <seg type="hemistich" met="7pp">
+          <l n="6">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">quid</seg>
               </w>
@@ -916,7 +916,7 @@
                 <rdg wit="cod. V"><w>volucrhum</w></rdg>
               </app>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">mi</seg>
                 <seg type="syll" part="F">chi</seg>
@@ -934,8 +934,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="7" met="8pp+7p" rhyme="b">
-            <seg type="hemistich" met="8pp">
+          <l n="7">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">quid</seg>
               </w>
@@ -959,7 +959,7 @@
                 <rdg wit="HS"><w>presentia</w></rdg>
               </app>
             </seg>
-            <seg type="hemistich" met="7p" rhyme="b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">Iam</seg>
               </w>
@@ -980,10 +980,8 @@
             </seg>
           </l>
         </lg>
-      </div>
-      <div type="poem" xml:lang="middle-high-german" met="A4/A4/A3/A4/4+A3-/-4+A3-/-4+A3-" rhyme="a/a/a/a/x+b/c+b/c+b">
-        <lg type="strophe" n="VI" met="A4/A4/A3/A4/4+A3-/-4+A3-/-4+A3-" rhyme="a/a/a/a/x+b/c+b/c+b">
-          <l n="1" met="A4" rhyme="a">
+        <lg type="strophe" n="VI" xml:lang="middle-high-german" met="A4/A4/A3/A4/4+A3-/-4+A3-/-4+A3-" rhyme="a/a/a/a/x+b/c+b/c+b">
+          <l n="1">
             <w>
               <seg type="syll">Nu</seg>
             </w>
@@ -1007,7 +1005,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="2" met="A4" rhyme="a">
+          <l n="2">
             <w>
               <seg type="syll">die</seg>
             </w>
@@ -1031,7 +1029,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="3" met="A3" rhyme="a">
+          <l n="3">
             <w>
               <seg type="syll">Wir</seg>
             </w>
@@ -1049,7 +1047,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="4" met="A4" rhyme="a">
+          <l n="4">
             <w>
               <seg type="syll">diu</seg>
             </w>
@@ -1079,8 +1077,8 @@
               </w>
             </rhyme>
           </l>
-          <l n="5" met="4+A3-" rhyme="b">
-            <seg type="hemistich" met="4">
+          <l n="5">
+            <seg type="hemistich">
               <w>
                 <seg type="syll" part="I" met="+">Tan</seg>
                 <seg type="syll" part="F">zen,</seg>
@@ -1097,7 +1095,7 @@
                 <seg type="syll" met="+">wir</seg>
               </w>
             </seg>
-            <seg type="hemistich" met="A3-" rhyme="b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">mit</seg>
               </w>
@@ -1122,8 +1120,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="6" met="A4+A3-" rhyme="c+b">
-            <seg type="hemistich" met="A4" rhyme="c">
+          <l n="6">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">Daz</seg>
               </w>
@@ -1151,7 +1149,7 @@
                 </w>
               </rhyme>
             </seg>
-            <seg type="hemistich" met="A3-" rhyme="b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">nu</seg>
               </w>
@@ -1173,8 +1171,8 @@
               </rhyme>
             </seg>
           </l>
-          <l n="7" met="A4+A3-" rhyme="c+b">
-            <seg type="hemistich" met="A4" rhyme="c">
+          <l n="7">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">Min</seg>
               </w>
@@ -1200,7 +1198,7 @@
                 </w>
               </rhyme>
             </seg>
-            <seg type="hemistich" met="A3-" rhyme="b">
+            <seg type="hemistich">
               <w>
                 <seg type="syll">ih</seg>
               </w>

@@ -76,17 +76,21 @@
           </xsl:otherwise>
         </xsl:choose>
         <span class="syl-dash">
-          <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
+          <xsl:if test="./notatedMusic">
+            <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
+          </xsl:if>
         </span>
       </span>
-      <span class="neumes non-selectable">
-        <span class="consonant-space"><xsl:value-of select="normalize-space($text)"/></span>
-        <xsl:for-each select="notatedMusic/neume">
-          <img class="neume">
-            <xsl:attribute name="src">/staticfiles/img/svg/<xsl:value-of select="@fontname"/><xsl:value-of select="@glyph.num"/>.svg</xsl:attribute>
-          </img>
-        </xsl:for-each>
-      </span>
+      <xsl:if test="./notatedMusic">
+        <span class="neumes non-selectable">
+          <span class="consonant-space"><xsl:value-of select="normalize-space($text)"/></span>
+          <xsl:for-each select="notatedMusic/neume">
+            <img class="neume">
+              <xsl:attribute name="src">/staticfiles/img/svg/<xsl:value-of select="@fontname"/><xsl:value-of select="@glyph.num"/>.svg</xsl:attribute>
+            </img>
+          </xsl:for-each>
+        </span>
+      </xsl:if>
     </span>
   </xsl:template>
 

@@ -4,7 +4,7 @@
     <body>
       <div type="leich" lang="latin">
         <lg type="strophe" n="I" met="7pp/4pp/7pp/4pp/7pp/4p/4p/7pp" rhyme="a/a/b/b/c/d/d/c">
-          <l n="1" met="7pp" rhyme="a">
+          <l n="1">
             <w>
               <seg type="syll" part="I">Va<notatedMusic>
                   <neume fontname="buranus" glyph.num="56" label="qi" />
@@ -38,7 +38,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="2" met="4pp" rhyme="a">
+          <l n="2">
             <rhyme label="a">
               <w>
                 <seg type="syll" part="I">li<notatedMusic>
@@ -60,7 +60,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="3" met="7pp" rhyme="b">
+          <l n="3">
             <w>
               <seg type="syll">mens<notatedMusic>
                   <neume fontname="buranus" glyph.num="7" label="vi)" />
@@ -99,7 +99,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="4" met="4pp" rhyme="b">
+          <l n="4">
             <w>
               <seg type="syll">et<notatedMusic>
                   <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -124,7 +124,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="5" met="7pp" rhyme="c">
+          <l n="5">
             <w>
               <seg type="syll">in<notatedMusic>
                   <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -149,7 +149,7 @@
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="M">pi<notatedMusic>
-                    <neume fontname="buranus" glyph.num="88" label="ql!cl!or" />
+                    <neume fontname="buranus" glyph.num="88" label="ql!cl)" />
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="F">or<notatedMusic>
@@ -159,7 +159,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="6" met="4p" rhyme="d">
+          <l n="6">
             <rhyme label="d">
               <w>
                 <seg type="syll" part="I">ra<notatedMusic>
@@ -181,7 +181,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="7" met="4p" rhyme="d">
+          <l n="7">
             <w>
               <seg type="syll">cum<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -205,7 +205,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="8" met="7pp" rhyme="c">
+          <l n="8">
             <w>
               <seg type="syll" part="I">di<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -247,7 +247,7 @@
           </l>
         </lg>
         <lg type="strophe" n="II" met="6pp/4pp/4pp/6pp/6pp/4pp/4pp/8pp/4pp/8pp/4pp/8pp" rhyme="a/b/b/a/a/c/c/d/d/d/e/e">
-          <l n="1" met="6pp" rhyme="a">
+          <l n="1">
             <w>
               <seg type="syll">Sub<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -283,7 +283,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="2" met="4pp" rhyme="b">
+          <l n="2">
             <w>
               <seg type="syll">quid<notatedMusic>
                   <neume fontname="buranus" glyph.num="7" label="vi)" />
@@ -307,7 +307,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="3" met="4pp" rhyme="b">
+          <l n="3">
             <w>
               <seg type="syll">aut<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -332,7 +332,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="4" met="6pp" rhyme="a">
+          <l n="4">
             <w>
               <seg type="syll" part="I">me<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -364,7 +364,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="5" met="6pp" rhyme="a">
+          <l n="5">
             <w>
               <seg type="syll">dum<notatedMusic>
                   <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -398,7 +398,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="6" met="4pp" rhyme="c">
+          <l n="6">
             <rhyme label="c">
               <w>
                 <seg type="syll" part="I">de<notatedMusic>
@@ -421,7 +421,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="7" met="4pp" rhyme="c">
+          <l n="7">
             <rhyme label="c">
               <w>
                 <seg type="syll" part="I">Ve<notatedMusic>
@@ -443,7 +443,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="8" met="8pp" rhyme="d">
+          <l n="8">
             <w>
               <seg type="syll">que<notatedMusic>
                   <neume fontname="buranus" glyph.num="30" label="pe" />
@@ -488,7 +488,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="9" met="4pp" rhyme="d">
+          <l n="9">
             <w>
               <seg type="syll">det<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -512,7 +512,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="10" met="8pp" rhyme="d">
+          <l n="10">
             <w>
               <seg type="syll">quis<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -556,7 +556,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="11" met="4pp" rhyme="e">
+          <l n="11">
             <w>
               <seg type="syll">que<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -581,7 +581,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="12" met="8pp" rhyme="e">
+          <l n="12">
             <w>
               <seg type="syll">frons<notatedMusic>
                   <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -627,7 +627,7 @@
           </l>
         </lg>
         <lg type="strophe" n="III" met="6pp/4pp/4pp/6pp/6pp/4pp/4pp/8pp/4pp/8pp/4pp/7pp" rhyme="a/b/b/a/a/c/c/d/d/d/e/e">
-          <l n="1" met="6pp" rhyme="a">
+          <l n="1">
             <w>
               <seg type="syll" part="I">Sic<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -663,7 +663,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="2" met="4pp" rhyme="b">
+          <l n="2">
             <w>
               <seg type="syll">frons<notatedMusic>
                   <neume fontname="buranus" glyph.num="7" label="vi)" />
@@ -687,7 +687,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="3" met="4pp" rhyme="b">
+          <l n="3">
             <rhyme label="b">
               <w>
                 <seg type="syll" part="I">na<notatedMusic>
@@ -710,7 +710,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="4" met="6pp" rhyme="a">
+          <l n="4">
             <w>
               <seg type="syll" part="I">le<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -744,7 +744,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="5" met="6pp" rhyme="a">
+          <l n="5">
             <w>
               <seg type="syll">dum<notatedMusic>
                   <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -778,7 +778,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="6" met="4pp" rhyme="c">
+          <l n="6">
             <rhyme label="c">
               <w>
                 <seg type="syll" part="I">sub<notatedMusic>
@@ -801,7 +801,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="7" met="4pp" rhyme="c">
+          <l n="7">
             <w>
               <seg type="syll">vult<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -825,7 +825,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="8" met="8pp" rhyme="d">
+          <l n="8">
             <w>
               <seg type="syll" part="I">sta<notatedMusic>
                   <neume fontname="buranus" glyph.num="30" label="pe" />
@@ -854,7 +854,7 @@
               <w>
                 <seg type="syll" part="I" met="+">flu<notatedMusic>
                     <neume fontname="buranus" glyph.num="45" label="cl" />
-                    <neume fontname="buranus" glyph.num="85" label="ql!cl)" />
+                    <neume fontname="buranus" glyph.num="85" label="ql!cl" />
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="M">i<notatedMusic>
@@ -868,7 +868,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="9" met="4pp" rhyme="d">
+          <l n="9">
             <w>
               <seg type="syll">sic<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -892,7 +892,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="10" met="8pp" rhyme="d">
+          <l n="10">
             <w>
               <seg type="syll">sic<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -934,7 +934,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="11" met="4pp" rhyme="e">
+          <l n="11">
             <w>
               <seg type="syll">me<notatedMusic>
                   <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -959,7 +959,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="12" met="7pp" rhyme="e">
+          <l n="12">
             <w>
               <seg type="syll" part="I">A<notatedMusic>
                   <neume fontname="buranus" glyph.num="0" label="?" />
@@ -1002,7 +1002,7 @@
           </l>
         </lg>
         <lg type="strophe" n="IV" met="4pp/8pp/8pp" rhyme="a/a/a">
-          <l n="1" met="4pp" rhyme="a">
+          <l n="1">
             <w>
               <seg type="syll">O<notatedMusic>
                   <neume fontname="buranus" glyph.num="81" label="ql" />
@@ -1032,7 +1032,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="2" met="8pp" rhyme="a">
+          <l n="2">
             <w>
               <seg type="syll" part="I">Cau<notatedMusic>
                   <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -1075,7 +1075,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="3" met="8pp" rhyme="a">
+          <l n="3">
             <w>
               <seg type="syll" part="I">vi<notatedMusic>
                   <neume fontname="buranus" glyph.num="30" label="pe" />

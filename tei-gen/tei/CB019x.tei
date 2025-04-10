@@ -4,53 +4,574 @@
     <body>
       <div type="poem">
         <lg type="strophe" n="I">
-          <l n="1">Katerine collaudemus</l>
-          <l n="2">virtutum insignia,</l>
-          <l n="3">cordis ei presentemus</l>
-          <l n="4">et oris obsequia,</l>
-          <l n="5">*ut ab ipsa reportemus</l>
-          <l n="6">equa laudum premia.</l>
+          <l n="1">
+            <w>
+              <seg type="syll" part="I">Ka</seg>
+              <seg type="syll" part="M">te</seg>
+              <seg type="syll" part="M">ri</seg>
+              <seg type="syll" part="F">ne</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">col</seg>
+              <seg type="syll" part="M">lau</seg>
+              <seg type="syll" part="M">de</seg>
+              <seg type="syll" part="F">mus</seg>
+            </w>
+          </l>
+          <l n="2">
+            <w>
+              <seg type="syll" part="I">vir</seg>
+              <seg type="syll" part="M">tu</seg>
+              <seg type="syll" part="F">tum</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">in</seg>
+              <seg type="syll" part="M">si</seg>
+              <seg type="syll" part="M">gni</seg>
+              <seg type="syll" part="F">a,</seg>
+            </w>
+          </l>
+          <l n="3">
+            <w>
+              <seg type="syll" part="I">cor</seg>
+              <seg type="syll" part="F">dis</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">e</seg>
+              <seg type="syll" part="F">i</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">pre</seg>
+              <seg type="syll" part="M">sen</seg>
+              <seg type="syll" part="M">te</seg>
+              <seg type="syll" part="F">mus</seg>
+            </w>
+          </l>
+          <l n="4">
+            <w>
+              <seg type="syll">et</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">o</seg>
+              <seg type="syll" part="F">ris</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ob</seg>
+              <seg type="syll" part="M">se</seg>
+              <seg type="syll" part="M">qui</seg>
+              <seg type="syll" part="F">a,</seg>
+            </w>
+          </l>
+          <l n="5">
+            <w>
+              <seg type="syll">ut</seg>
+            </w>
+            <w>
+              <seg type="syll">ab</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ip</seg>
+              <seg type="syll" part="F">sa</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">re</seg>
+              <seg type="syll" part="M">por</seg>
+              <seg type="syll" part="M">te</seg>
+              <seg type="syll" part="F">mus</seg>
+            </w>
+          </l>
+          <l n="6">
+            <w>
+              <seg type="syll" part="I">e</seg>
+              <seg type="syll" part="F">qua</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">lau</seg>
+              <seg type="syll" part="F">dum</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">pre</seg>
+              <seg type="syll" part="M">mi</seg>
+              <seg type="syll" part="F">a.</seg>
+            </w>
+          </l>
         </lg>
         <lg type="strophe" n="II">
-          <l n="1">Multa fide Katerina</l>
-          <l n="2">iudicem Maxentium</l>
-          <l n="3">non formidat; lex divina</l>
-          <l n="4">set format eloquium,</l>
-          <l n="5">quod confutat ex doctrina</l>
-          <l n="6">errores gentilium.</l>
+          <l n="1">
+            <w>
+              <seg type="syll" part="I">Mul</seg>
+              <seg type="syll" part="F">ta</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">fi</seg>
+              <seg type="syll" part="F">de</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Ka</seg>
+              <seg type="syll" part="M">te</seg>
+              <seg type="syll" part="M">ri</seg>
+              <seg type="syll" part="F">na</seg>
+            </w>
+          </l>
+          <l n="2">
+            <w>
+              <seg type="syll" part="I">iu</seg>
+              <seg type="syll" part="M">di</seg>
+              <seg type="syll" part="F">cem</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Ma</seg>
+              <seg type="syll" part="M">xen</seg>
+              <seg type="syll" part="M">ti</seg>
+              <seg type="syll" part="F">um</seg>
+            </w>
+          </l>
+          <l n="3">
+            <w>
+              <seg type="syll">non</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">for</seg>
+              <seg type="syll" part="M">mi</seg>
+              <seg type="syll" part="F">dat;</seg>
+            </w>
+            <w>
+              <seg type="syll">lex</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">di</seg>
+              <seg type="syll" part="M">vi</seg>
+              <seg type="syll" part="F">na</seg>
+            </w>
+          </l>
+          <l n="4">
+            <w>
+              <seg type="syll">set</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">for</seg>
+              <seg type="syll" part="F">mat</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">e</seg>
+              <seg type="syll" part="M">lo</seg>
+              <seg type="syll" part="M">qui</seg>
+              <seg type="syll" part="F">um,</seg>
+            </w>
+          </l>
+          <l n="5">
+            <w>
+              <seg type="syll">quod</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">con</seg>
+              <seg type="syll" part="M">fu</seg>
+              <seg type="syll" part="F">tat</seg>
+            </w>
+            <w>
+              <seg type="syll">ex</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">doc</seg>
+              <seg type="syll" part="M">tri</seg>
+              <seg type="syll" part="F">na</seg>
+            </w>
+          </l>
+          <l n="6">
+            <w>
+              <seg type="syll" part="I">er</seg>
+              <seg type="syll" part="M">ro</seg>
+              <seg type="syll" part="F">res</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">gen</seg>
+              <seg type="syll" part="M">ti</seg>
+              <seg type="syll" part="M">li</seg>
+              <seg type="syll" part="F">um.</seg>
+            </w>
+          </l>
         </lg>
         <lg type="strophe" n="III">
-          <l n="1">Victi Christo confitentur</l>
-          <l n="2">relictis erroribus.</l>
-          <l n="3">iudex iubet, ut crementur;</l>
-          <l n="4">nec pilis nec vestibus</l>
-          <l n="5">nocet ignis, et torrentur</l>
-          <l n="6">inustis corporibus.</l>
+          <l n="1">
+            <w>
+              <seg type="syll" part="I">Vic</seg>
+              <seg type="syll" part="F">ti</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Chris</seg>
+              <seg type="syll" part="F">to</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">con</seg>
+              <seg type="syll" part="M">fi</seg>
+              <seg type="syll" part="M">ten</seg>
+              <seg type="syll" part="F">tur</seg>
+            </w>
+          </l>
+          <l n="2">
+            <w>
+              <seg type="syll" part="I">re</seg>
+              <seg type="syll" part="M">lic</seg>
+              <seg type="syll" part="F">tis</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">er</seg>
+              <seg type="syll" part="M">ro</seg>
+              <seg type="syll" part="M">ri</seg>
+              <seg type="syll" part="F">bus.</seg>
+            </w>
+          </l>
+          <l n="3">
+            <w>
+              <seg type="syll" part="I">iu</seg>
+              <seg type="syll" part="F">dex</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">iu</seg>
+              <seg type="syll" part="F">bet,</seg>
+            </w>
+            <w>
+              <seg type="syll">ut</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">cre</seg>
+              <seg type="syll" part="M">men</seg>
+              <seg type="syll" part="F">tur;</seg>
+            </w>
+          </l>
+          <l n="4">
+            <w>
+              <seg type="syll">nec</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">pi</seg>
+              <seg type="syll" part="F">lis</seg>
+            </w>
+            <w>
+              <seg type="syll">nec</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ves</seg>
+              <seg type="syll" part="M">ti</seg>
+              <seg type="syll" part="F">bus</seg>
+            </w>
+          </l>
+          <l n="5">
+            <w>
+              <seg type="syll" part="I">no</seg>
+              <seg type="syll" part="F">cet</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">i</seg>
+              <seg type="syll" part="F">gnis,</seg>
+            </w>
+            <w>
+              <seg type="syll">et</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">tor</seg>
+              <seg type="syll" part="M">ren</seg>
+              <seg type="syll" part="F">tur</seg>
+            </w>
+          </l>
+          <l n="6">
+            <w>
+              <seg type="syll" part="I">in</seg>
+              <seg type="syll" part="M">us</seg>
+              <seg type="syll" part="F">tis</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">cor</seg>
+              <seg type="syll" part="M">po</seg>
+              <seg type="syll" part="M">ri</seg>
+              <seg type="syll" part="F">bus.</seg>
+            </w>
+          </l>
         </lg>
         <lg type="strophe" n="IV">
-          <l n="1">Post hec blande rex molitur</l>
-          <l n="2">virginem seducere,</l>
-          <l n="3">nec promissis emollitur</l>
-          <l n="4">nec terretur verbere;</l>
-          <l n="5">compeditur, custoditur</l>
-          <l n="6">tetro clausa carcere.</l>
+          <l n="1">
+            <w>
+              <seg type="syll">Post</seg>
+            </w>
+            <w>
+              <seg type="syll">hec</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">blan</seg>
+              <seg type="syll" part="F">de</seg>
+            </w>
+            <w>
+              <seg type="syll">rex</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">mo</seg>
+              <seg type="syll" part="M">li</seg>
+              <seg type="syll" part="F">tur</seg>
+            </w>
+          </l>
+          <l n="2">
+            <w>
+              <seg type="syll" part="I">vir</seg>
+              <seg type="syll" part="M">gi</seg>
+              <seg type="syll" part="F">nem</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">se</seg>
+              <seg type="syll" part="M">du</seg>
+              <seg type="syll" part="M">ce</seg>
+              <seg type="syll" part="F">re,</seg>
+            </w>
+          </l>
+          <l n="3">
+            <w>
+              <seg type="syll">nec</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">pro</seg>
+              <seg type="syll" part="M">mis</seg>
+              <seg type="syll" part="F">sis</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">e</seg>
+              <seg type="syll" part="M">mol</seg>
+              <seg type="syll" part="M">li</seg>
+              <seg type="syll" part="F">tur</seg>
+            </w>
+          </l>
+          <l n="4">
+            <w>
+              <seg type="syll">nec</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ter</seg>
+              <seg type="syll" part="M">re</seg>
+              <seg type="syll" part="F">tur</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ver</seg>
+              <seg type="syll" part="M">be</seg>
+              <seg type="syll" part="F">re;</seg>
+            </w>
+          </l>
+          <l n="5">
+            <w>
+              <seg type="syll" part="I">com</seg>
+              <seg type="syll" part="M">pe</seg>
+              <seg type="syll" part="M">di</seg>
+              <seg type="syll" part="F">tur,</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">cus</seg>
+              <seg type="syll" part="M">to</seg>
+              <seg type="syll" part="M">di</seg>
+              <seg type="syll" part="F">tur</seg>
+            </w>
+          </l>
+          <l n="6">
+            <w>
+              <seg type="syll" part="I">te</seg>
+              <seg type="syll" part="F">tro</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">clau</seg>
+              <seg type="syll" part="F">sa</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">car</seg>
+              <seg type="syll" part="M">ce</seg>
+              <seg type="syll" part="F">re.</seg>
+            </w>
+          </l>
         </lg>
         <lg type="strophe" n="V">
-          <l n="1">Clause lumen ne claudatur,</l>
-          <l n="2">illucet Porfirio,</l>
-          <l n="3">qui regine federatur</l>
-          <l n="4">fidei collegio;</l>
-          <l n="5">quorum fidem imitatur</l>
-          <l n="6">ducentena concio.</l>
+          <l n="1">
+            <w>
+              <seg type="syll" part="I">Clau</seg>
+              <seg type="syll" part="F">se</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">lu</seg>
+              <seg type="syll" part="F">men</seg>
+            </w>
+            <w>
+              <seg type="syll">ne</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">clau</seg>
+              <seg type="syll" part="M">da</seg>
+              <seg type="syll" part="F">tur,</seg>
+            </w>
+          </l>
+          <l n="2">
+            <w>
+              <seg type="syll" part="I">il</seg>
+              <seg type="syll" part="M">lu</seg>
+              <seg type="syll" part="F">cet</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Por</seg>
+              <seg type="syll" part="M">fi</seg>
+              <seg type="syll" part="M">ri</seg>
+              <seg type="syll" part="F">o,</seg>
+            </w>
+          </l>
+          <l n="3">
+            <w>
+              <seg type="syll">qui</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">re</seg>
+              <seg type="syll" part="M">gi</seg>
+              <seg type="syll" part="F">ne</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">fe</seg>
+              <seg type="syll" part="M">de</seg>
+              <seg type="syll" part="M">ra</seg>
+              <seg type="syll" part="F">tur</seg>
+            </w>
+          </l>
+          <l n="4">
+            <w>
+              <seg type="syll" part="I">fi</seg>
+              <seg type="syll" part="M">de</seg>
+              <seg type="syll" part="F">i</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">col</seg>
+              <seg type="syll" part="M">le</seg>
+              <seg type="syll" part="M">gi</seg>
+              <seg type="syll" part="F">o;</seg>
+            </w>
+          </l>
+          <l n="5">
+            <w>
+              <seg type="syll" part="I">quo</seg>
+              <seg type="syll" part="F">rum</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">fi</seg>
+              <seg type="syll" part="F">dem</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">i</seg>
+              <seg type="syll" part="M">mi</seg>
+              <seg type="syll" part="M">ta</seg>
+              <seg type="syll" part="F">tur</seg>
+            </w>
+          </l>
+          <l n="6">
+            <w>
+              <seg type="syll" part="I">du</seg>
+              <seg type="syll" part="M">cen</seg>
+              <seg type="syll" part="M">te</seg>
+              <seg type="syll" part="F">na</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">con</seg>
+              <seg type="syll" part="M">ci</seg>
+              <seg type="syll" part="F">o.</seg>
+            </w>
+          </l>
         </lg>
         <lg type="strophe" n="VI">
-          <l n="1">Huius ergo concionis</l>
-          <l n="2">concordes constantia</l>
-          <l n="3">vim mundane passionis</l>
-          <l n="4">pari pacientia</l>
-          <l n="5">superemus, ut in bonis</l>
-          <l n="6">regnemur in gloria.</l>
-          <l n="7">Amen.</l>
+          <l n="1">
+            <w>
+              <seg type="syll" part="I">Hu</seg>
+              <seg type="syll" part="F">ius</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">er</seg>
+              <seg type="syll" part="F">go</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">con</seg>
+              <seg type="syll" part="M">ci</seg>
+              <seg type="syll" part="M">o</seg>
+              <seg type="syll" part="F">nis</seg>
+            </w>
+          </l>
+          <l n="2">
+            <w>
+              <seg type="syll" part="I">con</seg>
+              <seg type="syll" part="M">cor</seg>
+              <seg type="syll" part="F">des</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">con</seg>
+              <seg type="syll" part="M">stan</seg>
+              <seg type="syll" part="M">ti</seg>
+              <seg type="syll" part="F">a</seg>
+            </w>
+          </l>
+          <l n="3">
+            <w>
+              <seg type="syll">vim</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">mun</seg>
+              <seg type="syll" part="M">da</seg>
+              <seg type="syll" part="F">ne</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">pas</seg>
+              <seg type="syll" part="M">si</seg>
+              <seg type="syll" part="M">o</seg>
+              <seg type="syll" part="F">nis</seg>
+            </w>
+          </l>
+          <l n="4">
+            <w>
+              <seg type="syll" part="I">pa</seg>
+              <seg type="syll" part="F">ri</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">pa</seg>
+              <seg type="syll" part="M">ci</seg>
+              <seg type="syll" part="M">en</seg>
+              <seg type="syll" part="M">ti</seg>
+              <seg type="syll" part="F">a</seg>
+            </w>
+          </l>
+          <l n="5">
+            <w>
+              <seg type="syll" part="I">su</seg>
+              <seg type="syll" part="M">pe</seg>
+              <seg type="syll" part="M">re</seg>
+              <seg type="syll" part="F">mus,</seg>
+            </w>
+            <w>
+              <seg type="syll">ut</seg>
+            </w>
+            <w>
+              <seg type="syll">in</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">bo</seg>
+              <seg type="syll" part="F">nis</seg>
+            </w>
+          </l>
+          <l n="6">
+            <w>
+              <seg type="syll" part="I">re</seg>
+              <seg type="syll" part="M">gne</seg>
+              <seg type="syll" part="F">mur</seg>
+            </w>
+            <w>
+              <seg type="syll">in</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">glo</seg>
+              <seg type="syll" part="M">ri</seg>
+              <seg type="syll" part="F">a.</seg>
+            </w>
+          </l>
+          <l n="7">
+            <w>
+              <seg type="syll" part="I">A</seg>
+              <seg type="syll" part="F">men.</seg>
+            </w>
+          </l>
         </lg>
       </div>
     </body>

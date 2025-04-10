@@ -3,33 +3,260 @@
   <text>
     <body>
       <div type="poem" xml:lang="latin" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
-        <lg type="strophe" n="I" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
-          <l n="1" met="8p" rhyme="a">Presens dies expendatur</l>
-          <l n="2" met="7pp" rhyme="b">in eius preconium,</l>
-          <l n="3" met="8p" rhyme="a">cuius virtus dilatatur</l>
-          <l n="4" met="7pp" rhyme="b">in ore laudantium,</l>
-          <l n="5" met="8p" rhyme="a">si gestorum teneatur</l>
-          <l n="6" met="7pp" rhyme="b">finis et inicium.</l>
+        <lg type="strophe" n="I">
+          <l n="1">
+            <w>
+              <seg type="syll" part="I">Pre</seg>
+              <seg type="syll" part="F">sens</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">di</seg>
+              <seg type="syll" part="F">es</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ex</seg>
+              <seg type="syll" part="M">pen</seg>
+              <seg type="syll" part="M">da</seg>
+              <seg type="syll" part="F">tur</seg>
+            </w>
+          </l>
+          <l n="2">
+            <w>
+              <seg type="syll">in</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">e</seg>
+              <seg type="syll" part="F">ius</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">pre</seg>
+              <seg type="syll" part="M">co</seg>
+              <seg type="syll" part="M">ni</seg>
+              <seg type="syll" part="F">um,</seg>
+            </w>
+          </l>
+          <l n="3">
+            <w>
+              <seg type="syll" part="I">cu</seg>
+              <seg type="syll" part="F">ius</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">vir</seg>
+              <seg type="syll" part="F">tus</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">di</seg>
+              <seg type="syll" part="M">la</seg>
+              <seg type="syll" part="M">ta</seg>
+              <seg type="syll" part="F">tur</seg>
+            </w>
+          </l>
+          <l n="4">
+            <w>
+              <seg type="syll">in</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">o</seg>
+              <seg type="syll" part="F">re</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">lau</seg>
+              <seg type="syll" part="M">dan</seg>
+              <seg type="syll" part="M">ti</seg>
+              <seg type="syll" part="F">um,</seg>
+            </w>
+          </l>
+          <l n="5">
+            <w>
+              <seg type="syll">si</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ges</seg>
+              <seg type="syll" part="M">to</seg>
+              <seg type="syll" part="F">rum</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">te</seg>
+              <seg type="syll" part="M">ne</seg>
+              <seg type="syll" part="M">a</seg>
+              <seg type="syll" part="F">tur</seg>
+            </w>
+          </l>
+          <l n="6">
+            <w>
+              <seg type="syll" part="I">fi</seg>
+              <seg type="syll" part="F">nis</seg>
+            </w>
+            <w>
+              <seg type="syll">et</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">in</seg>
+              <seg type="syll" part="M">i</seg>
+              <seg type="syll" part="M">ci</seg>
+              <seg type="syll" part="F">um.</seg>
+            </w>
+          </l>
         </lg>
-        <lg type="strophe" n="II" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
-          <l n="1" met="8p" rhyme="a">Verbo vite roboratus</l>
-          <l n="2" met="7pp" rhyme="b">prosiliit Porfirius</l>
-          <l n="3" met="8p" rhyme="a">cum ducentis decollatus</l>
-          <l n="4" met="7pp" rhyme="b">migrat palme socius,</l>
-          <l n="5" met="8p" rhyme="a">Katerine cruciatus</l>
-          <l n="6" met="7pp" rhyme="b">maturat Maxentius.</l>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <w>
+              <seg type="syll" part="I">Ver</seg>
+              <seg type="syll" part="F">bo</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">vi</seg>
+              <seg type="syll" part="F">te</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ro</seg>
+              <seg type="syll" part="M">bo</seg>
+              <seg type="syll" part="M">ra</seg>
+              <seg type="syll" part="F">tus</seg>
+            </w>
+          </l>
+          <l n="2">
+            <w>
+              <seg type="syll" part="I">pro</seg>
+              <seg type="syll" part="M">si</seg>
+              <seg type="syll" part="M">li</seg>
+              <seg type="syll" part="F">it</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Por</seg>
+              <seg type="syll" part="M">fi</seg>
+              <seg type="syll" part="M">ri</seg>
+              <seg type="syll" part="F">us</seg>
+            </w>
+          </l>
+          <l n="3">
+            <w>
+              <seg type="syll">cum</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">du</seg>
+              <seg type="syll" part="M">cen</seg>
+              <seg type="syll" part="F">tis</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">de</seg>
+              <seg type="syll" part="M">col</seg>
+              <seg type="syll" part="M">la</seg>
+              <seg type="syll" part="F">tus</seg>
+            </w>
+          </l>
+          <l n="4">
+            <w>
+              <seg type="syll" part="I">mi</seg>
+              <seg type="syll" part="F">grat</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">pal</seg>
+              <seg type="syll" part="F">me</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">so</seg>
+              <seg type="syll" part="M">ci</seg>
+              <seg type="syll" part="F">us,</seg>
+            </w>
+          </l>
+          <l n="5">
+            <w>
+              <seg type="syll" part="I">Ka</seg>
+              <seg type="syll" part="M">te</seg>
+              <seg type="syll" part="M">ri</seg>
+              <seg type="syll" part="F">ne</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">cru</seg>
+              <seg type="syll" part="M">ci</seg>
+              <seg type="syll" part="M">a</seg>
+              <seg type="syll" part="F">tus</seg>
+            </w>
+          </l>
+          <l n="6">
+            <w>
+              <seg type="syll" part="I">ma</seg>
+              <seg type="syll" part="M">tu</seg>
+              <seg type="syll" part="F">rat</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Ma</seg>
+              <seg type="syll" part="M">xen</seg>
+              <seg type="syll" part="M">ti</seg>
+              <seg type="syll" part="F">us.</seg>
+            </w>
+          </l>
         </lg>
         <lg type="strophe" n="III" met="8p" rhyme="a">
-          <l n="1" met="8p" rhyme="a">Imminente passione...</l>
+          <l n="1">
+            <w>
+              <seg type="syll" part="I">Im</seg>
+              <seg type="syll" part="M">mi</seg>
+              <seg type="syll" part="M">nen</seg>
+              <seg type="syll" part="F">te</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">pas</seg>
+              <seg type="syll" part="M">si</seg>
+              <seg type="syll" part="M">o</seg>
+              <seg type="syll" part="F">ne...</seg>
+            </w>
+          </l>
         </lg>
         <lg type="strophe" n="IV" met="8p" rhyme="a">
-          <l n="1" met="8p" rhyme="a">Hoc declarat, hoc exemplat...</l>
+          <l n="1">
+            <w>
+              <seg type="syll">Hoc</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">de</seg>
+              <seg type="syll" part="M">cla</seg>
+              <seg type="syll" part="F">rat,</seg>
+            </w>
+            <w>
+              <seg type="syll">hoc</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ex</seg>
+              <seg type="syll" part="M">em</seg>
+              <seg type="syll" part="F">plat...</seg>
+            </w>
+          </l>
         </lg>
         <lg type="strophe" n="V" met="8p" rhyme="a">
-          <l n="1" met="8p" rhyme="a">Cum doloris corporalis...</l>
+          <l n="1">
+            <w>
+              <seg type="syll">Cum</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">do</seg>
+              <seg type="syll" part="M">lo</seg>
+              <seg type="syll" part="F">ris</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">cor</seg>
+              <seg type="syll" part="M">po</seg>
+              <seg type="syll" part="M">ra</seg>
+              <seg type="syll" part="F">lis...</seg>
+            </w>
+          </l>
         </lg>
         <lg type="strophe" n="VI" met="8p" rhyme="a">
-          <l n="1" met="8p" rhyme="a">Gloria et honor...</l>
+          <l n="1">
+            <w>
+              <seg type="syll" part="I">Glo</seg>
+              <seg type="syll" part="M">ri</seg>
+              <seg type="syll" part="F">a</seg>
+            </w>
+            <w>
+              <seg type="syll">et</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ho</seg>
+              <seg type="syll" part="F">nor...</seg>
+            </w>
+          </l>
         </lg>
       </div>
     </body>

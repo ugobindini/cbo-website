@@ -36,5 +36,3 @@ def indentify(tree):
 			parsed_met = parse(met)
 			for (n, verse) in enumerate(lg.findall(".//div[@class='verse']")):
 				verse.set('data-indent', str(parsed_met[n]))
-
-	return tree

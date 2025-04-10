@@ -3,33 +3,278 @@
   <text>
     <body>
       <div type="poem" met="8pp/8pp/8pp/4p" rhyme="a/a/a/B">
-        <lg type="strophe" n="I" met="8pp/8pp/8pp/4p" rhyme="a/a/a/B">
-          <l n="1" met="8pp" rhyme="a">Veris dulcis in tempore</l>
-          <l n="2" met="8pp" rhyme="a">florenti stat sub arbore</l>
-          <l n="3" met="8pp" rhyme="a">Iuliana cum sorore.</l>
-          <l n="4" met="4p" rhyme="B">Dulcis amor!</l>
+        <lg type="strophe" n="I">
+          <l n="1">
+            <w>
+              <seg type="syll" part="I">Ve</seg>
+              <seg type="syll" part="F">ris</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">dul</seg>
+              <seg type="syll" part="F">cis</seg>
+            </w>
+            <w>
+              <seg type="syll">in</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">tem</seg>
+              <seg type="syll" part="M">po</seg>
+              <seg type="syll" part="F">re</seg>
+            </w>
+          </l>
+          <l n="2">
+            <w>
+              <seg type="syll" part="I">flo</seg>
+              <seg type="syll" part="M">ren</seg>
+              <seg type="syll" part="F">ti</seg>
+            </w>
+            <w>
+              <seg type="syll">stat</seg>
+            </w>
+            <w>
+              <seg type="syll">sub</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ar</seg>
+              <seg type="syll" part="M">bo</seg>
+              <seg type="syll" part="F">re</seg>
+            </w>
+          </l>
+          <l n="3" met="8p">
+            <w>
+              <seg type="syll" part="I">Iu</seg>
+              <seg type="syll" part="M">li</seg>
+              <seg type="syll" part="M">a</seg>
+              <seg type="syll" part="F">na</seg>
+            </w>
+            <w>
+              <seg type="syll">cum</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">so</seg>
+              <seg type="syll" part="M">ro</seg>
+              <seg type="syll" part="F">re.</seg>
+            </w>
+          </l>
+          <l n="4">
+            <w>
+              <seg type="syll" part="I">dul</seg>
+              <seg type="syll" part="F">cis</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">a</seg>
+              <seg type="syll" part="F">mor!</seg>
+            </w>
+          </l>
         </lg>
-        <lg type="refrain" met="8pp/4p" rhyme="A/B">
+        <lg type="refrain" met="8pp/4pp" rhyme="A/B">
           <head>Refl.</head>
-          <l n="1">Qui te caret hoc tempore</l>
-          <l n="2">fit vilior.</l>
+          <l n="1">
+            <w>
+              <seg type="syll">Qui</seg>
+            </w>
+            <w>
+              <seg type="syll">te</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ca</seg>
+              <seg type="syll" part="F">ret</seg>
+            </w>
+            <w>
+              <seg type="syll">hoc</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">tem</seg>
+              <seg type="syll" part="M">po</seg>
+              <seg type="syll" part="F">re</seg>
+            </w>
+          </l>
+          <l n="2">
+            <w>
+              <seg type="syll">fit</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">vi</seg>
+              <seg type="syll" part="M">li</seg>
+              <seg type="syll" part="F">or.</seg>
+            </w>
+          </l>
         </lg>
-        <lg type="strophe" n="II" met="8pp/8pp/8pp/4p" rhyme="a/a/a/B">
-          <l n="1" met="8pp" rhyme="a">Ecce florescunt arbores,</l>
-          <l n="2" met="8pp" rhyme="a">lascive canunt volucres,</l>
-          <l n="3" met="8pp" rhyme="a">inde tepescunt virgines.</l>
-          <l n="4" met="4p" rhyme="B">dulcis amor!</l>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <w>
+              <seg type="syll" part="I">Ec</seg>
+              <seg type="syll" part="F">ce</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">flo</seg>
+              <seg type="syll" part="M">res</seg>
+              <seg type="syll" part="F">cunt</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ar</seg>
+              <seg type="syll" part="M">bo</seg>
+              <seg type="syll" part="F">res,</seg>
+            </w>
+          </l>
+          <l n="2">
+            <w>
+              <seg type="syll" part="I">la</seg>
+              <seg type="syll" part="M">sci</seg>
+              <seg type="syll" part="F">ve</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ca</seg>
+              <seg type="syll" part="F">nunt</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">vo</seg>
+              <seg type="syll" part="M">lu</seg>
+              <seg type="syll" part="F">cres,</seg>
+            </w>
+          </l>
+          <l n="3">
+            <w>
+              <seg type="syll" part="I">in</seg>
+              <seg type="syll" part="F">de</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">te</seg>
+              <seg type="syll" part="M">pes</seg>
+              <seg type="syll" part="F">cunt</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">vir</seg>
+              <seg type="syll" part="M">gi</seg>
+              <seg type="syll" part="F">nes.</seg>
+            </w>
+          </l>
+          <l n="4">
+            <w>
+              <seg type="syll" part="I">dul</seg>
+              <seg type="syll" part="F">cis</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">a</seg>
+              <seg type="syll" part="F">mor!</seg>
+            </w>
+          </l>
         </lg>
-        <lg type="strophe" n="III" met="8pp/8pp/8pp/4p" rhyme="a/a/a/B">
-          <l n="1" met="8pp" rhyme="a">Ecce florescunt lilia</l>
-          <l n="2" met="8pp" rhyme="a">et virgines dant agmina,</l>
-          <l n="3" met="8pp" rhyme="a">summa deorum carmina.</l>
-          <l n="4" met="4p" rhyme="B">Dulcis amor!</l>
+        <lg type="strophe" n="III">
+          <l n="1">
+            <w>
+              <seg type="syll" part="I">Ec</seg>
+              <seg type="syll" part="F">ce</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">flo</seg>
+              <seg type="syll" part="M">res</seg>
+              <seg type="syll" part="F">cunt</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">li</seg>
+              <seg type="syll" part="M">li</seg>
+              <seg type="syll" part="F">a</seg>
+            </w>
+          </l>
+          <l n="2">
+            <w>
+              <seg type="syll">et</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">vir</seg>
+              <seg type="syll" part="M">gi</seg>
+              <seg type="syll" part="F">nes</seg>
+            </w>
+            <w>
+              <seg type="syll">dant</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ag</seg>
+              <seg type="syll" part="M">mi</seg>
+              <seg type="syll" part="F">na,</seg>
+            </w>
+          </l>
+          <l n="3">
+            <w>
+              <seg type="syll" part="I">sum</seg>
+              <seg type="syll" part="F">mo</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">de</seg>
+              <seg type="syll" part="M">o</seg>
+              <seg type="syll" part="F">rum</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">car</seg>
+              <seg type="syll" part="M">mi</seg>
+              <seg type="syll" part="F">na.</seg>
+            </w>
+          </l>
+          <l n="4">
+            <w>
+              <seg type="syll" part="I">dul</seg>
+              <seg type="syll" part="F">cis</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">a</seg>
+              <seg type="syll" part="F">mor!</seg>
+            </w>
+          </l>
         </lg>
         <lg type="strophe" n="IV" met="8pp/8pp/8pp" rhyme="a/a/a">
-          <l n="1" met="8pp" rhyme="a">Si tenerem quam cupio</l>
-          <l n="2" met="8pp" rhyme="a">in nemore sub folio</l>
-          <l n="3" met="8pp" rhyme="a">oscularer cum gaudio.</l>
+          <l n="1">
+            <w>
+              <seg type="syll">Si</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">te</seg>
+              <seg type="syll" part="M">ne</seg>
+              <seg type="syll" part="F">rem</seg>
+            </w>
+            <w>
+              <seg type="syll">quam</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">cu</seg>
+              <seg type="syll" part="M">pi</seg>
+              <seg type="syll" part="F">o</seg>
+            </w>
+          </l>
+          <l n="2">
+            <w>
+              <seg type="syll">in</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ne</seg>
+              <seg type="syll" part="M">mo</seg>
+              <seg type="syll" part="F">re</seg>
+            </w>
+            <w>
+              <seg type="syll">sub</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">fo</seg>
+              <seg type="syll" part="M">li</seg>
+              <seg type="syll" part="F">o</seg>
+            </w>
+          </l>
+          <l n="3">
+            <w>
+              <seg type="syll" part="I">os</seg>
+              <seg type="syll" part="M">cu</seg>
+              <seg type="syll" part="M">la</seg>
+              <seg type="syll" part="F">rer</seg>
+            </w>
+            <w>
+              <seg type="syll">cum</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">gau</seg>
+              <seg type="syll" part="M">di</seg>
+              <seg type="syll" part="F">o.</seg>
+            </w>
+          </l>
         </lg>
       </div>
     </body>

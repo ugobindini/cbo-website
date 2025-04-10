@@ -1,6 +1,57 @@
+@font-face {
+    font-family: Junicode;
+    src: url("Junicode.ttf");
+}
+
+@font-face {
+    font-family: Junicode;
+    src: url("Junicode-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Junicode;
+    src: url("Junicode-Italic.ttf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Junicode;
+    src: url("Junicode-BoldItalic.ttf");
+    font-style: italic;
+    font-weight: bold;
+}
+
+.text-font {
+  font-family: Junicode;
+  font-style: normal;
+  word-spacing: 2px;
+}
+
+.non-selectable {
+  /* Avoid text selection */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+/* Extract from freeCodeCamp (Dominic Fraser) */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* End extract */
+
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .cbo-button {
@@ -11,9 +62,6 @@
   flex: 50%;
 }
 
-.flex-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
+.cbo-bar {
+  box-sizing: border-box;
 }
-

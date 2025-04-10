@@ -67,12 +67,8 @@
 
   <xsl:template match="lg[@type='strophe']">
     <div class="flex-column strophe" data-type="strophe">
-      <xsl:if test="@met">
-        <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
-      </xsl:if>
-      <xsl:if test="@rhyme">
-        <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
-      </xsl:if>
+      <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
+      <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
       <xsl:choose>
         <xsl:when test="./@n">
           <div class="lg-heading"><b><xsl:value-of select="@n"/></b></div>
@@ -88,12 +84,8 @@
 
   <xsl:template match="lg[@type='refrain']">
     <div class="flex-column strophe" data-type="strophe">
-      <xsl:if test="@met">
-        <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
-      </xsl:if>
-      <xsl:if test="@rhyme">
-        <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
-      </xsl:if>
+      <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
+      <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
       <xsl:choose>
         <xsl:when test="./head" />
         <xsl:otherwise>
@@ -120,8 +112,8 @@
       </div>
       <div class="verse-met non-selectable">
         <xsl:choose>
-          <xsl:when test="@real">
-            <b><xsl:value-of select="@real"/></b>(<xsl:value-of select="@met"/>)
+          <xsl:when test="@met-variant">
+            <b><xsl:value-of select="@met-variant"/></b>(<xsl:value-of select="@met"/>)
           </xsl:when>
           <xsl:otherwise>
             <xsl:value-of select="@met"/>
@@ -129,7 +121,14 @@
         </xsl:choose>
       </div>
       <div class="verse-rhyme non-selectable">
-        <xsl:value-of select="@rhyme"/>
+        <xsl:choose>
+          <xsl:when test="@rhyme-variant">
+            <b><xsl:value-of select="@rhyme-variant"/></b>(<xsl:value-of select="@rhyme"/>)
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="@rhyme"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </div>
     </div>
   </xsl:template>

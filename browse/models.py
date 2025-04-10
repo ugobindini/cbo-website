@@ -5,9 +5,12 @@ from django.db.models import UniqueConstraint
 from django.db.models.functions import Lower
 from django.conf import settings
 from .indentify import indentify
+from .metify import metify
 
-#static_root = settings.STATICFILES_DIRS[0]
-static_root = settings.STATIC_ROOT # comment for local servering
+if settings.LOCAL:
+    static_root = settings.STATICFILES_DIRS[0]
+else:
+    static_root = settings.STATIC_ROOT
 
 class Language(models.Model):
     """Model representing a language."""
@@ -279,14 +282,17 @@ class Item(models.Model):
         else:
             return False
 
-    def transform(self, xsl_file, indent=False):
+    def transform(self, xsl_file, indent=False, met=False):
         # Given the xsl file (only filename, no path), transforms item's tei file
         # IMPORTANT: the xsl file must produce a tree with one root
         import os
         from lxml import etree, html
         xsl = etree.parse(os.path.join(os.path.join(static_root, 'xsl'), xsl_file))
         transform = etree.XSLT(xsl)
-        result = transform(etree.parse(self.tei_path))
+        xml = etree.parse(self.tei_path)
+        if met:
+            metify(xml)
+        result = transform(xml)
         if indent:
             indentify(result)
         try:
@@ -313,11 +319,11 @@ class Item(models.Model):
 
     @property
     def neumed_text_transform(self):
-        return self.transform('neumed-text.xsl', indent=True)
+        return self.transform('neumed-text.xsl', indent=True, met=True)
 
     @property
     def plain_text_transform(self):
-        return self.transform('plain-text.xsl', indent=True)
+        return self.transform('plain-text.xsl', indent=True, met=True)
 
     @property
     def diplomatic_transform(self):
