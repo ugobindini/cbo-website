@@ -64,7 +64,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="4" met="5pp" rhyme="b">
+          <l n="4">
             <w>
               <seg type="syll" part="I">ca</seg>
               <seg type="syll" part="F">rens</seg>
@@ -144,7 +144,7 @@
             </rhyme>
           </l>
         </lg>
-        <lg type="strophe" n="II" met="8p/5pp/8p/5pp/5pp/8p/8p/5pp" rhyme="a/b/a/b/c/d+d/d+d/c">
+        <lg type="strophe" n="II">
           <l n="1">
             <w>
               <seg type="syll">In</seg>
@@ -210,7 +210,7 @@
               </app>
             </rhyme>
           </l>
-          <l n="4" met="5pp" rhyme="b">
+          <l n="4">
             <w>
               <seg type="syll" part="I">lu</seg>
               <seg type="syll" part="F">ce</seg>
@@ -316,7 +316,7 @@
             </rhyme>
           </l>
         </lg>
-        <lg type="strophe" n="III" met="8p/5pp/8p/5pp/5pp/8p/8p/5pp" rhyme="a/b/a/b/c/d/d/c">
+        <lg type="strophe" n="III">
           <l n="1">
             <w>
               <seg type="syll" part="I">Tem</seg>
@@ -453,7 +453,7 @@
             </rhyme>
           </l>
         </lg>
-        <lg type="strophe" n="IV" met="8p/5pp/8p/5pp/5pp/8p/8p/5pp" rhyme="a/b/a/b/c/d/d/c">
+        <lg type="strophe" n="IV">
           <l n="1">
             <w>
               <seg type="syll" part="I">Ta</seg>
@@ -510,7 +510,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="4" met="5pp" rhyme="b">
+          <l n="4">
             <w>
               <seg type="syll" part="I">Tan</seg>
               <seg type="syll" part="F">ti</seg>
@@ -580,10 +580,7 @@
               </w>
             </rhyme>
           </l>
-        </lg>
-      </div>
-      <div type="poem" xml:lang="middle-high-german" met="4-/3/4-/3/3/4-/4-/3" rhyme="a/b/a/b/c/d/d/c">
-        <lg type="strophe" n="V" met="4-/3/4-/3/3/4-/4-/3" rhyme="a/b/a/b/c/d/d/c">
+        </lg><lg type="strophe" n="V" xml:lang="middle-high-german" met="4-/3/4-/3/3/4-/4-/3" rhyme="a/b/a/b/c/d/d/c">
           <l n="1">
             <w>
               <seg type="syll" part="I" met="+">Ro</seg>
@@ -650,7 +647,7 @@
               </w>
             </rhyme>
           </l>
-          <l n="4" met="3" rhyme="b">
+          <l n="4">
             <w>
               <seg type="syll" met="+">nach</seg>
             </w>
