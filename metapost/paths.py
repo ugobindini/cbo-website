@@ -76,7 +76,7 @@ PATHS = [
 	),
 	Path(
 		name='porrectus_end',
-		command='clivis_hor&((10.5u,3u)--(4.5u,-5u){point 1 of virga}..(12u,-6u)..{up}(15u,-3u))'
+		command='clivis_hor&((10.5u,3u)--(4.5u,-5u){point 1 of virga}..{-(point 1 of virga)}(12u,-6u)--(15u,-2u))'
 	),
 	Path(
 		name='liquescence_loop',

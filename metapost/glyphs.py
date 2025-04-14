@@ -291,6 +291,11 @@ GLYPHS = [
 		paths=[('virga', None), ('porrectus_end', None)]
 	),
 	Glyph(
+		description='Porrectus liquescent',
+		code='po)',
+		paths=[('virga', None), ('porrectus_end', None), ('liquescence_loop', '(20.5u,-1u)')]
+	),
+	Glyph(
 		description='Quilisma 2 loops',
 		code='qi',
 		paths=[('pes', None), ('pes_loop', '(-6u,0)')]
