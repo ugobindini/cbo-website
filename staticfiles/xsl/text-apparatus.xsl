@@ -57,10 +57,12 @@
   </xsl:template>
 
   <xsl:template match="w">
-    <span class="word text-font">
+    <span class="app-word text-font">
       <xsl:apply-templates />
     </span>
   </xsl:template>
+
+  <xsl:template match="pc" />
 
   <xsl:template match="seg[@type='syll']">
     <xsl:value-of select="normalize-space(.)"/>

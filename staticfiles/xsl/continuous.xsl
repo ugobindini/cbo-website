@@ -4,7 +4,7 @@
   <xsl:template match="teiHeader"/>
 
   <xsl:template match="body">
-    <p class="text-font" style="font-size: 16px;">
+    <p class="text-font flex-wrapper" style="font-size: 16px;">
       <xsl:apply-templates />
     </p>
   </xsl:template>
@@ -94,12 +94,38 @@
     </span>
   </xsl:template>
 
+  <xsl:template match="pc">
+    <span>
+      <xsl:choose>
+        <xsl:when test="@pre='true'">
+          <xsl:attribute name="class">pc pre</xsl:attribute>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:attribute name="class">pc</xsl:attribute>
+        </xsl:otherwise>
+      </xsl:choose>
+      <xsl:choose>
+        <xsl:when test="@resp='#editor'">
+          <xsl:attribute name="data-resp">ed</xsl:attribute>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:attribute name="data-resp">ms</xsl:attribute>
+        </xsl:otherwise>
+      </xsl:choose>
+      <xsl:value-of select="./text()"/>
+    </span>
+  </xsl:template>
+
   <xsl:template match="app">
-    <span class="apparatus-in-text">
-      <span class="apparatus-note font-small">
+    <span>
+      <xsl:attribute name="class">
+        <xsl:if test="@type='text'">apparatus-in-text app-type-text apparatus-visible</xsl:if>
+        <xsl:if test="@type='neume'">apparatus-in-text app-type-neume apparatus-visible</xsl:if>
+      </xsl:attribute>
+      <span>
         <xsl:attribute name="class">
           <xsl:if test="@type='text'">apparatus-note font-small cbo-border-red</xsl:if>
-          <xsl:if test="@type='neume'">apparatus-note font-small cbo-border-blue</xsl:if>
+          <xsl:if test="@type='neume'">apparatus-note font-small cbo-border-blue toggle-neumes</xsl:if>
         </xsl:attribute>
         <xsl:apply-templates select="./rdg" />
         <xsl:apply-templates select="./note" />

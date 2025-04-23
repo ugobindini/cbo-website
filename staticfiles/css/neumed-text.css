@@ -63,8 +63,24 @@
 .word {
   display: inline-flex;
   align-items: flex-end;
-  margin-right: 3px;
-  margin-left: 3px;
+  margin-left: 8px;
+}
+
+.app-word {
+  display: inline-flex;
+  align-items: flex-end;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.pc {
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.pre {
+  margin-left: 8px;
+  margin-right: -8px;
 }
 
 .neumed-syll {
@@ -101,8 +117,19 @@
 .apparatus-in-text {
   position: relative;
   display: inline-flex;
+}
+
+.apparatus-visible {
   border-bottom: 1px dotted black;
   margin-bottom: -1px;
+}
+
+.app-type-text {
+  margin-left: 8px;
+}
+
+.app-type-text > .word:nth-of-type(2) {
+  margin-left: 0px;
 }
 
 .apparatus-in-text .apparatus-note {
@@ -143,6 +170,11 @@
   opacity: 1;
 }
 
+.apparatus-note .word {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
 .lem,.rdg {
   display: inline-flex;
 }
@@ -167,9 +199,4 @@
 
 .spoken-text {
   margin-left: 10px;
-}
-
-p > .word {
-  margin-left: 0;
-  margin-right: 0;
 }

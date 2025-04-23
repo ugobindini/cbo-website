@@ -37,19 +37,17 @@
 
   <xsl:template match="div[@type='prose']">
     <div class="prose-text flex-column">
-      <p><b><xsl:apply-templates select="./head"/></b></p>
-      <xsl:apply-templates select="./p"/>
+      <xsl:apply-templates />
     </div>
   </xsl:template>
 
   <xsl:template match="p">
-    <p class="margin-6px"><xsl:apply-templates /></p>
+    <p class="flex-wrapper margin-6px"><xsl:apply-templates /></p>
   </xsl:template>
 
   <xsl:template match="div[@type='sequence']">
     <div class="flex-column" data-type="poem">
-      <p><b><xsl:apply-templates select="./head"/></b></p>
-      <xsl:apply-templates select=".//lg[@type='versicle']"/>
+      <xsl:apply-templates select="./head | .//lg[@type='versicle']"/>
     </div>
   </xsl:template>
 
@@ -140,15 +138,34 @@
   </xsl:template>
 
   <xsl:template match="w">
-  <span class="word text-font">
-    <xsl:apply-templates/>
-  </span>
+    <span class="word text-font" style="vertical-align: bottom;">
+      <xsl:apply-templates/>
+    </span>
   </xsl:template>
 
-  <xsl:strip-space elements="w" />
-
   <xsl:template match="seg[@type='syll']">
-    <xsl:value-of select="normalize-space(.)"/>
+    <xsl:variable name="text"><xsl:value-of select="./text()"/></xsl:variable>
+    <span class="neumed-syll" style="vertical-align: bottom;">
+      <span class="syl">
+        <xsl:if test="@met='+'">
+          <xsl:attribute name="data-met">+</xsl:attribute>
+        </xsl:if>
+        <xsl:value-of select="normalize-space($text)"/>
+        <span class="syl-dash">
+          <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
+        </span>
+      </span>
+      <xsl:if test="./notatedMusic">
+        <span class="neumes non-selectable">
+          <span class="consonant-space"><xsl:value-of select="normalize-space($text)"/></span>
+          <xsl:for-each select="notatedMusic/neume">
+            <img class="neume">
+              <xsl:attribute name="src">/staticfiles/img/svg/<xsl:value-of select="@fontname"/><xsl:value-of select="@glyph.num"/>.svg</xsl:attribute>
+            </img>
+          </xsl:for-each>
+        </span>
+      </xsl:if>
+    </span>
   </xsl:template>
 
   <xsl:template match="pc">
@@ -173,16 +190,20 @@
     </span>
   </xsl:template>
 
-  <xsl:template match="app[@type='neume']">
-    <xsl:apply-templates select="./lem/*" />
-  </xsl:template>
-
-  <xsl:template match="app[@type='text']">
-    <span class="apparatus-in-text app-text">
-      <div class="apparatus-note font-small cbo-border-red">
+  <xsl:template match="app">
+    <span>
+      <xsl:attribute name="class">
+        <xsl:if test="@type='text'">apparatus-in-text app-type-text apparatus-visible</xsl:if>
+        <xsl:if test="@type='neume'">apparatus-in-text app-type-neume apparatus-visible</xsl:if>
+      </xsl:attribute>
+      <span>
+        <xsl:attribute name="class">
+          <xsl:if test="@type='text'">apparatus-note font-small cbo-border-red</xsl:if>
+          <xsl:if test="@type='neume'">apparatus-note font-small cbo-border-blue toggle-neumes</xsl:if>
+        </xsl:attribute>
         <xsl:apply-templates select="./rdg" />
         <xsl:apply-templates select="./note" />
-      </div>
+      </span>
       <xsl:apply-templates select="./lem" />
     </span>
   </xsl:template>

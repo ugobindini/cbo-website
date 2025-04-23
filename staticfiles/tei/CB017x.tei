@@ -1,119 +1,119 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
       <div type="poem" met="4/4" rhyme="a/a">
         <lg type="strophe" n="I">
-          <l n="1">Diu mukke mu&#870;z sich sere mu&#868;n,</l>
-          <l n="2">wil si den ohsen uber lu&#868;n.</l>
+          <l n="1"><w>Diu</w><w>mukke</w><w>mu&#870;z</w><w>sich</w><w>sere</w><w>mu&#868;n</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>wil</w><w>si</w><w>den</w><w>ohsen</w><w>uber</w><w>lu&#868;n</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="II">
-          <l n="1">Gienge ein hunt des tages tausent stunt</l>
-          <l n="2">ze chirchen er ist doch ein hunt.</l>
+          <l n="1"><w>Gienge</w><w>ein</w><w>hunt</w><w>des</w><w>tages</w><w>tausent</w><w>stunt</w><pc>·</pc></l>
+          <l n="2"><w>ze</w><w>chirchen</w><w>er</w><w>ist</w><w>doch</w><w>ein</w><w>hunt</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="III">
-          <l n="1">Manich hunt wol gebaret</l>
-          <l n="2">der doch der leute varet.</l>
+          <l n="1"><w>Manich</w><w>hunt</w><w>wol</w><w>gebaret</w><pc>·</pc></l>
+          <l n="2"><w>der</w><w>doch</w><w>der</w><w>leute</w><w>varet</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="IV">
-          <l n="1">Ez dunchet mich ein tumber sin,</l>
-          <l n="2">Swer waent den oven ubergin.</l>
+          <l n="1"><w>Ez</w><w>dunchet</w><w>mich</w><w>ein</w><w>tumber</w><w>sin</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>Swer</w><w>waent</w><w>den</w><w>oven</w><w>ubergin</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="V">
-          <l n="1">Swa ich waiz den wolves zant,</l>
-          <l n="2">da wil ich hu&#868;ten meiner hant,</l>
+          <l n="1"><w>Swa</w><w>ich</w><w>waiz</w><w>den</w><w>wolves</w><w>zant</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>da</w><w>wil</w><w>ich</w><w>hu&#868;ten</w><w>meiner</w><w>hant</w><pc>·</pc><pc resp="#editor">,</pc></l>
         </lg>
         <lg type="strophe" n="VI">
-          <l n="1">daz er mich niht verwunde,</l>
-          <l n="2">sein beizzen swirt von grunde.</l>
+          <l n="1"><w>daz</w><w>er</w><w>mich</w><w>niht</w><w>verwunde</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>sein</w><w>beizzen</w><w>swirt</w><w>von</w><w>grunde</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="VII">
-          <l n="1">Der lewe sol auch nimmer lagen,</l>
-          <l n="2">wellent in di hasen iagen.</l>
+          <l n="1"><w>Der</w><w>lewe</w><w>sol</w><w>auch</w><w>nimmer</w><w>lagen</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>wellent</w><w>in</w><w>di</w><w>hasen</w><w>iagen</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="VIII">
-          <l n="1">Diu fliug ist, wirt der sumer heiz,</l>
-          <l n="2">der chu&#868;nste vogel, den ich waiz.</l>
+          <l n="1"><w>Diu</w><w>fliug</w><w>ist</w><pc>·</pc><pc resp="#editor">,</pc><w>wirt</w><w>der</w><w>sumer</w><w>heiz</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>der</w><w>chu&#868;nste</w><w>vogel</w><pc resp="#editor">,</pc><w>den</w><w>ich</w><w>waiz</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="IX">
-          <l n="1">Der bremen hohgezit zergat,</l>
-          <l n="2">so der augest ende hat.</l>
+          <l n="1"><w>Der</w><w>bremen</w><w>hohgezit</w><w>zergat</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>so</w><w>der</w><w>augest</w><w>ende</w><w>hat</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="X">
-          <l n="1">Die cheuern uliegen unverdaht,</l>
-          <l n="2">des vallet maniger in ein paht.</l>
+          <l n="1"><w>Die</w><w>cheuern</w><w>uliegen</w><w>unverdaht</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>des</w><w>vallet</w><w>maniger</w><w>in</w><w>ein</w><w>paht</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XI">
-          <l n="1">Die fro&#868;sche tu&#870;nt in selben schaden,</l>
-          <l n="2">wellent si den storchen ze hu&#870;se laden.</l>
+          <l n="1"><w>Die</w><w>fro&#868;sche</w><w>tu&#870;nt</w><w>in</w><w>selben</w><w>schaden</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>wellent</w><w>si</w><w>den</w><w>storchen</w><w>ze</w><w>hu&#870;se</w><w>laden</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XII">
-          <l n="1">Di wisen chunnen wol verstan,</l>
-          <l n="2">waz ich tore gesprochen han.</l>
+          <l n="1"><w>Di</w><w>wisen</w><w>chunnen</w><w>wol</w><w>verstan</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>waz</w><w>ich</w><w>tore</w><w>gesprochen</w><w>han</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XIII">
-          <l n="1">Der lewe fu&#868;rhtet des mannes niht,</l>
-          <l n="2">wan ob er in ho&#868;ret und niht siht.</l>
+          <l n="1"><w>Der</w><w>lewe</w><w>fu&#868;rhtet</w><w>des</w><w>mannes</w><w>niht</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>wan</w><w>ob</w><w>er</w><w>in</w><w>ho&#868;ret</w><w>und</w><w>niht</w><w>siht</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XIV">
-          <l n="1">Der cheuer sich selb betriuget,</l>
-          <l n="2">swenn er ze hohe fliuget.</l>
+          <l n="1"><w>Der</w><w>cheuer</w><w>sich</w><w>selb</w><w>betriuget</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>swenn</w><w>er</w><w>ze</w><w>hohe</w><w>fliuget</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XV">
-          <l n="1">Diu nahtigal diche mu&#868;t,</l>
-          <l n="2">swenn ein esel oder ein ohse lu&#868;t.</l>
+          <l n="1"><w>Diu</w><w>nahtigal</w><w>diche</w><w>mu&#868;t</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>swenn</w><w>ein</w><w>esel</w><w>oder</w><w>ein</w><w>ohse</w><w>lu&#868;t</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XVI">
-          <l n="1">Der hunt hat leder urezzen,</l>
-          <l n="2">so man dienstes wil vergezzen.</l>
+          <l n="1"><w>Der</w><w>hunt</w><w>hat</w><w>leder</w><w>urezzen</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>so</w><w>man</w><w>dienstes</w><w>wil</w><w>vergezzen</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XVII">
-          <l n="1">Der hofwart und der wind,</l>
-          <l n="2">selten gu&#870;te friunde sind.</l>
+          <l n="1"><w>Der</w><w>hofwart</w><w>und</w><w>der</w><w>wind</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>selten</w><w>gu&#870;te</w><w>friunde</w><w>sind</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XVIII">
-          <l n="1">Swer schalchait lernt in der iugent,</l>
-          <l n="2">der hat vil selten staete tugent.</l>
+          <l n="1"><w>Swer</w><w>schalchait</w><w>lernt</w><w>in</w><w>der</w><w>iugent</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>der</w><w>hat</w><w>vil</w><w>selten</w><w>staete</w><w>tugent</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XIX">
-          <l n="1">Man siht vil selten richez hu&#870;s,</l>
-          <l n="2">ane dieb und ane mu&#870;s.</l>
+          <l n="1"><w>Man</w><w>siht</w><w>vil</w><w>selten</w><w>richez</w><w>hu&#870;s</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>ane</w><w>dieb</w><w>und</w><w>ane</w><w>mu&#870;s</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XX">
-          <l n="1">Von reht iz auf in selben gat,</l>
-          <l n="2">swer dem andern geit valschen rat.</l>
+          <l n="1"><w>Von</w><w>reht</w><w>iz</w><w>auf</w><w>in</w><w>selben</w><w>gat</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>swer</w><w>dem</w><w>andern</w><w>geit</w><w>valschen</w><w>rat</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XXI">
-          <l n="1">Der esel und di nahtigal</l>
-          <l n="2">singent ungelichen schal.</l>
+          <l n="1"><w>Der</w><w>esel</w><w>und</w><w>di</w><w>nahtigal</w><pc>·</pc></l>
+          <l n="2"><w>singent</w><w>ungelichen</w><w>schal</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XXII">
-          <l n="1">Swa man den esel chro&#868;net</l>
-          <l n="2">da ist daz land geho&#868;net.</l>
+          <l n="1"><w>Swa</w><w>man</w><w>den</w><w>esel</w><w>chro&#868;net</w><pc>·</pc></l>
+          <l n="2"><w>da</w><w>ist</w><w>daz</w><w>land</w><w>geho&#868;net</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XXIII">
-          <l n="1">Minne, schatz, groz gewin</l>
-          <l n="2">vercherent gu&#870;tes mannes sin.</l>
+          <l n="1"><w>Minne</w><pc resp="#editor">,</pc><w>schatz</w><pc>·</pc><pc resp="#editor">,</pc><w>groz</w><w>gewin</w><pc>·</pc></l>
+          <l n="2"><w>vercherent</w><w>gu&#870;tes</w><w>mannes</w><w>sin</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XXIV">
-          <l n="1">Man minnet nu schatz mere</l>
-          <l n="2">danne got, lyb, sel und ere.</l>
+          <l n="1"><w>Man</w><w>minnet</w><w>nu</w><w>schatz</w><w>mere</w><pc>·</pc></l>
+          <l n="2"><w>danne</w><w>got</w><pc>·</pc><pc resp="#editor">,</pc><w>lyb</w><pc>·</pc><pc resp="#editor">,</pc><w>sel</w><pc>·</pc><w>und</w><w>ere</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XXV">
-          <l n="1">So staete friundin nieman hat,</l>
-          <l n="2">er fu&#868;rchte doch ir missetat.</l>
+          <l n="1"><w>So</w><w>staete</w><w>friundin</w><w>nieman</w><w>hat</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>er</w><w>fu&#868;rchte</w><w>doch</w><w>ir</w><w>missetat</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XXVI">
-          <l n="1">Vremede scheidet herzelieb,</l>
-          <l n="2">stat machet manigen dieb.</l>
+          <l n="1"><w>Vremede</w><w>scheidet</w><w>herzelieb</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>stat</w><w>machet</w><w>manigen</w><w>dieb</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XXVII">
-          <l n="1">Swer lieb hat, der wirt selten vrei</l>
-          <l n="2">vor sorgen, daz ez unstaete sei.</l>
+          <l n="1"><w>Swer</w><w>lieb</w><w>hat</w><pc resp="#editor">,</pc><w>der</w><w>wirt</w><w>selten</w><w>vrei</w><pc>·</pc></l>
+          <l n="2"><w>vor</w><w>sorgen</w><pc>·</pc><pc resp="#editor">,</pc><w>daz</w><w>ez</w><w>unstaete</w><w>sei</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
         <lg type="strophe" n="XXVIII">
-          <l n="1">Herzelieb hat manich man,</l>
-          <l n="2">der doch gar verniugeret dran.</l>
+          <l n="1"><w>Herzelieb</w><w>hat</w><w>manich</w><w>man</w><pc>·</pc><pc resp="#editor">,</pc></l>
+          <l n="2"><w>der</w><w>doch</w><w>gar</w><w>verniugeret</w><w>dran</w><pc>·</pc><pc resp="#editor">.</pc></l>
         </lg>
       </div>
     </body>

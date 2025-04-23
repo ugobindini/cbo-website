@@ -1,22 +1,22 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
       <div type="prose">
-        <p>Magnificat.</p>
-        <p>Ad dominum cum tribularer.</p>
-        <p>Retribue servo.</p>
-        <p>In convertendo.</p>
-        <p>Appropinquet.</p>
-        <p>Maria virgo semper.</p>
-        <p>Ave spes nostra dei.</p>
-        <p>Regali ex progenie Maria.</p>
-        <p>In prole mater.</p>
-        <p>Ave domina mundi, ave regina celorum, ave virgo virginum, per te venit redempcio nostra, tu inter mulieres speciosissima, inter omnes et super omnes benedicta iuxta filium tuum super choros angelorum posita, pro nobis, rogamus, rogita ut valeamus te in eterna requie videre tecumque sine fine gaudere.</p>
-        <p>Post partum.</p>
-        <p>Ora pro nobis beata mater.</p>
-        <p>Exurge domine adiuva.</p>
-        <p>Sanctissima et gloriosissima et piissima virgo Maria, ego indignus peccator commendo tibi esse, posse, vivere, valere animam meam.</p>
+        <p><w>Magnificat</w><pc>·</pc><pc resp="#editor">.</pc></p>
+        <p><w>Ad</w><w>dominum</w><w>cum</w><w>tribularer</w><pc>·</pc><pc resp="#editor">.</pc></p>
+        <p><w>Retribue</w><w>servo</w><pc>·</pc><pc resp="#editor">.</pc></p>
+        <p><w>In</w><w>convertendo</w><pc>·</pc><pc resp="#editor">.</pc></p>
+        <p><w>Appropinquet</w><pc>·</pc><pc resp="#editor">.</pc></p>
+        <p><w>Maria</w><w>virgo</w><w>semper</w><pc resp="#editor">.</pc></p>
+        <p><w>Ave</w><w>spes</w><w>nostra</w><w>dei</w><pc>·</pc><pc resp="#editor">.</pc></p>
+        <p><w>Regali</w><w>ex</w><w>progenie</w><w>Maria</w><pc resp="#editor">,</pc></p>
+        <p><w>In</w><w>prole</w><w>mater</w><pc resp="#editor">.</pc></p>
+        <p><w>Ave</w><w>domina</w><w>mundi</w><pc>·</pc><pc resp="#editor">,</pc><w>ave</w><w>regina</w><w>celorum</w><pc resp="#editor">,</pc><w>ave</w><w>virgo</w><w>virginum</w><pc resp="#editor">,</pc><w>per</w><w>te</w><w>venit</w><w>redempcio</w><w>nostra</w><pc resp="#editor">,</pc><w>tu</w><w>inter</w><w>mulieres</w><w>speciosissima</w><pc>·</pc><pc resp="#editor">,</pc><w>inter</w><w>omnes</w><w>et</w><w>super</w><w>omnes</w><w>benedicta</w><w>iuxta</w><w>filium</w><w>tuum</w><w>super</w><w>choros</w><w>angelorum</w><w>posita</w><pc resp="#editor">,</pc><w>pro</w><w>nobis</w><pc resp="#editor">,</pc><w>rogamus</w><pc resp="#editor">,</pc><w>rogita</w><w>ut</w><w>valeamus</w><w>te</w><w>in</w><w>eterna</w><w>requie</w><w>videre</w><w>tecumque</w><w>sine</w><w>fine</w><w>gaudere</w><pc resp="#editor">.</pc></p>
+        <p><w>Post</w><w>partum</w><pc resp="#editor">.</pc></p>
+        <p><w>Ora</w><w>pro</w><w>nobis</w><w>beata</w><w>mater</w><pc>·</pc><pc resp="#editor">.</pc></p>
+        <p><w>Exurge</w><w>domine</w><w>adiuva</w><pc resp="#editor">.</pc></p>
+        <p><w>Sanctissima</w><w>et</w><w>gloriosissima</w><w>et</w><w>piissima</w><w>virgo</w><w>Maria</w><pc resp="#editor">,</pc><w>ego</w><w>indignus</w><w>peccator</w><w>commendo</w><w>tibi</w><w>esse</w><pc resp="#editor">,</pc><w>posse</w><pc resp="#editor">,</pc><w>vivere</w><pc resp="#editor">,</pc><w>valere</w><w>animam</w><w>meam</w><pc>·</pc><pc resp="#editor">.</pc></p>
       </div>
     </body>
   </text>

@@ -5,15 +5,16 @@
 {% block content %}
 
 <link rel="stylesheet" href="{% static 'css/neumed-text.css' %}"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
 .tab{
   box-sizing: border-box;
-  display: inline-block;
+  display: inline-flex;
   width: 100%;
 }
 
-.tab button.active {
+.active {
   background-color: #ffed7f;
 }
 
@@ -21,21 +22,43 @@
   display: none;
   padding: 6px;
 }
-</style>
 
-<div class="flex-column" style="flex: 20%;">
-  <div class="flex-column" style="position: fixed; top: 50%;">
-    <div class="cbo-white cbo-wide cbo-padding cbo-card" style="margin: 3px 0 3px 0;">
-      <button id="stressedSyllablesButton" class="cbo-button" style="width: 100%;">Highlight stressed syllables</button>
-    </div>
-    <div class="cbo-white cbo-wide cbo-padding cbo-card" style="margin: 3px 0 3px 0;">
-      <button id="toggleMetricButton" class="cbo-button" style="width: 100%;">Show metrical analysis</button>
-    </div>
-    <div class="cbo-white cbo-wide cbo-padding cbo-card" style="margin: 3px 0 3px 0;">
-      <button id="toggleRhymeButton" class="cbo-button" style="width: 100%;">Show rhyme scheme</button>
-    </div>
-  </div>
-</div>
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  margin-left: auto;
+}
+
+.dropdown-content {
+  display: none;
+  margin-left: auto;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+</style>
 
 <script>
   $(document).ready(function(){
@@ -45,29 +68,62 @@
   });
 
   $(document).ready(function(){
+    $("#toggleNeumesButton").click(function(){
+      $(this).toggleClass("active");
+      $(".neumes").toggle();
+      $(".toggle-neumes").toggle();
+      $(".app-type-neume").toggleClass("apparatus-visible");
+    });
+  });
+
+  $(document).ready(function(){
+    $("#toggleSyllablesButton").click(function(){
+      $(this).toggleClass("active");
+      $(".syl-dash").toggle();
+    });
+  });
+
+  $(document).ready(function(){
     $("#toggleMetricButton").click(function(){
+      $(this).toggleClass("active");
       $(".verse-met").toggle();
       $(".verse-real").toggle();
-      var text = $(this).text().includes("Show") ? 'Hide metrical analysis' : 'Show metrical analysis';
-      $(this).text(text)
     });
   });
 
   $(document).ready(function(){
     $("#toggleRhymeButton").click(function(){
+      $(this).toggleClass("active");
       $(".verse-rhyme").toggle();
-      var text = $(this).text().includes("Show") ? 'Hide rhyme scheme' : 'Show rhyme scheme';
-      $(this).text(text)
     });
   });
+
   $(document).ready(function(){
+    $("#togglePunctuationButton").click(function(){
+      $(this).toggleClass("active");
+      $(".pc").toggle();
+    });
+  });
+
+  function dropBtn() {
+    $("#dropdownDiv").toggle();
+  }
+
+  window.onclick = function(event) {
+    if (!event.target.matches('#dropbtn') && !event.target.matches('#dropdownDiv > .cbo-button')) {
+      $("#dropdownDiv").hide();
+    }
+  }
+
+  $(document).ready(function(){
+    $(".pc[data-resp='ms']").hide();
     $(".verse-met").hide();
     $(".verse-real").hide();
     $(".verse-rhyme").hide();
   });
 </script>
 
-<div style="flex: 80%;">
+<div style="padding: 20px; width: 100%;">
   <h1>CB {{ item.abstract_item.cb_id }}</h1>
   <h2>{{ item.title }}</h2>
   <p>Source: <a href="{{ item.source.get_absolute_url }}">{{ item.source.bib_id }}</a> ({{ item.source.location }})</p>
@@ -81,52 +137,55 @@
   <div style="display: flex;">
     <div class="cbo-border-inset cbo-border-sand flex-50 flex-column">
       <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
+        <button id="defaultOpen" class="tablinks cbo-bar-item cbo-button" onclick="openTab(this, 'formattedText')">Formatted</button>
+        <button class="tablinks cbo-bar-item cbo-button" onclick="openTab(this, 'continuousText')">Continuous</button>
+        <div class="dropdown">
+          <button id="dropbtn" onclick="dropBtn()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
+          <div id="dropdownDiv" class="flex-column dropdown-content">
+            {% if item.is_notated %}
+            <button id="toggleNeumesButton" class="cbo-button active">Neumes</button>
+            {% endif %}
+            <button id="toggleSyllablesButton" class="cbo-button active">Syllables</button>
+            <button id="toggleMetricButton" class="cbo-button">Metrical analysis</button>
+            <button id="toggleRhymeButton" class="cbo-button">Rhyme scheme</button>
+            <button id="togglePunctuationButton" class="cbo-button">Original punctuation</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="formattedText" class="tabcontent">
+        {% autoescape off %}
+        {{ item.formatted_transform }}
+        {% endautoescape %}
+        <hr/>
+        {% autoescape off %}
+        {{ item.text_apparatus_transform }}
+        {% endautoescape %}
         {% if item.is_notated %}
-        <button id="defaultOpen" class="tablinks cbo-bar-item cbo-button" onclick="openTab(event, 'neumedText')">Edition</button>
-        <button class="tablinks cbo-bar-item cbo-button" onclick="openTab(event, 'plainText')">Text</button>
-        {% else %}
-        <button id="defaultOpen" class="tablinks cbo-bar-item cbo-button" onclick="openTab(event, 'plainText')">Edition</button>
+          <hr class="toggle-neumes"/>
+          <div class="toggle-neumes">
+            {% autoescape off %}
+            {{ item.neume_apparatus_transform }}
+            {% endautoescape %}
+          </div>
         {% endif %}
-        <button class="tablinks cbo-bar-item cbo-button" onclick="openTab(event, 'diplomatic')">Diplomatic</button>
       </div>
 
-      <div id="neumedText" class="tabcontent">
+      <div id="continuousText" class="tabcontent">
         {% autoescape off %}
-        {{ item.neumed_text_transform }}
-        {% endautoescape %}
-        <hr/>
-        {% autoescape off %}
-        {{ item.text_apparatus_transform }}
-        {% endautoescape %}
-        <hr/>
-        {% autoescape off %}
-        {{ item.neume_apparatus_transform }}
-        {% endautoescape %}
-      </div>
-
-      <div id="plainText" class="tabcontent">
-        {% autoescape off %}
-        {{ item.plain_text_transform }}
-        {% endautoescape %}
-        <hr/>
-        {% autoescape off %}
-        {{ item.text_apparatus_transform }}
-        {% endautoescape %}
-      </div>
-
-      <div id="diplomatic" class="tabcontent">
-        {% autoescape off %}
-        {{ item.diplomatic_transform }}
+        {{ item.continuous_transform }}
         {% endautoescape %}
         <hr/>
         {% autoescape off %}
         {{ item.text_apparatus_transform }}
         {% endautoescape %}
         {% if item.is_notated %}
-          <hr/>
-          {% autoescape off %}
-          {{ item.neume_apparatus_transform }}
-          {% endautoescape %}
+          <hr class="toggle-neumes"/>
+          <div class="toggle-neumes">
+            {% autoescape off %}
+            {{ item.neume_apparatus_transform }}
+            {% endautoescape %}
+          </div>
         {% endif %}
       </div>
     </div>
@@ -134,13 +193,23 @@
     </div>
   </div>
 </div>
+
 <script>
-  function openTab(evt, tabName) {
+  function openTab(tab, tabName) {
     $('.tabcontent').hide();
     $('.tablinks').removeClass('active');
-    document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.classList.add("active");
+    $("#" + tabName).css("display","block");
+    $(tab).addClass("active");
+    if (tabName == 'continuousText') {
+      $("#toggleMetricButton").hide();
+      $("#toggleRhymeButton").hide();
+    }
+    else {
+      $("#toggleMetricButton").show();
+      $("#toggleRhymeButton").show();
+    }
   }
-  document.getElementById("defaultOpen").click();
+
+  $("#defaultOpen").click();
 </script>
 {% endblock %}

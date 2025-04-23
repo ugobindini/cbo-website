@@ -138,7 +138,7 @@
   </xsl:template>
 
   <xsl:template match="w">
-    <span class="word text-font" style="vertical-align: bottom;">
+    <span class="word text-word-margin text-font" style="vertical-align: bottom;">
       <xsl:apply-templates/>
     </span>
   </xsl:template>
@@ -170,9 +170,35 @@
     </span>
   </xsl:template>
 
+  <xsl:template match="pc">
+    <span>
+      <xsl:choose>
+        <xsl:when test="@pre='true'">
+          <xsl:attribute name="class">pc pre</xsl:attribute>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:attribute name="class">pc</xsl:attribute>
+        </xsl:otherwise>
+      </xsl:choose>
+      <xsl:choose>
+        <xsl:when test="@resp='#editor'">
+          <xsl:attribute name="data-resp">ed</xsl:attribute>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:attribute name="data-resp">ms</xsl:attribute>
+        </xsl:otherwise>
+      </xsl:choose>
+      <xsl:value-of select="./text()"/>
+    </span>
+  </xsl:template>
+
   <xsl:template match="app">
-    <span class="apparatus-in-text">
-      <div class="apparatus-note font-small">
+    <span>
+      <xsl:attribute name="class">
+        <xsl:if test="@type='text'">apparatus-in-text app-text</xsl:if>
+        <xsl:if test="@type='neume'">apparatus-in-text</xsl:if>
+      </xsl:attribute>
+      <div>
         <xsl:attribute name="class">
           <xsl:if test="@type='text'">apparatus-note font-small cbo-border-red</xsl:if>
           <xsl:if test="@type='neume'">apparatus-note font-small cbo-border-blue</xsl:if>

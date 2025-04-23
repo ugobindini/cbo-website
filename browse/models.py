@@ -318,16 +318,12 @@ class Item(models.Model):
             return ''
 
     @property
-    def neumed_text_transform(self):
-        return self.transform('neumed-text.xsl', indent=True, met=True)
+    def continuous_transform(self):
+        return self.transform('continuous.xsl')
 
     @property
-    def plain_text_transform(self):
-        return self.transform('plain-text.xsl', indent=True, met=True)
-
-    @property
-    def diplomatic_transform(self):
-        return self.transform('diplomatic.xsl')
+    def formatted_transform(self):
+        return self.transform('formatted.xsl', indent=True, met=True)
 
     @property
     def neume_apparatus_transform(self):
