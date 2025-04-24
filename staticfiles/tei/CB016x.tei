@@ -55,7 +55,8 @@
         </castList>
       </front>
       <div type="drama">
-        <stage>Primitus producatur Pilatus et uxor sua cum militibus in locum suum. Deinde Herodes cum militibus suis<pc>·</pc>. Deinde pontifices. Tunc mercator et uxor sua<pc>·</pc>. Deinde Maria Magdalena<pc>·</pc>.</stage>
+        <prologue>Sancta Maria virgo assit nostro principio<pc>·</pc><pc resp="#editor">.</pc> Amen<pc>·</pc><pc resp="#editor">.</pc></prologue>
+        <stage>Primitus producatur Pilatus et uxor sua cum militibus in locum suum<pc resp="#editor">.</pc> Deinde Herodes cum militibus suis<pc>·</pc><pc resp="#editor">.</pc> Deinde pontifices<pc resp="#editor">.</pc> Tunc mercator et uxor sua<pc>·</pc><pc resp="#editor">.</pc> Deinde Maria Magdalena<pc>·</pc><pc resp="#editor">.</pc></stage>
         <sp>
           <p>
             <w>
@@ -943,7 +944,7 @@
               </notatedMusic>
               </seg>
             </w>
-            appropinquaret Dominus<pc>·</pc>. Et cum audisset<pc>·</pc>.</p>
+            appropinquaret Dominus<pc>·</pc><pc resp="#editor">.</pc> Et cum audisset<pc>·</pc>.</p>
         </sp>
         <stage>Et pueri prosternentes frondes et vestes</stage>
         <sp>
@@ -983,7 +984,7 @@
             <pc resp="#editor">.</pc>
           </p>
         </sp>
-        <stage>Item pueri<pc>·</pc>. Item</stage>
+        <stage>Item pueri<pc>·</pc><pc resp="#editor">.</pc> Item</stage>
         <sp>
           <p>
             <w>
@@ -3531,7 +3532,7 @@
             <pc resp="#editor">.</pc>
           </p>
         </sp>
-        <stage>Tunc accedat amator quem Maria salutet et cum parum locuntur, cantet Maria ad puellas</stage>
+        <stage>Tunc accedat amator quem Maria salutet et cum parum locuntur<pc resp="#editor">,</pc> cantet Maria ad puellas</stage>
         <sp who="#mar-magd">
           <div type="poem" met="?/?/?" rhyme="a/a/b">
             <lg type="strophe">
@@ -4138,7 +4139,7 @@
             </w>
           </p>
         </sp>
-        <stage>et iterum evanescat<pc>·</pc>.</stage>
+        <stage>et iterum evanescat<pc>·</pc><pc resp="#editor">.</pc></stage>
         <stage>Tunc surgat Maria et cantet</stage>
         <sp who="#mar-magd">
           <p>
@@ -4178,7 +4179,7 @@
             <pc resp="#editor">.</pc>
           </p>
         </sp>
-        <stage>Et iterum postea obdormiat et angelus veniat cantando ut supra et iterum evanescat<pc>·</pc>.</stage>
+        <stage>Et iterum postea obdormiat et angelus veniat cantando ut supra et iterum evanescat<pc>·</pc><pc resp="#editor">.</pc></stage>
         <sp who="#mar-magd">
           <div type="poem" met="7pp+6p/7pp+6p" rhyme="a/a">
             <lg type="strophe" n="I">
@@ -15431,7 +15432,7 @@
         </sp>
         <stage>Iesus videns finem dicit clamando</stage>
         <sp who="#ies">
-          <p>Ely<pc>·</pc> Ely<pc>·</pc> Lemasabactany<pc>·</pc><pc resp="#editor">.</pc> Hoc est Deus meus. Deus meus ut quid dereliquisti me<pc>·</pc><pc resp="#editor">.</pc></p>
+          <p>Ely<pc>·</pc> Ely<pc>·</pc> Lemasabactany<pc>·</pc><pc resp="#editor">.</pc> Hoc est Deus meus<pc resp="#editor">.</pc> Deus meus ut quid dereliquisti me<pc>·</pc><pc resp="#editor">.</pc></p>
         </sp>
         <stage>Et inclinato capite emittat spiritum<pc>·</pc><pc resp="#editor">.</pc> Longinus</stage>
         <sp who="#longinus" xml:lang="middle-high-german">

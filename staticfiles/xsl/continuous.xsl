@@ -4,15 +4,27 @@
   <xsl:template match="teiHeader"/>
 
   <xsl:template match="body">
-    <p class="text-font flex-wrapper" style="font-size: 16px;">
+    <div class="text-font flex-wrapper" style="font-size: 16px;">
       <xsl:apply-templates />
-    </p>
+    </div>
   </xsl:template>
 
   <xsl:template match="castList" />
 
   <xsl:template match="head">
     <b><xsl:apply-templates /></b>
+  </xsl:template>
+
+  <xsl:template match="div/head">
+    <b style="margin-left: auto;"><xsl:apply-templates /></b><span class="break"></span>
+  </xsl:template>
+
+  <xsl:template match="lg[@type='refrain']/head">
+    <i style="margin-left: 8px;"><xsl:apply-templates /></i>
+  </xsl:template>
+
+  <xsl:template match="prologue">
+    <p class="text-font flex-wrapper"><xsl:apply-templates /></p>
   </xsl:template>
 
   <xsl:template match="div[@type='drama']">
@@ -76,9 +88,7 @@
           </xsl:otherwise>
         </xsl:choose>
         <span class="syl-dash">
-          <xsl:if test="./notatedMusic">
-            <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
-          </xsl:if>
+          <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
         </span>
       </span>
       <xsl:if test="./notatedMusic">

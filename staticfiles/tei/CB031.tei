@@ -3,6 +3,7 @@
   <text>
     <body>
       <div type="poem" xml:lang="latin" met="5pp/3p+4pp/5pp/3p+4pp/7pp+6p/7pp+6p" rhyme="a/b+c/a/b+c/c+b/c+b">
+        <head>Item</head>
         <lg type="strophe" n="I">
           <l n="1">
             <w>
@@ -68,7 +69,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc>·</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="3">
@@ -137,7 +139,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">;</pc>
+              <pc>·</pc>
+              <pc resp="#editor">;</pc>
             </seg>
           </l>
           <l n="5">
@@ -214,6 +217,7 @@
                 </notatedMusic>
                 </seg>
               </w>
+              <pc>·</pc>
             </seg>
           </l>
           <l n="6">
@@ -290,7 +294,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc>·</pc>
+              <pc resp="#editor">.</pc>
             </seg>
           </l>
         </lg>
@@ -359,7 +364,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc>·</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="3">
@@ -426,7 +432,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc>·</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="5">
@@ -465,7 +472,7 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc resp="#editor">,</pc>
             </seg>
             <seg type="hemistich">
               <w>
@@ -498,6 +505,7 @@
                 </notatedMusic>
                 </seg>
               </w>
+              <pc>·</pc>
             </seg>
           </l>
           <l n="6">
@@ -536,7 +544,7 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc resp="#editor">,</pc>
             </seg>
             <seg type="hemistich">
               <w>
@@ -569,7 +577,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc>·</pc>
+              <pc resp="#editor">.</pc>
             </seg>
           </l>
         </lg>
@@ -638,7 +647,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc>·</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="3">
@@ -705,7 +715,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc>·</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="5">
@@ -774,7 +785,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">;</pc>
+              <pc>·</pc>
+              <pc resp="#editor">;</pc>
             </seg>
           </l>
           <l n="6">
@@ -813,7 +825,7 @@
                     </notatedMusic>
                     </seg>
                   </w>
-                <pc resp="#editor">,</pc>
+                  <pc resp="#editor">,</pc>
                 </lem>
                 <rdg wit="V"><w>dans,</w><w>tenere,</w></rdg>
               </app>
@@ -854,7 +866,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">!</pc>
+              <pc>·</pc>
+              <pc resp="#editor">!</pc>
             </seg>
           </l>
         </lg>
@@ -923,7 +936,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc>·</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="3">
@@ -997,7 +1011,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc>·</pc>
+              <pc resp="#editor">.</pc>
             </seg>
           </l>
           <l n="5">
@@ -1036,7 +1051,7 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">:</pc>
+              <pc resp="#editor">:</pc>
             </seg>
             <seg type="hemistich">
               <app type="text">
@@ -1074,7 +1089,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc>·</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="6">
@@ -1143,7 +1159,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc>·</pc>
+              <pc resp="#editor">.</pc>
             </seg>
           </l>
         </lg>
@@ -1218,7 +1235,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc>·</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="3">
@@ -1285,7 +1303,7 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">;</pc>
+              <pc resp="#editor">;</pc>
             </seg>
           </l>
           <l n="5">
@@ -1300,6 +1318,7 @@
                 </notatedMusic>
                 </seg>
               </w>
+              <pc>·</pc>
               <pc resp="#editor">:</pc>
               <w>
                 <seg type="syll">vix<notatedMusic>
@@ -1357,7 +1376,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc>·</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="6">
@@ -1396,7 +1416,7 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc resp="#editor">,</pc>
             </seg>
             <seg type="hemistich">
               <w>
@@ -1427,7 +1447,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc>·</pc>
+              <pc resp="#editor">.</pc>
             </seg>
           </l>
         </lg>
@@ -1498,7 +1519,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc>·</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="3">
@@ -1528,7 +1550,7 @@
               </notatedMusic>
               </seg>
             </w>
-          <pc resp="#editor">,</pc>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="4">
             <seg type="hemistich">
@@ -1568,7 +1590,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">;</pc>
+              <pc>·</pc>
+              <pc resp="#editor">;</pc>
             </seg>
           </l>
           <l n="5">
@@ -1641,7 +1664,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc>·</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="6">
@@ -1715,7 +1739,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc>·</pc>
+              <pc resp="#editor">.</pc>
             </seg>
           </l>
         </lg>
@@ -1789,7 +1814,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">:</pc>
+              <pc>·</pc>
+              <pc resp="#editor">:</pc>
             </seg>
           </l>
           <l n="3">
@@ -1851,7 +1877,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc>·</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="5">
@@ -1922,7 +1949,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">;</pc>
+              <pc>·</pc>
+              <pc resp="#editor">;</pc>
             </seg>
           </l>
           <l n="6">
@@ -1967,7 +1995,7 @@
                     </notatedMusic>
                     </seg>
                   </w>
-                <pc resp="#editor">,</pc>
+                  <pc resp="#editor">,</pc>
                 </lem>
                 <rdg wit="HS W T"><w>alia</w></rdg>
                 <note>corr. ex <w>alea</w> cod.</note>
@@ -2006,7 +2034,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc>·</pc>
+              <pc resp="#editor">.</pc>
             </seg>
           </l>
         </lg>
@@ -2050,7 +2079,8 @@
               </notatedMusic>
               </seg>
             </w>
-          <pc resp="#editor">,</pc>
+            <pc>·</pc>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="2">
             <seg type="hemistich">
@@ -2094,7 +2124,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc>·</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="3">
@@ -2122,7 +2153,7 @@
               </notatedMusic>
               </seg>
             </w>
-          <pc resp="#editor">,</pc>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="4">
             <seg type="hemistich">
@@ -2160,7 +2191,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">:</pc>
+              <pc>·</pc>
+              <pc resp="#editor">:</pc>
             </seg>
           </l>
           <l n="5">
@@ -2231,7 +2263,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc>·</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="6">
@@ -2305,7 +2338,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc>·</pc>
+              <pc resp="#editor">.</pc>
             </seg>
           </l>
         </lg>
@@ -2374,6 +2408,7 @@
                 </notatedMusic>
                 </seg>
               </w>
+              <pc>·</pc>
             </seg>
           </l>
           <l n="3">
@@ -2440,7 +2475,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">:</pc>
+              <pc>·</pc>
+              <pc resp="#editor">:</pc>
             </seg>
           </l>
           <l n="5">
@@ -2557,7 +2593,7 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc resp="#editor">,</pc>
             </seg>
             <seg type="hemistich">
               <w>
@@ -2588,7 +2624,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">!</pc>
+              <pc>·</pc>
+              <pc resp="#editor">!</pc>
             </seg>
           </l>
         </lg>

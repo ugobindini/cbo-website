@@ -15,6 +15,19 @@
     <b><xsl:apply-templates /></b>
   </xsl:template>
 
+  <xsl:template match="div/head">
+    <b style="margin-left: auto;"><xsl:apply-templates /></b><span class="break"></span>
+  </xsl:template>
+
+  <xsl:template match="prologue">
+    <p><xsl:apply-templates /></p>
+  </xsl:template>
+
+  <!-- TODO: decide how to represent it compared to direct speech -->
+  <xsl:template match="q">
+    <xsl:apply-templates />
+  </xsl:template>
+
   <xsl:template match="lg[@type='refrain']/head">
     <div class="lg-heading"><i><xsl:apply-templates /></i></div>
   </xsl:template>

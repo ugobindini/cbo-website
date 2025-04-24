@@ -3,6 +3,7 @@
   <text>
     <body>
       <div type="poem" met="4p+4p/5pp/4p+4p/5pp/5pp/4p+4p/8p/5pp" rhyme="a+a/b/a+a/b/c/d+d/d/c">
+        <head>Item</head>
         <lg type="strophe" n="I">
           <l n="1">
             <seg type="hemistich">
@@ -78,7 +79,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc>·</pc>
+              <pc resp="#editor">,</pc>
             </rhyme>
           </l>
           <l n="3">
@@ -128,6 +130,7 @@
                   </notatedMusic>
                   </seg>
                 </w>
+                <pc>·</pc>
               </rhyme>
             </seg>
           </l>
@@ -165,7 +168,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc>·</pc>
+              <pc resp="#editor">.</pc>
             </rhyme>
           </l>
           <l n="5">
@@ -219,7 +223,7 @@
                       </notatedMusic>
                       </seg>
                     </w>
-                  <pc resp="#editor">,</pc>
+                    <pc resp="#editor">,</pc>
                   </lem>
                   <rdg wit="cod."><w>algent</w></rdg>
                 </app>
@@ -256,7 +260,7 @@
                     </seg></note>
                   </app>
                 </w>
-              <pc resp="#editor">,</pc>
+                <pc resp="#editor">,</pc>
               </rhyme>
             </seg>
           </l>
@@ -330,7 +334,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc>·</pc>
+              <pc resp="#editor">.</pc>
             </rhyme>
           </l>
         </lg>
@@ -358,26 +363,26 @@
                 </seg>
               </w>
             </rhyme>
-              <rhyme label="a">
-                <w>
-                  <seg type="syll" part="I">me<notatedMusic>
-                    <neume fontname="buranus" glyph.num="7" label="vi)"/>
-                  </notatedMusic>
-                  </seg>
-                  <seg type="syll" part="M">lo<notatedMusic>
-                    <neume fontname="buranus" glyph.num="30" label="pe"/>
-                  </notatedMusic>
-                  </seg>
-                  <seg type="syll" part="M" met="+">di<notatedMusic>
-                    <neume fontname="buranus" glyph.num="45" label="cl"/>
-                  </notatedMusic>
-                  </seg>
-                  <seg type="syll" part="F">a<notatedMusic>
-                    <neume fontname="buranus" glyph.num="45" label="cl"/>
-                  </notatedMusic>
-                  </seg>
-                </w>
-              </rhyme>
+            <rhyme label="a">
+              <w>
+                <seg type="syll" part="I">me<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi)"/>
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">lo<notatedMusic>
+                  <neume fontname="buranus" glyph.num="30" label="pe"/>
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M" met="+">di<notatedMusic>
+                  <neume fontname="buranus" glyph.num="45" label="cl"/>
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">a<notatedMusic>
+                  <neume fontname="buranus" glyph.num="45" label="cl"/>
+                </notatedMusic>
+                </seg>
+              </w>
+            </rhyme>
           </l>
           <l n="2">
             <w>
@@ -413,7 +418,7 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc resp="#editor">,</pc>
             </rhyme>
           </l>
           <l n="3">
@@ -439,6 +444,7 @@
                   </notatedMusic>
                   </seg>
                 </w>
+                <pc>·</pc>
               </rhyme>
             </seg>
             <seg type="hemistich">
@@ -492,7 +498,7 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc resp="#editor">.</pc>
             </rhyme>
           </l>
           <l n="5">
@@ -523,6 +529,7 @@
                 </notatedMusic>
                 </seg>
               </w>
+              <pc>·</pc>
             </rhyme>
           </l>
           <l n="6">
@@ -655,7 +662,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc>·</pc>
+              <pc resp="#editor">.</pc>
             </rhyme>
           </l>
         </lg>
@@ -669,7 +677,7 @@
                   <seg type="syll" part="M" met="+">ga</seg>
                   <seg type="syll" part="F">tur</seg>
                 </w>
-              <pc resp="#editor">,</pc>
+                <pc resp="#editor">,</pc>
               </rhyme>
             </seg>
             <seg type="hemistich">
@@ -694,7 +702,8 @@
                 <seg type="syll" part="M">ve</seg>
                 <seg type="syll" part="F">num</seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc>·</pc>
+              <pc resp="#editor">,</pc>
             </rhyme>
           </l>
           <l n="3">
@@ -706,7 +715,7 @@
                   <seg type="syll" part="M" met="+">na</seg>
                   <seg type="syll" part="F">tur</seg>
                 </w>
-              <pc resp="#editor">,</pc>
+                <pc resp="#editor">,</pc>
               </rhyme>
             </seg>
             <seg type="hemistich">
@@ -731,7 +740,7 @@
                 <seg type="syll" part="M">gi</seg>
                 <seg type="syll" part="F">num</seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc resp="#editor">.</pc>
             </rhyme>
           </l>
           <l n="5">
@@ -805,7 +814,8 @@
                 <seg type="syll" part="M">li</seg>
                 <seg type="syll" part="F">a</seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc>·</pc>
+              <pc resp="#editor">.</pc>
             </rhyme>
           </l>
         </lg>
@@ -826,7 +836,7 @@
                   <seg type="syll" part="I" met="+">u</seg>
                   <seg type="syll" part="F">na</seg>
                 </w>
-              <pc resp="#editor">,</pc>
+                <pc resp="#editor">,</pc>
               </rhyme>
             </seg>
             <seg type="hemistich">
@@ -853,7 +863,7 @@
                 <seg type="syll" part="M">ne</seg>
                 <seg type="syll" part="F">ror</seg>
               </w>
-            <pc resp="#editor">,</pc>
+              <pc resp="#editor">,</pc>
             </rhyme>
           </l>
           <l n="3">
@@ -906,7 +916,7 @@
                 <seg type="syll" part="M">ri</seg>
                 <seg type="syll" part="F">a</seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc resp="#editor">.</pc>
             </rhyme>
           </l>
           <l n="6">
@@ -918,7 +928,7 @@
                   <seg type="syll" part="M" met="+">lec</seg>
                   <seg type="syll" part="F">ta</seg>
                 </w>
-              <pc resp="#editor">,</pc>
+                <pc resp="#editor">,</pc>
               </rhyme>
             </seg>
             <seg type="hemistich">
@@ -966,7 +976,7 @@
                 <seg type="syll" part="M">ti</seg>
                 <seg type="syll" part="F">a</seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc resp="#editor">.</pc>
             </rhyme>
           </l>
         </lg>
@@ -984,7 +994,7 @@
                   <seg type="syll" part="I" met="+">cer</seg>
                   <seg type="syll" part="F">no</seg>
                 </w>
-              <pc resp="#editor">,</pc>
+                <pc resp="#editor">,</pc>
               </rhyme>
             </seg>
             <seg type="hemistich">
@@ -1013,10 +1023,11 @@
                     <seg type="syll" part="M">ge</seg>
                     <seg type="syll" part="F">re</seg>
                   </w>
-                <pc resp="#editor">.</pc>
                 </lem>
                 <rdg wit="HS"><w>vergere</w></rdg>
               </app>
+              <pc>·</pc>
+              <pc resp="#editor">.</pc>
             </rhyme>
           </l>
           <l n="3">
@@ -1032,7 +1043,7 @@
                       <seg type="syll" part="I" met="+">ster</seg>
                       <seg type="syll" part="F">no</seg>
                     </w>
-                  <pc resp="#editor">,</pc>
+                    <pc resp="#editor">,</pc>
                   </lem>
                   <rdg wit="cod. V"><w>cerno</w></rdg>
                   <note>c- corr. (ex st-?) man. r.</note>
@@ -1063,7 +1074,8 @@
                 <seg type="syll" part="M">ne</seg>
                 <seg type="syll" part="F">re</seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc>·</pc>
+              <pc resp="#editor">.</pc>
             </rhyme>
           </l>
           <l n="5">
@@ -1102,7 +1114,7 @@
                   <seg type="syll" part="M" met="+">nec</seg>
                   <seg type="syll" part="F">ti</seg>
                 </w>
-              <pc resp="#editor">,</pc>
+                <pc resp="#editor">,</pc>
               </rhyme>
             </seg>
           </l>
@@ -1143,7 +1155,8 @@
                 <seg type="syll" part="M">ge</seg>
                 <seg type="syll" part="F">ro</seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc>·</pc>
+              <pc resp="#editor">.</pc>
             </rhyme>
           </l>
         </lg>
@@ -1233,7 +1246,8 @@
                 </notatedMusic>
                 </seg>
               </w>
-            <pc resp="#editor">!</pc>
+              <pc>·</pc>
+              <pc resp="#editor">!</pc>
             </rhyme>
           </l>
           <l n="3">
@@ -1278,7 +1292,8 @@
               <w>
                 <seg type="syll" met="+">baz</seg>
               </w>
-            <pc resp="#editor">:</pc>
+              <pc>·</pc>
+              <pc resp="#editor">:</pc>
             </rhyme>
           </l>
           <l n="5">
@@ -1296,23 +1311,27 @@
               <w>
                 <seg type="syll" met="+">me</seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc resp="#editor">.</pc>
             </rhyme>
           </l>
           <l n="6">
+            <pc pre="true" resp="#editor">&#171;</pc>
             <w>
-              <seg type="syll" met="+">&#171;Du</seg>
+              <seg type="syll" met="+">Du</seg>
             </w>
             <w>
               <seg type="syll">bist</seg>
             </w>
             <w>
               <seg type="syll" part="I" met="+">chur</seg>
-              <seg type="syll" part="F">&#231;er!&#187;</seg>
+              <seg type="syll" part="F">&#231;er</seg>
             </w>
+            <pc resp="#editor">!</pc>
+            <pc resp="#editor">&#187;</pc>
             <pc resp="#editor">,</pc>
+            <pc pre="true" resp="#editor">&#171;</pc>
             <w>
-              <seg type="syll" met="+">&#171;ih</seg>
+              <seg type="syll" met="+">ih</seg>
             </w>
             <w>
               <seg type="syll">pin</seg>
@@ -1320,8 +1339,10 @@
             <rhyme label="d">
               <w>
                 <seg type="syll" part="I" met="+">lan</seg>
-                <seg type="syll" part="F">ger!&#187;</seg>
+                <seg type="syll" part="F">ger</seg>
               </w>
+              <pc resp="#editor">!</pc>
+              <pc resp="#editor">&#187;</pc>
             </rhyme>
           </l>
           <l n="7">
@@ -1362,7 +1383,8 @@
               <w>
                 <seg type="syll" met="+">chle</seg>
               </w>
-            <pc resp="#editor">.</pc>
+              <pc>·</pc>
+              <pc resp="#editor">.</pc>
             </rhyme>
           </l>
         </lg>
