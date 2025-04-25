@@ -12,11 +12,7 @@
   <xsl:template match="castList" />
 
   <xsl:template match="head">
-    <b><xsl:apply-templates /></b>
-  </xsl:template>
-
-  <xsl:template match="div/head">
-    <b style="margin-left: auto;"><xsl:apply-templates /></b><span class="break"></span>
+    <b style="margin-left: 8px;"><xsl:apply-templates /></b>
   </xsl:template>
 
   <xsl:template match="lg[@type='refrain']/head">
@@ -24,7 +20,7 @@
   </xsl:template>
 
   <xsl:template match="prologue">
-    <p class="text-font flex-wrapper"><xsl:apply-templates /></p>
+    <p class="text-font"><xsl:apply-templates /></p>
   </xsl:template>
 
   <xsl:template match="div[@type='drama']">
@@ -36,13 +32,11 @@
   </xsl:template>
 
   <xsl:template match="move | stage">
-    <i><xsl:apply-templates /></i>
+    <i style="margin-left: 8px;"><xsl:apply-templates /></i>
   </xsl:template>
 
   <xsl:template match="sp">
-    <span class="text-font">
-      <xsl:apply-templates />
-    </span>
+    <span class="text-font font-0-container"><xsl:apply-templates /></span>
   </xsl:template>
 
   <xsl:template match="div[@type='prose']">

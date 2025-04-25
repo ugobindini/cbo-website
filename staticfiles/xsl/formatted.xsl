@@ -16,7 +16,7 @@
   </xsl:template>
 
   <xsl:template match="div/head">
-    <b style="margin-left: auto;"><xsl:apply-templates /></b><span class="break"></span>
+    <b><xsl:apply-templates /></b><span class="break"></span>
   </xsl:template>
 
   <xsl:template match="prologue">
@@ -55,7 +55,7 @@
   </xsl:template>
 
   <xsl:template match="p">
-    <p class="flex-wrapper margin-6px"><xsl:apply-templates /></p>
+    <p class="text-font flex-wrapper"><xsl:apply-templates /></p>
   </xsl:template>
 
   <xsl:template match="div[@type='sequence']">

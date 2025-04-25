@@ -944,7 +944,13 @@
               </notatedMusic>
               </seg>
             </w>
-            appropinquaret Dominus<pc>·</pc><pc resp="#editor">.</pc> Et cum audisset<pc>·</pc>.</p>
+            <w>appropinquaret</w><w>Dominus</w>
+            <pc>·</pc>
+            <pc resp="#editor">.</pc>
+            <w>Et</w><w>cum</w><w>audisset</w>
+            <pc>·</pc>
+            <pc resp="#editor">.</pc>
+          </p>
         </sp>
         <stage>Et pueri prosternentes frondes et vestes</stage>
         <sp>
@@ -6994,10 +7000,14 @@
         </sp>
         <stage>Item Iesus cantet ad Mariam</stage>
         <sp who="#ies">
-          <p>Mulier remittuntur tibi peccata<pc>·</pc><pc resp="#editor">;</pc></p>
+          <p>
+            <w>Mulier</w><w>remittuntur</w><w>tibi</w><w>peccata</w>
+            <pc>·</pc>
+            <pc resp="#editor">.</pc>
+          </p>
           <p>
             <w>
-              <seg type="syll" part="I">fi<notatedMusic>
+              <seg type="syll" part="I">Fi<notatedMusic>
                 <neume fontname="buranus" glyph.num="6" label="vi"/>
                 <neume fontname="buranus" glyph.num="10" label="pr"/>
               </notatedMusic>
@@ -7777,11 +7787,26 @@
         </sp>
         <stage>Tunc Maria Magdalena et Martha flendo cantent</stage>
         <sp who="#mar-magd #martha">
-          <p>Domine si fuisses hic frater noster non fuisset mortuus<pc>·</pc><pc resp="#editor">.</pc></p>
+          <p>
+            <w>Domine</w><w>si</w><w>fuisses</w><w>hic</w><w>frater</w><w>noster</w><w>non</w><w>fuisset</w><w>mortuus</w>
+            <pc>·</pc>
+            <pc resp="#editor">.</pc>
+          </p>
         </sp>
         <stage>Et sic tacendo clerus cantet</stage>
         <sp>
-          <p>Videns dominus flentes sorores Lazari ad monumentum lacrimatus est coram Iudeis et clamabat<pc>·</pc><pc resp="#editor">.</pc></p>
+          <p>
+            <w>
+              <seg type="syll" part="I">Vi<notatedMusic>
+                <neume fontname="buranus" glyph.num="6" label="vi"/>
+              </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">dens</seg>
+            </w>
+            <w>dominus</w><w>flentes</w><w>sorores</w><w>Lazari</w><w>ad</w><w>monumentum</w><w>lacrimatus</w><w>est</w><w>coram</w><w>Iudeis</w><w>et</w><w>clamabat</w>
+            <pc>·</pc>
+            <pc resp="#editor">.</pc>
+          </p>
         </sp>
         <stage>Et Iesus cantet</stage>
         <sp who="#ies">
@@ -7826,7 +7851,10 @@
         </sp>
         <stage>Et clerus cantet</stage>
         <sp>
-          <p>Et produc ligatis manibus et pedibus qui fuit quatriduanus mortuus<pc resp="#editor">.</pc></p>
+          <p>
+            <w>Et</w><w>produc</w><w>ligatis</w><w>manibus</w><w>et</w><w>pedibus</w><w>qui</w><w>fuit</w><w>quatriduanus</w><w>mortuus</w>
+            <pc resp="#editor">.</pc>
+          </p>
         </sp>
         <stage>Interim Iudas veniat festinando et querat oportunitatem tradendi dicens</stage>
         <sp who="#iudas">
@@ -8662,7 +8690,9 @@
               </notatedMusic>
               </seg>
             </w>
-            hic et orate ne intretis in temptationem<pc>·</pc><pc resp="#editor">.</pc>
+            <w>hic</w><w>et</w><w>orate</w><w>ne</w><w>intretis</w><w>in</w><w>temptationem</w>
+            <pc>·</pc>
+            <pc resp="#editor">.</pc>
           </p>
         </sp>
         <stage>Tunc ascendat in montem Oliveti et flexis genibus respiciens celum petat dicendo<pc>·</pc></stage>
@@ -10505,7 +10535,7 @@
         </sp>
         <stage>Postea ducitur ad Pilatum Iesus et dicunt Iudei</stage>
         <sp>
-          <p>Hic dixit<pc>·</pc></p>
+          <p><w>Hic</w><w>dixit</w><pc>·</pc></p>
           <p>
             <w>
               <seg type="syll" part="I">Sol<notatedMusic>
@@ -12931,7 +12961,15 @@
         </sp>
         <stage>Statim veniat diabolus et ducat Iudam ad suspendium et suspenditur<pc>·</pc><pc resp="#editor">.</pc> Tunc veniant mulieres a longe plorantes flere Iesum<pc>·</pc> quibus Iesus dicat<pc>·</pc></stage>
         <sp>
-          <p>Filie Ierusalem<pc resp="#editor">,</pc> nolite flere super me<pc resp="#editor">,</pc> set super vos ipsas<pc>·</pc><pc resp="#editor">.</pc></p>
+          <p>
+            <w>Filie</w><w>Ierusalem</w>
+            <pc resp="#editor">,</pc>
+            <w>nolite</w><w>flere</w><w>super</w><w>me</w>
+            <pc resp="#editor">,</pc>
+            <w>set</w><w>super</w><w>vos</w><w>ipsas</w>
+            <pc>·</pc>
+            <pc resp="#editor">.</pc>
+          </p>
         </sp>
         <stage>Tunc Iesus suspenditur in cruce<pc>·</pc> et titulus fiat</stage>
         <sp>
@@ -14669,7 +14707,7 @@
               </l>
             </lg>
           </div>
-          <p>Dum caput cernu</p>
+          <p><w>Dum</w><w>caput</w><w>cernu</w></p>
         </sp>
         <stage>Tunc Maria amplexetur Iohannem et cantet eum habens inter brachia<pc>·</pc></stage>
         <sp who="#maria">
@@ -14985,12 +15023,12 @@
               </notatedMusic>
               </seg>
             </w>
-            ante nescia etc.
+            <w>ante</w><w>nescia</w><w>etc.</w>
           </p>
         </sp>
         <stage>Tunc iterum amplexetur Iohannem et cantet</stage>
         <sp who="#maria">
-          <p>Mi Iohannes etc.</p>
+          <p><w>Mi</w><w>Iohannes</w><w>etc.</w></p>
         </sp>
         <stage>Iohannes ad hec</stage>
         <sp who="#iohannes">
@@ -15432,7 +15470,20 @@
         </sp>
         <stage>Iesus videns finem dicit clamando</stage>
         <sp who="#ies">
-          <p>Ely<pc>·</pc> Ely<pc>·</pc> Lemasabactany<pc>·</pc><pc resp="#editor">.</pc> Hoc est Deus meus<pc resp="#editor">.</pc> Deus meus ut quid dereliquisti me<pc>·</pc><pc resp="#editor">.</pc></p>
+          <p>
+            <w>Ely</w>
+            <pc>·</pc>
+            <w>Ely</w>
+            <pc>·</pc>
+            <w>Lemasabactany</w>
+            <pc>·</pc>
+            <pc resp="#editor">.</pc>
+            <w>Hoc</w><w>est</w><w>Deus</w><w>meus</w>
+            <pc resp="#editor">.</pc>
+            <w>Deus</w><w>meus</w><w>ut</w><w>quid</w><w>dereliquisti</w><w>me</w>
+            <pc>·</pc>
+            <pc resp="#editor">?</pc>
+          </p>
         </sp>
         <stage>Et inclinato capite emittat spiritum<pc>·</pc><pc resp="#editor">.</pc> Longinus</stage>
         <sp who="#longinus" xml:lang="middle-high-german">
