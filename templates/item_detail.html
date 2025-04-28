@@ -68,7 +68,7 @@
   });
 
   $(document).ready(function(){
-    $("#toggleNeumesButton").click(function(){
+    $("#toggleNeumesButtonLeft").click(function(){
       $(this).toggleClass("active");
       $(".neumes").toggle();
       $(".toggle-neumes").toggle();
@@ -77,14 +77,14 @@
   });
 
   $(document).ready(function(){
-    $("#toggleSyllablesButton").click(function(){
+    $("#toggleSyllablesButtonLeft").click(function(){
       $(this).toggleClass("active");
       $(".syl-dash").toggle();
     });
   });
 
   $(document).ready(function(){
-    $("#toggleMetricButton").click(function(){
+    $("#toggleMetricButtonLeft").click(function(){
       $(this).toggleClass("active");
       $(".verse-met").toggle();
       $(".verse-real").toggle();
@@ -92,14 +92,14 @@
   });
 
   $(document).ready(function(){
-    $("#toggleRhymeButton").click(function(){
+    $("#toggleRhymeButtonLeft").click(function(){
       $(this).toggleClass("active");
       $(".verse-rhyme").toggle();
     });
   });
 
   $(document).ready(function(){
-    $("#togglePunctuationButton").click(function(){
+    $("#togglePunctuationButtonLeft").click(function(){
       $(this).toggleClass("active");
       $(".pc").toggle();
     });
@@ -110,7 +110,7 @@
   }
 
   window.onclick = function(event) {
-    if (!event.target.matches('#dropbtn') && !event.target.matches('#dropdownDivLeft > .cbo-button')) {
+    if (!event.target.matches('#dropbtnLeft') && !event.target.matches('#dropdownDivLeft > .cbo-button')) {
       $("#dropdownDivLeft").hide();
     }
   }
@@ -197,7 +197,7 @@
         <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'commentary')">French translation</button>
         <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'commentary')">Item</button>
         <div class="dropdown">
-          <button id="dropbtn" onclick="dropBtnRight()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
+          <button id="dropbtnRight" onclick="dropBtnRight()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
           <div id="dropdownDivRight" class="flex-column dropdown-content">
             <!--
             {% if item.is_notated %}
