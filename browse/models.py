@@ -255,7 +255,7 @@ class Item(models.Model):
     tei_file = models.CharField(max_length=200, help_text="TEI Filename (without '.tei' extension).", null=True)
 
     class Meta:
-        ordering = ['abstract_item', 'title']
+        ordering = [Length('abstract_item__cb_id'), 'abstract_item__cb_id']
 
     def foliation_str(self):
         if self.foliation_start == self.foliation_end:
