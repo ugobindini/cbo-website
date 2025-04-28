@@ -508,7 +508,12 @@
               </seg>
             </w>
             <w>
-              <seg type="syll" part="I">I</seg>
+              <app type="neume">
+                <lem>
+                  <seg type="syll" part="I">I</seg>
+                </lem>
+                <note>spat. vac.</note>
+              </app>
               <seg type="syll" part="F">ble<notatedMusic>
                 <neume fontname="buranus" glyph.num="93" label="ql!po"/>
               </notatedMusic>
