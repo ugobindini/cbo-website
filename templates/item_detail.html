@@ -105,13 +105,13 @@
     });
   });
 
-  function dropBtn() {
-    $("#dropdownDiv").toggle();
+  function dropBtnLeft() {
+    $("#dropdownDivLeft").toggle();
   }
 
   window.onclick = function(event) {
-    if (!event.target.matches('#dropbtn') && !event.target.matches('#dropdownDiv > .cbo-button')) {
-      $("#dropdownDiv").hide();
+    if (!event.target.matches('#dropbtn') && !event.target.matches('#dropdownDivLeft > .cbo-button')) {
+      $("#dropdownDivLeft").hide();
     }
   }
 
@@ -141,7 +141,7 @@
         <button id="defaultOpenLeft" class="tablinks left cbo-bar-item cbo-button" onclick="openTab(this, 'left', 'formattedText')">Formatted</button>
         <button class="tablinks left cbo-bar-item cbo-button" onclick="openTab(this, 'left', 'continuousText')">Continuous</button>
         <div class="dropdown">
-          <button id="dropbtnLeft" onclick="dropBtn()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
+          <button id="dropbtnLeft" onclick="dropBtnLeft()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
           <div id="dropdownDivLeft" class="flex-column dropdown-content">
             {% if item.is_notated %}
             <button id="toggleNeumesButtonLeft" class="cbo-button active">Neumes</button>
@@ -197,8 +197,8 @@
         <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'commentary')">French translation</button>
         <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'commentary')">Item</button>
         <div class="dropdown">
-          <button id="dropbtn" onclick="dropBtn()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
-          <div id="dropdownDiv" class="flex-column dropdown-content">
+          <button id="dropbtn" onclick="dropBtnRight()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
+          <div id="dropdownDivRight" class="flex-column dropdown-content">
             <!--
             {% if item.is_notated %}
             <button id="toggleNeumesButton" class="cbo-button active">Neumes</button>
