@@ -233,7 +233,7 @@ class AbstractItem(models.Model):
     text_type = models.ManyToManyField(TextType, through="TextTypeSpecification")
 
     class Meta:
-        ordering = [Length('cb_id'), 'cb_id']
+        ordering = ['cb_id']
 
     def __str__(self):
         """Returns the item's CB id."""
