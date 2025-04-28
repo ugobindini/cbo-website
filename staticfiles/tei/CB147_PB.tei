@@ -1,0 +1,52 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">Si je vivais comme à l’ordinaire</l>
+          <l n="2">joyeusement, avec honneur,</l>
+          <l n="3">je n’aurais pas à égrener</l>
+          <l n="4">le livre de peine et douleur.</l>
+          <l n="5">Je célébrerais l’herbe neuve,</l>
+          <l n="6">je vivrais en moi le printemps,</l>
+          <l n="7">je ferais pour tous nouveaux chants.</l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">Pourtant je chante, mais à propos</l>
+          <l n="2">des caprices de ma Vénus :</l>
+          <l n="3">je suis son Pâris et son apprenti</l>
+          <l n="4">comme les autres, qui ont appris</l>
+          <l n="5">
+            <seg type="hemistich">à entonner</seg>
+            <seg type="hemistich">des chants variés,</seg>
+          </l>
+          <l n="6">à exprimer les agréments</l>
+          <l n="7" rend="indent(1)">du doux printemps.</l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">À la palestre, Hypermnestre,</l>
+          <l n="2">vas-y énergiquement !</l>
+          <l n="3">Parmi les frères, un seul survit,</l>
+          <l n="4">sans que la mort l’ait regardé.</l>
+          <l n="5">Car si demain elle m’appelle,</l>
+          <l n="6">plus sûrement cela doit arriver,</l>
+          <l n="7">voir l’exemple de Mucius.</l>
+        </lg>
+        <lg type="strophe" n="IV">
+          <l n="1">Mon corps dessèche, par le manque</l>
+          <l n="2" rend="indent(1)">de joie au cœur.</l>
+          <l n="3">Je me consume de souci, craignant</l>
+          <l n="4" rend="indent(1)">pour l’avenir ;</l>
+          <l n="5">je ne peux pas compagnonner</l>
+          <l n="6" rend="indent(1)">avec ceux-là,</l>
+          <l n="7">
+            <seg type="hemistich">ni supporter</seg>
+            <seg type="hemistich">d’être abaissé</seg>
+          </l>
+          <l n="8" rend="indent(1)">sous mes rivaux.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

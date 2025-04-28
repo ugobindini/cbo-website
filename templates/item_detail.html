@@ -192,10 +192,10 @@
     </div>
     <div class="cbo-border-inset cbo-border-sand flex-50">
       <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
-        <button id="defaultRight" class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'msImage')">Manuscript</button>
+        <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'msImage')">Manuscript</button>
         <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'commentary')">Critical commentary</button>
-        <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'commentary')">French translation</button>
-        <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'commentary')">Item</button>
+        <button id="defaultOpenRight" class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'translation')">French translation</button>
+        <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'itemRight')">Item...</button>
         <div class="dropdown">
           <button id="dropbtnRight" onclick="dropBtnRight()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
           <div id="dropdownDivRight" class="flex-column dropdown-content">
@@ -221,7 +221,13 @@
       </div>
 
       <div id="translation" class="tabcontent right">
+        {% if item.is_translated %}
+          {% autoescape off %}
+          {{ item.french_translation_transform }}
+          {% endautoescape %}
+        {% else %}
         In preparation...
+        {% endif %}
       </div>
 
       <div id="itemRight" class="tabcontent right">

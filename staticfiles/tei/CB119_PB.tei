@@ -1,0 +1,104 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <seg type="hemistich">Sol bien-aimé</seg>
+            <seg type="hemistich">de la terre natale,</seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">maison joyeuse</seg>
+            <seg type="hemistich">et chambre favorable,</seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">je vous fuirai</seg>
+            <seg type="hemistich">ou demain ou ce jour :</seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">je vais mourir</seg>
+            <seg type="hemistich">de la rage d’amour !</seg>
+          </l>
+          <l n="5" rend="indent(1)">Exilé...</l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <seg type="hemistich">Adieu pays,</seg>
+            <seg type="hemistich">adieu mes compagnons</seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">que j’appréciais</seg>
+            <seg type="hemistich">de si tendre façon.</seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">Etant privé</seg>
+            <seg type="hemistich">de nos douces études,</seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">pleurez sur moi,</seg>
+            <seg type="hemistich">je suis perdu pour vous.</seg>
+          </l>
+          <l n="5" rend="indent(1)">Brûlé...</l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">
+            <seg type="hemistich">Autant de fleurs</seg>
+            <seg type="hemistich">aux vallées d’Hyblé,</seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">autant de feuilles</seg>
+            <seg type="hemistich">aux forêts de Dodone,</seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">et de poissons</seg>
+            <seg type="hemistich">nageant dans l’océan</seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">que de douleurs</seg>
+            <seg type="hemistich">pour celui qu’amour prend.</seg>
+          </l>
+          <l n="5" rend="indent(1)">A quel point !</l>
+        </lg>
+        <lg type="strophe" n="IV">
+          <l n="1">
+            <seg type="hemistich">Blessé du feu</seg>
+            <seg type="hemistich">tout nouveau de Vénus,</seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">mon chaste cœur</seg>
+            <seg type="hemistich">ignorait  tout cela.</seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">Comme le dit</seg>
+            <seg type="hemistich">justement le proverbe :</seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">« Où est l’amour</seg>
+            <seg type="hemistich">est aussi le malheur »</seg>
+          </l>
+          <l n="5" rend="indent(1)">affreux...</l>
+        </lg>
+        <lg type="strophe" n="V">
+          <l n="1">
+            <seg type="hemistich">Hélas, douleur,</seg>
+            <seg type="hemistich">quel triste résultat !</seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">Les amoureux</seg>
+            <seg type="hemistich">brûlent de trop de flammes.</seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">Toujours Vénus</seg>
+            <seg type="hemistich">nourrit d’autres soupirs,</seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">quelle douceur</seg>
+            <seg type="hemistich">un jour la fléchira ?</seg>
+          </l>
+          <l n="5" rend="indent(1)">C’est trop !</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

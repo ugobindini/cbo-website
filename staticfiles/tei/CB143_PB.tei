@@ -1,0 +1,45 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">Voici l’agréable</l>
+          <l n="2" rend="indent(1)">et le désirable </l>
+          <l n="3">printemps qui ramène la joie :</l>
+          <l n="4" rend="indent(1)">déjà le pré</l>
+          <l n="5" rend="indent(1)">fleurit empourpré,</l>
+          <l n="6">sous le soleil tout est serein.</l>
+          <l n="7">Que disparaisse la tristesse ! </l>
+          <l n="8" rend="indent(1)">L’été revient</l>
+          <l n="9" rend="indent(1)">et fuit au loin</l>
+          <l n="10">l’hiver avec tous ses chagrins.</l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1" rend="indent(1)">Voici que fond</l>
+          <l n="2" rend="indent(1)">et se morfond</l>
+          <l n="3">la grêle, la neige et le vent,</l>
+          <l n="4" rend="indent(1)">la brume s’en va,</l>
+          <l n="5" rend="indent(1)">la terre déjà</l>
+          <l n="6">tête le fertile printemps.</l>
+          <l n="7" rend="indent(1)">Il a pauvre esprit,</l>
+          <l n="8" rend="indent(1)">celui qui ne vit</l>
+          <l n="9" rend="indent(1)">et ne se réjouit</l>
+          <l n="10">sous la puissance du beau temps !</l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1" rend="indent(1)">Que se glorifient,</l>
+          <l n="2">que se réjouissent,</l>
+          <l n="3">que soient enivrés de douceur</l>
+          <l n="4" rend="indent(1)">ceux qui s’efforcent</l>
+          <l n="5" rend="indent(1)">d’user à force</l>
+          <l n="6">des récompenses de l’Amour.</l>
+          <l n="7">Selon les ordres de Cypris</l>
+          <l n="8" rend="indent(1)">glorifions-nous,</l>
+          <l n="9" rend="indent(1)">réjouissons-nous</l>
+          <l n="10">d’être les pareils de Pâris !</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

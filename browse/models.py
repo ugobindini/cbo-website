@@ -2,7 +2,7 @@ import lxml.etree
 from django.db import models
 from django.urls import reverse
 from django.db.models import UniqueConstraint
-from django.db.models.functions import Lower
+from django.db.models.functions import Lower, Length
 from django.conf import settings
 from .indentify import indentify
 from .metify import metify
@@ -11,6 +11,10 @@ if settings.LOCAL:
     static_root = settings.STATICFILES_DIRS[0]
 else:
     static_root = settings.STATIC_ROOT
+
+def staticfile_path(folder, filename):
+    import os.path
+    return os.path.join(os.path.join(static_root, folder), filename)
 
 class Language(models.Model):
     """Model representing a language."""
@@ -229,7 +233,7 @@ class AbstractItem(models.Model):
     text_type = models.ManyToManyField(TextType, through="TextTypeSpecification")
 
     class Meta:
-        ordering = ['cb_id']
+        ordering = [Length('cb_id'), 'cb_id']
 
     def __str__(self):
         """Returns the item's CB id."""
@@ -251,7 +255,7 @@ class Item(models.Model):
     tei_file = models.CharField(max_length=200, help_text="TEI Filename (without '.tei' extension).", null=True)
 
     class Meta:
-        ordering = ['abstract_item__cb_id', 'title']
+        ordering = ['abstract_item', 'title']
 
     def foliation_str(self):
         if self.foliation_start == self.foliation_end:
@@ -269,9 +273,17 @@ class Item(models.Model):
         return reverse('item-detail', args=[str(self.pk)])
 
     @property
+    def is_translated(self):
+        import os.path
+        if os.path.isfile(staticfile_path('tei', self.tei_file + '_PB.tei')):
+            return True
+        else:
+            return False
+
+
+    @property
     def tei_path(self):
-        import os
-        return os.path.join(os.path.join(static_root, 'tei'), self.tei_file + ".tei")
+        return staticfile_path('tei', self.tei_file + ".tei")
 
     @property
     def is_notated(self):
@@ -282,14 +294,13 @@ class Item(models.Model):
         else:
             return False
 
-    def transform(self, xsl_file, indent=False, met=False):
+    def transform(self, xsl_file, tei_file, indent=False, met=False):
         # Given the xsl file (only filename, no path), transforms item's tei file
         # IMPORTANT: the xsl file must produce a tree with one root
-        import os
         from lxml import etree, html
-        xsl = etree.parse(os.path.join(os.path.join(static_root, 'xsl'), xsl_file))
+        xsl = etree.parse(staticfile_path('xsl', xsl_file))
         transform = etree.XSLT(xsl)
-        xml = etree.parse(self.tei_path)
+        xml = etree.parse(staticfile_path('tei', tei_file + '.tei'))
         if met:
             metify(xml)
         result = transform(xml)
@@ -308,9 +319,8 @@ class Item(models.Model):
         return len(tree.findall(f".//neume[@glyph.num='{n}']"))
 
     def neume_detail_transform(self, n):
-        import os
         from lxml import etree, html
-        xsl = etree.parse(os.path.join(os.path.join(static_root, 'xsl'), 'neume_detail.xsl'))
+        xsl = etree.parse(staticfile_path('xsl', 'neume_detail.xsl'))
         transform = etree.XSLT(xsl)
         try:
             return lxml.html.tostring(transform(etree.parse(self.tei_path), n=str(n))).decode('UTF-8')
@@ -319,19 +329,23 @@ class Item(models.Model):
 
     @property
     def continuous_transform(self):
-        return self.transform('continuous.xsl')
+        return self.transform('continuous.xsl', self.tei_file)
 
     @property
     def formatted_transform(self):
-        return self.transform('formatted.xsl', indent=True, met=True)
+        return self.transform('formatted.xsl', self.tei_file, indent=True, met=True)
 
     @property
     def neume_apparatus_transform(self):
-        return self.transform('neume-apparatus.xsl')
+        return self.transform('neume-apparatus.xsl', self.tei_file)
 
     @property
     def text_apparatus_transform(self):
-        return self.transform('text-apparatus.xsl')
+        return self.transform('text-apparatus.xsl', self.tei_file)
+
+    @property
+    def french_translation_transform(self):
+        return self.transform('french-translation.xsl', self.tei_file + '_PB')
 
 
 class Neume(models.Model):
