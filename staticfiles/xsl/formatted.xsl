@@ -182,7 +182,7 @@
   </xsl:template>
 
   <xsl:template match="pc">
-    <span>
+    <span style="flex-shrink: 0;">
       <xsl:choose>
         <xsl:when test="@pre='true'">
           <xsl:attribute name="class">pc pre</xsl:attribute>

@@ -9972,17 +9972,56 @@
         </sp>
         <stage>Et Petro sequente Iesum una ancilla dicat<pc>·</pc></stage>
         <sp who="#ancilla">
-          <p>Vere tu ex illis es.</p>
+          <p>
+            <w>Vere</w><w>tu</w><w>ex</w><w>illis</w><w>es</w>
+            <pc>&#xf1f0;</pc>
+            <pc resp="#editor">.</pc>
+          </p>
         </sp>
         <stage>Ipse dicat</stage>
         <sp who="#petrus">
-          <p>Non sum</p>
+          <p>
+            <w>Non</w><w>sum</w>
+            <pc resp="#editor">.</pc>
+          </p>
         </sp>
         <stage>Item ancilla</stage>
         <sp who="#ancilla">
-          <p>Vere tu ex illis es.</p>
+          <p>
+            <app type="text">
+              <lem wit="cod.">
+                <w>Vere</w><w>tu</w><w>ex</w><w>illis</w><w>es</w><w>nam</w><w>et</w><w>Galileus</w><w>es</w>
+              </lem>
+              <rdg wit="cod."><w>Nam</w><w>unus</w><w>ex</w><w>eis</w><w>es</w><pc>&#xf1f0;</pc></rdg>
+              <note>???</note>
+            </app>
+            <pc>·</pc>
+            <pc resp="#editor">.</pc>
+          </p>
         </sp>
-        <stage>TODO: DECIDE ON THIS MESS</stage>
+        <stage>Petrus</stage>
+        <sp who="#petrus">
+          <p>
+            <w>Non</w><w>novi</w><w>hominem</w>
+            <pc>·</pc>
+            <pc resp="#editor">.</pc>
+          </p>
+        </sp>
+        <stage>Item ancilla</stage>
+        <sp who="#ancilla">
+          <p>
+            <w>Nonne</w><w>vidi</w><w>te</w><w>cum</w><w>illo</w><w>in</w><w>horto</w>
+            <pc>&#xf1f0;</pc>
+            <pc resp="#editor">?</pc>
+          </p>
+        </sp>
+        <stage>Petrus</stage>
+        <sp who="#petrus">
+          <p>
+            <w>Nescio</w><w>quid</w><w>dicis</w>
+            <pc resp="#editor">.</pc>
+          </p>
+        </sp>
         <stage>Et Iesus dicat</stage>
         <sp who="#ies">
           <p>

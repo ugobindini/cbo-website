@@ -1481,8 +1481,9 @@
               </seg>
             </w>
             <pc resp="#editor">:</pc>
+            <pc pre="true" resp="#editor">&#171;</pc>
             <w>
-              <seg type="syll">&#171;O<notatedMusic>
+              <seg type="syll">O<notatedMusic>
                 <neume fontname="buranus" glyph.num="1" label="pu"/>
               </notatedMusic>
               </seg>
@@ -2148,6 +2149,7 @@
           <w>Cum</w><w>sero</w><w>esset</w><w>una</w><w>gens</w><w>lusorum</w><w>venit</w><w>Decius</w><w>in</w><w>medio</w><w>eorum</w><w>et</w><w>dixit</w>
           <pc>·</pc>
           <pc resp="#editor">:</pc>
+          <pc pre="true" resp="#editor">&#171;</pc>
           <w>
             <seg type="syll">Fraus<notatedMusic>
               <neume fontname="buranus" glyph.num="55" label="po"/>
@@ -2202,11 +2204,10 @@
           </w>
           <pc>·</pc>
           <pc resp="#editor">!</pc>
-        </p>
-        <p>
           <w>Pro</w><w>dolore</w><w>enim</w><w>vestro</w><w>missus</w><w>sum</w><w>ad</w><w>vos</w>
           <pc>·</pc>
           <pc resp="#editor">.</pc>
+          <pc resp="#editor">&#187;</pc>
         </p>
         <p>
           <w>Primas</w><w>autem</w>

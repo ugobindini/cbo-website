@@ -138,23 +138,23 @@
   <div style="display: flex;">
     <div class="cbo-border-inset cbo-border-sand flex-50 flex-column">
       <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
-        <button id="defaultOpen" class="tablinks cbo-bar-item cbo-button" onclick="openTab(this, 'formattedText')">Formatted</button>
-        <button class="tablinks cbo-bar-item cbo-button" onclick="openTab(this, 'continuousText')">Continuous</button>
+        <button id="defaultOpenLeft" class="tablinks left cbo-bar-item cbo-button" onclick="openTab(this, 'left', 'formattedText')">Formatted</button>
+        <button class="tablinks left cbo-bar-item cbo-button" onclick="openTab(this, 'left', 'continuousText')">Continuous</button>
         <div class="dropdown">
-          <button id="dropbtn" onclick="dropBtn()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
-          <div id="dropdownDiv" class="flex-column dropdown-content">
+          <button id="dropbtnLeft" onclick="dropBtn()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
+          <div id="dropdownDivLeft" class="flex-column dropdown-content">
             {% if item.is_notated %}
-            <button id="toggleNeumesButton" class="cbo-button active">Neumes</button>
+            <button id="toggleNeumesButtonLeft" class="cbo-button active">Neumes</button>
             {% endif %}
-            <button id="toggleSyllablesButton" class="cbo-button">Syllables</button>
-            <button id="toggleMetricButton" class="cbo-button">Metrical analysis</button>
-            <button id="toggleRhymeButton" class="cbo-button">Rhyme scheme</button>
-            <button id="togglePunctuationButton" class="cbo-button">Original punctuation</button>
+            <button id="toggleSyllablesButtonLeft" class="cbo-button">Syllables</button>
+            <button id="toggleMetricButtonLeft" class="cbo-button">Metrical analysis</button>
+            <button id="toggleRhymeButtonLeft" class="cbo-button">Rhyme scheme</button>
+            <button id="togglePunctuationButtonLeft" class="cbo-button">Original punctuation</button>
           </div>
         </div>
       </div>
 
-      <div id="formattedText" class="tabcontent">
+      <div id="formattedText" class="tabcontent left">
         {% autoescape off %}
         {{ item.formatted_transform }}
         {% endautoescape %}
@@ -172,7 +172,7 @@
         {% endif %}
       </div>
 
-      <div id="continuousText" class="tabcontent">
+      <div id="continuousText" class="tabcontent left">
         {% autoescape off %}
         {{ item.continuous_transform }}
         {% endautoescape %}
@@ -191,14 +191,50 @@
       </div>
     </div>
     <div class="cbo-border-inset cbo-border-sand flex-50">
+      <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
+        <button id="defaultRight" class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'msImage')">Manuscript</button>
+        <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'commentary')">Critical commentary</button>
+        <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'commentary')">French translation</button>
+        <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'commentary')">Item</button>
+        <div class="dropdown">
+          <button id="dropbtn" onclick="dropBtn()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
+          <div id="dropdownDiv" class="flex-column dropdown-content">
+            <!--
+            {% if item.is_notated %}
+            <button id="toggleNeumesButton" class="cbo-button active">Neumes</button>
+            {% endif %}
+            <button id="toggleSyllablesButton" class="cbo-button">Syllables</button>
+            <button id="toggleMetricButton" class="cbo-button">Metrical analysis</button>
+            <button id="toggleRhymeButton" class="cbo-button">Rhyme scheme</button>
+            <button id="togglePunctuationButton" class="cbo-button">Original punctuation</button>
+            -->
+          </div>
+        </div>
+      </div>
+
+      <div id="msImage" class="tabcontent right">
+        In preparation...
+      </div>
+
+      <div id="commentary" class="tabcontent right">
+        In preparation...
+      </div>
+
+      <div id="translation" class="tabcontent right">
+        In preparation...
+      </div>
+
+      <div id="itemRight" class="tabcontent right">
+        In preparation...
+      </div>
     </div>
   </div>
 </div>
 
 <script>
-  function openTab(tab, tabName) {
-    $('.tabcontent').hide();
-    $('.tablinks').removeClass('active');
+  function openTab(tab, side, tabName) {
+    $('.tabcontent.' + side).hide();
+    $('.tablinks.' + side).removeClass('active');
     $("#" + tabName).css("display","block");
     $(tab).addClass("active");
     if (tabName == 'continuousText') {
@@ -211,6 +247,7 @@
     }
   }
 
-  $("#defaultOpen").click();
+  $("#defaultOpenLeft").click();
+  $("#defaultOpenRight").click();
 </script>
 {% endblock %}

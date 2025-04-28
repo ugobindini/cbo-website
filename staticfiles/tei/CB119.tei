@@ -388,20 +388,6 @@
               </lem>
               <rdg wit="HS"><w>consortem</w></rdg>
             </app>
-            <w>
-              <seg type="syll" part="I">ex<notatedMusic>
-                <neume fontname="buranus" glyph.num="1" label="pu"/>
-              </notatedMusic>
-              </seg>
-              <seg type="syll" part="M">per<notatedMusic>
-                <neume fontname="buranus" glyph.num="48" label="cl/"/>
-              </notatedMusic>
-              </seg>
-              <seg type="syll" part="F">tem<notatedMusic>
-                <neume fontname="buranus" glyph.num="1" label="pu"/>
-              </notatedMusic>
-              </seg>
-            </w>
             <rhyme label="a">
               <w>
                 <seg type="syll" part="I" met="+">stu<notatedMusic>
@@ -557,11 +543,11 @@
             <app type="text">
               <lem wit="cod. V T">
                 <w>
-                  <seg type="syll" part="I">red<notatedMusic>
+                  <seg type="syll" part="I">re<notatedMusic>
                     <neume fontname="buranus" glyph.num="45" label="cl"/>
                   </notatedMusic>
                   </seg>
-                  <seg type="syll" part="M">un<notatedMusic>
+                  <seg type="syll" part="M">dun<notatedMusic>
                     <neume fontname="buranus" glyph.num="7" label="vi)"/>
                   </notatedMusic>
                   </seg>

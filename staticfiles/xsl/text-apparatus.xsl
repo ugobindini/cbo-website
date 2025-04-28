@@ -62,7 +62,19 @@
     </span>
   </xsl:template>
 
-  <xsl:template match="pc" />
+  <xsl:template match="pc">
+    <span>
+      <xsl:choose>
+        <xsl:when test="@pre='true'">
+          <xsl:attribute name="class">pc pre</xsl:attribute>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:attribute name="class">pc</xsl:attribute>
+        </xsl:otherwise>
+      </xsl:choose>
+      <xsl:value-of select="./text()"/>
+    </span>
+  </xsl:template>
 
   <xsl:template match="seg[@type='syll']">
     <xsl:value-of select="normalize-space(.)"/>
