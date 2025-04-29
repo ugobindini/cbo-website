@@ -1,0 +1,57 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">Que mon aimée, à l’an nouvel</l>
+          <l n="2">ait le salut et la joie !</l>
+          <l n="3"> Qu’elle sourie,</l>
+          <l n="4">elle autour de qui s’enroule</l>
+          <l n="5">cette farandole, et je confirme</l>
+          <l n="6"> en la chantant :</l>
+          <l n="7">
+            <seg type="hemistich">au monde il n’en est pas</seg>
+            <seg type="hemistich">d’aussi belle que celle-là !</seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">C’est un feu ardent,</l>
+          <l n="2">cette amie à moi,</l>
+          <l n="3">toute étincelante</l>
+          <l n="4">de douce bonté.</l>
+          <l n="5">Et cela m’attire</l>
+          <l n="6">vers de telles joies,</l>
+          <l n="7">
+            <seg type="hemistich">revendiqué par Vénus,</seg>
+            <seg type="hemistich">je m’attriste à grands soupirs.</seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">Mon aimée est accueillante,</l>
+          <l n="2">de teint blanche et rose,</l>
+          <l n="3">digne d’être aimée.</l>
+          <l n="4">Vénus, déesse d’amour,</l>
+          <l n="5">je me rends à toi,</l>
+          <l n="6">car j’ai bien besoin</l>
+          <l n="7">
+            <seg type="hemistich">de ton secours : déjà</seg>
+            <seg type="hemistich">je brûle et je me meurs pour elle.</seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="IV">
+          <l n="1">Louez-la tous, la mienne amie,</l>
+          <l n="2">si pudique, et délectable,</l>
+          <l n="3"> et si aimable !</l>
+          <l n="4">Je l’aime de tout mon cœur.</l>
+          <l n="5">Elle me rend triste mais plein de vigueur</l>
+          <l n="6"> et de bonheur,</l>
+          <l n="7">
+            <seg type="hemistich">Je la chéris plus que tout,</seg>
+            <seg type="hemistich">je la vénère comme une déesse.</seg>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
