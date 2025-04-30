@@ -1,34 +1,34 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
         <lg type="strophe" n="I">
-          <l n="1">La terre se revêt de fleurs multicolores,</l>
-          <l n="2">le printemps fait enfin sentir qu’il est présent.</l>
+          <l n="1">La terre se rev&#234;t de fleurs multicolores,</l>
+          <l n="2">le printemps fait enfin sentir qu&#8217;il est pr&#233;sent.</l>
           <l n="3">On entend doucement chanter le rossignol,</l>
-          <l n="4">c’en est donc bien fini des rigueurs de l’hiver.</l>
+          <l n="4">c&#8217;en est donc bien fini des rigueurs de l&#8217;hiver.</l>
         </lg>
         <lg type="strophe" n="II">
           <l n="1">
             <seg type="hemistich">Ses joues sont vermeilles,</seg>
-            <seg type="hemistich">ses cheveux séparés</seg>
+            <seg type="hemistich">ses cheveux s&#233;par&#233;s</seg>
           </l>
-          <l n="2">dégagent bien son front en deux bandeaux obliques,</l>
+          <l n="2">d&#233;gagent bien son front en deux bandeaux obliques,</l>
           <l n="3">
             <seg type="hemistich">tout son visage rit.</seg>
             <seg type="hemistich">Oh combien bienheureuse</seg>
           </l>
-          <l n="4">celle qui est ornée de tant de qualités !</l>
+          <l n="4">celle qui est orn&#233;e de tant de qualit&#233;s !</l>
         </lg>
         <lg type="strophe" n="III">
           <l n="1">
             <seg type="hemistich">Elle a la taille fine</seg>
-            <seg type="hemistich">autant qu’il est de mise,</seg>
+            <seg type="hemistich">autant qu&#8217;il est de mise,</seg>
           </l>
           <l n="2">
             <seg type="hemistich">son parfum est meilleur</seg>
-            <seg type="hemistich">que n’importe quel baume.</seg>
+            <seg type="hemistich">que n&#8217;importe quel baume.</seg>
           </l>
           <l n="3">
             <seg type="hemistich">Heureux qui peut dormir</seg>
@@ -36,27 +36,27 @@
           </l>
           <l n="4">
             <seg type="hemistich">il sera en honneur</seg>
-            <seg type="hemistich">l’égal des dieux du ciel.</seg>
+            <seg type="hemistich">l&#8217;&#233;gal des dieux du ciel.</seg>
           </l>
         </lg>
         <lg type="strophe" n="IV">
           <l n="1">Quand elle rit, entre ses sourcils</l>
           <l n="2">
-            <seg type="hemistich">l’espace est lisse</seg>
-            <seg type="hemistich">et large à souhait.</seg>
+            <seg type="hemistich">l&#8217;espace est lisse</seg>
+            <seg type="hemistich">et large &#224; souhait.</seg>
           </l>
-          <l n="3">Sa bouche invite au baiser qui l’en prie.</l>
+          <l n="3">Sa bouche invite au baiser qui l&#8217;en prie.</l>
           <l n="4">A mon secours, ma dame, je succombe !</l>
           <l n="5"> </l>
-          <l n="6">Je suis blessé, je ne peux en guérir,</l>
-          <l n="7">et je n’aurai nul espoir de survivre</l>
+          <l n="6">Je suis bless&#233;, je ne peux en gu&#233;rir,</l>
+          <l n="7">et je n&#8217;aurai nul espoir de survivre</l>
           <l n="8">
             <seg type="hemistich">si tu ne me consoles</seg>
-            <seg type="hemistich">de préférence aux autres,</seg>
+            <seg type="hemistich">de pr&#233;f&#233;rence aux autres,</seg>
           </l>
           <l n="9">
-            <seg type="hemistich">toi qui dépasses tout</seg>
-            <seg type="hemistich">par ta beauté unique.</seg>
+            <seg type="hemistich">toi qui d&#233;passes tout</seg>
+            <seg type="hemistich">par ta beaut&#233; unique.</seg>
           </l>
         </lg>
       </div>

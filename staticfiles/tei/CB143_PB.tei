@@ -1,43 +1,43 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
         <lg type="strophe" n="I">
-          <l n="1">Voici l’agréable</l>
-          <l n="2" rend="indent(1)">et le désirable </l>
-          <l n="3">printemps qui ramène la joie :</l>
-          <l n="4" rend="indent(1)">déjà le pré</l>
-          <l n="5" rend="indent(1)">fleurit empourpré,</l>
+          <l n="1">Voici l&#8217;agr&#233;able</l>
+          <l n="2" rend="indent(1)">et le d&#233;sirable </l>
+          <l n="3">printemps qui ram&#232;ne la joie :</l>
+          <l n="4" rend="indent(1)">d&#233;j&#224; le pr&#233;</l>
+          <l n="5" rend="indent(1)">fleurit empourpr&#233;,</l>
           <l n="6">sous le soleil tout est serein.</l>
           <l n="7">Que disparaisse la tristesse ! </l>
-          <l n="8" rend="indent(1)">L’été revient</l>
+          <l n="8" rend="indent(1)">L&#8217;&#233;t&#233; revient</l>
           <l n="9" rend="indent(1)">et fuit au loin</l>
-          <l n="10">l’hiver avec tous ses chagrins.</l>
+          <l n="10">l&#8217;hiver avec tous ses chagrins.</l>
         </lg>
         <lg type="strophe" n="II">
           <l n="1" rend="indent(1)">Voici que fond</l>
           <l n="2" rend="indent(1)">et se morfond</l>
-          <l n="3">la grêle, la neige et le vent,</l>
-          <l n="4" rend="indent(1)">la brume s’en va,</l>
-          <l n="5" rend="indent(1)">la terre déjà</l>
-          <l n="6">tête le fertile printemps.</l>
+          <l n="3">la gr&#234;le, la neige et le vent,</l>
+          <l n="4" rend="indent(1)">la brume s&#8217;en va,</l>
+          <l n="5" rend="indent(1)">la terre d&#233;j&#224;</l>
+          <l n="6">t&#234;te le fertile printemps.</l>
           <l n="7" rend="indent(1)">Il a pauvre esprit,</l>
           <l n="8" rend="indent(1)">celui qui ne vit</l>
-          <l n="9" rend="indent(1)">et ne se réjouit</l>
+          <l n="9" rend="indent(1)">et ne se r&#233;jouit</l>
           <l n="10">sous la puissance du beau temps !</l>
         </lg>
         <lg type="strophe" n="III">
           <l n="1" rend="indent(1)">Que se glorifient,</l>
-          <l n="2">que se réjouissent,</l>
-          <l n="3">que soient enivrés de douceur</l>
-          <l n="4" rend="indent(1)">ceux qui s’efforcent</l>
-          <l n="5" rend="indent(1)">d’user à force</l>
-          <l n="6">des récompenses de l’Amour.</l>
+          <l n="2">que se r&#233;jouissent,</l>
+          <l n="3">que soient enivr&#233;s de douceur</l>
+          <l n="4" rend="indent(1)">ceux qui s&#8217;efforcent</l>
+          <l n="5" rend="indent(1)">d&#8217;user &#224; force</l>
+          <l n="6">des r&#233;compenses de l&#8217;Amour.</l>
           <l n="7">Selon les ordres de Cypris</l>
           <l n="8" rend="indent(1)">glorifions-nous,</l>
-          <l n="9" rend="indent(1)">réjouissons-nous</l>
-          <l n="10">d’être les pareils de Pâris !</l>
+          <l n="9" rend="indent(1)">r&#233;jouissons-nous</l>
+          <l n="10">d&#8217;&#234;tre les pareils de P&#226;ris !</l>
         </lg>
       </div>
     </body>

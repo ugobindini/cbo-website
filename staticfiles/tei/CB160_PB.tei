@@ -1,24 +1,24 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
         <lg type="strophe" n="I">
-          <l n="1">En ce début de printemps,</l>
+          <l n="1">En ce d&#233;but de printemps,</l>
           <l n="2" rend="indent(1)">la saison si douce,</l>
           <l n="3">sous un soleil triomphant</l>
           <l n="4" rend="indent(1)">qui le froid repousse,</l>
         </lg>
         <lg type="strophe" n="II">
           <l n="1">l'amour d'une unique fille</l>
-          <l n="2" rend="indent(1)">m'a blessé</l>
+          <l n="2" rend="indent(1)">m'a bless&#233;</l>
           <l n="3">d'une douleur infinie</l>
-          <l n="4" rend="indent(1)">dont je suis brisé.</l>
+          <l n="4" rend="indent(1)">dont je suis bris&#233;.</l>
         </lg>
         <lg type="strophe" n="III">
-          <l n="1">Ah, qu'elle ait pitié de moi</l>
+          <l n="1">Ah, qu'elle ait piti&#233; de moi</l>
           <l n="2" rend="indent(1)">et me soit complice,</l>
-          <l n="3">et se penche jusqu'à moi</l>
+          <l n="3">et se penche jusqu'&#224; moi</l>
           <l n="4" rend="indent(1)">et qu'on en finisse.</l>
         </lg>
       </div>

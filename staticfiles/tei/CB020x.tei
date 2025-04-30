@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader/>
+  <teiHeader />
   <text>
     <body>
       <div type="poem" xml:lang="latin" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
@@ -19,7 +19,7 @@
               <seg type="syll" part="M">o</seg>
               <seg type="syll" part="F">se</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="2">
             <w>
@@ -33,7 +33,7 @@
               <seg type="syll" part="M">ri</seg>
               <seg type="syll" part="F">um</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
             <pc resp="#editor">,</pc>
           </l>
           <l n="3">
@@ -51,7 +51,7 @@
               <seg type="syll" part="M">o</seg>
               <seg type="syll" part="F">se</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="4">
             <w>
@@ -67,7 +67,7 @@
               <seg type="syll" part="M">di</seg>
               <seg type="syll" part="F">um</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
             <pc resp="#editor">,</pc>
           </l>
           <l n="5">
@@ -98,7 +98,7 @@
               <seg type="syll" part="M">li</seg>
               <seg type="syll" part="F">um</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
             <pc resp="#editor">.</pc>
           </l>
         </lg>
@@ -116,7 +116,7 @@
               <seg type="syll" part="M">o</seg>
               <seg type="syll" part="F">ne</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="2">
             <w>
@@ -149,7 +149,7 @@
               <seg type="syll" part="I">bo</seg>
               <seg type="syll" part="F">ne</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="4">
             <w>
@@ -185,7 +185,7 @@
               <seg type="syll" part="M">go</seg>
               <seg type="syll" part="F">ne</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="6">
             <w>
@@ -201,7 +201,7 @@
               <seg type="syll" part="M">e</seg>
               <seg type="syll" part="F">rit</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
             <pc resp="#editor">.</pc>
           </l>
         </lg>
@@ -223,7 +223,7 @@
               <seg type="syll" part="M">ta</seg>
               <seg type="syll" part="F">tur</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="2">
             <w>
@@ -241,7 +241,7 @@
               <seg type="syll" part="M">gui</seg>
               <seg type="syll" part="F">ne</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="3">
             <w>
@@ -299,7 +299,7 @@
               <seg type="syll" part="M">mi</seg>
               <seg type="syll" part="F">ne</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
             <pc resp="#editor">.</pc>
           </l>
         </lg>
@@ -313,7 +313,7 @@
               <seg type="syll" part="M">cla</seg>
               <seg type="syll" part="F">rat</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
             <w>
               <seg type="syll">hoc</seg>
             </w>
@@ -322,7 +322,7 @@
               <seg type="syll" part="M">pla</seg>
               <seg type="syll" part="F">nat*</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="2">
             <w>
@@ -336,7 +336,7 @@
               <seg type="syll" part="M">ne</seg>
               <seg type="syll" part="F">um</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
             <pc resp="#editor">,</pc>
           </l>
           <l n="3">
@@ -358,7 +358,7 @@
               <seg type="syll" part="I">ma</seg>
               <seg type="syll" part="F">nat</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="4">
             <w>
@@ -372,7 +372,7 @@
               <seg type="syll" part="M">le</seg>
               <seg type="syll" part="F">um</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="5">
             <w>
@@ -404,7 +404,7 @@
               <seg type="syll" part="M">le</seg>
               <seg type="syll" part="F">um</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
             <pc resp="#editor">.</pc>
           </l>
         </lg>
@@ -424,7 +424,7 @@
               <seg type="syll" part="M">ra</seg>
               <seg type="syll" part="F">lis</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="2">
             <w>
@@ -442,7 +442,7 @@
               <seg type="syll" part="M">ti</seg>
               <seg type="syll" part="F">o</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="3">
             <w>
@@ -459,7 +459,7 @@
               <seg type="syll" part="M">ta</seg>
               <seg type="syll" part="F">lis</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="4">
             <w>
@@ -475,7 +475,7 @@
               <seg type="syll" part="M">si</seg>
               <seg type="syll" part="F">o</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
             <pc resp="#editor">,</pc>
           </l>
           <l n="5">
@@ -493,7 +493,7 @@
               <seg type="syll" part="M">ra</seg>
               <seg type="syll" part="F">lis</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="6">
             <w>
@@ -509,7 +509,7 @@
               <seg type="syll" part="M">di</seg>
               <seg type="syll" part="F">o</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
             <pc resp="#editor">.</pc>
           </l>
         </lg>
@@ -531,7 +531,7 @@
               <seg type="syll" part="I">bo</seg>
               <seg type="syll" part="F">ne</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="2">
             <w>
@@ -549,7 +549,7 @@
               <seg type="syll" part="M">gi</seg>
               <seg type="syll" part="F">ter</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="3">
             <w>
@@ -568,7 +568,7 @@
               <seg type="syll" part="M">go</seg>
               <seg type="syll" part="F">ne</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="4">
             <w>
@@ -582,7 +582,7 @@
               <seg type="syll" part="M">li</seg>
               <seg type="syll" part="F">ter</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
           </l>
           <l n="5">
             <w>
@@ -593,7 +593,7 @@
               <seg type="syll" part="M">ce</seg>
               <seg type="syll" part="F">dem</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
             <w>
               <seg type="syll">das</seg>
             </w>
@@ -609,14 +609,14 @@
               <seg type="syll" part="M">cen</seg>
               <seg type="syll" part="F">ti</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
             <w>
               <seg type="syll" part="I">vi</seg>
               <seg type="syll" part="M">ri</seg>
               <seg type="syll" part="M">li</seg>
               <seg type="syll" part="F">ter</seg>
             </w>
-            <pc>·</pc>
+            <pc>&#183;</pc>
             <pc resp="#editor">.</pc>
           </l>
         </lg>
