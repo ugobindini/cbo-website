@@ -1088,11 +1088,11 @@
                       </notatedMusic>
                     </seg>
                   </w>
-                <pc resp="#editor">,</pc>
                 </lem>
                 <rdg wit="HS V T"><w>Troia</w><w>tunc</w><w>nobilis</w></rdg>
                 <rdg wit="cod."><w>Troiarum</w><w>nobiles</w></rdg>
               </app>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="3">
@@ -1210,10 +1210,10 @@
                       </notatedMusic>
                     </seg>
                   </w>
-                <pc resp="#editor">,</pc>
                 </lem>
                 <rdg wit="cod."><w>gratia</w></rdg>
               </app>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="5">
@@ -1276,7 +1276,7 @@
                 <rdg wit="cod."><w>facundia</w></rdg>
               </app>
               <pc>&#183;</pc>
-                <pc resp="#editor">,</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="6">
@@ -1359,10 +1359,10 @@
                       </notatedMusic>
                     </seg>
                   </w>
-                <pc resp="#editor">:</pc>
                 </lem>
                 <note>corr. ex <w>lubrice</w> man. r.</note>
               </app>
+              <pc resp="#editor">:</pc>
             </seg>
             <seg type="hemistich">
               <w>

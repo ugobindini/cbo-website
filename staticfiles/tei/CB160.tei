@@ -158,10 +158,12 @@
         </lg>
         <lg type="strophe" n="II">
           <l n="1">
-            <w>
+            <app type="text">
+              <lem>
+                <w>
               <app type="neume">
                 <lem>
-                  <seg type="syll" part="I">U<notatedMusic>
+                  <seg type="syll" part="I">u<notatedMusic>
                     <neume fontname="buranus" glyph.num="1" label="pu" />
                   </notatedMusic>
                   </seg>
@@ -177,6 +179,9 @@
               </notatedMusic>
               </seg>
             </w>
+              </lem>
+              <note>u- eras. et corr. U- man. rubr.</note>
+            </app>
             <w>
               <seg type="syll">in<notatedMusic>
                 <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -315,7 +320,7 @@
           </l>
         </lg>
         <lg type="strophe" n="III">
-          <l n="1" met="8pp">
+          <l n="1" met="8p">
             <w>
               <seg type="syll">Ut<notatedMusic>
                 <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -387,7 +392,7 @@
               </seg>
             </w>
           </l>
-          <l n="3" met="??" rhyme="c">
+          <l n="3" met="7p" rhyme="c">
             <w>
               <seg type="syll">et<notatedMusic>
                 <neume fontname="buranus" glyph.num="6" label="vi" />

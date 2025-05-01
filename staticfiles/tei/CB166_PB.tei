@@ -1,0 +1,44 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">Depuis longtemps je me suis montré</l>
+          <l n="2" rend="indent(1)">serviteur d’Amour dévoué,</l>
+          <l n="3">à sa volonté je me suis jeté</l>
+          <l n="4" rend="indent(1)">en une folle entreprise,</l>
+          <l n="5" rend="indent(1)">en aimant, à mon danger,</l>
+          <l n="6">une qui jamais     ne m’a regardé avec bonté.</l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">Si maintenant j’abandonnais,</l>
+          <l n="2">cela vaudrait bien mieux pour moi ;</l>
+          <l n="3">mais il n’y a que les lâches</l>
+          <l n="4">que fait fuir le bruit du combat.</l>
+          <l n="5">Qu’advienne ce que je désire !</l>
+          <l n="6">Aux caprices du sort   j’offre sans trembler ma vie.</l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">Si elle voulait désormais</l>
+          <l n="2">m’aimer d’amour continu</l>
+          <l n="3">et qu’elle vivait pour moi,</l>
+          <l n="4">ma douleur serait moins brûlante,</l>
+          <l n="5">mais quand je la regarde,</l>
+          <l n="6">il me semble qu’elle me transperce de désir.</l>
+        </lg>
+        <lg type="strophe" n="IV">
+          <l n="1">Qu’elle sache quel est mon courage,</l>
+          <l n="2">plus grand certes que mon corps,</l>
+          <l n="3">moi qui vais chercher le fruit dans l’arbre</l>
+          <l n="4">en escaladant le plus haut branchage,</l>
+          <l n="5">alléguant que chez un amant</l>
+          <l n="6">
+            <seg type="hemistich">il n’est pas de place</seg>
+            <seg type="hemistich">pour un esprit qui ignore la peur.</seg>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
