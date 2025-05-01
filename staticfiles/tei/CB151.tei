@@ -223,10 +223,10 @@
                       </notatedMusic>
                       </seg>
                     </w>
-                    <pc resp="#editor">,</pc>
                   </lem>
                   <rdg wit="cod."><w>algent</w></rdg>
                 </app>
+                    <pc resp="#editor">,</pc>
               </rhyme>
             </seg>
             <seg type="hemistich">
@@ -1043,11 +1043,11 @@
                       <seg type="syll" part="I" met="+">ster</seg>
                       <seg type="syll" part="F">no</seg>
                     </w>
-                    <pc resp="#editor">,</pc>
                   </lem>
                   <rdg wit="cod. V"><w>cerno</w></rdg>
                   <note>c- corr. (ex st-?) man. r.</note>
                 </app>
+                    <pc resp="#editor">,</pc>
               </rhyme>
             </seg>
             <seg type="hemistich">

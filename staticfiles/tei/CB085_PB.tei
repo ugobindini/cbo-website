@@ -1,33 +1,33 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
         <lg type="strophe" n="I">
           <l n="1">Au temps du doux printemps</l>
-          <l n="2">voilà Julienne avec sa sœur</l>
+          <l n="2">voil&#224; Julienne avec sa s&#339;ur</l>
           <l n="3" rend="indent(1)">sous l'arbre en fleur.</l>
           <l n="4" rend="indent(1)">Amour-douceur!</l>
         </lg>
         <lg type="refrain">
           <head>Refrain</head>
-          <l n="1">qui se passe de toi à cette heure</l>
+          <l n="1">qui se passe de toi &#224; cette heure</l>
           <l n="2" rend="indent(1)">perd sa valeur.</l>
         </lg>
         <lg type="strophe" n="II">
           <l n="1">Les arbres sont en fleur,</l>
           <l n="2">les oiseaux chantent avec ardeur,</l>
-          <l n="3">les vierges en sentent la tiédeur.</l>
+          <l n="3">les vierges en sentent la ti&#233;deur.</l>
           <l n="4" rend="indent(1)">Amour-douceur!</l>
         </lg>
         <lg type="strophe" n="III">
           <l n="1">Les lys sont en fleur,</l>
-          <l n="2">les vierges en chœur</l>
+          <l n="2">les vierges en ch&#339;ur</l>
           <l n="3">chantent pour le plus haut des dieux.</l>
           <l n="4" rend="indent(1)">Amour-douceur!</l>
         </lg>
         <lg type="strophe" n="IV">
-          <l n="1">Si je tenais celle que je désire</l>
+          <l n="1">Si je tenais celle que je d&#233;sire</l>
           <l n="2">sous les branches, dans les bois,</l>
           <l n="3">je l'embrasserais avec joie.</l>
         </lg>

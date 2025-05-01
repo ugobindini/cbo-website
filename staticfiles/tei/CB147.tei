@@ -208,11 +208,11 @@
                   <seg type="syll" part="M">te</seg>
                   <seg type="syll" part="F">ris</seg>
                 </w>
-                <pc resp="#editor">,</pc>
               </lem>
               <rdg wit="cod."><w>cetheris</w></rdg>
               <note>-h- exp. (man. r. ?)</note>
             </app>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="5">
             <w>
@@ -677,10 +677,10 @@
                   </notatedMusic>
                   </seg>
                 </w>
-                <pc resp="#editor">,</pc>
               </lem>
               <note>-a- man. r. s. ras.</note>
             </app>
+            <pc resp="#editor">,</pc>
             <w>
               <seg type="syll">daz<notatedMusic>
                 <neume fontname="buranus" glyph.num="6" label="vi" />
