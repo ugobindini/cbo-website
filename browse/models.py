@@ -209,6 +209,7 @@ class Source(models.Model):
     url = models.CharField(max_length=512, help_text="External url to access the source images.", blank=True)
     concordances = models.TextField(help_text="Concordances with the Codex Buranus.", blank=True)
     notes = models.TextField(help_text="Additional notes on the source.", blank=True)
+    IIIF_manifest = models.CharField(max_length=512, help_text="URL of the IIIF manifest.", blank=True)
 
     class Meta:
         ordering = ['country', 'location', 'bib_id']
@@ -250,9 +251,10 @@ class Item(models.Model):
     source = models.ForeignKey(Source, on_delete=models.RESTRICT, null=True)
     foliation_start = models.CharField(max_length=10, help_text="First folio occupied by the item in the source.")
     foliation_end = models.CharField(max_length=10, help_text="Last folio occupied by the item in the source.")
-    title = models.CharField(max_length=200, help_text="Title of the item (incipit).")
+    title = models.CharField(max_length=256, help_text="Title of the item (incipit).")
     language = models.ManyToManyField(Language)
-    tei_file = models.CharField(max_length=200, help_text="TEI Filename (without '.tei' extension).", null=True)
+    tei_file = models.CharField(max_length=256, help_text="TEI Filename (without '.tei' extension).", null=True)
+    IIIF_canvas = models.CharField(max_length=256, help_text="IIIF canvas index of the item.", blank=True)
 
     class Meta:
         ordering = [Length('abstract_item__cb_id'), 'abstract_item__cb_id']

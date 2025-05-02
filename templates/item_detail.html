@@ -194,9 +194,9 @@
     </div>
     <div class="cbo-border-inset cbo-border-sand flex-50">
       <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
-        <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'msImage')">Manuscript</button>
+        <button id="defaultOpenRight" class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'msImage')">Manuscript</button>
         <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'commentary')">Critical commentary</button>
-        <button id="defaultOpenRight" class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'translation')">French translation</button>
+        <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'translation')">French translation</button>
         <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'itemRight')">Item...</button>
         <div class="dropdown">
           <button id="dropbtnRight" onclick="dropBtnRight()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
@@ -215,8 +215,7 @@
       </div>
 
       <div id="msImage" class="tabcontent right">
-        <!--<div id="my-mirador"></div>-->
-        In preparation...
+        <div id="mirador" style="position: relative; width: 100%; height: 1000px;"></div>
       </div>
 
       <div id="commentary" class="tabcontent right">
@@ -260,24 +259,33 @@
   $("#defaultOpenRight").click();
 </script>
 
-<!--
-<script type="text/javascript">
+<script>
+var source_manifest = "{{ item.source.IIIF_manifest }}";
+var canvas = "{{ item.IIIF_canvas }}"
 var mirador = Mirador.viewer({
-  "id": "my-mirador",
-  "manifests": {
-    "https://iiif.lib.harvard.edu/manifests/drs:48309543": {
-      "provider": "Harvard University"
-    }
+  "id": "mirador",
+  selectedTheme: 'light',
+  window: {
+    defaultView: "single",
+    views: [
+      { key: "single", behaviors: ["individuals", "paged"] },
+      { key: "book", behaviors: ["individuals"] },
+      { key: "scroll", behaviors: ["continuous"] },
+      { key: "gallery" }
+    ]
   },
-  "windows": [
+  windows: [
     {
-      "loadedManifest": "https://iiif.lib.harvard.edu/manifests/drs:48309543",
-      "canvasIndex": 2,
-      "thumbnailNavigationPosition": 'far-bottom'
+      manifestId: source_manifest,
+      canvasIndex: canvas
     }
+  ],
+  catalog: [
+    {
+      manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00085130/manifest"
+    },
   ]
 });
 </script>
--->
 
 {% endblock %}
