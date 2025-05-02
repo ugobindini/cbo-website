@@ -132,6 +132,7 @@
           <xsl:if test="@type='neume'">apparatus-note font-small cbo-border-blue toggle-neumes</xsl:if>
         </xsl:attribute>
         <xsl:apply-templates select="./rdg" />
+        <xsl:if test="./rdg"><xsl:if test="./note">;</xsl:if></xsl:if>
         <xsl:apply-templates select="./note" />
       </span>
       <xsl:apply-templates select="./lem" />
