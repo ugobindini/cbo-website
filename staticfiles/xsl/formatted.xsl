@@ -159,7 +159,7 @@
   <xsl:template match="seg[@type='syll']">
     <xsl:variable name="text"><xsl:value-of select="./text()"/></xsl:variable>
     <span class="neumed-syll" style="vertical-align: bottom;">
-      <span class="syl">
+      <span class="syl text-font">
         <xsl:if test="@met='+'">
           <xsl:attribute name="data-met">+</xsl:attribute>
         </xsl:if>
