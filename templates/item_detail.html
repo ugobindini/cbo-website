@@ -142,7 +142,7 @@
       <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
         <button id="defaultOpenLeft" class="tablinks left cbo-bar-item cbo-button" onclick="openTab(this, 'left', 'formattedText')">Formatted</button>
         <button class="tablinks left cbo-bar-item cbo-button" onclick="openTab(this, 'left', 'continuousText')">Continuous</button>
-        <div class="dropdown">
+        <div class="dropdown" style="z-index: 1500;">
           <button id="dropbtnLeft" onclick="dropBtnLeft()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
           <div id="dropdownDivLeft" class="flex-column dropdown-content">
             {% if item.is_notated %}
