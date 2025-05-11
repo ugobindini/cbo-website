@@ -253,7 +253,7 @@ class Item(models.Model):
     foliation_end = models.CharField(max_length=10, help_text="Last folio occupied by the item in the source.")
     title = models.CharField(max_length=256, help_text="Title of the item (incipit).")
     language = models.ManyToManyField(Language)
-    tei_file = models.CharField(max_length=256, help_text="TEI Filename (without '.tei' extension).", null=True)
+    file = models.CharField(max_length=256, help_text="Filename (without extensions).", null=True)
     IIIF_canvas = models.CharField(max_length=256, help_text="IIIF canvas index of the item.", blank=True)
 
     class Meta:
@@ -277,15 +277,30 @@ class Item(models.Model):
     @property
     def is_translated(self):
         import os.path
-        if os.path.isfile(staticfile_path('tei', self.tei_file + '_PB.tei')):
+        if os.path.isfile(staticfile_path('tei', self.file + '_PB.tei')):
             return True
         else:
             return False
 
+    @property
+    def is_svg_based(self):
+        import os.path
+        if os.path.isfile(staticfile_path('img', self.file + '.svg')):
+            return True
+        else:
+            return False
 
     @property
     def tei_path(self):
-        return staticfile_path('tei', self.tei_file + ".tei")
+        return staticfile_path('tei', self.file + ".tei")
+
+    @property
+    def mei_path(self):
+        return staticfile_path('mei', self.file + ".mei")
+
+    @property
+    def svg_path(self):
+        return 'img/' + self.file + ".svg"
 
     @property
     def is_notated(self):
@@ -331,23 +346,23 @@ class Item(models.Model):
 
     @property
     def continuous_transform(self):
-        return self.transform('continuous.xsl', self.tei_file)
+        return self.transform('continuous.xsl', self.file)
 
     @property
     def formatted_transform(self):
-        return self.transform('formatted.xsl', self.tei_file, indent=True, met=True)
+        return self.transform('formatted.xsl', self.file, indent=True, met=True)
 
     @property
     def neume_apparatus_transform(self):
-        return self.transform('neume-apparatus.xsl', self.tei_file)
+        return self.transform('neume-apparatus.xsl', self.file)
 
     @property
     def text_apparatus_transform(self):
-        return self.transform('text-apparatus.xsl', self.tei_file)
+        return self.transform('text-apparatus.xsl', self.file)
 
     @property
     def french_translation_transform(self):
-        return self.transform('french-translation.xsl', self.tei_file + '_PB')
+        return self.transform('french-translation.xsl', self.file + '_PB')
 
 
 class Neume(models.Model):

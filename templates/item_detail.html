@@ -10,6 +10,12 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
 
 <style>
+.resizer {
+  cursor: ew-resize;
+  height: 1200px;
+  width: 3px;
+}
+
 .tab{
   box-sizing: border-box;
   display: inline-flex;
@@ -128,19 +134,108 @@
   });
 </script>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Query the element
+    const resizer = document.getElementById('dragResizer');
+    const leftSide = resizer.previousElementSibling;
+    const rightSide = resizer.nextElementSibling;
+
+    // The current position of mouse
+    let x = 0;
+    let y = 0;
+    let leftWidth = 0;
+
+    // Handle the mousedown event
+    // that's triggered when user drags the resizer
+    const mouseDownHandler = function (e) {
+        // Get the current mouse position
+        x = e.clientX;
+        y = e.clientY;
+        leftWidth = leftSide.getBoundingClientRect().width;
+
+        // Attach the listeners to document
+        document.addEventListener('mousemove', mouseMoveHandler);
+        document.addEventListener('mouseup', mouseUpHandler);
+    };
+
+    const mouseMoveHandler = function (e) {
+        // How far the mouse has been moved
+        const dx = e.clientX - x;
+        const dy = e.clientY - y;
+
+        const newLeftWidth = ((leftWidth + dx) * 100) / resizer.parentNode.getBoundingClientRect().width;
+        leftSide.style.width = newLeftWidth + '%';
+
+        resizer.style.cursor = 'col-resize';
+        document.body.style.cursor = 'col-resize';
+
+        leftSide.style.userSelect = 'none';
+        leftSide.style.pointerEvents = 'none';
+
+        rightSide.style.userSelect = 'none';
+        rightSide.style.pointerEvents = 'none';
+    };
+
+    const mouseUpHandler = function () {
+        resizer.style.removeProperty('cursor');
+        document.body.style.removeProperty('cursor');
+
+        leftSide.style.removeProperty('user-select');
+        leftSide.style.removeProperty('pointer-events');
+
+        rightSide.style.removeProperty('user-select');
+        rightSide.style.removeProperty('pointer-events');
+
+        // Remove the handlers of mousemove and mouseup
+        document.removeEventListener('mousemove', mouseMoveHandler);
+        document.removeEventListener('mouseup', mouseUpHandler);
+    };
+
+    // Attach the handler
+    resizer.addEventListener('mousedown', mouseDownHandler);
+  });
+</script>
+
 <div style="padding: 20px; width: 100%;">
   <h1>CB {{ item.abstract_item.cb_id }}</h1>
   <h2>{{ item.title }}</h2>
   <p>Source: <a href="{{ item.source.get_absolute_url }}">{{ item.source.bib_id }}</a> ({{ item.source.location }})</p>
   <p>Folio: {{ item.foliation_str }}.</p>
 
-  {{ item.tei_file|json_script:"tei-file" }}
-
   <script src="{% static 'javascript/set_leading_consonants.js' %}"></script>
   <script src="{% static 'javascript/indent.js' %}"></script>
 
   <div style="display: flex;">
-    <div class="cbo-border-inset cbo-border-sand flex-50 flex-column">
+    <div class="cbo-border-inset cbo-border-sand flex-column" style="width: 50%;">
+      {% if item.is_svg_based %}
+      <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
+        <button id="defaultOpenLeft" class="tablinks left cbo-bar-item cbo-button" onclick="openTab(this, 'left', 'svgMusic')">Music</button>
+        <button class="tablinks left cbo-bar-item cbo-button" onclick="openTab(this, 'left', 'svgText')">Text</button>
+      </div>
+
+      <div id="svgMusic" class="tabcontent left">
+        <img src="{% static item.svg_path %}" style="width: 100%;"/>
+      </div>
+
+      <div id="svgText" class="tabcontent left">
+        {% autoescape off %}
+        {{ item.formatted_transform }}
+        {% endautoescape %}
+        <hr/>
+        {% autoescape off %}
+        {{ item.text_apparatus_transform }}
+        {% endautoescape %}
+        {% if item.is_notated %}
+          <hr class="toggle-neumes"/>
+          <div class="toggle-neumes">
+            {% autoescape off %}
+            {{ item.neume_apparatus_transform }}
+            {% endautoescape %}
+          </div>
+        {% endif %}
+      </div>
+      {% else %}
       <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
         <button id="defaultOpenLeft" class="tablinks left cbo-bar-item cbo-button" onclick="openTab(this, 'left', 'formattedText')">Formatted</button>
         <button class="tablinks left cbo-bar-item cbo-button" onclick="openTab(this, 'left', 'continuousText')">Continuous</button>
@@ -193,9 +288,12 @@
           </div>
         {% endif %}
       </div>
+      {% endif %}
     </div>
 
-    <div class="cbo-border-inset cbo-border-sand flex-50">
+    <div id="dragResizer" class="resizer"></div>
+
+    <div class="cbo-border-inset cbo-border-sand" style="flex: 1;">
       <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
         <button id="defaultOpenRight" class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'msImage')">Manuscript</button>
         <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'commentary')">Critical commentary</button>
