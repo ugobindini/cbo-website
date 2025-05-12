@@ -212,6 +212,14 @@
       <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
         <button id="defaultOpenLeft" class="tablinks left cbo-bar-item cbo-button" onclick="openTab(this, 'left', 'svgMusic')">Music</button>
         <button class="tablinks left cbo-bar-item cbo-button" onclick="openTab(this, 'left', 'svgText')">Text</button>
+        <div class="dropdown" style="z-index: 1500;">
+          <button id="dropbtnLeft" onclick="dropBtnLeft()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
+          <div id="dropdownDivLeft" class="flex-column dropdown-content">
+            <button id="toggleMetricButtonLeft" class="cbo-button">Metrical analysis</button>
+            <button id="toggleRhymeButtonLeft" class="cbo-button">Rhyme scheme</button>
+            <button id="togglePunctuationButtonLeft" class="cbo-button">Original punctuation</button>
+          </div>
+        </div>
       </div>
 
       <div id="svgMusic" class="tabcontent left">
@@ -226,14 +234,6 @@
         {% autoescape off %}
         {{ item.text_apparatus_transform }}
         {% endautoescape %}
-        {% if item.is_notated %}
-          <hr class="toggle-neumes"/>
-          <div class="toggle-neumes">
-            {% autoescape off %}
-            {{ item.neume_apparatus_transform }}
-            {% endautoescape %}
-          </div>
-        {% endif %}
       </div>
       {% else %}
       <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
@@ -353,6 +353,12 @@
     else {
       $("#toggleMetricButton").show();
       $("#toggleRhymeButton").show();
+    }
+    if (tabName == 'svgMusic') {
+      $("#dropbtnLeft").hide();
+    }
+    else {
+      $("#dropbtnLeft").show();
     }
   }
 
