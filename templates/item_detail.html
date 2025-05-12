@@ -201,7 +201,7 @@
   <h1>CB {{ item.abstract_item.cb_id }}</h1>
   <h2>{{ item.title }}</h2>
   <p>Source: <a href="{{ item.source.get_absolute_url }}">{{ item.source.bib_id }}</a> ({{ item.source.location }})</p>
-  <p>Folio: {{ item.foliation_str }}.</p>
+  <p>Folio: {{ item.foliation_str }}</p>
 
   <script src="{% static 'javascript/set_leading_consonants.js' %}"></script>
   <script src="{% static 'javascript/indent.js' %}"></script>

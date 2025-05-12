@@ -249,8 +249,8 @@ class Item(models.Model):
     """An item's instance."""
     abstract_item = models.ForeignKey(AbstractItem, on_delete=models.PROTECT, null=True)
     source = models.ForeignKey(Source, on_delete=models.RESTRICT, null=True)
-    foliation_start = models.CharField(max_length=10, help_text="First folio occupied by the item in the source.")
-    foliation_end = models.CharField(max_length=10, help_text="Last folio occupied by the item in the source.")
+    foliation_start = models.CharField(max_length=32, help_text="First folio occupied by the item in the source.")
+    foliation_end = models.CharField(max_length=32, help_text="Last folio occupied by the item in the source.")
     title = models.CharField(max_length=256, help_text="Title of the item (incipit).")
     language = models.ManyToManyField(Language)
     file = models.CharField(max_length=256, help_text="Filename (without extensions).", null=True)
