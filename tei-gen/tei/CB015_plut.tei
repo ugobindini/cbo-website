@@ -2,7 +2,7 @@
   <teiHeader></teiHeader>
   <text>
     <body>
-      <div type="poem" met="6pp+6pp/6pp+6pp/6pp+6pp/6pp+6pp/6pp+6pp/6pp+6pp" rhyme="a+b/a+b/c+d/c+d/c+d/c+d">
+      <div type="poem">
         <lg type="strophe" n="I">
           <l n="1">
             <seg type="hemistich">Celum non animum</seg>
@@ -42,7 +42,7 @@
             <seg type="hemistich">hinc tu considera</seg>
             <seg type="hemistich">quid agi censeas</seg>
           </l>
-          <l n="4" met="6pp" rhyme="c">dum res est libera</l>
+          <l n="4">dum res est libera</l>
           <l n="5">
             <seg type="hemistich">prius delibera</seg>
             <seg type="hemistich">quam factum subeas</seg>
