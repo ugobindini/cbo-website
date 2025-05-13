@@ -2,8 +2,8 @@
   <teiHeader></teiHeader>
   <text>
     <body>
-      <div type="poem">
-        <lg type="strophe" met="4pp+6pp/4pp+6pp/4pp+6pp/4pp+6pp/4pp+6pp/6pp/4pp+6pp/4p+6pp/4pp+6pp/4pp+6pp" rhyme="a+b/a+b/b+a/c+d/c+d/c/e/e/f/f">
+      <div type="poem" met="4pp+6pp/4pp+6pp/4pp+6pp/4pp+6pp/4pp+6pp/6pp/4pp+6pp/4p+6pp/4pp+6pp/4pp+6pp" rhyme="a+b/a+b/b+a/c+d/c+d/c/e/e/f/f">
+        <lg type="strophe">
           <l n="1">
             <seg type="hemistich">O varium</seg>
             <seg type="hemistich">fortune lubricum</seg>

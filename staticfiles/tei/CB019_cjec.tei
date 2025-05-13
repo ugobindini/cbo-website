@@ -1,0 +1,28 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/5pp/7pp+6p" rhyme="a/a/a/b/b+a">
+        <lg type="strophe">
+          <l n="1">
+            <seg type="hemistich">Fas et nephas ambulant</seg>
+            <seg type="hemistich">fere passu pari</seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">prodigus non redimit</seg>
+            <seg type="hemistich">vitium avari</seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">virtus temperantia</seg>
+            <seg type="hemistich">quadam singulari</seg>
+          </l>
+          <l n="4">debet medium</l>
+          <l n="5">
+            <seg type="hemistich">ad utrumque vitium</seg>
+            <seg type="hemistich">caute contemplari</seg>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

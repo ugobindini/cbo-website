@@ -3,7 +3,7 @@
   <text>
     <body>
       <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/5pp/7pp+6p" rhyme="a/a/a/b/b+a">
-        <lg type="strophe" n="II">
+        <lg type="strophe" n="I">
           <l n="1">
             <seg type="hemistich">Fas et nefas ambulant</seg>
             <seg type="hemistich">fere passu pari</seg>
@@ -22,7 +22,7 @@
             <seg type="hemistich">caute contemplari</seg>
           </l>
         </lg>
-        <lg type="strophe" n="III">
+        <lg type="strophe" n="II">
           <l n="1">
             <seg type="hemistich">Si legisse memoras</seg>
             <seg type="hemistich">ethicam Catonis</seg>
@@ -41,7 +41,7 @@
             <seg type="hemistich">quis sit dignus donis</seg>
           </l>
         </lg>
-        <lg type="strophe" n="IV">
+        <lg type="strophe" n="III">
           <l n="1">
             <seg type="hemistich">Vultu licet hilari</seg>
             <seg type="hemistich">verbo licet blando</seg>
@@ -60,7 +60,7 @@
             <seg type="hemistich">cui des et quando</seg>
           </l>
         </lg>
-        <lg type="strophe" n="V">
+        <lg type="strophe" n="IV">
           <l n="1">
             <seg type="hemistich">Dare non ut convenit</seg>
             <seg type="hemistich">non est a virtute</seg>
@@ -79,7 +79,7 @@
             <seg type="hemistich">intus et in cute</seg>
           </l>
         </lg>
-        <lg type="strophe" n="VI">
+        <lg type="strophe" n="V">
           <l n="1">
             <seg type="hemistich">Si prudenter triticum</seg>
             <seg type="hemistich">paleis emundas</seg>
