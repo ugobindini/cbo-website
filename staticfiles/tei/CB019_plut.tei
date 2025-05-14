@@ -6,11 +6,11 @@
         <lg type="strophe" n="I">
           <l n="1">
             <seg type="hemistich">Fas et nefas ambulant</seg>
-            <seg type="hemistich">fere passu pari</seg>
+            <seg type="hemistich">fere passu pari<pc>&#183;</pc></seg>
           </l>
           <l n="2">
             <seg type="hemistich">prodigus non redimit</seg>
-            <seg type="hemistich">vitium avari</seg>
+            <seg type="hemistich">vitium avari<pc>&#183;</pc></seg>
           </l>
           <l n="3">
             <seg type="hemistich">virtus temperantia</seg>
@@ -19,7 +19,7 @@
           <l n="4">debet medium</l>
           <l n="5">
             <seg type="hemistich">ad utrumque vitium</seg>
-            <seg type="hemistich">caute contemplari</seg>
+            <seg type="hemistich">caute contemplari<pc>&#183;</pc></seg>
           </l>
         </lg>
         <lg type="strophe" n="II">
@@ -29,16 +29,16 @@
           </l>
           <l n="2">
             <seg type="hemistich">in qua scriptum legitur</seg>
-            <seg type="hemistich">ambula cum bonis</seg>
+            <seg type="hemistich">ambula cum bonis<pc>&#183;</pc></seg>
           </l>
           <l n="3">
             <seg type="hemistich">cum ad dandi gloriam</seg>
-            <seg type="hemistich">animum disponis</seg>
+            <seg type="hemistich">animum disponis<pc>&#183;</pc></seg>
           </l>
           <l n="4">supra cetera</l>
           <l n="5">
             <seg type="hemistich">primum hoc considera</seg>
-            <seg type="hemistich">quis sit dignus donis</seg>
+            <seg type="hemistich">quis sit dignus donis<pc>&#183;</pc></seg>
           </l>
         </lg>
         <lg type="strophe" n="III">
@@ -47,55 +47,55 @@
             <seg type="hemistich">verbo licet blando</seg>
           </l>
           <l n="2">
-            <seg type="hemistich">sis equalis omnibus</seg>
-            <seg type="hemistich">unum tamen mando</seg>
+            <seg type="hemistich">sis equalis omnibus<pc>&#61936;</pc></seg>
+            <seg type="hemistich">unum tamen mando<pc>&#183;</pc></seg>
           </l>
           <l n="3">
             <seg type="hemistich">si vis recte gloriam</seg>
-            <seg type="hemistich">promereri dando</seg>
+            <seg type="hemistich">promereri dando<pc>&#61936;</pc></seg>
           </l>
           <l n="4">primum videas</l>
           <l n="5">
             <seg type="hemistich">granum inter paleas</seg>
-            <seg type="hemistich">cui des et quando</seg>
+            <seg type="hemistich">cui des et quando<pc>&#183;</pc></seg>
           </l>
         </lg>
         <lg type="strophe" n="IV">
           <l n="1">
             <seg type="hemistich">Dare non ut convenit</seg>
-            <seg type="hemistich">non est a virtute</seg>
+            <seg type="hemistich">non est a virtute<pc>&#183;</pc></seg>
           </l>
           <l n="2">
             <seg type="hemistich">bonum est secundum</seg>
-            <seg type="hemistich">quid sed non absolute</seg>
+            <seg type="hemistich">quid sed non absolute<pc>&#183;</pc></seg>
           </l>
           <l n="3" rhyme="b+a">
-            <seg type="hemistich">digne dare poteris</seg>
-            <seg type="hemistich">et mereri tute</seg>
+            <seg type="hemistich">digne dare poteris<pc>&#183;</pc></seg>
+            <seg type="hemistich">et mereri tute<pc>&#183;</pc></seg>
           </l>
-          <l n="4" met="7pp" rhyme="c">famam emis munere</l>
+          <l n="4" met="7pp" rhyme="c">famam emis munere<pc>&#61936;</pc></l>
           <l n="5">
             <seg type="hemistich">si me prius noveris</seg>
-            <seg type="hemistich">intus et in cute</seg>
+            <seg type="hemistich">intus et in cute<pc>&#183;</pc></seg>
           </l>
         </lg>
         <lg type="strophe" n="V">
           <l n="1">
             <seg type="hemistich">Si prudenter triticum</seg>
-            <seg type="hemistich">paleis emundas</seg>
+            <seg type="hemistich">paleis emundas<pc>&#183;</pc></seg>
           </l>
           <l n="2">
-            <seg type="hemistich">famam emis munere</seg>
+            <seg type="hemistich">famam emis munere<pc>&#183;</pc></seg>
             <seg type="hemistich">sed caveto cum das</seg>
           </l>
           <l n="3">
             <seg type="hemistich">largitatis oleum</seg>
-            <seg type="hemistich">male ne effundas</seg>
+            <seg type="hemistich">male ne effundas<pc>&#183;</pc></seg>
           </l>
           <l n="4" met="4pp">in glorior</l>
           <l n="5">
             <seg type="hemistich">quia codro codrior</seg>
-            <seg type="hemistich">omnibus habundas.</seg>
+            <seg type="hemistich">omnibus habundas<pc>&#183;</pc></seg>
           </l>
         </lg>
       </div>

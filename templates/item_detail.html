@@ -71,71 +71,19 @@
 </style>
 
 <script>
-  $(document).ready(function(){
-    $("#stressedSyllablesButton").click(function(){
-      $(".syl[data-met='+']").toggleClass("font-bold");
+  // Control the behaviour of different classes of buttons
+  $(document).ready(function() {
+    $(".activable").click(function() {
+      $(this).addClass('active');
+    });
+
+    $(".toggleable").click(function() {
+      $(this).toggleClass('active');
     });
   });
 
-  $(document).ready(function(){
-    $("#toggleNeumesButtonLeft").click(function(){
-      $(this).toggleClass("active");
-      $(".neumes").toggle();
-      $(".toggle-neumes").toggle();
-      $(".app-type-neume").toggleClass("apparatus-visible");
-    });
-  });
-
-  $(document).ready(function(){
-    $("#toggleSyllablesButtonLeft").click(function(){
-      $(this).toggleClass("active");
-      $(".syl-dash").toggle();
-    });
-  });
-
-  $(document).ready(function(){
-    $("#toggleMetricButtonLeft").click(function(){
-      $(this).toggleClass("active");
-      $(".verse-met").toggle();
-      $(".verse-real").toggle();
-    });
-  });
-
-  $(document).ready(function(){
-    $("#toggleRhymeButtonLeft").click(function(){
-      $(this).toggleClass("active");
-      $(".verse-rhyme").toggle();
-    });
-  });
-
-  $(document).ready(function(){
-    $("#togglePunctuationButtonLeft").click(function(){
-      $(this).toggleClass("active");
-      $(".pc").toggle();
-    });
-  });
-
-  function dropBtnLeft() {
-    $("#dropdownDivLeft").toggle();
-  }
-
-  window.onclick = function(event) {
-    if (!event.target.matches('#dropbtnLeft') && !event.target.matches('#dropdownDivLeft > .cbo-button')) {
-      $("#dropdownDivLeft").hide();
-    }
-  }
-
-  $(document).ready(function(){
-    $(".pc[data-resp='ms']").hide();
-    $(".syl-dash").hide();
-    $(".verse-met").hide();
-    $(".verse-real").hide();
-    $(".verse-rhyme").hide();
-  });
-</script>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
+  // This function controls the horizontal window resizer
+  $(document).ready(function() {
     // Query the element
     const resizer = document.getElementById('dragResizer');
     const leftSide = resizer.previousElementSibling;
@@ -208,111 +156,17 @@
 
   <div style="display: flex;">
     <div class="cbo-border-inset cbo-border-sand flex-column" style="width: 50%;">
-      {% if item.is_svg_based %}
-      <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
-        <button id="defaultOpenLeft" class="tablinks left cbo-bar-item cbo-button" onclick="openTab(this, 'left', 'svgMusic')">Music</button>
-        <button class="tablinks left cbo-bar-item cbo-button" onclick="openTab(this, 'left', 'svgText')">Text</button>
-        <div class="dropdown" style="z-index: 1500;">
-          <button id="dropbtnLeft" onclick="dropBtnLeft()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
-          <div id="dropdownDivLeft" class="flex-column dropdown-content">
-            <button id="toggleMetricButtonLeft" class="cbo-button">Metrical analysis</button>
-            <button id="toggleRhymeButtonLeft" class="cbo-button">Rhyme scheme</button>
-            <button id="togglePunctuationButtonLeft" class="cbo-button">Original punctuation</button>
-          </div>
-        </div>
-      </div>
-
-      <div id="svgMusic" class="tabcontent left">
-        <img src="{% static item.svg_path %}" style="width: 100%;"/>
-      </div>
-
-      <div id="svgText" class="tabcontent left">
-        {% autoescape off %}
-        {{ item.formatted_transform }}
-        {% endautoescape %}
-        <hr/>
-        {% autoescape off %}
-        {{ item.text_apparatus_transform }}
-        {% endautoescape %}
-      </div>
-      {% else %}
-      <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
-        <button id="defaultOpenLeft" class="tablinks left cbo-bar-item cbo-button" onclick="openTab(this, 'left', 'formattedText')">Formatted</button>
-        <button class="tablinks left cbo-bar-item cbo-button" onclick="openTab(this, 'left', 'continuousText')">Continuous</button>
-        <div class="dropdown" style="z-index: 1500;">
-          <button id="dropbtnLeft" onclick="dropBtnLeft()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
-          <div id="dropdownDivLeft" class="flex-column dropdown-content">
-            {% if item.is_notated %}
-            <button id="toggleNeumesButtonLeft" class="cbo-button active">Neumes</button>
-            {% endif %}
-            <button id="toggleSyllablesButtonLeft" class="cbo-button">Syllables</button>
-            <button id="toggleMetricButtonLeft" class="cbo-button">Metrical analysis</button>
-            <button id="toggleRhymeButtonLeft" class="cbo-button">Rhyme scheme</button>
-            <button id="togglePunctuationButtonLeft" class="cbo-button">Original punctuation</button>
-          </div>
-        </div>
-      </div>
-
-      <div id="formattedText" class="tabcontent left">
-        {% autoescape off %}
-        {{ item.formatted_transform }}
-        {% endautoescape %}
-        <hr/>
-        {% autoescape off %}
-        {{ item.text_apparatus_transform }}
-        {% endautoescape %}
-        {% if item.is_notated %}
-          <hr class="toggle-neumes"/>
-          <div class="toggle-neumes">
-            {% autoescape off %}
-            {{ item.neume_apparatus_transform }}
-            {% endautoescape %}
-          </div>
-        {% endif %}
-      </div>
-
-      <div id="continuousText" class="tabcontent left">
-        {% autoescape off %}
-        {{ item.continuous_transform }}
-        {% endautoescape %}
-        <hr/>
-        {% autoescape off %}
-        {{ item.text_apparatus_transform }}
-        {% endautoescape %}
-        {% if item.is_notated %}
-          <hr class="toggle-neumes"/>
-          <div class="toggle-neumes">
-            {% autoescape off %}
-            {{ item.neume_apparatus_transform }}
-            {% endautoescape %}
-          </div>
-        {% endif %}
-      </div>
-      {% endif %}
+      {% include "item_core_view.html" with item=item %}
     </div>
 
     <div id="dragResizer" class="resizer"></div>
 
     <div class="cbo-border-inset cbo-border-sand" style="flex: 1;">
-      <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
-        <button id="defaultOpenRight" class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'msImage')">Manuscript</button>
-        <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'commentary')">Critical commentary</button>
-        <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'translation')">French translation</button>
-        <button class="tablinks right cbo-bar-item cbo-button" onclick="openTab(this, 'right', 'itemRight')">Item...</button>
-        <div class="dropdown">
-          <button id="dropbtnRight" onclick="dropBtnRight()" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
-          <div id="dropdownDivRight" class="flex-column dropdown-content">
-            <!--
-            {% if item.is_notated %}
-            <button id="toggleNeumesButton" class="cbo-button active">Neumes</button>
-            {% endif %}
-            <button id="toggleSyllablesButton" class="cbo-button">Syllables</button>
-            <button id="toggleMetricButton" class="cbo-button">Metrical analysis</button>
-            <button id="toggleRhymeButton" class="cbo-button">Rhyme scheme</button>
-            <button id="togglePunctuationButton" class="cbo-button">Original punctuation</button>
-            -->
-          </div>
-        </div>
+      <div class="tab cbo-white cbo-wide cbo-padding cbo-card right">
+        <button id="defaultOpenRight" class="tablinks cbo-bar-item cbo-button activable" onclick="openRightTab(this, 'msImage')">Manuscript</button>
+        <button class="tablinks cbo-bar-item cbo-button activable" onclick="openRightTab(this, 'commentary')">Critical commentary</button>
+        <button class="tablinks cbo-bar-item cbo-button activable" onclick="openRightTab(this, 'translation')">French translation</button>
+        <button class="tablinks cbo-bar-item cbo-button activable" onclick="openRightTab(this, 'itemRight')">Item...</button>
       </div>
 
       <div id="msImage" class="tabcontent right">
@@ -341,29 +195,16 @@
 </div>
 
 <script>
-  function openTab(tab, side, tabName) {
-    $('.tabcontent.' + side).hide();
-    $('.tablinks.' + side).removeClass('active');
+  function openRightTab(tab, tabName) {
+    $('.tabcontent.right').hide();
+    $('.right > .tablinks').removeClass('active');
     $("#" + tabName).css("display","block");
-    $(tab).addClass("active");
-    if (tabName == 'continuousText') {
-      $("#toggleMetricButton").hide();
-      $("#toggleRhymeButton").hide();
-    }
-    else {
-      $("#toggleMetricButton").show();
-      $("#toggleRhymeButton").show();
-    }
-    if (tabName == 'svgMusic') {
-      $("#dropbtnLeft").hide();
-    }
-    else {
-      $("#dropbtnLeft").show();
-    }
+    $(tab).addClass('active');
   }
 
-  $("#defaultOpenLeft").click();
-  $("#defaultOpenRight").click();
+  $(document).ready(function() {
+    $("#defaultOpenRight").click();
+  });
 </script>
 
 <script>

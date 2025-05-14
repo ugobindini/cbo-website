@@ -1,0 +1,166 @@
+{% load static %}
+
+<script>
+  $(document).ready(function(){
+    $("#dropBtn-{{ item.pk }}").click(function () {
+      $("#dropdownDiv-{{ item.pk }}").toggle();
+    });
+
+    $("#openSvg-{{ item.pk }}").click(function(){
+      $("#openText-{{ item.pk }}").removeClass('active');
+      $("#text-{{ item.pk }}").hide();
+      $("#svg-{{ item.pk }}").css("display","block");
+    });
+
+    $("#openText-{{ item.pk }}").click(function(){
+      $("#openSvg-{{ item.pk }}").removeClass('active');
+      $("#svg-{{ item.pk }}").hide();
+      $("#text-{{ item.pk }}").css("display","block");
+    });
+
+    $("#openFormattedText-{{ item.pk }}").click(function(){
+      $("#openContinuousText-{{ item.pk }}").removeClass('active');
+      $("#continuousText-{{ item.pk }}").hide();
+      $("#formattedText-{{ item.pk }}").css("display","block");
+    });
+
+    $("#openContinuousText-{{ item.pk }}").click(function(){
+      $("#openFormattedText-{{ item.pk }}").removeClass('active');
+      $("#formattedText-{{ item.pk }}").hide();
+      $("#continuousText-{{ item.pk }}").css("display","block");
+    });
+
+    $("#stressedSyllablesButton-{{ item.pk }}").click(function(){
+      $("#itemCoreView-{{ item.pk }} .syl[data-met='+']").toggleClass("font-bold");
+    });
+
+    $("#toggleNeumesButton-{{ item.pk }}").click(function(){
+      $("#itemCoreView-{{ item.pk }} .neumes").toggle();
+      $("#itemCoreView-{{ item.pk }} .toggle-neumes").toggle();
+      $("#itemCoreView-{{ item.pk }} .app-type-neume").toggleClass("apparatus-visible");
+    });
+
+    $("#toggleSyllablesButton-{{ item.pk }}").click(function(){
+      $("#itemCoreView-{{ item.pk }} .syl-dash").toggle();
+    });
+
+    $("#toggleMetricButton-{{ item.pk }}").click(function(){
+      $("#itemCoreView-{{ item.pk }} .verse-met").toggle();
+      $("#itemCoreView-{{ item.pk }} .verse-real").toggle();
+    });
+
+    $("#toggleRhymeButton-{{ item.pk }}").click(function(){
+      $("#itemCoreView-{{ item.pk }} .verse-rhyme").toggle();
+    });
+
+    $("#togglePunctuationButton-{{ item.pk }}").click(function(){
+      $("#itemCoreView-{{ item.pk }} .pc").toggle();
+    });
+  });
+
+  window.onclick = function(event) {
+    if (!event.target.matches('#dropBtn-{{ item.pk }}') && !event.target.matches('#dropdownDiv-{{ item.pk }} > .cbo-button')) {
+      $("#dropdownDiv-{{ item.pk }}").hide();
+    }
+  }
+
+  $(document).ready(function(){
+    $("#openSvg-{{ item.pk }}").click();
+    $("#openFormattedText-{{ item.pk }}").click();
+    $("#itemCoreView-{{ item.pk }} .pc[data-resp='ms']").hide();
+    $("#itemCoreView-{{ item.pk }} .syl-dash").hide();
+    $("#itemCoreView-{{ item.pk }} .verse-met").hide();
+    $("#itemCoreView-{{ item.pk }} .verse-real").hide();
+    $("#itemCoreView-{{ item.pk }} .verse-rhyme").hide();
+  });
+</script>
+
+<div id="itemCoreView-{{ item.pk }}">
+
+  {% if item.is_svg_based %}
+
+  <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
+    <button id="openSvg-{{ item.pk }}" class="tablinks cbo-bar-item cbo-button activable">Music</button>
+    <button id="openText-{{ item.pk }}" class="tablinks cbo-bar-item cbo-button activable">Text</button>
+    <div class="dropdown" style="z-index: 1500;">
+      <button id="dropBtn-{{ item.pk }}" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
+      <div id="dropdownDiv-{{ item.pk }}" class="flex-column dropdown-content">
+        <button id="toggleMetricButton-{{ item.pk }}" class="cbo-button toggleable">Metrical analysis</button>
+        <button id="toggleRhymeButton-{{ item.pk }}" class="cbo-button toggleable">Rhyme scheme</button>
+        <button id="togglePunctuationButton-{{ item.pk }}" class="cbo-button toggleable">Original punctuation</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="svg-{{ item.pk }}" class="tabcontent">
+    <img src="{% static item.svg_path %}" style="width: 100%;"/>
+  </div>
+
+  <div id="text-{{ item.pk }}" class="tabcontent">
+    {% autoescape off %}
+    {{ item.formatted_transform }}
+    {% endautoescape %}
+    <hr/>
+    {% autoescape off %}
+    {{ item.text_apparatus_transform }}
+    {% endautoescape %}
+  </div>
+
+  {% else %}
+
+  <div class="tab cbo-white cbo-wide cbo-padding cbo-card">
+    <button id="openFormattedText-{{ item.pk }}" class="tablinks cbo-bar-item cbo-button activable">Formatted</button>
+    <button id="openContinuousText-{{ item.pk }}"class="tablinks cbo-bar-item cbo-button activable">Continuous</button>
+    <div class="dropdown" style="z-index: 1500;">
+      <button id="dropBtn-{{ item.pk }}" class="cbo-bar-item cbo-button"><i style="pointer-events: none;" class="fa fa-bars"></i></button>
+      <div id="dropdownDiv-{{ item.pk }}" class="flex-column dropdown-content">
+        {% if item.is_notated %}
+        <button id="toggleNeumesButton-{{ item.pk }}" class="cbo-button toggleable active">Neumes</button>
+        {% endif %}
+        <button id="toggleSyllablesButton-{{ item.pk }}" class="cbo-button toggleable">Syllables</button>
+        <button id="toggleMetricButton-{{ item.pk }}" class="cbo-button toggleable">Metrical analysis</button>
+        <button id="toggleRhymeButton-{{ item.pk }}" class="cbo-button toggleable">Rhyme scheme</button>
+        <button id="togglePunctuationButton-{{ item.pk }}" class="cbo-button toggleable">Original punctuation</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="formattedText-{{ item.pk }}" class="tabcontent">
+    {% autoescape off %}
+    {{ item.formatted_transform }}
+    {% endautoescape %}
+    <hr/>
+    {% autoescape off %}
+    {{ item.text_apparatus_transform }}
+    {% endautoescape %}
+    {% if item.is_notated %}
+    <hr class="toggle-neumes"/>
+    <div class="toggle-neumes">
+      {% autoescape off %}
+      {{ item.neume_apparatus_transform }}
+      {% endautoescape %}
+    </div>
+    {% endif %}
+  </div>
+
+  <div id="continuousText-{{ item.pk }}" class="tabcontent">
+    {% autoescape off %}
+    {{ item.continuous_transform }}
+    {% endautoescape %}
+    <hr/>
+    {% autoescape off %}
+    {{ item.text_apparatus_transform }}
+    {% endautoescape %}
+    {% if item.is_notated %}
+    <hr class="toggle-neumes"/>
+    <div class="toggle-neumes">
+      {% autoescape off %}
+      {{ item.neume_apparatus_transform }}
+      {% endautoescape %}
+    </div>
+    {% endif %}
+  </div>
+
+  {% endif %}
+
+</div>
