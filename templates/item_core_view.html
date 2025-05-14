@@ -1,6 +1,17 @@
 {% load static %}
 
 <script>
+  // Control the behaviour of different classes of buttons
+  $(document).ready(function() {
+    $(".activable").click(function() {
+      $(this).addClass('active');
+    });
+
+    $(".toggleable").click(function() {
+      $(this).toggleClass('active');
+    });
+  });
+
   $(document).ready(function(){
     $("#dropBtn-{{ item.pk }}").click(function () {
       $("#dropdownDiv-{{ item.pk }}").toggle();
@@ -74,6 +85,9 @@
     $("#itemCoreView-{{ item.pk }} .verse-rhyme").hide();
   });
 </script>
+
+<script src="{% static 'javascript/set_leading_consonants.js' %}"></script>
+<script src="{% static 'javascript/indent.js' %}"></script>
 
 <div id="itemCoreView-{{ item.pk }}">
 

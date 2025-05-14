@@ -71,17 +71,6 @@
 </style>
 
 <script>
-  // Control the behaviour of different classes of buttons
-  $(document).ready(function() {
-    $(".activable").click(function() {
-      $(this).addClass('active');
-    });
-
-    $(".toggleable").click(function() {
-      $(this).toggleClass('active');
-    });
-  });
-
   // This function controls the horizontal window resizer
   $(document).ready(function() {
     // Query the element
@@ -151,9 +140,6 @@
   <p>Source: <a href="{{ item.source.get_absolute_url }}">{{ item.source.bib_id }}</a> ({{ item.source.location }})</p>
   <p>Folio: {{ item.foliation_str }}</p>
 
-  <script src="{% static 'javascript/set_leading_consonants.js' %}"></script>
-  <script src="{% static 'javascript/indent.js' %}"></script>
-
   <div style="display: flex;">
     <div class="cbo-border-inset cbo-border-sand flex-column" style="width: 50%;">
       {% include "item_core_view.html" with item=item %}
@@ -166,7 +152,7 @@
         <button id="defaultOpenRight" class="tablinks cbo-bar-item cbo-button activable" onclick="openRightTab(this, 'msImage')">Manuscript</button>
         <button class="tablinks cbo-bar-item cbo-button activable" onclick="openRightTab(this, 'commentary')">Critical commentary</button>
         <button class="tablinks cbo-bar-item cbo-button activable" onclick="openRightTab(this, 'translation')">French translation</button>
-        <button class="tablinks cbo-bar-item cbo-button activable" onclick="openRightTab(this, 'itemRight')">Item...</button>
+        <button id="itemsRight" class="tablinks cbo-bar-item cbo-button activable" onclick="openRightTab(this, 'itemRight')">Item...</button>
       </div>
 
       <div id="msImage" class="tabcontent right">
@@ -188,7 +174,21 @@
       </div>
 
       <div id="itemRight" class="tabcontent right">
-        In preparation...
+        <table id="itemsTable">
+          {% for x in other_items %}
+          <tr>
+            <td style="white-space: nowrap;">CB {{ x.abstract_item.cb_id }}</td>
+            <td class="truncate"><a href="javascript:openItemRight({{ x.pk }});">{{ x.title }}</a></td>
+            <td style="white-space: nowrap;">{{ x.source.bib_id }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+        <div id="itemRightNav" style="display: flex; align-items: center;">
+          <a href="javascript:itemsRightBack()" style="margin-left: 10px;"><i class="fa fa-arrow-left" style="margin-right: 5px;"></i>Back to items' list</a>
+          <div style="flex: 1; height: 50px;"></div>
+          <a id="itemRightDetailView" href="blank"  style="margin-right: 10px;">Open item's detailed view<i class="fa fa-arrow-right" style="margin-left: 5px;"></i></a>
+        </div>
+        <div id="selectedItemRight"></div>
       </div>
     </div>
   </div>
@@ -200,10 +200,27 @@
     $('.right > .tablinks').removeClass('active');
     $("#" + tabName).css("display","block");
     $(tab).addClass('active');
+    $("#itemsTable").show();
+    $("#selectedItemRight").hide();
+    $("#itemRightNav").hide();
+  }
+
+  function openItemRight(pk) {
+    $("#itemsTable").hide();
+    $("#selectedItemRight").load("/browse/item-core-view/" + pk);
+    $("#itemRightDetailView").attr("href", "/browse/item/" + pk);
+    $("#selectedItemRight").show();
+    $("#itemRightNav").show();
+  }
+
+  function itemsRightBack() {
+    $("#itemsRight").click();
   }
 
   $(document).ready(function() {
     $("#defaultOpenRight").click();
+    $("#selectedItemRight").hide();
+    $("#itemRightNav").hide();
   });
 </script>
 

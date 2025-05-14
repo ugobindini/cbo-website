@@ -26,6 +26,11 @@ def browse_index(request):
     return render(request, 'browse_index.html', context=context)
 
 
+def item_core_view(request, pk):
+    item = Item.objects.get(pk=pk)
+    return render(request, 'item_core_view.html', context={'item': item})
+
+
 from django.views import generic
 
 
@@ -52,6 +57,10 @@ class ItemDetailView(generic.DetailView):
     model = Item
     template_name = 'item_detail.html'
 
+    def get_context_data(self, **kwargs):
+        context = super(ItemDetailView, self).get_context_data(**kwargs)
+        context['other_items'] = Item.objects.all()
+        return context
 
 class NeumeListView(generic.ListView):
     model = Neume
