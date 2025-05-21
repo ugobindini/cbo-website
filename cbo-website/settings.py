@@ -130,3 +130,5 @@ else:
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 ALLOWED_HOSTS = ['127.0.0.1', 'cbo.pythonanywhere.com']
+
+X_FRAME_OPTIONS = 'SAMEORIGIN'

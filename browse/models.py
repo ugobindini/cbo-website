@@ -209,7 +209,7 @@ class Source(models.Model):
     url = models.CharField(max_length=512, help_text="External url to access the source images.", blank=True)
     concordances = models.TextField(help_text="Concordances with the Codex Buranus.", blank=True)
     notes = models.TextField(help_text="Additional notes on the source.", blank=True)
-    IIIF_manifest = models.CharField(max_length=512, help_text="URL of the IIIF manifest.", blank=True)
+    IIIF_manifest = models.CharField(max_length=1024, help_text="URL of the IIIF manifest.", blank=True)
 
     class Meta:
         ordering = ['country', 'location', 'bib_id']
@@ -249,12 +249,13 @@ class Item(models.Model):
     """An item's instance."""
     abstract_item = models.ForeignKey(AbstractItem, on_delete=models.PROTECT, null=True)
     source = models.ForeignKey(Source, on_delete=models.RESTRICT, null=True)
-    foliation_start = models.CharField(max_length=32, help_text="First folio occupied by the item in the source.")
-    foliation_end = models.CharField(max_length=32, help_text="Last folio occupied by the item in the source.")
+    foliation_start = models.CharField(max_length=64, help_text="First folio occupied by the item in the source.")
+    foliation_end = models.CharField(max_length=64, help_text="Last folio occupied by the item in the source.")
     title = models.CharField(max_length=256, help_text="Title of the item (incipit).")
     language = models.ManyToManyField(Language)
-    file = models.CharField(max_length=256, help_text="Filename (without extensions).", null=True)
+    file = models.CharField(max_length=64, help_text="Filename (without extensions).", null=True)
     IIIF_canvas = models.CharField(max_length=256, help_text="IIIF canvas index of the item.", blank=True)
+    alternative_img_link = models.CharField(max_length=1024, help_text="Alternative link for source images (if IIIF is not available).", blank=True)
 
     class Meta:
         ordering = [Length('abstract_item__cb_id'), 'abstract_item__cb_id']

@@ -156,7 +156,43 @@
       </div>
 
       <div id="msImage" class="tabcontent right">
+        {% if not item.source.IIIF_manifest %}
+        Unable to display manuscript images due to copyright restrictions.
+        <a target="_blank" href="{{ item.alternative_img_link }}"><i class="fa fa-arrow-right" style="margin-right: 5px;"></i>Open external website.</a>
+        <!--<div style="width: 100%; height: 100%;">
+          <embed style="width: 100%; height: 100%;" src="{{ item.alternative_img_link }}" />
+        </div>-->
+        {% else %}
         <div id="mirador" style="position: relative; width: 100%; height: 1000px;"></div>
+        <script>
+          var source_manifest = "{{ item.source.IIIF_manifest }}";
+          var canvas = "{{ item.IIIF_canvas }}"
+          var mirador = Mirador.viewer({
+            "id": "mirador",
+            selectedTheme: 'light',
+            window: {
+              defaultView: "single",
+              views: [
+                { key: "single", behaviors: ["individuals", "paged"] },
+                { key: "book", behaviors: ["individuals"] },
+                { key: "scroll", behaviors: ["continuous"] },
+                { key: "gallery" }
+              ]
+            },
+            windows: [
+              {
+                manifestId: source_manifest,
+                canvasIndex: canvas
+              }
+            ],
+            catalog: [
+              {
+                manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00085130/manifest"
+              },
+            ]
+          });
+        </script>
+        {% endif %}
       </div>
 
       <div id="commentary" class="tabcontent right">
@@ -165,9 +201,9 @@
 
       <div id="translation" class="tabcontent right">
         {% if item.is_translated %}
-          {% autoescape off %}
-          {{ item.french_translation_transform }}
-          {% endautoescape %}
+        {% autoescape off %}
+        {{ item.french_translation_transform }}
+        {% endautoescape %}
         {% else %}
         In preparation...
         {% endif %}
@@ -222,35 +258,6 @@
     $("#selectedItemRight").hide();
     $("#itemRightNav").hide();
   });
-</script>
-
-<script>
-var source_manifest = "{{ item.source.IIIF_manifest }}";
-var canvas = "{{ item.IIIF_canvas }}"
-var mirador = Mirador.viewer({
-  "id": "mirador",
-  selectedTheme: 'light',
-  window: {
-    defaultView: "single",
-    views: [
-      { key: "single", behaviors: ["individuals", "paged"] },
-      { key: "book", behaviors: ["individuals"] },
-      { key: "scroll", behaviors: ["continuous"] },
-      { key: "gallery" }
-    ]
-  },
-  windows: [
-    {
-      manifestId: source_manifest,
-      canvasIndex: canvas
-    }
-  ],
-  catalog: [
-    {
-      manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00085130/manifest"
-    },
-  ]
-});
 </script>
 
 {% endblock %}
