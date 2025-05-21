@@ -53,7 +53,7 @@ class Word:
         self.pc = None
         x = 1
         char = ""
-        while not word[-x].isalpha():
+        while x <= len(word) and not word[-x].isalpha():
             char += word[-x]
             x += 1
         if len(char):
@@ -76,13 +76,14 @@ class Word:
         # returns a list, because sometimes we have to admit <pc> elements as well
         w = ET.Element("w")
         if plain:
-            w.text = self.word
+            w.text = self.word + self.pc.char
+            return [w]
         else:
             w.extend([syllable.tei() for syllable in self.syllables])
-        if self.pc is not None:
-            return [w, self.pc.tei()]
-        else:
-            return [w]
+            if self.pc is not None:
+                return [w, self.pc.tei()]
+            else:
+                return [w]
 
 
 class Segment:
