@@ -10,6 +10,15 @@ tex_verse_break = "{\\versebreak}"
 tex_strophe_break = "{\\strophebreak}"
 tex_ms_break = "{\\msbreak}"
 
+class PunctuationCharacter:
+    def __init__(self, char: str):
+        self.char = char
+
+    def tei(self):
+        pc = ET.Element("pc", attrib={'resp': '#editor'})
+        pc.text = self.char
+        return pc
+
 class Syllable:
     def __init__(self, syllable: str, part: Union[str, None] = None):
         """
@@ -39,21 +48,41 @@ class Word:
         assert not word.__contains__(" ")
         self.word = word
         syllables = word.split("-")
+
+        # check for punctuation characters
+        self.pc = None
+        x = 1
+        char = ""
+        while not word[-x].isalpha():
+            char += word[-x]
+            x += 1
+        if len(char):
+            self.pc = PunctuationCharacter(char)
+
+        # remove punctuation from last syllable
+        if x > 1:
+            syllables[-1] = syllables[-1][:-x+1]
+
         if len(syllables) <= 1:
             self.syllables = [Syllable(syl) for syl in syllables]
         else:
             self.syllables = [Syllable(syllables[0], part='I')] + [Syllable(syl, part='M') for syl in syllables[1:-1]] + [Syllable(syllables[-1], part='F')]
 
+
     def tex(self):
         return "".join([syllable.tex() for syllable in self.syllables])
 
     def tei(self, plain=False):
-        segment = ET.Element("w")
+        # returns a list, because sometimes we have to admit <pc> elements as well
+        w = ET.Element("w")
         if plain:
-            segment.text = self.word
+            w.text = self.word
         else:
-            segment.extend([syllable.tei() for syllable in self.syllables])
-        return segment
+            w.extend([syllable.tei() for syllable in self.syllables])
+        if self.pc is not None:
+            return [w, self.pc.tei()]
+        else:
+            return [w]
 
 
 class Segment:
@@ -73,7 +102,8 @@ class Segment:
         if plain:
             segment.text = self.segment
         else:
-            segment.extend([word.tei(plain) for word in self.words])
+            import itertools
+            segment.extend(list(itertools.chain.from_iterable([word.tei(plain) for word in self.words])))
         return segment
 
 

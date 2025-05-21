@@ -1,27 +1,27 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
         <lg type="strophe" n="I">
-          <l n="1">Aux portes de l’été</l>
-          <l n="2" rend="indent(1)">l’Amour nous salue,</l>
-          <l n="3">la terre colorée de fleurs</l>
+          <l n="1">Aux portes de l&#8217;&#233;t&#233;</l>
+          <l n="2" rend="indent(1)">l&#8217;Amour nous salue,</l>
+          <l n="3">la terre color&#233;e de fleurs</l>
           <l n="4" rend="indent(1)">change de figure.</l>
-          <l n="5">Déjà, porteuses d’amour,</l>
+          <l n="5">D&#233;j&#224;, porteuses d&#8217;amour,</l>
           <l n="6">les fleurs sourient au beau temps ;</l>
           <l n="7">la fleur de la tendre jeunesse</l>
-          <l n="8">se fane si manque l’Amour.</l>
+          <l n="8">se fane si manque l&#8217;Amour.</l>
         </lg>
         <lg type="strophe" n="II">
           <l n="1">Le jour du printemps est celui</l>
           <l n="2" rend="indent(1)">du commencement de tout,</l>
-          <l n="3">au printemps le monde célèbre</l>
+          <l n="3">au printemps le monde c&#233;l&#232;bre</l>
           <l n="4" rend="indent(1)">son propre anniversaire.</l>
           <l n="5">Tous les jours de cette saison</l>
-          <l n="6">sont bien la fête de Vénus,</l>
+          <l n="6">sont bien la f&#234;te de V&#233;nus,</l>
           <l n="7">que tous les royaumes de Zeus</l>
-          <l n="8">célèbrent ces solennités !</l>
+          <l n="8">c&#233;l&#232;brent ces solennit&#233;s !</l>
         </lg>
       </div>
     </body>

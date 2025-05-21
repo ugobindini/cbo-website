@@ -1,0 +1,1471 @@
+<TEI>
+  <teiHeader />
+  <text>
+    <body>
+      <div type="poem" met="6pp+6p/6pp+6p/6pp+6p/6pp+6p/6pp+6p/6pp+6p" rhyme="a+b/a+b/c+d/c+d/c+d/c+d">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">Ce<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">lum<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <pc resp="#editor">,</pc>
+              <w>
+                <seg type="syll">non<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">a<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">ni<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">mum<notatedMusic>
+                  <neume fontname="buranus" glyph.num="4" label="ds" />
+                </notatedMusic>
+                </seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">mu<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">tat<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">sta<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">bi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">li<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">tas<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">fir<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">mans<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <app type="text">
+                <lem wit="HS T">
+                  <w>
+                    <seg type="syll">id<notatedMusic>
+                      <neume fontname="buranus" glyph.num="6" label="vi" />
+                    </notatedMusic>
+                    </seg>
+                  </w>
+                </lem>
+                <rdg wit="cod. V"><w>hiis</w></rdg>
+              </app>
+              <w>
+                <seg type="syll" part="I">op<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">ti<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">mum<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">quod<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">men<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">tis<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">fir<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">mi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">tas<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="cod. V T">
+                  <w>
+                    <seg type="syll" part="I">pre<notatedMusic>
+                      <neume fontname="buranus" glyph.num="1" label="pu" />
+                    </notatedMusic>
+                    </seg>
+                    <seg type="syll" part="F">bet<notatedMusic>
+                      <neume fontname="buranus" glyph.num="6" label="vi" />
+                    </notatedMusic>
+                    </seg>
+                  </w>
+                </lem>
+                <rdg wit="HS"><w>vovet</w></rdg>
+              </app>
+              <w>
+                <seg type="syll">cum<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">a<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">ni<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">mi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="HS T">
+                  <w>
+                    <seg type="syll" part="I">ta<notatedMusic>
+                      <neume fontname="buranus" glyph.num="1" label="pu" />
+                    </notatedMusic>
+                    </seg>
+                    <seg type="syll" part="F">men<notatedMusic>
+                      <neume fontname="buranus" glyph.num="6" label="vi" />
+                    </notatedMusic>
+                    </seg>
+                  </w>
+                </lem>
+                <rdg wit="cod. V"><w>tandem</w></rdg>
+              </app>
+              <w>
+                <seg type="syll" part="I">iu<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">di<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">ci<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">o<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">Nam<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <app type="text">
+                <lem wit="HS V T">
+                  <w>
+                    <seg type="syll">si<notatedMusic>
+                      <neume fontname="buranus" glyph.num="1" label="pu" />
+                    </notatedMusic>
+                    </seg>
+                  </w>
+                </lem>
+                <rdg wit="cod."><w>sic</w></rdg>
+              </app>
+              <pc resp="#editor">,</pc>
+              <w>
+                <seg type="syll" part="I">tur<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">pis<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">si<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">mi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="4" label="ds" />
+                </notatedMusic>
+                </seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">vo<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">ti<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">con<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">si<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">li<notatedMusic>
+                  <neume fontname="buranus" glyph.num="9" label="vs" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">o<notatedMusic>
+                  <neume fontname="buranus" glyph.num="4" label="ds" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="5">
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="HS V T">
+                  <w>
+                    <seg type="syll">vis<notatedMusic>
+                      <neume fontname="buranus" glyph.num="1" label="pu" />
+                    </notatedMusic>
+                    </seg>
+                  </w>
+                </lem>
+                <rdg wit="cod."><w>vim</w></rdg>
+              </app>
+              <w>
+                <seg type="syll" part="I">sce<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">lus<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">in<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">pri<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">mi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">fac<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">to<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">ne<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">fa<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">ri<notatedMusic>
+                  <neume fontname="buranus" glyph.num="9" label="vs" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">o<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="6">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">de<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">bet<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll">hec<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">pe<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">ri<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">mi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="4" label="ds" />
+                </notatedMusic>
+                </seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">fac<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">ta<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">pro<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">mis<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">si<notatedMusic>
+                  <neume fontname="buranus" glyph.num="9" label="vs" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">o<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">Non<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">e<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">rat<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">sta<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">bi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">lis<notatedMusic>
+                  <neume fontname="buranus" glyph.num="4" label="ds" />
+                </notatedMusic>
+                </seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">gra<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">dus<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll">qui<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">ce<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">ci<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">dit<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">pes<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">e<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">ius<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">la<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">bi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">lis<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">do<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">mus<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll">que<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <app type="text">
+                <lem wit="cod. V T">
+                  <w>
+                    <seg type="syll" part="I">cor<notatedMusic>
+                      <neume fontname="buranus" glyph.num="6" label="vi" />
+                    </notatedMusic>
+                    </seg>
+                    <seg type="syll" part="M">ru<notatedMusic>
+                      <neume fontname="buranus" glyph.num="1" label="pu" />
+                    </notatedMusic>
+                    </seg>
+                    <seg type="syll" part="F">it<notatedMusic>
+                      <neume fontname="buranus" glyph.num="6" label="vi" />
+                    </notatedMusic>
+                    </seg>
+                  </w>
+                </lem>
+                <rdg wit="HS"><w>occidit</w></rdg>
+              </app>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">Hinc<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll">tu<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">con<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">si<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">de<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">ra<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">quid<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">a<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">gi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">cen<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">se<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">as<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">:</pc>
+            </seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">dum<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll">res<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll">est<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">li<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">be<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">ra<notatedMusic>
+                  <neume fontname="buranus" glyph.num="4" label="ds" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <pc>&#183;</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">sic<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll">sta<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll">ne<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">ia<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">ce<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">as<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="5">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">Pri<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">us<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">de<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">li<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">be<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">ra<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">quod<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">fac<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">tum<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">sub<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">e<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">as<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="6">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">ne<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">di<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">e<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">post<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">e<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">ra<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">se<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">ro<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">pe<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">ni<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="M">te<notatedMusic>
+                  <neume fontname="buranus" glyph.num="6" label="vi" />
+                </notatedMusic>
+                </seg>
+                <seg type="syll" part="F">as<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+                </seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="cod. V">
+                  <w>
+                    <seg type="syll" part="I">Cep</seg>
+                    <seg type="syll" part="F">ti</seg>
+                  </w>
+                </lem>
+                <rdg wit="HS T"><w>Facti</w></rdg>
+              </app>
+              <w>
+                <seg type="syll" part="I">di</seg>
+                <seg type="syll" part="M">mi</seg>
+                <seg type="syll" part="M">di</seg>
+                <seg type="syll" part="F">um</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <app type="text">
+                <lem>
+                  <w>
+                    <seg type="syll" part="I">ha</seg>
+                    <seg type="syll" part="F">bet</seg>
+                  </w>
+                </lem>
+                <note>add. s. l.</note>
+              </app>
+              <pc resp="#editor">,</pc>
+              <w>
+                <seg type="syll">qui</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">ce</seg>
+                <seg type="syll" part="M">pe</seg>
+                <seg type="syll" part="F">rit</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">cep</seg>
+                <seg type="syll" part="F">tum</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">ne</seg>
+                <seg type="syll" part="M">go</seg>
+                <seg type="syll" part="M">ci</seg>
+                <seg type="syll" part="F">um</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">si</seg>
+              </w>
+              <w>
+                <seg type="syll">non</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">o</seg>
+                <seg type="syll" part="M">mi</seg>
+                <seg type="syll" part="M">se</seg>
+                <seg type="syll" part="F">rit</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="HS T">
+                  <w>
+                    <seg type="syll">non</seg>
+                  </w>
+                </lem>
+                <rdg wit="cod. V"><w>ne</w></rdg>
+              </app>
+              <w>
+                <seg type="syll" part="I">tan</seg>
+                <seg type="syll" part="F">tum</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">de</seg>
+                <seg type="syll" part="M">di</seg>
+                <seg type="syll" part="F">tus</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">cir</seg>
+                <seg type="syll" part="F">ca</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">prin</seg>
+                <seg type="syll" part="M">ci</seg>
+                <seg type="syll" part="M">pi</seg>
+                <seg type="syll" part="F">a</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="cod. V">
+                  <w>
+                    <seg type="syll" part="I">ve</seg>
+                    <seg type="syll" part="F">rum</seg>
+                  </w>
+                </lem>
+                <rdg wit="HS T"><w>nedum</w></rdg>
+              </app>
+              <w>
+                <seg type="syll" part="I">sol</seg>
+                <seg type="syll" part="M">li</seg>
+                <seg type="syll" part="M">ci</seg>
+                <seg type="syll" part="F">tus</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">pro</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">fi</seg>
+                <seg type="syll" part="F">nis</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">glo</seg>
+                <seg type="syll" part="M">ri</seg>
+                <seg type="syll" part="F">a</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="5">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">Nam</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">re</seg>
+                <seg type="syll" part="F">rum</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">ex</seg>
+                <seg type="syll" part="M">i</seg>
+                <seg type="syll" part="F">tus</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">li</seg>
+                <seg type="syll" part="F">brat</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">in</seg>
+                <seg type="syll" part="M">du</seg>
+                <seg type="syll" part="M">stri</seg>
+                <seg type="syll" part="F">a</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="6">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">sub</seg>
+                <seg type="syll" part="F">it</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">in</seg>
+                <seg type="syll" part="M">tro</seg>
+                <seg type="syll" part="M">i</seg>
+                <seg type="syll" part="F">tus</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">pre</seg>
+                <seg type="syll" part="F">ceps</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">in</seg>
+                <seg type="syll" part="M">cu</seg>
+                <seg type="syll" part="M">ri</seg>
+                <seg type="syll" part="F">a</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="IV">
+          <l n="1">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">Co</seg>
+                <seg type="syll" part="M">ro</seg>
+                <seg type="syll" part="F">nat</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">mi</seg>
+                <seg type="syll" part="M">li</seg>
+                <seg type="syll" part="F">tem</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">fi</seg>
+                <seg type="syll" part="F">nis</seg>
+              </w>
+              <pc resp="#editor">,</pc>
+              <w>
+                <seg type="syll">non</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">pre</seg>
+                <seg type="syll" part="M">li</seg>
+                <seg type="syll" part="F">um</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">;</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">dat</seg>
+              </w>
+              <app type="text">
+                <lem wit="HS T">
+                  <w>
+                    <seg type="syll">hoc</seg>
+                  </w>
+                </lem>
+                <rdg wit="cod. V"><w>hic</w></rdg>
+              </app>
+              <w>
+                <seg type="syll" part="I">an</seg>
+                <seg type="syll" part="M">ci</seg>
+                <seg type="syll" part="M">pi</seg>
+                <seg type="syll" part="F">tem</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">me</seg>
+                <seg type="syll" part="F">tam</seg>
+              </w>
+              <pc resp="#editor">,</pc>
+              <app type="text">
+                <lem wit="HS T">
+                  <w>
+                    <seg type="syll">is</seg>
+                  </w>
+                </lem>
+                <rdg wit="cod. V"><w>in</w></rdg>
+              </app>
+              <w>
+                <seg type="syll" part="I">bra</seg>
+                <seg type="syll" part="M">vi</seg>
+                <seg type="syll" part="F">um</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="HS T">
+                  <w>
+                    <seg type="syll" part="I">Is</seg>
+                    <seg type="syll" part="F">te</seg>
+                  </w>
+                </lem>
+                <rdg wit="cod. V"><w>istud</w></rdg>
+              </app>
+              <w>
+                <seg type="syll">quod</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">tri</seg>
+                <seg type="syll" part="M">bu</seg>
+                <seg type="syll" part="F">it</seg>
+              </w>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">dic</seg>
+                <seg type="syll" part="F">tat</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">sta</seg>
+                <seg type="syll" part="M">bi</seg>
+                <seg type="syll" part="M">li</seg>
+                <seg type="syll" part="F">tas</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">;</pc>
+            </seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">is</seg>
+                <seg type="syll" part="F">tud</seg>
+              </w>
+              <w>
+                <seg type="syll">quod</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">me</seg>
+                <seg type="syll" part="M">tu</seg>
+                <seg type="syll" part="F">it</seg>
+              </w>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">in</seg>
+                <seg type="syll" part="M">du</seg>
+                <seg type="syll" part="F">cit</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">le</seg>
+                <seg type="syll" part="M">vi</seg>
+                <seg type="syll" part="F">tas</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="5">
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="HS T">
+                  <w>
+                    <seg type="syll">nam</seg>
+                  </w>
+                  <w>
+                    <seg type="syll" part="I">pal</seg>
+                    <seg type="syll" part="F">mam</seg>
+                  </w>
+                </lem>
+                <rdg wit="cod. V"><w>dum</w><w>formam</w></rdg>
+              </app>
+              <w>
+                <seg type="syll" part="I">an</seg>
+                <seg type="syll" part="M">nu</seg>
+                <seg type="syll" part="F">it</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">men</seg>
+                <seg type="syll" part="F">tis</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">in</seg>
+                <seg type="syll" part="M">te</seg>
+                <seg type="syll" part="M">gri</seg>
+                <seg type="syll" part="F">tas</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="6">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">quam</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">da</seg>
+                <seg type="syll" part="F">ri</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">re</seg>
+                <seg type="syll" part="M">spu</seg>
+                <seg type="syll" part="F">it</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="cod. V">
+                  <w>
+                    <seg type="syll" part="I">va</seg>
+                    <seg type="syll" part="F">na</seg>
+                  </w>
+                </lem>
+                <rdg wit="HS T"><w>vaga</w></rdg>
+              </app>
+              <app type="text">
+                <lem wit="HS T">
+                  <w>
+                    <seg type="syll" part="I">mo</seg>
+                    <seg type="syll" part="M">bi</seg>
+                    <seg type="syll" part="M">li</seg>
+                    <seg type="syll" part="F">tas</seg>
+                  </w>
+                </lem>
+                <rdg wit="cod. V"><w>nobilitas</w></rdg>
+              </app>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="V">
+          <l n="1">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">Mu</seg>
+                <seg type="syll" part="F">tat</seg>
+              </w>
+              <w>
+                <seg type="syll">cum</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">Pro</seg>
+                <seg type="syll" part="M">the</seg>
+                <seg type="syll" part="F">o</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">fi</seg>
+                <seg type="syll" part="M">gu</seg>
+                <seg type="syll" part="F">ram</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">le</seg>
+                <seg type="syll" part="M">vi</seg>
+                <seg type="syll" part="F">tas</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">as</seg>
+                <seg type="syll" part="M">su</seg>
+                <seg type="syll" part="F">mit</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">id</seg>
+                <seg type="syll" part="M">e</seg>
+                <seg type="syll" part="F">o</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="HS V">
+                  <w>
+                    <seg type="syll" part="I">for</seg>
+                    <seg type="syll" part="F">mas</seg>
+                  </w>
+                  <w>
+                    <seg type="syll" part="I">in</seg>
+                    <seg type="syll" part="M">co</seg>
+                    <seg type="syll" part="M">gni</seg>
+                    <seg type="syll" part="F">tas</seg>
+                  </w>
+                </lem>
+                <rdg wit="cod."><w>formam</w><w>sui</w><w>cognitas</w>sic</rdg>
+              </app>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="HS V">
+                  <w>
+                    <seg type="syll" part="I">Vul</seg>
+                    <seg type="syll" part="F">tum</seg>
+                  </w>
+                </lem>
+                <rdg wit="cod."><w>vultu</w></rdg>
+              </app>
+              <w>
+                <seg type="syll" part="I">con</seg>
+                <seg type="syll" part="M">stan</seg>
+                <seg type="syll" part="M">ti</seg>
+                <seg type="syll" part="F">a</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">con</seg>
+                <seg type="syll" part="M">ser</seg>
+                <seg type="syll" part="F">vans</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">in</seg>
+                <seg type="syll" part="M">ti</seg>
+                <seg type="syll" part="F">mum</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">al</seg>
+                <seg type="syll" part="F">pha</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">prin</seg>
+                <seg type="syll" part="M">ci</seg>
+                <seg type="syll" part="M">pi</seg>
+                <seg type="syll" part="F">a</seg>
+              </w>
+              <pc>&#183;</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">et</seg>
+              </w>
+              <w>
+                <seg type="syll">O</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">no</seg>
+                <seg type="syll" part="M">vis</seg>
+                <seg type="syll" part="M">si</seg>
+                <seg type="syll" part="F">mum</seg>
+              </w>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+          <l n="5">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">flec</seg>
+                <seg type="syll" part="F">tens</seg>
+              </w>
+              <w>
+                <seg type="syll">fit</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">me</seg>
+                <seg type="syll" part="M">di</seg>
+                <seg type="syll" part="F">a</seg>
+              </w>
+              <pc resp="#editor">;</pc>
+            </seg>
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="cod. V T">
+                  <w>
+                    <seg type="syll">dat</seg>
+                  </w>
+                </lem>
+                <rdg wit="HS"><w>dans</w></rdg>
+              </app>
+              <w>
+                <seg type="syll" part="I">fi</seg>
+                <seg type="syll" part="F">nem</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">op</seg>
+                <seg type="syll" part="M">ti</seg>
+                <seg type="syll" part="F">mum</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="6">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">mu</seg>
+                <seg type="syll" part="F">tans</seg>
+              </w>
+              <app type="text">
+                <lem wit="V T">
+                  <w>
+                    <seg type="syll" part="I">in</seg>
+                    <seg type="syll" part="M">va</seg>
+                    <seg type="syll" part="M">ri</seg>
+                    <seg type="syll" part="F">a</seg>
+                  </w>
+                </lem>
+                <rdg wit="cod. HS"><w>in</w><w>varia</w></rdg>
+              </app>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">ce</seg>
+                <seg type="syll" part="F">lum</seg>
+              </w>
+              <pc resp="#editor">,</pc>
+              <w>
+                <seg type="syll">non</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">a</seg>
+                <seg type="syll" part="M">ni</seg>
+                <seg type="syll" part="F">mum</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
