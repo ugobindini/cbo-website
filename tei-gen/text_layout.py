@@ -137,7 +137,8 @@ class Verse:
             if plain:
                 verse.text = self.verse
             else:
-                verse.extend([word.tei() for word in self.words])
+                import itertools
+                verse.extend(list(itertools.chain.from_iterable([word.tei(plain) for word in self.words])))
         return verse
 
 

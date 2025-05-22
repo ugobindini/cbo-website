@@ -2,7 +2,7 @@
   <teiHeader></teiHeader>
   <text>
     <body>
-      <div type="poem" met="6pp+6p/6pp+6p/6pp+6p/6pp+6p/6pp+6p/6pp+6p" rhyme="a+b/a+b/c+d/c+d/c+d/c+d">
+      <div type="poem">
         <lg type="strophe" n="I">
           <l n="1">
             <seg type="hemistich">
@@ -179,7 +179,6 @@
                 <seg type="syll" part="M">si</seg>
                 <seg type="syll" part="F">o</seg>
               </w>
-              <pc>&#183;</pc>
               <pc resp="#editor">.</pc>
             </seg>
           </l>
@@ -367,7 +366,6 @@
                 <seg type="syll" part="M">te</seg>
                 <seg type="syll" part="F">as</seg>
               </w>
-              <pc>&#183;</pc>
               <pc resp="#editor">.</pc>
             </seg>
           </l>
@@ -463,15 +461,10 @@
           </l>
           <l n="4">
             <seg type="hemistich">
-              <app type="text">
-                <lem>
-                  <w>
-                    <seg type="syll" part="I">ne</seg>
-                    <seg type="syll" part="F">dum</seg>
-                  </w>
-                </lem>
-                <rdg wit="cod."><w>ne</w><w>dum</w></rdg>
-              </app>
+              <w>
+                <seg type="syll" part="I">ne</seg>
+                <seg type="syll" part="F">dum</seg>
+              </w>
               <w>
                 <seg type="syll" part="I">sol</seg>
                 <seg type="syll" part="M">li</seg>
@@ -548,7 +541,6 @@
                 <seg type="syll" part="M">ri</seg>
                 <seg type="syll" part="F">a</seg>
               </w>
-              <pc>&#183;</pc>
               <pc resp="#editor">.</pc>
             </seg>
           </l>
