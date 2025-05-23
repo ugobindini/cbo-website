@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem" met="6pp+6p/6pp+6p/6pp+6p/6pp+6p/6pp+6p/6pp+6p" rhyme="a+b/a+b/c+d/c+d/c+d/c+d">
@@ -302,7 +302,7 @@
                 <seg type="syll" part="M">be</seg>
                 <seg type="syll" part="F">ra</seg>
               </w>
-              <pc>&#xf1f0;</pc>
+              <pc>&#61936;</pc>
             </seg>
             <seg type="hemistich">
               <app type="text">

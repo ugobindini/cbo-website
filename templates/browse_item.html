@@ -1,0 +1,53 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<div class="flex-column" style="flex: 20%">
+  <!-- add left-side content here -->
+</div>
+<div style="flex: 60%">
+  <div class="formContainer">
+    <form action="/browse/browse-item/" method="post">
+      {% csrf_token %}
+      {{ form }}
+      <input class="cbo-button" type="submit" value="Search">
+    </form>
+  </div>
+
+  <hr/>
+
+  <div id="browseResult">
+    {% if items %}
+    <table style="width: 100%;">
+      <tr>
+        <th>CB #</th>
+        <th>Title</th>
+        <th>Source</th>
+      </tr>
+      {% for item in items %}
+      <tr>
+        <td>CB {{ item.abstract_item.cb_id }}</td>
+        <td><a href="{{ item.get_absolute_url }}">{{ item.title }}</a></td>
+        <td>{{ item.source.bib_id }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    {% else %}
+    <p>There are no matching items.</p>
+    {% endif %}
+  </div>
+</div>
+
+<div class="flex-column" style="flex: 20%">
+  <!-- add right-side content here -->
+</div>
+
+<style>
+  .browseResult {
+    width: 100%;
+  }
+
+  th {
+    text-align: left;
+  }
+</style>
+{% endblock %}

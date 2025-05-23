@@ -2,12 +2,12 @@
 
 {% block content %}
 <div class="flex-column" style="flex: 20%">
-  <!-- add side content here -->
+  <!-- add left-side content here -->
 </div>
-<div style="flex: 80%">
+<div style="flex: 60%">
   <h1>Item List</h1>
 
-  <table>
+  <table style="width: 100%;">
     <tr>
       <th>CB #</th>
       <th>Title</th>
@@ -39,4 +39,14 @@
     </span>
   </div>
 </div>
+
+<div class="flex-column" style="flex: 20%">
+  <!-- add right-side content here -->
+</div>
+
+<style>
+  th {
+    text-align: left;
+  }
+</style>
 {% endblock %}

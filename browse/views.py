@@ -1,8 +1,30 @@
+from django.http import HttpResponseRedirect
 from django.shortcuts import render
-from django import forms
-from .models import Source, Item, Neume
 
-from browse.forms import BrowseSourceForm
+from .models import Source, Item, Neume
+from .forms import BrowseSourceForm, BrowseItemForm
+
+
+def browse_item(request):
+    # if this is a POST request we need to process the form data
+    if request.method == "POST":
+        # create a form instance and populate it with data from the request:
+        form = BrowseItemForm(request.POST)
+        # check whether it's valid:
+        if form.is_valid():
+            items = Item.objects.all()
+            if len(form.cleaned_data['cb_id']):
+                items = Item.objects.filter(abstract_item__cb_id=form.cleaned_data['cb_id'])
+            if len(form.cleaned_data['words']):
+                words = form.cleaned_data['words'].split(" ")
+                items = [item for item in items if item.contains_words(words)]
+            return render(request, "browse_item.html", {"form": form, "items": items})
+
+    # if a GET (or any other method) we'll create a blank form
+    else:
+        form = BrowseItemForm()
+
+    return render(request, "browse_item.html", {"form": form, "items": Item.objects.all()})
 
 
 def browse_index(request):
@@ -24,7 +46,6 @@ def browse_index(request):
 
     # Render the HTML template index.html with the data in the context variable
     return render(request, 'browse_index.html', context=context)
-
 
 def item_core_view(request, pk):
     item = Item.objects.get(pk=pk)

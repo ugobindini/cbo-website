@@ -304,13 +304,39 @@ class Item(models.Model):
         return 'img/' + self.file + ".svg"
 
     @property
+    def tei_tree(self):
+        from lxml import etree
+        return etree.parse(self.tei_path)
+
+    @property
     def is_notated(self):
-        import xml.etree.ElementTree as ET
-        tree = ET.parse(self.tei_path)
-        if tree.find(".//neume") is not None:
+        if self.tei_tree.find(".//neume") is not None:
             return True
         else:
             return False
+
+    def count_neumes(self, n):
+        # Counts the neumes of type n in the piece
+        return len(self.tei_tree.findall(f".//neume[@glyph.num='{n}']"))
+
+    def contains_words(self, words):
+        # returns true if the text contains all the words in the given list
+        tree = self.tei_tree
+        self_words = []
+        locations = ["p", "l", "seg[@type='hemistich']", "stage"]
+        locations += [location + "/app[@type='text']/lem" for location in locations]
+        for location in locations:
+            for word in tree.findall(".//" + location + "/w"):
+                syllables = word.xpath("./seg[@type='syll']|./app[@type='neume']/lem/seg[@type='syll']")
+                if not len(syllables):
+                    # a non syllabated word
+                    self_words.append(word.text.lower())
+                else:
+                    self_words.append("".join([syllable.text for syllable in syllables]).lower())
+        if self.abstract_item.cb_id == '015':
+            print(self_words)
+        return len(set(words).intersection(set(self_words))) == len(words)
+
 
     def transform(self, xsl_file, tei_file, indent=False, met=False):
         # Given the xsl file (only filename, no path), transforms item's tei file
@@ -330,11 +356,7 @@ class Item(models.Model):
             print("Error: not able to convert")
             return ''
 
-    def count_neumes(self, n):
-        # Counts the neumes of type n in the piece
-        import xml.etree.ElementTree as ET
-        tree = ET.parse(self.tei_path)
-        return len(tree.findall(f".//neume[@glyph.num='{n}']"))
+
 
     def neume_detail_transform(self, n):
         from lxml import etree, html

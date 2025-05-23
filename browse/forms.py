@@ -7,4 +7,6 @@ class BrowseSourceForm(forms.Form):
 
 
 class BrowseItemForm(forms.Form):
-    cb_id = forms.CharField(max_length=10, help_text="Number of the item.")
+    template_name = "form_snippet.html"
+    cb_id = forms.CharField(max_length=16, label="CB id", help_text="CB index.", required=False)
+    words = forms.CharField(max_length=2048, label="Containing words...", help_text="Separate words with whitespaces to match items containing all given words.", required=False)
