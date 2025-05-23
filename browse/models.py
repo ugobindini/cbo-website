@@ -320,7 +320,7 @@ class Item(models.Model):
         return len(self.tei_tree.findall(f".//neume[@glyph.num='{n}']"))
 
     def contains_words(self, words):
-        # returns true if the text contains all the words in the given list
+        # returns true if the text contains ALL the words in the given list
         tree = self.tei_tree
         self_words = []
         locations = ["p", "l", "seg[@type='hemistich']", "stage"]
@@ -333,10 +333,13 @@ class Item(models.Model):
                     self_words.append(word.text.lower())
                 else:
                     self_words.append("".join([syllable.text for syllable in syllables]).lower())
-        if self.abstract_item.cb_id == '015':
-            print(self_words)
-        return len(set(words).intersection(set(self_words))) == len(words)
 
+        # cleaning german diphthongs
+        diphthongs = {'uͤ': 'u', 'uͦ': 'u', 'oͤ': 'o', 'oͧ': 'o', 'aͧ': 'a', 'iͤ': 'i'}
+        for key in diphthongs.keys():
+            self_words = [word.replace(key, diphthongs[key]) for word in self_words]
+
+        return len(set(words).intersection(set(self_words))) == len(words)
 
     def transform(self, xsl_file, tei_file, indent=False, met=False):
         # Given the xsl file (only filename, no path), transforms item's tei file
@@ -355,8 +358,6 @@ class Item(models.Model):
         except:
             print("Error: not able to convert")
             return ''
-
-
 
     def neume_detail_transform(self, n):
         from lxml import etree, html
