@@ -319,10 +319,12 @@ class Item(models.Model):
         # Counts the neumes of type n in the piece
         return len(self.tei_tree.findall(f".//neume[@glyph.num='{n}']"))
 
-    def contains_words(self, words):
-        # returns true if the text contains ALL the words in the given list
+    def words(self, cleaned=True):
+        # returns a list of all words in the piece
+        # if cleaned, then the german diphthongs are converted to the base vowel
+        # TODO: possibly, if this slows down a lot, compute it once and for all and pickle it to a static file
         tree = self.tei_tree
-        self_words = []
+        words = []
         locations = ["p", "l", "seg[@type='hemistich']", "stage"]
         locations += [location + "/app[@type='text']/lem" for location in locations]
         for location in locations:
@@ -330,16 +332,56 @@ class Item(models.Model):
                 syllables = word.xpath("./seg[@type='syll']|./app[@type='neume']/lem/seg[@type='syll']")
                 if not len(syllables):
                     # a non syllabated word
-                    self_words.append(word.text.lower())
+                    words.append(word.text.lower())
                 else:
-                    self_words.append("".join([syllable.text for syllable in syllables]).lower())
+                    words.append("".join([syllable.text for syllable in syllables]).lower())
 
-        # cleaning german diphthongs
-        diphthongs = {'uͤ': 'u', 'uͦ': 'u', 'oͤ': 'o', 'oͧ': 'o', 'aͧ': 'a', 'iͤ': 'i'}
-        for key in diphthongs.keys():
-            self_words = [word.replace(key, diphthongs[key]) for word in self_words]
+        if cleaned:
+            # cleaning german diphthongs
+            diphthongs = {'uͤ': 'u', 'uͦ': 'u', 'oͤ': 'o', 'oͧ': 'o', 'aͧ': 'a', 'iͤ': 'i'}
+            for key in diphthongs.keys():
+                words = [word.replace(key, diphthongs[key]) for word in words]
 
-        return len(set(words).intersection(set(self_words))) == len(words)
+        return words
+
+    def metrics(self):
+        # return a list of strings: one string ('/'-separated, with a final slash) for each 'poem' unit in the item (there can be many, e.g. plays)
+        import itertools
+        tree = self.tei_tree
+        metrics = []
+        poem_types = ['poem', 'sequence', 'leich']
+        for poem in list(itertools.chain.from_iterable([tree.findall(f".//div[@type='{t}']") for t in poem_types])):
+            poem_metrics = ""
+            if 'met' in poem.keys():
+                poem_met = poem.get('met')
+            else:
+                poem_met = None
+            lg_types = ['strophe', 'refrain', 'versicle']
+            for lg in list(itertools.chain.from_iterable([poem.findall(f".//lg[@type='{t}']") for t in lg_types])):
+                if 'met' in lg.keys():
+                    met = lg.get('met')
+                else:
+                    assert poem_met is not None, "ERROR: Undefined metric"
+                    met = poem_met
+                met_list = met.split('/')
+                for (n, l) in enumerate(lg.findall(".//l")):
+                    if 'met' not in l.keys():
+                        poem_metrics += met_list[n] + "/"
+                    else:
+                        poem_metrics += l.get('met') + "/"
+            metrics.append(poem_metrics.replace('+', '/'))
+        return metrics
+
+    def contains_metrics(self, metrics, cleaned=True):
+        # returns true if the text contains ALL the metrics in the given list
+        for metric in self.metrics():
+            if sum([1 for m in metrics if m + '/' in metric]) == len(metrics):
+                return True
+        return False
+
+    def contains_words(self, words, cleaned=True):
+        # returns true if the text contains ALL the words in the given list
+        return len(set(words).intersection(set(self.words(cleaned)))) == len(words)
 
     def transform(self, xsl_file, tei_file, indent=False, met=False):
         # Given the xsl file (only filename, no path), transforms item's tei file

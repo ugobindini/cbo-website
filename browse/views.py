@@ -14,10 +14,14 @@ def browse_item(request):
         if form.is_valid():
             items = Item.objects.all()
             if len(form.cleaned_data['cb_id']):
-                items = Item.objects.filter(abstract_item__cb_id=form.cleaned_data['cb_id'])
+                cb_id = form.cleaned_data['cb_id']
+                items = Item.objects.filter(abstract_item__cb_id=cb_id)
             if len(form.cleaned_data['words']):
                 words = form.cleaned_data['words'].split(" ")
                 items = [item for item in items if item.contains_words(words)]
+            if len(form.cleaned_data['metrics']):
+                metrics = form.cleaned_data['metrics'].split(" ")
+                items = [item for item in items if item.contains_metrics(metrics)]
             return render(request, "browse_item.html", {"form": form, "items": items})
 
     # if a GET (or any other method) we'll create a blank form
