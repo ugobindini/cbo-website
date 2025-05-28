@@ -152,6 +152,9 @@
 
   <xsl:template match="w">
     <span class="word text-font" style="vertical-align: bottom;">
+      <xsl:if test="@rend='italic'">
+          <xsl:attribute name="data-rend">italic</xsl:attribute>
+      </xsl:if>
       <xsl:apply-templates/>
     </span>
   </xsl:template>

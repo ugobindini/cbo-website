@@ -79,6 +79,7 @@
     $("#openSvg-{{ item.pk }}").click();
     $("#openFormattedText-{{ item.pk }}").click();
     $("#itemCoreView-{{ item.pk }} .pc[data-resp='ms']").hide();
+    $("#itemCoreView-{{ item.pk }} .word[data-rend='italic']").css("font-style", "italic");
     $("#itemCoreView-{{ item.pk }} .syl-dash").hide();
     $("#itemCoreView-{{ item.pk }} .verse-met").hide();
     $("#itemCoreView-{{ item.pk }} .verse-real").hide();
