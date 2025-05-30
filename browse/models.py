@@ -335,8 +335,6 @@ class Item(models.Model):
                     words.append(word.text.lower())
                 else:
                     words.append("".join([syllable.text for syllable in syllables]).lower())
-                    if self.abstract_item.cb_id == "143":
-                        print(words[-1])
 
         if cleaned:
             # cleaning german diphthongs
