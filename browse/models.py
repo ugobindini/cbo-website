@@ -328,20 +328,21 @@ class Item(models.Model):
         locations = ["p", "l", "seg[@type='hemistich']", "stage"]
         locations += [location + "/app[@type='text']/lem" for location in locations]
         for location in locations:
-            for word in tree.findall(".//" + location + "/w"):
+            for word in tree.xpath(".//" + location + "/w"):
                 syllables = word.xpath("./seg[@type='syll']|./app[@type='neume']/lem/seg[@type='syll']")
                 if not len(syllables):
                     # a non syllabated word
                     words.append(word.text.lower())
                 else:
                     words.append("".join([syllable.text for syllable in syllables]).lower())
+                    if self.abstract_item.cb_id == "143":
+                        print(words[-1])
 
         if cleaned:
             # cleaning german diphthongs
             diphthongs = {'uͤ': 'u', 'uͦ': 'u', 'oͤ': 'o', 'oͧ': 'o', 'aͧ': 'a', 'iͤ': 'i'}
             for key in diphthongs.keys():
                 words = [word.replace(key, diphthongs[key]) for word in words]
-
         return words
 
     def metrics(self):
