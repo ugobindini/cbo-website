@@ -18,7 +18,16 @@ def browse_item(request):
                 items = Item.objects.filter(abstract_item__cb_id=cb_id)
             if len(form.cleaned_data['words']):
                 words = form.cleaned_data['words'].split(" ")
-                items = [item for item in items if item.contains_words(words)]
+                exclude_apparatus = form.cleaned_data['exclude_apparatus']
+                match_word_beginning = form.cleaned_data['match_word_beginning']
+                match_word_end = form.cleaned_data['match_word_end']
+                match_word_middle = form.cleaned_data['match_word_middle']
+                items = [item for item in items if item.contains_words(words,
+                                                                       exclude_apparatus=exclude_apparatus,
+                                                                       match_word_beginning=match_word_beginning,
+                                                                       match_word_end=match_word_end,
+                                                                       match_word_middle=match_word_middle)
+                         ]
             if len(form.cleaned_data['metrics']):
                 metrics = form.cleaned_data['metrics'].split(" ")
                 items = [item for item in items if item.contains_metrics(metrics)]

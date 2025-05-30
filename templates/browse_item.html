@@ -1,10 +1,7 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-<div class="flex-column" style="flex: 20%">
-  <!-- add left-side content here -->
-</div>
-<div style="flex: 60%">
+<div class="flex-column" style="flex: 50%">
   <div class="formContainer">
     <form action="/browse/browse-item/" method="post">
       {% csrf_token %}
@@ -12,10 +9,9 @@
       <input class="cbo-button" type="submit" value="Search">
     </form>
   </div>
-
-  <hr/>
-
-  <div id="browseResult">
+</div>
+<div class="flex-column" style="flex: 50%">
+  <div class="browseResult">
     {% if items %}
     <table style="width: 100%;">
       <tr>
@@ -37,13 +33,9 @@
   </div>
 </div>
 
-<div class="flex-column" style="flex: 20%">
-  <!-- add right-side content here -->
-</div>
-
 <style>
-  .browseResult {
-    width: 100%;
+  .browseResult,.formContainer {
+    margin: 10px;
   }
 
   th {

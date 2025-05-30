@@ -319,16 +319,17 @@ class Item(models.Model):
         # Counts the neumes of type n in the piece
         return len(self.tei_tree.findall(f".//neume[@glyph.num='{n}']"))
 
-    def words(self, cleaned=True):
+    def words(self, exclude_apparatus, cleaned=True):
         # returns a list of all words in the piece
         # if cleaned, then the german diphthongs are converted to the base vowel
-        # TODO: possibly, if this slows down a lot, compute it once and for all and pickle it to a static file
+        # TODO: possibly, if this slows down the search a lot, compute it once and for all and pickle it to a static file
         tree = self.tei_tree
         words = []
-        locations = ["p", "l", "seg[@type='hemistich']", "stage"]
-        locations += [location + "/app[@type='text']/lem" for location in locations]
-        for location in locations:
-            for word in tree.xpath(".//" + location + "/w"):
+        for word in tree.xpath(".//w"):
+            if exclude_apparatus and (word.xpath("./ancestor::rdg") or word.xpath("./ancestor::note")):
+                # exclude words in app-readings or app-notes
+                pass
+            else:
                 syllables = word.xpath("./seg[@type='syll']|./app[@type='neume']/lem/seg[@type='syll']")
                 if not len(syllables):
                     # a non syllabated word
@@ -343,7 +344,7 @@ class Item(models.Model):
                 words = [word.replace(key, diphthongs[key]) for word in words]
         return words
 
-    def metrics(self):
+    def metrics(self, strophe_breaks=True):
         # return a list of strings: one string ('/'-separated, with a final slash) for each 'poem' unit in the item (there can be many, e.g. plays)
         import itertools
         tree = self.tei_tree
@@ -368,19 +369,40 @@ class Item(models.Model):
                         poem_metrics += met_list[n] + "/"
                     else:
                         poem_metrics += l.get('met') + "/"
+                if strophe_breaks:
+                    poem_metrics += "/"
             metrics.append(poem_metrics.replace('+', '/'))
         return metrics
 
-    def contains_metrics(self, metrics, cleaned=True):
+    def contains_metrics(self, metrics):
         # returns true if the text contains ALL the metrics in the given list
         for metric in self.metrics():
             if sum([1 for m in metrics if m + '/' in metric]) == len(metrics):
                 return True
         return False
 
-    def contains_words(self, words, cleaned=True):
+    def contains_words(self, words, exclude_apparatus, match_word_beginning, match_word_end, match_word_middle):
         # returns true if the text contains ALL the words in the given list
-        return len(set(words).intersection(set(self.words(cleaned)))) == len(words)
+        n = 0
+        for key in words:
+            for word in self.words(exclude_apparatus=exclude_apparatus):
+                if match_word_beginning and word.startswith(key):
+                    print(self.abstract_item.cb_id, word)
+                    n += 1
+                    break
+                elif match_word_end and word.endswith(key):
+                    print(self.abstract_item.cb_id, word)
+                    n += 1
+                    break
+                elif match_word_middle and key in word:
+                    print(self.abstract_item.cb_id, word)
+                    n += 1
+                    break
+                elif key == word:
+                    print(self.abstract_item.cb_id, word)
+                    n += 1
+                    break
+        return n == len(words)
 
     def transform(self, xsl_file, tei_file, indent=False, met=False):
         # Given the xsl file (only filename, no path), transforms item's tei file
