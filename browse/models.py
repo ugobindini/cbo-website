@@ -344,7 +344,7 @@ class Item(models.Model):
                 words = [word.replace(key, diphthongs[key]) for word in words]
         return words
 
-    def metrics(self, strophe_breaks=True):
+    def metrics(self, through_strophe_break=False):
         # return a list of strings: one string ('/'-separated, with a final slash) for each 'poem' unit in the item (there can be many, e.g. plays)
         import itertools
         tree = self.tei_tree
@@ -369,14 +369,14 @@ class Item(models.Model):
                         poem_metrics += met_list[n] + "/"
                     else:
                         poem_metrics += l.get('met') + "/"
-                if strophe_breaks:
+                if not through_strophe_break:
                     poem_metrics += "/"
             metrics.append(poem_metrics.replace('+', '/'))
         return metrics
 
-    def contains_metrics(self, metrics):
+    def contains_metrics(self, metrics, through_strophe_break=True):
         # returns true if the text contains ALL the metrics in the given list
-        for metric in self.metrics():
+        for metric in self.metrics(through_strophe_break=through_strophe_break):
             if sum([1 for m in metrics if m + '/' in metric]) == len(metrics):
                 return True
         return False

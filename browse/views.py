@@ -30,7 +30,10 @@ def browse_item(request):
                          ]
             if len(form.cleaned_data['metrics']):
                 metrics = form.cleaned_data['metrics'].split(" ")
-                items = [item for item in items if item.contains_metrics(metrics)]
+                through_strophe_break = form.cleaned_data['through_strophe_break']
+                items = [item for item in items if item.contains_metrics(metrics,
+                                                                         through_strophe_break=through_strophe_break)
+                         ]
             return render(request, "browse_item.html", {"form": form, "items": items})
 
     # if a GET (or any other method) we'll create a blank form

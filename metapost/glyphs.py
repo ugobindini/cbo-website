@@ -271,6 +271,11 @@ GLYPHS = [
 		paths=[('virga', None), ('clivis_end', None), ('punctum', '(9u,-9u)'), ('punctum', '(13.5u, -12u)')]
 	),
 	Glyph(
+		description='Clivis + 2 subpuncta + stropha',
+		code='clsu2!st',
+		paths=[('virga', None), ('clivis_end', None), ('punctum', '(9u,-9u)'), ('punctum', '(13.5u, -12u)'), ('stropha', '(25.5u,-6u)')]
+	),
+	Glyph(
 		description='Torculus',
 		code='to',
 		paths=[('torculus', None)]
@@ -353,12 +358,27 @@ GLYPHS = [
 	Glyph(
 		description='Quilisma 2 loops + oriscus',
 		code='qi!or',
-		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('oriscus', 'point 1000 of pes')]
+		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('oriscus', '(12u,15u)')]
 	),
 	Glyph(
 		description='Quilisma 2 loops + pressus maior',
 		code='qi!pr',
-		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('oriscus', 'point 1000 of pes'), ('punctum', 'point 1000 of pes shifted (0,-12u)')]
+		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('oriscus', '(12u,15u)'), ('punctum', '(15u,3u)')]
+	),
+	Glyph(
+		description='Quilisma 2 loops + oriscus liquescent',
+		code='qi!or)',
+		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('cuoricino', '(12u,15u)')]
+	),
+	Glyph(
+		description='Quilisma 2 loops + oriscus liquescent + 1 subpunctum',
+		code='qi!or)su1',
+		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('cuoricino', '(12u,15u)'), ('punctum', '(18u,u)')]
+	),
+	Glyph(
+		description='Quilisma 2 loops + oriscus liquescent + 1 prepunctum + 1 substropha',
+		code='qi!or)su1',
+		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('punctum', '(-12u,0)'), ('cuoricino', '(12u,15u)'), ('substropha', '(18u,3u)')]
 	),
 	Glyph(
 		description='Quilisma 2 loops + 1 prepunctum',
@@ -491,9 +511,19 @@ GLYPHS = [
 		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)'), ('oriscus', 'point 1000 of pes')]
 	),
 	Glyph(
+		description='Quilisma 3 loops + oriscus liquescent',
+		code='ql!or)',
+		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)'), ('cuoricino', '(12u,15u)')]
+	),
+	Glyph(
 		description='Quilisma 3 loops + pressus maior',
 		code='ql!pr',
 		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)'), ('oriscus', 'point 1000 of pes'), ('punctum', 'point 1000 of pes shifted (0,-12u)')]
+	),
+	Glyph(
+		description='Quilisma 3 loops + oriscus liquescent + 1 subpunctum',
+		code='ql!or)su1',
+		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)'), ('cuoricino', '(12u,15u)'), ('punctum', '(20u,u)')]
 	),
 	Glyph(
 		description='Quilisma 3 loops + 2 subpuncta',
@@ -574,6 +604,11 @@ GLYPHS = [
 		description='Climacus + stropha',
 		code='ci!st',
 		paths=[('virga', None), ('punctum', '(3u,-7.5u)'), ('punctum', '(6u,-12u)'), ('stropha', '(12u,-6u)')]
+	),
+	Glyph(
+		description='Climacus + stropha + pressus minor',
+		code='ci!st!pm',
+		paths=[('virga', None), ('punctum', '(3u,-7.5u)'), ('punctum', '(6u,-12u)'), ('stropha', '(12u,-6u)'), ('reversed_oriscus', '(12u,0)'), ('punctum', '(18u,-6u)')]
 	),
 	Glyph(
 		description='Climacus + 2 prepuncta',

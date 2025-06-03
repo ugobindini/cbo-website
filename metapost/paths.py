@@ -83,12 +83,20 @@ PATHS = [
 		command='reverse pes_loop rotated 180'
 	),
 	Path(
+		name='cuoricino',
+		command='(0,0)--(2u,-2u)..(6u,0)..(9u,-2u)..(6u,-8u)'
+	),
+	Path(
 		name='virga_liq',
 		command=path_join('reverse virga', 'liquescence_loop')
 	),
 	Path(
 		name='oriscus',
 		command='((0,0){down rotated 45}..(2u,-2u)..{up rotated -45}(4.5u,0)--(7.5u,-2u))'
+	),
+	Path(
+		name='reversed_oriscus',
+		command='((0,0){right rotated 30}..(4.5u,2u)..{right rotated -30}(7.5u,0)--(9u,u))'
 	),
 	Path(
 		name='pes_liquescent',
