@@ -6273,6 +6273,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -6311,6 +6312,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -6386,6 +6388,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -6468,7 +6471,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Voce sobria et discreta respondeat Augustinus</stage>
+        <stage>Voce sobria et discreta respondeat Augustinus<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe" n="I">
@@ -6550,6 +6553,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -6572,20 +6576,25 @@
                     </notatedMusic>
                     </seg>
                   </w>
-                  <w>
-                    <seg type="syll" part="I" met="+">clau<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="M">di<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="F">cent<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="HS T">
+                      <w>
+                        <seg type="syll" part="I" met="+">clau<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="M">di<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="F">cant<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                      </w>
+                    </lem>
+                    <rdg wit="cod. V"><w>claudicent</w></rdg>
+                  </app>
                   <pc>&#183;</pc>
                 </seg>
                 <seg type="hemistich">
@@ -6627,12 +6636,13 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
                 </seg>
               </l>
               <l n="3">
                 <seg type="hemistich">
                   <w>
-                    <seg type="syll" part="I">do<notatedMusic>
+                    <seg type="syll" part="I">Do<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi" />
                     </notatedMusic>
                     </seg>
@@ -6703,6 +6713,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -6789,17 +6800,23 @@
             <lg type="strophe" n="II">
               <l n="1">
                 <seg type="hemistich">
-                  <w>
-                    <seg type="syll" part="I">Di<notatedMusic>
-                      <neume fontname="buranus" glyph.num="1" label="pu" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="F">cat<notatedMusic>
-                      <neume fontname="buranus" glyph.num="54" label="to" />
-                    </notatedMusic>
-                    </seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="HS T">
+                      <w>
+                        <seg type="syll" part="I">Di<notatedMusic>
+                          <neume fontname="buranus" glyph.num="1" label="pu" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="F">cas<notatedMusic>
+                          <neume fontname="buranus" glyph.num="54" label="to" />
+                        </notatedMusic>
+                        </seg>
+                      </w>
+                    </lem>
+                    <rdg wit="cod. V"><w>Dicat</w></rdg>
+                  </app>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">:</pc>
                   <w>
                     <seg type="syll" part="I">ho<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -6865,6 +6882,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -6943,6 +6961,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -7021,6 +7040,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -7108,7 +7128,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Augustinus dicat</stage>
+        <stage>Augustinus dicat<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe" n="I">
@@ -7186,6 +7206,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -7261,6 +7282,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -7336,6 +7358,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -7564,6 +7587,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -7680,6 +7704,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -7723,7 +7748,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Postea incipiat Augustinus cantare</stage>
+        <stage>Postea incipiat Augustinus cantare<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -7748,7 +7773,7 @@
             <pc>&#183;</pc>
           </p>
         </sp>
-        <stage>primum versum. Et secundum prophete</stage>
+        <stage>primum versum<pc resp="#editor">.</pc> Et secundum prophete<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -7834,10 +7859,10 @@
               </seg>
             </w>
             <pc>&#183;</pc>
-            <w>etc.</w>
+            <w rend="italic">etc.</w>
           </p>
         </sp>
-        <stage>Dicat archisynagogus cum suis</stage>
+        <stage>Dicat archisynagogus cum suis<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -7861,16 +7886,18 @@
               </seg>
             </w>
             <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
           </p>
         </sp>
-        <stage>Iterum Augustinus cum suis: Res miranda. Iterum archisynagogus cum suis</stage>
+        <stage>Iterum Augustinus cum suis<pc resp="#editor">:</pc> Res miranda<pc resp="#editor">.</pc> Iterum archisynagogus cum suis<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>Res</w><w>neganda</w>
             <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
           </p>
         </sp>
-        <stage>Hoc fiat pluries. Augustinus incipiat</stage>
+        <stage>Hoc fiat pluries<pc resp="#editor">.</pc> Augustinus incipiat<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp/7pp/4p" rhyme="a/b/c">
             <lg type="strophe">
@@ -7946,6 +7973,7 @@
                   </seg>
                 </w>
                 <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
               </l>
               <l n="3">
                 <w>
@@ -7977,7 +8005,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Respondeant prophete</stage>
+        <stage>Respondeant prophete<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp/7pp/4p" rhyme="a/b/c">
             <lg type="strophe">
@@ -8016,6 +8044,7 @@
                   </notatedMusic>
                   </seg>
                 </w>
+                <pc resp="#editor">,</pc>
               </l>
               <l n="2">
                 <w>
@@ -8053,6 +8082,7 @@
                   </seg>
                 </w>
                 <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
               </l>
               <l n="3">
                 <w>
@@ -8082,7 +8112,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Dicat Augustinus</stage>
+        <stage>Dicat Augustinus<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp/7pp/4p" rhyme="a/b/c">
             <lg type="strophe">
@@ -8183,7 +8213,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Dicant prophete</stage>
+        <stage>Dicant prophete<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp/7pp/4p" rhyme="a/b/c">
             <lg type="strophe">
@@ -8286,7 +8316,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Postea dicat Augustinus</stage>
+        <stage>Postea dicat Augustinus<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp/7pp/7pp/4p" rhyme="a/a/a/b">
             <lg type="strophe">
@@ -8324,6 +8354,7 @@
                   </seg>
                 </w>
                 <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
               </l>
               <l n="2">
                 <w>
@@ -8359,6 +8390,7 @@
                   </seg>
                 </w>
                 <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
               </l>
               <l n="3">
                 <w>
@@ -8423,7 +8455,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Respondeant prophete</stage>
+        <stage>Respondeant prophete<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp/7pp/7pp/4p" rhyme="a/a/a/b">
             <lg type="strophe">
@@ -8464,6 +8496,7 @@
                   </notatedMusic>
                   </seg>
                 </w>
+                <pc resp="#editor">,</pc>
               </l>
               <l n="2">
                 <w>
@@ -8500,6 +8533,7 @@
                   </notatedMusic>
                   </seg>
                 </w>
+                <pc resp="#editor">,</pc>
               </l>
               <l n="3">
                 <w>
@@ -8562,7 +8596,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Postea dicat Augustinus cum prophetis omnibus</stage>
+        <stage>Postea dicat Augustinus cum prophetis omnibus<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="6pp/6pp/9pp" rhyme="A/A/A">
             <lg type="strophe" n="I">
@@ -8582,6 +8616,7 @@
                   </notatedMusic>
                   </seg>
                 </w>
+                <pc resp="#editor">,</pc>
                 <w>
                   <seg type="syll" part="I" met="+">pro<notatedMusic>
                     <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -8597,6 +8632,7 @@
                   </seg>
                 </w>
                 <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
               </l>
               <l n="2">
                 <w>
@@ -8632,6 +8668,7 @@
                   </seg>
                 </w>
                 <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
               </l>
               <l n="3">
                 <w>
@@ -8680,7 +8717,7 @@
                   </seg>
                 </w>
                 <pc>&#183;</pc>
-                <pc resp="#editor">.</pc>
+                <pc resp="#editor">?</pc>
               </l>
             </lg>
             <lg type="strophe" n="II">
@@ -8716,6 +8753,7 @@
                   </seg>
                 </w>
                 <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
               </l>
               <l n="2">
                 <w>
@@ -8750,6 +8788,7 @@
                   </seg>
                 </w>
                 <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
               </l>
               <l n="3">
                 <w>
@@ -8801,7 +8840,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Postea Augustinus solus cantet</stage>
+        <stage>Postea Augustinus solus cantet<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -9205,7 +9244,7 @@
             <pc resp="#editor">.</pc>
           </p>
         </sp>
-        <stage>Inter cantandum omnia ista archisynagogus obstrepet movendo corpus et caput et deridendo predicta. Hoc completo detur locus prophetis vel ut recedant vel sedeant in locis suis propter honorem ludi. Deinde angelus appareat Marie operanti muliebriter et dicat</stage>
+        <stage>Inter cantandum omnia ista<pc resp="#editor">,</pc> archisynagogus obstrepet movendo corpus et caput et deridendo predicta<pc resp="#editor">.</pc> Hoc completo detur locus prophetis vel ut recedant vel sedeant in locis suis propter honorem ludi<pc resp="#editor">.</pc> Deinde angelus appareat Marie operanti muliebriter et dicat<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -9234,6 +9273,7 @@
               </notatedMusic>
               </seg>
             </w>
+            <pc resp="#editor">,</pc>
             <w>
               <seg type="syll" part="I">gra<notatedMusic>
                 <neume fontname="buranus" glyph.num="46" label="cl" />
@@ -9249,12 +9289,12 @@
               </seg>
             </w>
             <w>plena</w>
-            <w>Dominus</w>
-            <w>tecum</w>
-            <w>etc.</w>
+            <pc resp="#editor">,</pc>
+            <w>Dominus</w><w>tecum</w>
+            <pc resp="#editor">.</pc>
           </p>
         </sp>
-        <stage>Et iterum</stage>
+        <stage>Et iterum<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -9306,10 +9346,10 @@
               </seg>
             </w>
             <pc>&#183;</pc>
-            <w>etc.</w>
+            <w rend="italic">etc.</w>
           </p>
         </sp>
-        <stage>Illa stupefacta dicat</stage>
+        <stage>Illa stupefacta dicat<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -9354,6 +9394,7 @@
               </seg>
             </w>
             <pc>&#183;</pc>
+            <pc resp="#editor">,</pc>
             <w>
               <seg type="syll" part="I">qui<notatedMusic>
                 <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -9404,7 +9445,7 @@
             <pc resp="#editor">?</pc>
           </p>
         </sp>
-        <stage>Respondeat angelus</stage>
+        <stage>Respondeat angelus<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -9458,7 +9499,7 @@
               </seg>
             </w>
             <pc>&#183;</pc>
-            <w>etc.</w>
+            <w rend="italic">etc.</w>
           </p>
         </sp>
         <stage>Versum</stage>
@@ -9503,10 +9544,10 @@
               </seg>
             </w>
             <pc>&#183;</pc>
-            <w>etc.</w>
+            <w rend="italic">etc.</w>
           </p>
         </sp>
-        <stage>Respondeat Maria</stage>
+        <stage>Respondeat Maria<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -9541,20 +9582,20 @@
               <seg type="syll" part="M">mi</seg>
               <seg type="syll" part="F">ni</seg>
             </w>
-            <w>etc.</w>
+            <w rend="italic">etc.</w>
           </p>
         </sp>
-        <stage>Deinde Maria vadat casualiter nichil cogitans de Elisabeth vetula Iohanne impregnata et salutet eam et dicat</stage>
+        <stage>Deinde Maria vadat casualiter nichil cogitans de Elisabeth vetula Iohanne impregnata et salutet eam et dicat<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>Unde</w>
             <w>hoc</w>
             <w>mihi</w>
             <pc>&#183;</pc>
-            <w>etc.</w>
+            <w rend="italic">etc.</w>
           </p>
         </sp>
-        <stage>Et cantabit</stage>
+        <stage>Et cantabit<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -9610,10 +9651,10 @@
               </seg>
             </w>
             <pc>&#183;</pc>
-            <w>etc.</w>
+            <w rend="italic">etc.</w>
           </p>
         </sp>
-        <stage>Eadem dicat</stage>
+        <stage>Eadem dicat<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -9669,10 +9710,39 @@
               </seg>
             </w>
             <pc>&#183;</pc>
-            <w>etc.</w>
+            <w rend="italic">etc.</w>
+          </p>
+          <p>
+            <w>Tu</w><w>que</w><w>portabis</w>
+            <pc>&#183;</pc>
+            <app type="text">
+              <lem wit="cod.">
+                <w>p</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+                <w>h</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </lem>
+              <rdg wit="HS"><w>p&#10216;acem&#10217;</w><w>h&#10216;ominibus&#10217;</w></rdg>
+              <rdg wit="V T"><w>p&#10216;redictum&#10217;</w><w>h&#10216;ominibus&#10217;</w></rdg>
+            </app>
+            <w>et</w>
+            <app type="text">
+              <lem wit="cod.">
+                <w>an</w>
+                <pc resp="#editor">.</pc>
+                <w>gen</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </lem>
+              <rdg wit="HS"><w>an&#10216;&#10217;</w><w>gen&#10216;&#10217;</w></rdg>
+              <rdg wit="V"><w>a&#10216;nnuntiatum&#10217;</w><w>g&#10216;entibus&#10217;</w></rdg>
+              <rdg wit="T"><w>an&#10216;nuntiatum&#10217;</w><w>gen&#10216;tibus&#10217;</w></rdg>
+            </app>
           </p>
         </sp>
-        <stage>Tu que portabis p. h. et an. gen. Respondeat Maria</stage>
+        <stage>Respondeat Maria<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -9721,7 +9791,7 @@
             <pc resp="#editor">.</pc>
           </p>
         </sp>
-        <stage>Deinde recedat Elysabeth quia amplius non habebit locum hec persona. Deinde Maria vadat in lectum suum, que iam de spiritu sancto concepit et pariat filium; cui assideat Ioseph in habitu honesto et prolixa barba. Nato puero appareat stella et incipiat chorus hanc antiphonam</stage>
+        <stage>Deinde recedat Elysabeth quia amplius non habebit locum hec persona<pc resp="#editor">.</pc> Deinde Maria vadat in lectum suum<pc resp="#editor">,</pc> que iam de spiritu sancto concepit et pariat filium<pc resp="#editor">;</pc> cui assideat Ioseph in habitu honesto et prolixa barba<pc resp="#editor">.</pc> Nato puero appareat stella et incipiat chorus hanc antiphonam<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -9769,7 +9839,7 @@
             <pc resp="#editor">.</pc>
           </p>
         </sp>
-        <stage>Qua finita, stella appareat; qua visa, tres reges a diversis partibus mundi veniant et ammirentur de apparitione talis stelle, quorum primus dicat</stage>
+        <stage>Qua finita<pc resp="#editor">,</pc> stella appareat<pc resp="#editor">;</pc> qua visa<pc resp="#editor">,</pc> tres reges a diversis partibus mundi veniant et ammirentur de apparitione talis stelle<pc resp="#editor">,</pc> quorum primus dicat<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe" n="I">
@@ -9850,6 +9920,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -9923,6 +9994,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -9998,6 +10070,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -10116,7 +10189,6 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
-                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -10154,6 +10226,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -10227,6 +10300,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -10305,6 +10379,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -10446,29 +10521,36 @@
                     </notatedMusic>
                     </seg>
                   </w>
-                  <w>
-                    <seg type="syll" part="I">ob<notatedMusic>
-                      <neume fontname="buranus" glyph.num="30" label="pe" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="M">scu<notatedMusic>
-                      <neume fontname="buranus" glyph.num="46" label="cl" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="M" met="+">ra<notatedMusic>
-                      <neume fontname="buranus" glyph.num="1" label="pu" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="M">bi<notatedMusic>
-                      <neume fontname="buranus" glyph.num="30" label="pe" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="F">tur<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="cod. V">
+                      <w>
+                        <seg type="syll" part="I">ob<notatedMusic>
+                          <neume fontname="buranus" glyph.num="30" label="pe" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="M">scu<notatedMusic>
+                          <neume fontname="buranus" glyph.num="46" label="cl" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="M" met="+">ra<notatedMusic>
+                          <neume fontname="buranus" glyph.num="1" label="pu" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="M">bi<notatedMusic>
+                          <neume fontname="buranus" glyph.num="30" label="pe" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="F">tur<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                      </w>
+                    </lem>
+                    <rdg wit="HS T"><w>deeris</w></rdg>
+                    <note>p. ras.</note>
+                  </app>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -10544,6 +10626,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -10621,6 +10704,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -10776,6 +10860,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">:</pc>
                 </seg>
               </l>
               <l n="2">
@@ -10815,6 +10900,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -10929,6 +11015,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -10972,6 +11059,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -11015,7 +11103,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Hoc dicat primus semper inspiciendo stellam et disputet de illa. Dicat secundus</stage>
+        <stage>Hoc dicat primus semper inspiciendo stellam et disputet de illa<pc resp="#editor">.</pc> Dicat secundus<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe" n="I">
@@ -11092,6 +11180,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -11126,6 +11215,14 @@
                     </notatedMusic>
                     </seg>
                   </w>
+                  <app type="text">
+                    <lem wit="HS T">
+                      <w>
+                        <seg type="syll">est</seg>
+                      </w>
+                    </lem>
+                    <note>om. cod. V</note>
+                  </app>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -11163,6 +11260,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">;</pc>
                 </seg>
               </l>
               <l n="3">
@@ -11392,6 +11490,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -11487,6 +11586,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                   <w>
                     <seg type="syll">de<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -11509,6 +11609,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -11528,6 +11629,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                   <w>
                     <seg type="syll" part="I">Mer<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -11548,6 +11650,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -11587,6 +11690,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -11624,86 +11728,100 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="5">
-                <seg type="hemistich">
-                  <w>
-                    <seg type="syll">que<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
+                <app type="text">
+                  <lem wit="cod. V">
+                    <seg type="hemistich">
+                      <w>
+                        <seg type="syll">que<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                      </w>
+                      <w>
+                        <app type="neume">
+                          <lem>
+                            <seg type="syll">sit<notatedMusic>
+                              <neume fontname="buranus" glyph.num="6" label="vi" />
+                            </notatedMusic>
+                            </seg>
+                          </lem>
+                          <note>corr. ex <seg type="syll">sit<notatedMusic>
+                            <neume fontname="buranus" glyph.num="1" label="pu" />
+                          </notatedMusic></seg></note>
+                        </app>
+                      </w>
+                      <w>
+                        <seg type="syll">vis<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                      </w>
+                      <w>
+                        <seg type="syll" part="I">cu<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="M">ius<notatedMusic>
+                          <neume fontname="buranus" glyph.num="46" label="cl" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="M">li<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="F">bet<notatedMusic>
+                          <neume fontname="buranus" glyph.num="1" label="pu" />
+                        </notatedMusic>
+                        </seg>
+                      </w>
+                      <pc resp="#editor">,</pc>
                     </seg>
-                  </w>
-                  <w>
-                    <seg type="syll">sit<notatedMusic>
-                      <neume fontname="buranus" glyph.num="0" label="?" />
-                    </notatedMusic>
+                    <seg type="hemistich">
+                      <w>
+                        <seg type="syll">in<notatedMusic>
+                          <neume fontname="buranus" glyph.num="1" label="pu" />
+                        </notatedMusic>
+                        </seg>
+                      </w>
+                      <w>
+                        <seg type="syll">quo<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                      </w>
+                      <w>
+                        <seg type="syll" part="I">do<notatedMusic>
+                          <neume fontname="buranus" glyph.num="46" label="cl" />
+                          <neume fontname="buranus" glyph.num="87" label="ql" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="M">mi<notatedMusic>
+                          <neume fontname="buranus" glyph.num="21" label="visu4" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="M">ci<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="M">li<notatedMusic>
+                          <neume fontname="buranus" glyph.num="46" label="cl" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="F">o<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                      </w>
+                      <pc>&#183;</pc>
+                      <pc resp="#editor">.</pc>
                     </seg>
-                  </w>
-                  <w>
-                    <seg type="syll">ius<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                  </w>
-                  <w>
-                    <seg type="syll" part="I">cu<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="M">ius<notatedMusic>
-                      <neume fontname="buranus" glyph.num="46" label="cl" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="M">li<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="F">bet<notatedMusic>
-                      <neume fontname="buranus" glyph.num="1" label="pu" />
-                    </notatedMusic>
-                    </seg>
-                  </w>
-                </seg>
-                <seg type="hemistich">
-                  <w>
-                    <seg type="syll">in<notatedMusic>
-                      <neume fontname="buranus" glyph.num="1" label="pu" />
-                    </notatedMusic>
-                    </seg>
-                  </w>
-                  <w>
-                    <seg type="syll">quo<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                  </w>
-                  <w>
-                    <seg type="syll" part="I">do<notatedMusic>
-                      <neume fontname="buranus" glyph.num="46" label="cl" />
-                      <neume fontname="buranus" glyph.num="87" label="ql" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="M">mi<notatedMusic>
-                      <neume fontname="buranus" glyph.num="21" label="visu4" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="M">ci<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="M">li<notatedMusic>
-                      <neume fontname="buranus" glyph.num="46" label="cl" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="F">o<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                  </w>
-                  <pc>&#183;</pc>
-                  <pc resp="#editor">.</pc>
-                </seg>
+                  </lem>
+                  <note>om. HS T</note>
+                </app>
               </l>
             </lg>
             <lg type="strophe" n="III">
@@ -11786,6 +11904,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -11940,6 +12059,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -12021,16 +12141,21 @@
             <lg type="strophe" n="IV">
               <l n="1">
                 <seg type="hemistich">
-                  <w>
-                    <seg type="syll" part="I">Il<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="F">lud<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="cod. V">
+                      <w>
+                        <seg type="syll" part="I">Il<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="F">lud<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                      </w>
+                    </lem>
+                    <rdg wit="HS T"><w>id</w></rdg>
+                  </app>
                   <w>
                     <seg type="syll" part="I">iu<notatedMusic>
                       <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -12064,12 +12189,17 @@
                   </w>
                 </seg>
                 <seg type="hemistich">
-                  <w>
-                    <seg type="syll">et<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="cod. V">
+                      <w>
+                        <seg type="syll">et<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                      </w>
+                    </lem>
+                    <rdg wit="HS T"><w>quod</w></rdg>
+                  </app>
                   <w>
                     <seg type="syll">in<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -12176,6 +12306,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -12254,6 +12385,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -12336,7 +12468,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Dicat tercius monstrando et disputando de stella</stage>
+        <stage>Dicat tercius monstrando et disputando de stella<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe" n="I">
@@ -12529,6 +12661,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -12537,16 +12670,21 @@
                     </notatedMusic>
                     </seg>
                   </w>
-                  <w>
-                    <seg type="syll" part="I">ha<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="F">bent<notatedMusic>
-                      <neume fontname="buranus" glyph.num="6" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="HS V T">
+                      <w>
+                        <seg type="syll" part="I">he<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="F">bent<notatedMusic>
+                          <neume fontname="buranus" glyph.num="6" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                      </w>
+                    </lem>
+                    <rdg wit="cod."><w>habent</w></rdg>
+                  </app>
                   <w>
                     <seg type="syll" part="I" met="+">pla<notatedMusic>
                       <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -12719,6 +12857,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">:</pc>
                 </seg>
               </l>
               <l n="2">
@@ -12756,6 +12895,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -12834,6 +12974,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -12869,6 +13010,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -13019,6 +13161,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -13076,6 +13219,7 @@
                     <seg type="syll" part="F">tur</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -13110,6 +13254,7 @@
                     <seg type="syll" part="F">tur</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">:</pc>
                 </seg>
               </l>
               <l n="4">
@@ -13173,6 +13318,7 @@
                     <seg type="syll" part="F">mus</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -13205,6 +13351,7 @@
                     <seg type="syll" part="F">mus</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -13237,6 +13384,7 @@
                     <seg type="syll" part="F">mus</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -13273,15 +13421,15 @@
             </lg>
           </div>
         </sp>
-        <stage>Modo procedant reges usque in terram Herodis, querendo de puero et cantando</stage>
+        <stage>Modo procedant reges usque in terram Herodis<pc resp="#editor">,</pc> querendo de puero et cantando<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>Ubi</w><w>est</w><w>qui</w><w>natus</w><w>est</w>
             <pc>&#183;</pc>
-            <w>etc.</w>
+            <w rend="italic">etc.</w>
           </p>
         </sp>
-        <stage>Quibus occurrant nuntii Herodis dicentes</stage>
+        <stage>Quibus occurrant nuntii Herodis dicentes<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe" n="I">
@@ -13318,6 +13466,7 @@
                     <seg type="syll" part="F">tis</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -13335,6 +13484,7 @@
                     <seg type="syll" part="M">ci</seg>
                     <seg type="syll" part="F">te</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -13351,6 +13501,7 @@
                     <seg type="syll" part="F">tis</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -13361,11 +13512,15 @@
                   <w>
                     <seg type="syll">si</seg>
                   </w>
-                  <w>
-                    <seg type="syll" part="I">no</seg>
-                    <seg type="syll" part="M">tu</seg>
-                    <seg type="syll" part="F">rum</seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="HS V T">
+                      <w>
+                        <seg type="syll" part="I">mi</seg>
+                        <seg type="syll" part="F">rum</seg>
+                      </w>
+                    </lem>
+                    <rdg wit="cod."><w>noturum</w></rdg>
+                  </app>
                   <w>
                     <seg type="syll" part="I">a</seg>
                     <seg type="syll" part="M">li</seg>
@@ -13385,6 +13540,7 @@
                     <seg type="syll" part="F">tis</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -13395,13 +13551,16 @@
                   <w>
                     <seg type="syll">ad</seg>
                   </w>
-                  <w>
-                    <seg type="syll" part="I">au</seg>
-                    <seg type="syll" part="F">res</seg>
-                  </w>
-                  <w>
-                    <seg type="syll">[...]</seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="cod. V">
+                      <w>
+                        <seg type="syll" part="I">au</seg>
+                        <seg type="syll" part="F">res</seg>
+                      </w>
+                    </lem>
+                    <rdg wit="HS"><w>aures</w> ...</rdg>
+                    <rdg wit="T"><w>aures</w><w>Herodis</w></rdg>
+                  </app>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -13454,6 +13613,7 @@
                     <seg type="syll" part="F">i</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -13489,6 +13649,7 @@
                     <seg type="syll" part="F">i</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">;</pc>
                 </seg>
               </l>
               <l n="3">
@@ -13522,6 +13683,7 @@
                     <seg type="syll" part="F">i</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -13534,11 +13696,16 @@
                     <seg type="syll" part="I">sci</seg>
                     <seg type="syll" part="F">re</seg>
                   </w>
-                  <w>
-                    <seg type="syll" part="I">pos</seg>
-                    <seg type="syll" part="M">su</seg>
-                    <seg type="syll" part="F">mus</seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="HS V T">
+                      <w>
+                        <seg type="syll" part="I">po</seg>
+                        <seg type="syll" part="M">sci</seg>
+                        <seg type="syll" part="F">mus</seg>
+                      </w>
+                    </lem>
+                    <rdg wit="cod."><w>possumus</w></rdg>
+                  </app>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -13561,7 +13728,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Respondent reges</stage>
+        <stage>Respondent reges<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -13596,6 +13763,7 @@
                     <seg type="syll" part="F">tur</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -13663,6 +13831,7 @@
                   <seg type="syll" part="F">tur</seg>
                 </w>
                 <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
               </l>
               <l n="4">
                 <seg type="hemistich">
@@ -13701,7 +13870,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Respondent nuntii</stage>
+        <stage>Respondent nuntii<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -13769,6 +13938,7 @@
                     <seg type="syll" part="F">um</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">;</pc>
                 </seg>
               </l>
               <l n="3">
@@ -13806,9 +13976,10 @@
                     <seg type="syll" part="F">um</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
-              <l n="4">
+              <l n="4" met="7pp+4pp">
                 <seg type="hemistich">
                   <w>
                     <seg type="syll">vos</seg>
@@ -13825,15 +13996,18 @@
                   </w>
                 </seg>
                 <seg type="hemistich">
-                  <w>
-                    <seg type="syll">[...]</seg>
-                  </w>
-                  <w>
-                    <seg type="syll" part="I">ves</seg>
-                    <seg type="syll" part="M">ti</seg>
-                    <seg type="syll" part="M">gi</seg>
-                    <seg type="syll" part="F">um</seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="cod. V">
+                      <w>
+                        <seg type="syll" part="I">ves</seg>
+                        <seg type="syll" part="M">ti</seg>
+                        <seg type="syll" part="M">gi</seg>
+                        <seg type="syll" part="F">um</seg>
+                      </w>
+                    </lem>
+                    <rdg wit="HS">...<w>vestigium</w></rdg>
+                    <rdg wit="T"><w>postea</w><w>vestigium</w></rdg>
+                  </app>
                   <pc>&#183;</pc>
                   <pc resp="#editor">.</pc>
                 </seg>
@@ -13841,7 +14015,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Postea nuntii festinent ad Herodem dicentes</stage>
+        <stage>Postea nuntii festinent ad Herodem dicentes<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -13855,6 +14029,7 @@
                     <seg type="syll" part="M">ro</seg>
                     <seg type="syll" part="F">des</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                   <w>
                     <seg type="syll" part="I">ac</seg>
                     <seg type="syll" part="M">ci</seg>
@@ -13873,6 +14048,7 @@
                     <seg type="syll" part="F">dum</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -13905,6 +14081,7 @@
                     <seg type="syll" part="F">dum</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">:</pc>
                 </seg>
               </l>
               <l n="3">
@@ -13935,6 +14112,7 @@
                     <seg type="syll" part="F">dum</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -13970,7 +14148,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Respondet Herodes cum magna indignatione</stage>
+        <stage>Respondet Herodes cum magna indignatione<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -14002,12 +14180,13 @@
                     <seg type="syll" part="F">re</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">?</pc>
                 </seg>
               </l>
               <l n="2">
                 <seg type="hemistich">
                   <w>
-                    <seg type="syll" part="I">no</seg>
+                    <seg type="syll" part="I">No</seg>
                     <seg type="syll" part="M">li</seg>
                     <seg type="syll" part="F">te</seg>
                   </w>
@@ -14032,13 +14211,19 @@
                     <seg type="syll" part="F">re</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
                 </seg>
               </l>
               <l n="3">
                 <seg type="hemistich">
-                  <w>
-                    <seg type="syll">num</seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="HS V T">
+                      <w>
+                        <seg type="syll">Nam</seg>
+                      </w>
+                    </lem>
+                    <rdg wit="cod."><w>Num</w></rdg>
+                  </app>
                   <w>
                     <seg type="syll" part="I">He</seg>
                     <seg type="syll" part="M">ro</seg>
@@ -14064,6 +14249,7 @@
                     <seg type="syll" part="F">re</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -14082,6 +14268,7 @@
                     <seg type="syll" part="F">net</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -14089,11 +14276,18 @@
                     <seg type="syll" part="F">lum</seg>
                   </w>
                   <pc>&#183;</pc>
-                  <w>
-                    <seg type="syll" part="I">ter</seg>
-                    <seg type="syll" part="F">ra[m]</seg>
-                  </w>
+                  <pc resp="#editor">,</pc>
+                  <app type="text">
+                    <lem wit="HS V T">
+                      <w>
+                        <seg type="syll" part="I">ter</seg>
+                        <seg type="syll" part="F">ram</seg>
+                      </w>
+                    </lem>
+                    <rdg wit="cod."><w>terra</w></rdg>
+                  </app>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                   <w>
                     <seg type="syll" part="I">ma</seg>
                     <seg type="syll" part="F">re</seg>
@@ -14105,7 +14299,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Post hec Herodes maxime indignatus vocari faciat archisynagogus cum Iudeis suis dicens</stage>
+        <stage>Post hec Herodes maxime indignatus vocari faciat archisynagogus cum Iudeis suis dicens<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -14138,6 +14332,7 @@
                     <seg type="syll" part="F">o</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -14171,6 +14366,7 @@
                     <seg type="syll" part="F">o</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -14205,6 +14401,7 @@
                     <seg type="syll" part="F">o</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -14244,7 +14441,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Modo veniat archigynagogus cum magna superbia et Iudeis suis cui dicat Herodes</stage>
+        <stage>Modo veniat archigynagogus cum magna superbia et Iudeis suis<pc resp="#editor">,</pc> cui dicat Herodes<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -14264,6 +14461,7 @@
                     <seg type="syll" part="F">quor</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -14280,6 +14478,7 @@
                     <seg type="syll" part="F">i</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -14313,6 +14512,7 @@
                     <seg type="syll" part="F">i</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">:</pc>
                 </seg>
               </l>
               <l n="3">
@@ -14348,6 +14548,7 @@
                     <seg type="syll" part="F">i</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -14387,7 +14588,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Respondeat archisynagogus cum magna sapientia et eloquentia</stage>
+        <stage>Respondeat archisynagogus cum magna sapientia et eloquentia<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe" n="I">
@@ -14401,11 +14602,13 @@
                     <seg type="syll" part="M">ra</seg>
                     <seg type="syll" part="F">rum</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                   <w>
                     <seg type="syll" part="I">do</seg>
                     <seg type="syll" part="M">mi</seg>
                     <seg type="syll" part="F">ne</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -14422,6 +14625,7 @@
                     <seg type="syll" part="F">o</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -14458,6 +14662,7 @@
                     <seg type="syll" part="F">o</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">;</pc>
                 </seg>
               </l>
               <l n="3">
@@ -14489,6 +14694,7 @@
                     <seg type="syll" part="F">o</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -14524,7 +14730,7 @@
                     <seg type="syll" part="F">o</seg>
                   </w>
                   <pc>&#183;</pc>
-                  <pc resp="#editor">.</pc>
+                  <pc resp="#editor">:</pc>
                 </seg>
               </l>
             </lg>
@@ -14532,18 +14738,20 @@
               <l n="1">
                 <seg type="hemistich">
                   <w>
-                    <seg type="syll" part="I">Re</seg>
+                    <seg type="syll" part="I">re</seg>
                     <seg type="syll" part="F">ges</seg>
                   </w>
                   <w>
                     <seg type="syll" part="I">es</seg>
                     <seg type="syll" part="F">tis</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                   <w>
                     <seg type="syll" part="I">vi</seg>
                     <seg type="syll" part="M">de</seg>
                     <seg type="syll" part="F">o</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -14560,6 +14768,7 @@
                     <seg type="syll" part="F">tus</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -14597,6 +14806,7 @@
                     <seg type="syll" part="F">tus</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
                 </seg>
               </l>
               <l n="3">
@@ -14632,6 +14842,7 @@
                     <seg type="syll" part="F">tus</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -14673,7 +14884,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Respondent reges</stage>
+        <stage>Respondent reges<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -14693,6 +14904,7 @@
                     <seg type="syll" part="F">at</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -14709,6 +14921,7 @@
                     <seg type="syll" part="F">a</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -14746,6 +14959,7 @@
                     <seg type="syll" part="F">a</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -14781,12 +14995,13 @@
                     <seg type="syll" part="F">a</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
                 </seg>
               </l>
               <l n="4">
                 <seg type="hemistich">
                   <w>
-                    <seg type="syll">nos</seg>
+                    <seg type="syll">Nos</seg>
                   </w>
                   <w>
                     <seg type="syll">ad</seg>
@@ -14822,7 +15037,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Herodes respondet</stage>
+        <stage>Herodes respondet<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -14859,6 +15074,7 @@
                     <seg type="syll" part="F">tum</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -14892,6 +15108,7 @@
                     <seg type="syll" part="F">tum</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -14970,7 +15187,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Ab Herode discedant tres magi paulatim inspicientes stellam et disputantes de illa. Interim angelus appareat pastoribus et dicat</stage>
+        <stage>Ab Herode discedant tres magi paulatim inspicientes stellam et disputantes de illa<pc resp="#editor">.</pc> Interim angelus appareat pastoribus et dicat<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -14989,6 +15206,7 @@
                     <seg type="syll" part="M">di</seg>
                     <seg type="syll" part="F">um</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -14996,6 +15214,7 @@
                     <seg type="syll" part="M">to</seg>
                     <seg type="syll" part="F">res</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                   <w>
                     <seg type="syll" part="I">an</seg>
                     <seg type="syll" part="M">nun</seg>
@@ -15003,6 +15222,7 @@
                     <seg type="syll" part="F">o</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">:</pc>
                 </seg>
               </l>
               <l n="2">
@@ -15036,6 +15256,7 @@
                     <seg type="syll" part="F">o</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -15043,6 +15264,15 @@
                   <w>
                     <seg type="syll">quem</seg>
                   </w>
+                  <app type="text">
+                    <lem wit="HS V T">
+                      <w>
+                        <seg type="syll" part="I">ma</seg>
+                        <seg type="syll" part="F">ter</seg>
+                      </w>
+                    </lem>
+                    <note>om. cod.</note>
+                  </app>
                   <w>
                     <seg type="syll">non</seg>
                   </w>
@@ -15065,6 +15295,7 @@
                     <seg type="syll" part="F">o</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -15107,7 +15338,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Pastoribus euntibus dicat diabolus</stage>
+        <stage>Pastoribus euntibus dicat diabolus<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -15128,6 +15359,7 @@
                     <seg type="syll" part="M">li</seg>
                     <seg type="syll" part="F">bus</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -15142,13 +15374,14 @@
                     <seg type="syll" part="F">tas</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
                 <seg type="hemistich">
                   <w>
                     <seg type="syll" part="I">sci</seg>
-                    <seg type="syll" part="F">at</seg>
+                    <seg type="syll" part="F">as</seg>
                   </w>
                   <w>
                     <seg type="syll" part="I">es</seg>
@@ -15177,12 +15410,13 @@
                     <seg type="syll" part="F">tas</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
                 </seg>
               </l>
               <l n="3">
                 <seg type="hemistich">
                   <w>
-                    <seg type="syll">quod</seg>
+                    <seg type="syll">Quod</seg>
                   </w>
                   <w>
                     <seg type="syll">sic</seg>
@@ -15212,6 +15446,7 @@
                     <seg type="syll" part="F">tas</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -15251,7 +15486,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Iterum pastoribus ad negocium suum redeuntibus dicat angelus</stage>
+        <stage>Iterum pastoribus ad negocium suum redeuntibus dicat angelus<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -15262,6 +15497,7 @@
                     <seg type="syll" part="M">to</seg>
                     <seg type="syll" part="F">res</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                   <w>
                     <seg type="syll" part="I">que</seg>
                     <seg type="syll" part="M">ri</seg>
@@ -15273,9 +15509,14 @@
                     <seg type="syll" part="I">na</seg>
                     <seg type="syll" part="F">tum</seg>
                   </w>
-                  <w>
-                    <seg type="syll">in</seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="cod.">
+                      <w>
+                        <seg type="syll">in</seg>
+                      </w>
+                    </lem>
+                    <note>om. HS V T</note>
+                  </app>
                   <w>
                     <seg type="syll" part="I">pre</seg>
                     <seg type="syll" part="M">se</seg>
@@ -15314,6 +15555,7 @@
                     <seg type="syll" part="F">o</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -15343,6 +15585,7 @@
                     <seg type="syll" part="F">o</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -15380,7 +15623,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Iterum pastoribus abeuntibus dicat diabolus ad aures eorum</stage>
+        <stage>Iterum pastoribus abeuntibus dicat diabolus ad aures eorum<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -15394,6 +15637,7 @@
                     <seg type="syll" part="I">ce</seg>
                     <seg type="syll" part="F">tus</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                   <w>
                     <seg type="syll" part="I">a</seg>
                     <seg type="syll" part="M">spi</seg>
@@ -15444,6 +15688,7 @@
                     <seg type="syll" part="F">a</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -15456,11 +15701,16 @@
                     <seg type="syll" part="I">su</seg>
                     <seg type="syll" part="F">a</seg>
                   </w>
-                  <w>
-                    <seg type="syll" part="I">fal</seg>
-                    <seg type="syll" part="M">le</seg>
-                    <seg type="syll" part="F">ret</seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="HS V T">
+                      <w>
+                        <seg type="syll" part="I">fal</seg>
+                        <seg type="syll" part="M">le</seg>
+                        <seg type="syll" part="F">ret</seg>
+                      </w>
+                    </lem>
+                    <rdg wit="cod."><w>falleret</w></rdg>
+                  </app>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -15474,6 +15724,7 @@
                     <seg type="syll" part="F">a</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -15512,7 +15763,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Mirentur pastores et unus dicat ad alterum</stage>
+        <stage>Mirentur pastores et unus dicat ad alterum<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -15526,11 +15777,16 @@
                     <seg type="syll" part="I">fra</seg>
                     <seg type="syll" part="F">ter</seg>
                   </w>
-                  <w>
-                    <seg type="syll" part="I">col</seg>
-                    <seg type="syll" part="M">li</seg>
-                    <seg type="syll" part="F">git</seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="HS V T">
+                      <w>
+                        <seg type="syll" part="I">col</seg>
+                        <seg type="syll" part="M">li</seg>
+                        <seg type="syll" part="F">gis</seg>
+                      </w>
+                    </lem>
+                    <rdg wit="cod."><w>colligit</w></rdg>
+                  </app>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -15579,6 +15835,7 @@
                     <seg type="syll" part="F">o</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -15610,6 +15867,7 @@
                     <seg type="syll" part="M">pi</seg>
                     <seg type="syll" part="F">o</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -15646,7 +15904,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Dicat iterum angelus ad pastores</stage>
+        <stage>Dicat iterum angelus ad pastores<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -15685,6 +15943,7 @@
                     <seg type="syll" part="F">um</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -15756,6 +16015,7 @@
                     <seg type="syll" part="F">um</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -15765,6 +16025,7 @@
                     <seg type="syll" part="F">te</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                   <w>
                     <seg type="syll">nam</seg>
                   </w>
@@ -15776,6 +16037,7 @@
                     <seg type="syll" part="M">di</seg>
                     <seg type="syll" part="F">co</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -15796,11 +16058,11 @@
             </lg>
           </div>
         </sp>
-        <stage>Dicat iterum euntibus diabolus</stage>
+        <stage>Dicat iterum euntibus diabolus<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
-              <l n="1">
+              <l n="1" met="7pp+8pp">
                 <seg type="hemistich">
                   <w>
                     <seg type="syll">O</seg>
@@ -15822,9 +16084,14 @@
                   <w>
                     <seg type="syll">et</seg>
                   </w>
-                  <w>
-                    <seg type="syll">in</seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="cod. V">
+                      <w>
+                        <seg type="syll">in</seg>
+                      </w>
+                    </lem>
+                    <note>om. HS T</note>
+                  </app>
                   <w>
                     <seg type="syll" part="I">sen</seg>
                     <seg type="syll" part="F">su</seg>
@@ -15836,13 +16103,19 @@
                     <seg type="syll" part="F">ta</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
                 <seg type="hemistich">
-                  <w>
-                    <seg type="syll">fert</seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="HS V T">
+                      <w>
+                        <seg type="syll">fer</seg>
+                      </w>
+                    </lem>
+                    <rdg wit="cod."><w>fert</w></rdg>
+                  </app>
                   <w>
                     <seg type="syll" part="I">fe</seg>
                     <seg type="syll" part="F">num</seg>
@@ -15904,18 +16177,19 @@
                     <seg type="syll" part="F">ta</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">!</pc>
                 </seg>
               </l>
               <l n="4">
                 <seg type="hemistich">
                   <w>
-                    <seg type="syll" part="I">de</seg>
+                    <seg type="syll" part="I">De</seg>
                     <seg type="syll" part="M">ba</seg>
                     <seg type="syll" part="M">cha</seg>
                     <seg type="syll" part="F">ris</seg>
                   </w>
                   <w>
-                    <seg type="syll" part="I">nu</seg>
+                    <seg type="syll" part="I">ni</seg>
                     <seg type="syll" part="M">mi</seg>
                     <seg type="syll" part="F">um</seg>
                   </w>
@@ -15943,7 +16217,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Iterum pastores ad socios suos</stage>
+        <stage>Iterum pastores ad socios suos<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -15962,6 +16236,7 @@
                     <seg type="syll" part="M">te</seg>
                     <seg type="syll" part="F">rum</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -15976,6 +16251,7 @@
                     <seg type="syll" part="F">a</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">:</pc>
                 </seg>
               </l>
               <l n="2">
@@ -15993,15 +16269,21 @@
                     <seg type="syll" part="M">di</seg>
                     <seg type="syll" part="F">o</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
                     <seg type="syll">hinc</seg>
                   </w>
-                  <w>
-                    <seg type="syll" part="I">ho</seg>
-                    <seg type="syll" part="F">rum</seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="cod. V">
+                      <w>
+                        <seg type="syll" part="I">ho</seg>
+                        <seg type="syll" part="F">rum</seg>
+                      </w>
+                    </lem>
+                    <rdg wit="HS T"><w>quedam</w></rdg>
+                  </app>
                   <w>
                     <seg type="syll" part="I">con</seg>
                     <seg type="syll" part="M">tra</seg>
@@ -16009,12 +16291,13 @@
                     <seg type="syll" part="F">a</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
                 </seg>
               </l>
               <l n="3">
                 <seg type="hemistich">
                   <w>
-                    <seg type="syll" part="I">me</seg>
+                    <seg type="syll" part="I">Me</seg>
                     <seg type="syll" part="F">us</seg>
                   </w>
                   <w>
@@ -16027,6 +16310,7 @@
                     <seg type="syll" part="F">mus</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -16084,7 +16368,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Postea simul conveniant angeli et simul cantent</stage>
+        <stage>Postea simul conveniant angeli et simul cantent<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -16248,7 +16532,7 @@
             <pc resp="#editor">.</pc>
           </p>
         </sp>
-        <stage>Qua voce audita dicat pastor ad socios suos</stage>
+        <stage>Qua voce audita dicat pastor ad socios suos<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -16325,6 +16609,7 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -16400,12 +16685,13 @@
                     </seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
                 </seg>
               </l>
               <l n="3">
                 <seg type="hemistich">
                   <w>
-                    <seg type="syll" part="I">pro<notatedMusic>
+                    <seg type="syll" part="I">Pro<notatedMusic>
                       <neume fontname="buranus" glyph.num="1" label="pu" />
                     </notatedMusic>
                     </seg>
@@ -16552,7 +16838,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Deinde procedant pastores ad presepe cantando hanc antiphonam</stage>
+        <stage>Deinde procedant pastores ad presepe cantando hanc antiphonam<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -16621,7 +16907,7 @@
             <pc resp="#editor">.</pc>
           </p>
         </sp>
-        <stage>Quo cantato adorent puerum. Deinde revertantur pastores ad officia sua, quibus occurrant tres magi dicentes</stage>
+        <stage>Quo cantato adorent puerum<pc resp="#editor">.</pc> Deinde revertantur pastores ad officia sua<pc resp="#editor">,</pc> quibus occurrant tres magi dicentes<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -16638,6 +16924,7 @@
               </notatedMusic>
               </seg>
             </w>
+            <pc resp="#editor">,</pc>
             <w>
               <seg type="syll" part="I">di<notatedMusic>
                 <neume fontname="buranus" glyph.num="30" label="pe" />
@@ -16702,7 +16989,7 @@
             <pc resp="#editor">.</pc>
           </p>
         </sp>
-        <stage>Respondeant pastores</stage>
+        <stage>Respondeant pastores<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -16784,15 +17071,15 @@
             <pc resp="#editor">.</pc>
           </p>
         </sp>
-        <stage>Postea reges vadant ad presepe et primo adorent puerum, et postea offerant ei munera sua, primo aurum, postea thus, tercio mirram; deinde modicum procedant et tunc dormiant, et angelus appareat eis in somnis dicens</stage>
+        <stage>Postea reges vadant ad presepe et primo adorent puerum<pc resp="#editor">,</pc> et postea offerant ei munera sua<pc resp="#editor">,</pc> primo aurum<pc resp="#editor">,</pc> postea thus<pc resp="#editor">,</pc> tercio mirram<pc resp="#editor">;</pc> deinde modicum procedant et tunc dormiant<pc resp="#editor">,</pc> et angelus appareat eis in somnis dicens<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>Nolite</w><w>redire</w><w>ad</w><w>Herodem</w>
             <pc>&#183;</pc>
-            <w>etc.</w>
+            <w rend="italic">etc.</w>
           </p>
         </sp>
-        <stage>Postea non revertentibus ad Herodem sic dicat</stage>
+        <stage>Postea non revertentibus ad Herodem sic dicat<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -16811,6 +17098,7 @@
                     <seg type="syll" part="M">pe</seg>
                     <seg type="syll" part="F">ret</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                 </seg>
                 <seg type="hemistich">
                   <w>
@@ -16827,6 +17115,7 @@
                     <seg type="syll" part="F">at</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -16940,7 +17229,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Veniat archisynagogus cum suis cui dicat Herodes</stage>
+        <stage>Veniat archisynagogus cum suis<pc resp="#editor">,</pc> cui dicat Herodes<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -16973,6 +17262,7 @@
                     <seg type="syll" part="F">ta</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -17010,12 +17300,13 @@
                     <seg type="syll" part="F">ta</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
                 </seg>
               </l>
               <l n="3">
                 <seg type="hemistich">
                   <w>
-                    <seg type="syll">nam</seg>
+                    <seg type="syll">Nam</seg>
                   </w>
                   <w>
                     <seg type="syll">a</seg>
@@ -17045,9 +17336,10 @@
                     <seg type="syll" part="F">ta</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
-              <l n="4">
+              <l n="4" met="7pp+6pp">
                 <seg type="hemistich">
                   <w>
                     <seg type="syll">se</seg>
@@ -17064,13 +17356,16 @@
                   </w>
                 </seg>
                 <seg type="hemistich">
-                  <w>
-                    <seg type="syll" part="I">cor</seg>
-                    <seg type="syll" part="F">dis</seg>
-                  </w>
-                  <w>
-                    <seg type="syll">[...]</seg>
-                  </w>
+                  <app type="text">
+                    <lem wit="cod. V">
+                      <w>
+                        <seg type="syll" part="I">cor</seg>
+                        <seg type="syll" part="F">dis</seg>
+                      </w>
+                    </lem>
+                    <rdg wit="HS"><w>cordis</w>...</rdg>
+                    <rdg wit="HS"><w>cordis</w><w>nunc</w></rdg>
+                  </app>
                   <w>
                     <seg type="syll" part="I">abs</seg>
                     <seg type="syll" part="M">con</seg>
@@ -17084,7 +17379,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Respondeat archisynagogus</stage>
+        <stage>Respondeat archisynagogus<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>
@@ -17128,10 +17423,10 @@
               </seg>
             </w>
             <pc>&#183;</pc>
-            <w>etc.</w>
+            <w rend="italic">etc.</w>
           </p>
         </sp>
-        <stage>Deinde Herodes iratus dicat ad milites suos</stage>
+        <stage>Deinde Herodes iratus dicat ad milites suos<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="7pp+7pp/7pp+7pp/7pp+7pp/7pp+7pp" rhyme="a/a/a/a">
             <lg type="strophe">
@@ -17141,6 +17436,7 @@
                     <seg type="syll" part="I">I</seg>
                     <seg type="syll" part="F">te</seg>
                   </w>
+                  <pc resp="#editor">,</pc>
                   <w>
                     <seg type="syll" part="I">i</seg>
                     <seg type="syll" part="F">te</seg>
@@ -17166,6 +17462,7 @@
                     <seg type="syll" part="F">o</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="2">
@@ -17200,6 +17497,7 @@
                     <seg type="syll" part="F">o</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="3">
@@ -17233,6 +17531,7 @@
                     <seg type="syll" part="F">o</seg>
                   </w>
                   <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
                 </seg>
               </l>
               <l n="4">
@@ -17274,7 +17573,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Vadant milites et interficiant pueros quorum matres sic lugeant et lamententur</stage>
+        <stage>Vadant milites et interficiant pueros quorum matres sic lugeant et lamententur<pc resp="#editor">:</pc></stage>
         <sp>
           <div type="poem" met="6p/7pp/7pp/7pp" rhyme="A/b/b/b">
             <lg type="strophe" n="I">
@@ -17292,10 +17591,11 @@
                   <seg type="syll" part="F">u</seg>
                 </w>
                 <pc>&#183;</pc>
+                <pc resp="#editor">!</pc>
               </l>
               <l n="2">
                 <w>
-                  <seg type="syll">mens</seg>
+                  <seg type="syll">Mens</seg>
                 </w>
                 <w>
                   <seg type="syll" part="I">He</seg>
@@ -17360,10 +17660,11 @@
                   <seg type="syll" part="F">u</seg>
                 </w>
                 <pc>&#183;</pc>
+                <pc resp="#editor">!</pc>
               </l>
-              <l n="2">
+              <l n="2" met="8pp">
                 <w>
-                  <seg type="syll">que</seg>
+                  <seg type="syll">Que</seg>
                 </w>
                 <w>
                   <seg type="syll" part="I">e</seg>
@@ -17379,7 +17680,7 @@
                   <seg type="syll" part="F">ra</seg>
                 </w>
               </l>
-              <l n="3">
+              <l n="3" met="6pp">
                 <w>
                   <seg type="syll" part="I">su</seg>
                   <seg type="syll" part="F">gens</seg>
@@ -17422,10 +17723,11 @@
                   <seg type="syll" part="F">u</seg>
                 </w>
                 <pc>&#183;</pc>
+                <pc resp="#editor">!</pc>
               </l>
               <l n="2">
                 <w>
-                  <seg type="syll" part="I">is</seg>
+                  <seg type="syll" part="I">Is</seg>
                   <seg type="syll" part="F">te</seg>
                 </w>
                 <w>
@@ -17438,6 +17740,7 @@
                   <seg type="syll" part="F">us</seg>
                 </w>
                 <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
               </l>
               <l n="3">
                 <w>
@@ -17486,10 +17789,11 @@
                   <seg type="syll" part="F">u</seg>
                 </w>
                 <pc>&#183;</pc>
+                <pc resp="#editor">!</pc>
               </l>
               <l n="2">
                 <w>
-                  <seg type="syll" part="I">pro</seg>
+                  <seg type="syll" part="I">Pro</seg>
                   <seg type="syll" part="F">les</seg>
                 </w>
                 <w>
@@ -17540,20 +17844,26 @@
               </l>
             </lg>
             <lg type="strophe" n="V">
-              <l n="1">
+              <l n="1" met="4p">
                 <w>
                   <seg type="syll" part="I">He</seg>
                   <seg type="syll" part="F">u</seg>
                 </w>
-                <w>
-                  <seg type="syll" part="I">he</seg>
-                  <seg type="syll" part="F">u</seg>
-                </w>
+                <app type="text">
+                  <lem wit="cod. V">
+                    <w>
+                      <seg type="syll" part="I">he</seg>
+                      <seg type="syll" part="F">u</seg>
+                    </w>
+                  </lem>
+                  <note><w>heu</w> add. HS T</note>
+                </app>
                 <pc>&#183;</pc>
+                <pc resp="#editor">!</pc>
               </l>
               <l n="2">
                 <w>
-                  <seg type="syll" part="I">mi</seg>
+                  <seg type="syll" part="I">Mi</seg>
                   <seg type="syll" part="F">chi</seg>
                 </w>
                 <w>
@@ -17566,12 +17876,14 @@
                   <seg type="syll" part="F">um</seg>
                 </w>
                 <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
               </l>
               <l n="3">
                 <w>
                   <seg type="syll" part="I">fi</seg>
                   <seg type="syll" part="F">li</seg>
                 </w>
+                <pc resp="#editor">.</pc>
                 <w>
                   <seg type="syll">nunc</seg>
                 </w>
@@ -17603,7 +17915,7 @@
             </lg>
           </div>
         </sp>
-        <stage>Postea Herodes corrodatur a vermibus et excedens de sede sua mortuus, accipiatur a diabolis multum congaudentibus, et Herodis corona inponatur Archelao filio suo. Quo regnante appareat in nocte angelus Ioseph dicens</stage>
+        <stage>Postea Herodes corrodatur a vermibus et excedens de sede sua mortuus<pc resp="#editor">,</pc> accipiatur a diabolis multum congaudentibus<pc resp="#editor">,</pc> et Herodis corona inponatur Archelao filio suo<pc resp="#editor">.</pc> Quo regnante appareat in nocte angelus Ioseph dicens<pc resp="#editor">:</pc></stage>
         <sp>
           <p>
             <w>Accipe</w><w>matrem</w><w>et</w><w>filium</w>
@@ -17613,79 +17925,86 @@
             <pc resp="#editor">.</pc>
           </p>
         </sp>
-        <stage>Precedens Maria asinum dicat</stage>
+        <stage>Precedens Maria asinum dicat<pc resp="#editor">:</pc></stage>
         <sp>
-          <div type="poem" met="7p/9p/5p/8p" rhyme="a/a/b/b">
+          <div type="poem" met="7p+9p/5p+8p" rhyme="a/a/b/b">
             <lg type="strophe">
               <l n="1">
-                <w>
-                  <seg type="syll" part="I">Om</seg>
-                  <seg type="syll" part="M">ni</seg>
-                  <seg type="syll" part="F">a</seg>
-                </w>
-                <w>
-                  <seg type="syll" part="I">du</seg>
-                  <seg type="syll" part="F">ra</seg>
-                </w>
-                <w>
-                  <seg type="syll" part="I">pa</seg>
-                  <seg type="syll" part="F">ti</seg>
-                </w>
+                <seg type="hemistich">
+                  <w>
+                    <seg type="syll" part="I">Om</seg>
+                    <seg type="syll" part="M">ni</seg>
+                    <seg type="syll" part="F">a</seg>
+                  </w>
+                  <w>
+                    <seg type="syll" part="I">du</seg>
+                    <seg type="syll" part="F">ra</seg>
+                  </w>
+                  <w>
+                    <seg type="syll" part="I">pa</seg>
+                    <seg type="syll" part="F">ti</seg>
+                  </w>
+                </seg>
+                <seg type="hemistich">
+                  <w>
+                    <seg type="syll" part="I">vi</seg>
+                    <seg type="syll" part="M">tan</seg>
+                    <seg type="syll" part="F">do</seg>
+                  </w>
+                  <w>
+                    <seg type="syll" part="I">pe</seg>
+                    <seg type="syll" part="M">ri</seg>
+                    <seg type="syll" part="M">cu</seg>
+                    <seg type="syll" part="F">la</seg>
+                  </w>
+                  <w>
+                    <seg type="syll" part="I">na</seg>
+                    <seg type="syll" part="F">ti</seg>
+                  </w>
+                  <pc>&#183;</pc>
+                  <pc resp="#editor">;</pc>
+                </seg>
               </l>
               <l n="2">
-                <w>
-                  <seg type="syll" part="I">vi</seg>
-                  <seg type="syll" part="M">tan</seg>
-                  <seg type="syll" part="F">do</seg>
-                </w>
-                <w>
-                  <seg type="syll" part="I">pe</seg>
-                  <seg type="syll" part="M">ri</seg>
-                  <seg type="syll" part="M">cu</seg>
-                  <seg type="syll" part="F">la</seg>
-                </w>
-                <w>
-                  <seg type="syll" part="I">na</seg>
-                  <seg type="syll" part="F">ti</seg>
-                </w>
-                <pc>&#183;</pc>
-              </l>
-              <l n="3">
-                <w>
-                  <seg type="syll" part="I">Ma</seg>
-                  <seg type="syll" part="F">ter</seg>
-                </w>
-                <w>
-                  <seg type="syll">sum</seg>
-                </w>
-                <w>
-                  <seg type="syll" part="I">pres</seg>
-                  <seg type="syll" part="F">to</seg>
-                </w>
-                <pc>&#183;</pc>
-              </l>
-              <l n="4">
-                <w>
-                  <seg type="syll">iam</seg>
-                </w>
-                <w>
-                  <seg type="syll" part="I">va</seg>
-                  <seg type="syll" part="F">dam</seg>
-                </w>
-                <pc>&#183;</pc>
-                <w>
-                  <seg type="syll">tu</seg>
-                </w>
-                <w>
-                  <seg type="syll" part="I">com</seg>
-                  <seg type="syll" part="F">es</seg>
-                </w>
-                <w>
-                  <seg type="syll" part="I">es</seg>
-                  <seg type="syll" part="F">to</seg>
-                </w>
-                <pc>&#183;</pc>
-                <pc resp="#editor">.</pc>
+                <seg type="hemistich">
+                  <w>
+                    <seg type="syll" part="I">Ma</seg>
+                    <seg type="syll" part="F">ter</seg>
+                  </w>
+                  <w>
+                    <seg type="syll">sum</seg>
+                  </w>
+                  <w>
+                    <seg type="syll" part="I">pres</seg>
+                    <seg type="syll" part="F">to</seg>
+                  </w>
+                  <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+                <seg type="hemistich">
+                  <w>
+                    <seg type="syll">iam</seg>
+                  </w>
+                  <w>
+                    <seg type="syll" part="I">va</seg>
+                    <seg type="syll" part="F">dam</seg>
+                  </w>
+                  <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                  <w>
+                    <seg type="syll">tu</seg>
+                  </w>
+                  <w>
+                    <seg type="syll" part="I">com</seg>
+                    <seg type="syll" part="F">es</seg>
+                  </w>
+                  <w>
+                    <seg type="syll" part="I">es</seg>
+                    <seg type="syll" part="F">to</seg>
+                  </w>
+                  <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
               </l>
             </lg>
           </div>

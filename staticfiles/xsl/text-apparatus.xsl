@@ -62,7 +62,7 @@
     </span>
   </xsl:template>
 
-  <xsl:template match="pc">
+  <xsl:template match="pc[@resp='#editor']">
     <span>
       <xsl:choose>
         <xsl:when test="@pre='true'">
@@ -75,6 +75,8 @@
       <xsl:value-of select="./text()"/>
     </span>
   </xsl:template>
+
+  <xsl:template match="pc" />
 
   <xsl:template match="seg[@type='syll']">
     <xsl:value-of select="normalize-space(.)"/>
