@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="sequence">
@@ -9,38 +9,38 @@
             <seg type="hemistich">la terre se renouvelle,</seg>
           </l>
           <l n="2">
-            <seg type="hemistich">par l’ardeur à la servir</seg>
-            <seg type="hemistich">Vénus se réveille.</seg>
+            <seg type="hemistich">par l&#8217;ardeur &#224; la servir</seg>
+            <seg type="hemistich">V&#233;nus se r&#233;veille.</seg>
           </l>
-          <l n="3">Le chœur des jeunes gens se réjouit,</l>
-          <l n="4">les oiseaux en troupe serrée</l>
+          <l n="3">Le ch&#339;ur des jeunes gens se r&#233;jouit,</l>
+          <l n="4">les oiseaux en troupe serr&#233;e</l>
           <l n="5">chantent en leur babil.</l>
         </lg>
         <lg type="refrain">
           <head>Refrain</head>
           <l n="1">
             <seg type="hemistich">Oh que grands sont les plaisirs</seg>
-            <seg type="hemistich">pour qui aime et est aimé,</seg>
+            <seg type="hemistich">pour qui aime et est aim&#233;,</seg>
           </l>
           <l n="2">
-            <seg type="hemistich">sans ombre d’amertume</seg>
-            <seg type="hemistich">uni à sa bien aimée !</seg>
+            <seg type="hemistich">sans ombre d&#8217;amertume</seg>
+            <seg type="hemistich">uni &#224; sa bien aim&#233;e !</seg>
           </l>
-          <l n="3">Voilà que reverdit</l>
-          <l n="4">tout ce qui fait nos délices,</l>
-          <l n="5">l’hiver est déraciné.</l>
+          <l n="3">Voil&#224; que reverdit</l>
+          <l n="4">tout ce qui fait nos d&#233;lices,</l>
+          <l n="5">l&#8217;hiver est d&#233;racin&#233;.</l>
         </lg>
         <lg type="versicle" n="1b">
           <l n="1">
-            <seg type="hemistich">Les prés sont ornés de fleurs</seg>
+            <seg type="hemistich">Les pr&#233;s sont orn&#233;s de fleurs</seg>
             <seg type="hemistich">de diverses couleurs,</seg>
           </l>
           <l n="2">
-            <seg type="hemistich">et le plaisir qu’on y prend</seg>
-            <seg type="hemistich">fait naître l’amour.</seg>
+            <seg type="hemistich">et le plaisir qu&#8217;on y prend</seg>
+            <seg type="hemistich">fait na&#238;tre l&#8217;amour.</seg>
           </l>
-          <l n="3">Le chœur des jeunes gens se réjouit,</l>
-          <l n="4">les oiseaux en troupe serrée</l>
+          <l n="3">Le ch&#339;ur des jeunes gens se r&#233;jouit,</l>
+          <l n="4">les oiseaux en troupe serr&#233;e</l>
           <l n="5">chantent en leur babil.</l>
         </lg>
         <lg type="versicle" n="2a">
@@ -49,27 +49,27 @@
             <seg type="hemistich">tout reprend vigueur,</seg>
           </l>
           <l n="2">
-            <seg type="hemistich">tout ce qui dépérissait</seg>
-            <seg type="hemistich">sous l’hiver grincheux.</seg>
+            <seg type="hemistich">tout ce qui d&#233;p&#233;rissait</seg>
+            <seg type="hemistich">sous l&#8217;hiver grincheux.</seg>
           </l>
           <l n="3">La terre portant verdure</l>
           <l n="4">se pare de fleurs,</l>
-          <l n="5">et les bois se revêtissent</l>
-          <l n="6">d’amples frondaisons.</l>
+          <l n="5">et les bois se rev&#234;tissent</l>
+          <l n="6">d&#8217;amples frondaisons.</l>
         </lg>
         <lg type="versicle" n="2b">
           <l n="1">
-            <seg type="hemistich">Le temps présent convient bien</seg>
-            <seg type="hemistich">aux services d’amours,</seg>
+            <seg type="hemistich">Le temps pr&#233;sent convient bien</seg>
+            <seg type="hemistich">aux services d&#8217;amours,</seg>
           </l>
           <l n="2">
-            <seg type="hemistich">entre associés deux à deux</seg>
+            <seg type="hemistich">entre associ&#233;s deux &#224; deux</seg>
             <seg type="hemistich">se reforment les alliances.</seg>
           </l>
           <l n="3">La cour des jouvencelles</l>
-          <l n="4">célèbre les fêtes de Vénus,</l>
-          <l n="5">aux êtres tendres l’Amour verse</l>
-          <l n="6">une boisson douce-amère.</l>
+          <l n="4">c&#233;l&#232;bre les f&#234;tes de V&#233;nus,</l>
+          <l n="5">aux &#234;tres tendres l&#8217;Amour verse</l>
+          <l n="6">une boisson douce-am&#232;re.</l>
         </lg>
       </div>
     </body>
