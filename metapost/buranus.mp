@@ -664,7 +664,7 @@ endfig;
 
 beginfig(73);
 % Quilisma 2 loops + oriscus liquescent + 1 prepunctum + 1 substropha
-% qi!or)su1
+% qi!or)-pp1
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw punctum shifted (-12u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;

@@ -21,4 +21,15 @@ def main():
 if __name__ == '__main__':
     main()
 
+    """
+    import json
+    from browse.models import Neume
+
+    Neume.objects.all().delete()
+
+    with open('staticfiles/json/buranus.json') as f:
+        glyphs = json.load(f)
+        for glyph in glyphs:
+            Neume(n=glyph['n'], description=glyph['description']).save()
+    """
 

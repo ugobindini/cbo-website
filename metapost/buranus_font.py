@@ -31,3 +31,11 @@ if __name__ == "__main__":
 		json_file.write(json.dumps([glyph.json(n+1) for (n, glyph) in enumerate(GLYPHS)], indent=2))
 		json_file.close()
 
+	# Export to browse/buranus_dict for usage in neumes-list page
+	dict_file = open('../browse/buranus_dict.py', 'w')
+	dict_file.write("FONT_ID_TO_DESCRIPTION = {\n")
+	for (n, glyph) in enumerate(GLYPHS):
+		dict_file.write(f'\t"{n+1}": "{glyph.description}",\n')
+	dict_file.write("}")
+	dict_file.close()
+

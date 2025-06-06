@@ -72,7 +72,7 @@ NABC_TO_FONT_ID = {
 	"qi!pr": 70,
 	"qi!or)": 71,
 	"qi!or)su1": 72,
-	"qi!or)su1": 73,
+	"qi!or)-pp1": 73,
 	"qipp1": 74,
 	"qisu2": 75,
 	"qipp1su2": 76,

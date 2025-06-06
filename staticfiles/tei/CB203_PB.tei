@@ -1,0 +1,56 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem" xml:lang="french">
+        <lg type="strophe" n="I">
+          <l n="1">En hiver, quand les prés</l>
+          <l n="2">sous le froid se dessèchent</l>
+          <l n="3">et que les eaux sont gelées,</l>
+          <l n="4">ils se précipitent au chauffoir,</l>
+          <l n="5">ceux qui règnent avec le roi Dé,</l>
+          <l n="6">et quand ils sont réconfortés,</l>
+          <l n="7">s’incitent l’un l’autre à jouer.</l>
+          <l n="8">
+            <seg type="hemistich">Qui habillé était venu</seg>
+            <seg type="hemistich">revient sur ses pas tout nu.</seg>
+          </l>
+          <l n="9">Hé ! la richesse se tourmente</l>
+          <l n="10">quand la pauvreté   sert toujours librement.</l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">- Nous qui sommes bons buveurs,</l>
+          <l n="2">le gosier sec, compagnons,</l>
+          <l n="3">saluons la taverne,</l>
+          <l n="4">et joyeusement buvons.</l>
+          <l n="5">Que nos coupes soient toujours remplies,</l>
+          <l n="6">jouons à l’accoutumée.</l>
+          <l n="7">
+            <seg type="hemistich">Qu’on nous donne table bien lisse,</seg>
+            <seg type="hemistich">qu’on nous prête un jeu de dés !</seg>
+          </l>
+          <l n="8">
+            <seg type="hemistich">Pour la boisson et pour l’argent,</seg>
+            <seg type="hemistich">on misera les vêtements.</seg>
+          </l>
+          <l n="9">Hé ! on va voir qui maintenant</l>
+          <l n="10">le sort et Fortune préfèrent. -</l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">Bientôt il sort du chauffoir,</l>
+          <l n="2">accueilli par Messire Froid,</l>
+          <l n="3">et s’entrechoquent ses machoires /</l>
+          <l n="4">compagnes de ses combats.</l>
+          <l n="5">Tout nu, il crie : Malheur, malheur,</l>
+          <l n="6">mes dents s’élancent à l’attaque.</l>
+          <l n="7">O vraiment trop malchanceux,</l>
+          <l n="8">pourquoi sors-tu de la chaleur,</l>
+          <l n="9">en chantant ‘Le roi des martyrs’</l>
+          <l n="10">et en le mimant de ta bouche ?</l>
+          <l n="11">Hé ! C’est cela la règle</l>
+          <l n="12">qui va nous rendre malades.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

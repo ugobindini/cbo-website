@@ -377,7 +377,7 @@ GLYPHS = [
 	),
 	Glyph(
 		description='Quilisma 2 loops + oriscus liquescent + 1 prepunctum + 1 substropha',
-		code='qi!or)su1',
+		code='qi!or)-pp1',
 		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('punctum', '(-12u,0)'), ('cuoricino', '(12u,15u)'), ('substropha', '(18u,3u)')]
 	),
 	Glyph(
