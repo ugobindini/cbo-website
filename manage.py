@@ -33,4 +33,3 @@ if __name__ == '__main__':
         for glyph in glyphs:
             Neume(n=glyph['n'], description=glyph['description']).save()
     """
-

@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem" met="7pp/7pp/7p/7pp/7pp/7p/7pp+6p/7pp+6p/7pp/4p+7pp" rhyme="a/a/b/c/c/b/d/d/e/e">
@@ -565,7 +565,7 @@
             </w>
             <pc resp="#editor">:</pc>
             <w>
-              <seg type="syll">«ve</seg>
+              <seg type="syll">&#171;ve</seg>
             </w>
             <pc resp="#editor">,</pc>
             <w>
@@ -575,7 +575,7 @@
             <w>
               <seg type="syll">ve</seg>
             </w>
-            <pc resp="#editor">»!</pc>
+            <pc resp="#editor">&#187;!</pc>
           </l>
           <l n="6" met="8p">
             <w>
@@ -599,7 +599,7 @@
           <l n="7" met="7pp+7p" rhyme="f+d">
             <seg type="hemistich">
               <w>
-                <seg type="syll">«O</seg>
+                <seg type="syll">&#171;O</seg>
               </w>
               <w>
                 <seg type="syll" part="I">in</seg>
@@ -639,7 +639,7 @@
                 <seg type="syll" part="F">tans</seg>
               </w>
               <w>
-                <seg type="syll" part="I">«Re</seg>
+                <seg type="syll" part="I">&#171;Re</seg>
                 <seg type="syll" part="F">gem</seg>
               </w>
               <w>
@@ -647,7 +647,7 @@
                 <seg type="syll" part="M">ty</seg>
                 <seg type="syll" part="F">rum</seg>
               </w>
-              <pc resp="#editor">»</pc>
+              <pc resp="#editor">&#187;</pc>
             </seg>
             <seg type="hemistich">
               <w>
@@ -662,12 +662,12 @@
                 <seg type="syll" part="I">o</seg>
                 <seg type="syll" part="F">re</seg>
               </w>
-              <pc resp="#editor">»?</pc>
+              <pc resp="#editor">&#187;?</pc>
             </seg>
           </l>
           <l n="9">
             <w>
-              <seg type="syll" part="I">«He</seg>
+              <seg type="syll" part="I">&#171;He</seg>
               <seg type="syll" part="F">i</seg>
             </w>
             <pc resp="#editor">!</pc>
@@ -710,7 +710,7 @@
                 <seg type="syll" part="M">bi</seg>
                 <seg type="syll" part="F">da</seg>
               </w>
-              <pc resp="#editor">».</pc>
+              <pc resp="#editor">&#187;.</pc>
             </seg>
           </l>
         </lg>

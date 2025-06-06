@@ -60,7 +60,7 @@
 
   <xsl:template match="div[@type='sequence']">
     <div class="flex-column" data-type="poem">
-      <xsl:apply-templates select="./head | .//lg[@type='versicle']"/>
+      <xsl:apply-templates />
     </div>
   </xsl:template>
 

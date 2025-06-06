@@ -226,12 +226,17 @@ GLYPHS = [
 		paths=[('pes', None), ('porrectus_end', 'point 1000 of pes')]
 	),
 	Glyph(
+		description='Pes + oriscus',
+		code='pe!or',
+		paths=[('pes', None), ('oriscus', 'point 1000 of pes')]
+	),
+	Glyph(
 		description='Pes + pressus minor',
 		code='pe!pm',
 		paths=[('pes', None), ('oriscus', 'point 1000 of pes'), ('punctum', '(15u,3u)')]
 	),
 	Glyph(
-		description='ancus',
+		description='Ancus',
 		code='an',
 		paths=[('virga', None), ('ancus_loop', None)]
 	),
