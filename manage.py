@@ -22,6 +22,7 @@ if __name__ == '__main__':
     main()
 
     """
+    # This code is for reloading the Neume.objects after adding glyphs
     import json
     from browse.models import Neume
 
