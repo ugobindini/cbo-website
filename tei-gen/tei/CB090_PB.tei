@@ -1,0 +1,27 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">Elle sort au point du jour,</l>
+          <l n="2">la bergerette,</l>
+          <l n="3">avec son troupeau, avec son bâton,</l>
+          <l n="4">et sa laine sur sa quenouille.</l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">Forment son petit troupeau</l>
+          <l n="2">une ânesse et un mouton,</l>
+          <l n="3">une génisse avec un veau,</l>
+          <l n="4">une chevrette et un chevreau.</l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">Dans un buisson elle voit</l>
+          <l n="2">un étudiant assis tout seul.</l>
+          <l n="3">« Monseigneur, que fais-tu là ?</l>
+          <l n="4">Viens t’amuser avec moi ! »</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

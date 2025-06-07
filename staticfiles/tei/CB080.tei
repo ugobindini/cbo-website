@@ -69,6 +69,7 @@
                   </notatedMusic>
                 </seg>
               </w>
+              <pc>&#183;</pc>
               <pc resp="#editor">,</pc>
             </seg>
           </l>
@@ -136,6 +137,7 @@
                   </notatedMusic>
                 </seg>
               </w>
+              <pc>&#183;</pc>
               <pc resp="#editor">.</pc>
             </seg>
           </l>
@@ -216,6 +218,7 @@
                 </notatedMusic>
               </seg>
             </w>
+            <pc>&#183;</pc>
           </l>
           <l n="5">
             <w>
@@ -403,6 +406,7 @@
                   </notatedMusic>
                 </seg>
               </w>
+              <pc>&#183;</pc>
               <pc resp="#editor">!</pc>
             </seg>
           </l>
@@ -517,6 +521,7 @@
                 </notatedMusic>
               </seg>
             </w>
+            <pc>&#183;</pc>
             <pc resp="#editor">.</pc>
           </l>
         </lg>
@@ -564,6 +569,7 @@
                 <seg type="syll" part="M">lo</seg>
                 <seg type="syll" part="F">ris</seg>
               </w>
+              <pc>&#183;</pc>
               <pc resp="#editor">,</pc>
             </seg>
           </l>
@@ -594,6 +600,7 @@
                 <seg type="syll" part="M">mo</seg>
                 <seg type="syll" part="F">ris</seg>
               </w>
+              <pc>&#183;</pc>
               <pc resp="#editor">.</pc>
             </seg>
           </l>
@@ -643,6 +650,7 @@
               <seg type="syll" part="M">la</seg>
               <seg type="syll" part="F">tur</seg>
             </w>
+            <pc>&#183;</pc>
             <pc resp="#editor">.</pc>
           </l>
         </lg>
@@ -662,6 +670,7 @@
                 <seg type="syll" part="M">vi</seg>
                 <seg type="syll" part="F">do</seg>
               </w>
+              <pc>&#183;</pc>
             </seg>
             <seg type="hemistich">
               <w>
@@ -673,11 +682,13 @@
                 <seg type="syll" part="M">man</seg>
                 <seg type="syll" part="F">tur</seg>
               </w>
+              <pc>&#183;</pc>
               <w>
                 <seg type="syll" part="I">om</seg>
                 <seg type="syll" part="M">ni</seg>
                 <seg type="syll" part="F">a</seg>
               </w>
+              <pc>&#183;</pc>
               <pc resp="#editor">,</pc>
             </seg>
           </l>
@@ -779,6 +790,7 @@
               <seg type="syll" part="M">ri</seg>
               <seg type="syll" part="F">bus</seg>
             </w>
+            <pc>&#183;</pc>
             <pc resp="#editor">.</pc>
           </l>
         </lg>
@@ -821,6 +833,7 @@
                 <seg type="syll" part="M">po</seg>
                 <seg type="syll" part="F">ra</seg>
               </w>
+              <pc>&#183;</pc>
               <pc resp="#editor">,</pc>
             </seg>
           </l>
@@ -860,6 +873,7 @@
                 <seg type="syll" part="M">de</seg>
                 <seg type="syll" part="F">ra</seg>
               </w>
+              <pc>&#183;</pc>
               <pc resp="#editor">.</pc>
             </seg>
           </l>
@@ -890,6 +904,7 @@
               <seg type="syll" part="M">ri</seg>
               <seg type="syll" part="F">a</seg>
             </w>
+            <pc>&#183;</pc>
             <pc resp="#editor">,</pc>
           </l>
           <l n="5">
@@ -928,6 +943,7 @@
               <seg type="syll" part="M">ci</seg>
               <seg type="syll" part="F">a</seg>
             </w>
+            <pc>&#183;</pc>
             <pc resp="#editor">.</pc>
           </l>
         </lg>
