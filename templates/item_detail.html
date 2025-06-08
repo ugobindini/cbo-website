@@ -68,6 +68,11 @@
   display: block;
   width: 100%;
 }
+
+#itemRightTitle {
+  margin-left: auto;
+  margin-right: auto;
+}
 </style>
 
 <script>
@@ -219,6 +224,7 @@
           </tr>
           {% endfor %}
         </table>
+        <table id="itemRightTitle"></table>
         <div id="itemRightNav" style="display: flex; align-items: center;">
           <a href="javascript:itemsRightBack()" style="margin-left: 10px;"><i class="fa fa-arrow-left" style="margin-right: 5px;"></i>Back to items' list</a>
           <div style="flex: 1; height: 50px;"></div>
@@ -244,6 +250,7 @@
   function openItemRight(pk) {
     $("#itemsTable").hide();
     $("#selectedItemRight").load("/browse/item-core-view/" + pk);
+    $("#itemRightTitle").load("/browse/item-as-tr/" + pk);
     $("#itemRightDetailView").attr("href", "/browse/item/" + pk);
     $("#selectedItemRight").show();
     $("#itemRightNav").show();

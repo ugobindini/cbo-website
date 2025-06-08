@@ -67,6 +67,10 @@ def item_core_view(request, pk):
     item = Item.objects.get(pk=pk)
     return render(request, 'item_core_view.html', context={'item': item})
 
+def item_as_tr(request, pk):
+    item = Item.objects.get(pk=pk)
+    return render(request, 'item_as_tr.html', context={'item': item})
+
 
 from django.views import generic
 
