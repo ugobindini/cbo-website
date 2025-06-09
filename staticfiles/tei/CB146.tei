@@ -745,7 +745,10 @@
                   </notatedMusic>
                   </seg>
                 </lem>
-                <note>ut vid.</note>
+                <note>spat. vac., coni. <seg type="syll" part="F">ner<notatedMusic>
+                    <neume fontname="buranus" glyph.num="1" label="pu" />
+                  </notatedMusic>
+                  </seg></note>
               </app>
             </w>
             <w>
@@ -774,7 +777,7 @@
                   </notatedMusic>
                   </seg>
                 </lem>
-                <note>spat. vac.  coni. <seg type="syll" part="I" met="+">chu<notatedMusic>
+                <note>spat. vac.,  coni. <seg type="syll" part="I" met="+">chu<notatedMusic>
                   <neume fontname="buranus" glyph.num="1" label="pu" />
                 </notatedMusic>
                 </seg></note>

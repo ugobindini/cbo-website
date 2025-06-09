@@ -91,7 +91,7 @@
               </w>
               <w>
                 <seg type="syll" part="I">red<notatedMusic>
-                  <neume fontname="buranus" glyph.num="46" label="cl" />
+                  <neume fontname="buranus" glyph.num="4" label="ds" />
                 </notatedMusic>
                 </seg>
                 <app type="neume">
@@ -101,7 +101,7 @@
                     </notatedMusic>
                     </seg>
                   </lem>
-                  <note>non leg. coni. <seg type="syll" part="F">it<notatedMusic>
+                  <note>non leg., coni. <seg type="syll" part="F">it<notatedMusic>
                     <neume fontname="buranus" glyph.num="6" label="vi" />
                   </notatedMusic>
                   </seg></note>
@@ -146,7 +146,7 @@
                     </notatedMusic>
                     </seg>
                   </lem>
-                  <note>lect. dub. coni. <seg type="syll" part="F">bus<notatedMusic>
+                  <note>spat. vac. coni. <seg type="syll" part="F">bus<notatedMusic>
                     <neume fontname="buranus" glyph.num="1" label="pu" />
                   </notatedMusic>
                   </seg></note>
@@ -337,7 +337,7 @@
                     </notatedMusic>
                     </seg>
                   </lem>
-                  <note>vel <seg type="syll" part="M">re<notatedMusic>
+                  <note>fors. <seg type="syll" part="M">re<notatedMusic>
                     <neume fontname="buranus" glyph.num="25" label="vi/" />
                   </notatedMusic>
                   </seg></note>
@@ -402,7 +402,7 @@
                   </notatedMusic>
                   </seg>
                 </lem>
-                <note>vel <seg type="syll" part="I">den<notatedMusic>
+                <note>fors. <seg type="syll" part="I">den<notatedMusic>
                   <neume fontname="buranus" glyph.num="25" label="vi/" />
                 </notatedMusic>
                 </seg></note>
