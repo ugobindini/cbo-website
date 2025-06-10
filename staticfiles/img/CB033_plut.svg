@@ -47,17 +47,17 @@
 <path class="SlurSegment" stroke="#000000" stroke-width="1.42" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M395.69,2105.29 C413.704,2078.99 449.732,2078.99 467.746,2105.29 C449.732,2086.4 413.704,2086.4 395.69,2105.29"/>
 <path class="SlurSegment" stroke="#000000" stroke-width="1.42" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M998.054,971.433 C1016.88,944.56 1054.53,944.56 1073.35,971.433 C1054.53,952.107 1016.88,952.107 998.054,971.433"/>
 <path class="SlurSegment" stroke="#000000" stroke-width="1.42" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M1693.66,971.433 C1712.48,944.56 1750.13,944.56 1768.96,971.433 C1750.13,952.107 1712.48,952.107 1693.66,971.433"/>
-<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="1471.4,2677.18 1471.4,2793.69" />
-<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="2762.05,976.394 2762.05,1092.9" />
-<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="2762.05,409.465 2762.05,525.969" />
-<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="2762.05,1543.32 2762.05,1659.83" />
-<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="1417.44,2110.25 1417.44,2226.76" />
+<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="1471.4,2705.53 1471.4,2765.34" />
+<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="2762.05,1004.74 2762.05,1064.55" />
+<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="2762.05,437.811 2762.05,497.622" />
+<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="2762.05,1571.67 2762.05,1631.48" />
+<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="1417.44,2138.6 1417.44,2198.41" />
 <polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="2735.97,2677.18 2735.97,2793.69" />
 <polyline class="BarLine" fill="none" stroke="#000000" stroke-width="15.59" stroke-linejoin="bevel" points="2756.81,2677.18 2756.81,2793.69" />
-<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="1263.05,1543.32 1263.05,1659.83" />
-<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="2762.05,2110.25 2762.05,2226.76" />
-<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="1289.94,409.465 1289.94,525.969" />
-<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="1637.26,976.394 1637.26,1092.9" />
+<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="1263.05,1571.67 1263.05,1631.48" />
+<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="2762.05,2138.6 2762.05,2198.41" />
+<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="1289.94,437.811 1289.94,497.622" />
+<polyline class="BarLine" fill="none" stroke="#000000" stroke-width="5.10" stroke-linejoin="bevel" points="1637.26,1004.74 1637.26,1064.55" />
 <path class="Accidental" transform="matrix(1.13386,0,0,1.13386,681.196,2111.81)" d="M23.3,-10.5 C23.9,-10.6 24.4,-11.3 24.4,-11.9 L24.4,-17.8 C24.4,-18.6 23.8,-19.2 23,-19.2 C22.9,-19.2 22.9,-19.2 22.8,-19.2 L19.5,-18.5 L19.5,-33.4 L16.7,-33.4 L16.7,-17.9 L7.8,-16.1 L7.8,-30.2 L5,-30.2 L5,-15.5 L1.1,-14.7 C0.5,-14.6 0,-13.9 0,-13.3 L0,-13.1 L0,-7.3 L0,-7.5 C0,-6.7 0.6,-6.1 1.4,-6.1 C1.5,-6.1 1.6,-6.1 1.7,-6.1 L5,-6.8 L5,9.7 L1.1,10.5 C0.5,10.6 0,11.3 0,11.9 L0,17.7 C0,18.5 0.6,19.1 1.4,19.1 C1.5,19.1 1.6,19.1 1.7,19.1 L5,18.4 L5,33.3 L7.8,33.3 L7.8,17.8 L16.7,16 L16.7,30.1 L19.5,30.1 L19.5,15.4 L23.3,14.7 C23.9,14.6 24.4,13.9 24.4,13.3 L24.4,7.4 C24.4,6.6 23.8,6 23,6 C22.9,6 22.9,6 22.8,6 L19.5,6.7 L19.5,-9.8 L23.3,-10.5 M7.8,-7.4 L16.7,-9.2 L16.7,7.3 L7.8,9.2 L7.8,-7.4 "/>
 <path class="Accidental" transform="matrix(1.13386,0,0,1.13386,511.517,411.024)" d="M23.3,-10.5 C23.9,-10.6 24.4,-11.3 24.4,-11.9 L24.4,-17.8 C24.4,-18.6 23.8,-19.2 23,-19.2 C22.9,-19.2 22.9,-19.2 22.8,-19.2 L19.5,-18.5 L19.5,-33.4 L16.7,-33.4 L16.7,-17.9 L7.8,-16.1 L7.8,-30.2 L5,-30.2 L5,-15.5 L1.1,-14.7 C0.5,-14.6 0,-13.9 0,-13.3 L0,-13.1 L0,-7.3 L0,-7.5 C0,-6.7 0.6,-6.1 1.4,-6.1 C1.5,-6.1 1.6,-6.1 1.7,-6.1 L5,-6.8 L5,9.7 L1.1,10.5 C0.5,10.6 0,11.3 0,11.9 L0,17.7 C0,18.5 0.6,19.1 1.4,19.1 C1.5,19.1 1.6,19.1 1.7,19.1 L5,18.4 L5,33.3 L7.8,33.3 L7.8,17.8 L16.7,16 L16.7,30.1 L19.5,30.1 L19.5,15.4 L23.3,14.7 C23.9,14.6 24.4,13.9 24.4,13.3 L24.4,7.4 C24.4,6.6 23.8,6 23,6 C22.9,6 22.9,6 22.8,6 L19.5,6.7 L19.5,-9.8 L23.3,-10.5 M7.8,-7.4 L16.7,-9.2 L16.7,7.3 L7.8,9.2 L7.8,-7.4 "/>
 <polyline class="LedgerLine" fill="none" stroke="#000000" stroke-width="4.54" stroke-linejoin="bevel" points="598.499,2083.46 654.041,2083.46" />
