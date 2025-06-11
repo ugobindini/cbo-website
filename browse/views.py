@@ -91,7 +91,7 @@ class ItemListView(generic.ListView):
     model = Item
     context_object_name = 'item_list'
     template_name = 'item_list.html'
-    paginate_by = 30
+    # paginate_by = 30
 
 
 class ItemDetailView(generic.DetailView):
