@@ -456,6 +456,8 @@
                   <neume fontname="buranus" glyph.num="6" label="vi" />
                 </notatedMusic>
               </seg>
+            </w>
+            <w>
               <seg type="syll" part="M">de<notatedMusic>
                   <neume fontname="buranus" glyph.num="1" label="pu" />
                 </notatedMusic>
@@ -682,7 +684,6 @@
                 <seg type="syll" part="M">man</seg>
                 <seg type="syll" part="F">tur</seg>
               </w>
-              <pc>&#183;</pc>
               <w>
                 <seg type="syll" part="I">om</seg>
                 <seg type="syll" part="M">ni</seg>
@@ -718,7 +719,7 @@
                 <seg type="syll" part="F">re</seg>
               </w>
                 </lem>
-                <note>corr. <w>vulvere</w> (<w>vulnere</w>?) sic man. r.</note>
+                <note>corr. <w>vuluere</w> sic man. r.</note>
               </app>
               <app type="text">
                 <lem>

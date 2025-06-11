@@ -600,12 +600,11 @@
               <seg type="syll">ve</seg>
             </w>
             <pc>&#183;</pc>
-            <pc resp="#editor">&#187;</pc>
             <pc resp="#editor">!</pc>
           </l>
           <l n="6" met="8p">
             <w>
-              <seg type="syll" part="I">cur</seg>
+              <seg type="syll" part="I">Cur</seg>
               <seg type="syll" part="F">runt</seg>
             </w>
             <w>
@@ -625,7 +624,6 @@
           </l>
           <l n="7" met="7pp+7p" rhyme="f+d">
             <seg type="hemistich">
-              <pc resp="#editor" pre="true">&#171;</pc>
               <w>
                 <seg type="syll">O</seg>
               </w>
@@ -667,7 +665,7 @@
                 <seg type="syll" part="M">can</seg>
                 <seg type="syll" part="F">tans</seg>
               </w>
-              <pc resp="#editor" pre="true">&#171;</pc>
+              <pc resp="#editor" pre="true">&#8216;</pc>
               <w>
                 <seg type="syll" part="I">Re</seg>
                 <seg type="syll" part="F">gem</seg>
@@ -677,7 +675,7 @@
                 <seg type="syll" part="M">ty</seg>
                 <seg type="syll" part="F">rum</seg>
               </w>
-              <pc resp="#editor">&#187;</pc>
+              <pc resp="#editor">&#8217;</pc>
             </seg>
             <seg type="hemistich">
               <w>
@@ -693,13 +691,12 @@
                 <seg type="syll" part="F">re</seg>
               </w>
               <pc>&#183;</pc>
-              <pc resp="#editor">&#187;</pc>
               <pc resp="#editor">?</pc>
             </seg>
           </l>
           <l n="9">
             <w>
-              <seg type="syll" part="I">&#171;He</seg>
+              <seg type="syll" part="I">He</seg>
               <seg type="syll" part="F">i</seg>
             </w>
             <pc resp="#editor">!</pc>
@@ -744,8 +741,8 @@
                 <seg type="syll" part="F">da</seg>
               </w>
               <pc>&#183;</pc>
-              <pc resp="#editor">&#187;</pc>
               <pc resp="#editor">.</pc>
+              <pc resp="#editor">&#187;</pc>
             </seg>
           </l>
         </lg>

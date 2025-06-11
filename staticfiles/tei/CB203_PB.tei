@@ -39,16 +39,28 @@
         <lg type="strophe" n="III">
           <l n="1">Bient&#244;t il sort du chauffoir,</l>
           <l n="2">accueilli par Messire Froid,</l>
-          <l n="3">et s&#8217;entrechoquent ses machoires /</l>
+          <l n="3">et s&#8217;entrechoquent ses m&#226;choires,</l>
           <l n="4">compagnes de ses combats.</l>
-          <l n="5">Tout nu, il crie : Malheur, malheur,</l>
+          <l n="5">Tout nu, il crie : « Malheur, malheur,</l>
           <l n="6">mes dents s&#8217;&#233;lancent &#224; l&#8217;attaque.</l>
-          <l n="7">O vraiment trop malchanceux,</l>
-          <l n="8">pourquoi sors-tu de la chaleur,</l>
-          <l n="9">en chantant &#8216;Le roi des martyrs&#8217;</l>
-          <l n="10">et en le mimant de ta bouche ?</l>
-          <l n="11">H&#233; ! C&#8217;est cela la r&#232;gle</l>
-          <l n="12">qui va nous rendre malades.</l>
+          <l n="7">
+            <seg type="hemistich">
+              O vraiment trop malchanceux,
+            </seg>
+            <seg type="hemistich">
+              pourquoi sors-tu de la chaleur,
+            </seg>
+          </l>
+          <l n="8">
+            <seg type="hemistich">
+              en chantant &#8216;Le roi des martyrs&#8217;
+            </seg>
+            <seg type="hemistich">
+              et en le mimant de ta bouche ?
+            </seg>
+          </l>
+          <l n="9">H&#233; ! C&#8217;est cela la r&#232;gle</l>
+          <l n="10">qui va nous rendre malades. »</l>
         </lg>
       </div>
     </body>
