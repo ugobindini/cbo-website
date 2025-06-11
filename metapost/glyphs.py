@@ -71,11 +71,6 @@ GLYPHS = [
 		paths=[('virga', None), ('oriscus', None), ('punctum', '(3u,-9u)'), ('stropha', '(15u,-6u)')]
 	),
 	Glyph(
-		description='Virga + oriscus + punctum (separated form) (?)',
-		code='vi!or!pu',
-		paths=[('virga', None), ('oriscus', '(3u,-3u)'), ('punctum', '(6u,-9u)')]
-	),
-	Glyph(
 		description='Virga strata + 2 subpuncta',
 		code='vssu2',
 		paths=[('virga', None), ('oriscus', None), ('punctum', '(6u,-7.5u)'), ('punctum', '(9u,-12u)')]

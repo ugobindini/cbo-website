@@ -19,7 +19,7 @@
               </w>
               <w>
                 <seg type="syll" part="I">trans<notatedMusic>
-                  <neume fontname="buranus" glyph.num="46" label="cl" />
+                  <neume fontname="buranus" glyph.num="45" label="cl" />
                 </notatedMusic>
                 </seg>
                 <seg type="syll" part="F">it<notatedMusic>
@@ -57,7 +57,7 @@
               </w>
               <w>
                 <seg type="syll" part="I">re<notatedMusic>
-                  <neume fontname="buranus" glyph.num="46" label="cl" />
+                  <neume fontname="buranus" glyph.num="45" label="cl" />
                 </notatedMusic>
                 </seg>
                 <seg type="syll" part="M">no<notatedMusic>
@@ -136,7 +136,7 @@
               </w>
               <w>
                 <seg type="syll" part="I">re<notatedMusic>
-                  <neume fontname="buranus" glyph.num="46" label="cl" />
+                  <neume fontname="buranus" glyph.num="45" label="cl" />
                 </notatedMusic>
                 </seg>
                 <app type="neume">
@@ -274,7 +274,7 @@
                 </notatedMusic>
                 </seg>
                 <seg type="syll" part="F">or<notatedMusic>
-                  <neume fontname="buranus" glyph.num="46" label="cl" />
+                  <neume fontname="buranus" glyph.num="45" label="cl" />
                 </notatedMusic>
                 </seg>
               </w>
@@ -338,7 +338,7 @@
                     </seg>
                   </lem>
                   <note>fors. <seg type="syll" part="M">re<notatedMusic>
-                    <neume fontname="buranus" glyph.num="25" label="vi/" />
+                    <neume fontname="buranus" glyph.num="24" label="vi/" />
                   </notatedMusic>
                   </seg></note>
                 </app>
@@ -403,7 +403,7 @@
                   </seg>
                 </lem>
                 <note>fors. <seg type="syll" part="I">den<notatedMusic>
-                  <neume fontname="buranus" glyph.num="25" label="vi/" />
+                  <neume fontname="buranus" glyph.num="24" label="vi/" />
                 </notatedMusic>
                 </seg></note>
               </app>

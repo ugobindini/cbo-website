@@ -108,6 +108,11 @@ class NeumeListView(generic.ListView):
     context_object_name = 'neume_list'
     template_name = 'neume_list.html'
 
+    def get_context_data(self, **kwargs):
+        context = super(NeumeListView, self).get_context_data(**kwargs)
+        context['neume_list'] = sorted(Neume.objects.all(), key=lambda x: x.count, reverse=True)
+        return context
+
 
 class NeumeDetailView(generic.DetailView):
     model = Neume

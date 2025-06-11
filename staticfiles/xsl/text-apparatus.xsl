@@ -21,43 +21,41 @@
   </xsl:template>
 
   <xsl:template match="app[@type='text']">
-    <b style="margin-left: 5px; margin-right: 5px;"><xsl:value-of select="ancestor::lg/@n"/>.<xsl:value-of select="ancestor::l/@n"/></b>
+    <b style="margin-left: 6px;"><xsl:value-of select="ancestor::lg/@n"/>.<xsl:value-of select="ancestor::l/@n"/></b>
+    <!-- TODO: numbering system for plays and refrains -->
     <xsl:apply-templates select="./lem" />
-    <xsl:if test="./rdg">
-      <xsl:choose>
-        <xsl:when test="./lem/@wit">]</xsl:when>
-        <xsl:otherwise>
-          <span style="margin-left: -3px;">]</span>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:if>
     <xsl:apply-templates select="./rdg" />
-    <xsl:if test="./rdg"><xsl:if test="./note">;</xsl:if></xsl:if>
     <xsl:apply-templates select="./note" />
   </xsl:template>
 
   <xsl:template match="lem">
     <span class="flex-wrapper lem text-font">
       <xsl:apply-templates />
+      <xsl:if test="@wit">
+        <i style="margin-left: 6px;"><xsl:value-of select="@wit" /></i>
+      </xsl:if>
+      <xsl:if test="../rdg">]</xsl:if>
     </span>
-    <i style="margin-right: 3px;"><xsl:value-of select="@wit" /></i>
   </xsl:template>
 
   <xsl:template match="rdg">
-    <span class="flex-wrapper rdg" style="margin-left: 6px;"><i>
-      <xsl:apply-templates />
-    </i></span>
-    <i><xsl:value-of select="@wit" /></i>
+    <span class="flex-wrapper rdg" style="margin-left: 6px;">
+      <i>
+        <xsl:apply-templates />
+      </i>
+      <i style="margin-left: 6px;"><xsl:value-of select="@wit" /></i>
+    <xsl:if test="../note">;</xsl:if>
+    </span>
   </xsl:template>
 
   <xsl:template match="note">
-    <i style="margin-left: 6px; margin-right: 6px;">
+    <i style="margin-left: 6px;">
       <xsl:apply-templates />
     </i>
   </xsl:template>
 
   <xsl:template match="w">
-    <span class="app-word text-font">
+    <span class="word text-font">
       <xsl:apply-templates />
     </span>
   </xsl:template>

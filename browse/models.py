@@ -317,7 +317,10 @@ class Item(models.Model):
 
     def count_neumes(self, n):
         # Counts the neumes of type n in the piece
-        return len(self.tei_tree.findall(f".//neume[@glyph.num='{n}']"))
+        if self.is_svg_based:
+            return 0
+        else:
+            return len(self.tei_tree.findall(f".//neume[@glyph.num='{n}']"))
 
     def words(self, exclude_apparatus, cleaned=True):
         # returns a list of all words in the piece
@@ -454,7 +457,8 @@ class Item(models.Model):
 
 class Neume(models.Model):
     n = models.IntegerField()
-    description = models.CharField(max_length=200, help_text="Description of the glyph.")
+    description = models.CharField(max_length=1024, help_text="Description of the glyph.")
+    count = models.IntegerField()
 
     def __str__(self):
         """String for representing the Model object (in Admin site etc.)"""
@@ -468,3 +472,7 @@ class Neume(models.Model):
     def get_absolute_url(self):
         """Returns the URL to access a particular instance of the model."""
         return reverse('neume-detail', args=[str(self.pk)])
+
+    def get_count(self):
+        return sum([item.count_neumes(self.n) for item in Item.objects.all()])
+

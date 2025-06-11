@@ -22,14 +22,14 @@ if __name__ == '__main__':
     main()
 
     """
-    # This code is for reloading the Neume.objects after adding glyphs
+    # This code is for reloading the Neume.objects after adding/removing glyphs or items
     import json
-    from browse.models import Neume
+    from browse.models import Item,Neume
 
     Neume.objects.all().delete()
 
     with open('staticfiles/json/buranus.json') as f:
         glyphs = json.load(f)
         for glyph in glyphs:
-            Neume(n=glyph['n'], description=glyph['description']).save()
+            Neume(n=glyph['n'], description=glyph['description'], count=sum([item.count_neumes(glyph['n']) for item in Item.objects.all()])).save()
     """
