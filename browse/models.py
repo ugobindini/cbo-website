@@ -254,7 +254,8 @@ class Item(models.Model):
     title = models.CharField(max_length=256, help_text="Title of the item (incipit).")
     language = models.ManyToManyField(Language)
     file = models.CharField(max_length=64, help_text="Filename (without extensions).", null=True)
-    IIIF_canvas = models.CharField(max_length=256, help_text="IIIF canvas index of the item.", blank=True)
+    IIIF_canvasIndex = models.CharField(max_length=256, help_text="IIIF canvas index of the item.", blank=True)
+    IIIF_canvasId = models.CharField(max_length=256, help_text="IIIF canvas ID of the item (if no index is available).", blank=True)
     alternative_img_link = models.CharField(max_length=1024, help_text="Alternative link for source images (if IIIF is not available).", blank=True)
 
     class Meta:

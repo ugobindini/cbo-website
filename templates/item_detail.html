@@ -171,7 +171,25 @@
         <div id="mirador" style="position: relative; width: 100%; height: 1000px;"></div>
         <script>
           var source_manifest = "{{ item.source.IIIF_manifest }}";
-          var canvas = "{{ item.IIIF_canvas }}"
+          var canvasIndex = "{{ item.IIIF_canvasIndex }}"
+          var canvasId = "{{ item.IIIF_canvasId }}"
+          var mirador_windows = [];
+          if (canvasIndex.length) {
+            mirador_windows = [
+              {
+                manifestId: source_manifest,
+                canvasIndex: canvasIndex
+              }
+            ]
+          }
+          else {
+            mirador_windows = [
+              {
+                manifestId: source_manifest,
+                canvasId: canvasId
+              }
+            ]
+          }
           var mirador = Mirador.viewer({
             "id": "mirador",
             selectedTheme: 'light',
@@ -184,12 +202,8 @@
                 { key: "gallery" }
               ]
             },
-            windows: [
-              {
-                manifestId: source_manifest,
-                canvasIndex: canvas
-              }
-            ],
+            windows: mirador_windows,
+            canvasID: "http://iiif/id/and/uri/of/your/canvas/canvas-id",
             catalog: [
               {
                 manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00085130/manifest"
