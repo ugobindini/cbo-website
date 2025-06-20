@@ -45,6 +45,7 @@
     </span>
     <span class="neumed-syll">
       <span class="syl-text text-font">
+        <xsl:if test="@part='M' or  @part='F'"><xsl:text>-</xsl:text></xsl:if>
         <xsl:value-of select="normalize-space($text)"/>
         <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
       </span>
