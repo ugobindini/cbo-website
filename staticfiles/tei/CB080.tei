@@ -656,25 +656,24 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="versicle" n="2a" met="7pp+8pp/7pp+8pp/7pp/7pp/8pp/7pp" rhyme="a+b/a+b/b/c/b/c">
+        <lg type="versicle" n="2a" met="7pp/8pp/7pp/8pp/7pp/7pp/8pp/7pp" rhyme="a/b/a/b/b/c/b/c">
           <l n="1">
-            <seg type="hemistich">
-              <w>
-                <seg type="syll">In</seg>
-              </w>
-              <w>
-                <seg type="syll" part="I">ca</seg>
-                <seg type="syll" part="M">lo</seg>
-                <seg type="syll" part="F">re</seg>
-              </w>
-              <w>
-                <seg type="syll" part="I">vi</seg>
-                <seg type="syll" part="M">vi</seg>
-                <seg type="syll" part="F">do</seg>
-              </w>
-              <pc>&#183;</pc>
-            </seg>
-            <seg type="hemistich">
+            <w>
+              <seg type="syll">In</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ca</seg>
+              <seg type="syll" part="M">lo</seg>
+              <seg type="syll" part="F">re</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">vi</seg>
+              <seg type="syll" part="M">vi</seg>
+              <seg type="syll" part="F">do</seg>
+            </w>
+            <pc>&#183;</pc>
+          </l>
+          <l n="2">
               <w>
                 <seg type="syll">nunc</seg>
               </w>
@@ -691,10 +690,8 @@
               </w>
               <pc>&#183;</pc>
               <pc resp="#editor">,</pc>
-            </seg>
           </l>
-          <l n="2">
-            <seg type="hemistich">
+          <l n="3">
               <w>
                 <seg type="syll" part="I">hie</seg>
                 <seg type="syll" part="M">ma</seg>
@@ -705,8 +702,8 @@
                 <seg type="syll" part="M">di</seg>
                 <seg type="syll" part="F">o</seg>
               </w>
-            </seg>
-            <seg type="hemistich">
+          </l>
+          <l n="4">
               <w>
                 <seg type="syll">que</seg>
               </w>
@@ -732,9 +729,8 @@
                 <note>corr. <w>languido</w> sic man. r.</note>
               </app>
               <pc resp="#editor">.</pc>
-            </seg>
-          </l>
-          <l n="3">
+            </l>
+          <l n="5">
             <w>
               <seg type="syll" part="I">Tel</seg>
               <seg type="syll" part="F">lus</seg>
@@ -749,7 +745,7 @@
               <seg type="syll" part="F">na</seg>
             </w>
           </l>
-          <l n="4">
+          <l n="6">
             <w>
               <seg type="syll" part="I">de</seg>
               <seg type="syll" part="M">co</seg>
@@ -763,7 +759,7 @@
             </w>
             <pc resp="#editor">,</pc>
           </l>
-          <l n="5">
+          <l n="7">
             <w>
               <seg type="syll">et</seg>
             </w>
@@ -779,7 +775,7 @@
               <seg type="syll" part="F">ra</seg>
             </w>
           </l>
-          <l n="6">
+          <l n="8">
             <w>
               <seg type="syll" part="I">fron</seg>
               <seg type="syll" part="M">do</seg>
@@ -795,9 +791,8 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="versicle" n="2b" met="7pp+7pp/7pp+7pp/7pp/7pp/8pp/7pp" rhyme="d+e/d+e/d/e/d/e">
+        <lg type="versicle" n="2b" met="7pp/7pp/7pp/7pp/7pp/7pp/8pp/7pp" rhyme="d/e/d/e/d/e/d/e">
           <l n="1">
-            <seg type="hemistich">
               <app type="text">
                 <lem wit="HS T">
                   <w>
@@ -819,8 +814,8 @@
                 </lem>
                 <rdg wit="cod."><w>officii</w></rdg>
               </app>
-            </seg>
-            <seg type="hemistich">
+            </l>
+            <l n="2">
               <w>
                 <seg type="syll">hec</seg>
               </w>
@@ -836,10 +831,8 @@
               </w>
               <pc>&#183;</pc>
               <pc resp="#editor">,</pc>
-            </seg>
-          </l>
-          <l n="2">
-            <seg type="hemistich">
+            </l>
+          <l n="3">
               <app type="text">
                 <lem>
                   <w>
@@ -861,8 +854,8 @@
                 </lem>
                 <rdg wit="cod."><w>officii</w></rdg>
               </app>
-            </seg>
-            <seg type="hemistich">
+            </l>
+            <l n="4">
               <w>
                 <seg type="syll" part="I">re</seg>
                 <seg type="syll" part="M">stau</seg>
@@ -876,9 +869,8 @@
               </w>
               <pc>&#183;</pc>
               <pc resp="#editor">.</pc>
-            </seg>
-          </l>
-          <l n="3">
+            </l>
+          <l n="5">
             <w>
               <seg type="syll" part="I">Fes</seg>
               <seg type="syll" part="F">ta</seg>
@@ -893,7 +885,7 @@
               <seg type="syll" part="F">ris</seg>
             </w>
           </l>
-          <l n="4">
+          <l n="6">
             <w>
               <seg type="syll" part="I">pu</seg>
               <seg type="syll" part="M">el</seg>
@@ -908,7 +900,7 @@
             <pc>&#183;</pc>
             <pc resp="#editor">,</pc>
           </l>
-          <l n="5">
+          <l n="7">
             <w>
               <seg type="syll" part="I">pro</seg>
               <seg type="syll" part="M">pi</seg>
@@ -924,7 +916,7 @@
               <seg type="syll" part="F">ris</seg>
             </w>
           </l>
-          <l n="6">
+          <l n="8">
             <w>
               <seg type="syll" part="I">a</seg>
               <seg type="syll" part="M">ma</seg>

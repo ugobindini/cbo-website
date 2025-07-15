@@ -1,0 +1,27 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I" met="6pp/6pp/6pp/6pp" rhyme="a/a/a/a">
+          <l n="1">Dic Christi veritas<pc>&#183;</pc></l>
+          <l n="2">dic cara raritas<pc>&#183;</pc></l>
+          <l n="3">dic rara Caritas</l>
+          <l n="4">ubi nunc habitas<pc>&#xf1f0;</pc></l>
+        </lg>
+        <lg type="strophe" n="II" met="8p/8p/8p/8p" rhyme="a/a/b/b">
+          <l n="1">Aut in Valle Visionis<pc>&#183;</pc></l>
+          <l n="2">aut in throno Pharaonis<pc>&#183;</pc></l>
+          <l n="3">aut in alto cum Nerone<pc>&#183;</pc></l>
+          <l n="4">aut in antro cum Theone<pc>&#183;</pc></l>
+        </lg>
+        <lg type="strophe" n="III" met="8pp/7p/8pp/7p" rhyme="a/b/a/b">
+          <l n="1">Vel in ficella cirpea</l>
+          <l n="2">cum Moyse plorante<pc>&#183;</pc></l>
+          <l n="3">vel in domo Romulea</l>
+          <l n="4">cum bulla fulminante<pc>&#183;</pc></l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

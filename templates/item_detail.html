@@ -172,24 +172,24 @@
         <script>
           var source_manifest = "{{ item.source.IIIF_manifest }}";
           var canvasIndex = "{{ item.IIIF_canvasIndex }}"
-          var canvasId = "{{ item.IIIF_canvasId }}"
+          //var canvasId = "{{ item.IIIF_canvasId }}"
           var mirador_windows = [];
-          if (canvasIndex.length) {
+          //if (canvasIndex.length) {
             mirador_windows = [
               {
                 manifestId: source_manifest,
                 canvasIndex: canvasIndex
               }
             ]
-          }
-          else {
+          //}
+          /* else {
             mirador_windows = [
               {
                 manifestId: source_manifest,
                 canvasId: canvasId
               }
             ]
-          }
+          } */
           var mirador = Mirador.viewer({
             "id": "mirador",
             selectedTheme: 'light',
@@ -203,7 +203,6 @@
               ]
             },
             windows: mirador_windows,
-            canvasID: "http://iiif/id/and/uri/of/your/canvas/canvas-id",
             catalog: [
               {
                 manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00085130/manifest"

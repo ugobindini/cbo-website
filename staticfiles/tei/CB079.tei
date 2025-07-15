@@ -956,7 +956,7 @@
             <pc>&#183;</pc>
           </l>
           <l n="2">
-            <pc resp="#editor" pre="true">&#8211;</pc>
+            <pc resp="#editor" pre="true" rend="space-after">&#8211;</pc>
             <w>
               <seg type="syll" part="I">fe</seg>
               <seg type="syll" part="F">cit</seg>
@@ -977,7 +977,7 @@
               <seg type="syll" part="F">do</seg>
             </w>
             <pc>&#183;</pc>
-            <pc resp="#editor">&#8211;</pc>
+            <pc resp="#editor" rend="space-before">&#8211;</pc>
           </l>
           <l n="3">
             <pc resp="#editor" pre="true">&#171;</pc>

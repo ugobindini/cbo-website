@@ -1,0 +1,27 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">Dic, Christi veritas,</l>
+          <l n="2">dic, cara raritas,</l>
+          <l n="3">dic, rara Caritas:</l>
+          <l n="4">ubi nunc habitas?</l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">Aut in Valle Visionis?</l>
+          <l n="2">Aut in throno Pharaonis?</l>
+          <l n="3">Aut in alto cum Nerone?</l>
+          <l n="4">Aut in antro cum Theone?</l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">Vel in fiscella scirpea</l>
+          <l n="2">cum Moyse plorante?</l>
+          <l n="3">Vel in domo Romulea</l>
+          <l n="4">cum bulla fulminante?</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

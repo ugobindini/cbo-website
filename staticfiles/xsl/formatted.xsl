@@ -194,6 +194,12 @@
           <xsl:attribute name="class">pc</xsl:attribute>
         </xsl:otherwise>
       </xsl:choose>
+      <xsl:if test="@rend='space-before'">
+        <xsl:attribute name="style">margin-left: 6px;</xsl:attribute>
+      </xsl:if>
+      <xsl:if test="@rend='space-after'">
+        <xsl:attribute name="style">margin-right: 0px;</xsl:attribute>
+      </xsl:if>
       <xsl:choose>
         <xsl:when test="@resp='#editor'">
           <xsl:attribute name="data-resp">ed</xsl:attribute>
