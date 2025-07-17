@@ -1,20 +1,36 @@
-<msDesc>
+<msDesc xml:lang="de">
   <msIdentifier>
-    <country>Germany</country>
     <settlement>Wolfenbüttel</settlement>
-    <institution>Herzog August Bibliothek</institution>
-    <idno>D-W Guelf. 628 Helmst.</idno>
-    <msName>W1</msName>
+    <repository>Herzog August Bibliothek</repository>
+    <collection>Helmstedter Handschriften</collection>
+    <idno sortKey="wf_hab_helmst-0628">Cod. Guelf. 628 Helmst.</idno>
+    <altIdentifier type="catalog">
+      <collection>Heinemann-Nr.</collection>
+      <idno sortKey="heinemann-0677">677</idno>
+    </altIdentifier>
   </msIdentifier>
-  <head></head>
-  <msContents></msContents>
-  <physDesc></physDesc>
-  <history></history>
-  <additional></additional>
-  <msPart></msPart>
-  <msFrag></msFrag>
+  <head>
+    <title>Organa, conductus, moteti (W1)</title>
+    <origDate notBefore="1201" notAfter="1300">13. Jh.</origDate>
+    <origPlace>Frankreich/Großbritannien</origPlace>
+  </head>
+  <additional>
+    <adminInfo>
+      <custodialHist>
+        <custEvent type="exhibition" from="2004-11-28" to="2005-07-31">
+          <ref type="other" cRef="2004-Divina-officia">
+            Divina officia - Liturgie und Frömmigkeit im Mittelalter
+          </ref>
+        </custEvent>
+      </custodialHist>
+    </adminInfo>
+    <listBibl>
+      <head>Beschreibungen für diese Handschrift</head>
+      <bibl>
+        Otto von Heinemann: Die Helmstedter Handschriften. Bd. 2: Cod. Guelf. 501 bis 1000 Helmst. (1886) S.
+        <ref target="http://diglib.hab.de/drucke/15-4f-10-1b-2/start.htm?image=00109">87</ref>
+        [zur <ref type="mss" cRef="628-helmst_tei-msDesc_Heinemann">Beschreibung</ref>]
+      </bibl>
+    </listBibl>
+  </additional>
 </msDesc>
-13 (1340s-1360s)
-Square notation, Notre Dame
-Manuscript W2 of the Notre Dame sources.
-Online description: http://diglib.hab.de/drucke/15-4f-10-1b-2/start.htm?image=00109
