@@ -218,13 +218,12 @@
         <xsl:if test="@type='text'">apparatus-in-text app-type-text apparatus-visible</xsl:if>
         <xsl:if test="@type='neume'">apparatus-in-text app-type-neume apparatus-visible</xsl:if>
       </xsl:attribute>
-      <span>
+      <span class="flex-wrapper">
         <xsl:attribute name="class">
           <xsl:if test="@type='text'">apparatus-note font-small cbo-border-red</xsl:if>
           <xsl:if test="@type='neume'">apparatus-note font-small cbo-border-blue toggle-neumes</xsl:if>
         </xsl:attribute>
         <xsl:apply-templates select="./rdg" />
-        <!--<xsl:if test="./rdg"><xsl:if test="./note">;</xsl:if></xsl:if>-->
         <xsl:apply-templates select="./note" />
       </span>
       <xsl:apply-templates select="./lem" />
@@ -236,18 +235,19 @@
   </xsl:template>
 
   <xsl:template match="rdg">
-    <span class="rdg">
-      <xsl:apply-templates />
-    </span>
-    <span class="wit">
-      <i><xsl:value-of select="@wit" /></i>
+    <span class="flex-wrapper rdg" style="margin-left: 6px;">
+      <i>
+        <xsl:apply-templates />
+      </i>
+      <i style="margin-left: 6px;"><xsl:value-of select="@wit" /></i>
+    <xsl:if test="../note">;</xsl:if>
     </span>
   </xsl:template>
 
   <xsl:template match="note">
-    <span style="margin-right: 10px;"><i>
+    <i style="margin-left: 6px;">
       <xsl:apply-templates />
-    </i></span>
+    </i>
   </xsl:template>
 
 </xsl:stylesheet>

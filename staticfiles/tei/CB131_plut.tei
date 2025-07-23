@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
@@ -7,7 +7,7 @@
           <l n="1">Dic Christi veritas<pc>&#183;</pc></l>
           <l n="2">dic cara raritas<pc>&#183;</pc></l>
           <l n="3">dic rara caritas</l>
-          <l n="4">ubi nunc habitas<pc>&#xf1f0;</pc></l>
+          <l n="4">ubi nunc habitas<pc>&#61936;</pc></l>
         </lg>
         <lg type="strophe" n="II" met="8p/8p/8p/8p" rhyme="a/a/b/b">
           <l n="1">Aut in Valle Visionis<pc>&#183;</pc></l>
