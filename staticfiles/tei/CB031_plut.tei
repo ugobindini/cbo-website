@@ -1,26 +1,65 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
       <div type="poem" met="5pp/3p+4pp/5pp/3p+4pp/7pp+6p/7pp+6p" rhyme="a/b+c/a/b+c/c+b/c+b">
-        <lg type="strophe">
-          <l n="1">Vite perdite</l>
-          <l n="2">
-            <seg type="hemistich">me legi</seg>
-            <seg type="hemistich">subdideram<pc>&#183;</pc></seg>
+        <lg type="strophe" n="I">
+          <l n="1">
+            <w>Vite</w>
+            <w>perdite</w>
           </l>
-          <l n="3">minus licite</l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>me</w>
+              <w>legi</w>
+            </seg>
+            <seg type="hemistich">
+              <w>subdideram</w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="3">
+            <w>minus</w>
+            <w>licite</w>
+          </l>
           <l n="4">
-            <seg type="hemistich">dum fregi</seg>
-            <seg type="hemistich">quod voveram<pc>&#183;</pc></seg>
+            <seg type="hemistich">
+              <w>dum</w>
+              <w>fregi</w>
+            </seg>
+            <seg type="hemistich">
+              <w>quod</w>
+              <w>voveram</w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">;</pc>
+            </seg>
           </l>
           <l n="5">
-            <seg type="hemistich">sed ad vite vesperam</seg>
-            <seg type="hemistich">corrigendum legi<pc>&#183;</pc></seg>
+            <seg type="hemistich">
+              <w>sed</w>
+              <w>ad</w>
+              <w>vite</w>
+              <w>vesperam</w>
+            </seg>
+            <seg type="hemistich">
+              <w>corrigendum</w>
+              <w>legi</w>
+              <pc>&#183;</pc>
+            </seg>
           </l>
           <l n="6">
-            <seg type="hemistich">quicquid ante perperam</seg>
-            <seg type="hemistich">puerilis egi<pc>&#183;</pc></seg>
+            <seg type="hemistich">
+              <w>quicquid</w>
+              <w>ante</w>
+              <w>perperam</w>
+            </seg>
+            <seg type="hemistich">
+              <w>puerilis</w>
+              <w>egi</w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
           </l>
         </lg>
       </div>
