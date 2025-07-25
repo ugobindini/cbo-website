@@ -10,6 +10,7 @@ from text_layout import *
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
+	parser.add_argument('-plain', default=2)
 	parser.add_argument('filename', nargs='+')
 
 	args = parser.parse_args()
@@ -22,7 +23,7 @@ if __name__ == "__main__":
 		out_file = open(f"tei/{out_filename}", 'w')
 
 		poem = ET.Element("div", {'type': 'poem'})
-		poem.extend([Strophe(x, n=i + 1).tei(plain=True) for (i, x) in enumerate(strophe_parser(in_file))])
+		poem.extend([Strophe(x, n=i + 1).tei(plain=int(args.plain)) for (i, x) in enumerate(strophe_parser(in_file))])
 
 		body = ET.Element("body")
 		body.append(poem)

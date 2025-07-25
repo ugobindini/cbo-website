@@ -1,45 +1,107 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
       <div type="poem" met="4pp+6pp/4pp+6pp/4pp+6pp/4pp+6pp/4pp+6pp/6pp/4pp+6pp/4p+6pp/4pp+6pp/4pp+6pp" rhyme="a+b/a+b/b+a/c+d/c+d/c/e/e/f/f">
         <lg type="strophe">
           <l n="1">
-            <seg type="hemistich">O varium</seg>
-            <seg type="hemistich">fortune lubricum</seg>
+            <seg type="hemistich">
+              <w>O</w>
+              <w>varium</w>
+            </seg>
+            <seg type="hemistich">
+              <w>fortune</w>
+              <w>lubricum</w>
+            </seg>
           </l>
           <l n="2">
-            <seg type="hemistich">dans dubium</seg>
-            <seg type="hemistich">tribunal iudicum</seg>
+            <seg type="hemistich">
+              <w>dans</w>
+              <w>dubium</w>
+            </seg>
+            <seg type="hemistich">
+              <w>tribunal</w>
+              <w>iudicum</w>
+            </seg>
           </l>
           <l n="3">
-            <seg type="hemistich">non modicum</seg>
-            <seg type="hemistich">panis huic premium<pc>&#183;</pc></seg>
+            <seg type="hemistich">
+              <w>non</w>
+              <w>modicum</w>
+            </seg>
+            <seg type="hemistich">
+              <w>panis</w>
+              <w>huic</w>
+              <w>premium</w>
+              <pc>&#183;</pc>
+            </seg>
           </l>
           <l n="4">
-            <seg type="hemistich">quem colere</seg>
-            <seg type="hemistich">vult tua gracia</seg>
+            <seg type="hemistich">
+              <w>quem</w>
+              <w>colere</w>
+            </seg>
+            <seg type="hemistich">
+              <w>vult</w>
+              <w>tua</w>
+              <w>gracia</w>
+            </seg>
           </l>
           <l n="5">
-            <seg type="hemistich">et petere</seg>
-            <seg type="hemistich">rote sublimia<pc>&#183;</pc></seg>
+            <seg type="hemistich">
+              <w>et</w>
+              <w>petere</w>
+            </seg>
+            <seg type="hemistich">
+              <w>rote</w>
+              <w>sublimia</w>
+              <pc>&#183;</pc>
+            </seg>
           </l>
-          <l n="6">tamen prepostere</l>
+          <l n="6">
+            <w>tamen</w>
+            <w>prepostere</w>
+          </l>
           <l n="7">
-            <seg type="hemistich">de stercore</seg>
-            <seg type="hemistich">pauperem erigens</seg>
+            <seg type="hemistich">
+              <w>de</w>
+              <w>stercore</w>
+            </seg>
+            <seg type="hemistich">
+              <w>pauperem</w>
+              <w>erigens</w>
+            </seg>
           </l>
           <l n="8">
-            <seg type="hemistich">Et Fauvellum</seg>
-            <seg type="hemistich">in altum erigens</seg>
+            <seg type="hemistich">
+              <w>Et</w>
+              <w>Fauvellum</w>
+            </seg>
+            <seg type="hemistich">
+              <w>in</w>
+              <w>altum</w>
+              <w>erigens</w>
+            </seg>
           </l>
           <l n="9">
-            <seg type="hemistich">quo consule</seg>
-            <seg type="hemistich">fides est mortua</seg>
+            <seg type="hemistich">
+              <w>quo</w>
+              <w>consule</w>
+            </seg>
+            <seg type="hemistich">
+              <w>fides</w>
+              <w>est</w>
+              <w>mortua</w>
+            </seg>
           </l>
           <l n="10">
-            <seg type="hemistich">ecclesia</seg>
-            <seg type="hemistich">ductore vidua</seg>
+            <seg type="hemistich">
+              <w>ecclesia</w>
+            </seg>
+            <seg type="hemistich">
+              <w>ductore</w>
+              <w>vidua</w>
+            </seg>
           </l>
         </lg>
       </div>

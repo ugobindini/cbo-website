@@ -59,8 +59,9 @@ class Word:
         if len(char):
             self.pc = PunctuationCharacter(char)
 
-        # remove punctuation from last syllable
+        # remove punctuation from last syllable and from word
         if x > 1:
+            self.word = self.word[:-x+1]
             syllables[-1] = syllables[-1][:-x+1]
 
         if len(syllables) <= 1:
@@ -72,18 +73,17 @@ class Word:
     def tex(self):
         return "".join([syllable.tex() for syllable in self.syllables])
 
-    def tei(self, plain=False):
+    def tei(self, plain):
         # returns a list, because sometimes we have to admit <pc> elements as well
         w = ET.Element("w")
-        if plain:
-            w.text = self.word + self.pc.char
-            return [w]
+        if plain <= 1:
+            w.text = self.word
         else:
             w.extend([syllable.tei() for syllable in self.syllables])
-            if self.pc is not None:
-                return [w, self.pc.tei()]
-            else:
-                return [w]
+        if self.pc is not None:
+            return [w, self.pc.tei()]
+        else:
+            return [w]
 
 
 class Segment:
@@ -98,9 +98,9 @@ class Segment:
     def tex(self):
         return " ".join([word.tex() for word in self.words])
 
-    def tei(self, plain=False):
+    def tei(self, plain):
         segment = ET.Element("seg", attrib={'type': 'hemistich'})
-        if plain:
+        if plain == 0:
             segment.text = self.segment
         else:
             import itertools
@@ -116,25 +116,25 @@ class Verse:
         """
         self.n = n
         self.verse = verse
-        self.splitted = False
+        self.split = False
         if verse.__contains__("|"):
-            self.splitted = True
+            self.split = True
             self.segments = [Segment(s) for s in verse.split("|")]
         else:
             self.words = [Word(w) for w in verse.split(" ") if len(w)]
 
     def tex(self):
-        if self.splitted:
+        if self.split:
             return tex_caesura.join([segment.tex() for segment in self.segments]) + tex_verse_break
         else:
             return " ".join([word.tex() for word in self.words]) + tex_verse_break
 
-    def tei(self, plain=False):
+    def tei(self, plain):
         verse = ET.Element("l", attrib={'n': str(self.n)})
-        if self.splitted:
+        if self.split:
             verse.extend([segment.tei(plain) for segment in self.segments])
         else:
-            if plain:
+            if plain == 0:
                 verse.text = self.verse
             else:
                 import itertools
@@ -154,8 +154,10 @@ class Strophe:
     def tex(self):
         return "".join([verse.tex() for verse in self.verses]) + tex_strophe_break
 
-    def tei(self, plain=False):
-        # If plain is set, the verses are kept without splitting words (used to encode non-notated pieces).
+    def tei(self, plain=2):
+        # If plain is 0, verses are kept without splitting words (used to encode Pascale's translations).
+        # If plain is 1, words are not split into syllables (used to encode the text of non-neumed pieces for now).
+        # If plain is 2 (or more), words are split into syllables.
         strophe = ET.Element("lg", attrib={'type': 'strophe', 'n': n_to_roman(self.n)})
         strophe.extend([verse.tei(plain) for verse in self.verses])
         return strophe

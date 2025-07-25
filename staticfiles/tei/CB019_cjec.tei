@@ -3,23 +3,63 @@
   <text>
     <body>
       <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/5pp/7pp+6p" rhyme="a/a/a/b/b+a">
-        <lg type="strophe">
+        <lg type="strophe" n="I">
           <l n="1">
-            <seg type="hemistich">Fas et nephas ambulant</seg>
-            <seg type="hemistich">fere passu pari</seg>
+            <seg type="hemistich">
+              <w>Fas</w>
+              <w>et</w>
+              <w>nefas</w>
+              <w>ambulant</w>
+            </seg>
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="cod. Tc">
+                  <w>fere</w>
+                  <w>passu</w>
+                </lem>
+                <rdg wit="V"><w>passu</w><w>fere</w></rdg>
+                <rdg wit="HS T"><w>pene</w><w>passu</w></rdg>
+              </app>
+              <w>pari</w>
+            </seg>
           </l>
           <l n="2">
-            <seg type="hemistich">prodigus non redimit</seg>
-            <seg type="hemistich">vitium avari</seg>
+            <seg type="hemistich">
+              <w>prodigus</w>
+              <w>non</w>
+              <w>redimit</w>
+            </seg>
+            <seg type="hemistich">
+              <w>vitium</w>
+              <w>avari</w>
+            </seg>
           </l>
           <l n="3">
-            <seg type="hemistich">virtus temperantia</seg>
-            <seg type="hemistich">quadam singulari</seg>
+            <seg type="hemistich">
+              <w>virtus</w>
+              <w>temperantia</w>
+            </seg>
+            <seg type="hemistich">
+              <w>quadam</w>
+              <w>singulari</w>
+            </seg>
           </l>
-          <l n="4">debet medium</l>
+          <l n="4">
+            <w>debet</w>
+            <w>medium</w>
+          </l>
           <l n="5">
-            <seg type="hemistich">ad utrumque vitium</seg>
-            <seg type="hemistich">caute contemplari<pc>&#183;</pc></seg>
+            <seg type="hemistich">
+              <w>ad</w>
+              <w>utrumque</w>
+              <w>vitium</w>
+            </seg>
+            <seg type="hemistich">
+              <w>caute</w>
+              <w>contemplari</w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
           </l>
         </lg>
       </div>

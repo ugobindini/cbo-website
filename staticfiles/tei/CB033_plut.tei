@@ -3,173 +3,74 @@
   <text>
     <body>
       <div type="poem" met="8pp/8pp/8pp/8pp/8pp/4pp/8pp/8pp/8pp/8pp" rhyme="a/b/b/b/c/a/c/d/d/c">
-        <lg type="strophe">
+        <lg type="strophe" n="I">
           <l n="1">
-            <w>
-              <seg type="syll">Non</seg>
-            </w>
-            <w>
-              <seg type="syll">te</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">lu</seg>
-              <seg type="syll" part="M">sis</seg>
-              <seg type="syll" part="F">se</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">pu</seg>
-              <seg type="syll" part="M">de</seg>
-              <seg type="syll" part="F">at</seg>
-            </w>
+            <w>Non</w>
+            <w>te</w>
+            <w>lusisse</w>
+            <w>pudeat</w>
+            <pc>&#183;</pc>
             <pc resp="#editor">,</pc>
           </l>
           <l n="2">
-            <w>
-              <seg type="syll">sed</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">lu</seg>
-              <seg type="syll" part="F">dum</seg>
-            </w>
-            <w>
-              <seg type="syll">non</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">in</seg>
-              <seg type="syll" part="M">ci</seg>
-              <seg type="syll" part="M">de</seg>
-              <seg type="syll" part="F">re</seg>
-            </w>
+            <w>sed</w>
+            <w>ludum</w>
+            <w>non</w>
+            <w>incidere</w>
+            <pc>&#183;</pc>
           </l>
           <l n="3">
-            <w>
-              <seg type="syll">et</seg>
-            </w>
-            <w>
-              <seg type="syll">que</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">lu</seg>
-              <seg type="syll" part="M">sis</seg>
-              <seg type="syll" part="F">ti</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">te</seg>
-              <seg type="syll" part="M">me</seg>
-              <seg type="syll" part="F">re</seg>
-            </w>
+            <w>et</w>
+            <w>que</w>
+            <w>lusisti</w>
+            <w>temere</w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="4">
-            <w>
-              <seg type="syll">ad</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">vi</seg>
-              <seg type="syll" part="F">te</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">fru</seg>
-              <seg type="syll" part="F">gem</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">ver</seg>
-              <seg type="syll" part="M">te</seg>
-              <seg type="syll" part="F">re</seg>
-            </w>
+            <w>ad</w>
+            <w>vite</w>
+            <w>frugem</w>
+            <w>vertere</w>
             <pc resp="#editor">.</pc>
           </l>
           <l n="5">
-            <w>
-              <seg type="syll" part="I">Ma</seg>
-              <seg type="syll" part="M">gis</seg>
-              <seg type="syll" part="F">tra</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">mo</seg>
-              <seg type="syll" part="F">rum</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">ra</seg>
-              <seg type="syll" part="M">ti</seg>
-              <seg type="syll" part="F">o</seg>
-            </w>
+            <w>Magistra</w>
+            <w>morum</w>
+            <app type="text">
+              <lem wit="HS V W T"><w>doceat</w></lem>
+              <rdg wit="cod."><w>ratio</w></rdg>
+            </app>
           </l>
           <l n="6">
-            <w>
-              <seg type="syll">te</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">do</seg>
-              <seg type="syll" part="M">ce</seg>
-              <seg type="syll" part="F">at</seg>
-            </w>
+            <w>te</w>
+            <app type="text">
+              <lem wit="HS V W T"><w>ratio</w></lem>
+              <rdg wit="cod."><w>doceat</w></rdg>
+            </app>
+            <pc>&#183;</pc>
             <pc resp="#editor">,</pc>
           </l>
           <l n="7">
-            <w>
-              <seg type="syll">ut</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">di</seg>
-              <seg type="syll" part="F">gnus</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">pon</seg>
-              <seg type="syll" part="M">ti</seg>
-              <seg type="syll" part="M">fi</seg>
-              <seg type="syll" part="M">ci</seg>
-              <seg type="syll" part="F">o</seg>
-            </w>
+            <w>ut</w>
+            <w>dignus</w>
+            <w>pontificio</w>
           </l>
           <l n="8">
-            <w>
-              <seg type="syll" part="I">di</seg>
-              <seg type="syll" part="M">vi</seg>
-              <seg type="syll" part="F">ni</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">do</seg>
-              <seg type="syll" part="F">no</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">nu</seg>
-              <seg type="syll" part="M">mi</seg>
-              <seg type="syll" part="F">nis</seg>
-            </w>
+            <w>divini</w>
+            <w>dono</w>
+            <w>numinis</w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="9">
-            <w>
-              <seg type="syll">ad</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">lau</seg>
-              <seg type="syll" part="F">dem</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">Chris</seg>
-              <seg type="syll" part="F">ti</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">no</seg>
-              <seg type="syll" part="M">mi</seg>
-              <seg type="syll" part="F">nis</seg>
-            </w>
+            <w>ad</w>
+            <w>laudem</w>
+            <w>Christi</w>
+            <w>nominis</w>
           </l>
           <l n="10">
-            <w>
-              <seg type="syll" part="I">fun</seg>
-              <seg type="syll" part="M">ga</seg>
-              <seg type="syll" part="F">ris</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">sa</seg>
-              <seg type="syll" part="M">cer</seg>
-              <seg type="syll" part="M">do</seg>
-              <seg type="syll" part="M">ci</seg>
-              <seg type="syll" part="F">o</seg>
-            </w>
+            <w>fungaris</w>
+            <w>sacerdocio</w>
+            <pc>&#183;</pc>
             <pc resp="#editor">.</pc>
           </l>
         </lg>
