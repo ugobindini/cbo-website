@@ -2,10 +2,15 @@ import re
 
 
 def parse(met):
+	# returns a positional list with the number of left-indents for each verse
 	elements = met.split('/')
 	ints = []
 	for element in elements:
-		ints.append(sum([int(x) for x in re.findall(r'\d+', element)]))
+		if 'A' in element:
+			# accounting for german metric with 'Auftakt'
+			element = element.split('A')[1]
+		# sum the integers appearing in the metric (possibly more than one due to hemistichs/composite verses)
+		ints.append(sum([int(''.join(filter(str.isdigit, x))) for x in re.findall(r'\d+', element)]))
 
 	ints = [x - max(ints) for x in ints]
 	k = 0
