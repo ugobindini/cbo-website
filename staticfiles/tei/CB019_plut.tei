@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader/>
+  <teiHeader />
   <text>
     <body>
       <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/5pp/7pp+6p" rhyme="a/a/a/b/b+a">
@@ -84,11 +84,11 @@
               <w>legitur</w>
             </seg>
             <seg type="hemistich">
-              <pc resp="editor">‘</pc>
+              <pc resp="editor">&#8216;</pc>
               <w>ambula</w>
               <w>cum</w>
               <w>bonis</w>
-              <pc resp="editor">’</pc>
+              <pc resp="editor">&#8217;</pc>
               <pc>&#183;</pc>
             </seg>
           </l>

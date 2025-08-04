@@ -11,6 +11,9 @@ from text_layout import *
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-plain', default=2)
+	# If plain is 0, verses are kept without splitting words (used to encode Pascale's translations).
+	# If plain is 1, words are not split into syllables (used to encode the text of non-neumed pieces for now).
+	# If plain is 2 (or more), words are split into syllables.
 	parser.add_argument('filename', nargs='+')
 
 	args = parser.parse_args()
