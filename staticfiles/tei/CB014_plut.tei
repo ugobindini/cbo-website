@@ -10,14 +10,15 @@
               <w>varium</w>
             </seg>
             <seg type="hemistich">
-              <w>fortune</w>
+              <w>Fortune</w>
               <w>lubricum</w>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="2">
             <seg type="hemistich">
               <app type="text">
-                <lem wit="HS V T">dans</lem>
+                <lem wit="HS V T"><w>dans</w></lem>
                 <rdg wit="cod."><w>dat</w> corr. ex <w>dan</w></rdg>
               </app>
               <w>dubium</w>
@@ -25,7 +26,9 @@
             <seg type="hemistich">
               <w>tribunal</w>
               <w>iudicum</w>
-              <pc>&#183;</pc></seg>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
           </l>
           <l n="3">
             <seg type="hemistich">
@@ -59,15 +62,20 @@
               <w>rote</w>
               <w>sublimia</w>
               <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="6">
             <seg type="hemistich">
               <w>dans</w>
-              <w>premia</w>
+              <app type="text">
+                <lem wit="cod."><w>premia</w></lem>
+                <rdg wit="HS V T"><w>dubia</w></rdg>
+              </app>
             </seg>
             <seg type="hemistich">
               <w>tamen</w>
+              <pc resp="#editor">,</pc>
               <w>prepostere</w>
               <pc>&#183;</pc>
             </seg>
@@ -81,16 +89,21 @@
               <w>pauperem</w>
               <w>erigens</w>
               <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="8"><seg type="hemistich">
             <w>de</w>
-            <w>rhetore</w>
+            <app type="text">
+              <lem wit="HS V T"><w>rhetore</w></lem>
+              <rdg wit="cod."><w>recthore</w></rdg>
+            </app>
           </seg>
             <seg type="hemistich">
               <w>consulem</w>
               <w>eligens</w>
               <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
         </lg>
