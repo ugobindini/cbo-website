@@ -24,7 +24,7 @@ if __name__ == '__main__':
     """
     # This code is for reloading the Neume.objects after adding/removing glyphs or items
     import json
-    from browse.models import Item,Neume
+    from browse.models import Item, Neume
 
     Neume.objects.all().delete()
 

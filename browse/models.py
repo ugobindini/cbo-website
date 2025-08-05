@@ -465,6 +465,9 @@ class Neume(models.Model):
         res = f"{self.n} {self.description}"
         return res
 
+    class Meta:
+        ordering = ['n']
+
     @property
     def svg_path(self):
         return f"buranus{self.n}.svg"
