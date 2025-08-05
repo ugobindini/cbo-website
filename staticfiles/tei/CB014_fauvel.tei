@@ -10,8 +10,9 @@
               <w>varium</w>
             </seg>
             <seg type="hemistich">
-              <w>fortune</w>
+              <w>Fortune</w>
               <w>lubricum</w>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="2">
@@ -21,7 +22,11 @@
             </seg>
             <seg type="hemistich">
               <w>tribunal</w>
-              <w>iudicum</w>
+              <app type="text">
+                <lem wit="HS V T"><w>iudicum</w></lem>
+                <rdg wit="cod."><w>iudicium</w></rdg>
+              </app>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="3">
@@ -30,7 +35,11 @@
               <w>modicum</w>
             </seg>
             <seg type="hemistich">
-              <w>panis</w>
+              <app type="text">
+                <lem wit="HS T"><w>paras</w></lem>
+                <rdg wit="cod."><w>panis</w></rdg>
+                <rdg wit="V"><w>parans</w></rdg>
+              </app>
               <w>huic</w>
               <w>premium</w>
               <pc>&#183;</pc>
@@ -42,8 +51,13 @@
               <w>colere</w>
             </seg>
             <seg type="hemistich">
-              <w>vult</w>
+              <app type="text">
+                <lem wit="cod.">
+                  <w>vult</w>
               <w>tua</w>
+                </lem>
+                <rdg wit="HS V T"><w>vult</w><w>tua</w></rdg>
+              </app>
               <w>gracia</w>
             </seg>
           </l>
@@ -56,10 +70,14 @@
               <w>rote</w>
               <w>sublimia</w>
               <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="6">
-            <w>tamen</w>
+            <app type="text">
+              <lem><w>tamen</w></lem>
+              <rdg wit="HS V T"><w>dans</w><w>dubia</w><w>tamen</w></rdg>
+            </app>
             <w>prepostere</w>
           </l>
           <l n="7">
@@ -70,6 +88,7 @@
             <seg type="hemistich">
               <w>pauperem</w>
               <w>erigens</w>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="8">
@@ -80,7 +99,13 @@
             <seg type="hemistich">
               <w>in</w>
               <w>altum</w>
-              <w>erigens</w>
+              <app type="text">
+                <lem>
+                  <w>erigens</w>
+                </lem>
+                <note>fort. <w>eligens</w></note>
+              </app>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="9">
@@ -92,11 +117,12 @@
               <w>fides</w>
               <w>est</w>
               <w>mortua</w>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="10">
             <seg type="hemistich">
-              <w>ecclesia</w>
+              <w>Ecclesia</w>
             </seg>
             <seg type="hemistich">
               <w>ductore</w>
