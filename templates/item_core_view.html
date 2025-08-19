@@ -107,18 +107,20 @@
     </div>
   </div>
 
-  <div id="svg-{{ item.pk }}" class="tabcontent">
-    <img src="{% static item.svg_path %}" style="width: 100%;"/>
-  </div>
+  <div id="main-container-{{ item.pk }}">
+    <div id="svg-{{ item.pk }}" class="tabcontent">
+      <img src="{% static item.svg_path %}" style="width: 100%;"/>
+    </div>
 
-  <div id="text-{{ item.pk }}" class="tabcontent">
-    {% autoescape off %}
-    {{ item.formatted_transform }}
-    {% endautoescape %}
-    <hr/>
-    {% autoescape off %}
-    {{ item.text_apparatus_transform }}
-    {% endautoescape %}
+    <div id="text-{{ item.pk }}" class="tabcontent">
+      {% autoescape off %}
+      {{ item.formatted_transform }}
+      {% endautoescape %}
+      <hr/>
+      {% autoescape off %}
+      {{ item.text_apparatus_transform }}
+      {% endautoescape %}
+    </div>
   </div>
 
   {% else %}
@@ -140,40 +142,42 @@
     </div>
   </div>
 
-  <div id="formattedText-{{ item.pk }}" class="tabcontent">
-    {% autoescape off %}
-    {{ item.formatted_transform }}
-    {% endautoescape %}
-    <hr/>
-    {% autoescape off %}
-    {{ item.text_apparatus_transform }}
-    {% endautoescape %}
-    {% if item.is_notated %}
-    <hr class="toggle-neumes"/>
-    <div class="toggle-neumes">
+  <div id="main-container-{{ item.pk }}">
+    <div id="formattedText-{{ item.pk }}" class="tabcontent">
       {% autoescape off %}
-      {{ item.neume_apparatus_transform }}
+      {{ item.formatted_transform }}
       {% endautoescape %}
+      <hr/>
+      {% autoescape off %}
+      {{ item.text_apparatus_transform }}
+      {% endautoescape %}
+      {% if item.is_notated %}
+      <hr class="toggle-neumes"/>
+      <div class="toggle-neumes">
+        {% autoescape off %}
+        {{ item.neume_apparatus_transform }}
+        {% endautoescape %}
+      </div>
+      {% endif %}
     </div>
-    {% endif %}
-  </div>
 
-  <div id="continuousText-{{ item.pk }}" class="tabcontent">
-    {% autoescape off %}
-    {{ item.continuous_transform }}
-    {% endautoescape %}
-    <hr/>
-    {% autoescape off %}
-    {{ item.text_apparatus_transform }}
-    {% endautoescape %}
-    {% if item.is_notated %}
-    <hr class="toggle-neumes"/>
-    <div class="toggle-neumes">
+    <div id="continuousText-{{ item.pk }}" class="tabcontent">
       {% autoescape off %}
-      {{ item.neume_apparatus_transform }}
+      {{ item.continuous_transform }}
       {% endautoescape %}
+      <hr/>
+      {% autoescape off %}
+      {{ item.text_apparatus_transform }}
+      {% endautoescape %}
+      {% if item.is_notated %}
+      <hr class="toggle-neumes"/>
+      <div class="toggle-neumes">
+        {% autoescape off %}
+        {{ item.neume_apparatus_transform }}
+        {% endautoescape %}
+      </div>
+      {% endif %}
     </div>
-    {% endif %}
   </div>
 
   {% endif %}

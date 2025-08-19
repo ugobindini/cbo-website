@@ -140,10 +140,19 @@
 </script>
 
 <div style="padding: 20px; width: 100%;">
-  <h1>CB {{ item.abstract_item.cb_id }}</h1>
-  <h2>{{ item.title }}</h2>
-  <p>Source: <a href="{{ item.source.get_absolute_url }}">{{ item.source.bib_id }}</a> ({{ item.source.location }})</p>
-  <p>Folio: {{ item.foliation_str }}</p>
+  <div style="display: flex">
+    <div style="flex: 2">
+      <h1>CB {{ item.abstract_item.cb_id }}</h1>
+      <h2>{{ item.title }}</h2>
+      <p>Source: <a href="{{ item.source.get_absolute_url }}">{{ item.source.bib_id }}</a> ({{ item.source.location }})</p>
+      <p>Folio: {{ item.foliation_str }}</p>
+    </div>
+    <div style="flex: 1">
+      <h5>Download options</h5>
+      <a href="{% static 'tei/' %}{{ item.file }}.tei" download="{{ item.file }}.tei"><img src="{% static 'img/TEI_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
+      <!-- <a id="pdf-download" style="cursor: pointer;"><img src="{% static 'img/PDF_Logo.svg' %}" style="width: 42px; height:42px;" /></a> -->
+    </div>
+  </div>
 
   <div style="display: flex;">
     <div class="cbo-border-inset cbo-border-sand flex-column" style="width: 50%;">
