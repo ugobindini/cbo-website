@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Language, Author, Genre, Theme, TextType, TextTypeSpecification, Source, AbstractItem, Item, Neume
+from .models import Language, Author, Genre, Theme, Source, AbstractItem, Item, Neume
 
 
 class SourceAdmin(admin.ModelAdmin):
@@ -14,25 +14,26 @@ class ItemAdmin(admin.ModelAdmin):
     pass
 
 
-class TextTypeSpecificationInline(admin.TabularInline):
-    model = TextTypeSpecification
-    extra = 1
-
-
-class TextTypeAdmin(admin.ModelAdmin):
-    inlines = [TextTypeSpecificationInline]
+# class TextTypeSpecificationInline(admin.TabularInline):
+#     model = TextTypeSpecification
+#     extra = 1
+#
+#
+# class TextTypeAdmin(admin.ModelAdmin):
+#     inlines = [TextTypeSpecificationInline]
 
 
 class AbstractItemAdmin(admin.ModelAdmin):
-    inlines = [TextTypeSpecificationInline]
+    pass
+#     inlines = [TextTypeSpecificationInline]
 
 
 admin.site.register(Language)
 admin.site.register(Author)
 admin.site.register(Genre)
 admin.site.register(Theme)
-admin.site.register(TextType)
-admin.site.register(TextTypeSpecification)
+# admin.site.register(TextType)
+# admin.site.register(TextTypeSpecification)
 admin.site.register(Source, SourceAdmin)
 admin.site.register(AbstractItem, AbstractItemAdmin)
 admin.site.register(Item, ItemAdmin)

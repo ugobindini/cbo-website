@@ -108,94 +108,81 @@ class Theme(models.Model):
         ]
 
 
-class TextType(models.Model):
-    """Model representing a text type (metrical poetry, rhythmic poetry, prose)."""
-    METRICAL_POETRY = "Metrical poetry"
-    RHYTHMICAL_POETRY = "Rhythmical poetry"
-    PROSE = "Prose"
-    TYPE_CHOICES = [
-        (METRICAL_POETRY, "Metrical poetry"),
-        (RHYTHMICAL_POETRY, "Rhythmical poetry"),
-        (PROSE, "Prose")
-    ]
-    type = models.CharField(max_length=20, choices=TYPE_CHOICES)
-
-    def get_absolute_url(self):
-        """Returns the URL to access a particular instance of the model."""
-        return reverse('text-type-detail', args=[str(self.id)])
-
-    def __str__(self):
-        """String for representing the Model object (in Admin site etc.)"""
-        return self.type
-
-    class Meta:
-        ordering = ['type']
-
-
-class TextTypeSpecification(models.Model):
-    """Model representing a specification of the text type."""
-    text_type = models.ForeignKey(TextType, on_delete=models.CASCADE)
-    abstract_item = models.ForeignKey("AbstractItem", on_delete=models.CASCADE)
-    HEXAMETER = "HEX"
-    PENTAMETER = "PEN"
-    SEPTENARIUS = "SEP"
-    TRIMETER = "TRI"
-    VERSE_UNIT_CHOICES = [
-        ("", "Unspecified"),
-        (HEXAMETER, "Hexameter"),
-        (PENTAMETER, "Pentameter"),
-        (SEPTENARIUS, "Septenarius"),
-        (TRIMETER, "Trimeter")
-    ]
-    verse_unit = models.CharField(max_length=3, choices=VERSE_UNIT_CHOICES, default="", null=True, blank=True)
-
-    IAMB = "IAM"
-    TROCHEE = "TRO"
-    SPONDEE = "SPO"
-    ANAPEST = "ANA"
-    DAKTYL = "DAK"
-    TYPE_OF_METER_CHOICES = [
-        ("", "Unspecified"),
-        (IAMB, "Iamb"),
-        (TROCHEE, "Trochee"),
-        (SPONDEE, "Spondee"),
-        (ANAPEST, "Anapest"),
-        (DAKTYL, "Daktyl")
-    ]
-    type_of_meter = models.CharField(max_length=3, choices=TYPE_OF_METER_CHOICES, default="", null=True, blank=True)
-
-    ISOMETRIC = "ISO"
-    HETEROMETRIC = "HET"
-    STROPHIC_CHOICES = [
-        ("", "Not strophic"),
-        (ISOMETRIC, "Isometric"),
-        (HETEROMETRIC, "Heterometric")
-    ]
-    strophic = models.CharField(max_length=3, choices=STROPHIC_CHOICES, default="", null=True, blank=True)
-
-    refrain = models.BooleanField()
-
-    def get_absolute_url(self):
-        """Returns the URL to access a particular instance of the model."""
-        return reverse('text-type-specification-poetry-detail', args=[str(self.id)])
-
-    def __str__(self):
-        """String for representing the Model object (in Admin site etc.)"""
-        return f"{self.verse_unit}, {self.type_of_meter}, {self.strophic}, refrain: {self.refrain}"
-
-
-class MusicalForm(models.Model):
-    """Model representing a musical form."""
-    # TODO: how do we represent it?
-
-    def get_absolute_url(self):
-        """Returns the URL to access a particular instance of the model."""
-        return reverse('music-form-detail', args=[str(self.id)])
-
-    def __str__(self):
-        """String for representing the Model object (in Admin site etc.)"""
-        # TODO
-        return ""
+# Old models for the text type (obsolete)
+# class TextType(models.Model):
+#     """Model representing a text type (metrical poetry, rhythmic poetry, prose)."""
+#     METRICAL_POETRY = "Metrical poetry"
+#     RHYTHMICAL_POETRY = "Rhythmical poetry"
+#     PROSE = "Prose"
+#     TYPE_CHOICES = [
+#         (METRICAL_POETRY, "Metrical poetry"),
+#         (RHYTHMICAL_POETRY, "Rhythmical poetry"),
+#         (PROSE, "Prose")
+#     ]
+#     type = models.CharField(max_length=20, choices=TYPE_CHOICES)
+#
+#     def get_absolute_url(self):
+#         """Returns the URL to access a particular instance of the model."""
+#         return reverse('text-type-detail', args=[str(self.id)])
+#
+#     def __str__(self):
+#         """String for representing the Model object (in Admin site etc.)"""
+#         return self.type
+#
+#     class Meta:
+#         ordering = ['type']
+#
+#
+# class TextTypeSpecification(models.Model):
+#     """Model representing a specification of the text type."""
+#     text_type = models.ForeignKey(TextType, on_delete=models.CASCADE)
+#     abstract_item = models.ForeignKey("AbstractItem", on_delete=models.CASCADE)
+#     HEXAMETER = "HEX"
+#     PENTAMETER = "PEN"
+#     SEPTENARIUS = "SEP"
+#     TRIMETER = "TRI"
+#     VERSE_UNIT_CHOICES = [
+#         ("", "Unspecified"),
+#         (HEXAMETER, "Hexameter"),
+#         (PENTAMETER, "Pentameter"),
+#         (SEPTENARIUS, "Septenarius"),
+#         (TRIMETER, "Trimeter")
+#     ]
+#     verse_unit = models.CharField(max_length=3, choices=VERSE_UNIT_CHOICES, default="", null=True, blank=True)
+#
+#     IAMB = "IAM"
+#     TROCHEE = "TRO"
+#     SPONDEE = "SPO"
+#     ANAPEST = "ANA"
+#     DAKTYL = "DAK"
+#     TYPE_OF_METER_CHOICES = [
+#         ("", "Unspecified"),
+#         (IAMB, "Iamb"),
+#         (TROCHEE, "Trochee"),
+#         (SPONDEE, "Spondee"),
+#         (ANAPEST, "Anapest"),
+#         (DAKTYL, "Daktyl")
+#     ]
+#     type_of_meter = models.CharField(max_length=3, choices=TYPE_OF_METER_CHOICES, default="", null=True, blank=True)
+#
+#     ISOMETRIC = "ISO"
+#     HETEROMETRIC = "HET"
+#     STROPHIC_CHOICES = [
+#         ("", "Not strophic"),
+#         (ISOMETRIC, "Isometric"),
+#         (HETEROMETRIC, "Heterometric")
+#     ]
+#     strophic = models.CharField(max_length=3, choices=STROPHIC_CHOICES, default="", null=True, blank=True)
+#
+#     refrain = models.BooleanField()
+#
+#     def get_absolute_url(self):
+#         """Returns the URL to access a particular instance of the model."""
+#         return reverse('text-type-specification-poetry-detail', args=[str(self.id)])
+#
+#     def __str__(self):
+#         """String for representing the Model object (in Admin site etc.)"""
+#         return f"{self.verse_unit}, {self.type_of_meter}, {self.strophic}, refrain: {self.refrain}"
 
 
 class Source(models.Model):
@@ -231,7 +218,6 @@ class AbstractItem(models.Model):
     cb_id = models.CharField(max_length=10, help_text="Number of the item.")
     theme = models.ManyToManyField(Theme)
     genre = models.ForeignKey(Genre, on_delete=models.SET_NULL, null=True)
-    text_type = models.ManyToManyField(TextType, through="TextTypeSpecification")
 
     class Meta:
         ordering = [Length('cb_id'), 'cb_id']
