@@ -151,27 +151,7 @@
     <xsl:value-of select="normalize-space(.)"/>
   </xsl:template>
 
-  <xsl:template match="pc">
-    <span>
-      <xsl:choose>
-        <xsl:when test="@pre='true'">
-          <xsl:attribute name="class">pc pre</xsl:attribute>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:attribute name="class">pc</xsl:attribute>
-        </xsl:otherwise>
-      </xsl:choose>
-      <xsl:choose>
-        <xsl:when test="@resp='#editor'">
-          <xsl:attribute name="data-resp">ed</xsl:attribute>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:attribute name="data-resp">ms</xsl:attribute>
-        </xsl:otherwise>
-      </xsl:choose>
-      <xsl:value-of select="./text()"/>
-    </span>
-  </xsl:template>
+  <xsl:include href="pc.xsl"/>
 
   <xsl:template match="app[@type='neume']">
     <xsl:apply-templates select="./lem/*" />
