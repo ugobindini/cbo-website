@@ -272,7 +272,7 @@ class Item(models.Model):
     @property
     def is_svg_based(self):
         import os.path
-        if os.path.isfile(staticfile_path('img/mscz/', self.file + '.svg')):
+        if os.path.isfile(staticfile_path('img/mscz-svg/', self.file + '.svg')):
             return True
         else:
             return False
@@ -287,7 +287,7 @@ class Item(models.Model):
 
     @property
     def svg_path(self):
-        return 'img/mscz/' + self.file + ".svg"
+        return 'img/mscz-svg/' + self.file + ".svg"
 
     @property
     def tei_tree(self):
