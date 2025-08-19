@@ -1,7 +1,7 @@
 {% load static %}
 
 <tr>
-  <td>CB {{ item.abstract_item.cb_id }}</td>
-  <td><b>{{ item.title }}</b></td>
-  <td>{{ item.source.bib_id }}</td>
+  <td style="width: 75px;">CB {{ item.abstract_item.cb_id }}</td>
+  <td><a href="{{ item.get_absolute_url }}">{{ item.title }}</a></td>
+  <td><a href="{{ item.source.get_absolute_url }}">{{ item.source.bib_id }}</a></td>
 </tr>

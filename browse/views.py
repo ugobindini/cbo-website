@@ -17,7 +17,7 @@ def browse_item(request):
                 cb_id = form.cleaned_data['cb_id']
                 items = Item.objects.filter(abstract_item__cb_id=cb_id)
             if len(form.cleaned_data['words']):
-                words = form.cleaned_data['words'].split(" ")
+                words = form.cleaned_data['words'].lower().split(" ")
                 exclude_apparatus = form.cleaned_data['exclude_apparatus']
                 match_word_beginning = form.cleaned_data['match_word_beginning']
                 match_word_end = form.cleaned_data['match_word_end']

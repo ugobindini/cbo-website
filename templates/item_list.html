@@ -4,7 +4,7 @@
 <div class="flex-column" style="flex: 20%">
   <!-- add left-side content here -->
 </div>
-<div style="flex: 60%">
+<div style="flex: 70%">
   <h1>Item List</h1>
 
   <table style="width: 100%;">
@@ -14,11 +14,7 @@
       <th>Source</th>
     </tr>
     {% for item in item_list %}
-    <tr>
-      <td>CB {{ item.abstract_item.cb_id }}</td>
-      <td><a href="{{ item.get_absolute_url }}">{{ item.title }}</a></td>
-      <td>{{ item.source.bib_id }}</td>
-    </tr>
+    {% include "item_as_tr.html" with item=item %}
     {% endfor %}
   </table>
   <!-- <div class="pagination">
@@ -40,7 +36,7 @@
   </div>-->
 </div>
 
-<div class="flex-column" style="flex: 20%">
+<div class="flex-column" style="flex: 10%">
   <!-- add right-side content here -->
 </div>
 
