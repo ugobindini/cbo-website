@@ -462,6 +462,3 @@ class Neume(models.Model):
         """Returns the URL to access a particular instance of the model."""
         return reverse('neume-detail', args=[str(self.pk)])
 
-    def get_count(self):
-        return sum([item.count_neumes(self.n) for item in Item.objects.all()])
-
