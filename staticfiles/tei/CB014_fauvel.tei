@@ -54,9 +54,9 @@
               <app type="text">
                 <lem wit="cod.">
                   <w>vult</w>
-              <w>tua</w>
+                  <w>tua</w>
                 </lem>
-                <rdg wit="HS V T"><w>vult</w><w>tua</w></rdg>
+                <rdg wit="HS V T"><w>tua</w><w>vult</w></rdg>
               </app>
               <w>gracia</w>
             </seg>
@@ -87,7 +87,12 @@
             </seg>
             <seg type="hemistich">
               <w>pauperem</w>
-              <w>erigens</w>
+              <app type="text">
+                <lem>
+                  <w>erigens</w>
+                </lem>
+                <note>fort. <w>eligens</w></note>
+              </app>
               <pc resp="#editor">,</pc>
             </seg>
           </l>
@@ -99,12 +104,7 @@
             <seg type="hemistich">
               <w>in</w>
               <w>altum</w>
-              <app type="text">
-                <lem>
-                  <w>erigens</w>
-                </lem>
-                <note>fort. <w>eligens</w></note>
-              </app>
+              <w>erigens</w>
               <pc resp="#editor">,</pc>
             </seg>
           </l>
