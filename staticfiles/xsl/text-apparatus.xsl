@@ -34,7 +34,7 @@
       <xsl:if test="@wit">
         <i style="margin-left: 6px;"><xsl:value-of select="@wit" /></i>
       </xsl:if>
-      <xsl:if test="../rdg">]</xsl:if>
+      <xsl:if test="../rdg"><span style="margin-left: 2px;">]</span></xsl:if>
     </span>
   </xsl:template>
 

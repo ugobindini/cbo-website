@@ -113,8 +113,8 @@ p {
 }
 
 .consonant-space {
-  background-color: white;
-  color: white;
+  background-color: transparent;
+  color: transparent;
 }
 
 .syl {
@@ -130,7 +130,7 @@ p {
   display: inline-flex;
 }
 
-.apparatus-visible {
+.apparatus-active {
   border-bottom: 1px dotted black;
   margin-bottom: -1px;
 }
@@ -176,7 +176,7 @@ p {
   border-color: #555 transparent transparent transparent;
 }
 
-.apparatus-in-text:hover .apparatus-note {
+.apparatus-active:hover .apparatus-note {
   visibility: visible;
   opacity: 1;
 }

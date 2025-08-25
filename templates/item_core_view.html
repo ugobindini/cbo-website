@@ -48,7 +48,7 @@
     $("#toggleNeumesButton-{{ item.pk }}").click(function(){
       $("#itemCoreView-{{ item.pk }} .neumes").toggle();
       $("#itemCoreView-{{ item.pk }} .toggle-neumes").toggle();
-      $("#itemCoreView-{{ item.pk }} .app-type-neume").toggleClass("apparatus-visible");
+      $("#itemCoreView-{{ item.pk }} .app-type-neume").toggleClass("apparatus-active");
     });
 
     $("#toggleSyllablesButton-{{ item.pk }}").click(function(){
@@ -66,6 +66,12 @@
 
     $("#togglePunctuationButton-{{ item.pk }}").click(function(){
       $("#itemCoreView-{{ item.pk }} .pc").toggle();
+    });
+
+    $("#toggleCriticalApparatus-{{ item.pk }}").click(function(){
+      $("#apparatusText-{{ item.pk }}").toggle();
+      $("#apparatusNeume-{{ item.pk }}").toggle();
+      $(".apparatus-in-text").toggleClass("apparatus-active");
     });
   });
 
@@ -107,19 +113,23 @@
     </div>
   </div>
 
-  <div id="main-container-{{ item.pk }}">
-    <div id="svg-{{ item.pk }}" class="tabcontent">
-      <img src="{% static item.svg_path %}" style="width: 100%;"/>
-    </div>
+  <div class="tabcontent" style="display: block;">
+    <div id="mainContainer-{{ item.pk }}" style="height: 100%;">
+      <div id="svg-{{ item.pk }}">
+        <img src="{% static item.svg_path %}" style="width: 100%;"/>
+      </div>
 
-    <div id="text-{{ item.pk }}" class="tabcontent">
-      {% autoescape off %}
-      {{ item.formatted_transform }}
-      {% endautoescape %}
-      <hr/>
-      {% autoescape off %}
-      {{ item.text_apparatus_transform }}
-      {% endautoescape %}
+      <div id="text-{{ item.pk }}">
+        {% autoescape off %}
+        {{ item.formatted_transform }}
+        {% endautoescape %}
+        <div id="apparatusText-{{ item.pk }}">
+          <hr/>
+          {% autoescape off %}
+          {{ item.text_apparatus_transform }}
+          {% endautoescape %}
+        </div>
+      </div>
     </div>
   </div>
 
@@ -138,44 +148,36 @@
         <button id="toggleMetricButton-{{ item.pk }}" class="cbo-button toggleable">Metrical analysis</button>
         <button id="toggleRhymeButton-{{ item.pk }}" class="cbo-button toggleable">Rhyme scheme</button>
         <button id="togglePunctuationButton-{{ item.pk }}" class="cbo-button toggleable">Original punctuation</button>
+        <button id="toggleCriticalApparatus-{{ item.pk }}" class="cbo-button toggleable active">Critical apparatus</button>
       </div>
     </div>
   </div>
 
-  <div id="main-container-{{ item.pk }}">
-    <div id="formattedText-{{ item.pk }}" class="tabcontent">
-      {% autoescape off %}
-      {{ item.formatted_transform }}
-      {% endautoescape %}
-      <hr/>
-      {% autoescape off %}
-      {{ item.text_apparatus_transform }}
-      {% endautoescape %}
-      {% if item.is_notated %}
-      <hr class="toggle-neumes"/>
-      <div class="toggle-neumes">
+  <div class="tabcontent" style="display: block;">
+    <div id="mainContainer-{{ item.pk }}" style="height: 100%;">
+      <div id="formattedText-{{ item.pk }}">
         {% autoescape off %}
-        {{ item.neume_apparatus_transform }}
+        {{ item.formatted_transform }}
         {% endautoescape %}
       </div>
-      {% endif %}
-    </div>
-
-    <div id="continuousText-{{ item.pk }}" class="tabcontent">
-      {% autoescape off %}
-      {{ item.continuous_transform }}
-      {% endautoescape %}
-      <hr/>
-      {% autoescape off %}
-      {{ item.text_apparatus_transform }}
-      {% endautoescape %}
-      {% if item.is_notated %}
-      <hr class="toggle-neumes"/>
-      <div class="toggle-neumes">
+      <div id="continuousText-{{ item.pk }}">
         {% autoescape off %}
-        {{ item.neume_apparatus_transform }}
+        {{ item.continuous_transform }}
         {% endautoescape %}
       </div>
+      <div id="apparatusText-{{ item.pk }}">
+        <hr/>
+        {% autoescape off %}
+        {{ item.text_apparatus_transform }}
+        {% endautoescape %}
+      </div>
+      {% if item.is_notated %}
+        <div id="apparatusNeume-{{ item.pk }}" class="toggle-neumes">
+          <hr/>
+          {% autoescape off %}
+          {{ item.neume_apparatus_transform }}
+          {% endautoescape %}
+        </div>
       {% endif %}
     </div>
   </div>

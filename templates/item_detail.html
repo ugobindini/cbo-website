@@ -9,6 +9,8 @@
 <script src="https://unpkg.com/mirador@^3/dist/mirador.min.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <style>
 .resizer {
   cursor: ew-resize;
@@ -150,9 +152,24 @@
     <div style="flex: 1">
       <h5>Download options</h5>
       <a href="{% static 'tei/' %}{{ item.file }}.tei" download="{{ item.file }}.tei"><img src="{% static 'img/TEI_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
-      <!-- <a id="pdf-download" style="cursor: pointer;"><img src="{% static 'img/PDF_Logo.glyphs' %}" style="width: 42px; height:42px;" /></a> -->
+      <a id="pdf-download" style="cursor: pointer;"><img src="{% static 'img/PDF_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
     </div>
   </div>
+
+  <script>
+    $("#pdf-download").click(function() {
+      var element = document.getElementById('mainContainer-{{ item.pk }}');
+      var opt = {
+        margin: [2, 1.5, 2, 1.5],
+        filename: 'CB{{ item.abstract_item.cb_id }}.pdf',
+        pagebreak: { mode: ['avoid-all', 'css', 'legacy'] },
+        image: { type: 'jpeg', quality: 1 },
+        html2canvas: { scrollY: 0, y: 0, scale: 4 },
+        jsPDF: { unit: 'cm',  }
+      };
+      html2pdf().set(opt).from(element).save();
+    });
+  </script>
 
   <div style="display: flex;">
     <div class="cbo-border-inset cbo-border-sand flex-column" style="width: 50%;">

@@ -4,8 +4,8 @@
   <xsl:template match="app">
     <span>
       <xsl:attribute name="class">
-        <xsl:if test="@type='text'">apparatus-in-text app-type-text apparatus-visible</xsl:if>
-        <xsl:if test="@type='neume'">apparatus-in-text app-type-neume apparatus-visible</xsl:if>
+        <xsl:if test="@type='text'">apparatus-in-text app-type-text apparatus-active</xsl:if>
+        <xsl:if test="@type='neume'">apparatus-in-text app-type-neume apparatus-active</xsl:if>
       </xsl:attribute>
       <span class="flex-wrapper">
         <xsl:attribute name="class">
