@@ -1,21 +1,21 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
         <lg type="strophe" n="I">
           <l n="1">Quand jeunesse fleurissait,</l>
           <l n="2">
-            <seg type="hemistich">j’aimais,</seg>
+            <seg type="hemistich">j&#8217;aimais,</seg>
             <seg type="hemistich">je pouvais</seg>
           </l>
-          <l n="3">faire ce qu’il me plaisait</l>
-          <l n="4">et selon ma volonté</l>
+          <l n="3">faire ce qu&#8217;il me plaisait</l>
+          <l n="4">et selon ma volont&#233;</l>
           <l n="5">
             <seg type="hemistich">courir,</seg>
             <seg type="hemistich">accomplir</seg>
           </l>
-          <l n="6">les œuvres de volupté.</l>
+          <l n="6">les &#339;uvres de volupt&#233;.</l>
         </lg>
         <lg type="strophe" n="II">
           <l n="1">Maintenant agir ainsi,</l>
@@ -24,37 +24,37 @@
             <seg type="hemistich">sans souci</seg>
           </l>
           <l n="3">et mener si libre vie,</l>
-          <l n="4">l’âge adulte l’interdit,</l>
+          <l n="4">l&#8217;&#226;ge adulte l&#8217;interdit,</l>
           <l n="5">
-            <seg type="hemistich">il détruit,</seg>
+            <seg type="hemistich">il d&#233;truit,</seg>
             <seg type="hemistich">il abolit</seg>
           </l>
-          <l n="6">l’ancienne règle de vie.</l>
+          <l n="6">l&#8217;ancienne r&#232;gle de vie.</l>
         </lg>
         <lg type="strophe" n="III">
-          <l n="1">L’âge tendre me disait,</l>
+          <l n="1">L&#8217;&#226;ge tendre me disait,</l>
           <l n="2">
-            <seg type="hemistich">m’enseignait,</seg>
+            <seg type="hemistich">m&#8217;enseignait,</seg>
             <seg type="hemistich">me conseillait,</seg>
           </l>
-          <l n="3">oui, cet âge m’affirmait :</l>
-          <l n="4">« Il n’y a rien d’interdit ! »</l>
+          <l n="3">oui, cet &#226;ge m&#8217;affirmait :</l>
+          <l n="4">&#171; Il n&#8217;y a rien d&#8217;interdit ! &#187;</l>
           <l n="5">
             <seg type="hemistich">me faisait</seg>
-            <seg type="hemistich">– et m’en excusait –</seg>
+            <seg type="hemistich">&#8211; et m&#8217;en excusait &#8211;</seg>
           </l>
-          <l n="6">user de tout à l’envi.</l>
+          <l n="6">user de tout &#224; l&#8217;envi.</l>
         </lg>
         <lg type="strophe" n="IV">
-          <l n="1">Or donc je veux m’amender,</l>
+          <l n="1">Or donc je veux m&#8217;amender,</l>
           <l n="2">
             <seg type="hemistich">changer,</seg>
             <seg type="hemistich">corriger</seg>
           </l>
-          <l n="3">ce que j’ai fait de léger ;</l>
-          <l n="4">sérieux je suis devenu,</l>
+          <l n="3">ce que j&#8217;ai fait de l&#233;ger ;</l>
+          <l n="4">s&#233;rieux je suis devenu,</l>
           <l n="5">
-            <seg type="hemistich">désormais,</seg>
+            <seg type="hemistich">d&#233;sormais,</seg>
             <seg type="hemistich">je compenserai</seg>
           </l>
           <l n="6">les vices par la vertu.</l>
