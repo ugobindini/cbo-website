@@ -33,6 +33,14 @@ p {
   margin-left: 30px;
 }
 
+.refrain-heading {
+  font-style: italic;
+}
+
+.strophe-heading {
+  font-weight: bold;
+}
+
 .verse {
   display: flex;
   counter-increment: line;

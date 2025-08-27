@@ -29,7 +29,7 @@
   </xsl:template>
 
   <xsl:template match="lg[@type='refrain']/head">
-    <div class="lg-heading"><i><xsl:apply-templates /></i></div>
+    <div class="lg-heading refrain-heading"><xsl:apply-templates /></div>
   </xsl:template>
 
   <xsl:template match="div[@type='drama']">
@@ -82,7 +82,7 @@
       <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
       <xsl:choose>
         <xsl:when test="./@n">
-          <div class="lg-heading"><b><xsl:value-of select="@n"/></b></div>
+          <div class="lg-heading strophe-heading"><xsl:value-of select="@n"/></div>
         </xsl:when>
         <xsl:otherwise>
           <div style="display: hidden;" />
@@ -100,7 +100,7 @@
       <xsl:choose>
         <xsl:when test="./head" />
         <xsl:otherwise>
-          <div class="lg-heading"><i>[Refl.]</i></div>
+          <div class="lg-heading refrain-heading">[Refl.]</div>
         </xsl:otherwise>
       </xsl:choose>
       <xsl:apply-templates />
@@ -111,7 +111,7 @@
     <div class="flex-column strophe" data-type="strophe">
       <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
       <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
-      <div class="lg-heading"><b><xsl:value-of select="@n"/></b></div>
+      <div class="lg-heading strophe-heading"><xsl:value-of select="@n"/></div>
       <xsl:apply-templates />
     </div>
   </xsl:template>
