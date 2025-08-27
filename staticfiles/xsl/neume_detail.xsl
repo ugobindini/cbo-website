@@ -22,31 +22,9 @@
     </div>
   </xsl:template>
 
-  <xsl:template match="w">
-    <span class="word text-font">
-      <xsl:apply-templates/>
-    </span>
-  </xsl:template>
+  <xsl:include href="word-and-syll.xsl"/>
 
-  <xsl:template match="seg[@type='syll']">
-    <xsl:variable name="text"><xsl:value-of select="./text()"/></xsl:variable>
-    <span class="neumed-syll">
-      <span class="syl text-font">
-        <span class="syl-text">
-          <xsl:value-of select="normalize-space($text)"/>
-          <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
-        </span>
-      </span>
-      <span class="neumes non-selectable">
-        <span class="consonant-space"><xsl:value-of select="normalize-space($text)"/></span>
-        <xsl:for-each select="notatedMusic/neume">
-          <img class="neume">
-            <xsl:attribute name="src">/staticfiles/img/glyphs/<xsl:value-of select="@fontname"/><xsl:value-of select="@glyph.num"/>.svg</xsl:attribute>
-          </img>
-        </xsl:for-each>
-      </span>
-    </span>
-  </xsl:template>
+  <xsl:include href="pc.xsl"/>
 
   <xsl:template match="app">
     <xsl:apply-templates select="./lem/*" />

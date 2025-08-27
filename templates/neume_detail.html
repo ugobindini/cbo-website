@@ -9,9 +9,18 @@
   <!-- add side content here -->
 </div>
 <div style="flex: 80%">
-  <h1>Neume</h1>
-  <img src="{% static 'img/svg/' %}{{ neume.svg_path }}">
-  <p>{{ neume.description }}</p>
+  <div style="display: flex">
+    <div style="flex: 2">
+      <h1>Neume</h1>
+      <img src="{% static neume.svg_path %}">
+      <p>{{ neume.description }}</p>
+    </div>
+    <div style="flex: 1">
+      <h5>Download options</h5>
+      <a href="{% static neume.svg_path %}" download="neume{{ neume.n }}.svg"><img src="{% static 'img/SVG_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
+      <a href="{% static neume.eps_path %}" download="neume{{ neume.n }}.eps"><img src="{% static 'img/EPS_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
+    </div>
+  </div>
 
   <h2>Occurrences in the edited items</h2>
 
@@ -26,4 +35,11 @@
 </div>
 
 <script src="{% static 'javascript/set_leading_consonants.js' %}"></script>
+<script>
+  $(document).ready(function(){
+    $(".pc[data-resp='ms']").hide();
+    $(".word[data-rend='italic']").css("font-style", "italic");
+    $(".syl-dash").hide();
+  });
+</script>
 {% endblock %}

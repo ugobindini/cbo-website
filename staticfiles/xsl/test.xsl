@@ -55,7 +55,7 @@
         <div class="neume consonant-space"><xsl:value-of select="normalize-space($text)"/></div>
         <xsl:for-each select="notatedMusic/neume">
           <img class="neume">
-            <xsl:attribute name="src">img/glyphs/<xsl:value-of select="@fontname"/><xsl:value-of select="@glyph.num"/>.svg</xsl:attribute>
+            <xsl:attribute name="src">img/glyphs/svg/<xsl:value-of select="@fontname"/><xsl:value-of select="@glyph.num"/>.svg</xsl:attribute>
           </img>
         </xsl:for-each>
       </div>

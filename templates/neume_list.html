@@ -25,6 +25,10 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
+th {
+  text-align: left;
+}
 </style>
 
 <div class="flex-column" style="flex: 20%">
@@ -42,7 +46,7 @@ p {
     {% for neume in neume_list %}
     <tr>
       <td>{{ neume.count }}</td>
-      <td><a href="{{ neume.get_absolute_url }}"><img src="{% static 'img/svg/' %}{{ neume.svg_path }}"></td>
+      <td><a href="{{ neume.get_absolute_url }}"><img src="{% static neume.svg_path %}"></td>
       <td><a href="{{ neume.get_absolute_url }}">{{ neume.description }}</a></td>
     </tr>
     {% endfor %}

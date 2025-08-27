@@ -456,7 +456,11 @@ class Neume(models.Model):
 
     @property
     def svg_path(self):
-        return f"buranus{self.n}.svg"
+        return f"img/glyphs/svg/buranus{self.n}.svg"
+
+    @property
+    def eps_path(self):
+        return f"img/glyphs/eps/buranus{self.n}.svg"
 
     def get_absolute_url(self):
         """Returns the URL to access a particular instance of the model."""
