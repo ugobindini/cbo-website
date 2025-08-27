@@ -37,6 +37,7 @@
 <script src="{% static 'javascript/set_leading_consonants.js' %}"></script>
 <script>
   $(document).ready(function(){
+    //add the prefix to link a static file to all neumes (glyphs)
     $(".pc[data-resp='ms']").hide();
     $(".word[data-rend='italic']").css("font-style", "italic");
     $(".syl-dash").hide();

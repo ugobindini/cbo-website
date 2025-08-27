@@ -9,10 +9,18 @@
 <script src="https://unpkg.com/mirador@^3/dist/mirador.min.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!--<script src="{% static 'javascript/html2pdf.bundle.min.js' %}"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>-->
+<script src="{% static 'javascript/html2pdf.bundle.min.js' %}"></script>
 
 <style>
+.strophe {
+  break-inside: avoid;
+}
+
+p {
+  break-inside: avoid;
+}
+
 .resizer {
   cursor: ew-resize;
   height: 1200px;
@@ -166,7 +174,7 @@
       var opt = {
         margin: [20, 15, 20, 15],
         filename: 'CB{{ item.abstract_item.cb_id }}.pdf',
-        pagebreak: { mode: ['avoid-all', 'css', 'legacy'] },
+        pagebreak: { mode: 'css' },
         image: { type: 'jpeg', quality: 1 },
         html2canvas: { scrollY: 0, y: 0, scale: 4, letterRendering: true }
       };

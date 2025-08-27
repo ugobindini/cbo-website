@@ -397,6 +397,7 @@ class Item(models.Model):
         # Given the xsl file (only filename, no path), transforms item's tei file
         # IMPORTANT: the xsl file must produce a tree with one root
         from lxml import etree, html
+        import os
         xsl = etree.parse(staticfile_path('xsl', xsl_file))
         transform = etree.XSLT(xsl)
         xml = etree.parse(staticfile_path('tei', tei_file + '.tei'))
@@ -405,8 +406,12 @@ class Item(models.Model):
         result = transform(xml)
         if indent:
             indentify(result)
+
         try:
-            return lxml.html.tostring(result).decode('UTF-8')
+            str = lxml.html.tostring(result).decode('UTF-8')
+            # Add the static prefix to all neume images (difficult/impossible to do in xslt)
+            # Not clean, but the tree representation was not working
+            return str.replace('src="buranus', 'src="/staticfiles/img/glyphs/svg/buranus')
         except:
             print("Error: not able to convert")
             return ''
@@ -415,8 +420,10 @@ class Item(models.Model):
         from lxml import etree, html
         xsl = etree.parse(staticfile_path('xsl', 'neume_detail.xsl'))
         transform = etree.XSLT(xsl)
+        xml = etree.parse(self.tei_path)
+        result = transform(xml, n=str(n))
         try:
-            return lxml.html.tostring(transform(etree.parse(self.tei_path), n=str(n))).decode('UTF-8')
+            return lxml.html.tostring(result).decode('UTF-8')
         except:
             return ''
 
