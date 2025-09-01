@@ -182,7 +182,12 @@ p {
         image: { type: 'jpeg', quality: 1 },
         html2canvas: { scrollY: 0, y: 0, scale: 4, letterRendering: true }
       };
-      html2pdf().set(opt).from(element).save();
+      const pdfHead = document.createElement("div");
+      pdfHead.innerHTML = "<h1>CB {{ item.abstract_item.cb_id }}</h1><h2>{{ item.title }}</h2><p>Source: {{ item.source.bib_id }} ({{ item.source.location }})</p><p>Folio: {{ item.foliation_str }}</p>";
+      pdfHead.innerHTML += "<p style='margin-top: 200px;'>Carmina Burana Online Project<p><p>Edited by C. Cazaux, L. Albiero, U. Bindini, M. Romanens</p>";
+      html2pdf().set(opt).from(pdfHead).toPdf().get('pdf').then(function (pdf) {
+          pdf.addPage();
+      }).from(element).toContainer().toCanvas().toPdf().save();
     });
   </script>
 
