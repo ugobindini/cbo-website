@@ -28,9 +28,7 @@
     <xsl:apply-templates />
   </xsl:template>
 
-  <xsl:template match="lg[@type='refrain']/head">
-    <div class="lg-heading refrain-heading"><xsl:apply-templates /></div>
-  </xsl:template>
+  <xsl:template match="lg[@type='refrain']/head" />
 
   <xsl:template match="div[@type='drama']">
     <div class="prose-text flex-column">
@@ -102,7 +100,7 @@
       <xsl:choose>
         <xsl:when test="./head">
           <xsl:apply-templates>
-            <xsl:with-param name="lgHead"><xsl:value-of select="@n"/></xsl:with-param>
+            <xsl:with-param name="lgHead"><xsl:value-of select="./head"/></xsl:with-param>
           </xsl:apply-templates>
         </xsl:when>
         <xsl:otherwise>

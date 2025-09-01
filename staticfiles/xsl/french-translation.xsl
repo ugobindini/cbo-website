@@ -28,9 +28,7 @@
     <xsl:apply-templates />
   </xsl:template>
 
-  <xsl:template match="lg[@type='refrain']/head">
-    <div class="lg-heading"><i><xsl:apply-templates /></i></div>
-  </xsl:template>
+  <xsl:template match="lg[@type='refrain']/head" />
 
   <xsl:template match="div[@type='drama']">
     <div class="prose-text flex-column">
@@ -74,37 +72,52 @@
     <div class="flex-column strophe" data-type="strophe">
       <xsl:choose>
         <xsl:when test="./@n">
-          <div class="lg-heading"><b><xsl:value-of select="@n"/></b></div>
+          <xsl:apply-templates>
+            <xsl:with-param name="lgHead"><xsl:value-of select="@n"/></xsl:with-param>
+          </xsl:apply-templates>
         </xsl:when>
         <xsl:otherwise>
-          <div style="display: hidden;" />
-          <!-- a small hack to make the verse numbers work even when there is no strophe number -->
+          <xsl:apply-templates>
+            <xsl:with-param name="lgHead" />
+          </xsl:apply-templates>
         </xsl:otherwise>
       </xsl:choose>
-      <xsl:apply-templates />
     </div>
   </xsl:template>
 
   <xsl:template match="lg[@type='refrain']">
     <div class="flex-column refrain" data-type="strophe">
-      <xsl:choose>
-        <xsl:when test="./head" />
-        <xsl:otherwise>
-          <div class="lg-heading"><i>[Refl.]</i></div>
-        </xsl:otherwise>
-      </xsl:choose>
-      <xsl:apply-templates />
+      <xsl:apply-templates>
+        <xsl:with-param name="lgHead"><xsl:value-of select="./head"/></xsl:with-param>
+      </xsl:apply-templates>
     </div>
   </xsl:template>
 
   <xsl:template match="lg[@type='versicle']">
     <div class="flex-column strophe" data-type="strophe">
-      <div class="lg-heading"><b><xsl:value-of select="@n"/></b></div>
-      <xsl:apply-templates />
+      <xsl:apply-templates>
+        <xsl:with-param name="lgHead"><xsl:value-of select="@n"/></xsl:with-param>
+      </xsl:apply-templates>
     </div>
   </xsl:template>
 
   <xsl:template match="l">
+    <xsl:param name = "lgHead" />
+    <xsl:choose>
+      <xsl:when test="@n=1">
+        <!-- Create extra div to avoid breaks between strophe/refrain heading and first verse -->
+        <div class="no-break">
+          <div class="lg-heading"><xsl:value-of select="$lgHead"/></div>
+          <xsl:call-template name="verse-content" />
+        </div>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:call-template name="verse-content" />
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template name="verse-content">
     <div class="verse">
       <xsl:if test="@rend">
         <xsl:variable name="rend" select="@rend"/>
