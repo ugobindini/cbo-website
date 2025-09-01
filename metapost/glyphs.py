@@ -281,6 +281,11 @@ GLYPHS = [
 		paths=[('torculus', None)]
 	),
 	Glyph(
+		description='Torculus + 1 subpunctum',
+		code='tosu1',
+		paths=[('torculus', None), ('punctum', '(15u,3u)')]
+	),
+	Glyph(
 		description='Torculus + oriscus',
 		code='to!or',
 		paths=[('torculus', None), ('connector', '(point 1000 of torculus)'), ('oriscus', '((6u,4u) + (point 1000 of torculus))')]
@@ -299,6 +304,11 @@ GLYPHS = [
 		description='Porrectus liq.',
 		code='po)',
 		paths=[('virga', None), ('porrectus_end', None), ('liquescence_loop', '(20.5u,-1u)')]
+	),
+	Glyph(
+		description='Porrectus + oriscus + 1 subpunctum',
+		code='po!pm',
+		paths=[('virga', None), ('porrectus_end', None), ('oriscus', '(15u,-2u)'), ('punctum', '(18u, -12u)')]
 	),
 	Glyph(
 		description='Quilisma 2 loops + virga',

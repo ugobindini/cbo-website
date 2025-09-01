@@ -101,10 +101,11 @@ if __name__ == "__main__":
 
     for (x, glyph) in enumerate(glyphs):
         subprocess.run(f"pdf2svg {fontname}{x+1}-eps-converted-to.pdf svg/{fontname}{x+1}.svg", shell=True)
-        subprocess.run(f"cp svg/{fontname}{x+1}.svg ../staticfiles/img/svg", shell=True)
+        subprocess.run(f"cp svg/{fontname}{x+1}.svg ../staticfiles/img/glyphs/svg", shell=True)
 
     ##### Move the EPS files and PDF files in the corresponding subfolders #####
 
     for (x, glyph) in enumerate(glyphs):
         subprocess.run(f"mv {fontname}{x+1}.eps eps/{fontname}{x+1}.eps", shell=True)
         subprocess.run(f"mv {fontname}{x+1}-eps-converted-to.pdf pdf/{fontname}{x+1}.pdf", shell=True)
+        subprocess.run(f"cp eps/{fontname}{x+1}.eps ../staticfiles/img/glyphs/eps", shell=True)

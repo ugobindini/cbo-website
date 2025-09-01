@@ -86,7 +86,7 @@
   </xsl:template>
 
   <xsl:template match="lg[@type='refrain']">
-    <div class="flex-column strophe" data-type="strophe">
+    <div class="flex-column refrain" data-type="strophe">
       <xsl:choose>
         <xsl:when test="./head" />
         <xsl:otherwise>
