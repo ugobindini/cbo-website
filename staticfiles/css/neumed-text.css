@@ -24,7 +24,7 @@ p {
   margin-block-end: 4px;
 }
 
-.strophe {
+.strophe,.refrain {
   margin-bottom: 30px;
   counter-reset: line;
 }
@@ -33,11 +33,11 @@ p {
   margin-left: 30px;
 }
 
-.refrain-heading {
+.refrain .lg-heading {
   font-style: italic;
 }
 
-.strophe-heading {
+.strophe .lg-heading {
   font-weight: bold;
 }
 
@@ -58,7 +58,7 @@ p {
   font-size: 13px;
 }
 
-.verse:not(:nth-child(5n+1)):before {
+.verse:not(:nth-child(5n)):before {
    visibility: hidden;
 }
 

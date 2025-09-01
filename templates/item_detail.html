@@ -13,7 +13,11 @@
 <script type="application/javascript" src="{% static 'javascript/html2pdf.bundle.min.js' %}"></script>
 
 <style>
-.strophe {
+.verse {
+  break-inside: avoid;
+}
+
+.no-break {
   break-inside: avoid;
 }
 
@@ -174,7 +178,7 @@ p {
       var opt = {
         margin: [20, 15, 20, 15],
         filename: 'CB{{ item.abstract_item.cb_id }}.pdf',
-        pagebreak: { mode: 'css' },
+        pagebreak: { mode: 'css', avoid: '.lg-heading' },
         image: { type: 'jpeg', quality: 1 },
         html2canvas: { scrollY: 0, y: 0, scale: 4, letterRendering: true }
       };

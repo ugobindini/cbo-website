@@ -6554,7 +6554,7 @@
               </l>
             </lg>
             <lg type="strophe" n="II" met="7pp+6p/7pp+6p" rhyme="a/a">
-              <l n="3">
+              <l n="1">
                 <seg type="hemistich">
                   <w>
                     <seg type="syll">hic<notatedMusic>
@@ -6623,7 +6623,7 @@
                   <pc>&#183;</pc>
                 </seg>
               </l>
-              <l n="4">
+              <l n="2">
                 <seg type="hemistich">
                   <w>
                     <seg type="syll">sed<notatedMusic>
@@ -6696,7 +6696,7 @@
               </l>
             </lg>
             <lg type="strophe" n="III" met="7pp+6p/7pp+6p" rhyme="a/a">
-              <l n="5">
+              <l n="1">
                 <seg type="hemistich">
                   <w>
                     <seg type="syll">cum<notatedMusic>
@@ -6765,7 +6765,7 @@
                   <pc>&#183;</pc>
                 </seg>
               </l>
-              <l n="6">
+              <l n="2">
                 <seg type="hemistich">
                   <w>
                     <seg type="syll">quis<notatedMusic>
@@ -6845,7 +6845,7 @@
         <sp who="#petrus">
           <div type="poem" met="7pp+6p" rhyme="a">
             <lg type="strophe">
-              <l>
+              <l n="1">
                 <seg type="hemistich">
                   <w>
                     <seg type="syll" part="I">Es<notatedMusic>
@@ -6926,7 +6926,7 @@
         <sp who="#ies">
           <div type="poem" met="7pp+6p" rhyme="a">
             <lg type="strophe">
-              <l>
+              <l n="1">
                 <seg type="hemistich">
                   <w>
                     <seg type="syll" part="I">Tu<notatedMusic>
@@ -7325,7 +7325,7 @@
               </l>
             </lg>
             <lg type="strophe" n="II" met="?/?/?/?" rhyme="a/a/b/b">
-              <l n="5">
+              <l n="1">
                 <w>
                   <seg type="syll" part="I">A&#871;<notatedMusic>
                     <neume fontname="buranus" glyph.num="58" label="qi" />
@@ -7389,7 +7389,7 @@
                 <pc>&#183;</pc>
                 <pc resp="#editor">,</pc>
               </l>
-              <l n="6">
+              <l n="2">
                 <w>
                   <seg type="syll" part="I">swen<notatedMusic>
                     <neume fontname="buranus" glyph.num="27" label="ep" />
@@ -7437,7 +7437,7 @@
                 <pc>&#183;</pc>
                 <pc resp="#editor">.</pc>
               </l>
-              <l n="7">
+              <l n="3">
                 <w>
                   <seg type="syll">Wol<notatedMusic>
                     <neume fontname="buranus" glyph.num="6" label="vi" />
@@ -7493,7 +7493,7 @@
                 <pc>&#183;</pc>
                 <pc resp="#editor">,</pc>
               </l>
-              <l n="8">
+              <l n="4">
                 <w>
                   <seg type="syll">got<notatedMusic>
                     <neume fontname="buranus" glyph.num="1" label="pu" />
