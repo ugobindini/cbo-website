@@ -165,7 +165,7 @@ p {
     <div style="flex: 1">
       <h5>Download options</h5>
       {% if item.is_svg_based %}
-        <a href="{% static 'img/mscz-svg/' %}{{ item.file }}.svg" download="{{ item.file }}.svg"><img src="{% static 'img/SVG_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
+      <a href="{% static 'img/mscz-svg/' %}{{ item.file }}.svg" download="{{ item.file }}.svg"><img src="{% static 'img/SVG_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
       {% endif %}
       <a href="{% static 'tei/' %}{{ item.file }}.tei" download="{{ item.file }}.tei"><img src="{% static 'img/TEI_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
       <a id="pdf-download" style="cursor: pointer;"><img src="{% static 'img/PDF_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
@@ -276,8 +276,9 @@ p {
       </div>
 
       <div id="itemRight" class="tabcontent right">
-        {% if item.has_concordances %}
-          <table id="itemsTable1">
+        <div id="itemsTable">
+          {% if item.has_concordances %}
+          <table>
             {% for x in sibling_items %}
             <tr>
               <td style="white-space: nowrap;">CB {{ x.abstract_item.cb_id }}</td>
@@ -287,16 +288,17 @@ p {
             {% endfor %}
           </table>
           <hr />
-        {% endif %}
-        <table id="itemsTable2">
-          {% for x in other_items %}
-          <tr>
-            <td style="white-space: nowrap;">CB {{ x.abstract_item.cb_id }}</td>
-            <td class="truncate"><a href="javascript:openItemRight({{ x.pk }});">{{ x.title }}</a></td>
-            <td style="white-space: nowrap;">{{ x.source.bib_id }}</td>
-          </tr>
-          {% endfor %}
-        </table>
+          {% endif %}
+          <table>
+            {% for x in other_items %}
+            <tr>
+              <td style="white-space: nowrap;">CB {{ x.abstract_item.cb_id }}</td>
+              <td class="truncate"><a href="javascript:openItemRight({{ x.pk }});">{{ x.title }}</a></td>
+              <td style="white-space: nowrap;">{{ x.source.bib_id }}</td>
+            </tr>
+            {% endfor %}
+          </table>
+        </div>
         <table id="itemRightTitle"></table>
         <div id="itemRightNav" style="display: flex; align-items: center;">
           <a href="javascript:itemsRightBack()" style="margin-left: 10px;"><i class="fa fa-arrow-left" style="margin-right: 5px;"></i>Back to items' list</a>
@@ -315,15 +317,13 @@ p {
     $('.right > .tablinks').removeClass('active');
     $("#" + tabName).css("display","block");
     $(tab).addClass('active');
-    $("#itemsTable1").show();
-    $("#itemsTable2").show();
+    $("#itemsTable").show();
     $("#selectedItemRight").hide();
     $("#itemRightNav").hide();
   }
 
   function openItemRight(pk) {
-    $("#itemsTable1").hide();
-    $("#itemsTable2").hide();
+    $("#itemsTable").hide();
     $("#selectedItemRight").load("/browse/item-core-view/" + pk);
     $("#itemRightTitle").load("/browse/item-as-tr/" + pk);
     $("#itemRightDetailView").attr("href", "/browse/item/" + pk);
