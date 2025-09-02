@@ -173,6 +173,7 @@ p {
   </div>
 
   <script>
+    // This script is for downloading PDF (through the html2pdf tool)
     $("#pdf-download").click(function() {
       var element = document.getElementById('mainContainer-{{ item.pk }}');
       var opt = {
@@ -216,6 +217,7 @@ p {
         {% else %}
         <div id="mirador" style="position: relative; width: 100%; height: 1000px;"></div>
         <script>
+          // This script is for mirador (IIIF viewer)
           var source_manifest = "{{ item.source.IIIF_manifest }}";
           var canvasIndex = "{{ item.IIIF_canvasIndex }}"
           //var canvasId = "{{ item.IIIF_canvasId }}"
@@ -274,7 +276,19 @@ p {
       </div>
 
       <div id="itemRight" class="tabcontent right">
-        <table id="itemsTable">
+        {% if item.has_concordances %}
+          <table id="itemsTable1">
+            {% for x in sibling_items %}
+            <tr>
+              <td style="white-space: nowrap;">CB {{ x.abstract_item.cb_id }}</td>
+              <td class="truncate"><a href="javascript:openItemRight({{ x.pk }});">{{ x.title }}</a></td>
+              <td style="white-space: nowrap;">{{ x.source.bib_id }}</td>
+            </tr>
+            {% endfor %}
+          </table>
+          <hr />
+        {% endif %}
+        <table id="itemsTable2">
           {% for x in other_items %}
           <tr>
             <td style="white-space: nowrap;">CB {{ x.abstract_item.cb_id }}</td>
@@ -301,13 +315,15 @@ p {
     $('.right > .tablinks').removeClass('active');
     $("#" + tabName).css("display","block");
     $(tab).addClass('active');
-    $("#itemsTable").show();
+    $("#itemsTable1").show();
+    $("#itemsTable2").show();
     $("#selectedItemRight").hide();
     $("#itemRightNav").hide();
   }
 
   function openItemRight(pk) {
-    $("#itemsTable").hide();
+    $("#itemsTable1").hide();
+    $("#itemsTable2").hide();
     $("#selectedItemRight").load("/browse/item-core-view/" + pk);
     $("#itemRightTitle").load("/browse/item-as-tr/" + pk);
     $("#itemRightDetailView").attr("href", "/browse/item/" + pk);

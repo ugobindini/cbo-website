@@ -262,6 +262,9 @@ class Item(models.Model):
         return reverse('item-detail', args=[str(self.pk)])
 
     @property
+    def has_concordances(self):
+        return len(self.abstract_item.item_set.all()) > 1
+    @property
     def is_translated(self):
         import os.path
         if os.path.isfile(staticfile_path('tei', self.file + '_PB.tei')):
@@ -333,6 +336,29 @@ class Item(models.Model):
                 words = [word.replace(key, diphthongs[key]) for word in words]
         return words
 
+    def contains_words(self, words, exclude_apparatus, match_word_beginning, match_word_end, match_word_middle):
+        # returns true if the text contains ALL the words in the given list
+        n = 0
+        for key in words:
+            for word in self.words(exclude_apparatus=exclude_apparatus):
+                if match_word_beginning and word.startswith(key):
+                    print(self.abstract_item.cb_id, word)
+                    n += 1
+                    break
+                elif match_word_end and word.endswith(key):
+                    print(self.abstract_item.cb_id, word)
+                    n += 1
+                    break
+                elif match_word_middle and key in word:
+                    print(self.abstract_item.cb_id, word)
+                    n += 1
+                    break
+                elif key == word:
+                    print(self.abstract_item.cb_id, word)
+                    n += 1
+                    break
+        return n == len(words)
+
     def metrics(self, through_strophe_break=False):
         # return a list of strings: one string ('/'-separated, with a final slash) for each 'poem' unit in the item (there can be many, e.g. plays)
         import itertools
@@ -369,29 +395,6 @@ class Item(models.Model):
             if sum([1 for m in metrics if m + '/' in metric]) == len(metrics):
                 return True
         return False
-
-    def contains_words(self, words, exclude_apparatus, match_word_beginning, match_word_end, match_word_middle):
-        # returns true if the text contains ALL the words in the given list
-        n = 0
-        for key in words:
-            for word in self.words(exclude_apparatus=exclude_apparatus):
-                if match_word_beginning and word.startswith(key):
-                    print(self.abstract_item.cb_id, word)
-                    n += 1
-                    break
-                elif match_word_end and word.endswith(key):
-                    print(self.abstract_item.cb_id, word)
-                    n += 1
-                    break
-                elif match_word_middle and key in word:
-                    print(self.abstract_item.cb_id, word)
-                    n += 1
-                    break
-                elif key == word:
-                    print(self.abstract_item.cb_id, word)
-                    n += 1
-                    break
-        return n == len(words)
 
     def transform(self, xsl_file, tei_file, indent=False, met=False):
         # Given the xsl file (only filename, no path), transforms item's tei file

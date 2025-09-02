@@ -1,8 +1,9 @@
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
+from django.views import generic
 
-from .models import Source, Item, Neume
-from .forms import BrowseSourceForm, BrowseItemForm
+from .models import Source, AbstractItem, Item, Neume
+from .forms import BrowseItemForm
 
 
 def browse_item(request):
@@ -43,36 +44,14 @@ def browse_item(request):
     return render(request, "browse_item.html", {"form": form, "items": Item.objects.all()})
 
 
-def browse_index(request):
-    """View function for starting page of browse."""
-
-    form = BrowseSourceForm(request.GET)
-    form.fields['country'].choices = list(set([(source.country, source.country) for source in Source.objects.all()]))
-    # print(form.fields['country'].widget.render("Ciao", "ciao"))
-    source_list = []
-
-    if request.method == 'GET':
-        if form.is_valid():
-            source_list = Source.objects.filter(bib_id__contains=form.cleaned_data['bib_id']).filter(country__in=form.cleaned_data['country'])
-
-    context = {
-        'form': form,
-        'source_list': source_list,
-    }
-
-    # Render the HTML template index.html with the data in the context variable
-    return render(request, 'browse_index.html', context=context)
-
 def item_core_view(request, pk):
     item = Item.objects.get(pk=pk)
     return render(request, 'item_core_view.html', context={'item': item})
 
+
 def item_as_tr(request, pk):
     item = Item.objects.get(pk=pk)
     return render(request, 'item_as_tr.html', context={'item': item})
-
-
-from django.views import generic
 
 
 class SourceListView(generic.ListView):
@@ -99,8 +78,11 @@ class ItemDetailView(generic.DetailView):
     template_name = 'item_detail.html'
 
     def get_context_data(self, **kwargs):
+        from django.db.models import Q
         context = super(ItemDetailView, self).get_context_data(**kwargs)
-        context['other_items'] = Item.objects.all()
+        item = self.get_object()
+        context['sibling_items'] = item.abstract_item.item_set.filter(~Q(pk=item.pk))
+        context['other_items'] = Item.objects.filter(~Q(abstract_item__pk=item.abstract_item.pk))
         return context
 
 class NeumeListView(generic.ListView):
