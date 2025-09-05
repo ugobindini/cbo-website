@@ -20,7 +20,7 @@
                 <neume fontname="buranus" glyph.num="6" label="vi" />
               </notatedMusic>
               </seg>
-              <seg type="syll" part="M">ti<notatedMusic>
+              <seg type="syll" part="M">tip<notatedMusic>
                 <neume fontname="buranus" glyph.num="6" label="vi" />
               </notatedMusic>
               </seg>
@@ -1205,10 +1205,6 @@
         <lg type="versicle" n="4a" met="7pp/7pp/7pp/7pp/7pp/4pp/7pp/7pp/8p/8p/7pp" rhyme="a/b/b/a/c/d/d/c/e/e/c">
           <l n="1">
             <pc resp="#editor" pre="true">&#171;</pc>
-            <w>
-              <seg type="syll" />
-            </w>
-            <pc resp="#editor">&#8211;</pc>
             <w>
               <seg type="syll" part="I">Va</seg>
               <seg type="syll" part="F">de</seg>

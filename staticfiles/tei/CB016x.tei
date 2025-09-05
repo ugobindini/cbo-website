@@ -10139,9 +10139,7 @@
               </notatedMusic>
               </seg>
             </w>
-            etc.
-            <pc resp="#editor">,</pc>
-            etc.
+            <w rend="italic">etc.</w>
           </p>
         </sp>
         <stage>Et ducatur Iesus ad pontifices<pc>&#183;</pc> et chorus cantet<pc>&#183;</pc></stage>
@@ -10194,7 +10192,7 @@
               </notatedMusic>
               </seg>
             </w>
-            etc.
+            <w rend="italic">etc.</w>
           </p>
         </sp>
         <stage>Et pontifices cantent et cogitent quid faciant</stage>
@@ -10569,7 +10567,7 @@
               </notatedMusic>
               </seg>
             </w>
-            etc.
+            <w rend="italic">etc.</w>
           </p>
         </sp>
         <stage>Postea ducitur ad Pilatum Iesus et dicunt Iudei</stage>
@@ -15062,12 +15060,12 @@
               </notatedMusic>
               </seg>
             </w>
-            <w>ante</w><w>nescia</w><w>etc.</w>
+            <w>ante</w><w>nescia</w><w rend="italic">etc.</w>
           </p>
         </sp>
         <stage>Tunc iterum amplexetur Iohannem et cantet</stage>
         <sp who="#maria">
-          <p><w>Mi</w><w>Iohannes</w><w>etc.</w></p>
+          <p><w>Mi</w><w>Iohannes</w><w rend="italic">etc.</w></p>
         </sp>
         <stage>Iohannes ad hec</stage>
         <sp who="#iohannes">

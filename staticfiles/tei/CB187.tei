@@ -169,11 +169,16 @@
               </lem>
               <rdg wit="cod. V"><w>Phylades</w></rdg>
             </app>
-            <w>
-              <seg type="syll" part="I">A</seg>
-              <seg type="syll" part="M">tri</seg>
-              <seg type="syll" part="F">dem</seg>
-            </w>
+            <app type="text">
+              <lem wit="HS T">
+                <w>
+                  <seg type="syll" part="I">A</seg>
+                  <seg type="syll" part="M">tri</seg>
+                  <seg type="syll" part="F">dem</seg>
+                </w>
+              </lem>
+              <rdg wit="cod. V"><w>Attridem</w></rdg>
+            </app>
             <pc>&#183;</pc>
             <pc resp="#editor">;</pc>
           </l>

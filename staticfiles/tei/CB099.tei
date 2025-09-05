@@ -197,8 +197,8 @@
                 </seg>
               </w>
               <pc resp="#editor">.</pc>
-            <pc>&#183;</pc>
-</seg>
+              <pc>&#183;</pc>
+            </seg>
           </l>
         </lg>
         <lg type="strophe" n="II">
@@ -301,10 +301,10 @@
                 <rdg wit="cod. V T"><w>ad</w><w>solium</w></rdg>
               </app>
               <pc resp="#editor">.</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="III">
           <l n="1">
             <seg type="hemistich">
@@ -396,10 +396,10 @@
                 <seg type="syll" part="F">a</seg>
               </w>
               <pc resp="#editor">.</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="IV">
           <l n="1">
             <seg type="hemistich">
@@ -491,10 +491,10 @@
                 <seg type="syll" part="F">a</seg>
               </w>
               <pc resp="#editor">!</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="V">
           <l n="1">
             <seg type="hemistich">
@@ -578,10 +578,10 @@
                 <seg type="syll" part="F">tur</seg>
               </w>
               <pc resp="#editor">:</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="VI">
           <l n="1">
             <seg type="hemistich">
@@ -674,10 +674,10 @@
                 <seg type="syll" part="F">o</seg>
               </w>
               <pc resp="#editor">!</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="VII">
           <l n="1">
             <seg type="hemistich">
@@ -741,36 +741,36 @@
           </l>
           <l n="3">
             <seg type="hemistich">
-            <w>
-              <seg type="syll">Quid</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">a</seg>
-              <seg type="syll" part="F">gam</seg>
-            </w>
-            <pc resp="#editor">,</pc>
-            <w>
-              <seg type="syll" part="I">ne</seg>
-              <seg type="syll" part="M">sci</seg>
-              <seg type="syll" part="F">o</seg>
-            </w>
-            <pc resp="#editor">;</pc>
+              <w>
+                <seg type="syll">Quid</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">a</seg>
+                <seg type="syll" part="F">gam</seg>
+              </w>
+              <pc resp="#editor">,</pc>
+              <w>
+                <seg type="syll" part="I">ne</seg>
+                <seg type="syll" part="M">sci</seg>
+                <seg type="syll" part="F">o</seg>
+              </w>
+              <pc resp="#editor">;</pc>
             </seg>
             <seg type="hemistich">
-            <w>
-              <seg type="syll">mors</seg>
-            </w>
-            <w>
-              <seg type="syll">est</seg>
-            </w>
-            <w>
-              <seg type="syll" part="I">con</seg>
-              <seg type="syll" part="M">si</seg>
-              <seg type="syll" part="M">li</seg>
-              <seg type="syll" part="F">um</seg>
-            </w>
-            <pc>&#183;</pc>
-            <pc resp="#editor">.</pc>
+              <w>
+                <seg type="syll">mors</seg>
+              </w>
+              <w>
+                <seg type="syll">est</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">con</seg>
+                <seg type="syll" part="M">si</seg>
+                <seg type="syll" part="M">li</seg>
+                <seg type="syll" part="F">um</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
             </seg>
           </l>
         </lg>
@@ -880,11 +880,12 @@
                 <rdg wit="HS Daub"><w>lucem</w><w>asperrima</w></rdg>
                 <rdg wit="T"><w>Mors,</w><w>haec</w><w>asperrima</w></rdg>
               </app>
-              <pc resp="#editor">&#187;!</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc resp="#editor">!</pc>
+              <pc resp="#editor">&#187;</pc>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="IX">
           <l n="1">
             <seg type="hemistich">
@@ -982,15 +983,16 @@
                 <seg type="syll" part="F">tur</seg>
               </w>
               <pc resp="#editor">.</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="X">
           <l n="1">
             <seg type="hemistich">
+              <pc resp="#editor" pre="true">«</pc>
               <w>
-                <seg type="syll">&#171;O</seg>
+                <seg type="syll">O</seg>
               </w>
               <w>
                 <seg type="syll" part="I">en</seg>
@@ -1046,7 +1048,8 @@
                 <seg type="syll" part="M">ri</seg>
                 <seg type="syll" part="F">a</seg>
               </w>
-              <pc resp="#editor">&#187;!</pc>
+              <pc resp="#editor">!</pc>
+              <pc resp="#editor">&#187;</pc>
             </seg>
           </l>
           <l n="3">
@@ -1075,10 +1078,10 @@
                 <seg type="syll" part="F">a</seg>
               </w>
               <pc resp="#editor">!</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="XI">
           <l n="1">
             <seg type="hemistich">
@@ -1166,10 +1169,10 @@
                 <seg type="syll" part="F">a</seg>
               </w>
               <pc resp="#editor">,</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="XII">
           <l n="1">
             <seg type="hemistich">
@@ -1277,10 +1280,10 @@
                 <note>a&#185; eras. vel corr. s. ras.</note>
               </app>
               <pc resp="#editor">:</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="XIII">
           <l n="1">
             <seg type="hemistich">
@@ -1387,10 +1390,10 @@
                 <seg type="syll" part="F">o</seg>
               </w>
               <pc resp="#editor">.</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="XIV">
           <l n="1">
             <seg type="hemistich">
@@ -1476,10 +1479,10 @@
                 <seg type="syll" part="F">o</seg>
               </w>
               <pc resp="#editor">.</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="XV">
           <l n="1">
             <seg type="hemistich">
@@ -1568,10 +1571,10 @@
                 <seg type="syll" part="F">um</seg>
               </w>
               <pc resp="#editor">!</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="XVI">
           <l n="1">
             <seg type="hemistich">
@@ -1663,10 +1666,10 @@
                 <seg type="syll" part="F">a</seg>
               </w>
               <pc resp="#editor">.</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="XVII">
           <l n="1">
             <seg type="hemistich">
@@ -1753,10 +1756,10 @@
                 <seg type="syll" part="F">es</seg>
               </w>
               <pc resp="#editor">!</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="XVIII">
           <l n="1">
             <seg type="hemistich">
@@ -1857,10 +1860,10 @@
                 <seg type="syll" part="F">tus</seg>
               </w>
               <pc resp="#editor">.</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="XIX">
           <l n="1">
             <seg type="hemistich">
@@ -1951,10 +1954,10 @@
                 <seg type="syll" part="F">re</seg>
               </w>
               <pc resp="#editor">.</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
         <lg type="strophe" n="XX">
           <l n="1">
             <seg type="hemistich">
@@ -2036,11 +2039,12 @@
                 <seg type="syll" part="M">ti</seg>
                 <seg type="syll" part="F">as</seg>
               </w>
-              <pc resp="#editor">&#187;!</pc>
-            <pc>&#183;</pc>
-</seg>
-</l>
-</lg>
+              <pc resp="#editor">!</pc>
+              <pc resp="#editor">&#187;</pc>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+        </lg>
       </div>
     </body>
   </text>
