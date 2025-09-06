@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem" met="6p/7p/6p/7p/7pp/4pp/4pp/7p/7pp/7p/5pp/8p" rhyme="a/a/a/a/b/b/b/a/b/a/b/a">
@@ -43,7 +43,7 @@
             <pc resp="#editor">,</pc>
           </l>
           <l n="8">
-            <w>iustitia</w>
+            <w>iusticia</w>
             <w>prostante</w>
             <pc resp="#editor">.</pc>
           </l>
@@ -80,7 +80,7 @@
           <l n="2">
             <w>cerbero</w>
             <w>surdiores</w>
-            <pc resp="#editor">.</pc>
+            <pc resp="#editor">!</pc>
           </l>
           <l n="3">
             <w>In</w>
@@ -98,9 +98,8 @@
             <w>etiamsi</w>
             <w>fores</w>
           </l>
-          <l n="5">
+          <l n="5" met="7p">
             <app type="text">
-              quem audiit Orpheus HS V T Orpheus quem audiit cod.
               <lem wit="HS V T">
                 <w>quem</w>
                 <w>audiit</w>
@@ -111,7 +110,7 @@
             </app>
             <pc resp="#editor">,</pc>
           </l>
-          <l n="6">
+          <l n="6" met="4p">
             <w>Pluton</w>
             <pc resp="#editor">,</pc>
             <w>deus</w>
@@ -136,7 +135,7 @@
             <w>fores</w>
             <pc resp="#editor">,</pc>
           </l>
-          <l n="11">
+          <l n="11" met="5p">
             <w>ubi</w>
             <w>Protheus</w>
           </l>
@@ -156,7 +155,7 @@
           </l>
           <l n="2">
             <app type="text">
-              frustra vitam pretendas cod. vitam frustra commendas HS V T
+              frustra vitam pretendas cod.&#61533; vitam frustra commendas HS V T
               <lem wit="cod.">
                 <w>frustra</w>
                 <w>vitam</w>
@@ -246,7 +245,7 @@
           <l n="5">
             <w>Auro</w>
             <w>nil</w>
-            <w>potentius</w>
+            <w>potencius</w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="6">
@@ -278,7 +277,7 @@
           </l>
           <l n="11">
             <w>nichil</w>
-            <w>rectius</w>
+            <w>iustius</w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="12">
