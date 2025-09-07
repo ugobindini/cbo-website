@@ -209,8 +209,12 @@ p {
 
       <div id="msImage" class="tabcontent right">
         {% if not item.source.IIIF_manifest %}
-        Unable to display manuscript images due to copyright restrictions.
-        <a target="_blank" href="{{ item.alternative_img_link }}"><i class="fa fa-arrow-right" style="margin-right: 5px;"></i>Open external website.</a>
+          {% if item.alternative_img_link %}
+          Unable to display manuscript images due to copyright restrictions.
+          <a target="_blank" href="{{ item.alternative_img_link }}"><i class="fa fa-arrow-right" style="margin-right: 5px;"></i>Open external website.</a>
+          {% else %}
+          Manuscript images not available for this item.
+          {% endif %}
         {% else %}
         <div id="mirador" style="position: relative; width: 100%; height: 1000px;"></div>
         <script>
