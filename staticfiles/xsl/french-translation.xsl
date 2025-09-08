@@ -118,7 +118,7 @@
   </xsl:template>
 
   <xsl:template name="verse-content">
-    <div class="verse">
+    <div class="verse" style="margin-left: 25px;">
       <xsl:if test="@rend">
         <xsl:variable name="rend" select="@rend"/>
         <xsl:variable name="indent" select="substring-after($rend, '(')"></xsl:variable>

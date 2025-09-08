@@ -2,24 +2,615 @@
   <teiHeader />
   <text>
     <body>
-      <div type="poem">
-        <lg type="strophe" n="I" met="6pp/6pp/6pp/6pp" rhyme="a/a/a/a">
-          <l n="1">Dic Christi veritas<pc>&#183;</pc></l>
-          <l n="2">dic cara raritas<pc>&#183;</pc></l>
-          <l n="3">dic rara caritas</l>
-          <l n="4">ubi nunc habitas<pc>&#61936;</pc></l>
+      <div type="poem" met="6pp/6pp/6pp/6pp/8p/8p/8p/8p/8pp/7p/8pp/7p" rhyme="a/a/a/a/b/b/c/c/d/e/d/e">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <w>Dic</w>
+            <pc resp="#editor">,</pc>
+            <w>Christi</w>
+            <w>veritas</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>dic</w>
+            <pc resp="#editor">,</pc>
+            <w>cara</w>
+            <w>raritas</w>
+          </l>
+          <l n="3">
+            <w>dic</w>
+            <pc resp="#editor">,</pc>
+            <w>rara</w>
+            <w>caritas</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>ubi</w>
+            <w>nunc</w>
+            <w>habitas</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="5">
+            <w>Aut</w>
+            <w>in</w>
+            <w>valle</w>
+            <w>visionis</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="6">
+            <w>aut</w>
+            <w>in</w>
+            <w>throno</w>
+            <w>Pharaonis</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="7">
+            <w>aut</w>
+            <w>in</w>
+            <w>alto</w>
+            <w>cum</w>
+            <w>Nerone</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="8">
+            <w>aut</w>
+            <w>in</w>
+            <w>antro</w>
+            <w>cum</w>
+            <w>Theone</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="9">
+            <w>Vel</w>
+            <w>in</w>
+            <app type="text">
+              <lem wit="HS">
+                <w>fiscella</w>
+              </lem>
+              <rdg wit="cod."><w>ficella</w></rdg>
+              <rdg wit="V T"><w>viscella</w></rdg>
+            </app>
+            <app type="text">
+              <lem wit="HS T">
+                <w>scirpea</w>
+              </lem>
+              <rdg wit="cod."><w>cirpea</w></rdg>
+              <rdg wit="V"><w>scyrpea</w></rdg>
+            </app>
+          </l>
+          <l n="10">
+            <w>cum</w>
+            <w>Moyse</w>
+            <w>plorante</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="11">
+            <w>Vel</w>
+            <w>in</w>
+            <w>domo</w>
+            <w>Romulea</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="12">
+            <w>cum</w>
+            <w>bulla</w>
+            <w>fulminante</w>
+            <pc resp="#editor">?</pc>
+          </l>
         </lg>
-        <lg type="strophe" n="II" met="8p/8p/8p/8p" rhyme="a/a/b/b">
-          <l n="1">Aut in Valle Visionis<pc>&#183;</pc></l>
-          <l n="2">aut in throno Pharaonis<pc>&#183;</pc></l>
-          <l n="3">aut in alto cum Nerone<pc>&#183;</pc></l>
-          <l n="4">aut in antro cum Theone<pc>&#183;</pc></l>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <w>Respondit</w>
+            <w>caritas</w>
+            <pc resp="#editor">:</pc>
+          </l>
+          <l n="2">
+            <pc resp="#editor" pre="true">&#171;</pc>
+            <w>Homo</w>
+            <pc resp="#editor">,</pc>
+            <w>quid</w>
+            <w>dubitas</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="3">
+            <w>Quid</w>
+            <w>me</w>
+            <w>sollicitas</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="4">
+            <w>Non</w>
+            <w>sum</w>
+            <app type="text">
+              <lem wit="HS">
+                <w>quo</w>
+            <w>mussitas</w>
+              </lem>
+              <rdg wit="cod."><w>quo</w><w>musitas</w></rdg>
+              <rdg wit="V T"><w>quod</w><w>usitas</w></rdg>
+            </app>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="5">
+            <w>nec</w>
+            <w>in</w>
+            <w>euro</w>
+            <w>nec</w>
+            <w>in</w>
+            <w>austro</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="6">
+            <w>nec</w>
+            <w>in</w>
+            <w>foro</w>
+            <w>nec</w>
+            <w>in</w>
+            <w>claustro</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="7">
+            <w>nec</w>
+            <w>in</w>
+            <w>bisso</w>
+            <app type="text">
+              <lem wit="cod. HS T">
+                <w>vel</w>
+              </lem>
+              <rdg wit="V"><w>nec</w><w>in</w></rdg>
+            </app>
+            <w>cuculla</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="8">
+            <w>nec</w>
+            <w>in</w>
+            <w>bello</w>
+            <app type="text">
+              <lem wit="cod.">
+                <w>vel</w>
+              </lem>
+              <rdg wit="HS V T"><w>nec</w></rdg>
+            </app>
+            <w>in</w>
+            <w>bulla</w>
+            <pc resp="#editor">:</pc>
+          </l>
+          <l n="9">
+            <w>de</w>
+            <w>Ierico</w>
+            <w>sum</w>
+            <w>veniens</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="10">
+            <w>ploro</w>
+            <w>cum</w>
+            <w>sautiato</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="11">
+            <w>quem</w>
+            <w>dupplex</w>
+            <w>Levi</w>
+            <w>transiens</w>
+          </l>
+          <l n="12">
+            <w>non</w>
+            <w>astitit</w>
+            <w>grabato</w>
+            <pc resp="#editor">.&#187;</pc>
+          </l>
         </lg>
-        <lg type="strophe" n="III" met="8pp/7p/8pp/7p" rhyme="a/b/a/b">
-          <l n="1">Vel in ficella cirpea</l>
-          <l n="2">cum Moyse plorante<pc>&#183;</pc></l>
-          <l n="3">vel in domo Romulea</l>
-          <l n="4">cum bulla fulminante<pc>&#183;</pc></l>
+        <lg type="strophe" n="III">
+          <l n="1">
+            <w>O</w>
+            <w>vox</w>
+            <w>prophetica</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>o</w>
+            <w>Natan</w>
+            <pc resp="#editor">,</pc>
+            <w>predica</w>
+            <pc resp="#editor">:</pc>
+          </l>
+          <l n="3">
+            <app type="text">
+              <lem>
+                <w>culpa</w>
+              </lem>
+              <note>corr. ex <w>cuppa</w> cod.</note>
+            </app>
+            <w>Davitica</w>
+          </l>
+          <l n="4">
+            <w>patet</w>
+            <w>non</w>
+            <w>modica</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="5">
+            <w>Dicit</w>
+            <w>Natan</w>
+            <pc resp="#editor">:</pc>
+            <pc resp="#editor" pre="true">&#171;</pc>
+            <w>Non</w>
+            <w>clamabo</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="6">
+            <w>neque</w>
+            <app type="text">
+              <lem wit="HS V T">
+                <w>David</w>
+              </lem>
+              <rdg wit="cod."><w>davit</w></rdg>
+            </app>
+            <w>planctum</w>
+            <w>dabo</w>
+            <pc resp="#editor">&#187;.</pc>
+          </l>
+          <l n="7">
+            <w>Cum</w>
+            <w>sit</w>
+            <w>Christi</w>
+            <w>rupta</w>
+            <w>vestis</w>
+          </l>
+          <l n="8">
+            <w>contra</w>
+            <w>Christum</w>
+            <w>Christus</w>
+            <w>testis</w>
+            <pc resp="#editor">:</pc>
+          </l>
+          <l n="9">
+            <w>ve</w>
+            <pc resp="#editor">,</pc>
+            <w>ve</w>
+            <w>vobis</w>
+            <pc resp="#editor">,</pc>
+            <w>ypocrite</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="10">
+            <w>qui</w>
+            <w>culicem</w>
+            <w>colatis</w>
+            <pc resp="#editor">!</pc>
+          </l>
+          <l n="11">
+            <w>Que</w>
+            <w>Cesaris</w>
+            <w>sunt</w>
+            <pc resp="#editor">,</pc>
+            <w>reddite</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="12">
+            <app type="text">
+              <lem>
+                <w>ut</w>
+              </lem>
+              <note>corr. ex <w>ne</w> cod.</note>
+            </app>
+            <w>Christo</w>
+            <w>serviatis</w>
+            <pc resp="#editor">!</pc>
+          </l>
+        </lg>
+      </div>
+      <div type="poem" met="6p/7p/6p/7p/7pp/4pp/4pp/7p/7pp/7p/5pp/8p" rhyme="a/a/a/a/b/b/b/a/b/a/b/a">
+        <lg type="strophe" n="Ia">
+          <l n="1">
+            <w>Bulla</w>
+            <w>fulminante</w>
+          </l>
+          <l n="2">
+            <w>sub</w>
+            <w>iudice</w>
+            <w>tonante</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>reo</w>
+            <w>appellante</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>sententia</w>
+            <w>gravante</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="5">
+            <w>veritas</w>
+            <app type="text">
+              <lem wit="cod.">
+                <w>supprimitur</w>
+              </lem>
+              <rdg wit="HS V T"><w>opprimitur</w></rdg>
+            </app>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="6">
+            <w>distrahitur</w>
+          </l>
+          <l n="7">
+            <w>et</w>
+            <w>venditur</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="8">
+            <w>iustitia</w>
+            <w>prostante</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="9">
+            <w>Itur</w>
+            <w>et</w>
+            <w>recurritur</w>
+          </l>
+          <l n="10">
+            <w>ad</w>
+            <w>curiam</w>
+            <pc resp="#editor">,</pc>
+            <w>nec</w>
+            <w>ante</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="11">
+            <w>quid</w>
+            <w>consequitur</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="12">
+            <w>quam</w>
+            <w>exuitur</w>
+            <w>quadrante</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="IIa">
+          <l n="1">
+            <w>Pape</w>
+            <w>ianitores</w>
+          </l>
+          <l n="2">
+            <w>Cerbero</w>
+            <w>surdiores</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="3">
+            <w>In</w>
+            <w>spe</w>
+            <w>vana</w>
+            <w>plores</w>
+          </l>
+          <l n="4">
+            <app type="text">
+              nam cod.&#61533; iam HS V T
+              <lem wit="cod.">
+                <w>nam</w>
+              </lem>
+              <rdg wit="HS V T"><w>iam</w></rdg>
+            </app>
+            <w>etiamsi</w>
+            <w>fores</w>
+          </l>
+          <l n="5" met="7p">
+            <app type="text">
+              quem audiit Orpheus HS&#61533; Orpheus quem audiit cod.; quem audit Orpheus T; Orpheus quem audiit V
+              <lem wit="HS">
+                <w>quem</w>
+            <w>audiit</w>
+            <pc resp="#editor">,</pc>
+            <w>Orpheus</w>
+              </lem>
+              <rdg wit="cod. V"><w>Orpheus</w><w>quem</w><w>audiit</w></rdg>
+              <rdg wit="T"><w>quem</w><w>audit</w><w>Orpheus</w></rdg>
+            </app>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="6" met="4p">
+            <w>Pluton</w>
+            <pc resp="#editor">,</pc>
+            <w>deus</w>
+          </l>
+          <l n="7">
+            <w>Tartareus</w>
+          </l>
+          <l n="8">
+            <w>non</w>
+            <w>ideo</w>
+            <w>perores</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="9">
+            <w>malleus</w>
+            <w>argenteus</w>
+          </l>
+          <l n="10">
+            <w>ni</w>
+            <w>feriat</w>
+            <w>ad</w>
+            <w>fores</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="11" met="5p">
+            <w>ubi</w>
+            <w>Protheus</w>
+          </l>
+          <l n="12">
+            <w>variat</w>
+            <w>mille</w>
+            <w>colores</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="IIIa" met="6p/7p/6p/7p/7pp/4pp/4pp/7p/7pp/7p/5pp/8p" rhyme="a/a/a/a/b/b/b/a/b/a/b/a">
+          <l n="1">
+            <w>Si</w>
+            <w>queris</w>
+            <w>prebendas</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <app type="text">
+              frustra vitam pretendas cod.&#61533; vitam frustra commendas HS V T
+              <lem wit="cod.">
+                <w>frustra</w>
+            <w>vitam</w>
+            <w>pretendas</w>
+              </lem>
+              <rdg wit="HS V T"><w>vitam</w><w>frustra</w><w>commendas</w></rdg>
+            </app>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>mores</w>
+            <w>non</w>
+            <app type="text">
+              <lem wit="cod.">
+                <w>commendas</w>
+              </lem>
+              <rdg wit="HS V T"><w>pretendas</w></rdg>
+            </app>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>ne</w>
+            <w>iudicem</w>
+            <w>offendas</w>
+            <pc resp="#editor">!</pc>
+          </l>
+          <l n="5">
+            <w>Frustra</w>
+            <w>tuis</w>
+            <w>litteris</w>
+          </l>
+          <l n="6">
+            <w>inniteris</w>
+            <pc resp="#editor">:</pc>
+          </l>
+          <l n="7">
+            <w>moraberis</w>
+          </l>
+          <l n="8">
+            <w>per</w>
+            <w>plurimas</w>
+            <w>kalendas</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="9">
+            <w>tandem</w>
+            <w>expectaveris</w>
+          </l>
+          <l n="10">
+            <w>a</w>
+            <w>ceteris</w>
+            <w>ferendas</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="11">
+            <app type="text">
+              <lem wit="cod. HS T">
+                <w>paris</w>
+              </lem>
+              <rdg wit="V"><w>pari</w></rdg>
+            </app>
+            <w>ponderis</w>
+          </l>
+          <l n="12">
+            <w>precio</w>
+            <w>nisi</w>
+            <w>contendas</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="IVa" met="6p/7p/6p/7p/7pp/4pp/4pp/7p/7pp/7p/5pp/8p" rhyme="a/a/a/a/b/b/b/a/b/a/b/a">
+          <l n="1">
+            <w>Jupiter</w>
+            <pc resp="#editor">,</pc>
+            <w>dum</w>
+            <w>orat</w>
+          </l>
+          <l n="2">
+            <app type="text">
+              Danen HS T&#61533; dampnem cod.
+              <lem wit="HS T">
+                <w>Danem</w>
+              </lem>
+              <rdg wit="cod."><w>dampnem</w></rdg>
+            </app>
+            <pc resp="#editor">,</pc>
+            <w>frustra</w>
+            <w>laborat</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="3">
+            <w>sed</w>
+            <w>eam</w>
+            <w>deflorat</w>
+          </l>
+          <l n="4">
+            <w>auro</w>
+            <w>dum</w>
+            <w>se</w>
+            <w>colorat</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="5">
+            <w>Auro</w>
+            <w>nil</w>
+            <w>potentius</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="6">
+            <w>nil</w>
+            <w>gratius</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="7">
+            <w>nec</w>
+            <w>Tullius</w>
+          </l>
+          <l n="8">
+            <w>facundius</w>
+            <w>perorat</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="9">
+            <w>Sed</w>
+            <w>hos</w>
+            <w>urit</w>
+            <w>acrius</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="10">
+            <w>quos</w>
+            <w>amplius</w>
+            <w>honorat</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="11">
+            <w>nichil</w>
+            <app type="text">
+              <lem wit="cod.">
+                <w>rectius</w>
+              </lem>
+              <rdg wit="HS T"><w>iustius</w></rdg>
+            </app>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="12">
+            <w>calidum</w>
+            <w>Crassus</w>
+            <w>dum</w>
+            <w>vorat</w>
+            <pc resp="#editor">!</pc>
+          </l>
         </lg>
       </div>
     </body>
