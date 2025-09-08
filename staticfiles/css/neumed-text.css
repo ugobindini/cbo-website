@@ -24,6 +24,10 @@
   margin-left: 6px;
 }
 
+.stage .word, .stage .pc {
+  font-style: italic;
+}
+
 p {
   margin-block-start: 3px;
   margin-block-end: 3px;

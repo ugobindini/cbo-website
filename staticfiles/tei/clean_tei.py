@@ -27,16 +27,18 @@ if __name__ == "__main__":
 		tei_file.close()
 
 		# Add core code modifying the tree here!
+		#####
+		#####
 
-		for segment in tree.findall(".//l") + tree.findall(".//seg[@type='hemistich']"):
-			words = segment.text.split(" ")
-			if len(words):
-				segment.text = ""
-				for word in words:
-					w = ET.Element("w")
-					w.text = word
-					segment.append(w)
+		for stage in tree.findall(".//stage"):
+			text = stage.text
+			for word in reversed(text.split(' ')):
+				w = ET.Element('w')
+				w.text = word
+				stage.insert(index=0, element=w)
+			stage.text = ""
 
+		#####
 		#####
 
 		tree.write("test_" + name)

@@ -2,24 +2,95 @@
   <teiHeader />
   <text>
     <body>
-      <div type="poem">
-        <lg type="strophe" n="I" met="6pp/6pp/6pp/6pp" rhyme="a/a/a/a">
-          <l n="1">Dic Christi veritas</l>
-          <l n="2">dic cara raritas</l>
-          <l n="3">dic rara caritas</l>
-          <l n="4">ubi nunc habitas</l>
-        </lg>
-        <lg type="strophe" n="II" met="8p/8p/8p/8p" rhyme="a/a/b/b">
-          <l n="1">aut in valle visionis</l>
-          <l n="2">aut in throno Pharaonis</l>
-          <l n="3">aut in alto cum Nerone</l>
-          <l n="4">aut in antro cum Theone</l>
-        </lg>
-        <lg type="strophe" n="III" met="8pp/7p/8pp/7p" rhyme="a/b/a/b">
-          <l n="1">vel in fiscella cirpea</l>
-          <l n="2">cum Moyse plorante</l>
-          <l n="3">vel in domo Romulea</l>
-          <l n="4">cum bulla fulminante<pc>&#183;</pc></l>
+      <div type="poem" met="6pp/6pp/6pp/6pp/8p/8p/8p/8p/8pp/7p/8pp/7p" rhyme="a/a/a/a/b/b/c/c/d/e/d/e">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <w>Dic</w>
+            <pc resp="#editor">,</pc>
+            <w>Christi</w>
+            <w>veritas</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>dic</w>
+            <pc resp="#editor">,</pc>
+            <w>cara</w>
+            <w>raritas</w>
+          </l>
+          <l n="3">
+            <w>dic</w>
+            <pc resp="#editor">,</pc>
+            <w>rara</w>
+            <w>caritas</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>ubi</w>
+            <w>nunc</w>
+            <w>habitas</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="5">
+            <w>Aut</w>
+            <w>in</w>
+            <w>valle</w>
+            <w>visionis</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="6">
+            <w>aut</w>
+            <w>in</w>
+            <w>throno</w>
+            <w>Pharaonis</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="7">
+            <w>aut</w>
+            <w>in</w>
+            <w>alto</w>
+            <w>cum</w>
+            <w>Nerone</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="8">
+            <w>aut</w>
+            <w>in</w>
+            <w>antro</w>
+            <w>cum</w>
+            <w>Theone</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="9">
+            <w>Vel</w>
+            <w>in</w>
+            <w>fiscella</w>
+            <app type="text">
+              <lem wit="HS T">
+                <w>scirpea</w>
+              </lem>
+              <rdg wit="cod."><w>cirpea</w></rdg>
+              <rdg wit="V"><w>scyrpea</w></rdg>
+            </app>
+          </l>
+          <l n="10">
+            <w>cum</w>
+            <w>Moyse</w>
+            <w>plorante</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="11">
+            <w>Vel</w>
+            <w>in</w>
+            <w>domo</w>
+            <w>Romulea</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="12">
+            <w>cum</w>
+            <w>bulla</w>
+            <w>fulminante</w>
+            <pc resp="#editor">?</pc>
+          </l>
         </lg>
       </div>
     </body>

@@ -37,7 +37,7 @@
   </xsl:template>
 
   <xsl:template match="move | stage">
-    <p class="stage"><i><xsl:apply-templates /></i></p>
+    <p class="stage flex-wrapper"><xsl:apply-templates /></p>
   </xsl:template>
 
   <xsl:template match="sp">

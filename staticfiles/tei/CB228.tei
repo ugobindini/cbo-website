@@ -1,0 +1,1561 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="drama">
+        <stage n="1">
+          <w>Rex</w><w>Egipti</w><w>cum</w><w>comitatu</w><w>suo</w><w>in</w><w>locum</w><w>suum</w><w>producatur</w><w>cum</w><w>conductu</w>
+          <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <p>
+            <w>Estivali</w><w>gaudio</w>
+            <pc>&#183;</pc>
+            <w rend="italic">etc</w>
+            <pc resp="#editor">.</pc>
+          </p>
+          <div type="poem" met="7pp+6p/7pp+6p/7pp/7pp/7pp/7pp" rhyme="a+b/a+b/c/c/d/d">
+            <lg type="strophe" n="I">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Ab</w>
+                  <w>estatis</w>
+                  <app type="text">
+                    <lem wit="HS V T">
+                      <w>foribus</w>
+                    </lem>
+                    <rdg wit="cod."><w>floribus</w></rdg>
+                  </app>
+                </seg>
+                <seg type="hemistich">
+                  <w>nos</w>
+                  <w>amor</w>
+                  <w>salutat</w>
+                  <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>humus</w>
+                  <w>picta</w>
+                  <w>floribus</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>faciem</w>
+                  <w>conmutat</w>
+                  <pc>&#183;</pc>
+                </seg>
+              </l>
+              <l n="3">
+                <w>Flores</w>
+                <w>amoriferi</w>
+              </l>
+              <l n="4">
+                <w>iam</w>
+                <w>arrident</w>
+                <w>tempori</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">;</pc>
+              </l>
+              <l n="5">
+                <w>perit</w>
+                <w>absque</w>
+                <w>Venere</w>
+              </l>
+              <l n="6">
+                <w>flos</w>
+                <w>etatis</w>
+                <w>tenere</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+            </lg>
+            <lg type="strophe" n="II">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Omnium</w>
+                  <w>principium</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>dies</w>
+                  <w>est</w>
+                  <w>vernalis</w>
+                  <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>vere</w>
+                  <w>mundus</w>
+                  <w>celebrat</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>diem</w>
+                  <w>sui</w>
+                  <w>natalis</w>
+                  <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+              <l n="3">
+                <w>Omnes</w>
+                <w>huius</w>
+                <w>temporis</w>
+              </l>
+              <l n="4">
+                <w>dies</w>
+                <w>festi</w>
+                <w>Veneris</w>
+                <pc resp="#editor">,</pc>
+              </l>
+              <l n="5">
+                <w>regna</w>
+                <app type="text">
+                  <lem wit="HS V T">
+                    <w>Iovis</w>
+                  </lem>
+                  <rdg wit="cod."><w>iuvis</w></rdg>
+                </app>
+                <w>omnia</w>
+                <pc>&#183;</pc>
+              </l>
+              <l n="6">
+                <w>hec</w>
+                <w>agant</w>
+                <w>sollempnia</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="2">
+          <w>Et</w><w>tam</w><w>iste</w><w>comitatus</w><w>quam</w><w>comitatus</w><w>regis</w><w>hec</w><w>sepius</w><w>cantent</w>
+          <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <div type="poem" met="8p+7p/8p+7p/8p+7p" rhyme="a/a/a">
+            <lg type="strophe" n="I">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Ad</w>
+                  <w>fontem</w>
+                  <w>philosophie</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>sicientes</w>
+                  <w>currite</w>
+                  <pc>&#183;</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>et</w>
+                  <w>saporis</w>
+                  <w>tripertiti</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>septem</w>
+                  <w>rivos</w>
+                  <w>bibite</w>
+                  <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="3">
+                <seg type="hemistich">
+                  <w>uno</w>
+                  <w>fonte</w>
+                  <w>procedentes</w>
+                  <pc resp="#editor">,</pc>
+                </seg>
+                <seg type="hemistich">
+                  <w>non</w>
+                  <w>eodem</w>
+                  <w>tramite</w>
+                  <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+            </lg>
+            <lg type="strophe" n="II">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Quem</w>
+                  <w>Pytagoras</w>
+                  <w>rimatus</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>excitavit</w>
+                  <w>physice</w>
+                  <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>inde</w>
+                  <w>Socrates</w>
+                  <w>et</w>
+                  <w>Plato</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>honestarunt</w>
+                  <w>ethice</w>
+                  <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="3">
+                <seg type="hemistich">
+                  <w>Aristotiles</w>
+                  <w>loquaci</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>desponsavit</w>
+                  <w>loyce</w>
+                  <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+            </lg>
+            <lg type="strophe" n="III">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Ab</w>
+                  <app type="text">
+                    <lem wit="cod. V">
+                      <w>hiis</w>
+                    </lem>
+                    <rdg wit="HS T"><w>his</w></rdg>
+                  </app>
+                  <w>secte</w>
+                  <w>multiformes</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>Athenis</w>
+                  <w>materiam</w>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>nacte</w>
+                  <w>hoc</w>
+                  <w>liquore</w>
+                  <w>totam</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>irrigarunt</w>
+                  <w>Greciam</w>
+                  <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="3">
+                <seg type="hemistich">
+                  <w>qui</w>
+                  <w>redundans</w>
+                  <w>infinite</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>fluxit</w>
+                  <w>in</w>
+                  <w>Hesperiam</w>
+                  <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+            </lg>
+          </div>
+          <div type="poem" met="6pp/5p/6pp/5p" rhyme="a/b/a/b">
+            <lg type="strophe" n="I">
+              <l n="1">
+                <w>Hec</w>
+                <w>nova</w>
+                <w>gaudia</w>
+              </l>
+              <l n="2">
+                <w>sunt</w>
+                <w>veneranda</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+              </l>
+              <l n="3">
+                <w>festa</w>
+                <w>presentia</w>
+              </l>
+              <l n="4">
+                <w>magnificanda</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+            </lg>
+            <lg type="refrain" met="6pp/5p/6pp/5p/6pp/5p/6pp/5p" rhyme="a/b/a/b/a/b/a/b">
+              <l n="1">
+                <w>Dulcia</w>
+                <w>flumina</w>
+              </l>
+              <l n="2">
+                <w>sunt</w>
+                <w>Babylonis</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+              </l>
+              <l n="3">
+                <w>mollia</w>
+                <w>semina</w>
+              </l>
+              <l n="4">
+                <w>perditionis</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+              <l n="5">
+                <w>Concupiscentia</w>
+              </l>
+              <l n="6">
+                <w>mixti</w>
+                <w>saporis</w>
+                <pc>&#183;</pc>
+              </l>
+              <l n="7">
+                <w>ingerit</w>
+                <w>somnia</w>
+              </l>
+              <l n="8">
+                <w>lenis</w>
+                <w>amoris</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+            </lg>
+            <lg type="strophe" n="II">
+              <l n="1">
+                <w>Heccine</w>
+                <app type="text">
+                  <lem wit="cod. V">
+                    <w>gaudia</w>
+                  </lem>
+                  <rdg wit="HS T"><w>frivola</w></rdg>
+                </app>
+              </l>
+              <l n="2">
+                <w>cupiditatis</w>
+                <pc>&#183;</pc>
+              </l>
+              <l n="3" rhyme="c">
+                <w>tribuunt</w>
+                <w>ydola</w>
+              </l>
+              <l n="4">
+                <w>captivitatis</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+            </lg>
+            <lg type="refrain">
+              <l n="1">
+                <w>Dulcia</w>
+                <pc resp="#editor">...</pc>
+              </l>
+            </lg>
+            <lg type="strophe" n="III">
+              <l n="1">
+                <w>Apta</w>
+                <w>delitiis</w>
+              </l>
+              <l n="2">
+                <w>caro</w>
+                <w>letatur</w>
+                <pc>&#183;</pc>
+              </l>
+              <l n="3">
+                <app type="text">
+                  <lem wit="cod.">
+                    <w>hac</w>
+                    <w>viciis</w>
+                  </lem>
+                  <rdg wit="HS"><w>hac</w>...<w>vitiis</w></rdg>
+                  <rdg wit="V"><w>hac</w><w>simul</w><w>vitiis</w></rdg>
+                  <rdg wit="T"><w>hac</w><w>via</w><w>vitiis</w></rdg>
+                </app>
+              </l>
+              <l n="4">
+                <w>mens</w>
+                <w>violatur</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+            </lg>
+            <lg type="refrain">
+              <l n="1">
+                <w>D[ulcia]</w>
+                <pc resp="#editor">...</pc>
+              </l>
+            </lg>
+            <lg type="strophe" n="IV">
+              <l n="1">
+                <w>Affectionibus</w>
+              </l>
+              <l n="2">
+                <w>motus</w>
+                <w>tumultus</w>
+                <pc>&#183;</pc>
+              </l>
+              <l n="3">
+                <w>tollit</w>
+                <w>virtutibus</w>
+              </l>
+              <l n="4">
+                <w>proprios</w>
+                <w>cultus</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+            </lg>
+            <lg type="refrain">
+              <l n="1">
+                <w>D[ulcia]</w>
+                <pc resp="#editor">...</pc>
+              </l>
+            </lg>
+            <lg type="strophe" n="V">
+              <l n="1">
+                <w>Ista</w>
+                <w>sunt</w>
+                <w>devia</w>
+              </l>
+              <l n="2">
+                <w>felicitatis</w>
+                <pc>&#183;</pc>
+              </l>
+              <l n="3">
+                <w>ocia</w>
+                <w>mollia</w>
+              </l>
+              <l n="4">
+                <w>sunt</w>
+                <w>voluptatis</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+            </lg>
+            <lg type="refrain">
+              <l n="1">
+                <w>D[ulcia]</w>
+                <pc resp="#editor">...</pc>
+              </l>
+            </lg>
+            <lg type="strophe" n="VI">
+              <l n="1">
+                <w>Ista</w>
+                <w>negocia</w>
+              </l>
+              <l n="2">
+                <w>plena</w>
+                <w>malorum</w>
+                <pc>&#183;</pc>
+              </l>
+              <l n="3">
+                <w>et</w>
+                <w>desideria</w>
+              </l>
+              <l n="4">
+                <w>flagiciorum</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+            </lg>
+            <lg type="refrain">
+              <l n="1">
+                <w>D[ulcia]</w>
+                <pc resp="#editor">...</pc>
+              </l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="3">
+          <w>Et</w><w>sepius</w><w>repetant</w>
+          <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <p>
+            <w>Deorum</w><w>inmortalitas</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </p>
+          <p>
+            <w>Stulti</w><w>sunt</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </p>
+        </sp>
+        <stage n="4">
+          <w>In</w><w>ingressu</w><w>Mariae</w><w>et</w><w>Ioseph</w><w>cum</w><w>Iesu</w>
+          <pc>&#183;</pc>
+          <w>omnia</w><w>ydola</w><w>Egyptiorum</w><w>corruant</w>
+          <pc>&#183;</pc>
+          <pc resp="#editor">,</pc>
+          <w>ministri</w><w>vero</w><w>sepius</w><w>ea</w><w>restituant</w>
+          <pc>&#183;</pc>
+          <w>et</w><w>thura</w><w>incendant</w><w>cantantes</w>
+          <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <div type="poem" met="8p/8p/7pp/8p/8p/7pp" rhyme="a/a/b/c/c/b">
+            <lg type="strophe" n="I">
+              <l n="1">
+                <w>Hoc</w>
+                <w>est</w>
+                <w>numen</w>
+                <w>salutare</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+              </l>
+              <l n="2">
+                <w>cuius</w>
+                <w>fundat</w>
+                <w>ad</w>
+                <w>altare</w>
+              </l>
+              <l n="3">
+                <w>preces</w>
+                <w>omnis</w>
+                <w>populus</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+              <l n="4">
+                <w>Huius</w>
+                <w>nutu</w>
+                <w>reflorescit</w>
+              </l>
+              <l n="5">
+                <w>si</w>
+                <w>quandoque</w>
+                <w>conmarcescit</w>
+                <pc resp="#editor">,</pc>
+              </l>
+              <l n="6">
+                <w>manus</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+                <w>pes</w>
+                <pc>&#183;</pc>
+                <w>vel</w>
+                <w>oculus</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+            </lg>
+            <lg type="strophe" n="II">
+              <l n="1">
+                <w>Honor</w>
+                <app type="text">
+                  <lem wit="HS T">
+                    <w>Iovi</w>
+                  </lem>
+                  <rdg wit="cod. V"><w>Iovis</w></rdg>
+                </app>
+                <w>cum</w>
+                <w>Neptuno</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+              </l>
+              <l n="2">
+                <w>Pallas</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+                <w>Venus</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+                <w>Vesta</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+                <w>Iuno</w>
+                <pc>&#183;</pc>
+              </l>
+              <l n="3">
+                <w>mire</w>
+                <w>sunt</w>
+                <w>clementie</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">;</pc>
+              </l>
+              <l n="4">
+                <w>Mars</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+                <w>Apollo</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+                <w>Pluto</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+                <w>Phebus</w>
+                <pc>&#183;</pc>
+              </l>
+              <l n="5">
+                <w>dant</w>
+                <w>salutem</w>
+                <w>lesis</w>
+                <w>rebus</w>
+              </l>
+              <l n="6">
+                <w>insite</w>
+                <w>potentie</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="5">
+          <w>Quod</w><w>quia</w><w>non</w><w>proficit</w>
+          <pc>&#183;</pc>
+          <pc resp="#editor">,</pc>
+          <w>minister</w><w>precedat</w><w>regem</w><w>et</w><w>cantet</w>
+          <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <div type="poem" met="8p/8p/8p/7pp" rhyme="a/a/a/B">
+            <lg type="strophe" n="I">
+              <l n="1">
+                <w>Audi</w>
+                <pc resp="#editor">,</pc>
+                <w>rex</w>
+                <w>Egiptiorum</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+              </l>
+              <l n="2">
+                <w>lapsa</w>
+                <w>virtus</w>
+                <w>ydolorum</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+              </l>
+              <l n="3">
+                <w>destituta</w>
+                <w>vis</w>
+                <w>deorum</w>
+              </l>
+              <l n="4">
+                <w>iacet</w>
+                <w>cum</w>
+                <w>miseria</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">;</pc>
+              </l>
+            </lg>
+            <lg type="strophe" n="II">
+              <l n="1">
+                <w>iam</w>
+                <w>delubra</w>
+                <w>ceciderunt</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+              </l>
+              <l n="2">
+                <w>simulacra</w>
+                <w>corruerunt</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+              </l>
+              <l n="3">
+                <app type="text">
+                  dii] cod. V di HS T
+                  <lem wit="cod. V">
+                    <w>dii</w>
+                  </lem>
+                  <rdg wit="HS T"><w>di</w></rdg>
+                </app>
+                <w>fugati</w>
+                <w>fugierunt</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+              </l>
+              <l n="4">
+                <w>heu</w>
+                <pc resp="#editor">,</pc>
+                <w>cum</w>
+                <w>ignominia</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="6">
+          <w>Quibus</w><w>rex</w><w>mirabili</w><w>gestu</w><w>respondeat</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <div type="poem" met="?/?" rhyme="?/?">
+            <lg type="strophe">
+              <l n="1">
+                <w>Scire</w>
+                <w>volo</w>
+                <pc resp="#editor">,</pc>
+                <w>que</w>
+                <w>causa</w>
+                <w>rei</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">,</pc>
+                <w>vel</w>
+                <w>qualiter</w>
+                <w>ipsa</w>
+              </l>
+              <l n="2">
+                <w>numina</w>
+                <w>placentur</w>
+                <pc resp="#editor">.</pc>
+                <w>Sapientes</w>
+                <w>ergo</w>
+                <w>vocentur</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="7">
+          <w>Tunc</w><w>armiger</w><w>vocet</w><w>sapientes</w><w>ad</w><w>presentiam</w><w>regis</w>
+                <pc>&#183;</pc>
+          <w>et</w><w>cantet</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <p>
+            <w>Regia</w><w>vos</w><w>mandata</w><w>vocant</w>
+                <pc>&#183;</pc>
+            <pc resp="#editor">,</pc>
+            <w>non</w><w>segniter</w><w>ite</w>
+                <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </p>
+        </sp>
+        <stage n="8">
+          <w>Tunc</w><w>dicat</w><w>rex</w><w>sapientibus</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <p>
+            <w>Scire</w><w>volo</w>
+                <pc>&#183;</pc>
+            <w rend="italic">etc</w>
+            <pc resp="#editor">.</pc>
+          </p>
+          <p>
+            <w>Vos</w><w>date</w><w>consilium</w>
+                <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </p>
+        </sp>
+        <stage n="9">
+          <w>Sapientes</w><w>respondeant</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p/?/?" rhyme="a/a/a/a/b/b">
+            <lg type="strophe">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Nostrum</w>
+                  <w>est</w>
+                  <w>consilium</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>deos</w>
+                  <w>honorare</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>aras</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                  <w>templa</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                  <w>tripodes</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+                <seg type="hemistich">
+                  <w>lucos</w>
+                  <w>innovare</w>
+                <pc>&#183;</pc>
+                </seg>
+              </l>
+              <l n="3">
+                <seg type="hemistich">
+                  <w>thus</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                  <w>storacem</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                  <w>balsamum</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+                <seg type="hemistich">
+                  <w>stacten</w>
+                  <w>concremare</w>
+                <pc>&#183;</pc>
+                </seg>
+              </l>
+              <l n="4">
+                <seg type="hemistich">
+                  <w>et</w>
+                  <w>humanum</w>
+                  <w>sanguinem</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>superis</w>
+                  <w>libare</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+              <l n="5">
+                <w>Tali</w>
+                <w>quippe</w>
+                <w>modo</w>
+                <w>virtute</w>
+                <w>ministeriorum</w>
+              </l>
+              <l n="6">
+                <w>et</w>
+                <w>prece</w>
+                <w>devota</w>
+                <w>placabitur</w>
+                <w>ira</w>
+                <w>deorum</w>
+                <pc resp="#editor">.</pc>
+              </l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="10">
+          <w>Tunc</w><w>rex</w><w>preparet</w><w>se</w><w>ad</w><w>immolandum</w>
+                <pc>&#183;</pc>
+          <w>et</w><w>cantet</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <p>
+            <w>Hoc</w><w>est</w><w>numen</w><w>salutare</w>
+                <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </p>
+        </sp>
+        <stage n="11">
+          <w>Comitatus</w><w>respondeat</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <p>
+            <w>Stulti</w><w>sunt</w>
+                <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </p>
+        </sp>
+        <stage n="12">
+          <w>Tunc</w><w>ydolis</w><w>restitutis</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">,</pc>
+          <w>rex</w><w>ad</w><w>locum</w><w>suum</w><w>redeat</w>
+                <pc>&#183;</pc>
+          <w>et</w><w>ydola</w><w>iterum</w><w>corruant</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">.</pc>
+          <w>Quo</w><w>audito</w>
+                <pc>&#183;</pc>
+          <w>iterum</w><w>vocentur</w><w>sapientes</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">,</pc>
+          <w>quibus</w><w>rex</w><w>dicat</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <div type="poem" met="?/?" rhyme="?/?">
+            <lg type="strophe">
+              <l n="1">
+                <w>Dicite</w>
+                <w>quid</w>
+                <w>nobis</w>
+                <pc>&#183;</pc>
+                <w>et</w>
+                <w>quid</w>
+                <w>portendat</w>
+                <w>Egipto</w>
+                <pc>&#183;</pc>
+              </l>
+              <l n="2">
+                <w>mira</w>
+                <w>mali</w>
+                <w>species</w>
+                <pc>&#183;</pc>
+                <w>prodigiosa</w>
+                <w>quidem</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="13">
+          <w>Cui</w><w>sapientes</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a/a/a/a">
+            <lg type="strophe">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Rex</w>
+                  <w>et</w>
+                  <w>regum</w>
+                  <w>dominus</w>
+                <pc>&#183;</pc>
+                </seg>
+                <seg type="hemistich">
+                  <w>deus</w>
+                  <w>Hebreorum</w>
+                <pc>&#183;</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>prepotens</w>
+                  <w>in</w>
+                  <w>gloria</w>
+                <pc>&#183;</pc>
+                </seg>
+                <seg type="hemistich">
+                  <w>deus</w>
+                  <w>est</w>
+                  <w>deorum</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="3">
+                <seg type="hemistich">
+                  <w>cuius</w>
+                  <w>in</w>
+                  <w>presentia</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>velut</w>
+                  <w>mortuorum</w>
+                <pc>&#183;</pc>
+                </seg>
+              </l>
+              <l n="4">
+                <seg type="hemistich">
+                  <w>corruit</w>
+                <pc>&#183;</pc>
+                  <w>et</w>
+                  <w>labitur</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>virtus</w>
+                  <w>ydolorum</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="14">
+          <w>Tunc</w><w>rex</w><w>cantet</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <w>Ecce</w><w>novum</w><w>cum</w><w>matre</w><w>deum</w><w>veneretur</w><w>Egiptus</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">.</pc>
+        </sp>
+        <stage n="15">
+          <w>Et</w><w>omnia</w><w>ydola</w><w>abiciantur</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">.</pc>
+          <w>Hic</w><w>est</w><w>finis</w><w>regis</w><w>Egipti</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">.</pc>
+          <w>Tunc</w><w>assurget</w><w>rex</w><w>Babilonis</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">;</pc>
+          <w>istius</w><w>comitatus</w><w>sepius</w><w>repetat</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <p>
+            <w>Deorum</w><w>inmor[talitas]</w>
+                <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </p>
+          <p>
+            <w>Stulti</w><w>sunt</w>
+                <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </p>
+        </sp>
+        <stage n="16">
+          <w>Et</w><w>hunc</w><w>versum</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <div type="poem" met="7p?+6p/7p?+6p" rhyme="a/a">
+            <lg type="strophe">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Ille</w>
+                  <w>iure</w>
+                  <w>cupidus</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>deus</w>
+                  <w>estimatur</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <w>qui</w>
+                <w>spretis</w>
+                <w>ceteris</w>
+                <w>vult</w>
+                <pc resp="#editor">,</pc>
+                <w>ut</w>
+                <w>solus</w>
+                <w>colatur</w>
+                <pc>&#183;</pc>
+                <pc resp="#editor">.</pc>
+              </l>
+            </lg>
+          </div>
+          <p>
+            <w>Stulti</w><w>sunt</w>
+                <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </p>
+        </sp>
+        <stage n="17">
+          <w>In</w><w>conflictu</w><w>gentilitatis</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">,</pc>
+          <w>synagoge</w><w>et</w><w>ecclesie</w>
+          <pc resp="#editor">,</pc>
+          <w>gentilitas</w><w>contra</w><w>eas</w><w>cantet</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <div type="poem" met="8pp+7p/8pp+7p" rhyme="a+b/a+b">
+            <lg type="strophe">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Deorum</w>
+                  <w>inmortalitas</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>est</w>
+                  <w>omnibus</w>
+                  <w>colenda</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>eorum</w>
+                  <w>et</w>
+                  <w>pluralitas</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>ubique</w>
+                  <w>metuenda</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="18">
+          <w>Comitatus</w><w>suus</w><w>respondeat</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <div type="poem" met="9pp+7p/9pp+7p" rhyme="a+b/a+b">
+            <lg type="strophe">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Stulti</w>
+                  <w>sunt</w>
+                  <w>et</w>
+                  <w>vere</w>
+                  <w>fatui</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+                <seg type="hemistich">
+                  <w>qui</w>
+                  <w>deum</w>
+                  <w>unum</w>
+                  <w>dicunt</w>
+                <pc>&#183;</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>et</w>
+                  <w>antiquitatis</w>
+                  <w>ritui</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>proterve</w>
+                  <w>contradicunt</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="19">
+          <w>Gentilitas</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <div type="poem" met="8pp+7p/8pp+7p" rhyme="a+b/a+b">
+            <lg type="strophe">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Si</w>
+                  <w>enim</w>
+                  <w>unum</w>
+                  <w>credimus</w>
+                  <pc resp="#editor">,</pc>
+                </seg>
+                <seg type="hemistich">
+                  <w>qui</w>
+                  <w>presit</w>
+                  <w>universis</w>
+                <pc>&#183;</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>subiectum</w>
+                  <w>hunc</w>
+                  <w>concedimus</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>contrarie</w>
+                  <w>diversis</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="20">
+          <w>Comitatus</w><w>respondeat</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <p>
+            <w>Stulti</w><w>sunt</w>
+                <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </p>
+        </sp>
+        <stage n="21">
+          <w>Gentilitas</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <div type="poem" met="6pp+7p/6pp+7p" rhyme="a/a">
+            <lg type="strophe">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Finxit</w>
+                  <w>invidia</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>hanc</w>
+                  <w>singularitatem</w>
+                <pc>&#183;</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>ut</w>
+                  <w>homo</w>
+                  <w>coleret</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>unam</w>
+                  <w>divinitatem</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="22">
+          <w>Comitatus</w><w>respondeat</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <p>
+            <w>Stulti</w><w>sunt</w>
+                <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </p>
+        </sp>
+        <stage n="23">
+          <w>Item</w><w>rex</w><w>Babylonis</w><w>contra</w><w>ypocritas</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <div type="poem" met="6pp+7p/6pp+7p" rhyme="a+b/a+b">
+            <lg type="strophe" n="I">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Fraudis</w>
+                  <w>versutias</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>conpellor</w>
+                  <w>experiri</w>
+                <pc>&#183;</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>per</w>
+                  <w>quas</w>
+                  <w>nequicia</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>vestra</w>
+                  <w>solet</w>
+                  <w>mentiri</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+            </lg>
+            <lg type="strophe" n="II">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>sub</w>
+                  <w>forma</w>
+                  <w>veritas</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>virtutis</w>
+                  <w>putabatur</w>
+                <pc>&#183;</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>ostendit</w>
+                  <w>falsitas</w>
+                <pc>&#183;</pc>
+                </seg>
+                <seg type="hemistich">
+                  <w>quod</w>
+                  <w>forma</w>
+                  <w>mentiatur</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="24">
+          <w>Item</w><w>devicto</w><w>rege</w>
+                <pc>&#183;</pc>
+          <w>cantet</w><w>in</w><w>presentia</w><w>Antichristi</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <div type="poem" met="6pp+7p/6pp+7p" rhyme="a/a">
+            <lg type="strophe">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Tibi</w>
+                  <w>profiteor</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>decus</w>
+                  <w>imperiale</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>quod</w>
+                  <w>tibi</w>
+                  <w>serviam</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>ius</w>
+                  <w>postulo</w>
+                  <w>regale</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="25">
+          <w>Comitatus</w><w>cantet</w>
+                <pc>&#183;</pc>
+          <pc resp="#editor">:</pc>
+        </stage>
+        <sp>
+          <div type="poem" met="6p+7p/6p+7p" rhyme="a/a">
+            <lg type="strophe">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Omnium</w>
+                  <w>rectorem</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>te</w>
+                  <w>solum</w>
+                  <w>profitemur</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>tibi</w>
+                  <w>tota</w>
+                  <app type="text">
+                    <lem wit="cod. HS T">
+                      <w>mente</w>
+                    </lem>
+                    <rdg wit="V"><w>menteque</w></rdg>
+                  </app>
+                </seg>
+                <seg type="hemistich">
+                  <w>semper</w>
+                  <w>obsequemur</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+            </lg>
+          </div>
+          <div type="poem" met="8pp+7p/8pp+7p" rhyme="a+b/a+b">
+            <lg type="strophe" n="I">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Egiptus</w>
+                  <w>caput</w>
+                  <w>omnium</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>est</w>
+                  <w>et</w>
+                  <w>decus</w>
+                  <w>regnorum</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>calcabit</w>
+                  <w>hec</w>
+                  <w>imperium</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>regis</w>
+                  <w>Ierosolimorum</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+            </lg>
+            <lg type="strophe" n="II">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Ve</w>
+                  <w>tibi</w>
+                  <w>Ierosolyma</w>
+                  <pc resp="#editor">,</pc>
+                </seg>
+                <seg type="hemistich">
+                  <w>ve</w>
+                  <w>insano</w>
+                  <w>tiranno</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>deorum</w>
+                  <w>vos</w>
+                  <w>potentia</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>subvertet</w>
+                  <w>in</w>
+                  <w>hoc</w>
+                  <w>anno</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+            </lg>
+            <lg type="strophe" n="III">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Egipti</w>
+                  <w>princeps</w>
+                  <w>nobilis</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>ut</w>
+                  <w>deus</w>
+                  <w>veneretur</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>Herodes</w>
+                  <w>sed</w>
+                  <w>odibilis</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>ut</w>
+                  <w>stultus</w>
+                  <w>reprobetur</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+            </lg>
+            <lg type="strophe" n="IV">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Intende</w>
+                  <pc resp="#editor">,</pc>
+                  <w>tibi</w>
+                  <w>canimus</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>quam</w>
+                  <w>vilis</w>
+                  <w>sis</w>
+                  <w>futurus</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <app type="text">
+                    <lem wit="HS V T">
+                      <w>cum</w>
+                      <w>roderis</w>
+                    </lem>
+                    <rdg wit="cod."><w>roderis</w></rdg>
+                  </app>
+                  <w>a</w>
+                  <w>vermibus</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>putre</w>
+                  <w>interiturus</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+            </lg>
+            <lg type="strophe" n="V">
+              <l n="1">
+                <seg type="hemistich">
+                  <w>Ingrata</w>
+                  <w>gens</w>
+                  <w>et</w>
+                  <w>perfida</w>
+                  <pc resp="#editor">,</pc>
+                </seg>
+                <seg type="hemistich">
+                  <w>cum</w>
+                  <w>fame</w>
+                  <w>laborares</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">,</pc>
+                </seg>
+              </l>
+              <l n="2">
+                <seg type="hemistich">
+                  <w>Egipto</w>
+                  <w>eras</w>
+                  <w>subdita</w>
+                </seg>
+                <seg type="hemistich">
+                  <w>ut</w>
+                  <w>ventrem</w>
+                  <w>satiares</w>
+                <pc>&#183;</pc>
+                  <pc resp="#editor">.</pc>
+                </seg>
+              </l>
+            </lg>
+          </div>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>
