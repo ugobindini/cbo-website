@@ -93,6 +93,18 @@
   });
 </script>
 
+<script>
+  $(document).ready(function(){
+    $(".strophe,.refrain").each(function(){
+      $(this).find(".verse-number").each(function(index){
+        if (index % 5 != 4) {
+          $(this).css("visibility", "hidden");
+        }
+      });
+    });
+  });
+</script>
+
 <script src="{% static 'javascript/set_leading_consonants.js' %}"></script>
 <script src="{% static 'javascript/indent.js' %}"></script>
 
@@ -124,7 +136,7 @@
         {% autoescape off %}
         {{ item.formatted_transform }}
         {% endautoescape %}
-        <div id="apparatusText-{{ item.pk }}">
+        <div id="apparatusText-{{ item.pk }}" class="no-break">
           <hr/>
           {% autoescape off %}
           {{ item.text_apparatus_transform }}
@@ -166,14 +178,14 @@
         {{ item.continuous_transform }}
         {% endautoescape %}
       </div>
-      <div id="apparatusText-{{ item.pk }}">
+      <div id="apparatusText-{{ item.pk }}" class="no-break">
         <hr/>
         {% autoescape off %}
         {{ item.text_apparatus_transform }}
         {% endautoescape %}
       </div>
       {% if item.is_notated %}
-        <div id="apparatusNeume-{{ item.pk }}" class="toggle-neumes">
+        <div id="apparatusNeume-{{ item.pk }}" class="toggle-neumes no-break">
           <hr/>
           {% autoescape off %}
           {{ item.neume_apparatus_transform }}

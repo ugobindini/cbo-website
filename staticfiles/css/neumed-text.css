@@ -19,14 +19,18 @@
   font-size: 16px;
 }
 
+.stage {
+  margin-top: 6px;
+  margin-left: 6px;
+}
+
 p {
-  margin-block-start: 4px;
-  margin-block-end: 4px;
+  margin-block-start: 3px;
+  margin-block-end: 3px;
 }
 
 .strophe,.refrain {
-  margin-bottom: 30px;
-  counter-reset: line;
+  margin-bottom: 24px;
 }
 
 .lg-heading {
@@ -43,23 +47,17 @@ p {
 
 .verse {
   display: flex;
-  counter-increment: line;
 }
 
-.verse:before{
+.verse-number {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   width: 25px;
   margin: 0 5px 0 0;
   padding-bottom: 1px;
-  content: counter(line);
   color: gray;
   font-size: 13px;
-}
-
-.verse:not(:nth-child(5n)):before {
-   visibility: hidden;
 }
 
 .verse-text {
@@ -95,6 +93,7 @@ p {
 .pc {
   display: inline-flex;
   align-items: flex-end;
+  break-before: avoid;
 }
 
 .pre {
