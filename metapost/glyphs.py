@@ -126,6 +126,11 @@ GLYPHS = [
 		paths=[('virga', None), ('punctum', '(3u,-6u)'), ('punctum', '(7u,-8u)'), ('punctum', '(11u,-10u)'), ('substropha', '(15u,-12u)')]
 	),
 	Glyph(
+		description='Virga + 4 subpuncta + stropha',
+		code='visu4!st',
+		paths=[('virga', None), ('punctum', '(3u,-6u)'), ('punctum', '(7u,-8u)'), ('punctum', '(11u,-10u)'), ('punctum', '(15u,-12u)'), ('stropha', '(21u,-6u)')]
+	),
+	Glyph(
 		description='Virga + 5 subpuncta',
 		code='visu5',
 		paths=[('virga', None), ('punctum', '(2u,-6u)'), ('punctum', '(6u,-7.5u)'), ('punctum', '(10u,-9u)'), ('punctum', '(14u,-10.5u)'), ('punctum', '(18u,-12u)')]
@@ -206,6 +211,11 @@ GLYPHS = [
 		paths=[('pes', None), ('punctum', '(15u,6u)'), ('punctum', '(18u,3u)'), ('substropha', '(21u,0)'), ('stropha', '(27u,6u)')]
 	),
 	Glyph(
+		description='Pes + 4 subpuncta + stropha',
+		code='pesu4!st',
+		paths=[('pes', None), ('punctum', '(15u,6u)'), ('punctum', '(18u,4u)'), ('punctum', '(21u,2u)'), ('punctum', '(24u,0)'), ('stropha', '(30u,6u)')]
+	),
+	Glyph(
 		description='1 prepunctum + pes',
 		code='pepp1',
 		paths=[('pes', None), ('punctum', '(-6u, 0)')]
@@ -266,6 +276,11 @@ GLYPHS = [
 		paths=[('virga', None), ('clivis_end', None), ('punctum', '(-12u,-16.5u)'), ('punctum', '(-15u, -21u)')]
 	),
 	Glyph(
+		description='2 prepuncta + clivis + stropha',
+		code='clpp2!st',
+		paths=[('virga', None), ('clivis_end', None), ('punctum', '(-12u,-16.5u)'), ('punctum', '(-15u, -21u)'), ('stropha', '(15u,-3u)')]
+	),
+	Glyph(
 		description='Clivis + 2 subpuncta',
 		code='clsu2',
 		paths=[('virga', None), ('clivis_end', None), ('punctum', '(9u,-9u)'), ('punctum', '(13.5u, -12u)')]
@@ -324,6 +339,11 @@ GLYPHS = [
 		description='Quilisma 2 loops + clivis',
 		code='qi!cl',
 		paths=[('torculus', None), ('pes_loop', '(-6u,0)')]
+	),
+	Glyph(
+		description='Quilisma 2 loops + clivis liq.',
+		code='qi!cl)',
+		paths=[('torculus_liquescent', None), ('pes_loop', '(-6u,0)')]
 	),
 	Glyph(
 		description='Quilisma 2 loops + clivis + 1 subpunctum',
@@ -446,6 +466,11 @@ GLYPHS = [
 		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('punctum', '(15u,6u)'), ('punctum', '(18u,4u)'), ('punctum', '(21u,2u)'), ('substropha', '(24u,0)')]
 	),
 	Glyph(
+		description='Quilisma 2 loops + virga + 4 subpuncta + stropha',
+		code='qisu4!st',
+		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('punctum', '(15u,6u)'), ('punctum', '(18u,4u)'), ('punctum', '(21u,2u)'), ('punctum', '(24u,0)'), ('stropha', '(30u,6u)')]
+	),
+	Glyph(
 		description='Quilisma 2 loops + ancus + 2 subpuncta',
 		code='qi!ansu2',
 		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('ancus_loop', 'point 1000 of pes'), ('punctum', '(18u,3u)'), ('punctum', '(21u,0u)')]
@@ -476,6 +501,11 @@ GLYPHS = [
 		paths=[('torculus_liquescent', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)')]
 	),
 	Glyph(
+		description='Quilisma 3 loops + clivis + substropha',
+		code='ql!cl-',
+		paths=[('torculus', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)'), ('substropha', '(19.5u,0)')]
+	),
+	Glyph(
 		description='1 prepunctum + quilisma 3 loops + clivis',
 		code='qlpp1!cl',
 		paths=[('torculus', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)'), ('punctum', '(-18u,0)')]
@@ -484,11 +514,6 @@ GLYPHS = [
 		description='1 prepunctum + quilisma 3 loops + clivis + 2 subpuncta',
 		code='qlpp1!clsu2',
 		paths=[('torculus', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)'), ('punctum', '(-18u,0)'), ('punctum', '(15u,3u)'), ('punctum', '(18u,0)')]
-	),
-	Glyph(
-		description='Quilisma 3 loops + clivis + oriscus',
-		code='ql!cl!or',
-		paths=[('torculus', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)'), ('liquescence_loop', '(point 1000 of torculus - point 0 of liquescence_loop)')]
 	),
 	Glyph(
 		description='Quilisma 3 loops + clivis + 1 subpunctum',
@@ -636,6 +661,11 @@ GLYPHS = [
 		paths=[('virga', None), ('punctum', '(-12u,-16.5u)'), ('punctum', '(-15u,-21u)')]
 	),
 	Glyph(
+		description='2 prepuncta + virga + 3 subpuncta',
+		code='scsu3',
+		paths=[('virga', None), ('punctum', '(3u,-6u)'), ('punctum', '(7.5u,-9u)'), ('punctum', '(12u,-12u)'), ('punctum', '(-12u,-16.5u)'), ('punctum', '(-15u,-21u)')]
+	),
+	Glyph(
 		description='2 prepuncta + virga liq.',
 		code='sc)',
 		paths=[('virga_liq', None), ('punctum', '(-12u,-16.5u)'), ('punctum', '(-15u,-21u)')]
@@ -650,4 +680,9 @@ GLYPHS = [
 		code='sc-!ql',
 		paths=[('pes', None), ('pes_loop', '(-6u,0)'), ('pes_loop', '(-12u,0)'), ('tractulus', '(-12u,-4.5u)'), ('punctum', '(-15u,-9u)')]
 	),
+	Glyph(
+		description='Trigonus',
+		code='tg',
+		paths=[('punctum', '(0,0)'), ('punctum', '(3u,-4.5u)'), ('punctum', '(9u,0)')]
+	)
 ]

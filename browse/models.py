@@ -411,10 +411,10 @@ class Item(models.Model):
             indentify(result)
 
         try:
-            str = lxml.html.tostring(result).decode('UTF-8')
+            res = lxml.html.tostring(result).decode('UTF-8')
             # Add the static prefix to all neume images (difficult/impossible to do in xslt)
             # Not clean, but the tree representation was not working
-            return str.replace('src="buranus', 'src="/staticfiles/img/glyphs/svg/buranus')
+            return res.replace('src="buranus', 'src="/staticfiles/img/glyphs/svg/buranus')
         except:
             print("Error: not able to convert")
             return ''
@@ -426,7 +426,10 @@ class Item(models.Model):
         xml = etree.parse(self.tei_path)
         result = transform(xml, n=str(n))
         try:
-            return lxml.html.tostring(result).decode('UTF-8')
+            res = lxml.html.tostring(result).decode('UTF-8')
+            # Add the static prefix to all neume images (difficult/impossible to do in xslt)
+            # Not clean, but the tree representation was not working
+            return res.replace('src="buranus', 'src="/staticfiles/img/glyphs/svg/buranus')
         except:
             return ''
 

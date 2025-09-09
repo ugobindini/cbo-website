@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="drama">
@@ -657,8 +657,8 @@
           <pc resp="#editor">:</pc>
         </stage>
         <sp>
-          <div type="poem" met="8p/8p/8p/7pp" rhyme="a/a/a/B">
-            <lg type="strophe" n="I">
+          <div type="poem" met="8p/8p/8p/7pp/8p/8p/8p/7pp" rhyme="a/a/a/b/c/c/c/b">
+            <lg type="strophe">
               <l n="1">
                 <w>Audi</w>
                 <pc resp="#editor">,</pc>
@@ -686,22 +686,20 @@
                 <pc>&#183;</pc>
                 <pc resp="#editor">;</pc>
               </l>
-            </lg>
-            <lg type="strophe" n="II">
-              <l n="1">
+              <l n="5">
                 <w>iam</w>
                 <w>delubra</w>
                 <w>ceciderunt</w>
                 <pc>&#183;</pc>
                 <pc resp="#editor">,</pc>
               </l>
-              <l n="2">
+              <l n="6">
                 <w>simulacra</w>
                 <w>corruerunt</w>
                 <pc>&#183;</pc>
                 <pc resp="#editor">,</pc>
               </l>
-              <l n="3">
+              <l n="7">
                 <app type="text">
                   dii] cod. V di HS T
                   <lem wit="cod. V">
@@ -714,7 +712,7 @@
                 <pc>&#183;</pc>
                 <pc resp="#editor">,</pc>
               </l>
-              <l n="4">
+              <l n="8">
                 <w>heu</w>
                 <pc resp="#editor">,</pc>
                 <w>cum</w>
@@ -731,7 +729,7 @@
           <pc resp="#editor">:</pc>
         </stage>
         <sp>
-          <div type="poem" met="?/?" rhyme="?/?">
+          <div type="poem" met="hex/hex" rhyme="?/?">
             <lg type="strophe">
               <l n="1">
                 <w>Scire</w>
@@ -767,7 +765,7 @@
           <pc resp="#editor">:</pc>
         </stage>
         <sp>
-          <p>
+          <p met="hex">
             <w>Regia</w><w>vos</w><w>mandata</w><w>vocant</w>
             <pc>&#183;</pc>
             <pc resp="#editor">,</pc>
@@ -800,7 +798,7 @@
           <pc resp="#editor">:</pc>
         </stage>
         <sp>
-          <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p/?/?" rhyme="a/a/a/a/b/b">
+          <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p/hex/hex" rhyme="a/a/a/a/b/b">
             <lg type="strophe">
               <l n="1">
                 <seg type="hemistich">
@@ -928,11 +926,8 @@
           <pc resp="#editor">:</pc>
         </stage>
         <sp>
-          <div type="poem" met="?/?" rhyme="?/?">
-            <lg type="strophe">
-              <l n="1">
-                <w>Dicite</w>
-                <w>quid</w>
+          <p>
+            <w>Dicite</w><w>quid</w>
                 <w>nobis</w>
                 <pc>&#183;</pc>
                 <w>et</w>
@@ -940,8 +935,6 @@
                 <w>portendat</w>
                 <w>Egipto</w>
                 <pc>&#183;</pc>
-              </l>
-              <l n="2">
                 <w>mira</w>
                 <w>mali</w>
                 <w>species</w>
@@ -950,9 +943,7 @@
                 <w>quidem</w>
                 <pc>&#183;</pc>
                 <pc resp="#editor">.</pc>
-              </l>
-            </lg>
-          </div>
+          </p>
         </sp>
         <stage n="13">
           <w>Cui</w><w>sapientes</w>
@@ -1062,7 +1053,7 @@
           <pc resp="#editor">:</pc>
         </stage>
         <sp>
-          <div type="poem" met="7p?+6p/7p?+6p" rhyme="a/a">
+          <div type="poem" met="7pp+6p/7pp+6p" rhyme="a/a">
             <lg type="strophe">
               <l n="1">
                 <seg type="hemistich">
@@ -1078,16 +1069,20 @@
                 </seg>
               </l>
               <l n="2">
+                <seg type="hemistich">
                 <w>qui</w>
                 <w>spretis</w>
                 <w>ceteris</w>
                 <w>vult</w>
                 <pc resp="#editor">,</pc>
+                </seg>
+                <seg type="hemistich">
                 <w>ut</w>
                 <w>solus</w>
                 <w>colatur</w>
                 <pc>&#183;</pc>
                 <pc resp="#editor">.</pc>
+                </seg>
               </l>
             </lg>
           </div>

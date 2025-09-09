@@ -63,16 +63,8 @@ PATHS = [
 		command=path_join('clivis_hor', 'virga')
 	),
 	Path(
-		name='clivis_end_liquescent',
-		command=path_join('clivis_end', 'substropha')
-	),
-	Path(
 		name='torculus',
 		command=path_join('pes', 'clivis_end')
-	),
-	Path(
-		name='torculus_liquescent',
-		command=path_join('pes', 'clivis_end_liquescent')
 	),
 	Path(
 		name='porrectus_end',
@@ -81,6 +73,14 @@ PATHS = [
 	Path(
 		name='liquescence_loop',
 		command='reverse pes_loop rotated 180'
+	),
+	Path(
+		name='clivis_end_liquescent',
+		command=path_join('clivis_end', 'liquescence_loop')
+	),
+	Path(
+		name='torculus_liquescent',
+		command=path_join('pes', 'clivis_end_liquescent')
 	),
 	Path(
 		name='cuoricino',
