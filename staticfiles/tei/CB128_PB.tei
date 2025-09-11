@@ -4,16 +4,24 @@
     <body>
       <div type="poem" xml:lang="french">
         <lg type="strophe" n="I">
-          <l n="1">Un jour un naufrag&#233; ramait sans port d&#8217;attache,</l>
-          <l n="2">la mer &#233;tant balay&#233;e par un vent venu du nord,</l>
-          <l n="3">son bateau longuement malmen&#233; par les flots :</l>
-          <l n="4">personne sur le rivage n&#8217;eut de lui compassion.</l>
+          <l n="1">Un jour un naufrag&#233;</l>
+          <l n="2">ramait sans port d&#8217;attache,</l>
+          <l n="3">la mer &#233;tant balay&#233;e</l>
+          <l n="4">par un vent venu du nord,</l>
+          <l n="5">son bateau longuement </l>
+          <l n="6">malmen&#233; par les flots :</l>
+          <l n="7">personne sur le rivage </l>
+          <l n="8">n&#8217;eut de lui compassion.</l>
         </lg>
         <lg type="strophe" n="II">
-          <l n="1">A la fin deux jeunes gens lui ont indiqu&#233; le port,</l>
-          <l n="2">et ont redonn&#233; la vie au malheureux &#233;puis&#233;.</l>
-          <l n="3">Leur juste discernement lui donne la direction.</l>
-          <l n="4">Tout ce qui fut d&#233;voy&#233; c&#232;de en ce bref retour.</l>
+          <l n="1">&#192; la fin deux jeunes gens</l>
+          <l n="2">lui ont indiqu&#233; le port,</l>
+          <l n="3">et ont redonn&#233; la vie</l>
+          <l n="4">au malheureux &#233;puis&#233;.</l>
+          <l n="5">Leur juste discernement</l>
+          <l n="6">lui donne la direction.</l>
+          <l n="7">Tout ce qui fut d&#233;voy&#233;</l>
+          <l n="8">c&#232;de en ce bref retour.</l>
         </lg>
       </div>
     </body>

@@ -1,0 +1,262 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem" met="6pp/6pp/6pp/6pp/6p/4pp/4pp/6p/7pp/8pp/7pp/8pp/" rhyme="a/b/b/a/c/d/d/c/e/f/e/f">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <w>O</w>
+            <w>curas</w>
+            <w>hominum</w>
+          </l>
+          <l n="2">
+            <app type="text">
+              <lem wit="HS V T">
+                <w>quos</w>
+              </lem>
+              <rdg wit="cod."><w>quas</w></rdg>
+            </app>
+            <w>curat</w>
+            <w>curia</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">!</pc>
+          </l>
+          <l n="3">
+            <w>O</w>
+            <w>quorum</w>
+            <w>studia</w>
+          </l>
+          <l n="4">
+            <w>non</w>
+            <w>habent</w>
+            <w>terminum</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">!</pc>
+          </l>
+          <l n="5">
+            <w>Talium</w>
+            <w>si</w>
+            <w>fidem</w>
+          </l>
+          <l n="6">
+            <w>incurreret</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="7">
+            <w>desereret</w>
+          </l>
+          <l n="8">
+            <w>Pilades</w>
+            <w>Atridem</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="9">
+            <w>alter</w>
+            <w>enim</w>
+            <w>Theseus</w>
+          </l>
+          <l n="10">
+            <w>suum</w>
+            <w>fastidit</w>
+            <w>Thesea</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="11">
+            <w>ubi</w>
+            <w>regnat</w>
+            <w>Protheus</w>
+          </l>
+          <l n="12">
+            <w>et</w>
+            <w>Fati</w>
+            <w>ludit</w>
+            <w>alea</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <w>Ab</w>
+            <w>aula</w>
+            <w>principis</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>si</w>
+            <w>nichil</w>
+            <w>habeas</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>oportet</w>
+            <w>abeas</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="4">
+            <w>spem</w>
+            <w>vanam</w>
+            <app type="text">
+              <lem wit="HS V T">
+                <w>concipis</w>
+              </lem>
+              <rdg wit="cod."><w>concipit</w></rdg>
+            </app>
+            <pc>&#183;</pc>
+          </l>
+          <l n="5">
+            <app type="text">
+              <lem wit="V">
+                <w>tenui</w>
+              </lem>
+              <rdg wit="cod. HS T"><w>tenuis</w></rdg>
+            </app>
+            <w>fortuna</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="6">
+            <w>Omnimoda</w>
+          </l>
+          <l n="7">
+            <w>ad</w>
+            <w>comoda</w>
+          </l>
+          <l n="8">
+            <app type="text">
+              <lem wit="HS V T">
+                <w>omnium</w>
+              </lem>
+              <rdg wit="cod."><w>hominum</w></rdg>
+            </app>
+            <w>mens</w>
+            <w>una</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">:</pc>
+          </l>
+          <l n="9">
+            <w>a</w>
+            <w>quo</w>
+            <app type="text">
+              <lem wit="HS V T">
+                <w>nil</w>
+              </lem>
+              <rdg wit="cod."><w>nichil</w></rdg>
+            </app>
+            <w>emungitur</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="10">
+            <w>opus</w>
+            <w>perdit</w>
+            <w>et</w>
+            <w>operam</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="11">
+            <w>quod</w>
+            <pc resp="#editor" pre="true">&#8216;</pc>
+            <w>habenti</w>
+            <w>dabitur</w>
+            <pc resp="#editor">&#8217;</pc>
+          </l>
+          <l n="12">
+            <app type="text">
+              <lem wit="cod. HS">
+                <w>tenent</w>
+            <w>omnes</w>
+              </lem>
+              <rdg wit="V T"><w>omnes</w><w>tenent</w></rdg>
+            </app>
+            <w>ad</w>
+            <w>litteram</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">
+            <w>In</w>
+            <app type="text">
+              <lem wit="HS V T">
+                <w>levum</w>
+              </lem>
+              <rdg wit="cod."><w>lucrum</w></rdg>
+            </app>
+            <w>vertitur</w>
+          </l>
+          <l n="2">
+            <w>censure</w>
+            <w>levitas</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="3">
+            <w>Fracta</w>
+            <w>severitas</w>
+          </l>
+          <l n="4">
+            <w>danti</w>
+            <w>remittitur</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="5">
+            <w>Explicas</w>
+            <w>decreta</w>
+          </l>
+          <l n="6">
+            <w>ad</w>
+            <w>libitum</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="7">
+            <w>si</w>
+            <w>sonitum</w>
+          </l>
+          <l n="8">
+            <w>dederit</w>
+            <w>moneta</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">:</pc>
+          </l>
+          <l n="9">
+            <w>plenis</w>
+            <w>ere</w>
+            <w>sacculis</w>
+          </l>
+          <l n="10">
+            <w>rei</w>
+            <w>pena</w>
+            <app type="text">
+              <lem wit="cod.">
+                <w>minuitur</w>
+              </lem>
+              <rdg wit="HS V T"><w>diluitur</w></rdg>
+            </app>
+            <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="11">
+            <w>Locum</w>
+            <w>dic</w>
+            <w>a</w>
+            <w>loculis</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="12">
+            <w>unde</w>
+            <w>locus</w>
+            <w>si</w>
+            <w>queritur</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
