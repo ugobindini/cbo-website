@@ -164,9 +164,6 @@ p {
     </div>
     <div style="flex: 1">
       <h5>Download options</h5>
-      {% if item.is_svg_based %}
-      <a href="{% static 'img/mscz-svg/' %}{{ item.file }}.svg" download="{{ item.file }}.svg"><img src="{% static 'img/SVG_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
-      {% endif %}
       <a href="{% static 'tei/' %}{{ item.file }}.tei" download="{{ item.file }}.tei"><img src="{% static 'img/TEI_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
       <a id="pdf-download" style="cursor: pointer;"><img src="{% static 'img/PDF_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
     </div>

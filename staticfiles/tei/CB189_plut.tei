@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="sequence">
@@ -30,17 +30,17 @@
             <pc resp="#editor">.</pc>
           </l>
           <l n="4">
-            <w>‘Quid</w>
+            <w>&#8216;Quid</w>
             <w>Rome</w>
             <w>faciam</w>
-            <pc>&#xf1f0;</pc>
+            <pc>&#61936;</pc>
             <pc resp="#editor">?</pc>
           </l>
           <l n="5">
             <w>Mentiri</w>
             <w>nescio</w>
             <pc>&#183;</pc>
-            <pc resp="#editor">’.</pc>
+            <pc resp="#editor">&#8217;.</pc>
           </l>
           <l n="6">
             <w>Potentum</w>
@@ -57,7 +57,7 @@
             <w>mordaci</w>
             <w>nitar</w>
             <w>vero</w>
-            <pc>&#xf1f0;</pc>
+            <pc>&#61936;</pc>
             <pc resp="#editor">,</pc>
           </l>
           <l n="9">
@@ -75,7 +75,7 @@
           <l n="11">
             <w>virtutis</w>
             <w>premium</w>
-            <pc>&#xf1f0;</pc>
+            <pc>&#61936;</pc>
             <pc resp="#editor">,</pc>
           </l>
           <l n="12">
@@ -105,7 +105,7 @@
             <pc resp="#editor">,</pc>
             <w>vis</w>
             <w>prebendas</w>
-            <pc>&#xf1f0;</pc>
+            <pc>&#61936;</pc>
             <pc resp="#editor">?</pc>
           </l>
           <l n="3">
@@ -344,7 +344,7 @@
             <pc resp="#editor">,</pc>
             <w>sicut</w>
             <w>consulis</w>
-            <pc>&#xf1f0;</pc>
+            <pc>&#61936;</pc>
             <pc resp="#editor">,</pc>
           </l>
           <l n="2">
@@ -427,7 +427,7 @@
           <l n="4">
             <w>vis</w>
             <w>favore</w>
-            <pc>&#xf1f0;</pc>
+            <pc>&#61936;</pc>
             <pc resp="#editor">,</pc>
             <w>vitio</w>
           </l>

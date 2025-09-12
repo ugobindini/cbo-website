@@ -129,7 +129,9 @@
   <div class="tabcontent" style="display: block;">
     <div id="mainContainer-{{ item.pk }}" style="height: 100%;">
       <div id="svg-{{ item.pk }}">
-        <img src="{% static item.svg_path %}" style="width: 100%;"/>
+        {% autoescape off %}
+          {{ item.svg_template }}
+        {% endautoescape %}
       </div>
 
       <div id="text-{{ item.pk }}">

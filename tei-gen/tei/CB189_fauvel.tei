@@ -1,0 +1,83 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <w>Vade</w>
+            <w>retro</w>
+            <pc resp="#editor">,</pc>
+            <w>Sathana</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>tuas</w>
+            <w>tolle</w>
+            <w>fabulas</w>
+            <pc resp="#editor">!</pc>
+          </l>
+          <l n="3">
+            <w>Quicquid</w>
+            <w>enim</w>
+            <w>consulas</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>falsitatis</w>
+            <w>organa</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="5">
+            <w>voces</w>
+            <w>adulancium</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="6">
+            <w>devoveo</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="7">
+            <w>nulliusque</w>
+            <w>foveo</w>
+          </l>
+          <l n="8">
+            <w>blandiendo</w>
+            <w>vicium</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="9">
+            <w>sed</w>
+            <w>Palponis</w>
+            <w>nomen</w>
+            <w>cavi</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="10">
+            <w>cuius</w>
+            <w>semper</w>
+            <w>declinavi</w>
+          </l>
+          <l n="11">
+            <w>fraudis</w>
+            <w>artificium</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="12">
+            <w>Tuum</w>
+            <w>factum</w>
+            <w>noxium</w>
+          </l>
+          <l n="13">
+            <w>nosce</w>
+            <pc resp="#editor">,</pc>
+            <w>dic</w>
+            <pc resp="#editor">:</pc>
+            <w>erravi</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -275,7 +275,7 @@ class Item(models.Model):
     @property
     def is_svg_based(self):
         import os.path
-        if os.path.isfile(staticfile_path('img/mscz-svg/', self.file + '.svg')):
+        if os.path.isfile(staticfile_path('img/mscz/svg/', self.file + '.svg')) or os.path.isfile(staticfile_path('img/mscz/svg/', self.file + '-1.svg')):
             return True
         else:
             return False
@@ -289,8 +289,13 @@ class Item(models.Model):
         return staticfile_path('mei', self.file + ".mei")
 
     @property
-    def svg_path(self):
-        return 'img/mscz-svg/' + self.file + ".svg"
+    def svg_template(self):
+        import os
+        # Order files: this assumes that each piece has less than 9 pages.
+        files = [file for file in os.listdir(os.path.join(static_root, 'img/mscz/svg/')) if file.startswith(self.file)]
+        files.sort(key=lambda x: x[-5])
+        template = ''.join(['<img src="/staticfiles/img/mscz/svg/' + file + '" style="width: 100%; margin: -15mm 0;"/>' for file in files])
+        return template
 
     @property
     def tei_tree(self):
@@ -473,7 +478,7 @@ class Neume(models.Model):
 
     @property
     def eps_path(self):
-        return f"img/glyphs/eps/buranus{self.n}.svg"
+        return f"img/glyphs/eps/buranus{self.n}.eps"
 
     def get_absolute_url(self):
         """Returns the URL to access a particular instance of the model."""
