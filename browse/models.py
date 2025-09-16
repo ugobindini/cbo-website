@@ -330,6 +330,8 @@ class Item(models.Model):
                 syllables = word.xpath("./seg[@type='syll']|./app[@type='neume']/lem/seg[@type='syll']")
                 if not len(syllables):
                     # a non syllabated word
+                    if word.text is None:
+                        print(self.file)
                     words.append(word.text.lower())
                 else:
                     words.append("".join([syllable.text for syllable in syllables]).lower())
