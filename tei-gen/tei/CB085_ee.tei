@@ -1,0 +1,98 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <w>Veris</w>
+            <w>dulcis</w>
+            <w>in</w>
+            <w>tempore</w>
+          </l>
+          <l n="2">
+            <w>florenti</w>
+            <w>stat</w>
+            <w>sub</w>
+            <w>arbore</w>
+          </l>
+          <l n="3">
+            <w>Iuliana</w>
+            <w>cum</w>
+            <w>sorore</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="4">
+            <w>dulcis</w>
+            <w>amor</w>
+            <pc resp="#editor">!</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <w>Qui</w>
+            <w>te</w>
+            <w>caret</w>
+            <w>hoc</w>
+            <w>tempore</w>
+          </l>
+          <l n="2">
+            <w>fit</w>
+            <w>vilior</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">
+            <w>Ecce</w>
+            <w>florescunt</w>
+            <w>arbores</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>lascive</w>
+            <w>canunt</w>
+            <w>volucres</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>inde</w>
+            <w>tepescunt</w>
+            <w>virgines</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="4">
+            <w>dulcis</w>
+            <w>amor</w>
+            <pc resp="#editor">!</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="IV">
+          <l n="1">
+            <w>Ecce</w>
+            <w>florescunt</w>
+            <w>gramina</w>
+          </l>
+          <l n="2">
+            <w>et</w>
+            <w>virgines</w>
+            <w>dant</w>
+            <w>agmina</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>sumo</w>
+            <w>dolorum</w>
+            <w>carmina</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="4">
+            <w>dulcis</w>
+            <w>amor</w>
+            <pc resp="#editor">!</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
