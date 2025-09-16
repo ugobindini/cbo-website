@@ -316,22 +316,20 @@ class Item(models.Model):
         else:
             return len(self.tei_tree.findall(f".//neume[@glyph.num='{n}']"))
 
-    def words(self, exclude_apparatus, cleaned=True):
+    def words(self, exclude_apparatus=True, cleaned=True):
         # returns a list of all words in the piece
         # if cleaned, then the german diphthongs are converted to the base vowel
         # TODO: possibly, if this slows down the search a lot, compute it once and for all and pickle it to a static file
         tree = self.tei_tree
         words = []
-        for word in tree.xpath(".//w"):
+        self_words = tree.xpath(".//w")
+        for (x, word) in enumerate(self_words):
             if exclude_apparatus and (word.xpath("./ancestor::rdg") or word.xpath("./ancestor::note")):
                 # exclude words in app-readings or app-notes
                 pass
             else:
                 syllables = word.xpath("./seg[@type='syll']|./app[@type='neume']/lem/seg[@type='syll']")
                 if not len(syllables):
-                    # a non syllabated word
-                    if word.text is None:
-                        print(self.file)
                     words.append(word.text.lower())
                 else:
                     words.append("".join([syllable.text for syllable in syllables]).lower())
@@ -341,6 +339,7 @@ class Item(models.Model):
             diphthongs = {'uͤ': 'u', 'uͦ': 'u', 'oͤ': 'o', 'oͧ': 'o', 'aͧ': 'a', 'iͤ': 'i'}
             for key in diphthongs.keys():
                 words = [word.replace(key, diphthongs[key]) for word in words]
+
         return words
 
     def contains_words(self, words, exclude_apparatus, match_word_beginning, match_word_end, match_word_middle):
@@ -348,11 +347,7 @@ class Item(models.Model):
         n = 0
         for key in words:
             for word in self.words(exclude_apparatus=exclude_apparatus):
-                if match_word_beginning and word.startswith(key):
-                    print(self.abstract_item.cb_id, word)
-                    n += 1
-                    break
-                elif match_word_end and word.endswith(key):
+                if match_word_beginning and word.startswith(key) or match_word_end and word.endswith(key):
                     print(self.abstract_item.cb_id, word)
                     n += 1
                     break
