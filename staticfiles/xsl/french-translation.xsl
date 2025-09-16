@@ -106,7 +106,7 @@
     <xsl:choose>
       <xsl:when test="@n=1">
         <!-- Create extra div to avoid breaks between strophe/refrain heading and first verse -->
-        <div class="no-break">
+        <div class="no-break non-selectable">
           <div class="lg-heading"><xsl:value-of select="$lgHead"/></div>
           <xsl:call-template name="verse-content" />
         </div>

@@ -31,6 +31,7 @@
 p {
   margin-block-start: 3px;
   margin-block-end: 3px;
+  break-inside: avoid;
 }
 
 .strophe,.refrain {
@@ -97,7 +98,6 @@ p {
 .pc {
   display: inline-flex;
   align-items: flex-end;
-  break-before: avoid;
 }
 
 .pre {
