@@ -322,8 +322,7 @@ class Item(models.Model):
         # TODO: possibly, if this slows down the search a lot, compute it once and for all and pickle it to a static file
         tree = self.tei_tree
         words = []
-        self_words = tree.xpath(".//w")
-        for (x, word) in enumerate(self_words):
+        for word in tree.xpath(".//w"):
             if exclude_apparatus and (word.xpath("./ancestor::rdg") or word.xpath("./ancestor::note")):
                 # exclude words in app-readings or app-notes
                 pass
