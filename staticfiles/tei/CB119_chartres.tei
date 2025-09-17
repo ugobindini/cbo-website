@@ -1,0 +1,154 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem" met="10pp/10pp/10pp/10pp/2p" rhyme="a/a/a/a/b">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <w>Dulce</w>
+            <w>solum</w>
+            <w>natalis</w>
+            <w>patrie</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>domus</w>
+            <w>joci</w>
+            <pc resp="#editor">,</pc>
+            <w>talamus</w>
+            <w>gratie</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>vos</w>
+            <w>relinquam</w>
+            <w>aut</w>
+            <w>cras</w>
+            <w>aut</w>
+            <w>hodie</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>periturus</w>
+            <w>amoris</w>
+            <w>rabie</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="5">
+            <w>Exul</w>
+            <pc resp="#editor">...</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <w>Vale</w>
+            <w>tellus</w>
+            <pc resp="#editor">,</pc>
+            <w>valete</w>
+            <w>socii</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>quos</w>
+            <w>benigno</w>
+            <w>favore</w>
+            <w>colui</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>et</w>
+            <w>me</w>
+            <w>dulcem</w>
+            <w>consortem</w>
+            <w>studii</w>
+          </l>
+          <l n="4">
+            <w>deplangite</w>
+            <pc resp="#editor">,</pc>
+            <w>qui</w>
+            <w>vobis</w>
+            <w>perii</w>
+            <pc resp="#editor">!</pc>
+          </l>
+          <l n="5">
+            <w>Igne</w>
+            <pc resp="#editor">...</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">
+            <w>Igne</w>
+            <w>novo</w>
+            <w>Veneris</w>
+            <w>saucia</w>
+          </l>
+          <l n="2">
+            <w>mens</w>
+            <pc resp="#editor">,</pc>
+            <w>que</w>
+            <w>prius</w>
+            <w>non</w>
+            <w>novit</w>
+            <w>talia</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="3">
+            <w>Testantur</w>
+            <w>vera</w>
+            <w>proverbia</w>
+            <pc resp="#editor">:</pc>
+          </l>
+          <l n="4">
+            <w>‘ubi</w>
+            <w>amor</w>
+            <pc resp="#editor">,</pc>
+            <w>ibi</w>
+            <w>miseria</w>
+            <pc resp="#editor">.’</pc>
+          </l>
+          <l n="5">
+            <w>Gravis</w>
+            <pc resp="#editor">...</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="IV"  met="10pp/10pp/10pp/10pp" rhyme="a/a/a/a">
+          <l n="1">
+            <app type="text">
+              <lem>
+                <w>Quot</w>
+              </lem>
+              <rdg wit="cod."><w>Quod</w></rdg>
+            </app>
+            <w>sunt</w>
+            <w>apes</w>
+            <w>in</w>
+            <w>Yble</w>
+            <w>vallibus</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>quot</w>
+            <w>Dodona</w>
+            <w>vestitur</w>
+            <w>frondibus</w>
+          </l>
+          <l n="3">
+            <w>aut</w>
+            <w>quot</w>
+            <w>pisces</w>
+            <w>natant</w>
+            <w>equoribus</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>tot</w>
+            <w>habundat</w>
+            <w>amor</w>
+            <w>doloribus</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
