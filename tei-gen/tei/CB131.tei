@@ -1,523 +1,2206 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
         <lg type="strophe" n="I">
           <l n="1">
-            <w>Dic</w>
+            <w>
+              <seg type="syll">Dic<notatedMusic>
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                  <neume fontname="buranus" glyph.num="89" label="qisu2" />
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                  <neume fontname="buranus" glyph.num="137" label="sc" />
+                  <neume fontname="buranus" glyph.num="50" label="cl)" />
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                  <neume fontname="buranus" glyph.num="101" label="ql" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">,</pc>
-            <w>Christi</w>
-            <w>veritas</w>
+            <w>
+              <seg type="syll" part="I">Chris<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ti<notatedMusic>
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ve<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ri<notatedMusic>
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tas<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="2">
-            <w>dic</w>
+            <w>
+              <seg type="syll">dic<notatedMusic>
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">,</pc>
-            <w>cara</w>
-            <w>raritas</w>
+            <w>
+              <seg type="syll" part="I">ca<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ra<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ra<notatedMusic>
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ri<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tas<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
           </l>
           <l n="3">
-            <w>dic</w>
+            <w>
+              <seg type="syll">dic<notatedMusic>
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">,</pc>
-            <w>rara</w>
-            <w>caritas</w>
+            <w>
+              <seg type="syll" part="I">ra<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ra<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ca<notatedMusic>
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ri<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tas<notatedMusic>
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="4">
-            <w>ubi</w>
-            <w>nunc</w>
-            <w>habitas</w>
+            <w>
+              <seg type="syll" part="I">u<notatedMusic>
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">bi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">nunc<notatedMusic>
+                  <neume fontname="buranus" glyph.num="8" label="vi)" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ha<notatedMusic>
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">bi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tas<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">?</pc>
           </l>
           <l n="5">
-            <w>Aut</w>
-            <w>in</w>
-            <w>valle</w>
-            <w>visionis</w>
+            <w>
+              <seg type="syll">Aut<notatedMusic>
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                  <neume fontname="buranus" glyph.num="139" label="scsu3!st" />
+                  <neume fontname="buranus" glyph.num="137" label="sc" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">in<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">val<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">le<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">vi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">si<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">o<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">nis<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">?</pc>
           </l>
           <l n="6">
-            <w>aut</w>
-            <w>in</w>
-            <w>throno</w>
-            <w>Pharaonis</w>
+            <w>
+              <seg type="syll">aut<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">in<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">thro<notatedMusic>
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">no<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Pha<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ra<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">o<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">nis<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">?</pc>
           </l>
           <l n="7">
-            <w>aut</w>
-            <w>in</w>
-            <w>alto</w>
-            <w>cum</w>
-            <w>Nerone</w>
+            <w>
+              <seg type="syll">aut<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">in<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">al<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">to<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">cum<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Ne<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ro<notatedMusic>
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ne<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">?</pc>
           </l>
           <l n="8">
-            <w>aut</w>
-            <w>in</w>
-            <w>antro</w>
-            <w>cum</w>
-            <w>Theone</w>
+            <w>
+              <seg type="syll">aut<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">in<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">an<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tro<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">cum<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">The<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">o<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ne<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">?</pc>
           </l>
           <l n="9">
-            <w>Vel</w>
-            <w>in</w>
-            <w>fiscella</w>
-            <w>scirpea</w>
+            <w>
+              <seg type="syll">Vel<notatedMusic>
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                  <neume fontname="buranus" glyph.num="18" label="visu3" />
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">in<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">fi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">scel<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">la<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">scir<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">pe<notatedMusic>
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">a<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
           </l>
           <l n="10">
-            <w>cum</w>
-            <w>Moyse</w>
-            <w>plorante</w>
+            <w>
+              <seg type="syll">cum<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Mo<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">y<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">se<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">plo<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ran<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">te<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">?</pc>
           </l>
           <l n="11">
-            <w>Vel</w>
-            <w>in</w>
-            <w>domo</w>
-            <w>Romulea</w>
+            <w>
+              <seg type="syll">Vel<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">in<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">do<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">mo<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Ro<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">mu<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">le<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">a<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="12">
-            <w>cum</w>
-            <w>bulla</w>
-            <w>fulminante</w>
+            <w>
+              <seg type="syll">cum<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">bul<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">la<notatedMusic>
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ful<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">mi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">nan<notatedMusic>
+                  <neume fontname="buranus" glyph.num="5" label="ds" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">te</seg>
+            </w>
             <pc resp="#editor">?</pc>
           </l>
         </lg>
         <lg type="strophe" n="II">
           <l n="1">
-            <w>Respondit</w>
-            <w>caritas</w>
-            <pc resp="#editor">:</pc>
+            <w>
+              <seg type="syll" part="I">Bul<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">la<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ful<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">mi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">nan<notatedMusic>
+                  <neume fontname="buranus" glyph.num="8" label="vi)" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">te<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
           </l>
           <l n="2">
-            <w>«Homo</w>
+            <w>
+              <seg type="syll">sub<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">iu<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">di<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ce<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">to<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">nan<notatedMusic>
+                  <neume fontname="buranus" glyph.num="8" label="vi)" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">te<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                  <neume fontname="buranus" glyph.num="73" label="qi!cl" />
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                  <neume fontname="buranus" glyph.num="54" label="cl)!st" />
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                  <neume fontname="buranus" glyph.num="5" label="ds" />
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                  <neume fontname="buranus" glyph.num="5" label="ds" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">,</pc>
-            <w>quid</w>
-            <w>dubitas</w>
-            <pc resp="#editor">?</pc>
           </l>
           <l n="3">
-            <w>Quid</w>
-            <w>me</w>
-            <w>sollicitas</w>
-            <pc resp="#editor">?</pc>
-          </l>
-          <l n="4">
-            <w>Non</w>
-            <w>sum</w>
-            <w>quo</w>
-            <w>mussitas</w>
+            <w>
+              <seg type="syll" part="I">re<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">o<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ap<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">pel<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">lan<notatedMusic>
+                  <neume fontname="buranus" glyph.num="8" label="vi)" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">te<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">,</pc>
           </l>
+          <l n="4">
+            <w>
+              <seg type="syll" part="I">sen<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ten<notatedMusic>
+                  <neume fontname="buranus" glyph.num="8" label="vi)" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ti<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">a<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">gra<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">van<notatedMusic>
+                  <neume fontname="buranus" glyph.num="8" label="vi)" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">te<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                  <neume fontname="buranus" glyph.num="65" label="topp1" />
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                  <neume fontname="buranus" glyph.num="50" label="cl)" />
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                  <neume fontname="buranus" glyph.num="5" label="ds" />
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                  <neume fontname="buranus" glyph.num="5" label="ds" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">;</pc>
+          </l>
           <l n="5">
-            <w>nec</w>
-            <w>in</w>
-            <w>euro</w>
-            <w>nec</w>
-            <w>in</w>
-            <w>austro</w>
+            <w>
+              <seg type="syll" part="I">ve<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ri<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tas<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">sup<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">pri<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">mi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tur<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="6">
-            <w>nec</w>
-            <w>in</w>
-            <w>foro</w>
-            <w>nec</w>
-            <w>in</w>
-            <w>claustro</w>
-            <pc resp="#editor">,</pc>
+            <w>
+              <seg type="syll" part="I">dis<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">tra<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">hi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tur<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
           </l>
           <l n="7">
-            <w>nec</w>
-            <w>in</w>
-            <w>bisso</w>
-            <w>vel</w>
-            <w>cuculla</w>
+            <w>
+              <seg type="syll">et<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ven<notatedMusic>
+                  <neume fontname="buranus" glyph.num="8" label="vi)" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">di<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tur<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="8">
-            <w>nec</w>
-            <w>in</w>
-            <w>bello</w>
-            <w>vel</w>
-            <w>in</w>
-            <w>bulla</w>
-            <pc resp="#editor">:</pc>
+            <w>
+              <seg type="syll" part="I">ius<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ti<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ti<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">a<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">pro<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">stan<notatedMusic>
+                  <neume fontname="buranus" glyph.num="8" label="vi)" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">te<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                  <neume fontname="buranus" glyph.num="42" label="pepp1" />
+                  <neume fontname="buranus" glyph.num="5" label="ds" />
+                  <neume fontname="buranus" glyph.num="0" label="to!pr" />
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                  <neume fontname="buranus" glyph.num="20" label="visu3!st" />
+                  <neume fontname="buranus" glyph.num="5" label="ds" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">.</pc>
           </l>
           <l n="9">
-            <w>de</w>
-            <w>Ierico</w>
-            <w>sum</w>
-            <w>veniens</w>
-            <pc resp="#editor">,</pc>
+            <w>
+              <seg type="syll" part="I">I<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tur<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">et<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">re<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">cur<notatedMusic>
+                  <neume fontname="buranus" glyph.num="8" label="vi)" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ri<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tur<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
           </l>
           <l n="10">
-            <w>ploro</w>
-            <w>cum</w>
-            <w>sautiato</w>
+            <w>
+              <seg type="syll">ad<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">cu<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ri<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">am<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">,</pc>
+            <w>
+              <seg type="syll">nec<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">an<notatedMusic>
+                  <neume fontname="buranus" glyph.num="133" label="ci!st" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">te<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                  <neume fontname="buranus" glyph.num="42" label="pepp1" />
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                  <neume fontname="buranus" glyph.num="20" label="visu3!st" />
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                  <neume fontname="buranus" glyph.num="10" label="vs" />
+                  <neume fontname="buranus" glyph.num="44" label="pepp1su3" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">;</pc>
           </l>
           <l n="11">
-            <w>quem</w>
-            <w>dupplex</w>
-            <w>Levi</w>
-            <w>transiens</w>
+            <w>
+              <seg type="syll">quid<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">con<notatedMusic>
+                  <neume fontname="buranus" glyph.num="8" label="vi)" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">se<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">qui<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tur<notatedMusic>
+                  <neume fontname="buranus" glyph.num="5" label="ds" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="12">
-            <w>non</w>
-            <w>astitit</w>
-            <w>grabato</w>
-            <pc resp="#editor">».</pc>
+            <w>
+              <seg type="syll">quam<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ex<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">u<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">i<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tur<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">qua<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">dran<notatedMusic>
+                  <neume fontname="buranus" glyph.num="20" label="visu3!st" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">te<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                  <neume fontname="buranus" glyph.num="35" label="pesu2!st" />
+                  <neume fontname="buranus" glyph.num="2" label="3p" />
+                  <neume fontname="buranus" glyph.num="18" label="visu3" />
+                  <neume fontname="buranus" glyph.num="55" label="clpp1" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">.</pc>
           </l>
         </lg>
         <lg type="strophe" n="III">
           <l n="1">
-            <w>O</w>
-            <w>vox</w>
-            <w>prophetica</w>
-            <pc resp="#editor">,</pc>
+            <w>
+              <seg type="syll" part="I">Re<notatedMusic>
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                  <neume fontname="buranus" glyph.num="89" label="qisu2" />
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                  <neume fontname="buranus" glyph.num="137" label="sc" />
+                  <neume fontname="buranus" glyph.num="50" label="cl)" />
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                  <neume fontname="buranus" glyph.num="70" label="qi" />
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">spon<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">dit<notatedMusic>
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ca<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ri<notatedMusic>
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tas<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">:</pc>
           </l>
           <l n="2">
-            <w>o</w>
-            <w>Natan</w>
+            <w>
+              <seg type="syll" part="I">«Ho<notatedMusic>
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">mo<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">,</pc>
-            <w>predica</w>
-            <pc resp="#editor">:</pc>
+            <w>
+              <seg type="syll">quid<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">du<notatedMusic>
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">bi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tas<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">?</pc>
           </l>
           <l n="3">
-            <w>culpa</w>
-            <w>Davitica</w>
+            <w>
+              <seg type="syll">Quid<notatedMusic>
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">me<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">sol<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">li<notatedMusic>
+                  <neume fontname="buranus" glyph.num="18" label="visu3" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ci<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tas<notatedMusic>
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">?</pc>
           </l>
           <l n="4">
-            <w>patet</w>
-            <w>non</w>
-            <w>modica</w>
-            <pc resp="#editor">.</pc>
+            <w>
+              <seg type="syll">Non<notatedMusic>
+                  <neume fontname="buranus" glyph.num="29" label="ep" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">sum<notatedMusic>
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">quo<notatedMusic>
+                  <neume fontname="buranus" glyph.num="8" label="vi)" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">mus<notatedMusic>
+                  <neume fontname="buranus" glyph.num="18" label="visu3" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">si<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tas<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="5">
-            <w>Dicit</w>
-            <w>Natan</w>
-            <pc resp="#editor">:</pc>
-            <w>«Non</w>
-            <w>clamabo</w>
+            <w>
+              <seg type="syll">nec<notatedMusic>
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                  <neume fontname="buranus" glyph.num="95" label="qisu3" />
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                  <neume fontname="buranus" glyph.num="137" label="sc" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">in<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">eu<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ro<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">nec<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">in<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">aus<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tro<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="6">
-            <w>neque</w>
-            <w>David</w>
-            <w>planctum</w>
-            <w>dabo</w>
-            <pc resp="#editor">».</pc>
+            <w>
+              <seg type="syll">nec<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">in<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">fo<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ro<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">nec<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">in<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">claus<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tro<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="7">
-            <w>Cum</w>
-            <w>sit</w>
-            <w>Christi</w>
-            <w>rupta</w>
-            <w>vestis</w>
+            <w>
+              <seg type="syll">nec<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">in<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">bis<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">so<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">vel<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">cu<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">cul<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">la<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="8">
-            <w>contra</w>
-            <w>Christum</w>
-            <w>Christus</w>
-            <w>testis</w>
+            <w>
+              <seg type="syll">nec<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">in<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">bel<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">lo</seg>
+            </w>
+            <w>
+              <seg type="syll">vel<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">in<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">bul<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">la<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">:</pc>
           </l>
           <l n="9">
-            <w>ve</w>
-            <pc resp="#editor">,</pc>
-            <w>ve</w>
-            <w>vobis</w>
-            <pc resp="#editor">,</pc>
-            <w>ypocrite</w>
+            <w>
+              <seg type="syll">de<notatedMusic>
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Ie<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ri<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">co<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">sum<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ve<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ni<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ens<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="10">
-            <w>qui</w>
-            <w>culicem</w>
-            <w>colatis</w>
-            <pc resp="#editor">!</pc>
+            <w>
+              <seg type="syll" part="I">plo<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ro<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">cum<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">sau<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ti<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">a<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">to<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="11">
-            <w>Que</w>
-            <w>Cesaris</w>
-            <w>sunt</w>
-            <pc resp="#editor">,</pc>
-            <w>reddite</w>
-            <pc resp="#editor">,</pc>
+            <w>
+              <seg type="syll">quem<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">dup<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">plex<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Le<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">vi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">trans<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">i<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ens<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
           </l>
           <l n="12">
-            <w>ut</w>
-            <w>Christo</w>
-            <w>serviatis</w>
-            <pc resp="#editor">!</pc>
+            <w>
+              <seg type="syll">non<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">a<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">sti<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tit<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">gra<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ba<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">to</seg>
+            </w>
+            <pc resp="#editor">».</pc>
           </l>
         </lg>
         <lg type="strophe" n="IV">
           <l n="1">
-            <w>Bulla</w>
-            <w>fulminante</w>
+            <w>
+              <seg type="syll">Si</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">que</seg>
+              <seg type="syll" part="F">ris</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">pre</seg>
+              <seg type="syll" part="M">ben</seg>
+              <seg type="syll" part="F">das</seg>
+            </w>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="2">
-            <w>sub</w>
-            <w>iudice</w>
-            <w>tonante</w>
+            <w>
+              <seg type="syll" part="I">frus</seg>
+              <seg type="syll" part="F">tra</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">vi</seg>
+              <seg type="syll" part="F">tam</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">pre</seg>
+              <seg type="syll" part="M">ten</seg>
+              <seg type="syll" part="F">das</seg>
+            </w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="3">
-            <w>reo</w>
-            <w>appellante</w>
+            <w>
+              <seg type="syll" part="I">mo</seg>
+              <seg type="syll" part="F">res</seg>
+            </w>
+            <w>
+              <seg type="syll">non</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">com</seg>
+              <seg type="syll" part="M">men</seg>
+              <seg type="syll" part="F">das</seg>
+            </w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="4">
-            <w>sententia</w>
-            <w>gravante</w>
-            <pc resp="#editor">;</pc>
+            <w>
+              <seg type="syll">ne</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">iu</seg>
+              <seg type="syll" part="M">di</seg>
+              <seg type="syll" part="F">cem</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">of</seg>
+              <seg type="syll" part="M">fen</seg>
+              <seg type="syll" part="F">das</seg>
+            </w>
+            <pc resp="#editor">!</pc>
           </l>
           <l n="5">
-            <w>veritas</w>
-            <w>supprimitur</w>
-            <pc resp="#editor">,</pc>
+            <w>
+              <seg type="syll" part="I">Frus</seg>
+              <seg type="syll" part="F">tra</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">tu</seg>
+              <seg type="syll" part="F">is</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">lit</seg>
+              <seg type="syll" part="M">te</seg>
+              <seg type="syll" part="F">ris</seg>
+            </w>
           </l>
           <l n="6">
-            <w>distrahitur</w>
+            <w>
+              <seg type="syll" part="I">in</seg>
+              <seg type="syll" part="M">ni</seg>
+              <seg type="syll" part="M">te</seg>
+              <seg type="syll" part="F">ris</seg>
+            </w>
+            <pc resp="#editor">:</pc>
           </l>
           <l n="7">
-            <w>et</w>
-            <w>venditur</w>
-            <pc resp="#editor">,</pc>
+            <w>
+              <seg type="syll" part="I">mo</seg>
+              <seg type="syll" part="M">ra</seg>
+              <seg type="syll" part="M">be</seg>
+              <seg type="syll" part="F">ris</seg>
+            </w>
           </l>
           <l n="8">
-            <w>iustitia</w>
-            <w>prostante</w>
-            <pc resp="#editor">.</pc>
-          </l>
-          <l n="9">
-            <w>Itur</w>
-            <w>et</w>
-            <w>recurritur</w>
-          </l>
-          <l n="10">
-            <w>ad</w>
-            <w>curiam</w>
-            <pc resp="#editor">,</pc>
-            <w>nec</w>
-            <w>ante</w>
+            <w>
+              <seg type="syll">per</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">plu</seg>
+              <seg type="syll" part="M">ri</seg>
+              <seg type="syll" part="F">mas</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ka</seg>
+              <seg type="syll" part="M">len</seg>
+              <seg type="syll" part="F">das</seg>
+            </w>
             <pc resp="#editor">;</pc>
           </l>
-          <l n="11">
-            <w>quid</w>
-            <w>consequitur</w>
+          <l n="9">
+            <w>
+              <seg type="syll" part="I">tan</seg>
+              <seg type="syll" part="F">dem</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ex</seg>
+              <seg type="syll" part="M">pec</seg>
+              <seg type="syll" part="M">ta</seg>
+              <seg type="syll" part="M">ve</seg>
+              <seg type="syll" part="F">ris</seg>
+            </w>
+          </l>
+          <l n="10">
+            <w>
+              <seg type="syll">a</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ce</seg>
+              <seg type="syll" part="M">te</seg>
+              <seg type="syll" part="F">ris</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">fe</seg>
+              <seg type="syll" part="M">ren</seg>
+              <seg type="syll" part="F">das</seg>
+            </w>
             <pc resp="#editor">,</pc>
           </l>
+          <l n="11">
+            <w>
+              <seg type="syll" part="I">pa</seg>
+              <seg type="syll" part="F">ris</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">pon</seg>
+              <seg type="syll" part="M">de</seg>
+              <seg type="syll" part="F">ris</seg>
+            </w>
+          </l>
           <l n="12">
-            <w>quam</w>
-            <w>exuitur</w>
-            <w>quadrante</w>
+            <w>
+              <seg type="syll" part="I">pre</seg>
+              <seg type="syll" part="M">ci</seg>
+              <seg type="syll" part="F">o</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ni</seg>
+              <seg type="syll" part="F">si</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">con</seg>
+              <seg type="syll" part="M">ten</seg>
+              <seg type="syll" part="F">das</seg>
+            </w>
             <pc resp="#editor">.</pc>
           </l>
         </lg>
         <lg type="strophe" n="V">
           <l n="1">
-            <w>Pape</w>
-            <w>ianitores</w>
+            <w>
+              <seg type="syll">O<notatedMusic>
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                  <neume fontname="buranus" glyph.num="33" label="pesu2" />
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                  <neume fontname="buranus" glyph.num="137" label="sc" />
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                  <neume fontname="buranus" glyph.num="133" label="ci!st" />
+                  <neume fontname="buranus" glyph.num="72" label="qi!st" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">vox<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">pro<notatedMusic>
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">phe<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ti<notatedMusic>
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ca<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="2">
-            <w>cerbero</w>
-            <w>surdiores</w>
-            <pc resp="#editor">.</pc>
+            <w>
+              <seg type="syll">o<notatedMusic>
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Na<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tan<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">,</pc>
+            <w>
+              <seg type="syll" part="I">pre<notatedMusic>
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">di<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ca<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">:</pc>
           </l>
           <l n="3">
-            <w>In</w>
-            <w>spe</w>
-            <w>vana</w>
-            <w>plores</w>
+            <w>
+              <seg type="syll" part="I">cul<notatedMusic>
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">pa<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Da<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">vi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ti<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ca<notatedMusic>
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                </notatedMusic>
+              </seg>
+            </w>
           </l>
           <l n="4">
-            <w>nam</w>
-            <w>etiamsi</w>
-            <w>fores</w>
+            <w>
+              <seg type="syll" part="I">pa<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tet<notatedMusic>
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">non<notatedMusic>
+                  <neume fontname="buranus" glyph.num="8" label="vi)" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">mo<notatedMusic>
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">di<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ca<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">.</pc>
           </l>
           <l n="5">
-            <w>quem</w>
-            <w>audiit</w>
-            <pc resp="#editor">,</pc>
-            <w>Orpheus</w>
+            <w>
+              <seg type="syll" part="I">Di<notatedMusic>
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
+                  <neume fontname="buranus" glyph.num="39" label="pesu3!st" />
+                  <neume fontname="buranus" glyph.num="137" label="sc" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">cit<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Na<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tan<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">:</pc>
+            <w>
+              <seg type="syll">«Non<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">cla<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">ma<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">bo<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="6">
-            <w>Pluton</w>
-            <pc resp="#editor">,</pc>
-            <w>deus</w>
+            <w>
+              <seg type="syll" part="I">ne<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">que<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Da<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">vid<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">planc<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tum<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">da<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">bo<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">».</pc>
           </l>
           <l n="7">
-            <w>Tartareus</w>
+            <w>
+              <seg type="syll">Cum<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">sit<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Chris<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ti<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">rup<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ta<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ves<notatedMusic>
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tis<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
           </l>
           <l n="8">
-            <w>non</w>
-            <w>ideo</w>
-            <w>perores</w>
-            <pc resp="#editor">;</pc>
+            <w>
+              <seg type="syll" part="I">con<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tra<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Chris<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tum<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Chris<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tus<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">tes<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tis<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">:</pc>
           </l>
           <l n="9">
-            <w>malleus</w>
-            <w>argenteus</w>
-          </l>
-          <l n="10">
-            <w>ni</w>
-            <w>feriat</w>
-            <w>ad</w>
-            <w>fores</w>
+            <w>
+              <seg type="syll">ve<notatedMusic>
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                  <neume fontname="buranus" glyph.num="130" label="ci" />
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">vo<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">bis<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">,</pc>
+            <w>
+              <seg type="syll" part="I">y<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">po<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">cri<notatedMusic>
+                  <neume fontname="buranus" glyph.num="0" label="?" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">te<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
             <pc resp="#editor">,</pc>
           </l>
+          <l n="10">
+            <w>
+              <seg type="syll">qui<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">cu<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">li<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">cem<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">co<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">la<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tis<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">!</pc>
+          </l>
           <l n="11">
-            <w>ubi</w>
-            <w>Protheus</w>
+            <w>
+              <seg type="syll">Que<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Ce<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">sa<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">ris<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll">sunt<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">,</pc>
+            <w>
+              <seg type="syll" part="I">red<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">di<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">te<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="12">
-            <w>variat</w>
-            <w>mille</w>
-            <w>colores</w>
-            <pc resp="#editor">.</pc>
+            <w>
+              <seg type="syll">ut<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Chris<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">to<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ser<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">vi<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="M">a<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
+                </notatedMusic>
+              </seg>
+              <seg type="syll" part="F">tis</seg>
+            </w>
+            <pc resp="#editor">!</pc>
           </l>
         </lg>
         <lg type="strophe" n="VI">
           <l n="1">
-            <w>Si</w>
-            <w>queris</w>
-            <w>prebendas</w>
-            <pc resp="#editor">,</pc>
+            <w>
+              <seg type="syll" part="I">Pa</seg>
+              <seg type="syll" part="F">pe</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ia</seg>
+              <seg type="syll" part="M">ni</seg>
+              <seg type="syll" part="M">to</seg>
+              <seg type="syll" part="F">res</seg>
+            </w>
           </l>
           <l n="2">
-            <w>frustra</w>
-            <w>vitam</w>
-            <w>pretendas</w>
-            <pc resp="#editor">,</pc>
-          </l>
-          <l n="3">
-            <w>mores</w>
-            <w>non</w>
-            <w>commendas</w>
-            <pc resp="#editor">,</pc>
-          </l>
-          <l n="4">
-            <w>ne</w>
-            <w>iudicem</w>
-            <w>offendas</w>
-            <pc resp="#editor">!</pc>
-          </l>
-          <l n="5">
-            <w>Frustra</w>
-            <w>tuis</w>
-            <w>litteris</w>
-          </l>
-          <l n="6">
-            <w>inniteris</w>
-            <pc resp="#editor">:</pc>
-          </l>
-          <l n="7">
-            <w>moraberis</w>
-          </l>
-          <l n="8">
-            <w>per</w>
-            <w>plurimas</w>
-            <w>kalendas</w>
-            <pc resp="#editor">;</pc>
-          </l>
-          <l n="9">
-            <w>tandem</w>
-            <w>expectaveris</w>
-          </l>
-          <l n="10">
-            <w>a</w>
-            <w>ceteris</w>
-            <w>ferendas</w>
-            <pc resp="#editor">,</pc>
-          </l>
-          <l n="11">
-            <w>paris</w>
-            <w>ponderis</w>
-          </l>
-          <l n="12">
-            <w>precio</w>
-            <w>nisi</w>
-            <w>contendas</w>
+            <w>
+              <seg type="syll" part="I">cer</seg>
+              <seg type="syll" part="M">be</seg>
+              <seg type="syll" part="F">ro</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">sur</seg>
+              <seg type="syll" part="M">di</seg>
+              <seg type="syll" part="M">o</seg>
+              <seg type="syll" part="F">res</seg>
+            </w>
             <pc resp="#editor">.</pc>
           </l>
-        </lg>
-        <lg type="strophe" n="VII">
-          <l n="1">
-            <w>Jupiter</w>
-            <pc resp="#editor">,</pc>
-            <w>dum</w>
-            <w>orat</w>
-          </l>
-          <l n="2">
-            <w>Danem</w>
-            <pc resp="#editor">,</pc>
-            <w>frustra</w>
-            <w>laborat</w>
-            <pc resp="#editor">;</pc>
-          </l>
           <l n="3">
-            <w>sed</w>
-            <w>eam</w>
-            <w>deflorat</w>
+            <w>
+              <seg type="syll">In</seg>
+            </w>
+            <w>
+              <seg type="syll">spe</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">va</seg>
+              <seg type="syll" part="F">na</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">plo</seg>
+              <seg type="syll" part="F">res</seg>
+            </w>
           </l>
           <l n="4">
-            <w>auro</w>
-            <w>dum</w>
-            <w>se</w>
-            <w>colorat</w>
-            <pc resp="#editor">.</pc>
+            <w>
+              <seg type="syll">nam</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">et</seg>
+              <seg type="syll" part="M">i</seg>
+              <seg type="syll" part="M">am</seg>
+              <seg type="syll" part="F">si</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">fo</seg>
+              <seg type="syll" part="F">res</seg>
+            </w>
           </l>
           <l n="5">
-            <w>Auro</w>
-            <w>nil</w>
-            <w>potentius</w>
+            <w>
+              <seg type="syll">quem</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">au</seg>
+              <seg type="syll" part="M">di</seg>
+              <seg type="syll" part="F">it</seg>
+            </w>
+            <pc resp="#editor">,</pc>
+            <w>
+              <seg type="syll" part="I">Or</seg>
+              <seg type="syll" part="M">phe</seg>
+              <seg type="syll" part="F">us</seg>
+            </w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="6">
-            <w>nil</w>
-            <w>gratius</w>
+            <w>
+              <seg type="syll" part="I">Plu</seg>
+              <seg type="syll" part="F">ton</seg>
+            </w>
             <pc resp="#editor">,</pc>
+            <w>
+              <seg type="syll" part="I">de</seg>
+              <seg type="syll" part="F">us</seg>
+            </w>
           </l>
           <l n="7">
-            <w>nec</w>
-            <w>Tullius</w>
+            <w>
+              <seg type="syll" part="I">Tar</seg>
+              <seg type="syll" part="M">ta</seg>
+              <seg type="syll" part="M">re</seg>
+              <seg type="syll" part="F">us</seg>
+            </w>
           </l>
           <l n="8">
-            <w>facundius</w>
-            <w>perorat</w>
-            <pc resp="#editor">.</pc>
-          </l>
-          <l n="9">
-            <w>Sed</w>
-            <w>hos</w>
-            <w>urit</w>
-            <w>acrius</w>
-            <pc resp="#editor">,</pc>
-          </l>
-          <l n="10">
-            <w>quos</w>
-            <w>amplius</w>
-            <w>honorat</w>
+            <w>
+              <seg type="syll">non</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">id</seg>
+              <seg type="syll" part="M">e</seg>
+              <seg type="syll" part="F">o</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">per</seg>
+              <seg type="syll" part="M">o</seg>
+              <seg type="syll" part="F">res</seg>
+            </w>
             <pc resp="#editor">;</pc>
           </l>
-          <l n="11">
-            <w>nichil</w>
-            <w>rectius</w>
+          <l n="9">
+            <w>
+              <seg type="syll" part="I">mal</seg>
+              <seg type="syll" part="M">le</seg>
+              <seg type="syll" part="F">us</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">ar</seg>
+              <seg type="syll" part="M">gen</seg>
+              <seg type="syll" part="M">te</seg>
+              <seg type="syll" part="F">us</seg>
+            </w>
+          </l>
+          <l n="10">
+            <w>
+              <seg type="syll">ni</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">fe</seg>
+              <seg type="syll" part="M">ri</seg>
+              <seg type="syll" part="F">at</seg>
+            </w>
+            <w>
+              <seg type="syll">ad</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">fo</seg>
+              <seg type="syll" part="F">res</seg>
+            </w>
             <pc resp="#editor">,</pc>
           </l>
+          <l n="11">
+            <w>
+              <seg type="syll" part="I">u</seg>
+              <seg type="syll" part="F">bi</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Pro</seg>
+              <seg type="syll" part="M">the</seg>
+              <seg type="syll" part="F">us</seg>
+            </w>
+          </l>
           <l n="12">
-            <w>calidum</w>
-            <w>Crassus</w>
-            <w>dum</w>
-            <w>vorat</w>
-            <pc resp="#editor">!</pc>
+            <w>
+              <seg type="syll" part="I">va</seg>
+              <seg type="syll" part="M">ri</seg>
+              <seg type="syll" part="F">at</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">mil</seg>
+              <seg type="syll" part="F">le</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">co</seg>
+              <seg type="syll" part="M">lo</seg>
+              <seg type="syll" part="F">res</seg>
+            </w>
+            <pc resp="#editor">.</pc>
           </l>
         </lg>
       </div>
