@@ -1,7 +1,7 @@
 import lxml.etree
 from django.db import models
 from django.urls import reverse
-from django.db.models import UniqueConstraint
+from django.db.models import UniqueConstraint, F
 from django.db.models.functions import Lower, Length
 from django.conf import settings
 from .indentify import indentify
@@ -240,11 +240,19 @@ class Item(models.Model):
     title = models.CharField(max_length=256, help_text="Title of the item (incipit).")
     language = models.ManyToManyField(Language)
     file = models.CharField(max_length=64, help_text="Filename (without extensions).", null=True)
-    IIIF_canvasIndex = models.CharField(max_length=256, help_text="IIIF canvas index of the item.", blank=True)
+    IIIF_canvasIndex = models.CharField(max_length=256, help_text="IIIF canvas index of the item (integer).", blank=True)
+    IIIF_canvasId = models.CharField(max_length=256, help_text="IIIF canvas @id of the item (string), alternative to the previous field.", blank=True)
     alternative_img_link = models.CharField(max_length=1024, help_text="Alternative link for source images (if IIIF is not available).", blank=True)
 
     class Meta:
-        ordering = [Length('abstract_item__cb_id'), 'abstract_item__cb_id']
+        # Exploiting that the Codex Buranus and Fragmenta Burana have pk 106 and 107
+        ordering = [Length('abstract_item__cb_id'), 'abstract_item__cb_id', (106.5 - F('source__pk')) ** 2]
+
+    def __str__(self):
+        """String for representing the Model object (in Admin site etc.)"""
+        res = f"{self.abstract_item.__str__()} {self.title} ({self.source.bib_id}, {self.foliation_str()})"
+        return res
+
 
     def foliation_str(self):
         if self.foliation_start == self.foliation_end:
@@ -252,10 +260,11 @@ class Item(models.Model):
         else:
             return self.foliation_start + "-" + self.foliation_end
 
-    def __str__(self):
-        """String for representing the Model object (in Admin site etc.)"""
-        res = f"{self.abstract_item.__str__()} {self.title} ({self.source.bib_id}, {self.foliation_str()})"
-        return res
+
+    @property
+    def in_codex_buranus(self):
+        # Exploiting that the Codex Buranus and Fragmenta Burana have pk 106 and 107
+        return 106 <= self.source.pk <= 107
 
     def get_absolute_url(self):
         """Returns the URL to access a particular instance of the model."""

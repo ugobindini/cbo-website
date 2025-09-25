@@ -532,19 +532,29 @@ draw stropha shifted (25.5u,-6u) withpen pencircle xscaled 4u yscaled 1u rotated
 endfig;
 
 beginfig(56);
+% Clivis + 3 subpuncta
+% clsu3
+draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
+draw clivis_end withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
+draw punctum shifted (9u,-8u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
+draw punctum shifted (13.5u, -10u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
+draw punctum shifted (18u, -12u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
+endfig;
+
+beginfig(57);
 % Torculus
 % to
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(57);
+beginfig(58);
 % Torculus + 1 subpunctum
 % tosu1
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw punctum shifted (15u,3u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(58);
+beginfig(59);
 % Torculus + oriscus
 % to!or
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -552,7 +562,7 @@ draw connector shifted (point 1000 of torculus) withpen pencircle xscaled 4u ysc
 draw oriscus shifted ((6u,4u) + (point 1000 of torculus)) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(59);
+beginfig(60);
 % Torculus + oriscus + 1 subpunctum
 % to!pm
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -561,14 +571,23 @@ draw oriscus shifted ((6u,4u) + (point 1000 of torculus)) withpen pencircle xsca
 draw punctum shifted (24u, 3u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(60);
+beginfig(61);
 % Porrectus
 % po
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw porrectus_end withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(61);
+beginfig(62);
+% 2 prepuncta + porrectus
+% popp2
+draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
+draw porrectus_end withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
+draw punctum shifted (-12u,-16.5u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
+draw punctum shifted (-15u,-21u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
+endfig;
+
+beginfig(63);
 % Porrectus liq.
 % po)
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -576,7 +595,7 @@ draw porrectus_end withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw liquescence_loop shifted (20.5u,-1u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(62);
+beginfig(64);
 % Porrectus + oriscus + 1 subpunctum
 % po!pm
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -585,35 +604,35 @@ draw oriscus shifted (15u,-2u) withpen pencircle xscaled 4u yscaled 1u rotated 2
 draw punctum shifted (18u, -12u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(63);
+beginfig(65);
 % Quilisma 2 loops + virga
 % qi
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(64);
+beginfig(66);
 % Quilisma 2 loops + virga liq.
 % qi)
 draw pes_liquescent withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(65);
+beginfig(67);
 % Quilisma 2 loops + clivis
 % qi!cl
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(66);
+beginfig(68);
 % Quilisma 2 loops + clivis liq.
 % qi!cl)
 draw torculus_liquescent withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(67);
+beginfig(69);
 % Quilisma 2 loops + clivis + 1 subpunctum
 % qi!clsu1
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -621,7 +640,7 @@ draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22
 draw punctum shifted (15u,3u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(68);
+beginfig(70);
 % Quilisma 2 loops + clivis + 2 subpuncta
 % qi!clsu2
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -630,7 +649,7 @@ draw punctum shifted (15u,3u) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw punctum shifted (18u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(69);
+beginfig(71);
 % 1 prepunctum + quilisma 2 loops + clivis + 1 subpunctum + stropha
 % qipp1!clsu1!st
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -640,7 +659,7 @@ draw punctum shifted (15u,3u) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw stropha shifted (27u,9u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(70);
+beginfig(72);
 % 1 prepunctum + quilisma 2 loops + clivis
 % qipp1!cl
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -648,7 +667,7 @@ draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22
 draw punctum shifted (-12u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(71);
+beginfig(73);
 % Quilisma 2 loops + clivis + stropha
 % qi!cl!st
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -656,7 +675,7 @@ draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22
 draw stropha shifted (27u,9u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(72);
+beginfig(74);
 % 1 prepunctum + quilisma 2 loops + clivis + stropha
 % qipp1!cl!st
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -665,7 +684,7 @@ draw punctum shifted (-12u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw stropha shifted (27u,9u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(73);
+beginfig(75);
 % Quilisma 2 loops + porrectus
 % qi!po
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -673,7 +692,7 @@ draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22
 draw porrectus_end shifted point 1000 of pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(74);
+beginfig(76);
 % 1 prepunctum + quilisma 2 loops + clivis liq.
 % qipp1!cl!or
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -682,7 +701,7 @@ draw punctum shifted (-12u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw liquescence_loop shifted (point 1000 of torculus - point 0 of liquescence_loop) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(75);
+beginfig(77);
 % Quilisma 2 loops + virga + oriscus
 % qi!or
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -690,7 +709,7 @@ draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22
 draw oriscus shifted (12u,15u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(76);
+beginfig(78);
 % Quilisma 2 loops + virga + oriscus + 1 subpunctum
 % qi!pr
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -699,7 +718,7 @@ draw oriscus shifted (12u,15u) withpen pencircle xscaled 4u yscaled 1u rotated 2
 draw punctum shifted (15u,3u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(77);
+beginfig(79);
 % Quilisma 2 loops + virga + oriscus liq.
 % qi!or)
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -707,7 +726,7 @@ draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22
 draw cuoricino shifted (12u,15u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(78);
+beginfig(80);
 % Quilisma 2 loops + virga + oriscus liq. + 1 subpunctum
 % qi!or)su1
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -716,7 +735,7 @@ draw cuoricino shifted (12u,15u) withpen pencircle xscaled 4u yscaled 1u rotated
 draw punctum shifted (18u,u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(79);
+beginfig(81);
 % 1 prepunctum + quilisma 2 loops + virga + oriscus liq. + 1 substropha
 % qi!or)-pp1
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -726,7 +745,7 @@ draw cuoricino shifted (12u,15u) withpen pencircle xscaled 4u yscaled 1u rotated
 draw substropha shifted (18u,3u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(80);
+beginfig(82);
 % 1 prepunctum + quilisma 2 loops + virga
 % qipp1
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -734,7 +753,7 @@ draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22
 draw punctum shifted (-12u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(81);
+beginfig(83);
 % Quilisma 2 loops + virga + 2 subpuncta
 % qisu2
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -743,7 +762,7 @@ draw punctum shifted (15u,4.5u) withpen pencircle xscaled 4u yscaled 2u rotated 
 draw punctum shifted (18u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(82);
+beginfig(84);
 % 1 prepunctum + quilisma 2 loops + virga + 2 subpuncta
 % qipp1su2
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -753,7 +772,7 @@ draw punctum shifted (15u,4.5u) withpen pencircle xscaled 4u yscaled 2u rotated 
 draw punctum shifted (18u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(83);
+beginfig(85);
 % Quilisma 2 loops + virga + 1 subpunctum + substropha
 % qisu2-
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -762,7 +781,7 @@ draw punctum shifted (15u,4.5u) withpen pencircle xscaled 4u yscaled 2u rotated 
 draw substropha shifted (18u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(84);
+beginfig(86);
 % 1 prepunctum + quilisma 2 loops + virga + 1 subpunctum + substropha
 % qipp1su2-
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -772,7 +791,7 @@ draw punctum shifted (15u,4.5u) withpen pencircle xscaled 4u yscaled 2u rotated 
 draw substropha shifted (18u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(85);
+beginfig(87);
 % Quilisma 2 loops + virga + 2 subpuncta + stropha
 % qisu2!st
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -782,7 +801,7 @@ draw punctum shifted (18u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 draw stropha shifted (24u,6u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(86);
+beginfig(88);
 % 1 prepunctum + quilisma 2 loops + virga + 2 subpuncta + stropha
 % qipp1su2!st
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -793,7 +812,7 @@ draw punctum shifted (18u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 draw stropha shifted (24u,6u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(87);
+beginfig(89);
 % Quilisma 2 loops + virga + 3 subpuncta
 % qisu3
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -803,7 +822,7 @@ draw punctum shifted (18u,3u) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw punctum shifted (21u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(88);
+beginfig(90);
 % Quilisma 2 loops + virga + 2 subpuncta + substropha
 % qisu3-
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -813,7 +832,7 @@ draw punctum shifted (18u,3u) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw substropha shifted (21u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(89);
+beginfig(91);
 % 1 prepunctum + quilisma 2 loops + virga + 2 subpuncta + substropha
 % qipp1su3-
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -824,7 +843,7 @@ draw punctum shifted (18u,3u) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw substropha shifted (21u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(90);
+beginfig(92);
 % Quilisma 2 loops + virga + 3 subpuncta + substropha
 % qisu4-
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -835,7 +854,7 @@ draw punctum shifted (21u,2u) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw substropha shifted (24u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(91);
+beginfig(93);
 % Quilisma 2 loops + virga + 4 subpuncta + stropha
 % qisu4!st
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -847,7 +866,7 @@ draw punctum shifted (24u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 draw stropha shifted (30u,6u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(92);
+beginfig(94);
 % Quilisma 2 loops + ancus + 2 subpuncta
 % qi!ansu2
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -857,7 +876,7 @@ draw punctum shifted (18u,3u) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw punctum shifted (21u,0u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(93);
+beginfig(95);
 % Quilisma 3 loops + virga
 % ql
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -865,7 +884,7 @@ draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22
 draw pes_loop shifted (-12u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(94);
+beginfig(96);
 % Quilisma 3 loops + virga liq.
 % ql)
 draw pes_liquescent withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -873,7 +892,7 @@ draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22
 draw pes_loop shifted (-12u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(95);
+beginfig(97);
 % Quilisma 3 loops + ancus
 % ql!an
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -882,7 +901,7 @@ draw pes_loop shifted (-12u,0) withpen pencircle xscaled 4u yscaled 1u rotated 2
 draw ancus_loop shifted point 1000 of pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(96);
+beginfig(98);
 % Quilisma 3 loops + clivis
 % ql!cl
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -890,7 +909,7 @@ draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22
 draw pes_loop shifted (-12u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(97);
+beginfig(99);
 % Quilisma 3 loops + clivis liq.
 % ql!cl)
 draw torculus_liquescent withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -898,7 +917,7 @@ draw pes_loop shifted (-6u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22
 draw pes_loop shifted (-12u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(98);
+beginfig(100);
 % Quilisma 3 loops + clivis + substropha
 % ql!cl-
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -907,7 +926,7 @@ draw pes_loop shifted (-12u,0) withpen pencircle xscaled 4u yscaled 1u rotated 2
 draw substropha shifted (19.5u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(99);
+beginfig(101);
 % 1 prepunctum + quilisma 3 loops + clivis
 % qlpp1!cl
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -916,7 +935,7 @@ draw pes_loop shifted (-12u,0) withpen pencircle xscaled 4u yscaled 1u rotated 2
 draw punctum shifted (-18u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(100);
+beginfig(102);
 % 1 prepunctum + quilisma 3 loops + clivis + 2 subpuncta
 % qlpp1!clsu2
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -927,7 +946,7 @@ draw punctum shifted (15u,3u) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw punctum shifted (18u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(101);
+beginfig(103);
 % Quilisma 3 loops + clivis + 1 subpunctum
 % ql!clsu1
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -936,7 +955,7 @@ draw pes_loop shifted (-12u,0) withpen pencircle xscaled 4u yscaled 1u rotated 2
 draw punctum shifted (19.5u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(102);
+beginfig(104);
 % Quilisma 3 loops + clivis + stropha
 % ql!cl!st
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -945,7 +964,7 @@ draw pes_loop shifted (-12u,0) withpen pencircle xscaled 4u yscaled 1u rotated 2
 draw stropha shifted (27u,9u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(103);
+beginfig(105);
 % 1 prepunctum + quilisma 3 loops + clivis + stropha
 % qlpp1!cl!st
 draw torculus withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -955,7 +974,7 @@ draw punctum shifted (-18u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw stropha shifted (27u,9u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(104);
+beginfig(106);
 % Quilisma 3 loops + porrectus
 % ql!po
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -964,7 +983,7 @@ draw pes_loop shifted (-12u,0) withpen pencircle xscaled 4u yscaled 1u rotated 2
 draw porrectus_end shifted point 1000 of pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(105);
+beginfig(107);
 % 1 prepunctum + quilisma 3 loops + porrectus
 % qlpp1!po
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -974,7 +993,7 @@ draw punctum shifted (-18u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw porrectus_end shifted point 1000 of pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(106);
+beginfig(108);
 % Quilisma 3 loops + virga + oriscus
 % ql!or
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -983,7 +1002,7 @@ draw pes_loop shifted (-12u,0) withpen pencircle xscaled 4u yscaled 1u rotated 2
 draw oriscus shifted point 1000 of pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(107);
+beginfig(109);
 % Quilisma 3 loops + virga + oriscus liq.
 % ql!or)
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -992,7 +1011,7 @@ draw pes_loop shifted (-12u,0) withpen pencircle xscaled 4u yscaled 1u rotated 2
 draw cuoricino shifted (12u,15u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(108);
+beginfig(110);
 % Quilisma 3 loops + virga + oriscus + 1 subpunctum
 % ql!pr
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1002,7 +1021,7 @@ draw oriscus shifted point 1000 of pes withpen pencircle xscaled 4u yscaled 1u r
 draw punctum shifted point 1000 of pes shifted (0,-12u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(109);
+beginfig(111);
 % Quilisma 3 loops + virga + oriscus liq. + 1 subpunctum
 % ql!or)su1
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1012,7 +1031,7 @@ draw cuoricino shifted (12u,15u) withpen pencircle xscaled 4u yscaled 1u rotated
 draw punctum shifted (20u,u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(110);
+beginfig(112);
 % Quilisma 3 loops + virga + 2 subpuncta
 % qlsu2
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1022,7 +1041,7 @@ draw punctum shifted (15u,4.5u) withpen pencircle xscaled 4u yscaled 2u rotated 
 draw punctum shifted (18u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(111);
+beginfig(113);
 % 1 prepunctum + quilisma 3 loops + virga + 2 subpuncta
 % qlpp1su2
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1033,7 +1052,7 @@ draw punctum shifted (15u,4.5u) withpen pencircle xscaled 4u yscaled 2u rotated 
 draw punctum shifted (18u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(112);
+beginfig(114);
 % Quilisma 3 loops + virga + 1 subpunctum + substropha
 % qlsu2-
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1043,7 +1062,7 @@ draw punctum shifted (15u,4.5u) withpen pencircle xscaled 4u yscaled 2u rotated 
 draw substropha shifted (18u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(113);
+beginfig(115);
 % Quilisma 3 loops + virga + 3 subpuncta
 % qlsu3
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1054,7 +1073,7 @@ draw punctum shifted (18u,3u) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw punctum shifted (21u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(114);
+beginfig(116);
 % Quilisma 3 loops + virga + 2 subpuncta + substropha
 % qlsu3-
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1065,7 +1084,7 @@ draw punctum shifted (18u,3u) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw substropha shifted (21u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(115);
+beginfig(117);
 % 1 prepunctum + quilisma 3 loops + virga + 2 subpuncta + substropha
 % qlpp1su3-
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1077,7 +1096,7 @@ draw punctum shifted (18u,3u) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw substropha shifted (21u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(116);
+beginfig(118);
 % Quilisma 3 loops + virga + 2 subpuncta + stropha
 % qlsu2!st
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1088,7 +1107,7 @@ draw punctum shifted (18u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 draw stropha shifted (24u,6u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(117);
+beginfig(119);
 % 1 prepunctum + quilisma 3 loops + virga + 2 subpuncta + stropha
 % qlpp1su2!st
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1100,7 +1119,7 @@ draw punctum shifted (18u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 draw stropha shifted (24u,6u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(118);
+beginfig(120);
 % 1 prepunctum + Quilisma 3 loops + virga + 2 subpuncta + substropha
 % qlpp1su4-
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1113,7 +1132,7 @@ draw punctum shifted (21u,2u) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw substropha shifted (24u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(119);
+beginfig(121);
 % 1 prepunctum + Quilisma 3 loops + virga
 % qlpp1
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1122,7 +1141,7 @@ draw pes_loop shifted (-12u,0) withpen pencircle xscaled 4u yscaled 1u rotated 2
 draw punctum shifted (-18u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(120);
+beginfig(122);
 % Quilisma 4 loops + virga
 % qs
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1131,7 +1150,7 @@ draw pes_loop shifted (-12u,0) withpen pencircle xscaled 4u yscaled 1u rotated 2
 draw pes_loop shifted (-18u,0) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(121);
+beginfig(123);
 % Quilisma 4 loops + virga + 3 subpuncta
 % qssu3
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1143,7 +1162,7 @@ draw punctum shifted (18u,3u) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw punctum shifted (21u,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(122);
+beginfig(124);
 % Virga + 2 subpuncta
 % ci
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1151,7 +1170,7 @@ draw punctum shifted (3u,-7.5u) withpen pencircle xscaled 4u yscaled 2u rotated 
 draw punctum shifted (6u,-12u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(123);
+beginfig(125);
 % Virga with stroke + 2 subpuncta<
 % ci/
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1160,7 +1179,7 @@ draw punctum shifted (3u,-7.5u) withpen pencircle xscaled 4u yscaled 2u rotated 
 draw punctum shifted (6u,-12u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(124);
+beginfig(126);
 % Virga + 2 subpuncta + epiphonus
 % ci°
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1169,7 +1188,7 @@ draw punctum shifted (6u,-9u) withpen pencircle xscaled 4u yscaled 2u rotated 20
 draw epiphonus shifted (10.5u,-12u) withpen pencircle xscaled 4u yscaled 1u rotated 45;
 endfig;
 
-beginfig(125);
+beginfig(127);
 % Virga + 2 subpuncta + stropha
 % ci!st
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1178,7 +1197,7 @@ draw punctum shifted (6u,-12u) withpen pencircle xscaled 4u yscaled 2u rotated 2
 draw stropha shifted (12u,-6u) withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
 endfig;
 
-beginfig(126);
+beginfig(128);
 % Virga + 2 subpuncta + stropha + oriscus + 1subpunctum
 % ci!st!pm
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1189,7 +1208,7 @@ draw reversed_oriscus shifted (12u,0) withpen pencircle xscaled 4u yscaled 1u ro
 draw punctum shifted (18u,-6u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(127);
+beginfig(129);
 % 2 prepuncta + virga + 2 subpuncta
 % cipp2
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1199,7 +1218,7 @@ draw punctum shifted (-12u,-16.5u) withpen pencircle xscaled 4u yscaled 2u rotat
 draw punctum shifted (-15u,-21u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(128);
+beginfig(130);
 % 2 prepuncta + virga + 2 subpuncta + stropha
 % cipp2!st
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1210,7 +1229,7 @@ draw punctum shifted (-12u,-16.5u) withpen pencircle xscaled 4u yscaled 2u rotat
 draw punctum shifted (-15u,-21u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(129);
+beginfig(131);
 % 2 prepuncta + virga
 % sc
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1218,7 +1237,7 @@ draw punctum shifted (-12u,-16.5u) withpen pencircle xscaled 4u yscaled 2u rotat
 draw punctum shifted (-15u,-21u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(130);
+beginfig(132);
 % 2 prepuncta + virga + 3 subpuncta
 % scsu3
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1229,7 +1248,7 @@ draw punctum shifted (-12u,-16.5u) withpen pencircle xscaled 4u yscaled 2u rotat
 draw punctum shifted (-15u,-21u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(131);
+beginfig(133);
 % 2 prepuncta + virga liq.
 % sc)
 draw virga_liq withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1237,7 +1256,7 @@ draw punctum shifted (-12u,-16.5u) withpen pencircle xscaled 4u yscaled 2u rotat
 draw punctum shifted (-15u,-21u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(132);
+beginfig(134);
 % 1 prepunctum + tractulus + virga
 % sc-
 draw virga withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1245,7 +1264,7 @@ draw tractulus shifted (-15u,-16.5u) withpen pencircle xscaled 4u yscaled 2u rot
 draw punctum shifted (-15u,-21u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(133);
+beginfig(135);
 % 1 prepunctum + tractulus + quilisma 3 loops + virga
 % sc-!ql
 draw pes withpen pencircle xscaled 4u yscaled 1u rotated 22.5;
@@ -1255,7 +1274,7 @@ draw tractulus shifted (-12u,-4.5u) withpen pencircle xscaled 4u yscaled 2u rota
 draw punctum shifted (-15u,-9u) withpen pencircle xscaled 4u yscaled 2u rotated 20;
 endfig;
 
-beginfig(134);
+beginfig(136);
 % Trigonus
 % tg
 draw punctum shifted (0,0) withpen pencircle xscaled 4u yscaled 2u rotated 20;

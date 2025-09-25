@@ -22,7 +22,7 @@ if __name__ == '__main__':
     main()
 
     """
-    # This code is for reloading the Neume.objects after adding/removing glyphs or items
+    # Uncomment this block for reloading the Neume.objects after adding/removing glyphs or items
     import json
     from browse.models import Item, Neume
 

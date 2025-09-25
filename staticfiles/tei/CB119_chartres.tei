@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem" met="10pp/10pp/10pp/10pp/2p" rhyme="a/a/a/a/b">
@@ -99,19 +99,19 @@
             <pc resp="#editor">:</pc>
           </l>
           <l n="4">
-            <w>‘ubi</w>
+            <w>&#8216;ubi</w>
             <w>amor</w>
             <pc resp="#editor">,</pc>
             <w>ibi</w>
             <w>miseria</w>
-            <pc resp="#editor">.’</pc>
+            <pc resp="#editor">.&#8217;</pc>
           </l>
           <l n="5">
             <w>Gravis</w>
             <pc resp="#editor">...</pc>
           </l>
         </lg>
-        <lg type="strophe" n="IV"  met="10pp/10pp/10pp/10pp" rhyme="a/a/a/a">
+        <lg type="strophe" n="IV" met="10pp/10pp/10pp/10pp" rhyme="a/a/a/a">
           <l n="1">
             <app type="text">
               <lem>

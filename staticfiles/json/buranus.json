@@ -275,398 +275,408 @@
     "n": 55
   },
   {
+    "description": "Clivis + 3 subpuncta",
+    "code": "clsu3",
+    "n": 56
+  },
+  {
     "description": "Torculus",
     "code": "to",
-    "n": 56
+    "n": 57
   },
   {
     "description": "Torculus + 1 subpunctum",
     "code": "tosu1",
-    "n": 57
+    "n": 58
   },
   {
     "description": "Torculus + oriscus",
     "code": "to!or",
-    "n": 58
+    "n": 59
   },
   {
     "description": "Torculus + oriscus + 1 subpunctum",
     "code": "to!pm",
-    "n": 59
+    "n": 60
   },
   {
     "description": "Porrectus",
     "code": "po",
-    "n": 60
+    "n": 61
+  },
+  {
+    "description": "2 prepuncta + porrectus",
+    "code": "popp2",
+    "n": 62
   },
   {
     "description": "Porrectus liq.",
     "code": "po)",
-    "n": 61
+    "n": 63
   },
   {
     "description": "Porrectus + oriscus + 1 subpunctum",
     "code": "po!pm",
-    "n": 62
+    "n": 64
   },
   {
     "description": "Quilisma 2 loops + virga",
     "code": "qi",
-    "n": 63
+    "n": 65
   },
   {
     "description": "Quilisma 2 loops + virga liq.",
     "code": "qi)",
-    "n": 64
+    "n": 66
   },
   {
     "description": "Quilisma 2 loops + clivis",
     "code": "qi!cl",
-    "n": 65
+    "n": 67
   },
   {
     "description": "Quilisma 2 loops + clivis liq.",
     "code": "qi!cl)",
-    "n": 66
+    "n": 68
   },
   {
     "description": "Quilisma 2 loops + clivis + 1 subpunctum",
     "code": "qi!clsu1",
-    "n": 67
+    "n": 69
   },
   {
     "description": "Quilisma 2 loops + clivis + 2 subpuncta",
     "code": "qi!clsu2",
-    "n": 68
+    "n": 70
   },
   {
     "description": "1 prepunctum + quilisma 2 loops + clivis + 1 subpunctum + stropha",
     "code": "qipp1!clsu1!st",
-    "n": 69
+    "n": 71
   },
   {
     "description": "1 prepunctum + quilisma 2 loops + clivis",
     "code": "qipp1!cl",
-    "n": 70
+    "n": 72
   },
   {
     "description": "Quilisma 2 loops + clivis + stropha",
     "code": "qi!cl!st",
-    "n": 71
+    "n": 73
   },
   {
     "description": "1 prepunctum + quilisma 2 loops + clivis + stropha",
     "code": "qipp1!cl!st",
-    "n": 72
+    "n": 74
   },
   {
     "description": "Quilisma 2 loops + porrectus",
     "code": "qi!po",
-    "n": 73
+    "n": 75
   },
   {
     "description": "1 prepunctum + quilisma 2 loops + clivis liq.",
     "code": "qipp1!cl!or",
-    "n": 74
+    "n": 76
   },
   {
     "description": "Quilisma 2 loops + virga + oriscus",
     "code": "qi!or",
-    "n": 75
+    "n": 77
   },
   {
     "description": "Quilisma 2 loops + virga + oriscus + 1 subpunctum",
     "code": "qi!pr",
-    "n": 76
+    "n": 78
   },
   {
     "description": "Quilisma 2 loops + virga + oriscus liq.",
     "code": "qi!or)",
-    "n": 77
+    "n": 79
   },
   {
     "description": "Quilisma 2 loops + virga + oriscus liq. + 1 subpunctum",
     "code": "qi!or)su1",
-    "n": 78
+    "n": 80
   },
   {
     "description": "1 prepunctum + quilisma 2 loops + virga + oriscus liq. + 1 substropha",
     "code": "qi!or)-pp1",
-    "n": 79
+    "n": 81
   },
   {
     "description": "1 prepunctum + quilisma 2 loops + virga",
     "code": "qipp1",
-    "n": 80
+    "n": 82
   },
   {
     "description": "Quilisma 2 loops + virga + 2 subpuncta",
     "code": "qisu2",
-    "n": 81
+    "n": 83
   },
   {
     "description": "1 prepunctum + quilisma 2 loops + virga + 2 subpuncta",
     "code": "qipp1su2",
-    "n": 82
+    "n": 84
   },
   {
     "description": "Quilisma 2 loops + virga + 1 subpunctum + substropha",
     "code": "qisu2-",
-    "n": 83
+    "n": 85
   },
   {
     "description": "1 prepunctum + quilisma 2 loops + virga + 1 subpunctum + substropha",
     "code": "qipp1su2-",
-    "n": 84
+    "n": 86
   },
   {
     "description": "Quilisma 2 loops + virga + 2 subpuncta + stropha",
     "code": "qisu2!st",
-    "n": 85
+    "n": 87
   },
   {
     "description": "1 prepunctum + quilisma 2 loops + virga + 2 subpuncta + stropha",
     "code": "qipp1su2!st",
-    "n": 86
+    "n": 88
   },
   {
     "description": "Quilisma 2 loops + virga + 3 subpuncta",
     "code": "qisu3",
-    "n": 87
+    "n": 89
   },
   {
     "description": "Quilisma 2 loops + virga + 2 subpuncta + substropha",
     "code": "qisu3-",
-    "n": 88
+    "n": 90
   },
   {
     "description": "1 prepunctum + quilisma 2 loops + virga + 2 subpuncta + substropha",
     "code": "qipp1su3-",
-    "n": 89
+    "n": 91
   },
   {
     "description": "Quilisma 2 loops + virga + 3 subpuncta + substropha",
     "code": "qisu4-",
-    "n": 90
+    "n": 92
   },
   {
     "description": "Quilisma 2 loops + virga + 4 subpuncta + stropha",
     "code": "qisu4!st",
-    "n": 91
+    "n": 93
   },
   {
     "description": "Quilisma 2 loops + ancus + 2 subpuncta",
     "code": "qi!ansu2",
-    "n": 92
+    "n": 94
   },
   {
     "description": "Quilisma 3 loops + virga",
     "code": "ql",
-    "n": 93
+    "n": 95
   },
   {
     "description": "Quilisma 3 loops + virga liq.",
     "code": "ql)",
-    "n": 94
+    "n": 96
   },
   {
     "description": "Quilisma 3 loops + ancus",
     "code": "ql!an",
-    "n": 95
+    "n": 97
   },
   {
     "description": "Quilisma 3 loops + clivis",
     "code": "ql!cl",
-    "n": 96
+    "n": 98
   },
   {
     "description": "Quilisma 3 loops + clivis liq.",
     "code": "ql!cl)",
-    "n": 97
+    "n": 99
   },
   {
     "description": "Quilisma 3 loops + clivis + substropha",
     "code": "ql!cl-",
-    "n": 98
+    "n": 100
   },
   {
     "description": "1 prepunctum + quilisma 3 loops + clivis",
     "code": "qlpp1!cl",
-    "n": 99
+    "n": 101
   },
   {
     "description": "1 prepunctum + quilisma 3 loops + clivis + 2 subpuncta",
     "code": "qlpp1!clsu2",
-    "n": 100
+    "n": 102
   },
   {
     "description": "Quilisma 3 loops + clivis + 1 subpunctum",
     "code": "ql!clsu1",
-    "n": 101
+    "n": 103
   },
   {
     "description": "Quilisma 3 loops + clivis + stropha",
     "code": "ql!cl!st",
-    "n": 102
+    "n": 104
   },
   {
     "description": "1 prepunctum + quilisma 3 loops + clivis + stropha",
     "code": "qlpp1!cl!st",
-    "n": 103
+    "n": 105
   },
   {
     "description": "Quilisma 3 loops + porrectus",
     "code": "ql!po",
-    "n": 104
+    "n": 106
   },
   {
     "description": "1 prepunctum + quilisma 3 loops + porrectus",
     "code": "qlpp1!po",
-    "n": 105
+    "n": 107
   },
   {
     "description": "Quilisma 3 loops + virga + oriscus",
     "code": "ql!or",
-    "n": 106
+    "n": 108
   },
   {
     "description": "Quilisma 3 loops + virga + oriscus liq.",
     "code": "ql!or)",
-    "n": 107
+    "n": 109
   },
   {
     "description": "Quilisma 3 loops + virga + oriscus + 1 subpunctum",
     "code": "ql!pr",
-    "n": 108
+    "n": 110
   },
   {
     "description": "Quilisma 3 loops + virga + oriscus liq. + 1 subpunctum",
     "code": "ql!or)su1",
-    "n": 109
+    "n": 111
   },
   {
     "description": "Quilisma 3 loops + virga + 2 subpuncta",
     "code": "qlsu2",
-    "n": 110
+    "n": 112
   },
   {
     "description": "1 prepunctum + quilisma 3 loops + virga + 2 subpuncta",
     "code": "qlpp1su2",
-    "n": 111
+    "n": 113
   },
   {
     "description": "Quilisma 3 loops + virga + 1 subpunctum + substropha",
     "code": "qlsu2-",
-    "n": 112
+    "n": 114
   },
   {
     "description": "Quilisma 3 loops + virga + 3 subpuncta",
     "code": "qlsu3",
-    "n": 113
+    "n": 115
   },
   {
     "description": "Quilisma 3 loops + virga + 2 subpuncta + substropha",
     "code": "qlsu3-",
-    "n": 114
+    "n": 116
   },
   {
     "description": "1 prepunctum + quilisma 3 loops + virga + 2 subpuncta + substropha",
     "code": "qlpp1su3-",
-    "n": 115
+    "n": 117
   },
   {
     "description": "Quilisma 3 loops + virga + 2 subpuncta + stropha",
     "code": "qlsu2!st",
-    "n": 116
+    "n": 118
   },
   {
     "description": "1 prepunctum + quilisma 3 loops + virga + 2 subpuncta + stropha",
     "code": "qlpp1su2!st",
-    "n": 117
+    "n": 119
   },
   {
     "description": "1 prepunctum + Quilisma 3 loops + virga + 2 subpuncta + substropha",
     "code": "qlpp1su4-",
-    "n": 118
+    "n": 120
   },
   {
     "description": "1 prepunctum + Quilisma 3 loops + virga",
     "code": "qlpp1",
-    "n": 119
+    "n": 121
   },
   {
     "description": "Quilisma 4 loops + virga",
     "code": "qs",
-    "n": 120
+    "n": 122
   },
   {
     "description": "Quilisma 4 loops + virga + 3 subpuncta",
     "code": "qssu3",
-    "n": 121
+    "n": 123
   },
   {
     "description": "Virga + 2 subpuncta",
     "code": "ci",
-    "n": 122
+    "n": 124
   },
   {
     "description": "Virga with stroke + 2 subpuncta<",
     "code": "ci/",
-    "n": 123
+    "n": 125
   },
   {
     "description": "Virga + 2 subpuncta + epiphonus",
     "code": "ci\u00b0",
-    "n": 124
+    "n": 126
   },
   {
     "description": "Virga + 2 subpuncta + stropha",
     "code": "ci!st",
-    "n": 125
+    "n": 127
   },
   {
     "description": "Virga + 2 subpuncta + stropha + oriscus + 1subpunctum",
     "code": "ci!st!pm",
-    "n": 126
+    "n": 128
   },
   {
     "description": "2 prepuncta + virga + 2 subpuncta",
     "code": "cipp2",
-    "n": 127
+    "n": 129
   },
   {
     "description": "2 prepuncta + virga + 2 subpuncta + stropha",
     "code": "cipp2!st",
-    "n": 128
+    "n": 130
   },
   {
     "description": "2 prepuncta + virga",
     "code": "sc",
-    "n": 129
+    "n": 131
   },
   {
     "description": "2 prepuncta + virga + 3 subpuncta",
     "code": "scsu3",
-    "n": 130
+    "n": 132
   },
   {
     "description": "2 prepuncta + virga liq.",
     "code": "sc)",
-    "n": 131
+    "n": 133
   },
   {
     "description": "1 prepunctum + tractulus + virga",
     "code": "sc-",
-    "n": 132
+    "n": 134
   },
   {
     "description": "1 prepunctum + tractulus + quilisma 3 loops + virga",
     "code": "sc-!ql",
-    "n": 133
+    "n": 135
   },
   {
     "description": "Trigonus",
     "code": "tg",
-    "n": 134
+    "n": 136
   }
 ]

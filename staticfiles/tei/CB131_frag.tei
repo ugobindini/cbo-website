@@ -1,0 +1,49 @@
+<TEI>
+  <teiHeader />
+  <text>
+    <body>
+      <div type="poem" met="[8p]/[8p]/[8pp]/[7p]/8pp/7p" rhyme="[c]/[c]/d/[e]/d/e">
+        <lg type="strophe" n="I">
+          <l n="7">
+            <pc resp="#editor" pre="true">...</pc>
+            <w>[cu]m</w>
+            <w>Nerone</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="8">
+            <w>aut</w>
+            <w>in</w>
+            <w>antro</w>
+            <w>cum</w>
+            <pc resp="#editor">...</pc>
+          </l>
+          <l n="9">
+            <w>[Ve]l</w>
+            <w>in</w>
+            <w>fiscella</w>
+            <pc resp="#editor">...</pc>
+          </l>
+          <l n="10">
+            <pc resp="#editor" pre="true">...</pc>
+            <w>Moyse</w>
+            <w>plorante</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="11">
+            <w>Vel</w>
+            <w>in</w>
+            <w>domo</w>
+            <w>Romulea</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="12">
+            <w>cum</w>
+            <w>bulla</w>
+            <w>fulminante</w>
+            <pc resp="#editor">?</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

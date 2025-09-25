@@ -1,6 +1,10 @@
 {% load static %}
 
-<tr>
+{% if item.in_codex_buranus %}
+  <tr style="background-color: Linen;">
+{% else %}
+  <tr>
+{% endif %}
   <td style="width: 75px;">CB {{ item.abstract_item.cb_id }}</td>
   <td><a href="{{ item.get_absolute_url }}">{{ item.title }}</a></td>
   <td><a href="{{ item.source.get_absolute_url }}">{{ item.source.bib_id }}</a></td>

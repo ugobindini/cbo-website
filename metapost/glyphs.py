@@ -291,6 +291,11 @@ GLYPHS = [
 		paths=[('virga', None), ('clivis_end', None), ('punctum', '(9u,-9u)'), ('punctum', '(13.5u, -12u)'), ('stropha', '(25.5u,-6u)')]
 	),
 	Glyph(
+		description='Clivis + 3 subpuncta',
+		code='clsu3',
+		paths=[('virga', None), ('clivis_end', None), ('punctum', '(9u,-8u)'), ('punctum', '(13.5u, -10u)'), ('punctum', '(18u, -12u)')]
+	),
+	Glyph(
 		description='Torculus',
 		code='to',
 		paths=[('torculus', None)]
@@ -314,6 +319,11 @@ GLYPHS = [
 		description='Porrectus',
 		code='po',
 		paths=[('virga', None), ('porrectus_end', None)]
+	),
+	Glyph(
+		description='2 prepuncta + porrectus',
+		code='popp2',
+		paths=[('virga', None), ('porrectus_end', None), ('punctum', '(-12u,-16.5u)'), ('punctum', '(-15u,-21u)')]
 	),
 	Glyph(
 		description='Porrectus liq.',
