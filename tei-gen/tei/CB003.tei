@@ -1,0 +1,202 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <w>Ecce</w>
+            <w>torpet</w>
+            <w>probitas</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>virtus</w>
+            <w>sepelitur</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="3">
+            <w>fit</w>
+            <w>iam</w>
+            <w>parca</w>
+            <w>largitas</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>parcitas</w>
+            <w>largitur</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="5">
+            <w>verum</w>
+            <w>dicit</w>
+            <w>falsitas</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="6">
+            <w>veritas</w>
+            <w>mentitur</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <w>Omnes</w>
+            <w>iura</w>
+            <w>ledunt</w>
+          </l>
+          <l n="2">
+            <w>et</w>
+            <w>ad</w>
+            <w>res</w>
+            <w>illicitas</w>
+          </l>
+          <l n="3">
+            <w>licite</w>
+            <w>procedunt</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">
+            <w>Regnat</w>
+            <w>avaricia</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>regnant</w>
+            <w>et</w>
+            <w>avari</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="3">
+            <w>mente</w>
+            <w>quivis</w>
+            <w>anxia</w>
+          </l>
+          <l n="4">
+            <w>nititur</w>
+            <w>ditari</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="5">
+            <w>cum</w>
+            <w>sit</w>
+            <w>summa</w>
+            <w>gloria</w>
+          </l>
+          <l n="6">
+            <w>censu</w>
+            <w>gloriari</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="IV">
+          <l n="1">
+            <w>Omnes</w>
+            <w>iura</w>
+            <w>ledunt</w>
+          </l>
+          <l n="2">
+            <w>et</w>
+            <w>ad</w>
+            <w>prava</w>
+            <w>quelibet</w>
+          </l>
+          <l n="3">
+            <w>impie</w>
+            <w>recedunt</w>
+          </l>
+        </lg>
+        <lg type="strophe" n="V">
+          <l n="1">
+            <w>Multum</w>
+            <w>habet</w>
+            <w>oneris</w>
+          </l>
+          <l n="2">
+            <w>‘do</w>
+            <w>das</w>
+            <w>dedi</w>
+            <w>dare</w>
+            <pc resp="#editor">;’</pc>
+          </l>
+          <l n="3">
+            <w>verbum</w>
+            <w>hoc</w>
+            <w>pre</w>
+            <w>ceteris</w>
+          </l>
+          <l n="4">
+            <w>norunt</w>
+            <w>ignorare</w>
+          </l>
+          <l n="5">
+            <w>divites</w>
+            <pc resp="#editor">,</pc>
+            <w>quos</w>
+            <w>poteris</w>
+          </l>
+          <l n="6">
+            <w>mari</w>
+            <w>comparare</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="VI">
+          <l n="1">
+            <w>Omnes</w>
+            <w>iura</w>
+            <w>ledunt</w>
+          </l>
+          <l n="2">
+            <w>et</w>
+            <w>in</w>
+            <w>rerum</w>
+            <w>numeris</w>
+          </l>
+          <l n="3">
+            <w>numeros</w>
+            <w>excedunt</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="VII">
+          <l n="1">
+            <w>Cunctis</w>
+            <w>est</w>
+            <w>equaliter</w>
+          </l>
+          <l n="2">
+            <w>insita</w>
+            <w>cupido</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="3">
+            <w>perit</w>
+            <w>fides</w>
+            <w>turpiter</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>nullus</w>
+            <w>fidus</w>
+            <w>fido</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="5">
+            <w>nec</w>
+            <w>Iunoni</w>
+            <w>Iupiter</w>
+          </l>
+          <l n="6">
+            <w>nec</w>
+            <w>Enee</w>
+            <w>Dido</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

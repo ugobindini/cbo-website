@@ -1,0 +1,206 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <w>Ecce</w>
+            <w>torpet</w>
+            <w>probitas</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>virtus</w>
+            <w>sepelitur</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="3">
+            <w>fit</w>
+            <w>iam</w>
+            <w>parca</w>
+            <w>largitas</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>parcitas</w>
+            <w>largitur</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="5">
+            <w>verum</w>
+            <w>dicit</w>
+            <w>falsitas</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="6">
+            <w>veritas</w>
+            <w>mentitur</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="refrain">
+          <head>[Refl.]</head>
+          <l n="1">
+            <w>Omnes</w>
+            <app type="text">
+              <lem>
+                <w>iura</w>
+              </lem>
+              <note>i- atramento oblita</note>
+            </app>
+            <w>ledunt</w>
+          </l>
+          <l n="2">
+            <w>et</w>
+            <w>ad</w>
+            <w>res</w>
+            <w>illicitas</w>
+          </l>
+          <l n="3">
+            <app type="text">
+              <lem wit="cod.">
+                <w>liciter</w>
+              </lem>
+              <rdg wit="HS V Tc T"><w>licite</w></rdg>
+            </app>
+            <app type="text">
+              <lem wit="cod.">
+                <w>accedunt</w>
+              </lem>
+              <rdg wit="HS Tc T"><w>recedunt</w></rdg>
+              <rdg wit="V"><w>procedunt</w></rdg>
+            </app>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <w>Regnat</w>
+            <w>avaricia</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>regnant</w>
+            <w>et</w>
+            <app type="text">
+              <lem>
+                <w>avari</w>
+              </lem>
+              <note>corr. ex <w>avaria</w> cod.</note>
+            </app>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="3">
+            <w>mente</w>
+            <w>quivis</w>
+            <app type="text">
+              <lem wit="HS V Tc T">
+                <w>anxia</w>
+              </lem>
+              <rdg wit="cod."><w>noxia</w></rdg>
+            </app>
+          </l>
+          <l n="4">
+            <w>nititur</w>
+            <w>ditari</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="5">
+            <w>cum</w>
+            <w>sit</w>
+            <w>summa</w>
+            <w>gloria</w>
+          </l>
+          <l n="6">
+            <w>censu</w>
+            <w>gloriari</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="refrain">
+          <head>[Refl.]</head>
+          <l n="1">
+            <w>Omnes</w>
+            <w>iura</w>
+            <w>ledunt</w>
+          </l>
+          <l n="2">
+            <w>et</w>
+            <w>ad</w>
+            <w>prava</w>
+            <w>quelibet</w>
+          </l>
+          <l n="3">
+            <w>impie</w>
+            <w>recedunt</w>
+          </l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">
+            <w>Multum</w>
+            <w>habet</w>
+            <w>oneris</w>
+          </l>
+          <l n="2">
+            <w>‘do</w>
+            <w>das</w>
+            <w>dedi</w>
+            <w>dare</w>
+            <pc resp="#editor">;’</pc>
+          </l>
+          <l n="3">
+            <app type="text">
+              <lem wit="cod. V">
+                <w>hoc</w>
+                <w>verbum</w>
+              </lem>
+              <rdg wit="HS Tc T"><w>verbum</w><w>hoc</w></rdg>
+            </app>
+            <w>pre</w>
+            <w>ceteris</w>
+          </l>
+          <l n="4">
+            <app type="text">
+              <lem wit="cod.">
+                <w>volunt</w>
+              </lem>
+              <rdg wit="HS V Tc T"><w>norunt</w></rdg>
+            </app>
+            <w>ignorare</w>
+          </l>
+          <l n="5">
+            <w>divites</w>
+            <pc resp="#editor">,</pc>
+            <w>quos</w>
+            <w>poteris</w>
+          </l>
+          <l n="6">
+            <w>mari</w>
+            <w>comparare</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="refrain">
+          <head>[Refl.]</head>
+          <l n="1">
+            <w>Omnes</w>
+            <w>iura</w>
+            <w>ledunt</w>
+          </l>
+          <l n="2">
+            <w>et</w>
+            <w>in</w>
+            <w>rerum</w>
+            <w>numeris</w>
+          </l>
+          <l n="3">
+            <w>numeros</w>
+            <w>excedunt</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
