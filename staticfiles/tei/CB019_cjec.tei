@@ -3,12 +3,12 @@
   <text>
     <body>
       <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/5pp/7pp+6p" rhyme="a/a/a/b/b+a">
-        <lg type="strophe" n="I">
+        <lg type="strophe">
           <l n="1">
             <seg type="hemistich">
               <w>Fas</w>
               <w>et</w>
-              <w>nefas</w>
+              <w>nephas</w>
               <w>ambulant</w>
             </seg>
             <seg type="hemistich">
@@ -21,6 +21,7 @@
                 <rdg wit="HS T"><w>pene</w><w>passu</w></rdg>
               </app>
               <w>pari</w>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="2">
@@ -32,6 +33,7 @@
             <seg type="hemistich">
               <w>vitium</w>
               <w>avari</w>
+              <pc resp="#editor">;</pc>
             </seg>
           </l>
           <l n="3">

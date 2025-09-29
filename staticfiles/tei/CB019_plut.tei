@@ -22,6 +22,7 @@
               </app>
               <w>pari</w>
               <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="2">
@@ -34,6 +35,7 @@
               <w>vitium</w>
               <w>avari</w>
               <pc>&#183;</pc>
+              <pc resp="#editor">;</pc>
             </seg>
           </l>
           <l n="3">
@@ -74,6 +76,7 @@
             <seg type="hemistich">
               <w>ethicam</w>
               <w>Cathonis</w>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="2">
@@ -82,14 +85,15 @@
               <w>qua</w>
               <w>scriptum</w>
               <w>legitur</w>
+              <pc resp="#editor">:</pc>
             </seg>
             <seg type="hemistich">
               <pc resp="editor">&#8216;</pc>
               <w>ambula</w>
               <w>cum</w>
               <w>bonis</w>
-              <pc resp="editor">&#8217;</pc>
               <pc>&#183;</pc>
+              <pc resp="editor">&#8217;,</pc>
             </seg>
           </l>
           <l n="3">
@@ -103,12 +107,13 @@
               <w>animum</w>
               <w>disponis</w>
               <pc>&#183;</pc>
+              <pc resp="editor">,</pc>
             </seg>
           </l>
           <l n="4">
             <app type="text">
               <lem wit="cod. HS Tc T"><w>supra</w></lem>
-              <lem wit="V"><w>inter</w></lem>
+              <rdg wit="V"><w>inter</w></rdg>
             </app>
             <w>cetera</w>
           </l>
@@ -139,6 +144,7 @@
               <w>Vultu</w>
               <w>licet</w>
               <w>hilari</w>
+              <pc resp="editor">,</pc>
             </seg>
             <seg type="hemistich">
               <w>verbo</w>
@@ -152,6 +158,7 @@
               <w>equalis</w>
               <w>omnibus</w>
               <pc>&#61936;</pc>
+              <pc resp="editor">,</pc>
             </seg>
             <seg type="hemistich">
               <w>unum</w>
@@ -184,6 +191,7 @@
               <w>granum</w>
               <w>inter</w>
               <w>paleas</w>
+              <pc resp="editor">:</pc>
             </seg>
             <seg type="hemistich">
               <w>cui</w>
@@ -209,6 +217,7 @@
               <w>a</w>
               <w>virtute</w>
               <pc>&#183;</pc>
+              <pc resp="editor">,</pc>
             </seg>
           </l>
           <l n="2">
@@ -216,9 +225,9 @@
               <w>bonum</w>
               <w>est</w>
               <w>secundum</w>
+              <w>quid</w>
             </seg>
             <seg type="hemistich">
-              <w>quid</w>
               <app type="text">
                 <lem wit="cod. HS Tc T">
                   <w>sed</w>
@@ -254,6 +263,7 @@
               <rdg wit="cod."><w>famant</w><w>emis</w><w>munere</w></rdg>
             </app>
             <pc>&#61936;</pc>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="5">
             <seg type="hemistich">
@@ -286,6 +296,7 @@
               <w>paleis</w>
               <w>emundas</w>
               <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
             </seg>
           </l>
           <l n="2">
@@ -294,6 +305,7 @@
               <w>emis</w>
               <w>munere</w>
               <pc>&#183;</pc>
+              <pc resp="#editor">;</pc>
             </seg>
             <seg type="hemistich">
               <w>sed</w>
@@ -301,7 +313,7 @@
               <pc resp="#editor">,</pc>
               <app type="text">
                 <lem wit="cod. T"><w>cum</w></lem>
-                <lem wit="HS V Tc"><w>dum</w></lem>
+                <rdg wit="HS V Tc"><w>dum</w></rdg>
               </app>
               <w>das</w>
               <pc resp="#editor">,</pc>
@@ -330,12 +342,13 @@
               <note>om. cod.</note>
             </app>
             <w>glorior</w>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="5">
             <seg type="hemistich">
               <app type="text">
                 <lem wit="cod. V Tc T"><w>quia</w></lem>
-                <lem wit="HS"><w>cum</w><w>sim</w></lem>
+                <rdg wit="HS"><w>cum</w><w>sim</w></rdg>
               </app>
               <w>Codro</w>
               <w>Codrior</w>
