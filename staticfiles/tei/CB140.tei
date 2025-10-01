@@ -985,9 +985,14 @@
             <w>
               <seg type="syll">Nu</seg>
             </w>
-            <w>
+            <app type="text">
+              <lem>
+                <w>
               <seg type="syll" met="+">su&#868;ln</seg>
             </w>
+              </lem>
+              <note>&#868; man. r.</note>
+            </app>
             <w>
               <seg type="syll">wir</seg>
             </w>
@@ -1099,10 +1104,15 @@
               <w>
                 <seg type="syll">mit</seg>
               </w>
-              <w>
-                <seg type="syll" part="I" met="+">fro&#868;</seg>
+              <app type="text">
+                <lem>
+                  <w>
+                <seg type="syll" part="I" met="+">fro&#868;u</seg>
                 <seg type="syll" part="F">de</seg>
               </w>
+                </lem>
+                <note>&#868; man. r.</note>
+              </app>
               <w>
                 <seg type="syll">und</seg>
               </w>

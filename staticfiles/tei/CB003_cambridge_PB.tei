@@ -1,53 +1,53 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
         <lg type="strophe" n="I">
-          <l n="1">Voilà que la probité flétrit,</l>
-          <l n="2">que la vertu s’engloutit,</l>
-          <l n="3">désormais largesse est avare,</l>
-          <l n="4">avarice s’étend largement,</l>
-          <l n="5">la fausseté dit le vrai</l>
-          <l n="6">et la vérité le faux.</l>
+          <l n="1">Voil&#224; que la probit&#233; fl&#233;trit,</l>
+          <l n="2">que la vertu s&#8217;engloutit,</l>
+          <l n="3">d&#233;sormais largesse est avare,</l>
+          <l n="4">avarice s&#8217;&#233;tend largement,</l>
+          <l n="5">la fausset&#233; dit le vrai</l>
+          <l n="6">et la v&#233;rit&#233; le faux.</l>
         </lg>
         <lg type="refrain">
           <head>Refrain</head>
           <l n="1">Tous bafouent le droit</l>
-          <l n="2">et retournent à leurs errements</l>
+          <l n="2">et retournent &#224; leurs errements</l>
           <l n="3">fort licitement.</l>
         </lg>
         <lg type="strophe" n="II">
-          <l n="1">L’avarice domine,</l>
+          <l n="1">L&#8217;avarice domine,</l>
           <l n="2">les avares aussi !</l>
-          <l n="3">Chacun fébrilement</l>
+          <l n="3">Chacun f&#233;brilement</l>
           <l n="4">recherche son profit,</l>
           <l n="5">puisque rien ne surpasse</l>
-          <l n="6">la gloire d’un bon gain.</l>
+          <l n="6">la gloire d&#8217;un bon gain.</l>
         </lg>
         <lg type="refrain">
           <head>Refrain</head>
           <l n="1">Tous...</l>
         </lg>
         <lg type="strophe" n="III">
-          <l n="1">Bien dur à conjuguer,</l>
-          <l n="2">ce seul verbe ‘donner’ !</l>
-          <l n="3">Ils savent l’ignorer</l>
+          <l n="1">Bien dur &#224; conjuguer,</l>
+          <l n="2">ce seul verbe &#8216;donner&#8217; !</l>
+          <l n="3">Ils savent l&#8217;ignorer</l>
           <l n="4">bien mieux que tous les autres,</l>
-          <l n="5">les riches, qu’on peut bien</l>
-          <l n="6">comparer à la mer.</l>
+          <l n="5">les riches, qu&#8217;on peut bien</l>
+          <l n="6">comparer &#224; la mer.</l>
         </lg>
         <lg type="refrain">
           <head>Refrain</head>
           <l n="1">Tous...</l>
         </lg>
         <lg type="strophe" n="IV">
-          <l n="1">Chez tous le désir avide</l>
-          <l n="2">est pareillement inné ;</l>
-          <l n="3">la foi périt honteusement,</l>
-          <l n="4">nul n’est fidèle à cœur fidèle,</l>
-          <l n="5">ni Jupiter à Junon,</l>
-          <l n="6">ni envers Énée Didon.</l>
+          <l n="1">Chez tous le d&#233;sir avide</l>
+          <l n="2">est pareillement inn&#233; ;</l>
+          <l n="3">la foi p&#233;rit honteusement,</l>
+          <l n="4">nul n&#8217;est fid&#232;le &#224; c&#339;ur fid&#232;le,</l>
+          <l n="5">ni Jupiter &#224; Junon,</l>
+          <l n="6">ni envers &#201;n&#233;e Didon.</l>
         </lg>
       </div>
     </body>

@@ -1,0 +1,63 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <seg type="hemistich">Voici venir le temps fleuri,</seg>
+            <seg type="hemistich">car les fleurs se dressent,</seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">les usages de printemps</seg>
+            <seg type="hemistich">en tout apparaissent.</seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">La douceur du temps répare</seg>
+            <seg type="hemistich">ce que le froid a détruit,</seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">les chatoyantes couleurs</seg>
+            <seg type="hemistich">nous montrent qu’il en est ainsi.</seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <seg type="hemistich">Les prés sont remplis de fleurs,</seg>
+            <seg type="hemistich">allons nous y délasser !</seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">Jeunes filles, avec les clercs</seg>
+            <seg type="hemistich">ensemble promenons-nous, </seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">pour l’amour de Vénus</seg>
+            <seg type="hemistich">participons à ses jeux,</seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">pour pouvoir le rapporter</seg>
+            <seg type="hemistich">aux autres demoiselles.</seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">
+            <seg type="hemistich">- O ma dame bien aimée,</seg>
+            <seg type="hemistich">pourquoi ainsi t’écarter ?</seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">Ne sais-tu pas, ma très chère,</seg>
+            <seg type="hemistich">que tu es si fort aimée ?</seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">Si toi tu étais Hélène,</seg>
+            <seg type="hemistich">je voudrais être Paris !</seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">Pourtant notre amour pourrait</seg>
+            <seg type="hemistich">être tout semblable au leur.</seg>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

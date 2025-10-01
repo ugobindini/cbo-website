@@ -633,10 +633,15 @@
             <w>
               <seg type="syll">ein</seg>
             </w>
-            <w>
+            <app type="text">
+              <lem>
+                <w>
               <seg type="syll" part="I" met="+">scho&#868;</seg>
               <seg type="syll" part="F">ne</seg>
             </w>
+              </lem>
+              <note>&#868; man. r.</note>
+            </app>
             <w>
               <seg type="syll" met="+">wip</seg>
             </w>

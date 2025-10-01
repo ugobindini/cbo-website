@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem" met="7pp/6p/7pp/6p/7pp/6p" rhyme="a/b/a/b/a/b">
@@ -136,12 +136,12 @@
             <w>oneris</w>
           </l>
           <l n="2">
-            <pc resp="#editor" pre="true">‘</pc>
+            <pc resp="#editor" pre="true">&#8216;</pc>
             <w>do</w>
             <w>das</w>
             <w>dedi</w>
             <w>dare</w>
-            <pc resp="#editor">’;</pc>
+            <pc resp="#editor">&#8217;;</pc>
           </l>
           <l n="3">
             <app type="text">

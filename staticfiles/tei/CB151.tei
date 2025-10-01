@@ -1154,10 +1154,15 @@
               <seg type="syll" part="I" met="+">bou</seg>
               <seg type="syll" part="F">me</seg>
             </w>
-            <w>
-              <seg type="syll" part="I" met="+">cl&#281;i</seg>
-              <seg type="syll" part="F">dest</seg>
-            </w>
+            <app type="text">
+              <lem>
+                <w>
+                  <seg type="syll" part="I" met="+">cl&#281;i</seg>
+                  <seg type="syll" part="F">dest</seg>
+                </w>
+              </lem>
+              <note>&#808; man. r.</note>
+            </app>
           </l>
           <l n="4">
             <w>
@@ -1166,10 +1171,15 @@
             <w>
               <seg type="syll">die</seg>
             </w>
-            <w>
-              <seg type="syll" part="I" met="+">hei</seg>
-              <seg type="syll" part="F">de</seg>
-            </w>
+            <app type="text">
+              <lem>
+                <w>
+                  <seg type="syll" part="I" met="+">h&#281;i</seg>
+                  <seg type="syll" part="F">de</seg>
+                </w>
+              </lem>
+              <note>&#808; man. r.</note>
+            </app>
             <w>
               <seg type="syll" met="+">baz</seg>
             </w>
@@ -1204,9 +1214,7 @@
               <seg type="syll" part="I" met="+">chur</seg>
               <seg type="syll" part="F">&#231;er</seg>
             </w>
-            <pc resp="#editor">!</pc>
-            <pc resp="#editor">&#187;</pc>
-            <pc resp="#editor">,</pc>
+            <pc resp="#editor">!&#187;,</pc>
             <pc pre="true" resp="#editor">&#171;</pc>
             <w>
               <seg type="syll" met="+">ih</seg>
@@ -1218,8 +1226,7 @@
               <seg type="syll" part="I" met="+">lan</seg>
               <seg type="syll" part="F">ger</seg>
             </w>
-            <pc resp="#editor">!</pc>
-            <pc resp="#editor">&#187;</pc>
+            <pc resp="#editor">!&#187;</pc>
           </l>
           <l n="7">
             <w>
@@ -1245,10 +1252,15 @@
             </w>
           </l>
           <l n="8">
-            <w>
+            <app type="text">
+              <lem>
+                <w>
               <seg type="syll" part="I" met="+">blu&#870;</seg>
               <seg type="syll" part="F">men</seg>
             </w>
+              </lem>
+              <note>&#870; man. r.</note>
+            </app>
             <w>
               <seg type="syll" part="I" met="+">un</seg>
               <seg type="syll" part="F">de</seg>

@@ -1,42 +1,42 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
         <lg type="strophe" n="I">
-          <l n="1">Le bien et le mal marchent d’un pas presqu’égal,</l>
-          <l n="2">le prodigue ne rachète pas le défaut de l’avare,</l>
-          <l n="3">la vertu, en évaluant au cas par cas,</l>
+          <l n="1">Le bien et le mal marchent d&#8217;un pas presqu&#8217;&#233;gal,</l>
+          <l n="2">le prodigue ne rach&#232;te pas le d&#233;faut de l&#8217;avare,</l>
+          <l n="3">la vertu, en &#233;valuant au cas par cas,</l>
           <l n="4" rend="indent(1)">doit prudemment</l>
-          <l n="5">s’assurer du juste milieu entre deux vices.</l>
+          <l n="5">s&#8217;assurer du juste milieu entre deux vices.</l>
         </lg>
         <lg type="strophe" n="II">
-          <l n="1">S’il te souvient d’avoir lu les dits moraux de Caton,</l>
-          <l n="2">là où se trouve écrit : ‘Marche avec les gens de bien’,</l>
-          <l n="3">quand tu disposes ton âme à la gloire de donner,</l>
+          <l n="1">S&#8217;il te souvient d&#8217;avoir lu les dits moraux de Caton,</l>
+          <l n="2">l&#224; o&#249; se trouve &#233;crit : &#8216;Marche avec les gens de bien&#8217;,</l>
+          <l n="3">quand tu disposes ton &#226;me &#224; la gloire de donner,</l>
           <l n="4" rend="indent(1)">parmi tout le reste</l>
-          <l n="5">considère en premier lieu qui est digne de tes dons.</l>
+          <l n="5">consid&#232;re en premier lieu qui est digne de tes dons.</l>
         </lg>
         <lg type="strophe" n="III">
-          <l n="1">Bien qu’à tous tu présentes un visage avenant</l>
+          <l n="1">Bien qu&#8217;&#224; tous tu pr&#233;sentes un visage avenant</l>
           <l n="2">et un discours aimable, je te recommande pourtant :</l>
-          <l n="3">si tu veux à bon droit mériter la gloire en donnant,</l>
-          <l n="4" rend="indent(1)">vois donc d’abord</l>
-          <l n="5">le bon grain parmi la paille : à qui tu donnes et quand.</l>
+          <l n="3">si tu veux &#224; bon droit m&#233;riter la gloire en donnant,</l>
+          <l n="4" rend="indent(1)">vois donc d&#8217;abord</l>
+          <l n="5">le bon grain parmi la paille : &#224; qui tu donnes et quand.</l>
         </lg>
         <lg type="strophe" n="IV">
-          <l n="1">Donner comme il ne faut pas n’est pas de la vertu,</l>
-          <l n="2">car c’est un bien relatif et non pas absolu.</l>
-          <l n="3">Tu donneras dignement et mériteras sûrement</l>
+          <l n="1">Donner comme il ne faut pas n&#8217;est pas de la vertu,</l>
+          <l n="2">car c&#8217;est un bien relatif et non pas absolu.</l>
+          <l n="3">Tu donneras dignement et m&#233;riteras s&#251;rement</l>
           <l n="4" rend="indent(1)">le renom de bienfaiteur,</l>
-          <l n="5">si d’abord tu me connais à fond et de l’intérieur.</l>
+          <l n="5">si d&#8217;abord tu me connais &#224; fond et de l&#8217;int&#233;rieur.</l>
         </lg>
 
         <lg type="strophe" n="V">
           <l n="1">Si tu distingues sagement de la paille le froment,</l>
-          <l n="2">ton don t’achètera le renom ; mais veille bien, en donnant,</l>
-          <l n="3">à ne pas en vain verser l’huile de ta générosité.</l>
-          <l n="4" rend="indent(1)">Je me félicite de toi,</l>
+          <l n="2">ton don t&#8217;ach&#232;tera le renom ; mais veille bien, en donnant,</l>
+          <l n="3">&#224; ne pas en vain verser l&#8217;huile de ta g&#233;n&#233;rosit&#233;.</l>
+          <l n="4" rend="indent(1)">Je me f&#233;licite de toi,</l>
           <l n="5">car plus Codrus que Codrus, tu es un bienfaiteur pour tous.</l>
         </lg>
       </div>

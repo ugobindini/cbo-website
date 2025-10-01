@@ -77,10 +77,15 @@
           </l>
           <l n="3">
             <w>
-              <seg type="syll">dic<notatedMusic>
-                  <neume fontname="buranus" glyph.num="0" label="?" />
+              <app type="neume">
+                <lem>
+                  <seg type="syll">dic<notatedMusic>
+                  <neume fontname="buranus" glyph.num="31" label="pe" />
                 </notatedMusic>
               </seg>
+                </lem>
+                <note>non leg. coni.</note>
+              </app>
             </w>
             <pc resp="#editor">,</pc>
             <w>
@@ -163,10 +168,15 @@
                   <neume fontname="buranus" glyph.num="7" label="vi" />
                 </notatedMusic>
               </seg>
-              <seg type="syll" part="F">le<notatedMusic>
-                  <neume fontname="buranus" glyph.num="0" label="?" />
+              <app type="neume">
+                <lem>
+                  <seg type="syll" part="F">le<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
                 </notatedMusic>
               </seg>
+                </lem>
+                <note>non leg. coni.</note>
+              </app>
             </w>
             <w>
               <seg type="syll" part="I">vi<notatedMusic>
@@ -174,7 +184,7 @@
                 </notatedMusic>
               </seg>
               <seg type="syll" part="M">si<notatedMusic>
-                  <neume fontname="buranus" glyph.num="0" label="?" />
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
                 </notatedMusic>
               </seg>
               <seg type="syll" part="M">o<notatedMusic>
@@ -220,12 +230,11 @@
                 </notatedMusic>
               </seg>
               <seg type="syll" part="M">o<notatedMusic>
-                  <neume fontname="buranus" glyph.num="49" label="cl" />
-                  <neume fontname="buranus" glyph.num="0" label="?" />
+                  <neume fontname="buranus" glyph.num="53" label="cl!st" />
                 </notatedMusic>
               </seg>
               <seg type="syll" part="F">nis<notatedMusic>
-                  <neume fontname="buranus" glyph.num="0" label="?" />
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
                 </notatedMusic>
               </seg>
             </w>
@@ -244,10 +253,15 @@
               </seg>
             </w>
             <w>
-              <seg type="syll" part="I">al<notatedMusic>
-                  <neume fontname="buranus" glyph.num="0" label="?" />
+              <app type="neume">
+                <lem>
+                  <seg type="syll" part="I">al<notatedMusic>
+                  <neume fontname="buranus" glyph.num="7" label="vi" />
                 </notatedMusic>
               </seg>
+                </lem>
+                <note>non leg. coni.</note>
+              </app>
               <seg type="syll" part="F">to<notatedMusic>
                   <neume fontname="buranus" glyph.num="7" label="vi" />
                 </notatedMusic>
@@ -868,7 +882,7 @@
                 </notatedMusic>
               </seg>
               <seg type="syll" part="F">tur<notatedMusic>
-                  <neume fontname="buranus" glyph.num="0" label="?" />
+                  <neume fontname="buranus" glyph.num="50" label="cl)" />
                 </notatedMusic>
               </seg>
             </w>
@@ -1112,7 +1126,7 @@
             </w>
             <w>
               <seg type="syll" part="I">claus<notatedMusic>
-                  <neume fontname="buranus" glyph.num="0" label="?" />
+                  <neume fontname="buranus" glyph.num="50" label="cl)" />
                 </notatedMusic>
               </seg>
               <seg type="syll" part="F">tro<notatedMusic>
@@ -1341,7 +1355,7 @@
           <l n="12">
             <w>
               <seg type="syll">non<notatedMusic>
-                  <neume fontname="buranus" glyph.num="0" label="?" />
+                  <neume fontname="buranus" glyph.num="49" label="cl" />
                 </notatedMusic>
               </seg>
             </w>

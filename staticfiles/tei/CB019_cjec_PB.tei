@@ -1,14 +1,14 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
         <lg type="strophe">
-          <l n="1">Le bien et le mal marchent d’un pas presqu’égal,</l>
-          <l n="2">le prodigue ne rachète pas le défaut de l’avare,</l>
-          <l n="3">la vertu, en évaluant au cas par cas,</l>
+          <l n="1">Le bien et le mal marchent d&#8217;un pas presqu&#8217;&#233;gal,</l>
+          <l n="2">le prodigue ne rach&#232;te pas le d&#233;faut de l&#8217;avare,</l>
+          <l n="3">la vertu, en &#233;valuant au cas par cas,</l>
           <l n="4" rend="indent(1)">doit prudemment</l>
-          <l n="5">s’assurer du juste milieu entre deux vices.</l>
+          <l n="5">s&#8217;assurer du juste milieu entre deux vices.</l>
         </lg>
       </div>
     </body>

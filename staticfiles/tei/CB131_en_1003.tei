@@ -149,7 +149,7 @@
           <l n="5">
             <w>
               <seg type="syll">Aut<notatedMusic>
-                  <neume fontname="buranus" glyph.num="0" label="?" />
+                  <neume fontname="buranus" glyph.num="0" label="pq" />
                   <neume fontname="buranus" glyph.num="61" label="to" />
                   <neume fontname="buranus" glyph.num="101" label="ql" />
                   <neume fontname="buranus" glyph.num="7" label="vi" />
@@ -275,7 +275,7 @@
                 </notatedMusic>
               </seg>
               <seg type="syll" part="F">ne<notatedMusic>
-                  <neume fontname="buranus" glyph.num="0" label="?" />
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
                 </notatedMusic>
               </seg>
             </w>
@@ -359,7 +359,7 @@
             </w>
             <w>
               <seg type="syll" part="I">scir<notatedMusic>
-                  <neume fontname="buranus" glyph.num="0" label="?" />
+                  <neume fontname="buranus" glyph.num="8" label="vi)" />
                 </notatedMusic>
               </seg>
               <seg type="syll" part="M">pe<notatedMusic>
@@ -384,10 +384,15 @@
                   <neume fontname="buranus" glyph.num="49" label="cl" />
                 </notatedMusic>
               </seg>
-              <seg type="syll" part="M">y<notatedMusic>
-                  <neume fontname="buranus" glyph.num="0" label="?" />
+              <app type="neume">
+                <lem>
+                  <seg type="syll" part="M">y<notatedMusic>
+                  <neume fontname="buranus" glyph.num="1" label="pu" />
                 </notatedMusic>
               </seg>
+                </lem>
+                <note>ut vid.</note>
+              </app>
               <seg type="syll" part="F">se<notatedMusic>
                   <neume fontname="buranus" glyph.num="1" label="pu" />
                 </notatedMusic>
@@ -490,7 +495,7 @@
                   <neume fontname="buranus" glyph.num="104" label="ql!cl" />
                   <neume fontname="buranus" glyph.num="18" label="visu3" />
                   <neume fontname="buranus" glyph.num="49" label="cl" />
-                  <neume fontname="buranus" glyph.num="10" label="vs" />
+                  <neume fontname="buranus" glyph.num="11" label="pr" />
                   <neume fontname="buranus" glyph.num="137" label="sc" />
                   <neume fontname="buranus" glyph.num="60" label="clsu3" />
                   <neume fontname="buranus" glyph.num="130" label="ci" />
