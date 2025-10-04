@@ -1,0 +1,222 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <seg type="hemistich">
+              <w>Tempus</w>
+              <w>adest</w>
+              <w>floridum</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>surgunt</w>
+              <w>namque</w>
+              <w>flores</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>vernales</w>
+              <w>in</w>
+              <w>omnibus</w>
+            </seg>
+            <seg type="hemistich">
+              <w>immutantur</w>
+              <w>mores</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">
+              <w>Hoc</w>
+              <w>quod</w>
+              <w>frigus</w>
+              <w>læserat</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>reparant</w>
+              <w>calores</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <w>Cernimus</w>
+              <w>hoc</w>
+              <w>fieri</w>
+            </seg>
+            <seg type="hemistich">
+              <w>per</w>
+              <w>multos</w>
+              <w>labores</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <seg type="hemistich">
+              <w>Sunt</w>
+              <w>prata</w>
+              <w>plena</w>
+              <w>floribus</w>
+            </seg>
+            <seg type="hemistich">
+              <w>iucunda</w>
+              <w>aspectu</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>ubi</w>
+              <w>iuvat</w>
+              <w>cernere</w>
+            </seg>
+            <seg type="hemistich">
+              <w>herbas</w>
+              <w>cum</w>
+              <w>delectu</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">
+              <w>gramina</w>
+              <w>et</w>
+              <w>plantæ</w>
+            </seg>
+            <seg type="hemistich">
+              <w>hyeme</w>
+              <w>quiescunt</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <w>vernali</w>
+              <w>in</w>
+              <w>tempore</w>
+            </seg>
+            <seg type="hemistich">
+              <w>virent</w>
+              <w>et</w>
+              <w>accrescunt</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">
+            <seg type="hemistich">
+              <w>Hæc</w>
+              <w>vobis</w>
+              <w>pulchre</w>
+              <w>monstrant</w>
+            </seg>
+            <seg type="hemistich">
+              <w>Deum</w>
+              <w>Creatorem</w>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>quem</w>
+              <w>quoque</w>
+              <w>nos</w>
+              <w>credimus</w>
+            </seg>
+            <seg type="hemistich">
+              <w>omnium</w>
+              <w>factorem</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">
+              <w>O</w>
+              <w>tempus</w>
+              <w>ergo</w>
+              <w>hilare</w>
+            </seg>
+            <seg type="hemistich">
+              <w>quo</w>
+              <w>lætari</w>
+              <w>libet</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <w>renovato</w>
+              <w>nam</w>
+              <w>mundo</w>
+            </seg>
+            <seg type="hemistich">
+              <w>nos</w>
+              <w>novari</w>
+              <w>decet</w>
+              <pc resp="#editor">!</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="IV">
+          <l n="1">
+            <seg type="hemistich">
+              <w>Terra</w>
+              <w>ornatur</w>
+              <w>floribus</w>
+            </seg>
+            <seg type="hemistich">
+              <w>et</w>
+              <w>multo</w>
+              <w>decore</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>nos</w>
+              <w>honestis</w>
+              <w>moribus</w>
+            </seg>
+            <seg type="hemistich">
+              <w>et</w>
+              <w>vero</w>
+              <w>amore</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">
+              <w>Gaudeamus</w>
+              <w>igitur</w>
+            </seg>
+            <seg type="hemistich">
+              <w>tempore</w>
+              <w>iocundo</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <w>laudemusque</w>
+              <w>Dominum</w>
+            </seg>
+            <seg type="hemistich">
+              <w>pectoris</w>
+              <w>ex</w>
+              <w>fundo</w>
+              <pc resp="#editor">!</pc>
+            </seg>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

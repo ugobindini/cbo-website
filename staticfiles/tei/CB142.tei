@@ -316,7 +316,7 @@
           <l n="1" rhyme="b+a">
             <seg type="hemistich">
               <w>
-                <seg type="syll">«O</seg>
+                <seg type="syll">&#171;O</seg>
               </w>
               <w>
                 <seg type="syll" part="I">di</seg>
@@ -457,7 +457,7 @@
                 <seg type="syll" part="I">ta</seg>
                 <seg type="syll" part="F">lis</seg>
               </w>
-              <pc resp="#editor">».</pc>
+              <pc resp="#editor">&#187;.</pc>
             </seg>
           </l>
         </lg>
@@ -551,7 +551,7 @@
                 <seg type="syll">diu</seg>
               </w>
               <w>
-                <seg type="syll" part="I">gru&#x0366;</seg>
+                <seg type="syll" part="I">gru&#870;</seg>
                 <seg type="syll" part="F">zte</seg>
               </w>
               <w>
@@ -575,7 +575,7 @@
                 <seg type="syll">sprah</seg>
               </w>
               <pc resp="#editor">:</pc>
-              <pc resp="#editor" pre="true">«</pc>
+              <pc resp="#editor" pre="true">&#171;</pc>
               <app type="text">
                 <lem>
                   <w>
@@ -605,8 +605,8 @@
                 <seg type="syll" part="F">fent</seg>
               </w>
                 </lem>
-                <rdg wit="V T"><w>dürfet</w></rdg>
-                <note>-u- s.l. man. r. &#x0364;</note>
+                <rdg wit="V T"><w>d&#252;rfet</w></rdg>
+                <note>-u- s.l. man. r. &#868;</note>
               </app>
               <w>
                 <seg type="syll">ir</seg>
@@ -622,7 +622,7 @@
                 <note>&#808; man. r.</note>
               </app>
               <pc>&#183;</pc>
-              <pc resp="#editor">?»</pc>
+              <pc resp="#editor">?&#187;</pc>
             </seg>
           </l>
           <l n="4">
@@ -635,7 +635,7 @@
                 <seg type="syll">den</seg>
               </w>
               <w>
-                <seg type="syll" part="I">fu&#x0366;</seg>
+                <seg type="syll" part="I">fu&#870;</seg>
                 <seg type="syll" part="F">zen</seg>
               </w>
               <app type="text">
