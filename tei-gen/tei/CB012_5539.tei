@@ -1,0 +1,116 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <w>Procurans</w>
+            <w>odium</w>
+          </l>
+          <l n="2">
+            <w>effectu</w>
+            <w>proprio</w>
+          </l>
+          <l n="3">
+            <w>ius</w>
+            <w>detrahentium</w>
+          </l>
+          <l n="4">
+            <w>gaudet</w>
+            <w>intentio</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="5">
+            <w>Nexus</w>
+            <w>est</w>
+            <w>cordium</w>
+          </l>
+          <l n="6">
+            <w>ipsa</w>
+            <w>detractio</w>
+            <pc resp="#editor">:</pc>
+          </l>
+          <l n="7">
+            <w>sic</w>
+            <w>per</w>
+            <w>contrarium</w>
+          </l>
+          <l n="8">
+            <w>ab</w>
+            <w>hoste</w>
+            <w>nescio</w>
+          </l>
+          <l n="9">
+            <w>fit</w>
+            <w>hic</w>
+            <w>provisio</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="10">
+            <w>in</w>
+            <w>hoc</w>
+            <w>amantium</w>
+          </l>
+          <l n="11">
+            <w>felix</w>
+            <w>contritio</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <w>Insultus</w>
+            <w>talium</w>
+          </l>
+          <l n="2">
+            <w>prodesse</w>
+            <w>sentio</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>tollendi</w>
+            <w>tedium</w>
+          </l>
+          <l n="4">
+            <w>fuxit</w>
+            <w>occasio</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="5">
+            <w>suspendit</w>
+            <w>gaudium</w>
+          </l>
+          <l n="6">
+            <w>pravo</w>
+            <w>consilio</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="7">
+            <w>sed</w>
+            <w>desiderium</w>
+          </l>
+          <l n="8">
+            <w>auget</w>
+            <w>dilatio</w>
+            <pc resp="#editor">:</pc>
+          </l>
+          <l n="9">
+            <w>tali</w>
+            <w>remedio</w>
+          </l>
+          <l n="10">
+            <w>de</w>
+            <w>spinis</w>
+            <w>hostium</w>
+          </l>
+          <l n="11">
+            <w>uvas</w>
+            <w>vindemio</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
