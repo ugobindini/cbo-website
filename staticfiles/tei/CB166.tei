@@ -748,6 +748,7 @@
               </lem>
               <rdg wit="HS"><w>lute</w></rdg>
               <rdg wit="T"><w>liute</w></rdg>
+              <note>&#868; man. r.</note>
             </app>
             <w>
               <seg type="syll" part="I">we</seg>
@@ -773,7 +774,7 @@
                   <seg type="syll">wil</seg>
                 </w>
               </lem>
-              <note><w>wi</w> corr. s.l. man. r. -l-</note>
+              <note>corr. ex <w>wi</w>, -l s.l. man. r.</note>
             </app>
             <w>
               <seg type="syll">ih</seg>
@@ -809,16 +810,16 @@
               <seg type="syll" part="F">gen</seg>
             </w>
             <app type="text">
-              <lem wit="HS">
+              <lem wit="cod. V T">
                 <w>
-                  <seg type="syll">ho</seg>
+                  <seg type="syll">h&#244;</seg>
                 </w>
-                <pc resp="#editor">,</pc>
               </lem>
-              <rdg wit="cod. V T"><w>h&#244;</w></rdg>
-              <note><w>ho</w> s.l. man. r. &#171;^&#187;</note>
+              <rdg wit="HS"><w>ho</w></rdg>
+              <note>^ man. r.</note>
             </app>
             <pc>&#183;</pc>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="5">
             <app type="text">
@@ -845,7 +846,7 @@
                 </w>
               </lem>
               <rdg wit="HS T"><w>ein</w></rdg>
-              <note>&#281;- inf. man. r. &#171;&#723;&#187;</note>
+              <note>&#808; man. r.</note>
             </app>
             <w>
               <seg type="syll" part="I">se</seg>
@@ -877,10 +878,15 @@
               <pc resp="#editor">,</pc>
             </seg>
             <seg type="hemistich">
-              <w>
+              <app type="text">
+                <lem>
+                  <w>
                 <seg type="syll" part="I">tru&#870;</seg>
                 <seg type="syll" part="F">ren</seg>
               </w>
+                </lem>
+                <note>&#870; man. r.</note>
+              </app>
               <app type="text">
                 <lem wit="cod. T">
                   <w>
@@ -888,7 +894,8 @@
                   </w>
                 </lem>
                 <rdg wit="HS"><w>sta</w></rdg>
-                <note>-e s.l. man. r.</note>
+                <rdg wit="V"><w>sta&#868;</w></rdg>
+                <note>corr. ex <w>sta</w>, -e s.l. man. r.</note>
               </app>
               <w>
                 <seg type="syll">mir</seg>
@@ -896,7 +903,7 @@
               <app type="text">
                 <lem wit="cod. V">
                   <w>
-                    <seg type="syll" part="I">i&#281;</seg>
+                    <seg type="syll" part="I">j&#281;</seg>
                     <seg type="syll" part="M">mer</seg>
                     <seg type="syll" part="M">li</seg>
                     <seg type="syll" part="F">chen</seg>

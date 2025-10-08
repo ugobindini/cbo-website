@@ -798,10 +798,15 @@
                 <seg type="syll" part="I">Su&#870;</seg>
                 <seg type="syll" part="F">ziu</seg>
               </w>
-              <w>
-                <seg type="syll" part="I">vro</seg>
+              <app type="text">
+                <lem>
+                  <w>
+                <seg type="syll" part="I">vra</seg>
                 <seg type="syll" part="F">we</seg>
               </w>
+                </lem>
+                <note>corr. ex <w>vrowe</w>, -a- s.l. man. r.</note>
+              </app>
               <w>
                 <seg type="syll">min</seg>
               </w>
@@ -877,12 +882,17 @@
                 <seg type="syll">mih</seg>
               </w>
               <pc resp="#editor">,</pc>
-              <w>
-                <seg type="syll" part="I">chu</seg>
+              <app type="text">
+                <lem>
+                  <w>
+                <seg type="syll" part="I">chu&#868;</seg>
                 <seg type="syll" part="M">ni</seg>
                 <seg type="syll" part="M">gin</seg>
                 <seg type="syll" part="F">ne</seg>
               </w>
+                </lem>
+                <note>&#868; man. r.</note>
+              </app>
               <pc>&#183;</pc>
               <pc resp="#editor">,</pc>
             </seg>
