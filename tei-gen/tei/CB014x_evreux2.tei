@@ -1,0 +1,709 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <w>Planctus</w>
+            <w>ante</w>
+            <w>nescia</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>planctu</w>
+            <w>lassor</w>
+            <w>anxia</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>crucior</w>
+            <w>dolore</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <w>Orbat</w>
+            <w>orbem</w>
+            <w>radio</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>me</w>
+            <w>Iudea</w>
+            <w>filio</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>gaudii</w>
+            <w>dulcore</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">
+            <w>Fili</w>
+            <pc resp="#editor">,</pc>
+            <w>dulcor</w>
+            <w>unice</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>singulare</w>
+            <w>gaudium</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>matrem</w>
+            <w>flentem</w>
+            <w>respice</w>
+          </l>
+          <l n="4">
+            <w>porrige</w>
+            <w>solatium</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="IV">
+          <l n="1">
+            <w>Pectus</w>
+            <pc resp="#editor">,</pc>
+            <w>mentem</w>
+            <pc resp="#editor">,</pc>
+            <w>lumina</w>
+          </l>
+          <l n="2">
+            <w>torquent</w>
+            <w>tua</w>
+            <w>vulnera</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>que</w>
+            <w>mater</w>
+            <pc resp="#editor">,</pc>
+            <w>que</w>
+            <w>femina</w>
+          </l>
+          <l n="4">
+            <w>tam</w>
+            <w>felix</w>
+            <pc resp="#editor">,</pc>
+            <w>tam</w>
+            <w>misera</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="V">
+          <l n="1">
+            <w>Flos</w>
+            <w>florum</w>
+            <pc resp="#editor">,</pc>
+            <w>dux</w>
+            <w>morum</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>venie</w>
+            <w>vena</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>quam</w>
+            <w>gravis</w>
+            <w>in</w>
+            <w>clavis</w>
+          </l>
+          <l n="4">
+            <w>est</w>
+            <w>tibi</w>
+            <w>pena</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="VI">
+          <l n="1">
+            <w>Proh</w>
+            <w>dolor</w>
+            <pc resp="#editor">,</pc>
+            <w>hinc</w>
+            <w>color</w>
+          </l>
+          <l n="2">
+            <w>effugit</w>
+            <w>oris</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="3">
+            <w>hinc</w>
+            <w>ruit</w>
+            <pc resp="#editor">,</pc>
+            <w>hinc</w>
+            <w>fluit</w>
+          </l>
+          <l n="4">
+            <w>unda</w>
+            <w>cruoris</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="VII">
+          <l n="1">
+            <w>O</w>
+            <w>quam</w>
+            <w>sero</w>
+            <w>deditus</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>quam</w>
+            <w>cito</w>
+            <w>me</w>
+            <w>deseris</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="3">
+            <w>o</w>
+            <w>quam</w>
+            <w>digne</w>
+            <w>genitus</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>quam</w>
+            <w>abiecte</w>
+            <w>moreris</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="VIII">
+          <l n="1">
+            <w>O</w>
+            <w>quis</w>
+            <w>amor</w>
+            <w>corporis</w>
+          </l>
+          <l n="2">
+            <w>tibi</w>
+            <w>fecit</w>
+            <w>spolia</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="3">
+            <w>o</w>
+            <w>quam</w>
+            <w>dulcis</w>
+            <w>pignoris</w>
+          </l>
+          <l n="4">
+            <w>quam</w>
+            <w>amara</w>
+            <w>premia</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="IX">
+          <l n="1">
+            <w>O</w>
+            <w>pia</w>
+            <w>gratia</w>
+          </l>
+          <l n="2">
+            <w>sic</w>
+            <w>morientis</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>o</w>
+            <w>scelus</w>
+            <pc resp="#editor">,</pc>
+            <w>o</w>
+            <w>zelus</w>
+          </l>
+          <l n="4">
+            <w>invide</w>
+            <w>gentis</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="X">
+          <l n="1">
+            <w>O</w>
+            <w>fera</w>
+            <w>dextera</w>
+          </l>
+          <l n="2">
+            <w>crucifigentis</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>o</w>
+            <w>lenis</w>
+            <w>in</w>
+            <w>penis</w>
+          </l>
+          <l n="4">
+            <w>mens</w>
+            <w>patientis</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XI">
+          <l n="1">
+            <w>O</w>
+            <w>verum</w>
+            <w>eloquium</w>
+          </l>
+          <l n="2">
+            <w>iusti</w>
+            <w>Symeonis</w>
+          </l>
+          <l n="3">
+            <w>quem</w>
+            <w>promisit</w>
+            <pc resp="#editor">,</pc>
+            <w>gladium</w>
+          </l>
+          <l n="4">
+            <w>sentio</w>
+            <w>doloris</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XII">
+          <l n="1">
+            <w>Gemitus</w>
+            <w>suspiria</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>lacrimeque</w>
+            <w>foris</w>
+          </l>
+          <l n="3">
+            <w>vulneris</w>
+            <w>indicia</w>
+          </l>
+          <l n="4">
+            <w>sunt</w>
+            <w>interioris</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XIII">
+          <l n="1">
+            <w>Parcito</w>
+            <w>proli</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>mors</w>
+            <pc resp="#editor">,</pc>
+            <w>michi</w>
+            <w>noli</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>tunc</w>
+            <w>mihi</w>
+            <w>soli</w>
+          </l>
+          <l n="4">
+            <w>sola</w>
+            <w>mederis</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XIV">
+          <l n="1">
+            <w>Morte</w>
+            <pc resp="#editor">,</pc>
+            <w>beate</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>separer</w>
+            <w>a</w>
+            <w>te</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>dummodo</w>
+            <w>nate</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>non</w>
+            <w>crucieris</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XV">
+          <l n="1">
+            <w>Quod</w>
+            <w>crimen</w>
+            <pc resp="#editor">,</pc>
+            <w>que</w>
+            <w>scelera</w>
+          </l>
+          <l n="2">
+            <w>gens</w>
+            <w>commisit</w>
+            <w>effera</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>vincla</w>
+            <pc resp="#editor">,</pc>
+            <w>virgas</w>
+            <pc resp="#editor">,</pc>
+            <w>vulnera</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>sputa</w>
+            <pc resp="#editor">,</pc>
+            <w>spinas</w>
+            <pc resp="#editor">,</pc>
+            <w>cetera</w>
+          </l>
+          <l n="5">
+            <w>sine</w>
+            <w>culpa</w>
+            <w>patitur</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XVI">
+          <l n="1">
+            <w>Nato</w>
+            <pc resp="#editor">,</pc>
+            <w>queso</w>
+            <pc resp="#editor">,</pc>
+            <w>parcite</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>matrem</w>
+            <w>crucifigite</w>
+          </l>
+          <l n="3">
+            <w>aut</w>
+            <w>in</w>
+            <w>crucis</w>
+            <w>stipite</w>
+          </l>
+          <l n="4">
+            <w>nos</w>
+            <w>simul</w>
+            <w>affigite</w>
+            <pc resp="#editor">:</pc>
+          </l>
+          <l n="5">
+            <w>male</w>
+            <w>solus</w>
+            <w>moritur</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XVII">
+          <l n="1">
+            <w>Reddite</w>
+            <w>mestissime</w>
+          </l>
+          <l n="2">
+            <w>corpus</w>
+            <w>vel</w>
+            <w>exanime</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>ut</w>
+            <w>sic</w>
+            <w>minoratus</w>
+          </l>
+          <l n="4">
+            <w>crescat</w>
+            <w>cruciatus</w>
+          </l>
+          <l n="5">
+            <w>osculis</w>
+            <pc resp="#editor">,</pc>
+            <w>amplexibus</w>
+            <w></w>
+            <pc resp="#editor">!</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XVIII">
+          <l n="1">
+            <w>Utinam</w>
+            <w>sic</w>
+            <w>doleam</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>ut</w>
+            <w>dolore</w>
+            <w>peream</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>nam</w>
+            <w>plus</w>
+            <w>est</w>
+            <w>dolori</w>
+          </l>
+          <l n="4">
+            <w>sine</w>
+            <w>morte</w>
+            <w>mori</w>
+          </l>
+          <l n="5">
+            <w>quam</w>
+            <w>perire</w>
+            <w>citius</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XIX">
+          <l n="1">
+            <w>Quid</w>
+            <w>stupes</w>
+            <pc resp="#editor">,</pc>
+            <w>gens</w>
+            <w>misera</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>terram</w>
+            <w>se</w>
+            <w>movere</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>obscurari</w>
+            <w>sidera</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>languidos</w>
+            <w>lugere</w>
+            <pc resp="#editor">?</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XX">
+          <l n="1">
+            <w>Solem</w>
+            <w>privas</w>
+            <w>lumine</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>quomodo</w>
+            <w>luceret</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="3">
+            <w>egrum</w>
+            <w>medicamine</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>unde</w>
+            <w>convaleret</w>
+            <pc resp="#editor">?</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XXI">
+          <l n="1">
+            <w>Homicidam</w>
+            <w>liberas</w>
+          </l>
+          <l n="2">
+            <w>Iesum</w>
+            <w>dans</w>
+            <w>supplicio</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="3">
+            <w>male</w>
+            <w>pacem</w>
+            <w>toleras</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>veniet</w>
+            <w>seditio</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XXII">
+          <l n="1">
+            <w>Famis</w>
+            <pc resp="#editor">,</pc>
+            <w>cedis</w>
+            <pc resp="#editor">,</pc>
+            <w>pestium</w>
+          </l>
+          <l n="2">
+            <w>scies</w>
+            <w>docta</w>
+            <w>pandere</w>
+          </l>
+          <l n="3">
+            <w>Iesum</w>
+            <w>tibi</w>
+            <w>mortuum</w>
+          </l>
+          <l n="4">
+            <w>Barrabamque</w>
+            <w>vivere</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XXIII">
+          <l n="1">
+            <w>Gens</w>
+            <w>ceca</w>
+            <pc resp="#editor">,</pc>
+            <w>gens</w>
+            <w>flebilis</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>age</w>
+            <w>penitenciam</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>dum</w>
+            <w>tibi</w>
+            <w>flexibilis</w>
+          </l>
+          <l n="4">
+            <w>est</w>
+            <w>Iesus</w>
+            <w>ad</w>
+            <w>veniam</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XXIV">
+          <l n="1">
+            <w>Quod</w>
+            <w>fecisti</w>
+            <pc resp="#editor">,</pc>
+            <w>fontium</w>
+          </l>
+          <l n="2">
+            <w>prosint</w>
+            <w>tibi</w>
+            <w>flumina</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>sitim</w>
+            <w>sedant</w>
+            <w>omnium</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>cuncta</w>
+            <w>lavant</w>
+            <w>crimina</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XXV">
+          <l n="1">
+            <w>Flete</w>
+            <pc resp="#editor">,</pc>
+            <w>Syon</w>
+            <w>filie</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>tante</w>
+            <w>grate</w>
+            <w>gracie</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="3">
+            <w>iuvenis</w>
+            <w>angustie</w>
+          </l>
+          <l n="4">
+            <w>sibi</w>
+            <w>sunt</w>
+            <w>delicie</w>
+          </l>
+          <l n="5">
+            <w>pro</w>
+            <w>vestris</w>
+            <w>offensis</w>
+          </l>
+        </lg>
+        <lg type="strophe" n="XXVI">
+          <l n="1">
+            <w>In</w>
+            <w>amplexus</w>
+            <w>ruite</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>dum</w>
+            <w>pendet</w>
+            <w>in</w>
+            <w>stipite</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="3">
+            <w>mutuis</w>
+            <w>amplexibus</w>
+          </l>
+          <l n="4">
+            <w>se</w>
+            <w>parat</w>
+            <w>amantibus</w>
+          </l>
+          <l n="5">
+            <w>brachiis</w>
+            <w>extensis</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XXVII">
+          <l n="1">
+            <w>In</w>
+            <w>hoc</w>
+            <w>solo</w>
+            <w>gaudeo</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>quod</w>
+            <w>pro</w>
+            <w>vobis</w>
+            <w>doleo</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="3">
+            <w>vicem</w>
+            <pc resp="#editor">,</pc>
+            <w>queso</w>
+            <pc resp="#editor">,</pc>
+            <w>reddite</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>matris</w>
+            <w>dapnum</w>
+            <w>plangite</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
