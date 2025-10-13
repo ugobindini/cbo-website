@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="sequence">
@@ -65,8 +65,8 @@
             <w>respice</w>
           </l>
           <l n="4">
-            <w>porrige</w>
-            <w>solatium</w>
+            <w>conferens</w>
+            <w>solacium</w>
             <pc resp="#editor">.</pc>
           </l>
         </lg>
@@ -155,12 +155,12 @@
           <l n="3">
             <seg type="hemistich">
               <w>hinc</w>
-              <w>ruit</w>
+              <w>fluit</w>
               <pc resp="#editor">,</pc>
             </seg>
             <seg type="hemistich">
               <w>hinc</w>
-              <w>fluit</w>
+              <w>ruit</w>
             </seg>
           </l>
           <l n="4">
@@ -238,12 +238,12 @@
           <l n="3">
             <seg type="hemistich">
               <w>o</w>
-            <w>scelus</w>
+            <w>zelus</w>
             <pc resp="#editor">,</pc>
             </seg>
             <seg type="hemistich">
               <w>o</w>
-            <w>zelus</w>
+              <w>scelus</w>
             </seg>
           </l>
           <l n="4">
