@@ -47,8 +47,10 @@
 
     $("#toggleNeumesButton-{{ item.pk }}").click(function(){
       $("#itemCoreView-{{ item.pk }} .neumes").toggle();
-      $("#itemCoreView-{{ item.pk }} .toggle-neumes").toggle();
-      $("#itemCoreView-{{ item.pk }} .app-type-neume").toggleClass("apparatus-active");
+      if ($("#toggleCriticalApparatus-{{ item.pk }}").hasClass('active')) {
+        $("#apparatusNeume-{{ item.pk }}").toggle();
+        $("#itemCoreView-{{ item.pk }} .app-type-neume").toggleClass("apparatus-active");
+      }
     });
 
     $("#toggleSyllablesButton-{{ item.pk }}").click(function(){
@@ -70,8 +72,11 @@
 
     $("#toggleCriticalApparatus-{{ item.pk }}").click(function(){
       $("#apparatusText-{{ item.pk }}").toggle();
-      $("#apparatusNeume-{{ item.pk }}").toggle();
-      $(".apparatus-in-text").toggleClass("apparatus-active");
+      if ($("#toggleNeumesButton-{{ item.pk }}").hasClass('active')) {
+        $("#apparatusNeume-{{ item.pk }}").toggle();
+        $("#itemCoreView-{{ item.pk }} .app-type-neume").toggleClass("apparatus-active");
+      }
+      $("#itemCoreView-{{ item.pk }} .app-type-text").toggleClass("apparatus-active");
     });
   });
 
@@ -187,7 +192,7 @@
         {% endautoescape %}
       </div>
       {% if item.is_notated %}
-        <div id="apparatusNeume-{{ item.pk }}" class="toggle-neumes no-break">
+        <div id="apparatusNeume-{{ item.pk }}" class="no-break">
           <hr/>
           {% autoescape off %}
           {{ item.neume_apparatus_transform }}
