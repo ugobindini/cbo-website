@@ -308,6 +308,14 @@ class Item(models.Model):
             template += '<img src="/staticfiles/img/mscz/svg/' + files[-1] + '" style="width: 100%;"/>'
         return template
 
+    def pdf_template(self):
+        import os
+        # Order files: this assumes that each piece has less than 9 pages.
+        files = [file for file in os.listdir(os.path.join(static_root, 'img/mscz/svg/')) if file.startswith(self.file)]
+        files.sort(key=lambda x: x[-5])
+        template = ''.join(['<img src="/staticfiles/img/mscz/svg/' + file + '" style="width: 100%;"/>' for file in files])
+        return template
+
     @property
     def tei_tree(self):
         from lxml import etree

@@ -173,15 +173,30 @@ p {
   <script>
     // This script is for downloading PDF (through the html2pdf tool)
     $("#pdf-download").click(function() {
-      var element = document.getElementById('mainContainer-{{ item.pk }}');
+      var pdfHead = document.createElement("div");
+      pdfHead.innerHTML = "<h1>CB {{ item.abstract_item.cb_id }}</h1><h2>{{ item.title }}</h2><p>Source: {{ item.source.bib_id }} ({{ item.source.location }})</p><p>Folio: {{ item.foliation_str }}</p>";
+      pdfHead.innerHTML += "<p style='margin-top: 200px;'>Carmina Burana Online Project<p><p>Edited by C. Cazaux, L. Albiero, U. Bindini, M. Romanens</p>";
+      headOpt = {
+        margin: [20, 15, 20, 15],
+        image: { type: 'jpeg', quality: 1 },
+        html2canvas: { scrollY: 0, y: 0, scale: 4, letterRendering: true }
+      };
+
       if ({{ item.is_svg_based|yesno:"true,false" }}) {
         var opt = {
-          margin: [9, 0, 21, 0],
+          margin: [0, 0, 0, 0],
           filename: 'CB{{ item.abstract_item.cb_id }}.pdf',
           pagebreak: { mode: 'css' },
           image: { type: 'jpeg', quality: 1 },
           html2canvas: { scrollY: 0, y: 0, scale: 4, letterRendering: true }
         };
+        var element = document.createElement("div");
+        {% autoescape off %}
+        element.innerHTML = '{{ item.pdf_template }}'
+        {% endautoescape %}
+        html2pdf().set(headOpt).from(pdfHead).toPdf().get('pdf').then(function (pdf) {
+          pdf.addPage();
+        }).set(opt).from(element).toContainer().toCanvas().toPdf().save();
       }
       else {
         var opt = {
@@ -191,18 +206,11 @@ p {
           image: { type: 'jpeg', quality: 1 },
           html2canvas: { scrollY: 0, y: 0, scale: 4, letterRendering: true }
         };
-      }
-      headOpt = {
-        margin: [20, 15, 20, 15],
-        image: { type: 'jpeg', quality: 1 },
-        html2canvas: { scrollY: 0, y: 0, scale: 4, letterRendering: true }
-      };
-      const pdfHead = document.createElement("div");
-      pdfHead.innerHTML = "<h1>CB {{ item.abstract_item.cb_id }}</h1><h2>{{ item.title }}</h2><p>Source: {{ item.source.bib_id }} ({{ item.source.location }})</p><p>Folio: {{ item.foliation_str }}</p>";
-      pdfHead.innerHTML += "<p style='margin-top: 200px;'>Carmina Burana Online Project<p><p>Edited by C. Cazaux, L. Albiero, U. Bindini, M. Romanens</p>";
-      html2pdf().set(headOpt).from(pdfHead).toPdf().get('pdf').then(function (pdf) {
+        var element = document.getElementById('mainContainer-{{ item.pk }}');
+        html2pdf().set(headOpt).from(pdfHead).toPdf().get('pdf').then(function (pdf) {
           pdf.addPage();
-      }).set(opt).from(element).toContainer().toCanvas().toPdf().save();
+        }).set(opt).from(element).toContainer().toCanvas().toPdf().save();
+      }
     });
   </script>
 
