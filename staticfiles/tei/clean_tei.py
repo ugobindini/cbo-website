@@ -30,15 +30,11 @@ if __name__ == "__main__":
 		#####
 		#####
 
-		for stage in tree.findall(".//stage"):
-			text = stage.text
-			for word in reversed(text.split(' ')):
-				w = ET.Element('w')
-				w.text = word
-				stage.insert(index=0, element=w)
-			stage.text = ""
+		for n, sp in enumerate(tree.findall(".//sp")):
+			sp.set('n', str(n+1))
 
 		#####
 		#####
 
+		# tree.write(name)
 		tree.write("test_" + name)

@@ -21,8 +21,16 @@
   </xsl:template>
 
   <xsl:template match="app[@type='text']">
-    <b style="margin-left: 6px;"><xsl:value-of select="ancestor::lg/@n"/>.<xsl:value-of select="ancestor::l/@n"/></b>
-    <!-- TODO: numbering system for plays and refrains -->
+    <!-- Numbering -->
+    <b style="margin-left: 6px;">
+      <xsl:if test="ancestor::sp"><xsl:value-of select="ancestor::sp/@n" />.</xsl:if>
+      <xsl:choose>
+        <xsl:when test="ancestor::lg[@type='refrain']">Refl.<xsl:value-of select="ancestor::l/@n"/></xsl:when>
+        <xsl:when test="ancestor::lg"><xsl:value-of select="ancestor::lg/@n" />.<xsl:value-of select="ancestor::l/@n"/></xsl:when>
+      </xsl:choose>
+    </b>
+
+    <!-- lem, rdg and note -->
     <xsl:apply-templates select="./lem" />
     <xsl:apply-templates select="./rdg" />
     <xsl:apply-templates select="./note" />

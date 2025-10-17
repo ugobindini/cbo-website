@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
       <div type="drama">
@@ -8,7 +8,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="1">
           <p>
             <w>Estivali</w><w>gaudio</w>
             <pc>&#183;</pc>
@@ -137,7 +137,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="2">
           <div type="poem" met="8p+7p/8p+7p/8p+7p" rhyme="a/a/a">
             <lg type="strophe" n="I">
               <l n="1">
@@ -515,7 +515,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="3">
           <p>
             <w>Deorum</w><w>inmortalitas</w>
             <pc>&#183;</pc>
@@ -539,7 +539,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="4">
           <div type="poem" met="8p/8p/7pp/8p/8p/7pp" rhyme="a/a/b/c/c/b">
             <lg type="strophe" n="I">
               <l n="1">
@@ -656,7 +656,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="5">
           <div type="poem" met="8p/8p/8p/7pp/8p/8p/8p/7pp" rhyme="a/a/a/b/c/c/c/b">
             <lg type="strophe">
               <l n="1">
@@ -728,7 +728,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="6">
           <div type="poem" met="hex/hex" rhyme="?/?">
             <lg type="strophe">
               <l n="1">
@@ -764,7 +764,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="7">
           <p met="hex">
             <w>Regia</w><w>vos</w><w>mandata</w><w>vocant</w>
             <pc>&#183;</pc>
@@ -779,7 +779,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="8">
           <p>
             <w>Scire</w><w>volo</w>
             <pc>&#183;</pc>
@@ -797,7 +797,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="9">
           <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p/hex/hex" rhyme="a/a/a/a/b/b">
             <lg type="strophe">
               <l n="1">
@@ -888,7 +888,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="10">
           <p>
             <w>Hoc</w><w>est</w><w>numen</w><w>salutare</w>
             <pc>&#183;</pc>
@@ -900,7 +900,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="11">
           <p>
             <w>Stulti</w><w>sunt</w>
             <pc>&#183;</pc>
@@ -925,7 +925,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="12">
           <p>
             <w>Dicite</w><w>quid</w>
                 <w>nobis</w>
@@ -950,7 +950,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="13">
           <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a/a/a/a">
             <lg type="strophe">
               <l n="1">
@@ -1016,7 +1016,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="14">
           <w>Ecce</w><w>novum</w><w>cum</w><w>matre</w><w>deum</w><w>veneretur</w><w>Egiptus</w>
           <pc>&#183;</pc>
           <pc resp="#editor">.</pc>
@@ -1035,7 +1035,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="15">
           <p>
             <w>Deorum</w><w>inmor[talitas]</w>
             <pc>&#183;</pc>
@@ -1052,7 +1052,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="16">
           <div type="poem" met="7pp+6p/7pp+6p" rhyme="a/a">
             <lg type="strophe">
               <l n="1">
@@ -1102,7 +1102,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="17">
           <div type="poem" met="8pp+7p/8pp+7p" rhyme="a+b/a+b">
             <lg type="strophe">
               <l n="1">
@@ -1139,7 +1139,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="18">
           <div type="poem" met="9pp+7p/9pp+7p" rhyme="a+b/a+b">
             <lg type="strophe">
               <l n="1">
@@ -1181,7 +1181,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="19">
           <div type="poem" met="8pp+7p/8pp+7p" rhyme="a+b/a+b">
             <lg type="strophe">
               <l n="1">
@@ -1220,7 +1220,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="20">
           <p>
             <w>Stulti</w><w>sunt</w>
             <pc>&#183;</pc>
@@ -1232,7 +1232,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="21">
           <div type="poem" met="6pp+7p/6pp+7p" rhyme="a/a">
             <lg type="strophe">
               <l n="1">
@@ -1267,7 +1267,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="22">
           <p>
             <w>Stulti</w><w>sunt</w>
             <pc>&#183;</pc>
@@ -1279,7 +1279,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="23">
           <div type="poem" met="6pp+7p/6pp+7p" rhyme="a+b/a+b">
             <lg type="strophe" n="I">
               <l n="1">
@@ -1345,7 +1345,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="24">
           <div type="poem" met="6pp+7p/6pp+7p" rhyme="a/a">
             <lg type="strophe">
               <l n="1">
@@ -1382,7 +1382,7 @@
           <pc>&#183;</pc>
           <pc resp="#editor">:</pc>
         </stage>
-        <sp>
+        <sp n="25">
           <div type="poem" met="6p+7p/6p+7p" rhyme="a/a">
             <lg type="strophe">
               <l n="1">
