@@ -1,0 +1,28 @@
+{% extends "base_generic.html" %}
+
+{% load static %}
+
+{% block content %}
+<div class="flex-column" style="flex: 20%">
+  <!-- add side content here -->
+</div>
+<div style="flex: 80%">
+  <h1>CB {{ abstract_item.cb_id }}</h1>
+  <h3>Bibliography</h3>
+  <p>...</p>
+  <h3>Edited instances</h3>
+  <table style="width: 100%; border-spacing: 0 2px;">
+    <tr>
+      <th style="text-align: left;">Title</th>
+      <th style="text-align: left;">Source</th>
+    </tr>
+    {% for item in abstract_item.item_set.all %}
+    <tr>
+      <td><a href="{{ item.get_absolute_url }}">{{ item.title }}</a></td>
+      <td><a href="{{ item.source.get_absolute_url }}">{{ item.source.bib_id }}</a></td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+{% endblock %}
+

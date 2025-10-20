@@ -158,7 +158,7 @@ p {
 <div style="padding: 20px; width: 100%;">
   <div style="display: flex">
     <div style="flex: 2">
-      <h1>CB {{ item.abstract_item.cb_id }}</h1>
+      <h1><a href="{{ item.abstract_item.get_absolute_url }}">CB {{ item.abstract_item.cb_id }}</a></h1>
       <h2>{{ item.title }}</h2>
       <p>Source: <a href="{{ item.source.get_absolute_url }}">{{ item.source.bib_id }}</a> ({{ item.source.location }})</p>
       <p>Folio: {{ item.foliation_str }}</p>

@@ -228,7 +228,7 @@ class AbstractItem(models.Model):
 
     def get_absolute_url(self):
         """Returns the URL to access a particular instance of the model."""
-        return reverse('abstract-item-detail', args=[str(self.cb_id)])
+        return reverse('abstract-item-detail', args=[str(self.pk)])
 
 
 class Item(models.Model):

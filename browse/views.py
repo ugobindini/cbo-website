@@ -67,6 +67,12 @@ class SourceDetailView(generic.DetailView):
     template_name = 'source_detail.html'
 
 
+class AbstractItemDetailView(generic.DetailView):
+    model = AbstractItem
+    context_object_name = 'abstract_item'
+    template_name = 'abstract_item_detail.html'
+
+
 class ItemListView(generic.ListView):
     model = Item
     context_object_name = 'item_list'
