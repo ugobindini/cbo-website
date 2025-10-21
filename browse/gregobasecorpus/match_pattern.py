@@ -4,21 +4,20 @@ import os
 import re
 from lxml import etree
 
-from django.templatetags.static import static
 from django.conf import settings
 
 from .volpiano import *
 
 if settings.LOCAL:
-    static_root = settings.STATICFILES_DIRS[0]
+	static_root = settings.STATICFILES_DIRS[0]
 else:
-    static_root = settings.STATIC_ROOT
+	static_root = settings.STATIC_ROOT
+
 
 def staticfile_path(folder, filename):
-    import os.path
-    return os.path.join(os.path.join(static_root, folder), filename)
+	import os.path
+	return os.path.join(os.path.join(static_root, folder), filename)
 
-PATTERN_TO_REGEX = {'0': '0', 'u': '[A-Z]', 'U': '[0A-Z]', 'd': '[a-z]', 'D': '[0a-z]', '+': 'A', '-': 'a', '?': '.'}
 
 def diff_to_str(n):
 	# Code: uppercase letters for upward intervals, lowercase letters for downward intervals, 0 for note repetition
@@ -30,8 +29,13 @@ def diff_to_str(n):
 	else:
 		return chr(ord('a') - n - 1)
 
+
 def sequence_to_volpiano(seq):
 	return "1" + ",".join([int_to_glyph(s) for s in seq])
+
+
+PATTERN_TO_REGEX = {'0': '0', 'u': '[A-Z]', 'U': '[0A-Z]', 'd': '[a-z]', 'D': '[0a-z]', '+': 'A', '-': 'a', '?': '.'}
+
 
 class Pattern:
 	def __init__(self, pattern):
@@ -76,11 +80,14 @@ class Chant:
 		k = pattern.len
 		for n, section in enumerate(self.sections):
 			# Transform the section into a string where the differences are encoded
-			diff = "".join([diff_to_str(section[i+1] - section[i]) for i in range(len(section) - 1)])
+			diff = "".join([diff_to_str(section[i + 1] - section[i]) for i in range(len(section) - 1)])
 			matches = re.finditer(pattern.regex, diff)
 			for match in matches:
 				i = match.start()
 				match_collection.add_match(Match(Melody(section[i:i + k + 1]), self, n))
+
+
+CHANTS = [Chant(filename) for filename in os.listdir(staticfile_path("num", ""))]
 
 
 class Melody:
@@ -103,6 +110,7 @@ class MatchCollection:
 	Keeps Match objects stored by sequence.
 	Keys for the dictionary are volpiano strings (normalized, i.e. without liquescences)
 	"""
+
 	def __init__(self):
 		self.matches = {}
 
@@ -116,7 +124,8 @@ class MatchCollection:
 			self.matches[match.melody.sequence] = [match]
 
 	def sorted_keys(self):
-		return sorted(self.matches.keys(), key=lambda m: len(set([match.chant for match in self.matches[m]])), reverse=True)
+		return sorted(self.matches.keys(), key=lambda m: len(set([match.chant for match in self.matches[m]])),
+		              reverse=True)
 
 	def print(self, volpiano=False):
 		for k in self.sorted_keys():
@@ -159,11 +168,12 @@ class MatchCollection:
 		return etree.ElementTree(root)
 
 
-def match_pattern(pattern, modes=None):
+def match_pattern(pattern, modes):
 	pattern = Pattern(pattern)
-	chants = [Chant(filename) for filename in os.listdir(staticfile_path("num", ""))]
-	if modes:
-		chants = [chant for chant in chants if str(chant.mode) in modes]
+	if len(modes):
+		chants = [chant for chant in CHANTS if str(chant.mode) in modes]
+	else:
+		chants = CHANTS
 
 	match_collection = MatchCollection()
 

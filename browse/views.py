@@ -52,9 +52,9 @@ def melody_generator(request):
         form = MelodyGeneratorForm(request.POST)
         # check whether it's valid:
         if form.is_valid():
-            assert len(form.cleaned_data['pattern'])
+            modes = form.cleaned_data['modes']
             pattern = form.cleaned_data['pattern']
-            return render(request, "mel_gen.html", {"form": form, "result": match_pattern(pattern)})
+            return render(request, "mel_gen.html", {"form": form, "result": match_pattern(pattern[1:], modes)})
 
     else:
         form = MelodyGeneratorForm()

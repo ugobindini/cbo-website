@@ -19,7 +19,8 @@ class BrowseItemForm(forms.Form):
 
 class MelodyGeneratorForm(forms.Form):
     template_name = "form_snippet.html"
-    modes = forms.CheckboxSelectMultiple(choices=range(9))
     pattern = forms.CharField(max_length=2048, label="Melodic pattern",
                             help_text="0: note repetition, u/U/d/D: up-/downwards (uppercase: allow note repetition), +/-: stepwise up-/downwards, ?: undefined.",
                             required=True)
+    modes = forms.MultipleChoiceField(choices=[(str(n), n) for n in range(1, 9)] + [('0', 'P')], widget=forms.CheckboxSelectMultiple, required=False)
+
