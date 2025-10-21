@@ -21,6 +21,16 @@
     font-style: italic;
     font-weight: bold;
 }
+@font-face {
+    font-family: Volpiano;
+    src: url("volpiano.otf");
+  }
+
+.volpiano {
+  font-family: Volpiano;
+  font-style: normal;
+  font-size: 40px;
+}
 
 .text-font {
   font-family: Junicode;

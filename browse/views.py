@@ -3,8 +3,8 @@ from django.shortcuts import render
 from django.views import generic
 
 from .models import Source, AbstractItem, Item, Neume
-from .forms import BrowseItemForm
-
+from .forms import BrowseItemForm, MelodyGeneratorForm
+from .gregobasecorpus.match_pattern import match_pattern
 
 def browse_item(request):
     # if this is a POST request we need to process the form data
@@ -44,6 +44,22 @@ def browse_item(request):
 
     return render(request, "browse_item.html", {"form": form, "items": Item.objects.all()})
 
+
+def melody_generator(request):
+    # if this is a POST request we need to process the form data
+    if request.method == "POST":
+        # create a form instance and populate it with data from the request:
+        form = MelodyGeneratorForm(request.POST)
+        # check whether it's valid:
+        if form.is_valid():
+            assert len(form.cleaned_data['pattern'])
+            pattern = form.cleaned_data['pattern']
+            return render(request, "mel_gen.html", {"form": form, "result": match_pattern(pattern)})
+
+    else:
+        form = MelodyGeneratorForm()
+
+    return render(request, "mel_gen.html", {"form": form, "result": ""})
 
 def item_core_view(request, pk):
     item = Item.objects.get(pk=pk)

@@ -1,0 +1,43 @@
+{% extends "base_generic.html" %}
+
+{% block title %}
+<title>MelGen</title>
+{% endblock %}
+
+{% block content %}
+<div class="flex-column" style="flex: 50%">
+  <div class="formContainer">
+    <form action="/browse/mel-gen/" method="post">
+      {% csrf_token %}
+      {{ form }}
+      <input class="cbo-button" type="submit" value="Search">
+    </form>
+  </div>
+</div>
+<div class="flex-column" style="flex: 50%">
+  <div class="browseResult">
+    {% if result %}
+    {% autoescape off %}
+      {{ result }}
+    {% endautoescape %}
+    {% else %}
+      <p>There are no matching melodies.</p>
+    {% endif %}
+  </div>
+</div>
+
+<style>
+  .hidden-table {
+    display: none;
+    overflow: hidden;
+  }
+</style>
+<script>
+  $(document).ready(function(){
+    $(".collapsible").click(function () {
+      var content = $(this).next();
+      content.toggle();
+    });
+  });
+</script>
+{% endblock %}
