@@ -23,7 +23,9 @@
 }
 @font-face {
     font-family: Volpiano;
-    src: url("volpiano.otf");
+    src: url("volpiano.otf") format("opentype"),
+         url("volpiano.ttf") format("truetype"),
+         url("volpiano.woff") format("woff");
   }
 
 .volpiano {
