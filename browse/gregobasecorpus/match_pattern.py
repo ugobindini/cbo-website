@@ -4,7 +4,19 @@ import os
 import re
 from lxml import etree
 
+from django.templatetags.static import static
+from django.conf import settings
+
 from .volpiano import *
+
+if settings.LOCAL:
+    static_root = settings.STATICFILES_DIRS[0]
+else:
+    static_root = settings.STATIC_ROOT
+
+def staticfile_path(folder, filename):
+    import os.path
+    return os.path.join(os.path.join(static_root, folder), filename)
 
 PATTERN_TO_REGEX = {'0': '0', 'u': '[A-Z]', 'U': '[0A-Z]', 'd': '[a-z]', 'D': '[0a-z]', '+': 'A', '-': 'a', '?': '.'}
 
@@ -35,7 +47,7 @@ class Chant:
 		self.mode = None
 		self.sections = []
 
-		with open("gregobasecorpus/num/" + filename) as file:
+		with open(staticfile_path("num", filename)) as file:
 			lines = [line.rstrip() for line in file]
 			for line in lines:
 				if line.startswith('@'):
@@ -149,7 +161,7 @@ class MatchCollection:
 
 def match_pattern(pattern, modes=None):
 	pattern = Pattern(pattern)
-	chants = [Chant(filename) for filename in os.listdir('gregobasecorpus/num')]
+	chants = [Chant(filename) for filename in os.listdir(staticfile_path("num", ""))]
 	if modes:
 		chants = [chant for chant in chants if str(chant.mode) in modes]
 
