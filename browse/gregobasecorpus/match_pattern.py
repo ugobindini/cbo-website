@@ -39,9 +39,9 @@ PATTERN_TO_REGEX = {'0': '0', 'u': '[A-Z]', 'U': '[0A-Z]', 'd': '[a-z]', 'D': '[
 
 class Pattern:
 	def __init__(self, pattern):
-		self.pattern = pattern
-		self.len = len(pattern)
-		self.regex = re.compile("(?=" + "".join([PATTERN_TO_REGEX[c] for c in pattern]) + ")")
+		self.pattern = "".join([s for s in pattern if s in PATTERN_TO_REGEX.keys()])
+		self.len = len(self.pattern)
+		self.regex = re.compile("(?=" + "".join([PATTERN_TO_REGEX[c] for c in self.pattern]) + ")")
 
 
 class Chant:
