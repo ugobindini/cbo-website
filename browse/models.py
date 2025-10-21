@@ -304,8 +304,7 @@ class Item(models.Model):
         files = [file for file in os.listdir(os.path.join(static_root, 'img/mscz/svg/')) if file.startswith(self.file)]
         files.sort(key=lambda x: x[-5])
         template = ''.join(['<img src="/staticfiles/img/mscz/svg/' + file + '" style="width: 100%; margin-bottom: -21mm;"/>' for file in files[:-1]])
-        if len(files) > 1:
-            template += '<img src="/staticfiles/img/mscz/svg/' + files[-1] + '" style="width: 100%;"/>'
+        template += '<img src="/staticfiles/img/mscz/svg/' + files[-1] + '" style="width: 100%;"/>'
         return template
 
     def pdf_template(self):
