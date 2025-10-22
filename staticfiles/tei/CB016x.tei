@@ -3638,7 +3638,7 @@
                   </seg>
                 </w>
                 <w>
-                  <seg type="syll" part="I">vir<notatedMusic>
+                  <seg type="syll" part="I">var<notatedMusic>
                     <neume fontname="buranus" glyph.num="7" label="vi"/>
                   </notatedMusic>
                   </seg>
@@ -3676,7 +3676,7 @@
                   </seg>
                 </w>
                 <w>
-                  <seg type="syll" part="I">schoe<notatedMusic>
+                  <seg type="syll" part="I">schœ<notatedMusic>
                     <neume fontname="buranus" glyph.num="7" label="vi"/>
                   </notatedMusic>
                   </seg>
@@ -3914,7 +3914,7 @@
                   </seg>
                 </w>
                 <w>
-                  <seg type="syll">zuoe<notatedMusic>
+                  <seg type="syll">zuœ<notatedMusic>
                     <neume fontname="buranus" glyph.num="1" label="pu"/>
                   </notatedMusic>
                   </seg>
@@ -3966,7 +3966,7 @@
                   </seg>
                 </w>
                 <w>
-                  <seg type="syll" part="I">schoe<notatedMusic>
+                  <seg type="syll" part="I">schœ<notatedMusic>
                     <neume fontname="buranus" glyph.num="7" label="vi"/>
                   </notatedMusic>
                   </seg>
@@ -4006,8 +4006,10 @@
                   </notatedMusic>
                   </seg>
                 </w>
-                <w>
-                  <seg type="syll" part="I">wu<notatedMusic>
+                <app type="text">
+                  <lem wit="HS V T">
+                    <w>
+                  <seg type="syll" part="I">wun<notatedMusic>
                     <neume fontname="buranus" glyph.num="1" label="pu"/>
                   </notatedMusic>
                   </seg>
@@ -4024,6 +4026,9 @@
                   </notatedMusic>
                   </seg>
                 </w>
+                  </lem>
+                  <rdg wit="cod."><w>wnnechliche</w></rdg>
+                </app>
                 <pc resp="#editor">,</pc>
               </l>
               <l n="3">
@@ -5693,7 +5698,7 @@
                   <seg type="syll" part="F">sus</seg>
                 </w>
                 <w>
-                  <seg type="syll">troest</seg>
+                  <seg type="syll">trœst</seg>
                 </w>
                 <w>
                   <seg type="syll">der</seg>
@@ -5732,7 +5737,7 @@
                   <seg type="syll">unde</seg>
                 </w>
                 <w>
-                  <seg type="syll" part="I">loe</seg>
+                  <seg type="syll" part="I">lœ</seg>
                   <seg type="syll" part="F">se</seg>
                 </w>
                 <w>
@@ -5765,7 +5770,7 @@
                   <seg type="syll">werlt</seg>
                 </w>
                 <w>
-                  <seg type="syll">zuoe</seg>
+                  <seg type="syll">zuœ</seg>
                 </w>
                 <w>
                   <seg type="syll">hat</seg>
@@ -5795,7 +5800,7 @@
                   <seg type="syll">niht</seg>
                 </w>
                 <w>
-                  <seg type="syll">uon</seg>
+                  <seg type="syll">von</seg>
                 </w>
                 <w>
                   <seg type="syll">den</seg>
@@ -5815,14 +5820,14 @@
                 </w>
                 <w>
                   <seg type="syll" part="I">er</seg>
-                  <seg type="syll" part="M">loe</seg>
+                  <seg type="syll" part="M">lœ</seg>
                   <seg type="syll" part="F">sest</seg>
                 </w>
                 <w>
                   <seg type="syll">mich</seg>
                 </w>
                 <w>
-                  <seg type="syll">uon</seg>
+                  <seg type="syll">von</seg>
                 </w>
                 <w>
                   <seg type="syll">den</seg>
@@ -13413,7 +13418,7 @@
                   </seg>
                 </w>
                 <w>
-                  <seg type="syll" part="I">shoe<notatedMusic>
+                  <seg type="syll" part="I">shœ<notatedMusic>
                     <neume fontname="buranus" glyph.num="7" label="vi"/>
                   </notatedMusic>
                   </seg>
@@ -13474,7 +13479,7 @@
                   </seg>
                 </w>
                 <w>
-                  <seg type="syll" part="I">ie<notatedMusic>
+                  <seg type="syll" part="I">je<notatedMusic>
                     <neume fontname="buranus" glyph.num="70" label="qi"/>
                   </notatedMusic>
                   </seg>
@@ -13694,7 +13699,7 @@
                   </seg>
                 </w>
                 <w>
-                  <seg type="syll" part="I">ie<notatedMusic>
+                  <seg type="syll" part="I">je<notatedMusic>
                     <neume fontname="buranus" glyph.num="1" label="pu"/>
                   </notatedMusic>
                   </seg>
@@ -13920,7 +13925,7 @@
                   <seg type="syll" part="F">de</seg>
                 </w>
                 <w>
-                  <seg type="syll" part="I">toe<notatedMusic>
+                  <seg type="syll" part="I">tœ<notatedMusic>
                     <neume fontname="buranus" glyph.num="29" label="ep"/>
                   </notatedMusic>
                   </seg>
