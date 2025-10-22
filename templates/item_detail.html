@@ -166,6 +166,7 @@ p {
     <div style="flex: 1">
       <h5>Download options</h5>
       <a href="{% static 'tei/' %}{{ item.file }}.tei" download="{{ item.file }}.tei"><img src="{% static 'img/TEI_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
+      <a href="{% static 'html/' %}{{ item.file }}.html" download="{{ item.file }}.html"><img src="{% static 'img/HTML_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
       <a id="pdf-download" style="cursor: pointer;"><img src="{% static 'img/PDF_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
     </div>
   </div>
