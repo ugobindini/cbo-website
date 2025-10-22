@@ -3,18 +3,10 @@ from django.db import models
 from django.urls import reverse
 from django.db.models import UniqueConstraint, F
 from django.db.models.functions import Lower, Length
-from django.conf import settings
+from .static_path import static_path
 from .indentify import indentify
 from .metify import metify
 
-if settings.LOCAL:
-    static_root = settings.STATICFILES_DIRS[0]
-else:
-    static_root = settings.STATIC_ROOT
-
-def staticfile_path(folder, filename):
-    import os.path
-    return os.path.join(os.path.join(static_root, folder), filename)
 
 class Language(models.Model):
     """Model representing a language."""
@@ -22,7 +14,7 @@ class Language(models.Model):
 
     def get_absolute_url(self):
         """Returns the URL to access a particular instance of the model."""
-        return reverse('language-detail', args=[str(self.id)])
+        return reverse('language-detail', args=[str(self.pk)])
 
     def __str__(self):
         """String for representing the Model object (in Admin site etc.)"""
@@ -49,19 +41,11 @@ class Author(models.Model):
 
     def get_absolute_url(self):
         """Returns the URL to access a particular instance of the model."""
-        return reverse('author-detail', args=[str(self.id)])
+        return reverse('author-detail', args=[str(self.pk)])
 
     def __str__(self):
         """String for representing the Model object (in Admin site etc.)"""
         return self.name
-
-    class Meta:
-        constraints = [
-            UniqueConstraint(
-                Lower('name'),
-                name='author_name_case_insensitive_unique'
-            ),
-        ]
 
 
 class Genre(models.Model):
@@ -70,7 +54,7 @@ class Genre(models.Model):
 
     def get_absolute_url(self):
         """Returns the URL to access a particular instance of the model."""
-        return reverse('genre-detail', args=[str(self.id)])
+        return reverse('genre-detail', args=[str(self.pk)])
 
     def __str__(self):
         """String for representing the Model object (in Admin site etc.)"""
@@ -92,7 +76,7 @@ class Theme(models.Model):
 
     def get_absolute_url(self):
         """Returns the URL to access a particular instance of the model."""
-        return reverse('theme-detail', args=[str(self.id)])
+        return reverse('theme-detail', args=[str(self.pk)])
 
     def __str__(self):
         """String for representing the Model object (in Admin site etc.)"""
@@ -106,83 +90,6 @@ class Theme(models.Model):
                 name='theme_name_case_insensitive_unique'
             ),
         ]
-
-
-# Old models for the text type (obsolete)
-# class TextType(models.Model):
-#     """Model representing a text type (metrical poetry, rhythmic poetry, prose)."""
-#     METRICAL_POETRY = "Metrical poetry"
-#     RHYTHMICAL_POETRY = "Rhythmical poetry"
-#     PROSE = "Prose"
-#     TYPE_CHOICES = [
-#         (METRICAL_POETRY, "Metrical poetry"),
-#         (RHYTHMICAL_POETRY, "Rhythmical poetry"),
-#         (PROSE, "Prose")
-#     ]
-#     type = models.CharField(max_length=20, choices=TYPE_CHOICES)
-#
-#     def get_absolute_url(self):
-#         """Returns the URL to access a particular instance of the model."""
-#         return reverse('text-type-detail', args=[str(self.id)])
-#
-#     def __str__(self):
-#         """String for representing the Model object (in Admin site etc.)"""
-#         return self.type
-#
-#     class Meta:
-#         ordering = ['type']
-#
-#
-# class TextTypeSpecification(models.Model):
-#     """Model representing a specification of the text type."""
-#     text_type = models.ForeignKey(TextType, on_delete=models.CASCADE)
-#     abstract_item = models.ForeignKey("AbstractItem", on_delete=models.CASCADE)
-#     HEXAMETER = "HEX"
-#     PENTAMETER = "PEN"
-#     SEPTENARIUS = "SEP"
-#     TRIMETER = "TRI"
-#     VERSE_UNIT_CHOICES = [
-#         ("", "Unspecified"),
-#         (HEXAMETER, "Hexameter"),
-#         (PENTAMETER, "Pentameter"),
-#         (SEPTENARIUS, "Septenarius"),
-#         (TRIMETER, "Trimeter")
-#     ]
-#     verse_unit = models.CharField(max_length=3, choices=VERSE_UNIT_CHOICES, default="", null=True, blank=True)
-#
-#     IAMB = "IAM"
-#     TROCHEE = "TRO"
-#     SPONDEE = "SPO"
-#     ANAPEST = "ANA"
-#     DAKTYL = "DAK"
-#     TYPE_OF_METER_CHOICES = [
-#         ("", "Unspecified"),
-#         (IAMB, "Iamb"),
-#         (TROCHEE, "Trochee"),
-#         (SPONDEE, "Spondee"),
-#         (ANAPEST, "Anapest"),
-#         (DAKTYL, "Daktyl")
-#     ]
-#     type_of_meter = models.CharField(max_length=3, choices=TYPE_OF_METER_CHOICES, default="", null=True, blank=True)
-#
-#     ISOMETRIC = "ISO"
-#     HETEROMETRIC = "HET"
-#     STROPHIC_CHOICES = [
-#         ("", "Not strophic"),
-#         (ISOMETRIC, "Isometric"),
-#         (HETEROMETRIC, "Heterometric")
-#     ]
-#     strophic = models.CharField(max_length=3, choices=STROPHIC_CHOICES, default="", null=True, blank=True)
-#
-#     refrain = models.BooleanField()
-#
-#     def get_absolute_url(self):
-#         """Returns the URL to access a particular instance of the model."""
-#         return reverse('text-type-specification-poetry-detail', args=[str(self.id)])
-#
-#     def __str__(self):
-#         """String for representing the Model object (in Admin site etc.)"""
-#         return f"{self.verse_unit}, {self.type_of_meter}, {self.strophic}, refrain: {self.refrain}"
 
 
 class Source(models.Model):
@@ -203,13 +110,13 @@ class Source(models.Model):
 
     def get_absolute_url(self):
         """Returns the URL to access a particular instance of the model."""
-        return reverse('source-detail', args=[str(self.id)])
+        return reverse('source-detail', args=[str(self.pk)])
 
     def __str__(self):
         """String for representing the Model object (in Admin site etc.)"""
-        res = self.location + ", " + self.bib_id
-        if len(self.nick_name):
-            res += f' "{self.nick_name}"'
+        res = f"{self.location}, {self.bib_id}"
+        if len(str(self.nick_name)):
+            res += f" {self.nick_name}"
         return res
 
 
@@ -276,7 +183,7 @@ class Item(models.Model):
     @property
     def is_translated(self):
         import os.path
-        if os.path.isfile(staticfile_path('tei', self.file + '_PB.tei')):
+        if os.path.isfile(static_path(f"tei/{self.file}_PB.tei")):
             return True
         else:
             return False
@@ -284,35 +191,36 @@ class Item(models.Model):
     @property
     def is_svg_based(self):
         import os.path
-        if os.path.isfile(staticfile_path('img/mscz/svg/', self.file + '.svg')) or os.path.isfile(staticfile_path('img/mscz/svg/', self.file + '-1.svg')):
+        if os.path.isfile(static_path(f"img/mscz/svg/{self.file}.svg")) or os.path.isfile(static_path(f"img/mscz/svg/{self.file}-1.svg")):
             return True
         else:
             return False
 
     @property
     def tei_path(self):
-        return staticfile_path('tei', self.file + ".tei")
+        return static_path(f"tei/{self.file}.tei")
 
     @property
     def mei_path(self):
-        return staticfile_path('mei', self.file + ".mei")
+        return static_path(f"mei/{self.file}.mei")
+
+    def svg_files(self):
+        import os
+        # Order files: this assumes that each piece has less than 9 pages.
+        files = [file for file in os.listdir(static_path("img/mscz/svg")) if file.startswith(self.file)]
+        files.sort(key=lambda x: x[-5])
+        return files
 
     @property
     def svg_template(self):
-        import os
-        # Order files: this assumes that each piece has less than 9 pages.
-        files = [file for file in os.listdir(os.path.join(static_root, 'img/mscz/svg/')) if file.startswith(self.file)]
-        files.sort(key=lambda x: x[-5])
-        template = ''.join(['<img src="/staticfiles/img/mscz/svg/' + file + '" style="width: 100%; margin-bottom: -21mm;"/>' for file in files[:-1]])
-        template += '<img src="/staticfiles/img/mscz/svg/' + files[-1] + '" style="width: 100%;"/>'
+        svg_files = self.svg_files()
+        template = ''.join(['<img src="/staticfiles/img/mscz/svg/' + file + '" style="width: 100%; margin-bottom: -21mm;"/>' for file in svg_files[:-1]])
+        template += '<img src="/staticfiles/img/mscz/svg/' + svg_files[-1] + '" style="width: 100%;"/>'
         return template
 
     def pdf_template(self):
-        import os
-        # Order files: this assumes that each piece has less than 9 pages.
-        files = [file for file in os.listdir(os.path.join(static_root, 'img/mscz/svg/')) if file.startswith(self.file)]
-        files.sort(key=lambda x: x[-5])
-        template = ''.join(['<img src="/staticfiles/img/mscz/svg/' + file + '" style="width: 100%;"/>' for file in files])
+        svg_files = self.svg_files()
+        template = ''.join(['<img src="/staticfiles/img/mscz/svg/' + file + '" style="width: 100%;"/>' for file in svg_files])
         return template
 
     @property
@@ -415,19 +323,24 @@ class Item(models.Model):
                 return True
         return False
 
-    def transform(self, xsl_file, tei_file, indent=False, met=False):
+    def transform(self, xsl_file, tei_file=None, indent=False, met=False, n=None):
         # Given the xsl file (only filename, no path), transforms item's tei file
         # IMPORTANT: the xsl file must produce a tree with one root
         from lxml import etree, html
-        import os
-        xsl = etree.parse(staticfile_path('xsl', xsl_file))
+        if not tei_file:
+            tei_file = self.file
+        xsl = etree.parse(static_path(f"xsl/{xsl_file}"))
         transform = etree.XSLT(xsl)
-        xml = etree.parse(staticfile_path('tei', tei_file + '.tei'))
-        if met:
-            metify(xml)
-        result = transform(xml)
-        if indent:
-            indentify(result)
+        xml = etree.parse(static_path(f"tei/{tei_file}.tei"))
+        if n:
+            # Used for NeumeDetail view
+            result = transform(xml, n=str(n))
+        else:
+            if met:
+                metify(xml)
+            result = transform(xml)
+            if indent:
+                indentify(result)
 
         try:
             res = lxml.html.tostring(result).decode('UTF-8')
@@ -438,39 +351,25 @@ class Item(models.Model):
             print("Error: not able to convert")
             return ''
 
-    def neume_detail_transform(self, n):
-        from lxml import etree, html
-        xsl = etree.parse(staticfile_path('xsl', 'neume_detail.xsl'))
-        transform = etree.XSLT(xsl)
-        xml = etree.parse(self.tei_path)
-        result = transform(xml, n=str(n))
-        try:
-            res = lxml.html.tostring(result).decode('UTF-8')
-            # Add the static prefix to all neume images (difficult/impossible to do in xslt)
-            # Not clean, but the tree representation was not working
-            return res.replace('src="buranus', 'src="/staticfiles/img/glyphs/svg/buranus')
-        except:
-            return ''
-
     @property
     def continuous_transform(self):
-        return self.transform('continuous.xsl', self.file)
+        return self.transform('continuous.xsl')
 
     @property
     def formatted_transform(self):
-        return self.transform('formatted.xsl', self.file, indent=True, met=True)
+        return self.transform('formatted.xsl', indent=True, met=True)
 
     @property
     def neume_apparatus_transform(self):
-        return self.transform('neume-apparatus.xsl', self.file)
+        return self.transform('neume-apparatus.xsl')
 
     @property
     def text_apparatus_transform(self):
-        return self.transform('text-apparatus.xsl', self.file)
+        return self.transform('text-apparatus.xsl')
 
     @property
     def french_translation_transform(self):
-        return self.transform('french-translation.xsl', self.file + '_PB')
+        return self.transform('french-translation.xsl', tei_file=self.file + '_PB')
 
 
 class Neume(models.Model):

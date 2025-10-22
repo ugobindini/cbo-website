@@ -7,16 +7,7 @@ from lxml import etree
 from django.conf import settings
 
 from .volpiano import *
-
-if settings.LOCAL:
-	static_root = settings.STATICFILES_DIRS[0]
-else:
-	static_root = settings.STATIC_ROOT
-
-
-def staticfile_path(folder, filename):
-	import os.path
-	return os.path.join(os.path.join(static_root, folder), filename)
+from ..static_path import static_path
 
 
 def diff_to_str(n):
@@ -51,7 +42,7 @@ class Chant:
 		self.mode = None
 		self.sections = []
 
-		with open(staticfile_path("num", filename)) as file:
+		with open(static_path(f"num/{filename}")) as file:
 			lines = [line.rstrip() for line in file]
 			for line in lines:
 				if line.startswith('@'):
@@ -87,7 +78,7 @@ class Chant:
 				match_collection.add_match(Match(Melody(section[i:i + k + 1]), self, n))
 
 
-CHANTS = [Chant(filename) for filename in os.listdir(staticfile_path("num", ""))]
+CHANTS = [Chant(filename) for filename in os.listdir(static_path("num"))]
 
 
 class Melody:

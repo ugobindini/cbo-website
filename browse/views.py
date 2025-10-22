@@ -145,6 +145,6 @@ class NeumeDetailView(generic.DetailView):
         for item in Item.objects.all():
             k = item.count_neumes(n)
             if k:
-                context['items'].append((item, str(k), item.neume_detail_transform(n)))
+                context['items'].append((item, str(k), item.transform("neume-detail.xsl", n=n)))
 
         return context
