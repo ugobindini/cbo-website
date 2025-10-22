@@ -11,7 +11,10 @@
       $(this).toggleClass('active');
     });
   });
+</script>
 
+<script>
+  // Assign functions to each button
   $(document).ready(function(){
     $("#dropBtn-{{ item.pk }}").click(function () {
       $("#dropdownDiv-{{ item.pk }}").toggle();
@@ -100,12 +103,18 @@
 
 <script>
   $(document).ready(function(){
+    // Show only every 5th verse number
     $(".strophe,.refrain").each(function(){
       $(this).find(".verse-number").each(function(index){
         if (index % 5 != 4) {
           $(this).css("visibility", "hidden");
         }
       });
+    });
+    // Attach the punctuation marks to the word spans
+    $("span.pc").each(function(){
+      if ($(this).hasClass('pre')) { $(this).nextAll("span.word:first").prepend($(this)); }
+      else { $(this).prevAll("span.word:first").append($(this)); }
     });
   });
 </script>

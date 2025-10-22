@@ -100,11 +100,6 @@ p {
   align-items: flex-end;
 }
 
-.pre {
-  margin-left: 8px;
-  margin-right: -8px;
-}
-
 .neumed-syll {
   display: inline-flex;
   flex-direction: column-reverse;
