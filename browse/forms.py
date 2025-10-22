@@ -23,4 +23,5 @@ class MelodyGeneratorForm(forms.Form):
                             help_text="0: note repetition, u/U/d/D: up-/downwards (uppercase: allow note repetition), +/-: stepwise up-/downwards, ?: undefined.",
                             required=True)
     modes = forms.MultipleChoiceField(choices=[(str(n), n) for n in range(1, 9)] + [('0', 'P')], widget=forms.CheckboxSelectMultiple, required=False)
-
+    selected_neumes = forms.CharField(max_length=2048, widget=forms.HiddenInput(), required=False)
+    selected_patterns = forms.CharField(max_length=2048, widget=forms.HiddenInput(), required=False)

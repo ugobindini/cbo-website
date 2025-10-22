@@ -46,6 +46,8 @@ def browse_item(request):
 
 
 def melody_generator(request):
+    from django.db.models import Q
+    neumes = sorted(Neume.objects.filter(~Q(pattern="")), key=lambda n: n.count, reverse=True)
     # if this is a POST request we need to process the form data
     if request.method == "POST":
         # create a form instance and populate it with data from the request:
@@ -54,12 +56,23 @@ def melody_generator(request):
         if form.is_valid():
             modes = form.cleaned_data['modes']
             pattern = form.cleaned_data['pattern']
-            return render(request, "mel_gen.html", {"form": form, "result": match_pattern(pattern[1:], modes)})
+            n, result = match_pattern(pattern[1:], modes)
+            if n == 0:
+                result = ""
+            return render(request, "mel_gen.html", {"form": form,
+                                                    "neumes": neumes,
+                                                    "selected_neumes": form.cleaned_data['selected_neumes'],
+                                                    "selected_patterns": form.cleaned_data['selected_patterns'],
+                                                    "result": result})
 
     else:
         form = MelodyGeneratorForm()
 
-    return render(request, "mel_gen.html", {"form": form, "result": ""})
+    return render(request, "mel_gen.html", {"form": form,
+                                            "neumes": neumes,
+                                            "selected_neumes": "",
+                                            "selected_patterns": "",
+                                            "result": ""})
 
 def item_core_view(request, pk):
     item = Item.objects.get(pk=pk)

@@ -1,13 +1,30 @@
 {% extends "base_generic.html" %}
 
+{% load static %}
+
 {% block title %}
 <title>MelGen</title>
 {% endblock %}
 
 {% block content %}
 <div class="flex-column" style="flex: 50%">
+  <div style="margin: 10px;">
+    {% for neume in neumes %}
+      <div style="display: inline-block; margin: 1px; padding: 2px; border: 1px solid Red; height: 25px;" class="clickable" onclick="append_neume('{% static neume.svg_path %}', '{{ neume.pattern }}');">
+        <img src="{% static neume.svg_path %}" />
+      </div>
+    {% endfor %}
+  </div>
+  <label style="margin: 10px;">Selected neumes:</label>
+  <div style="height: 30px; border: 1px solid LightGrey; border-radius: 5px; margin: 0 10px;">
+    <span id="selected-neumes"></span>
+    <span class="clickable" onclick="delete_last();" style="float: right; height: 30px; width: 30px;">
+      <img src="{% static 'img/delete.svg' %}" style="height: 100%; width: 100%; object-fit: contain;"/>
+    </span>
+  </div>
   <div class="formContainer">
     <form action="/browse/mel-gen/" method="post">
+      <!--<input type="hidden" name="selected_neumes" value="" />-->
       {% csrf_token %}
       {{ form }}
       <input class="cbo-button" type="submit" value="Search">
@@ -31,13 +48,45 @@
     display: none;
     overflow: hidden;
   }
+  .clickable {
+    cursor: pointer;
+  }
 </style>
 <script>
   $(document).ready(function(){
+    if ('{{ selected_neumes }}'.length) {
+      array = '{{ selected_neumes }}'.split(",")
+      el = $("#selected-neumes");
+      for (let i = 1; i < array.length; i++) {
+        el.append("<img src=" + array[i] + " />");
+      }
+    }
     $(".collapsible").click(function () {
       var content = $(this).next();
       content.toggle();
     });
   });
+
+  function append_neume(path, pattern) {
+    el = $("input[name=pattern]");
+    el.val(el.val() + pattern);
+    el = $("#selected-neumes");
+    el.append("<img src=" + path + " />");
+    el = $("input[name=selected_neumes]");
+    el.val([el.val(), path].join());
+    el = $("input[name=selected_patterns]");
+    el.val([el.val(), pattern].join());
+  }
+  function delete_last() {
+    $("#selected-neumes").find("img:last").remove();
+    el = $("input[name=selected_patterns]");
+    array = el.val().split(",");
+    last_pattern = array[array.length - 1];
+    el.val(el.val().split(",").slice(0,-1).join());
+    el = $("input[name=pattern]");
+    el.val(el.val().slice(0, -last_pattern.length));
+    el = $("input[name=selected_neumes]");
+    el.val(el.val().split(",").slice(0,-1).join());
+  }
 </script>
 {% endblock %}

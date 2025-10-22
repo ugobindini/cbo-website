@@ -1,5 +1,5 @@
 {% for field in form %}
-  <div class="formField">
+  <div class="formField" id="field_{{ field.name }}">
     {{ field.errors }}
     {{ field.label_tag }}
     {{ field }}
@@ -36,5 +36,9 @@ input[type=submit] {
 .formField {
   border-radius: 5px;
   padding: 10px;
+}
+
+#field_selected_neumes,#field_selected_patterns {
+  display: none;
 }
 </style>

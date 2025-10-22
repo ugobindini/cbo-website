@@ -180,4 +180,4 @@ def match_pattern(pattern, modes):
 	for chant in chants:
 		chant.match(match_collection, pattern)
 
-	return etree.tostring(match_collection.html(), pretty_print=True).decode("utf-8")
+	return len(match_collection.matches.keys()), etree.tostring(match_collection.html(), pretty_print=True).decode("utf-8")
