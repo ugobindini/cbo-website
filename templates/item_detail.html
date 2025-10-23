@@ -89,6 +89,11 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
+.download-logo {
+  height: 40px;
+  width: 40px;
+}
 </style>
 
 <script>
@@ -163,11 +168,15 @@ p {
       <p>Source: <a href="{{ item.source.get_absolute_url }}">{{ item.source.bib_id }}</a> ({{ item.source.location }})</p>
       <p>Folio: {{ item.foliation_str }}</p>
     </div>
-    <div style="flex: 1">
-      <h5>Download options</h5>
-      <a href="{% static 'tei/' %}{{ item.file }}.tei" download="{{ item.file }}.tei"><img src="{% static 'img/TEI_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
-      <a href="{% static 'html/' %}{{ item.file }}.html" download="{{ item.file }}.html"><img src="{% static 'img/HTML_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
-      <a id="pdf-download" style="cursor: pointer;"><img src="{% static 'img/PDF_Logo.svg' %}" style="width: 42px; height:42px;" /></a>
+    <div style="flex: 1; padding: 5px;">
+      <h4>Download options</h4>
+      <a href="{% static 'tei/' %}{{ item.file }}.tei" download="{{ item.file }}.tei"><img class="download-logo" src="{% static 'img/TEI_Logo.svg' %}" /></a>
+      <a href="{% static 'html/' %}{{ item.file }}.html" download="{{ item.file }}.html"><img class="download-logo" src="{% static 'img/HTML_Logo.svg' %}" /></a>
+      <a id="pdf-download" style="cursor: pointer;"><img class="download-logo" src="{% static 'img/PDF_Logo.svg' %}" /></a>
+      <h6>French translation</h6>
+      <a href="{% static 'tei/' %}{{ item.file }}_PB.tei" download="{{ item.file }}_french.tei"><img class="download-logo" src="{% static 'img/TEI_Logo.svg' %}" /></a>
+      <a href="{% static 'html/' %}{{ item.file }}_PB.html" download="{{ item.file }}_french.html"><img class="download-logo" src="{% static 'img/HTML_Logo.svg' %}" /></a>
+      <a id="pdf-download-french" style="cursor: pointer;"><img class="download-logo" src="{% static 'img/PDF_Logo.svg' %}" /></a>
     </div>
   </div>
 
@@ -213,6 +222,29 @@ p {
         }).set(opt).from(element).toContainer().toCanvas().toPdf().save();
       }
     });
+    $("#pdf-download-french").click(function() {
+      var pdfHead = document.createElement("div");
+      $("#translationButton").click();
+      pdfHead.innerHTML = "<h1>CB {{ item.abstract_item.cb_id }}</h1><h2>{{ item.title }}</h2><p>Source: {{ item.source.bib_id }} ({{ item.source.location }})</p><p>Folio: {{ item.foliation_str }}</p>";
+      pdfHead.innerHTML += "<p style='margin-top: 200px;'>Carmina Burana Online Project<p><p>Edited by C. Cazaux, L. Albiero, U. Bindini, M. Romanens</p>";
+      pdfHead.innerHTML += "<p style='margin-top: 200px;'>French translation by Pascale Bourgain<p>";
+      headOpt = {
+        margin: [20, 15, 20, 15],
+        image: { type: 'jpeg', quality: 1 },
+        html2canvas: { scrollY: 0, y: 0, scale: 4, letterRendering: true }
+      };
+      var opt = {
+        margin: [17, 15, 16, 15],
+        filename: 'CB{{ item.abstract_item.cb_id }}_french.pdf',
+        pagebreak: { mode: 'css', avoid: '.lg-heading' },
+        image: { type: 'jpeg', quality: 1 },
+        html2canvas: { scrollY: 0, y: 0, scale: 4, letterRendering: true }
+      };
+      var element = $("#translation")[0];
+      html2pdf().set(headOpt).from(pdfHead).toPdf().get('pdf').then(function (pdf) {
+        pdf.addPage();
+      }).set(opt).from(element).toContainer().toCanvas().toPdf().save();
+    });
   </script>
 
   <div style="display: flex;">
@@ -226,7 +258,7 @@ p {
       <div class="tab cbo-white cbo-wide cbo-padding cbo-card right">
         <button id="defaultOpenRight" class="tablinks cbo-bar-item cbo-button activable" onclick="openRightTab(this, 'msImage')">Manuscript</button>
         <button class="tablinks cbo-bar-item cbo-button activable" onclick="openRightTab(this, 'commentary')">Critical commentary</button>
-        <button class="tablinks cbo-bar-item cbo-button activable" onclick="openRightTab(this, 'translation')">French translation</button>
+        <button id="translationButton" class="tablinks cbo-bar-item cbo-button activable" onclick="openRightTab(this, 'translation')">French translation</button>
         <button id="itemsRight" class="tablinks cbo-bar-item cbo-button activable" onclick="openRightTab(this, 'itemRight')">Item...</button>
       </div>
 

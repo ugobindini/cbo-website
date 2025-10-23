@@ -8,23 +8,29 @@ import os
 def to_paragraph(p):
 	# parsing this element as paragraph (no more tags needed)
 	res = ""
-	for el in p.xpath(".//w|.//pc[@resp='#editor']"):
-		if el.xpath("./ancestor::rdg") or el.xpath("./ancestor::note"):
-			# exclude words in app-readings or app-notes
-			pass
-		else:
-			syllables = el.xpath("./seg[@type='syll']|./app[@type='neume']/lem/seg[@type='syll']")
-			if not len(syllables):
-				res += el.text
+	elements = p.xpath(".//w|.//pc[@resp='#editor']")
+	if len(elements):
+		# A latin/german text
+		for el in p.xpath(".//w|.//pc[@resp='#editor']"):
+			if el.xpath("./ancestor::rdg") or el.xpath("./ancestor::note"):
+				# exclude words in app-readings or app-notes
+				pass
 			else:
-				res += "".join([syllable.text for syllable in syllables])
-		res += " "
-	for pc in [',', ';', ':', '.', '!', '?', '»']:
-		for i in range(3):
-			res = res.replace(f" {pc}", pc)
-	for pc in ['«']:
-		for i in range(3):
-			res = res.replace(f"{pc} ", pc)
+				syllables = el.xpath("./seg[@type='syll']|./app[@type='neume']/lem/seg[@type='syll']")
+				if not len(syllables):
+					res += el.text
+				else:
+					res += "".join([syllable.text for syllable in syllables])
+			res += " "
+		for pc in [',', ';', ':', '.', '!', '?', '»']:
+			for i in range(3):
+				res = res.replace(f" {pc}", pc)
+		for pc in ['«']:
+			for i in range(3):
+				res = res.replace(f"{pc} ", pc)
+	else:
+		res = p.text
+
 	return res
 
 

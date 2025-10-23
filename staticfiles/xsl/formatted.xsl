@@ -128,7 +128,7 @@
       <xsl:when test="@n=1">
         <!-- Create extra div to avoid breaks between strophe/refrain heading and first verse -->
         <div class="no-break non-selectable">
-          <div class="lg-heading"><xsl:value-of select="$lgHead"/></div>
+          <div class="lg-heading selectable"><xsl:value-of select="$lgHead"/></div>
           <xsl:call-template name="verse-content" />
         </div>
       </xsl:when>
@@ -139,8 +139,8 @@
   </xsl:template>
 
   <xsl:template name="verse-content">
-    <div class="verse">
-      <div class="verse-number">
+    <div class="verse selectable">
+      <div class="verse-number non-selectable">
         <xsl:value-of select="@n"/>
       </div>
       <div class="verse-text">
