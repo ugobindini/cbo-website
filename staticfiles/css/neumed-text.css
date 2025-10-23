@@ -108,6 +108,7 @@ p {
 .neumes {
   display: inline-flex;
   align-items: flex-end;
+  height: 24px;
 }
 
 .neume {

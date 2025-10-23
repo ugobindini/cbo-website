@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+
+# Rendering the .tei files as html, with basic formatting (italics, bold) and no musical information
+
 import os
 
 
@@ -23,6 +26,7 @@ def to_paragraph(p):
 		for i in range(3):
 			res = res.replace(f"{pc} ", pc)
 	return res
+
 
 def to_html(tei_file):
 	res = "<html>\n<body>\n"
@@ -50,18 +54,6 @@ def to_html(tei_file):
 	res += "</html>\n</body>\n"
 	return res
 
-def transform(tei_file):
-	from lxml import etree, html
-	xsl = etree.parse('xsl/plain_html.xsl')
-	transform = etree.XSLT(xsl)
-	xml = etree.parse('tei/' + tei_file)
-	result = transform(xml)
-
-	try:
-		return html.tostring(result).decode('UTF-8')
-	except:
-		print("Error: not able to convert")
-		return ''
 
 if __name__ == "__main__":
 	for file in os.listdir('tei'):

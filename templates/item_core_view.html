@@ -113,8 +113,16 @@
     });
     // Attach the punctuation marks to the word spans
     $("span.pc").each(function(){
-      if ($(this).hasClass('pre')) { $(this).nextAll("span.word:first").prepend($(this)); }
-      else { $(this).prevAll("span.word:first").append($(this)); }
+      if ($(this).hasClass('pre')) {
+        next = $(this).next("span");
+        if (next.hasClass("word")) { next.prepend($(this)); }
+        else { next.find("span.word:first").prepend($(this)); }
+      }
+      else {
+        prev = $(this).prev("span");
+        if (prev.hasClass("word")) { prev.append($(this)); }
+        else { prev.find("span.word:last").append($(this)); }
+      }
     });
   });
 </script>

@@ -25,7 +25,7 @@
   <h2>Occurrences in the edited items</h2>
 
   {% for item, k, snippet in items %}
-  <p style="margin-top: 20px;">CB {{ item.abstract_item.cb_id }} <a href="{{ item.get_absolute_url }}">{{ item.title }}</a> ({{ k }})</p>
+  <p style="margin-top: 20px;"><a href="{{ item.abstract_item.get_absolute_url }}">CB {{ item.abstract_item.cb_id }}</a> <a href="{{ item.get_absolute_url }}">{{ item.title }}</a> ({{ k }})</p>
   <div class="cbo-border-inset cbo-border-sand">
     {% autoescape off %}
       {{ snippet }}
@@ -37,7 +37,6 @@
 <script src="{% static 'javascript/set_leading_consonants.js' %}"></script>
 <script>
   $(document).ready(function(){
-    //add the prefix to link a static file to all neumes (glyphs)
     $(".pc[data-resp='ms']").hide();
     $(".word[data-rend='italic']").css("font-style", "italic");
     $(".syl-dash").hide();
