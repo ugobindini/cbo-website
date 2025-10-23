@@ -1,3 +1,12 @@
 # Carmina Burana Online: website
 
-This website, based on Django templates, is meant for internal use (keeping sources, pieces up to date).
+The website of the Carmina Burana Online Project (Schola Cantorum Basiliensis, 2024-2027).
+
+Hosted on [pythonanywhere](https://cbo.pythonanywhere.com)
+
+## Local servering
+
+```
+source .venv/bin/activate
+python3 manage.py runserver
+```
