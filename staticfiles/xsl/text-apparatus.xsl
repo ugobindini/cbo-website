@@ -26,7 +26,10 @@
       <xsl:if test="ancestor::sp"><xsl:value-of select="ancestor::sp/@n" />.</xsl:if>
       <xsl:choose>
         <xsl:when test="ancestor::lg[@type='refrain']">Refl.<xsl:value-of select="ancestor::l/@n"/></xsl:when>
-        <xsl:when test="ancestor::lg"><xsl:value-of select="ancestor::lg/@n" />.<xsl:value-of select="ancestor::l/@n"/></xsl:when>
+        <xsl:when test="ancestor::lg">
+          <xsl:if test="ancestor::lg/@n"><xsl:value-of select="ancestor::lg/@n" />.</xsl:if>
+          <xsl:value-of select="ancestor::l/@n"/>
+        </xsl:when>
       </xsl:choose>
     </b>
 

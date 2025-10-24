@@ -15,20 +15,21 @@
   </xsl:template>
 
   <xsl:template match="app[@type='neume']">
-    <b style="display: inline-flex; margin-right: 5px;"><xsl:value-of select="ancestor::lg/@n"/>.<xsl:value-of select="ancestor::l/@n"/></b>
-    <!-- TODO: how to handle prose and plays -->
-    <xsl:apply-templates select="./lem/*" />
-    <i style="display: inline-flex;"><xsl:value-of select="./lem/@wit" /></i>
-    <xsl:if test="./rdg">
+    <!-- Numbering -->
+    <b style="margin-right: 6px;">
+      <xsl:if test="ancestor::sp"><xsl:value-of select="ancestor::sp/@n" />.</xsl:if>
       <xsl:choose>
-        <xsl:when test="./lem/@wit">
-          <span style="display: inline-flex; margin-left: 3px;">]</span>
+        <xsl:when test="ancestor::lg[@type='refrain']">Refl.<xsl:value-of select="ancestor::l/@n"/></xsl:when>
+        <xsl:when test="ancestor::lg">
+          <xsl:if test="ancestor::lg/@n"><xsl:value-of select="ancestor::lg/@n" />.</xsl:if>
+          <xsl:value-of select="ancestor::l/@n"/>
         </xsl:when>
-        <xsl:otherwise>
-          <span style="display: inline-flex; margin-left: -5px;">]</span>
-        </xsl:otherwise>
       </xsl:choose>
-    </xsl:if>
+    </b>
+
+    <!-- lem, rdg and note -->
+    <xsl:apply-templates select="./lem" />
+    <xsl:apply-templates select="./rdg" />
     <xsl:apply-templates select="./note" />
   </xsl:template>
 
