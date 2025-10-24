@@ -50,7 +50,6 @@
         <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
       </span>
       <span class="neumes non-selectable">
-        <span class="consonant-space"><xsl:value-of select="normalize-space($text)"/></span>
         <xsl:for-each select="notatedMusic/neume">
           <img class="neume-small">
             <xsl:attribute name="src"><xsl:value-of select="@fontname"/><xsl:value-of select="@glyph.num"/>.svg</xsl:attribute>
