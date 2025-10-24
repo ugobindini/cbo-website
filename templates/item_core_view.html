@@ -124,6 +124,17 @@
         else { prev.find("span.word:last").append($(this)); }
       }
     });
+    // Attach the punctuation marks to syl-text
+    $("span.pc").each(function(){
+      if ($(this).hasClass('pre')) {
+        next_syl = $(this).next(".neumed-syll");
+        next_syl.find(".syl > .syl-text").prepend($(this));
+      }
+      else {
+        prev_syl = $(this).prev(".neumed-syll");
+        prev_syl.find(".syl > .syl-text").append($(this));
+      }
+    });
   });
 </script>
 
