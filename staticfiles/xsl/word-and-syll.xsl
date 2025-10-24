@@ -14,6 +14,9 @@
     <xsl:variable name="text"><xsl:value-of select="./text()"/></xsl:variable>
     <span class="neumed-syll">
       <span class="syl text-font">
+        <xsl:if test="@part='I' or  @part='M'">
+          <xsl:attribute name="data-dash">dashed</xsl:attribute>
+        </xsl:if>
         <xsl:choose>
           <xsl:when test="@met='+'">
             <span class="syl-text stressed-syl">
@@ -26,9 +29,6 @@
             </span>
           </xsl:otherwise>
         </xsl:choose>
-        <span class="syl-dash">
-          <xsl:if test="@part='I' or  @part='M'"><xsl:text>-</xsl:text></xsl:if>
-        </span>
       </span>
       <xsl:if test="./notatedMusic">
         <span class="neumes non-selectable">

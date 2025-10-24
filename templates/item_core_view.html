@@ -57,7 +57,17 @@
     });
 
     $("#toggleSyllablesButton-{{ item.pk }}").click(function(){
-      $("#itemCoreView-{{ item.pk }} .syl-dash").toggle();
+      // Add (or remove) syllable dashes. Note: the button is activated before this script is called
+      if ($(this).hasClass('active')) {
+        $("span[data-dash='dashed'] > .syl-text").each(function() {
+          $(this).text($(this).text() + '-');
+        });
+      }
+      else {
+        $("span[data-dash='dashed'] > .syl-text").each(function() {
+          $(this).text($(this).text().slice(0,-1));
+        });
+      }
     });
 
     $("#toggleMetricButton-{{ item.pk }}").click(function(){
