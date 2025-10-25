@@ -6,9 +6,9 @@ function textWidth(text, context) {
 $(document).ready(function(){
   const canvas = document.createElement("canvas");
   const context = canvas.getContext("2d");
-  // TODO: smaller font for apparatus
+  // TODO: smaller font for apparatus?
   $(".neumed-syll").each(function() {
-    consonants = $(this).find(".syl-text").text().split(/[aeiouAEIOUyYůöǒêœ].*/);
+    consonants = $(this).find(".syl-text").text().split(/[aeiouAEIOUyYůöǒêœî].*/);
     $(this).children(".neumes").css('padding-left', textWidth(consonants, context));
   });
 });
