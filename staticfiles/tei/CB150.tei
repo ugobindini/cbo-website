@@ -61,12 +61,15 @@
               </seg>
             </w>
             <app type="text">
-              <lem wit="cod. V">
+              <lem wit="HS T">
                 <w>
                   <seg type="syll">que<notatedMusic>
                     <neume fontname="buranus" glyph.num="7" label="vi" />
                   </notatedMusic>
                   </seg>
+                </w>
+                <w>
+                  <seg type="syll">tam</seg>
                 </w>
                 <w>
                   <seg type="syll" part="I">di<notatedMusic>
@@ -79,7 +82,7 @@
                   </seg>
                 </w>
               </lem>
-              <rdg wit="HS T"><w>que</w><w>tam</w><w>diu</w></rdg>
+              <rdg wit="cod. V"><w>que</w><w>diu</w></rdg>
             </app>
             <w>
               <seg type="syll" part="I">mar<notatedMusic>
