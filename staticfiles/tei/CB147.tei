@@ -2,7 +2,7 @@
   <teiHeader />
   <text>
     <body>
-      <div type="poem" met="4p+4p/5pp/4p+4p/5pp/7pp/4p+4p/5pp" rhyme="a+a/b/c+c/b/d/b/d">
+      <div type="poem" met="4p+4p/5pp/4p+4p/5pp/7pp/4p+4p/5pp" rhyme="a+a/b/c+c/b/d/e+e/d">
         <head>Item</head>
         <lg type="strophe" n="I">
           <l n="1">
@@ -919,7 +919,7 @@
               </seg>
             </w>
             <w>
-              <seg type="syll" part="I">ie<notatedMusic>
+              <seg type="syll" part="I">je<notatedMusic>
                 <neume fontname="buranus" glyph.num="49" label="cl" />
               </notatedMusic>
               </seg>

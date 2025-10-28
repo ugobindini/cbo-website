@@ -893,18 +893,23 @@
             <w>
               <seg type="syll">irm</seg>
             </w>
-            <w>
-              <seg type="syll" part="I" met="+">su&#870;</seg>
-              <seg type="syll" part="F">ze</seg>
-            </w>
             <app type="text">
-              <lem wit="V">
+              <lem wit="HS T">
                 <w>
-                  <seg type="syll" part="I" met="+">lei</seg>
+              <seg type="syll" part="I" met="+">su&#870;</seg>
+              <seg type="syll" part="F">zen</seg>
+            </w>
+              </lem>
+              <rdg wit="cod. V"><w>su&#870;ze</w></rdg>
+            </app>
+            <app type="text">
+              <lem wit="HS T">
+                <w>
+                  <seg type="syll" part="I" met="+">li</seg>
                   <seg type="syll" part="F">be</seg>
                 </w>
               </lem>
-              <rdg wit="HS T"><w>libe</w></rdg>
+              <rdg wit="cod. V"><w>leibe</w></rdg>
               <note><w>liebe</w> del. et corr. s.l. man. r. <w>leibe</w></note>
             </app>
             <pc>&#183;</pc>

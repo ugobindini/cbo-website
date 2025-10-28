@@ -32,9 +32,11 @@ if __name__ == "__main__":
 
 		for n, sp in enumerate(tree.findall(".//sp")):
 			sp.set('n', str(n+1))
+		for n, st in enumerate(tree.findall(".//stage")):
+			st.set('n', str(n+1))
 
 		#####
 		#####
 
-		# tree.write(name)
-		tree.write("test_" + name)
+		tree.write(name)
+		# tree.write("test_" + name)
