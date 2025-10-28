@@ -49,7 +49,7 @@
               </seg>
             </w>
           </l>
-          <l n="2" met="8pp">
+          <l n="2">
             <w>
               <seg type="syll" part="I">tel<notatedMusic>
                 <neume fontname="buranus" glyph.num="1" label="pu" />
@@ -360,16 +360,19 @@
               <seg type="syll" part="F">o</seg>
             </w>
           </l>
-          <l n="6" met="7pp">
+          <l n="6">
             <app type="text">
-              <lem wit="cod. V">
+              <lem wit="HS T">
+                <w>
+                  <seg type="syll">iam</seg>
+                </w>
                 <w>
                   <seg type="syll" part="I">iu</seg>
                   <seg type="syll" part="M">ve</seg>
                   <seg type="syll" part="F">num</seg>
                 </w>
               </lem>
-              <rdg wit="HS T"><w>iam</w><w>iuvenum</w></rdg>
+              <rdg wit="cod. V"><w>iuvenum</w></rdg>
             </app>
             <w>
               <seg type="syll" part="I">mi</seg>
@@ -522,7 +525,7 @@
             <pc resp="#editor">!</pc>
           </l>
         </lg>
-        <lg type="strophe" xml:lang="middle-high-german" n="IV" met="4-/A5/4-/5/A4/A4/A4" rhyme="a/b/a/b/b//b">
+        <lg type="strophe" xml:lang="middle-high-german" n="IV" met="4-/2A5/4-/5/A4/A4/A4" rhyme="a/b/a/b/b//b">
           <l n="1">
             <w>
               <seg type="syll">Ich<notatedMusic>
