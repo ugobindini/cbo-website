@@ -118,7 +118,7 @@
   </xsl:template>
 
   <xsl:template name="verse-content">
-    <div class="verse selectable">
+    <div class="verse">
       <xsl:if test="@rend">
         <xsl:variable name="rend" select="@rend"/>
         <xsl:variable name="indent" select="substring-after($rend, '(')"></xsl:variable>
@@ -127,7 +127,7 @@
       <div class="verse-number non-selectable">
         <xsl:value-of select="@n"/>
       </div>
-      <div class="verse-text" style="margin-left: 8px;">
+      <div class="verse-text selectable" style="margin-left: 8px;">
         <xsl:apply-templates/>
       </div>
     </div>

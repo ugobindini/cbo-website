@@ -139,11 +139,11 @@
   </xsl:template>
 
   <xsl:template name="verse-content">
-    <div class="verse selectable">
+    <div class="verse">
       <div class="verse-number non-selectable">
         <xsl:value-of select="@n"/>
       </div>
-      <div class="verse-text">
+      <div class="verse-text selectable">
         <xsl:apply-templates/>
       </div>
       <div class="verse-met non-selectable">
