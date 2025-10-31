@@ -35,34 +35,36 @@ class Pattern:
 		self.regex = re.compile("(?=" + "".join([PATTERN_TO_REGEX[c] for c in self.pattern]) + ")")
 
 
+META_KEYS = ['Repertory', 'Title', 'Author', 'Mode']
+
 class Chant:
-	def __init__(self, filename):
+	def __init__(self, repertory, filename):
 		self.filename = filename
-		self.title = None
-		self.mode = None
+		self.metadata = {'Repertory': repertory, 'Title': '', 'Author': '', 'Mode': ''}
+		self.mode = 0
 		self.sections = []
 
-		with open(static_path(f"num/{filename}")) as file:
+		with open(static_path(f"num/{repertory}/{filename}")) as file:
 			lines = [line.rstrip() for line in file]
 			for line in lines:
 				if line.startswith('@'):
-					self.title = line[1:]
-				elif line.startswith('$'):
-					self.mode = int(line[1:])
+					key, value = line[1:].split(':', 1)
+					if key == 'Mode':
+						self.mode = int(value)
+						if self.mode == 0:
+							value = ''
+					self.metadata[key] = value
 				elif len(line):
 					self.sections.append([int(s) for s in line.split(' ')])
 
 	def __hash__(self):
-		return (str(self.mode) + self.title).__hash__()
+		return (self.metadata['Repertory'][0] + self.filename).__hash__()
 
 	def __eq__(self, other):
 		return self.__hash__() == other.__hash__()
 
 	def __repr__(self):
-		return "\n".join([self.title, self.mode, self.sections.__repr__()])
-
-	def meta(self):
-		return f"{self.chant.title} ({self.chant.mode})"
+		return "\n".join([self.metadata.__repr__(), self.sections.__repr__()])
 
 	def match(self, match_collection, pattern):
 		"""
@@ -78,7 +80,7 @@ class Chant:
 				match_collection.add_match(Match(Melody(section[i:i + k + 1]), self, n))
 
 
-CHANTS = [Chant(filename) for filename in os.listdir(static_path("num"))]
+CHANTS = [Chant('gregorian', filename) for filename in os.listdir(static_path("num/gregorian"))] + [Chant('troubadour', filename) for filename in os.listdir(static_path("num/troubadour"))]
 
 
 class Melody:
@@ -135,17 +137,19 @@ class MatchCollection:
 			volp.text = sequence_to_volpiano(k)
 			root.append(volp)
 			table = etree.Element('table')
-			# th = etree.Element('th')
-			# th.extend([etree.Element('td', text='Title'), etree.Element('td', text='Mode'), etree.Element('td', text='Section(s)')])
-			# table.append(th)
+			tr = etree.Element('tr')
+			tr.extend([etree.fromstring(f"<th>{name}</th>") for name in ['Title', 'Author', 'Mode', 'Section(s)']])
+			table.append(tr)
 
 			for chant in set([match.chant for match in self.matches[k]]):
 				chant_matches = [match for match in self.matches[k] if match.chant == chant]
 				tr = etree.Element('tr')
-				sections = ", ".join(sorted(list(set([str(m.section) for m in chant_matches]))))
-				tr.extend([etree.fromstring(f"<td class='title'>{chant.title}</td>"),
-				           etree.fromstring(f"<td class='mode'>{chant.mode}</td>"),
-				           etree.fromstring(f"<td class='sections'>{sections}</td>")])
+				sections = ", ".join(sorted(list(set([str(m.section + 1) for m in chant_matches]))))
+				# TODO: Add links in the title to Cantus database and Troubadour database
+				tr.extend([etree.fromstring(f"<td>{chant.metadata['Title']}</td>"),
+				           etree.fromstring(f"<td>{chant.metadata['Author']}</td>"),
+				           etree.fromstring(f"<td>{chant.metadata['Mode']}</td>"),
+				           etree.fromstring(f"<td>{sections}</td>")])
 				table.append(tr)
 
 			if len(table.findall(".//tr")) > 1:
@@ -159,12 +163,20 @@ class MatchCollection:
 		return etree.ElementTree(root)
 
 
-def match_pattern(pattern, modes):
+def match_pattern(pattern, repertory, modes):
+	for chant in CHANTS:
+		if 'Title:' in chant.metadata['Title']:
+			print(chant.filename)
 	pattern = Pattern(pattern)
-	if len(modes):
-		chants = [chant for chant in CHANTS if str(chant.mode) in modes]
+	if len(repertory) == 1:
+		if '0' in repertory:
+			chants = [chant for chant in CHANTS if str(chant.metadata['Repertory']) == 'troubadour']
+		else:
+			chants = [chant for chant in CHANTS if str(chant.metadata['Repertory']) == 'gregorian']
 	else:
 		chants = CHANTS
+	if len(modes):
+		chants = [chant for chant in chants if str(chant.mode) in modes]
 
 	match_collection = MatchCollection()
 
