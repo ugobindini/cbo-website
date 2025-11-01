@@ -37,11 +37,16 @@ class Pattern:
 
 META_KEYS = ['Repertory', 'Title', 'Author', 'Mode']
 
+
 class Chant:
 	def __init__(self, repertory, filename):
 		self.filename = filename
 		self.metadata = {'Repertory': repertory, 'Title': '', 'Author': '', 'Mode': ''}
-		self.mode = 0
+		if repertory == 'gregorian':
+			self.url = "https://gregobase.selapa.net/chant.php?id=" + filename[:-4].lstrip('0')
+		else:
+			self.url = "https://www.troubadourmelodies.org/melodies/" + filename[:-4]
+		self.mode = 0  # integer value, 0 for 'other'
 		self.sections = []
 
 		with open(static_path(f"num/{repertory}/{filename}")) as file:
@@ -80,7 +85,8 @@ class Chant:
 				match_collection.add_match(Match(Melody(section[i:i + k + 1]), self, n))
 
 
-CHANTS = [Chant('gregorian', filename) for filename in os.listdir(static_path("num/gregorian"))] + [Chant('troubadour', filename) for filename in os.listdir(static_path("num/troubadour"))]
+CHANTS = [Chant('gregorian', filename) for filename in os.listdir(static_path("num/gregorian"))] + [
+	Chant('troubadour', filename) for filename in os.listdir(static_path("num/troubadour"))]
 
 
 class Melody:
@@ -138,7 +144,10 @@ class MatchCollection:
 			root.append(volp)
 			table = etree.Element('table')
 			tr = etree.Element('tr')
-			tr.extend([etree.fromstring(f"<th>{name}</th>") for name in ['Title', 'Author', 'Mode', 'Section(s)']])
+			tr.extend([etree.fromstring(f"<th style='width: 50%;'>Title</th>"),
+			           etree.fromstring(f"<th style='width: 30%;'>Author</th>"),
+			           etree.fromstring(f"<th style='width: 10%;'>Mode</th>"),
+			           etree.fromstring(f"<th style='width: 10%;'>Section(s)</th>")])
 			table.append(tr)
 
 			for chant in set([match.chant for match in self.matches[k]]):
@@ -146,16 +155,16 @@ class MatchCollection:
 				tr = etree.Element('tr')
 				sections = ", ".join(sorted(list(set([str(m.section + 1) for m in chant_matches]))))
 				# TODO: Add links in the title to Cantus database and Troubadour database
-				tr.extend([etree.fromstring(f"<td>{chant.metadata['Title']}</td>"),
-				           etree.fromstring(f"<td>{chant.metadata['Author']}</td>"),
-				           etree.fromstring(f"<td>{chant.metadata['Mode']}</td>"),
-				           etree.fromstring(f"<td>{sections}</td>")])
+				tr.extend(
+					[etree.fromstring(f"<td><a target='blank' href='{chant.url}'>{chant.metadata['Title']}</a></td>"),
+					 etree.fromstring(f"<td>{chant.metadata['Author']}</td>"),
+					 etree.fromstring(f"<td>{chant.metadata['Mode']}</td>"), etree.fromstring(f"<td>{sections}</td>")])
 				table.append(tr)
 
-			if len(table.findall(".//tr")) > 1:
+			if len(table.findall(".//tr")) > 2:
 				button = etree.Element('button')
 				button.set('class', 'collapsible')
-				button.text = f"Show {len(table.findall('.//tr'))} chants"
+				button.text = f"Show {len(table.findall('.//tr')) - 1} chants"
 				root.append(button)
 				table.set('class', 'hidden-table')
 			root.append(table)
@@ -183,4 +192,5 @@ def match_pattern(pattern, repertory, modes):
 	for chant in chants:
 		chant.match(match_collection, pattern)
 
-	return len(match_collection.matches.keys()), etree.tostring(match_collection.html(), pretty_print=True).decode("utf-8")
+	return len(match_collection.matches.keys()), etree.tostring(match_collection.html(), pretty_print=True).decode(
+		"utf-8")
