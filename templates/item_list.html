@@ -7,8 +7,25 @@
 <div style="flex: 70%">
   <h1>Item List</h1>
 
+  <input type="text" id="searchInput" onkeyup="filterItems()" placeholder="Search...">
+  <script>
+    // This script makes the search input work
+    function filterItems() {
+      let filter = $("#searchInput").val().toLowerCase();
+      $("tr:not(.head)").each(function() {
+        let txt = '';
+        $(this).children("td").each(function() { txt += $(this).text() + "|"; });
+        console.log(txt)
+        if (txt.toLowerCase().indexOf(filter) > -1) {
+          $(this).show();
+        } else {
+          $(this).hide();
+        }
+      });
+    }
+  </script>
   <table style="width: 100%; border-spacing: 0 2px;">
-    <tr>
+    <tr class="head">
       <th>CB #</th>
       <th>Title</th>
       <th>Source</th>
@@ -43,6 +60,10 @@
 <style>
   th {
     text-align: left;
+  }
+
+  #searchInput {
+    width: 100%;
   }
 </style>
 {% endblock %}
