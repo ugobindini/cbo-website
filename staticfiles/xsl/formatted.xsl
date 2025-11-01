@@ -97,18 +97,9 @@
     <div class="flex-column refrain" data-type="strophe">
       <xsl:attribute name="data-met"><xsl:value-of select="@met" /></xsl:attribute>
       <xsl:attribute name="data-rhyme"><xsl:value-of select="@rhyme" /></xsl:attribute>
-      <xsl:choose>
-        <xsl:when test="./head">
-          <xsl:apply-templates>
-            <xsl:with-param name="lgHead"><xsl:value-of select="./head"/></xsl:with-param>
-          </xsl:apply-templates>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:apply-templates>
-            <xsl:with-param name="lgHead">[Refl.]</xsl:with-param>
-          </xsl:apply-templates>
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:apply-templates>
+        <xsl:with-param name="lgHead"><xsl:value-of select="./head"/></xsl:with-param>
+      </xsl:apply-templates>
     </div>
   </xsl:template>
 

@@ -2495,7 +2495,7 @@
         <stage n="20"><w>Maria</w><w>Magdalena</w></stage>
         <sp who="#mar-magd" xml:lang="middle-high-german" n="20">
           <div type="poem" met="?/?" rhyme="a/a">
-            <lg type="strophe" n="I">
+            <lg type="strophe">
               <l n="1">
                 <w>
                   <seg type="syll" part="I">Chra<notatedMusic>
@@ -2675,8 +2675,12 @@
                 <pc resp="#editor">.</pc>
               </l>
             </lg>
+          </div>
+        </sp>
+        <stage><w>Item</w></stage>
+        <sp who="#mar-magd" xml:lang="middle-high-german" n="20">
+          <div type="poem" met="?/?" rhyme="A/B">
             <lg type="refrain" met="?/?" rhyme="A/B">
-              <head>Item</head>
               <l n="1">
                 <w>
                   <seg type="syll">Seht<notatedMusic>
@@ -2754,8 +2758,12 @@
                 <pc resp="#editor">.</pc>
               </l>
             </lg>
-            <lg type="strophe" n="II">
-              <head>Item</head>
+          </div>
+        </sp>
+        <stage><w>Item</w></stage>
+        <sp who="#mar-magd" xml:lang="middle-high-german" n="20">
+          <div type="poem" met="?/?" rhyme="a/a">
+            <lg type="strophe">
               <l n="1">
                 <w>
                   <seg type="syll" part="I">Min<notatedMusic>
@@ -2961,8 +2969,12 @@
                 <w rend="italic">etc.</w>
               </l>
             </lg>
-            <lg type="strophe" n="III">
-              <head>Item</head>
+          </div>
+        </sp>
+        <stage><w>Item</w></stage>
+        <sp who="#mar-magd" xml:lang="middle-high-german" n="20">
+          <div type="poem" met="?/?" rhyme="a/a">
+            <lg type="strophe">
               <l n="1">
                 <w>
                   <seg type="syll">Wol<notatedMusic>
