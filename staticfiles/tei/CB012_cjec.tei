@@ -1,0 +1,36 @@
+<TEI>
+  <teiHeader />
+  <text>
+    <body>
+      <div type="poem" met="[6pp]/6pp/6pp/7pp/6pp" rhyme="a/b/b/a/b">
+        <lg type="strophe">
+          <l n="1">
+            <w>[...]</w>
+            <w>[con]trarium</w>
+          </l>
+          <l n="2">
+            <w>ab</w>
+            <w>hoste</w>
+            <w>nescio</w>
+          </l>
+          <l n="3">
+            <w>fit</w>
+            <w>hec</w>
+            <w>provisio</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="4">
+            <w>in</w>
+            <w>hoc</w>
+            <w>adiutorium</w>
+          </l>
+          <l n="5">
+            <w>felix</w>
+            <w>audicio</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

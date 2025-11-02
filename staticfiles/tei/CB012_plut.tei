@@ -1,0 +1,67 @@
+<TEI>
+  <teiHeader />
+  <text>
+    <body>
+      <div type="poem" met="6pp/6pp/6pp/6pp/6pp/6pp/6pp/6pp/6pp/6pp/6pp" rhyme="a/b/a/b/a/b/a/b/b/a/b">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <w>Procurans</w>
+            <w>odium</w>
+          </l>
+          <l n="2">
+            <w>effectu</w>
+            <w>proprio</w>
+          </l>
+          <l n="3">
+            <w>ius</w>
+            <w>detrahentium</w>
+          </l>
+          <l n="4">
+            <w>gaudet</w>
+            <w>intentio</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="5">
+            <w>Nexus</w>
+            <w>est</w>
+            <w>cordium</w>
+          </l>
+          <l n="6">
+            <w>ipsa</w>
+            <w>detractio</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">:</pc>
+          </l>
+          <l n="7">
+            <w>si</w>
+            <w>per</w>
+            <w>contrarium</w>
+          </l>
+          <l n="8">
+            <w>ab</w>
+            <w>hoste</w>
+            <w>nescio</w>
+          </l>
+          <l n="9">
+            <w>fit</w>
+            <w>hic</w>
+            <w>provisio</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="10">
+            <w>in</w>
+            <w>hoc</w>
+            <w>amantium</w>
+          </l>
+          <l n="11">
+            <w>felix</w>
+            <w>conditio</w>
+            <pc>&#183;</pc>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
