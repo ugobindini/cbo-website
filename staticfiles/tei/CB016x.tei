@@ -934,7 +934,7 @@
             <pc resp="#editor">.</pc>
           </p>
         </sp>
-        <stage n="11">Iesus venit</stage>
+        <stage n="11"><w>Iesus</w><w>venit</w></stage>
         <sp n="11">
           <p>
             <w>
@@ -2604,7 +2604,7 @@
                   </seg>
                 </w>
                 <w>
-                  <seg type="syll" part="I">iun<notatedMusic>
+                  <seg type="syll" part="I">jun<notatedMusic>
                     <neume fontname="buranus" glyph.num="7" label="vi" />
                   </notatedMusic>
                   </seg>
@@ -2701,9 +2701,9 @@
                   </seg>
                 </w>
                 <app type="text">
-                  <lem wit="HS T">
+                  <lem wit="T">
                     <w>
-                      <seg type="syll" part="I">iun<notatedMusic>
+                      <seg type="syll" part="I">jun<notatedMusic>
                         <neume fontname="buranus" glyph.num="7" label="vi" />
                       </notatedMusic>
                       </seg>
@@ -2713,7 +2713,7 @@
                       </seg>
                     </w>
                   </lem>
-                  <rdg wit="cod. V"><w>iungen</w></rdg>
+                  <rdg wit="cod. HS V"><w>jungen</w></rdg>
                 </app>
                 <w>
                   <seg type="syll">man<notatedMusic>
@@ -2951,7 +2951,7 @@
                   </seg>
                 </w>
                 <w>
-                  <seg type="syll" part="I">iun<notatedMusic>
+                  <seg type="syll" part="I">jun<notatedMusic>
                     <neume fontname="buranus" glyph.num="7" label="vi" />
                   </notatedMusic>
                   </seg>
