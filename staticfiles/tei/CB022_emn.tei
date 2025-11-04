@@ -1,0 +1,157 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I" met="?/?/?/?/?/?/?" rhyme="?/?/?/?/?/?/?">
+          <l n="1">
+            <w>Homo</w>
+            <w>quo</w>
+            <w>vigeas</w>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>vide</w>
+              <w>dei</w>
+            </seg>
+            <seg type="hemistich">
+              <w>fidei</w>
+            </seg>
+            <seg type="hemistich">
+              <w>adhereas</w>
+            </seg>
+          </l>
+          <l n="3">
+            <w>in</w>
+            <w>spe</w>
+            <w>gaudeas</w>
+          </l>
+          <l n="4">
+            <w>et</w>
+            <w>in</w>
+            <w>fide</w>
+            <w>intus</w>
+            <w>ardeas</w>
+          </l>
+          <l n="5">
+            <w>foris</w>
+            <w>luceas</w>
+          </l>
+          <l n="6">
+            <w>turturis</w>
+            <w>retorqueas</w>
+          </l>
+          <l n="7">
+            <w>os</w>
+            <w>ad</w>
+            <w>ascellas</w>
+          </l>
+        </lg>
+        <lg type="strophe" n="II" met="?/?/?/?/?/?/?/?/?" rhyme="?/?/?/?/?/?/?/?">
+          <l n="1">
+            <w>Docens</w>
+            <w>ita</w>
+          </l>
+          <l n="2">
+            <w>verbo</w>
+            <w>vita</w>
+          </l>
+          <l n="3">
+            <w>oris</w>
+            <w>vomere</w>
+          </l>
+          <l n="4">
+            <w>De</w>
+            <w>cordibus</w>
+            <w>fidelium</w>
+          </l>
+          <l n="5">
+            <w>evellas</w>
+            <w>lolium</w>
+          </l>
+          <l n="6">
+            <w>lilium</w>
+            <w>insere</w>
+          </l>
+          <l n="7">
+            <w>rose</w>
+            <w>ut</w>
+            <w>alium</w>
+          </l>
+          <l n="8">
+            <w>per</w>
+            <w>hoc</w>
+            <w>corripere</w>
+          </l>
+        </lg>
+        <lg type="strophe" n="III" met="?/?/?/?/?/?/?/?" rhyme="?/?/?/?/?/?/?/?">
+          <l n="1">
+            <w>Speciose</w>
+            <w>valeas</w>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>virtuti</w>
+            </seg>
+            <seg type="hemistich">
+              <w>saluti</w>
+            </seg>
+          </l>
+          <l n="3">
+            <w>omnium</w>
+            <w>studeas</w>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <w>noxias</w>
+            </seg>
+            <seg type="hemistich">
+              <w>delicias</w>
+            </seg>
+          </l>
+          <l n="5">
+            <w>detesteris</w>
+            <w>opera</w>
+          </l>
+          <l n="6">
+            <w>considera</w>
+          </l>
+          <l n="7">
+            <w>que</w>
+            <w>si</w>
+            <w>non</w>
+            <w>feceris</w>
+          </l>
+          <l n="8">
+            <w>dampnaberis</w>
+          </l>
+        </lg>
+        <lg type="strophe" n="IV" met="?/?/?" rhyme="?/?/?">
+          <l n="1">
+            <w>Hac</w>
+            <w>in</w>
+            <w>via</w>
+            <w>militans</w>
+            <w>gratie</w>
+          </l>
+          <l n="2">
+            <w>et</w>
+            <w>premia</w>
+            <w>cogita</w>
+            <w>patrie</w>
+          </l>
+          <l n="3">
+            <w>et</w>
+            <w>sic</w>
+            <w>tuum</w>
+            <w>cor</w>
+            <w>in</w>
+            <w>perpetuum</w>
+            <w>gaudebit</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
