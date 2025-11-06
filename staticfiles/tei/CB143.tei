@@ -4,7 +4,7 @@
     <body>
       <div type="poem" met="4p+4p/7pp/4p+4p/7pp/7pp/4p+4p/7pp" rhyme="a+a/b/a+a/b/b/c+c/b">
         <head>Item</head>
-        <lg type="strophe">
+        <lg type="strophe" n="I">
           <l n="1">
             <seg type="hemistich">
               <w>
