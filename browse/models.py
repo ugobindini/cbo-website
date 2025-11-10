@@ -214,7 +214,7 @@ class Item(models.Model):
     @property
     def svg_template(self):
         svg_files = self.svg_files()
-        template = ''.join(['<img src="/staticfiles/img/mscz/svg/' + file + '" style="width: 100%; margin-bottom: -21mm;"/>' for file in svg_files[:-1]])
+        template = ''.join(['<img src="/staticfiles/img/mscz/svg/' + file + '" style="width: 100%; margin-bottom: -12.5%;"/>' for file in svg_files[:-1]])
         template += '<img src="/staticfiles/img/mscz/svg/' + svg_files[-1] + '" style="width: 100%;"/>'
         return template
 
