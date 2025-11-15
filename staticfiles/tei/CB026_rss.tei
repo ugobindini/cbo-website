@@ -1,0 +1,257 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I" met="8pp/8pp/8pp/8pp/8pp/8pp/8pp/8pp/8pp/8pp/8pp/8pp/8pp" rhyme="a/a/a/b/b/c/c/d/d/e/f/f/e">
+          <l n="1">
+            <w>Ad</w>
+            <w>cor</w>
+            <w>tuum</w>
+            <w>revertere</w>
+          </l>
+          <l n="2">
+            <w>conditionis</w>
+            <w>misere</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>homo</w>
+            <pc resp="#editor">,</pc>
+            <w>cur</w>
+            <w>spernis</w>
+            <w>vivere</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="4">
+            <w>Cur</w>
+            <w>dedicas</w>
+            <w>te</w>
+            <w>vitiis</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="5">
+            <w>cur</w>
+            <w>indulges</w>
+            <w>malitiis</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="6">
+            <w>cur</w>
+            <w>excessus</w>
+            <w>non</w>
+            <w>corrigis</w>
+          </l>
+          <l n="7">
+            <w>nec</w>
+            <w>gressus</w>
+            <w>tuos</w>
+            <w>dirigis</w>
+          </l>
+          <l n="8">
+            <w>in</w>
+            <w>semitis</w>
+            <w>iustitie</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="9">
+            <w>sed</w>
+            <w>contra</w>
+            <w>te</w>
+            <w>cotidie</w>
+          </l>
+          <l n="10">
+            <w>iram</w>
+            <w>Dei</w>
+            <w>exasperas</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="11">
+            <w>In</w>
+            <w>te</w>
+            <w>succidi</w>
+            <w>metue</w>
+          </l>
+          <l n="12">
+            <w>radices</w>
+            <w>ficus</w>
+            <w>fatue</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="13">
+            <w>cum</w>
+            <w>fructus</w>
+            <w>nullos</w>
+            <w>afferas</w>
+            <pc resp="#editor">!</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="II" met="8pp/4pp+4pp/8pp/7p/7p/4p+4p/8pp/7pp/5pp/8pp/4pp+3p" rhyme="a/a+a/a/b/b/c+c///d/d/d+b/">
+          <l n="1">
+            <w>O</w>
+            <w>conditio</w>
+            <w>misera</w>
+            <pc resp="#editor">!</pc>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>Considera</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>quam</w>
+              <w>aspera</w>
+            </seg>
+          </l>
+          <l n="3">
+            <w>sit</w>
+            <w>hec</w>
+            <w>vita</w>
+            <pc resp="#editor">,</pc>
+            <w>mors</w>
+            <w>altera</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>que</w>
+            <w>sic</w>
+            <w>immutat</w>
+            <w>statum</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="5">
+            <w>Cur</w>
+            <w>non</w>
+            <w>purgas</w>
+            <w>reatum</w>
+          </l>
+          <l n="6">
+            <seg type="hemistich">
+              <w>sine</w>
+              <w>mora</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>cum</w>
+              <w>sit</w>
+              <w>hora</w>
+            </seg>
+          </l>
+          <l n="7">
+            <w>mortis</w>
+            <w>tibi</w>
+            <w>incognita</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="8">
+            <w>Et</w>
+            <w>in</w>
+            <w>vita</w>
+            <w>caritas</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="9">
+            <w>que</w>
+            <w>non</w>
+            <w>proficit</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="10">
+            <w>prorsus</w>
+            <w>aret</w>
+            <w>et</w>
+            <w>deficit</w>
+          </l>
+          <l n="11">
+            <seg type="hemistich">
+              <w>nec</w>
+              <w>efficit</w>
+            </seg>
+            <seg type="hemistich">
+              <w>beatum</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="III" met="8pp/4pp/8p/6p/4pp/8pp/8pp/8pp" rhyme="a/a/b/b/c/c/d/d">
+          <l n="1">
+            <w>Si</w>
+            <w>vocatus</w>
+            <w>ad</w>
+            <w>nuptias</w>
+          </l>
+          <l n="2">
+            <w>advenias</w>
+          </l>
+          <l n="3">
+            <w>sine</w>
+            <w>veste</w>
+            <w>nuptiali</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>a</w>
+            <w>curia</w>
+            <w>regali</w>
+          </l>
+          <l n="5">
+            <w>expelleris</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="6">
+            <w>et</w>
+            <w>obviam</w>
+            <w>si</w>
+            <w>veneris</w>
+          </l>
+          <l n="7">
+            <w>sponso</w>
+            <w>lampade</w>
+            <w>vacua</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="8">
+            <w>es</w>
+            <w>quasi</w>
+            <w>virgo</w>
+            <w>fatua</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="IV" met="8pp/8pp/8pp/8pp/8pp" rhyme="a/a/b/b/b">
+          <l n="1">
+            <w>Ergo</w>
+            <w>vide</w>
+            <pc resp="#editor">,</pc>
+            <w>ne</w>
+            <w>dormias</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>sed</w>
+            <w>vigilans</w>
+            <w>aperias</w>
+          </l>
+          <l n="3">
+            <w>Domino</w>
+            <pc resp="#editor">,</pc>
+            <w>cum</w>
+            <w>pulsaverit</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="4">
+            <w>Beatus</w>
+            <w>quem</w>
+            <w>invenerit</w>
+          </l>
+          <l n="5">
+            <w>vigilantem</w>
+            <w>dum</w>
+            <w>venerit</w>
+            <pc resp="#editor">!</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
