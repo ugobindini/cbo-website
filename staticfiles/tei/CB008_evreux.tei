@@ -21,7 +21,6 @@
             <w>tamen</w>
             <w>vice</w>
             <w>cotis</w>
-            <pc resp="#editor">,</pc>
           </l>
           <l n="4">
             <w>ius</w>
@@ -41,7 +40,14 @@
             <w>ecclesie</w>
           </l>
           <l n="7">
-            <w>imitantur</w>
+            <app type="text">
+              <lem wit="HS V Tc T">
+                <w>imitantur</w>
+              </lem>
+              <rdg wit="cod.">
+                <w>imitatur</w>
+              </rdg>
+            </app>
             <w>hodie</w>
           </l>
           <l n="8">
@@ -58,8 +64,13 @@
             <w>clericalis</w>
           </l>
           <l n="2">
-            <w>in</w>
-            <w>respectu</w>
+            <app type="text">
+              <lem wit="cod.">
+                <w>sub</w>
+                <w>despectu</w>
+              </lem>
+              <rdg wit="HS V Tc T"><w>in</w><w>respectu</w></rdg>
+            </app>
             <w>laicalis</w>
             <pc resp="#editor">,</pc>
           </l>
@@ -82,7 +93,7 @@
           </l>
           <l n="6">
             <w>venit</w>
-            <w>eucharistia</w>
+            <w>eucaristia</w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="7">
@@ -91,7 +102,7 @@
             <w>nugatoria</w>
           </l>
           <l n="8">
-            <w>gratia</w>
+            <w>gracia</w>
             <w>venalis</w>
             <pc resp="#editor">.</pc>
           </l>
@@ -125,19 +136,29 @@
             <pc resp="#editor">.</pc>
           </l>
           <l n="5">
-            <w>quem</w>
+            <w>Quem</w>
             <w>sic</w>
-            <w>ambit</w>
+            <app type="text">
+              <lem>
+                <w>ambit</w>
+              </lem>
+              <note>add. marg. cod.</note>
+            </app>
             <w>ambitus</w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="6">
-            <w>idolorum</w>
+            <w>ydolorum</w>
             <w>servitus</w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="7">
-            <w>templo</w>
+            <app type="text">
+              <lem wit="HS V Tc T">
+                <w>tenplo</w>
+              </lem>
+              <rdg wit="cod."><w>tenplum</w></rdg>
+            </app>
             <w>sancti</w>
             <w>Spiritus</w>
           </l>
@@ -155,7 +176,12 @@
           </l>
           <l n="2">
             <w>timent</w>
-            <w>annos</w>
+            <app type="text">
+              <lem wit="cod. HS Tc">
+                <w>annos</w>
+              </lem>
+              <rdg wit="V T"><w>annum</w></rdg>
+            </app>
             <w>senectutis</w>
             <pc resp="#editor">,</pc>
           </l>
@@ -166,13 +192,18 @@
           </l>
           <l n="4">
             <w>desit</w>
-            <w>eis</w>
+            <app type="text">
+              <lem wit="HS V Tc T">
+                <w>eis</w>
+              </lem>
+              <rdg wit="cod."><w>illis</w></rdg>
+            </app>
             <w>splendor</w>
             <w>cutis</w>
             <pc resp="#editor">.</pc>
           </l>
           <l n="5">
-            <w>et</w>
+            <w>Et</w>
             <w>dum</w>
             <w>querunt</w>
             <w>medium</w>
@@ -187,7 +218,7 @@
           <l n="7">
             <w>fallit</w>
             <w>enim</w>
-            <w>vitium</w>
+            <w>vicium</w>
           </l>
           <l n="8">
             <w>specie</w>

@@ -376,7 +376,7 @@ class Neume(models.Model):
     n = models.IntegerField()
     description = models.CharField(max_length=1024, help_text="Description of the glyph.")
     count = models.IntegerField()
-    pattern = models.CharField(max_length=32, help_text="Melodic pattern.", null=True)
+    pattern = models.CharField(max_length=32, help_text="Melodic pattern.", null=True, blank=True)
 
     def __str__(self):
         """String for representing the Model object (in Admin site etc.)"""
