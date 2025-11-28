@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem" met="7p/7pp/8pp/7p/7p/8pp/7p/7p/8pp/4pp+4pp+3p/8pp/4pp+4pp/8pp/7p" rhyme="a/b/b/a/a/b/a/a/c/c+c+a/d/d+e/e/a">
@@ -99,11 +99,11 @@
             <pc resp="#editor">:</pc>
           </l>
           <l n="14">
-            <w>«surge</w>
+            <w>&#171;surge</w>
             <pc resp="#editor">,</pc>
             <w>tolle</w>
             <w>grabatum</w>
-            <pc resp="#editor">»!</pc>
+            <pc resp="#editor">&#187;!</pc>
           </l>
         </lg>
         <lg type="strophe" n="II">

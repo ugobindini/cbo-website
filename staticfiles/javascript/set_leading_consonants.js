@@ -8,7 +8,7 @@ $(document).ready(function(){
   const context = canvas.getContext("2d");
   // TODO: smaller font for apparatus?
   $(".neumed-syll").each(function() {
-    consonants = $(this).find(".syl-text").text().split(/[aeiouAEIOUyYůöǒêœî].*/);
-    $(this).children(".neumes").css('padding-left', textWidth(consonants, context));
+    consonants = $(this).find(".syl-text").text().split(/[aeiouAEIOUyYůöǒêœî].*/)[0];
+    if (consonants.length) { $(this).children(".neumes").css('padding-left', textWidth(consonants, context)); };
   });
 });
