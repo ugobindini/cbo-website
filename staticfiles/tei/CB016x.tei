@@ -439,10 +439,18 @@
         <sp who="#cecus" n="6">
           <p>
             <w>
-              <seg type="syll" part="I">Do<notatedMusic>
+              <app type="neume">
+                <lem>
+                  <seg type="syll" part="I">Do<notatedMusic>
                 <neume fontname="buranus" glyph.num="7" label="vi" />
               </notatedMusic>
               </seg>
+                </lem>
+                <note>corr. ex <seg type="syll" part="I">Do<notatedMusic>
+                <neume fontname="buranus" glyph.num="7" label="to" />
+              </notatedMusic>
+              </seg> ut vid.</note>
+              </app>
               <seg type="syll" part="M">mi<notatedMusic>
                 <neume fontname="buranus" glyph.num="31" label="pe" />
               </notatedMusic>
@@ -2204,7 +2212,7 @@
         <stage n="19"><w>Mercator</w><w>cantet</w></stage>
         <sp who="#merc" n="19">
           <div type="poem" met="7pp+6p/7pp+6p" rhyme="a/a">
-            <lg type="strophe" n="I" met="7pp+6p/7pp+6p" rhyme="a/a">
+            <lg type="strophe" n="I">
               <l n="1">
                 <seg type="hemistich">
                   <w>
@@ -2346,7 +2354,7 @@
                 </seg>
               </l>
             </lg>
-            <lg type="strophe" n="II" met="7pp+6p/7pp+6p" rhyme="a/a">
+            <lg type="strophe" n="II">
               <l n="1">
                 <seg type="hemistich">
                   <w>
@@ -2428,10 +2436,15 @@
                       <neume fontname="buranus" glyph.num="1" label="pu" />
                     </notatedMusic>
                     </seg>
-                    <seg type="syll" part="M">po<notatedMusic>
+                    <app type="neume">
+                      <lem>
+                        <seg type="syll" part="M">po<notatedMusic>
                       <neume fontname="buranus" glyph.num="7" label="vi" />
                     </notatedMusic>
                     </seg>
+                      </lem>
+                      <note>ut vid.</note>
+                    </app>
                     <seg type="syll" part="F">ris<notatedMusic>
                       <neume fontname="buranus" glyph.num="7" label="vi" />
                     </notatedMusic>
@@ -2726,11 +2739,11 @@
                 <app type="text">
                   <lem>
                     <w>
-                  <seg type="syll">lat<notatedMusic>
-                    <neume fontname="buranus" glyph.num="7" label="vi" />
-                  </notatedMusic>
-                  </seg>
-                </w>
+                      <seg type="syll">lat<notatedMusic>
+                        <neume fontname="buranus" glyph.num="7" label="vi" />
+                      </notatedMusic>
+                      </seg>
+                    </w>
                   </lem>
                   <note><w>lat</w><w>lat</w>, <w>lat&#178;</w> exp. cod.</note>
                 </app>
@@ -4950,19 +4963,19 @@
                   <app type="text">
                     <lem>
                       <w>
-                    <seg type="syll" part="I">cri<notatedMusic>
-                      <neume fontname="buranus" glyph.num="1" label="pu" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="M">mi<notatedMusic>
-                      <neume fontname="buranus" glyph.num="70" label="qi" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="F">num<notatedMusic>
-                      <neume fontname="buranus" glyph.num="1" label="pu" />
-                    </notatedMusic>
-                    </seg>
-                  </w>
+                        <seg type="syll" part="I">cri<notatedMusic>
+                          <neume fontname="buranus" glyph.num="1" label="pu" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="M">mi<notatedMusic>
+                          <neume fontname="buranus" glyph.num="70" label="qi" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="F">num<notatedMusic>
+                          <neume fontname="buranus" glyph.num="1" label="pu" />
+                        </notatedMusic>
+                        </seg>
+                      </w>
                     </lem>
                     <note>add. marg. cod.</note>
                   </app>
@@ -6498,15 +6511,15 @@
                   <app type="text">
                     <lem>
                       <w>
-                    <seg type="syll" part="I">qui<notatedMusic>
-                      <neume fontname="buranus" glyph.num="7" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="F">dam<notatedMusic>
-                      <neume fontname="buranus" glyph.num="1" label="pu" />
-                    </notatedMusic>
-                    </seg>
-                  </w>
+                        <seg type="syll" part="I">qui<notatedMusic>
+                          <neume fontname="buranus" glyph.num="7" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="F">dam<notatedMusic>
+                          <neume fontname="buranus" glyph.num="1" label="pu" />
+                        </notatedMusic>
+                        </seg>
+                      </w>
                     </lem>
                     <note>seq. <w>feneratorum</w> exp. cod.</note>
                   </app>
@@ -6838,19 +6851,19 @@
                   <app type="text">
                     <lem>
                       <w>
-                    <seg type="syll" part="I" met="+">i<notatedMusic>
-                      <neume fontname="buranus" glyph.num="7" label="vi" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="M">gi<notatedMusic>
-                      <neume fontname="buranus" glyph.num="1" label="pu" />
-                    </notatedMusic>
-                    </seg>
-                    <seg type="syll" part="F">tur<notatedMusic>
-                      <neume fontname="buranus" glyph.num="49" label="cl" />
-                    </notatedMusic>
-                    </seg>
-                  </w>
+                        <seg type="syll" part="I" met="+">i<notatedMusic>
+                          <neume fontname="buranus" glyph.num="7" label="vi" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="M">gi<notatedMusic>
+                          <neume fontname="buranus" glyph.num="1" label="pu" />
+                        </notatedMusic>
+                        </seg>
+                        <seg type="syll" part="F">tur<notatedMusic>
+                          <neume fontname="buranus" glyph.num="49" label="cl" />
+                        </notatedMusic>
+                        </seg>
+                      </w>
                     </lem>
                     <note>seq. <w>plus</w> exp. cod.</note>
                   </app>
@@ -8190,15 +8203,15 @@
                 <app type="text">
                   <lem>
                     <w>
-                  <seg type="syll" part="I">tra<notatedMusic>
-                    <neume fontname="buranus" glyph.num="1" label="pu" />
-                  </notatedMusic>
-                  </seg>
-                  <seg type="syll" part="F">dam<notatedMusic>
-                    <neume fontname="buranus" glyph.num="7" label="vi" />
-                  </notatedMusic>
-                  </seg>
-                </w>
+                      <seg type="syll" part="I">tra<notatedMusic>
+                        <neume fontname="buranus" glyph.num="1" label="pu" />
+                      </notatedMusic>
+                      </seg>
+                      <seg type="syll" part="F">dam<notatedMusic>
+                        <neume fontname="buranus" glyph.num="7" label="vi" />
+                      </notatedMusic>
+                      </seg>
+                    </w>
                   </lem>
                   <note>seq. <w>propere</w> del. cod.</note>
                 </app>
@@ -8480,9 +8493,9 @@
                   <app type="neume">
                     <lem>
                       <seg type="syll" part="I">Ie<notatedMusic>
-                    <neume fontname="buranus" glyph.num="31" label="pe" />
-                  </notatedMusic>
-                  </seg>
+                        <neume fontname="buranus" glyph.num="31" label="pe" />
+                      </notatedMusic>
+                      </seg>
                     </lem>
                     <note>ut vid.</note>
                   </app>
@@ -9393,16 +9406,16 @@
             <app type="text">
               <lem>
                 <w>
-              <seg type="syll" part="I">mo<notatedMusic>
-                <neume fontname="buranus" glyph.num="7" label="vi" />
-              </notatedMusic>
-              </seg>
-              <seg type="syll" part="F">ri<notatedMusic>
-                <neume fontname="buranus" glyph.num="49" label="cl" />
-                <neume fontname="buranus" glyph.num="61" label="to" />
-              </notatedMusic>
-              </seg>
-            </w>
+                  <seg type="syll" part="I">mo<notatedMusic>
+                    <neume fontname="buranus" glyph.num="7" label="vi" />
+                  </notatedMusic>
+                  </seg>
+                  <seg type="syll" part="F">ri<notatedMusic>
+                    <neume fontname="buranus" glyph.num="49" label="cl" />
+                    <neume fontname="buranus" glyph.num="61" label="to" />
+                  </notatedMusic>
+                  </seg>
+                </w>
               </lem>
               <note>add. marg. cod.</note>
             </app>
@@ -9996,8 +10009,8 @@
                 <app type="text">
                   <lem>
                     <w>
-                  <seg type="syll">tu</seg>
-                </w>
+                      <seg type="syll">tu</seg>
+                    </w>
                   </lem>
                   <note>add. s. l. cod.</note>
                 </app>
@@ -10298,7 +10311,15 @@
               </notatedMusic>
               </seg>
             </w>
-            <w rend="italic">etc.</w>
+            <w rend="italic">
+              <app type="neume">
+                <lem>etc.</lem>
+                <note><seg type="syll" part="F">etc.<notatedMusic>
+                <neume fontname="buranus" glyph.num="7" label="vi" />
+              </notatedMusic>
+              </seg> cod.</note>
+              </app>
+            </w>
           </p>
         </sp>
         <stage n="82"><w>Et</w><w>pontifices</w><w>cantent</w><w>et</w><w>cogitent</w><w>quid</w><w>faciant</w></stage>
@@ -10673,7 +10694,15 @@
               </notatedMusic>
               </seg>
             </w>
-            <w rend="italic">etc.</w>
+            <w rend="italic">
+              <app type="neume">
+                <lem>etc.</lem>
+                <note><seg type="syll" part="F">etc.<notatedMusic>
+                <neume fontname="buranus" glyph.num="7" label="vi" />
+              </notatedMusic>
+              </seg> cod.</note>
+              </app>
+            </w>
           </p>
         </sp>
         <stage n="85"><w>Postea</w><w>ducitur</w><w>ad</w><w>Pilatum</w><w>Iesus</w><w>et</w><w>dicunt</w><w>Iudei</w></stage>
@@ -11597,15 +11626,15 @@
             <app type="text">
               <lem>
                 <w>
-              <seg type="syll" part="I">ip<notatedMusic>
-                <neume fontname="buranus" glyph.num="7" label="vi" />
-              </notatedMusic>
-              </seg>
-              <seg type="syll" part="F">sum<notatedMusic>
-                <neume fontname="buranus" glyph.num="1" label="pu" />
-              </notatedMusic>
-              </seg>
-            </w>
+                  <seg type="syll" part="I">ip<notatedMusic>
+                    <neume fontname="buranus" glyph.num="7" label="vi" />
+                  </notatedMusic>
+                  </seg>
+                  <seg type="syll" part="F">sum<notatedMusic>
+                    <neume fontname="buranus" glyph.num="1" label="pu" />
+                  </notatedMusic>
+                  </seg>
+                </w>
               </lem>
               <note>add. marg. cod.</note>
             </app>
@@ -11617,9 +11646,9 @@
               <app type="neume">
                 <lem>
                   <seg type="syll" part="F">cis<notatedMusic>
-                <neume fontname="buranus" glyph.num="7" label="vi" />
-              </notatedMusic>
-              </seg>
+                    <neume fontname="buranus" glyph.num="7" label="vi" />
+                  </notatedMusic>
+                  </seg>
                 </lem>
                 <note>ut vid.</note>
               </app>
@@ -14430,10 +14459,18 @@
                     <neume fontname="buranus" glyph.num="49" label="cl" />
                   </notatedMusic>
                   </seg>
-                  <seg type="syll" part="F">tris<notatedMusic>
+                  <app type="neume">
+                    <lem>
+                      <seg type="syll" part="F">tris<notatedMusic>
                     <neume fontname="buranus" glyph.num="7" label="vi" />
                   </notatedMusic>
                   </seg>
+                    </lem>
+                    <note>corr. ex <seg type="syll" part="F">tris<notatedMusic>
+                    <neume fontname="buranus" glyph.num="7" label="ci" />
+                  </notatedMusic>
+                  </seg> cod.</note>
+                  </app>
                 </w>
                 <w>
                   <seg type="syll" part="I" met="+">vul<notatedMusic>
