@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem" met="7pp/6p/7pp/6p/7pp/6p" rhyme="a/b/a/b/a/b">
@@ -278,7 +278,7 @@
           </l>
           <l n="2">
             <w>
-              <seg type="syll">‘do</seg>
+              <seg type="syll">&#8216;do</seg>
             </w>
             <w>
               <seg type="syll">das</seg>
@@ -292,7 +292,7 @@
               <seg type="syll" part="F">re</seg>
             </w>
             <pc>&#183;</pc>
-            <pc resp="#editor">’;</pc>
+            <pc resp="#editor">&#8217;;</pc>
           </l>
           <l n="3">
             <app type="text">
