@@ -55,7 +55,6 @@
         </castList>
       </front>
       <div type="drama">
-        <prologue><w>Sancta</w><w>Maria</w><w>virgo</w><w>assit</w><w>nostro</w><w>principio</w><pc>&#183;</pc><pc resp="#editor">.</pc><w>Amen</w><pc>&#183;</pc><pc resp="#editor">.</pc></prologue>
         <stage n="1"><w>Primitus</w><w>producatur</w><w>Pilatus</w><w>et</w><w>uxor</w><w>sua</w><w>cum</w><w>militibus</w><w>in</w><w>locum</w><w>suum</w><pc resp="#editor">.</pc><w>Deinde</w><w>Herodes</w><w>cum</w><w>militibus</w><w>suis</w><pc>&#183;</pc><pc resp="#editor">.</pc><w>Deinde</w><w>pontifices</w><pc resp="#editor">.</pc><w>Tunc</w><w>mercator</w><w>et</w><w>uxor</w><w>sua</w><pc>&#183;</pc><pc resp="#editor">.</pc><w>Deinde</w><w>Maria</w><w>Magdalena</w><pc>&#183;</pc><pc resp="#editor">.</pc></stage>
         <sp n="1">
           <p>
@@ -2183,10 +2182,15 @@
                     </seg>
                   </w>
                   <w>
-                    <seg type="syll">hoc<notatedMusic>
+                    <app type="neume">
+                      <lem>
+                        <seg type="syll">hoc<notatedMusic>
                       <neume fontname="buranus" glyph.num="7" label="vi" />
                     </notatedMusic>
                     </seg>
+                      </lem>
+                      <note>ut vid.</note>
+                    </app>
                   </w>
                   <w>
                     <seg type="syll" part="I">de<notatedMusic>
@@ -2656,7 +2660,9 @@
                   </notatedMusic>
                   </seg>
                 </w>
-                <w>
+                <app type="text">
+                  <lem>
+                    <w>
                   <seg type="syll" part="I">min<notatedMusic>
                     <neume fontname="buranus" glyph.num="7" label="vi" />
                   </notatedMusic>
@@ -2674,6 +2680,9 @@
                   </notatedMusic>
                   </seg>
                 </w>
+                  </lem>
+                  <note><w>minnen-</w> add. marg. cod.</note>
+                </app>
                 <w>
                   <seg type="syll" part="I">n&#339;<notatedMusic>
                     <neume fontname="buranus" glyph.num="7" label="vi" />
@@ -10064,7 +10073,14 @@
             </lg>
           </div>
         </sp>
-        <stage n="74"><w>Et</w><w>Petro</w><w>sequente</w><w>Iesum</w><w>una</w><w>ancilla</w><w>dicat</w><pc>&#183;</pc></stage>
+        <stage n="74">
+          <app type="text">
+            <lem>
+              <w>Et</w>
+            </lem>
+            <note><w>de</w><w>Petro</w><w>et</w><w>ancilla</w> add. marg. al. man. cod.</note>
+          </app>
+          <w>Petro</w><w>sequente</w><w>Iesum</w><w>una</w><w>ancilla</w><w>dicat</w><pc>&#183;</pc></stage>
         <sp who="#ancilla" n="74">
           <p>
             <app type="text">
@@ -10093,11 +10109,10 @@
         <sp who="#ancilla" n="76">
           <p>
             <app type="text">
-              <lem wit="cod.">
+              <lem>
                 <w>Vere</w><w>tu</w><w>ex</w><w>illis</w><w>es</w><w>nam</w><w>et</w><w>Galileus</w><w>es</w>
               </lem>
-              <rdg wit="cod."><w>Nam</w><w>unus</w><w>ex</w><w>eis</w><w>es</w><pc>&#61936;</pc></rdg>
-              <note>???</note>
+              <note>add. s. l., corr. ex <w>Nam</w><w>unus</w><w>ex</w><w>eis</w><w>es</w> al. man. cod.</note>
             </app>
             <pc>&#183;</pc>
             <pc resp="#editor">.</pc>
@@ -10110,7 +10125,7 @@
               <lem>
                 <w>Non</w><w>novi</w><w>hominem</w>
               </lem>
-              <note>add. al. man. cod.</note>
+              <note>add. al. man., <w>Non</w><w>novi</w><w>tu</w><w>cum</w><w>ill[o]</w> add. marg. et del. ead. man. cod.</note>
             </app>
             <pc>&#183;</pc>
             <pc resp="#editor">.</pc>
