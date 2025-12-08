@@ -32,8 +32,8 @@
             <seg type="hemistich">de si tendre fa&#231;on.</seg>
           </l>
           <l n="3">
-            <seg type="hemistich">Etant priv&#233;</seg>
-            <seg type="hemistich">de nos douces &#233;tudes,</seg>
+            <seg type="hemistich">Je fus votre doux</seg>
+            <seg type="hemistich">compagnon d&#8217;&#233;tude :</seg>
           </l>
           <l n="4">
             <seg type="hemistich">pleurez sur moi,</seg>
@@ -42,25 +42,6 @@
           <l n="5" rend="indent(1)">Br&#251;l&#233;...</l>
         </lg>
         <lg type="strophe" n="III">
-          <l n="1">
-            <seg type="hemistich">Bless&#233; du feu</seg>
-            <seg type="hemistich">tout nouveau de V&#233;nus,</seg>
-          </l>
-          <l n="2">
-            <seg type="hemistich">mon chaste c&#339;ur</seg>
-            <seg type="hemistich">ignorait  tout cela.</seg>
-          </l>
-          <l n="3">
-            <seg type="hemistich">Comme le dit</seg>
-            <seg type="hemistich">justement le proverbe :</seg>
-          </l>
-          <l n="4">
-            <seg type="hemistich">&#171; O&#249; est l&#8217;amour</seg>
-            <seg type="hemistich">est aussi le malheur &#187;</seg>
-          </l>
-          <l n="5" rend="indent(1)">affreux...</l>
-        </lg>
-        <lg type="strophe" n="IV">
           <l n="1">
             <seg type="hemistich">Autant de fleurs</seg>
             <seg type="hemistich">aux vall&#233;es d&#8217;Hybl&#233;,</seg>
@@ -77,6 +58,25 @@
             <seg type="hemistich">que de douleurs</seg>
             <seg type="hemistich">pour celui qu&#8217;amour prend.</seg>
           </l>
+        </lg>
+        <lg type="strophe" n="IV">
+          <l n="1">
+            <seg type="hemistich">Bless&#233; du feu</seg>
+            <seg type="hemistich">tout nouveau de V&#233;nus,</seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">mon c&#339;ur, jusqu&#8217;ici,</seg>
+            <seg type="hemistich">ignorait  tout cela.</seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">Comme le dit</seg>
+            <seg type="hemistich">justement le proverbe :</seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">&#171; O&#249; est l&#8217;amour</seg>
+            <seg type="hemistich">est aussi le malheur &#187;</seg>
+          </l>
+          <l n="5" rend="indent(1)">affreux...</l>
         </lg>
       </div>
     </body>

@@ -93,7 +93,15 @@
             <pc resp="#editor">.</pc>
           </l>
           <l n="3">
-            <w>Testantur</w>
+            <app type="text">
+              <lem wit="L">
+                <w>Ut</w>
+            <w>testantur</w>
+              </lem>
+              <rdg wit="cod."><w>testantur</w></rdg>
+              <rdg wit="CB V"><w>ut</w><w>fatentur</w></rdg>
+              <rdg wit="S HS T"><w>nunc</w><w>fatetur</w></rdg>
+            </app>
             <w>vera</w>
             <w>proverbia</w>
             <pc resp="#editor">:</pc>
@@ -114,10 +122,10 @@
         <lg type="strophe" n="IV" met="10pp/10pp/10pp/10pp" rhyme="a/a/a/a">
           <l n="1">
             <app type="text">
-              <lem>
+              <lem wit="CB S HS V T">
                 <w>Quot</w>
               </lem>
-              <rdg wit="cod."><w>Quod</w></rdg>
+              <rdg wit="cod. L"><w>Quod</w></rdg>
             </app>
             <w>sunt</w>
             <w>apes</w>
