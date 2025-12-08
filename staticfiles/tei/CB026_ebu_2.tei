@@ -1,0 +1,54 @@
+<TEI>
+  <teiHeader />
+  <text>
+    <body>
+      <div type="poem" met="8pp/4pp/8p/6p/4pp/8pp/8pp/8pp" rhyme="a/a/b/b/c/c/d/d">
+        <lg type="strophe">
+          <l n="1">
+            <w>Si</w>
+            <w>vocatus</w>
+            <w>ad</w>
+            <w>nuptias</w>
+          </l>
+          <l n="2">
+            <w>advenias</w>
+          </l>
+          <l n="3">
+            <w>sine</w>
+            <w>veste</w>
+            <w>nuptiali</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>a</w>
+            <w>curia</w>
+            <w>regali</w>
+          </l>
+          <l n="5">
+            <w>expelleris</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="6">
+            <w>et</w>
+            <w>obviam</w>
+            <w>si</w>
+            <w>veneris</w>
+          </l>
+          <l n="7">
+            <w>sponso</w>
+            <w>lampade</w>
+            <w>vacua</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="8">
+            <w>es</w>
+            <w>quasi</w>
+            <w>virgo</w>
+            <w>fatua</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
