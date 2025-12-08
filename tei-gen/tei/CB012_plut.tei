@@ -2,7 +2,7 @@
   <teiHeader></teiHeader>
   <text>
     <body>
-      <div type="poem" met="6pp+6pp/6pp+6pp/6pp+6pp/6pp+6pp/6pp/6pp+6pp" rhyme="A+B/A+B/A+B/A+B/B/A+B">
+      <div type="poem">
         <lg type="strophe" n="I">
           <l n="1">
             <seg type="hemistich">
@@ -16,18 +16,12 @@
           </l>
           <l n="2">
             <seg type="hemistich">
-              <app type="text">
-                <lem wit="CB Ma HS V T">
-                  <w>vix</w>
-                </lem>
-                <rdg wit="cod."><w>ius</w></rdg>
-                <rdg wit="F"><w>vis</w></rdg>
-              </app>
-              <w>detrahencium</w>
+              <w>vix</w>
+              <w>detrahentium</w>
             </seg>
             <seg type="hemistich">
               <w>gaudet</w>
-              <w>intencio</w>
+              <w>intentio</w>
               <pc resp="#editor">.</pc>
             </seg>
           </l>
@@ -65,16 +59,11 @@
             <seg type="hemistich">
               <w>in</w>
               <w>hoc</w>
-              <w>amancium</w>
+              <w>amantium</w>
             </seg>
             <seg type="hemistich">
               <w>felix</w>
-              <app type="text">
-                <lem wit="CB F Ma HS V T">
-                  <w>condicio</w>
-                </lem>
-                <rdg wit="cod."><w>contricio</w></rdg>
-              </app>
+              <w>conditio</w>
               <pc resp="#editor">!</pc>
             </seg>
           </l>
@@ -97,35 +86,18 @@
               <w>tedium</w>
             </seg>
             <seg type="hemistich">
-              <app type="text">
-                <lem wit="CB F V">
-                  <w>fluxit</w>
-                </lem>
-                <rdg wit="cod."><w>fuxit</w></rdg>
-                <rdg wit="HS T"><w>fulsit</w></rdg>
-              </app>
+              <w>fluxit</w>
               <w>occasio</w>
               <pc resp="#editor">.</pc>
             </seg>
           </l>
           <l n="3">
             <seg type="hemistich">
-              <app type="text">
-                <lem wit="CB F; HS V T">
-                  <w>Suspendunt</w>
-                </lem>
-                <rdg wit="cod."><w>suspendit</w></rdg>
-              </app>
+              <w>Suspendunt</w>
               <w>gaudium</w>
             </seg>
             <seg type="hemistich">
-              <app type="text">
-                <lem wit="CB HS V T">
-                  <w>pravo</w>
-                </lem>
-                <rdg wit="cod."><w>parvo</w></rdg>
-                <rdg wit="F"><w>provo</w></rdg>
-              </app>
+              <w>pravo</w>
               <w>consilio</w>
               <pc resp="#editor">,</pc>
             </seg>
@@ -153,12 +125,7 @@
             </seg>
             <seg type="hemistich">
               <w>uvas</w>
-              <app type="text">
-                <lem>
-                  <w>vindemio</w>
-                </lem>
-                <note>part. eras. cod.</note>
-              </app>
+              <w>vindemio</w>
               <pc resp="#editor">.</pc>
             </seg>
           </l>

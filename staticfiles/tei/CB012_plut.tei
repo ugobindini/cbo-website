@@ -1,64 +1,150 @@
 <TEI>
-  <teiHeader />
+  <teiHeader></teiHeader>
   <text>
     <body>
-      <div type="poem" met="6pp/6pp/6pp/6pp/6pp/6pp/6pp/6pp/6pp/6pp/6pp" rhyme="a/b/a/b/a/b/a/b/b/a/b">
+      <div type="poem" met="6pp+6pp/6pp+6pp/6pp+6pp/6pp+6pp/6pp/6pp+6pp" rhyme="A+B/A+B/A+B/A+B/B/A+B">
         <lg type="strophe" n="I">
           <l n="1">
-            <w>Procurans</w>
-            <w>odium</w>
+            <seg type="hemistich">
+              <w>Procurans</w>
+              <w>odium</w>
+            </seg>
+            <seg type="hemistich">
+              <w>effectu</w>
+              <w>proprio</w>
+            </seg>
           </l>
           <l n="2">
-            <w>effectu</w>
-            <w>proprio</w>
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="CB Ma HS V T">
+                  <w>vix</w>
+                </lem>
+                <rdg wit="cod."><w>vis</w></rdg>
+                <rdg wit="M"><w>ius</w></rdg>
+              </app>
+              <w>detrahencium</w>
+            </seg>
+            <seg type="hemistich">
+              <w>gaudet</w>
+              <w>intencio</w>
+              <pc resp="#editor">.</pc>
+            </seg>
           </l>
           <l n="3">
-            <w>ius</w>
-            <w>detrahentium</w>
+            <seg type="hemistich">
+              <w>Nexus</w>
+              <w>est</w>
+              <w>cordium</w>
+            </seg>
+            <seg type="hemistich">
+              <w>ipsa</w>
+              <w>detractio</w>
+              <pc resp="#editor">:</pc>
+            </seg>
           </l>
           <l n="4">
-            <w>gaudet</w>
-            <w>intentio</w>
-            <pc>&#183;</pc>
-            <pc resp="#editor">.</pc>
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="CB M Ma HS V T">
+                  <w>sic</w>
+                </lem>
+                <rdg wit="cod."><w>si</w></rdg>
+              </app>
+              <w>per</w>
+              <w>contrarium</w>
+            </seg>
+            <seg type="hemistich">
+              <w>ab</w>
+              <w>hoste</w>
+              <w>nescio</w>
+            </seg>
           </l>
           <l n="5">
-            <w>Nexus</w>
-            <w>est</w>
-            <w>cordium</w>
-          </l>
-          <l n="6">
-            <w>ipsa</w>
-            <w>detractio</w>
-            <pc>&#183;</pc>
-            <pc resp="#editor">:</pc>
-          </l>
-          <l n="7">
-            <w>si</w>
-            <w>per</w>
-            <w>contrarium</w>
-          </l>
-          <l n="8">
-            <w>ab</w>
-            <w>hoste</w>
-            <w>nescio</w>
-          </l>
-          <l n="9">
             <w>fit</w>
             <w>hic</w>
             <w>provisio</w>
-            <pc resp="#editor">;</pc>
+            <pc resp="#editor">:</pc>
           </l>
-          <l n="10">
-            <w>in</w>
-            <w>hoc</w>
-            <w>amantium</w>
+          <l n="6">
+            <seg type="hemistich">
+              <w>in</w>
+              <w>hoc</w>
+              <w>amancium</w>
+            </seg>
+            <seg type="hemistich">
+              <w>felix</w>
+              <w>condicio</w>
+              <pc resp="#editor">!</pc>
+            </seg>
           </l>
-          <l n="11">
-            <w>felix</w>
-            <w>conditio</w>
-            <pc>&#183;</pc>
-            <pc resp="#editor">.</pc>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <seg type="hemistich">
+              <w>Insultus</w>
+              <w>talium</w>
+            </seg>
+            <seg type="hemistich">
+              <w>prodesse</w>
+              <w>sentio</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>tollendi</w>
+              <w>tedium</w>
+            </seg>
+            <seg type="hemistich">
+              <w>fluxit</w>
+              <w>occasio</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">
+              <w>Suspendunt</w>
+              <w>gaudium</w>
+            </seg>
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="CB HS V T">
+                  <w>pravo</w>
+                </lem>
+                <rdg wit="cod."><w>provo</w></rdg>
+                <rdg wit="M"><w>parvo</w></rdg>
+              </app>
+              <w>consilio</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <w>sed</w>
+              <w>desiderium</w>
+            </seg>
+            <seg type="hemistich">
+              <w>auget</w>
+              <w>dilatio</w>
+              <pc resp="#editor">:</pc>
+            </seg>
+          </l>
+          <l n="5">
+            <w>tali</w>
+            <w>remedio</w>
+          </l>
+          <l n="6">
+            <seg type="hemistich">
+              <w>de</w>
+              <w>spinis</w>
+              <w>hostium</w>
+            </seg>
+            <seg type="hemistich">
+              <w>uvas</w>
+              <w>vindemio</w>
+              <pc resp="#editor">.</pc>
+            </seg>
           </l>
         </lg>
       </div>

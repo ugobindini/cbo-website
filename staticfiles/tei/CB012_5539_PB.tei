@@ -1,0 +1,40 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <seg type="hemistich">Faire naître la haine</seg>
+            <seg type="hemistich">de par leur propre fait,</seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">but des calomniateurs,</seg>
+            <seg type="hemistich">est peu suivi d’effet.</seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">Par leur méchanceté</seg>
+            <seg type="hemistich">les cœurs sont mieux noués :</seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">loin du but poursuivi,</seg>
+            <seg type="hemistich">inconscient, l’ennemi</seg>
+          </l>
+          <l n="5" rend="indent(1)">prépare l’avenir,</l>
+          <l n="6">et le sort des amants est heureux en ceci !</l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <seg type="hemistich">Je sens tout le profit</seg>
+            <seg type="hemistich">de pareilles attaques,</seg>
+          </l>
+          <l n="2">il s’ensuit l’occasion de supprimer l’ennui ;</l>
+          <l n="3">leur malveillant dessein retarde nos plaisirs,</l>
+          <l n="4">mais le retard subi augmente le désir :</l>
+          <l n="5" rend="indent(1)">et en contrepartie</l>
+          <l n="6">je vendange la vigne aux ronces ennemies.</l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
