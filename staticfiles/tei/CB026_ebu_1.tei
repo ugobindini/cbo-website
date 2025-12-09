@@ -1,0 +1,42 @@
+<TEI>
+  <teiHeader />
+  <text>
+    <body>
+      <div type="poem" met="8pp/8pp/8pp/8pp/8pp" rhyme="a/a/b/b/b">
+        <lg type="strophe">
+          <l n="1">
+            <w>Ergo</w>
+            <w>vide</w>
+            <pc resp="#editor">,</pc>
+            <w>ne</w>
+            <w>dormias</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>set</w>
+            <w>vigilans</w>
+            <w>aperias</w>
+          </l>
+          <l n="3">
+            <w>Domino</w>
+            <pc resp="#editor">,</pc>
+            <w>cum</w>
+            <w>pulsaverit</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="4">
+            <w>Beatus</w>
+            <w>quem</w>
+            <w>invenerit</w>
+          </l>
+          <l n="5" met="9pp">
+            <w>vigilantem</w>
+            <w>cum</w>
+            <w>invenerit</w>
+            <pc resp="#editor">!</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -180,6 +180,7 @@ class Item(models.Model):
     @property
     def has_concordances(self):
         return len(self.abstract_item.item_set.all()) > 1
+
     @property
     def is_translated(self):
         import os.path
