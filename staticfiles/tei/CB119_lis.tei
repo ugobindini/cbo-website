@@ -556,13 +556,13 @@
             <app type="text">
               <lem wit="CB S C HS V T">
                 <w>
-                  <seg type="syll">Quot<notatedMusic>
+                  <seg type="syll">quot<notatedMusic>
                     <neume fontname="buranus" glyph.num="1" label="pu" />
                   </notatedMusic>
                   </seg>
                 </w>
               </lem>
-              <rdg wit="cod."><w>Quod</w></rdg>
+              <rdg wit="cod."><w>quod</w></rdg>
             </app>
             <app type="text">
               <lem wit="CB S C HS V T">
@@ -599,7 +599,7 @@
               </notatedMusic>
               </seg>
               <seg type="syll" part="M">ri<notatedMusic>
-                <neume fontname="buranus" glyph.num="130" label="ci" />
+                <neume fontname="buranus" glyph.num="18" label="visu3" />
               </notatedMusic>
               </seg>
               <seg type="syll" part="F">bus<notatedMusic>

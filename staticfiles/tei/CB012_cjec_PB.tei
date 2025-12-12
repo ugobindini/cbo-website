@@ -1,15 +1,15 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
         <lg type="strophe" n="I">
           <l n="4">
             <seg type="hemistich">loin du but poursuivi,</seg>
-            <seg type="hemistich">inconscient, l’ennemi</seg>
+            <seg type="hemistich">inconscient, l&#8217;ennemi</seg>
           </l>
-          <l n="5" rend="indent(1)">prépare l’avenir.</l>
-          <l n="6">Entendre cela fut une chance qui m’est venue en aide.</l>
+          <l n="5" rend="indent(1)">pr&#233;pare l&#8217;avenir.</l>
+          <l n="6">Entendre cela fut une chance qui m&#8217;est venue en aide.</l>
         </lg>
       </div>
     </body>

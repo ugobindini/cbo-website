@@ -1,26 +1,26 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
         <lg type="strophe" n="I">
           <l n="1">
-            <seg type="hemistich">Faire naître la haine</seg>
+            <seg type="hemistich">Faire na&#238;tre la haine</seg>
             <seg type="hemistich">de par leur propre fait,</seg>
           </l>
           <l n="2">
             <seg type="hemistich">but des calomniateurs,</seg>
-            <seg type="hemistich">est peu suivi d’effet.</seg>
+            <seg type="hemistich">est peu suivi d&#8217;effet.</seg>
           </l>
           <l n="3">
-            <seg type="hemistich">Par leur méchanceté</seg>
-            <seg type="hemistich">les cœurs sont mieux noués :</seg>
+            <seg type="hemistich">Par leur m&#233;chancet&#233;</seg>
+            <seg type="hemistich">les c&#339;urs sont mieux nou&#233;s :</seg>
           </l>
           <l n="4">
             <seg type="hemistich">loin du but poursuivi,</seg>
-            <seg type="hemistich">inconscient, l’ennemi</seg>
+            <seg type="hemistich">inconscient, l&#8217;ennemi</seg>
           </l>
-          <l n="5" rend="indent(1)">prépare l’avenir,</l>
+          <l n="5" rend="indent(1)">pr&#233;pare l&#8217;avenir,</l>
           <l n="6">et le sort des amants est heureux en ceci !</l>
         </lg>
       </div>
