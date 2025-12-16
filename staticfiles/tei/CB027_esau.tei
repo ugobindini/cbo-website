@@ -1,0 +1,111 @@
+<TEI>
+  <teiHeader />
+  <text>
+    <body>
+      <div type="poem" met="7pp/8pp/7pp/8pp/8pp/8pp/4pp+4pp+4pp/8pp/7pp/7p/7p/4p+4p/7pp/7pp/6p/7pp" rhyme="a/b/a/b/c/c/d+d+d/d/a/e/e/f+f/a/g/g/a">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <w>Bonum</w>
+            <w>est</w>
+            <w>confidere</w>
+          </l>
+          <l n="2">
+            <w>in</w>
+            <w>dominorum</w>
+            <w>Domino</w>
+          </l>
+          <l n="3">
+            <w>bonum</w>
+            <w>est</w>
+            <w>spem</w>
+            <w>ponere</w>
+          </l>
+          <l n="4">
+            <w>in</w>
+            <w>spei</w>
+            <w>nostris</w>
+            <w>termino</w>
+          </l>
+          <l n="5">
+            <w>qui</w>
+            <w>de</w>
+            <w>regum</w>
+            <w>potentia</w>
+          </l>
+          <l n="6">
+            <w>non</w>
+            <w>de</w>
+            <w>Dei</w>
+            <w>clementia</w>
+          </l>
+          <l n="7">
+            <seg type="hemistich">
+              <w>spem</w>
+              <w>concipis</w>
+            </seg>
+            <seg type="hemistich">
+              <w>te</w>
+              <w>decipis</w>
+            </seg>
+            <seg type="hemistich">
+              <w>et</w>
+              <w>excipis</w>
+            </seg>
+          </l>
+          <l n="8">
+            <w>ab</w>
+            <w>aula</w>
+            <w>mundi</w>
+            <w>principis</w>
+          </l>
+          <l n="9">
+            <w>quid</w>
+            <w>in</w>
+            <w>opum</w>
+            <w>exagere</w>
+          </l>
+          <l n="10">
+            <w>exageras</w>
+            <w>peccatum</w>
+            <pc resp="#editor">?</pc>
+          </l>
+          <l n="11">
+            <w>In</w>
+            <w>Deo</w>
+            <w>cogitatum</w>
+          </l>
+          <l n="12">
+            <seg type="hemistich">
+              <w>tuum</w>
+              <w>iacta</w>
+            </seg>
+            <seg type="hemistich">
+              <w>prius</w>
+              <w>acta</w>
+            </seg>
+          </l>
+          <l n="13">
+            <w>studeas</w>
+            <w>corrigere</w>
+          </l>
+          <l n="14">
+            <w>in</w>
+            <w>labore</w>
+            <w>manuum</w>
+          </l>
+          <l n="15">
+            <w>et</w>
+            <w>sudore</w>
+            <w>vultuum</w>
+          </l>
+          <l n="16">
+            <w>pane</w>
+            <w>tuo</w>
+            <w>vescere</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
