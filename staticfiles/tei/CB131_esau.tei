@@ -13,26 +13,13 @@
           </l>
           <l n="2">
             <w>dic</w>
-            <pc resp="#editor">,</pc>
-            <app type="text">
-              <lem wit="cod.">
-                <w>rara</w>
-                <w>caritas</w>
-              </lem>
-              <rdg wit="HS V T"><w>cara</w><w>raritas</w></rdg>
-            </app>
+            <w>cara</w>
+            <w>raritas</w>
           </l>
           <l n="3">
             <w>dic</w>
-            <pc resp="#editor">,</pc>
-            <app type="text">
-              <lem wit="cod.">
-                <w>cara</w>
-                <w>raritas</w>
-              </lem>
-              <rdg wit="HS V T"><w>rara</w><w>caritas</w></rdg>
-              <note><w>raritas</w> corr. ex <w>caritas</w> cod.</note>
-            </app>
+            <w>rara</w>
+            <w>caritas</w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="4">
@@ -74,8 +61,8 @@
           <l n="9">
             <w>Vel</w>
             <w>in</w>
-            <w>fiscella</w>
-            <w>scirpea</w>
+            <w>ficella</w>
+            <w>cirpea</w>
           </l>
           <l n="10">
             <w>cum</w>
@@ -87,12 +74,7 @@
             <w>Vel</w>
             <w>in</w>
             <w>domo</w>
-            <app type="text">
-              <lem wit="HS V T">
-                <w>Romulea</w>
-              </lem>
-              <rdg wit="cod."><w>rumulea</w></rdg>
-            </app>
+            <w>Romulea</w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="12">
