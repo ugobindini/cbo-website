@@ -3024,7 +3024,7 @@
         </sp>
         <stage><w>Item</w></stage>
         <sp who="#mar-magd" xml:lang="middle-high-german" n="20">
-          <div type="poem" met="2+A4-/4+5-" rhyme="a/a">
+          <div type="poem" met="3+A3-/4+5-" rhyme="a/a">
             <lg type="strophe">
               <l n="1">
                 <seg type="hemistich">
@@ -3046,8 +3046,7 @@
                   </notatedMusic>
                   </seg>
                 </w>
-                </seg>
-                <seg type="hemistich">
+
                 <w>
                   <seg type="syll">daz<notatedMusic>
                     <neume fontname="buranus" glyph.num="7" label="vi" />
@@ -3060,6 +3059,8 @@
                   </notatedMusic>
                   </seg>
                 </w>
+                  </seg>
+                <seg type="hemistich">
                 <w>
                   <seg type="syll">bist<notatedMusic>
                     <neume fontname="buranus" glyph.num="7" label="vi" />
