@@ -2754,7 +2754,7 @@
                   </notatedMusic>
                   </seg>
                 </w>
-                <seg type="hemistich">
+                </seg>
               </l>
               <l n="2">
                 <app type="text">
@@ -2871,7 +2871,7 @@
                 </w>
                 <pc>&#183;</pc>
                 <pc resp="#editor">,</pc>
-                <seg type="hemistich">
+                </seg>
               </l>
               <l n="3">
                 <seg type="hemistich">
@@ -4218,7 +4218,7 @@
                   </seg>
                 </w>
                 <pc resp="#editor">.</pc>
-                <seg type="hemistich">
+                </seg>
               </l>
             </lg>
           </div>
