@@ -1,0 +1,122 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="sequence">
+        <lg type="strophe" n="1a" met="7pp/7pp/4p/7pp/7pp/4p/7pp/7pp/7pp/7pp/4p" rhyme="a/b/c/a/b/c/d/d/e/e/c">
+          <l n="1">
+            <w>Nulli</w>
+            <w>beneficium</w>
+          </l>
+          <l n="2">
+            <w>iuste</w>
+            <w>penitudinis</w>
+          </l>
+          <l n="3">
+            <w>amputatur</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>nulli</w>
+            <w>maius</w>
+            <w>vitium</w>
+          </l>
+          <l n="5">
+            <w>quam</w>
+            <w>ingratitudinis</w>
+          </l>
+          <l n="6">
+            <w>imputatur</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="7">
+            <w>ergo</w>
+            <pc resp="#editor">,</pc>
+            <w>presul</w>
+            <w>confitens</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="8">
+            <w>esto</w>
+            <w>vere</w>
+            <w>penitens</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="9">
+            <w>quia</w>
+            <w>nil</w>
+            <w>confessio</w>
+          </l>
+          <l n="10">
+            <w>lavat</w>
+            <pc resp="#editor">,</pc>
+            <w>cui</w>
+            <w>contritio</w>
+          </l>
+          <l n="11">
+            <w>denegatur</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="1b" met="7pp/7pp/4p/7pp/7pp/4p/7pp/7pp/7pp/7pp/4p" rhyme="a/b/c/a/b/c/d/d/e/e/c">
+          <l n="1">
+            <w>Si</w>
+            <w>confessus</w>
+            <w>fueris</w>
+          </l>
+          <l n="2">
+            <w>ore</w>
+            <pc resp="#editor">,</pc>
+            <w>fit</w>
+            <w>confessio</w>
+          </l>
+          <l n="3">
+            <w>ad</w>
+            <w>salutem</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>corde</w>
+            <w>si</w>
+            <w>contereris</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="5">
+            <w>animi</w>
+            <w>contritio</w>
+          </l>
+          <l n="6">
+            <w>dat</w>
+            <w>virtutem</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="7">
+            <w>ut</w>
+            <w>salutem</w>
+            <w>habeas</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="8">
+            <w>ut</w>
+            <w>virtutem</w>
+            <w>teneas</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="9">
+            <w>relictis</w>
+            <w>prioribus</w>
+          </l>
+          <l n="10">
+            <w>tuam</w>
+            <w>orna</w>
+            <w>moribus</w>
+          </l>
+          <l n="11">
+            <w>iuventutem</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
