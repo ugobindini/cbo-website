@@ -1,0 +1,98 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <w>Crucifigat</w>
+            <w>omnes</w>
+          </l>
+          <l n="2">
+            <w>Domini</w>
+            <w>crux</w>
+            <w>altera</w>
+          </l>
+          <l n="3">
+            <w>nova</w>
+            <w>Christi</w>
+            <w>vulnera</w>
+          </l>
+          <l n="4">
+            <w>arbor</w>
+            <w>salutifera</w>
+          </l>
+          <l n="5">
+            <w>perditur</w>
+            <w>sepulchrum</w>
+          </l>
+          <l n="6">
+            <w>gens</w>
+            <w>evertit</w>
+            <w>extera</w>
+          </l>
+          <l n="7">
+            <seg type="hemistich">
+              <w>violente</w>
+            </seg>
+            <seg type="hemistich">
+              <w>plena</w>
+              <w>gente</w>
+            </seg>
+          </l>
+          <l n="8">
+            <w>sola</w>
+            <w>sedet</w>
+            <w>civitas</w>
+          </l>
+          <l n="9">
+            <seg type="hemistich">
+              <w>agni</w>
+              <w>fedus</w>
+            </seg>
+            <seg type="hemistich">
+              <w>rumpit</w>
+              <w>hedus</w>
+            </seg>
+          </l>
+          <l n="10">
+            <w>plorat</w>
+            <w>dotes</w>
+            <w>perditas</w>
+          </l>
+          <l n="11">
+            <w>Sponsa</w>
+            <w>Syon</w>
+            <w>immolatur</w>
+          </l>
+          <l n="12">
+            <w>Ananias</w>
+            <w>incurvatur</w>
+          </l>
+          <l n="13">
+            <w>cornu</w>
+            <w>David</w>
+            <w>flagellatur</w>
+          </l>
+          <l n="14">
+            <w>mundus</w>
+          </l>
+          <l n="15">
+            <w>ab</w>
+            <w>ingiustis</w>
+            <w>abdicatur</w>
+          </l>
+          <l n="16">
+            <w>per</w>
+            <w>quem</w>
+            <w>iuste</w>
+            <w>iudicatur</w>
+          </l>
+          <l n="17">
+            <w>mundus</w>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
