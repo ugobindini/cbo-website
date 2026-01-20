@@ -30,10 +30,14 @@ if __name__ == "__main__":
 		#####
 		#####
 
-		for n, sp in enumerate(tree.findall(".//sp")):
-			sp.set('n', str(n+1))
-		for n, st in enumerate(tree.findall(".//stage")):
-			st.set('n', str(n+1))
+		for sp in tree.findall(".//sp"):
+			for child in sp.getchildren():
+				sp.remove(child)
+			sp.text = ''
+		for st in tree.findall(".//stage"):
+			for child in st.getchildren():
+				st.remove(child)
+			st.text = ''
 
 		#####
 		#####

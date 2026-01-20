@@ -1,0 +1,449 @@
+<TEI>
+  <teiHeader/>
+  <text>
+    <body>
+      <front>
+        <castList>
+          <castItem>
+            <role xml:id="ies">Iesus</role>
+          </castItem>
+          <castItem>
+            <role xml:id="mar-magd">Maria Magdalena</role>
+          </castItem>
+          <castItem>
+            <role xml:id="pilatus">Pilatus</role>
+          </castItem>
+          <castItem>
+            <role xml:id="herodes">Herodes</role>
+          </castItem>
+          <castItem>
+            <role xml:id="merc">Mercator</role>
+          </castItem>
+          <castItem>
+            <role xml:id="petrus">Petrus</role>
+          </castItem>
+          <castItem>
+            <role xml:id="andr">Andreas</role>
+          </castItem>
+          <castItem>
+            <role xml:id="zach">Zacheus</role>
+          </castItem>
+          <castItem>
+            <role xml:id="phar">Phariseus</role>
+          </castItem>
+          <castItem>
+            <role xml:id="cecus">Cecus</role>
+          </castItem>
+          <castItem>
+            <role xml:id="angelus">Angelus</role>
+          </castItem>
+          <castItem>
+            <role xml:id="iudas">Iudas</role>
+          </castItem>
+          <castItem>
+            <role xml:id="ancilla">Ancilla</role>
+          </castItem>
+          <castItem>
+            <role xml:id="maria">Maria</role>
+          </castItem>
+          <castItem>
+            <role xml:id="iohannes">Iohannes</role>
+          </castItem>
+          <castItem>
+            <role xml:id="longinus">Longinus</role>
+          </castItem>
+        </castList>
+      </front>
+      <div type="drama">
+        <stage n="1">Ordre d’entrée en scène : d’abord Pilate et sa femme avec ses guerriers, à sa place. Puis Hérode avec ses guerriers. Puis les pontifes. Alors le marchand et sa femme. Enfin Marie Madeleine.</stage>
+        <sp n="1">Pilate entra ...</sp>
+        <stage n="2">Ensuite que celui qui représente le Seigneur s’en aille seul au rivage de la mer appeler Pierre et André, qu’il les trouve en train de pêcher, et que le Seigneur leur dise :</stage>
+        <sp n="2">Suivez-moi, je vous ferai pêcheurs d’hommes.</sp>
+        <stage n="3">Eux disent :</stage>
+        <sp who="#petrus #andr" n="3">Seigneur, nous ferons ce que tu veux, et nous l’accomplirons tout juste à ta volonté.</sp>
+        <stage n="4">Ensuite que celui qui représente le Seigneur aille vers Zachée, et qu’un aveugle vienne à sa rencontre :</stage>
+        <sp n="4">Seigneur Jésus, fils de David, aie pitié de moi.</sp>
+        <stage n="5">Que Jésus réponde :</stage>
+        <sp who="#ies" n="5">Que veux-tu que je fasse pour toi ?</sp>
+        <stage n="6">L’aveugle :</stage>
+        <sp who="#cecus" n="6">Seigneur, seulement que je voie.</sp>
+        <stage n="7">Que Jésus dise :</stage>
+        <sp who="#ies" n="7">Vois, car ta foi t’a sauvé.</sp>
+        <stage n="8">Ceci fait, que Jésus s’approche de Zachée et l’appelle à descendre de son arbre :</stage>
+        <sp who="#ies" n="8">Zachée, dépêche-toi de descendre, car aujourd’hui il faut que je demeure dans ta maison.</sp>
+        <stage n="9">Que Zachée dise :</stage>
+        <sp who="#zach" n="9">Seigneur, si j’ai fait du tort à quelqu’un, je le rembourse quatre fois plus.</sp>
+        <stage n="10">Que Jésus lui réponde :</stage>
+        <sp who="#ies" n="10">Aujourd’hui le salut a eu lieu dans cette maison, parce que toi aussi tu es fils d’Abraham.</sp>
+        <stage n="11">Jésus s’avance :</stage>
+        <sp n="11">‘Comme Jésus approchait ... Et : Comme il entendait ...’</sp>
+        <stage n="12">Et les enfants, étendant au sol rameaux et vêtements : </stage>
+        <sp n="12">‘Les enfants des Hébreux ...’</sp>
+        <stage n="13">Les enfants reprennent. Et aussi :</stage>
+        <sp n="13">Gloire et louange ...</sp>
+        <stage n="14">Que vienne alors le pharisien et qu’il invite Jésus au repas :</stage>
+        <sp who="#phar" n="14">Rabi (ce qui veut dire Maître), je t’en prie, veuille aujourd’hui manger avec moi.</sp>
+        <stage n="15">Que Jésus réponde :</stage>
+        <sp who="#ies" n="15">Qu’il en soit comme tu l’as demandé.</sp>
+        <stage n="16">Que le pharisien dise à son serviteur :</stage>
+        <sp who="#phar" n="16">Allez vite, préparez les sièges pour le banquet, qu’ils soient bien confortables.</sp>
+        <stage n="17">Que Marie Madeleine chante :</stage>
+        <sp who="#mar-magd" n="17">
+          <div type="poem">
+            <lg type="strophe" n="I">
+              <l n="1">Le plaisir du monde</l>
+              <l n="2">est doux et agréable,</l>
+              <l n="3">sa compagnie</l>
+              <l n="4">est plaisante et élégante.</l>
+            </lg>
+            <lg type="strophe" n="II">
+              <l n="1">Pour les délices du monde</l>
+              <l n="2">je veux brûler d’ardeur,</l>
+              <l n="3">sans éviter l’effronterie.</l>
+            </lg>
+            <lg type="strophe" n="III">
+              <l n="1">Dans la joie du monde</l>
+              <l n="2">je veux passer ma vie,</l>
+              <l n="3">c’est aux biens temporels</l>
+              <l n="4">que je ferai service.</l>
+            </lg>
+            <lg type="strophe" n="IV">
+              <l n="1">Sans m’occuper du reste</l>
+              <l n="2">je soignerai mon corps,</l>
+              <l n="3">je m’en vais l’embellir</l>
+              <l n="4">de toutes les couleurs.</l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="18">Maintenant, que Marie aille chez le marchand avec ses suivantes en chantant :</stage>
+        <sp who="#mar-magd" n="18">
+          <div type="poem">
+            <lg type="strophe" n="I">
+              <l n="1">Montre-moi, vendeur, les fards que tu as à vendre,</l>
+              <l n="3">au fort prix que cela te rapportera,</l>
+            </lg>
+            <lg type="strophe" n="II">
+              <l n="4">et de plus ce que tu as comme parfums,</l>
+              <l n="5">car je veux en inonder mon corps qui est si beau.</l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="19">Que le marchand chante :</stage>
+        <sp who="#merc" n="19">
+          <div type="poem">
+            <lg type="strophe" n="I">
+              <l n="7">
+                <seg type="hemistich">Voilà d’excellente marchandise,</seg>
+                <seg type="hemistich">vois un peu quel éclat,</seg>
+            </l>
+              <l n="8">
+                <seg type="hemistich">voici ce qui te convient</seg>
+                <seg type="hemistich">pour la beauté du visage,</seg>
+              </l>
+            </lg>
+            <lg type="strophe" n="II">
+              <l n="9">
+                <seg type="hemistich">et voici les bonnes senteurs :</seg>
+                <seg type="hemistich">si tu les essaies,</seg>
+              </l>
+              <l n="10">
+                <seg type="hemistich">tu n’auras pas d’égal</seg>
+                <seg type="hemistich">pour la fragrance du corps.</seg>
+              </l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="20"></stage>
+        <sp who="#mar-magd" xml:lang="middle-high-german" n="20"></sp>
+        <stage></stage>
+        <sp who="#mar-magd" xml:lang="middle-high-german" n="20"></sp>
+        <stage></stage>
+        <sp who="#mar-magd" xml:lang="middle-high-german" n="20"></sp>
+        <stage></stage>
+        <sp who="#mar-magd" xml:lang="middle-high-german" n="20"></sp>
+        <stage n="21">Ensuite qu’elle aille dormir, et que l’ange chante :</stage>
+        <sp who="#angelus" n="21">
+          <div type="poem">
+            <lg type="strophe">
+              <l n="2">O Marie Madeleine,</l>
+          <l n="3">je t’annonce une nouvelle :</l>
+          <l n="4">Dans la demeure de Simon</l>
+          <l n="5">se trouve assis pour le dîner</l>
+          <l n="6">ce Jésus de Nazareth,</l>
+          <l n="7">plein de grâce et de pouvoir,</l>
+          <l n="8">qui remet les péchés du peuple ;</l>
+          <l n="9">c’est lui que la foule proclame</l>
+          <l n="10">le sauveur de ce siècle.</l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="22">Que l’ange se retire et que Marie se lève, en chantant :</stage>
+        <sp who="#mar-magd" n="22">Le plaisir du monde ...</sp>
+        <stage n="23">Qu’arrive alors son amoureux, que Marie le salue ; et quand ils ont un peu parlé, que Marie chante à ses suivantes :</stage>
+        <sp who="#mar-magd" n="23"></sp>
+        <stage n="24"></stage>
+        <sp who="#mar-magd" n="24"></sp>
+        <stage n="25"></stage>
+        <sp who="#merc" xml:lang="middle-high-german" n="25"></sp>
+        <stage n="26">Qu’elle prenne l’onguent et aille dormir [et que l’ange chante :]</stage>
+        <sp who="#angelus" n="26">O Marie Madeleine ...</sp>
+        <stage n="27">et qu’il disparaisse de nouveau. Que Marie se relève et chante :</stage>
+        <sp who="#mar-magd" n="27">Le plaisir du monde ...</sp>
+        <stage n="28">Puis qu’elle se rendorme encore une fois et que l’ange vienne en chantant comme ci-dessus et disparaisse à nouveau. [...]</stage>
+        <sp who="#mar-magd" n="28">
+          <div type="poem">
+            <lg type="strophe" n="I">
+              <l n="1">Hélas pour ma vie passée, cette vie pleine de maux,</l>
+          <l n="2">ce torrent de turpitudes, cette source de perdition !</l>
+            </lg>
+            <lg type="strophe" n="II">
+          <l n="1">Hélas, que ferai-je, malheureuse, pleine de péchés,</l>
+          <l n="2">moi qui, souillée, souille aussi de la sentine de mes vices !</l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="29">Que l’ange lui dise :</stage>
+        <sp who="#angelus" n="29">Je te le dis : les anges de Dieu se réjouissent pour une seule pécheresse qui fait pénitence.</sp>
+        <stage n="30">Marie :</stage>
+        <sp who="#mar-magd" n="30">
+          <div type="poem">
+            <lg type="strophe" n="I">
+              <l n="1">Dehors ornements du siècle, vêtements immaculés,</l>
+          <l n="2">fuyez bien loin de moi, scandaleux amoureux.</l>
+            </lg>
+            <lg type="strophe" n="II">
+          <l n="1">Pourquoi ai-je voulu naître, si c’est pour être souillée</l>
+          <l n="2">et de toute sorte de crimes accusée ?</l>
+            </lg>
+          </div>
+        </sp>
+        <stage n="31"></stage>
+        <sp n="31"></sp>
+        <stage n="32"></stage>
+        <sp n="32"></sp>
+        <stage n="33"></stage>
+        <sp n="33"></sp>
+        <stage n="34"></stage>
+        <sp n="34"></sp>
+        <stage n="35"></stage>
+        <sp xml:lang="middle-high-german" n="35"></sp>
+        <stage n="36"></stage>
+        <sp xml:lang="middle-high-german" n="36"></sp>
+        <stage n="37"></stage>
+        <sp who="#phar" n="37"></sp>
+        <stage n="38"></stage>
+        <sp who="#iudas" n="38"></sp>
+        <stage n="39"></stage>
+        <sp who="#ies" n="39"></sp>
+        <stage n="40"></stage>
+        <sp who="#ies" n="40"></sp>
+        <stage n="41"></stage>
+        <sp who="#petrus" n="41"></sp>
+        <stage n="42"></stage>
+        <sp who="#ies" n="42"></sp>
+        <stage n="43"></stage>
+        <sp who="#petrus" n="43"></sp>
+        <stage n="44"></stage>
+        <sp who="#ies" n="44"></sp>
+        <stage n="45"></stage>
+        <sp who="#ies" n="45"></sp>
+        <stage n="46"></stage>
+        <sp who="#mar-magd" n="46"></sp>
+        <stage n="47"></stage>
+        <sp n="47"></sp>
+        <stage n="48"></stage>
+        <sp who="#ies" n="48"></sp>
+        <stage n="49"></stage>
+        <sp who="#mar-magd #martha" n="49"></sp>
+        <stage n="50"></stage>
+        <sp n="50"></sp>
+        <stage n="51"></stage>
+        <sp who="#ies" n="51"></sp>
+        <stage n="52"></stage>
+        <sp n="52"></sp>
+        <stage n="53"></stage>
+        <sp who="#iudas" n="53"></sp>
+        <stage n="54"></stage>
+        <sp n="54"></sp>
+        <stage n="55"></stage>
+        <sp who="#iudas" n="55"></sp>
+        <stage n="56"></stage>
+        <sp n="56"></sp>
+        <stage n="57"></stage>
+        <sp who="#iudas" n="57"></sp>
+        <stage n="58"></stage>
+        <sp who="#ies" n="58"></sp>
+        <stage n="59"></stage>
+        <sp who="#ies" n="59"></sp>
+        <stage n="60"></stage>
+        <sp who="#ies" n="60"></sp>
+        <stage n="61"></stage>
+        <sp who="#ies" n="61"></sp>
+        <stage n="62"></stage>
+        <sp who="#ies" n="62"></sp>
+        <stage n="63"></stage>
+        <sp who="#ies" n="63"></sp>
+        <stage n="64"></stage>
+        <sp who="#ies" n="64"></sp>
+        <stage n="65"></stage>
+        <sp who="#ies" n="65"></sp>
+        <stage n="66"></stage>
+        <sp n="66"></sp>
+        <stage n="67"></stage>
+        <sp who="#ies" n="67"></sp>
+        <stage n="68"></stage>
+        <sp who="#ies" n="68"></sp>
+        <stage n="69"></stage>
+        <sp n="69"></sp>
+        <stage n="70"></stage>
+        <sp who="#ies" n="70"></sp>
+        <stage n="71"></stage>
+        <sp who="#ies" n="71"></sp>
+        <stage n="72"></stage>
+        <sp who="#iudas" n="72"></sp>
+        <stage n="73"></stage>
+        <sp who="#ies" n="73"></sp>
+        <stage n="74"></stage>
+        <sp who="#ancilla" n="74"></sp>
+        <stage n="75"></stage>
+        <sp who="#petrus" n="75"></sp>
+        <stage n="76"></stage>
+        <sp who="#ancilla" n="76"></sp>
+        <stage n="77"></stage>
+        <sp who="#petrus" n="77"></sp>
+        <stage n="78"></stage>
+        <sp who="#ancilla" n="78"></sp>
+        <stage n="79"></stage>
+        <sp who="#petrus" n="79"></sp>
+        <stage n="80"></stage>
+        <sp who="#ies" n="80"></sp>
+        <stage n="81"></stage>
+        <sp n="81"></sp>
+        <stage n="82"></stage>
+        <sp n="82"></sp>
+        <stage n="83"></stage>
+        <sp who="#cayphas" n="83"></sp>
+        <stage n="84"></stage>
+        <sp n="84"></sp>
+        <stage n="85"></stage>
+        <sp n="85"></sp>
+        <stage n="86"></stage>
+        <sp who="#pilatus" n="86"></sp>
+        <stage n="87"></stage>
+        <sp n="87"></sp>
+        <stage n="88"></stage>
+        <sp who="#pilatus" n="88"></sp>
+        <stage n="89"></stage>
+        <sp n="89"></sp>
+        <stage n="90"></stage>
+        <sp who="#herodes" n="90"></sp>
+        <stage n="91"></stage>
+        <sp who="#herodes" n="91"></sp>
+        <stage n="92"></stage>
+        <sp who="#pilatus" n="92"></sp>
+        <stage n="93"></stage>
+        <sp n="93"></sp>
+        <stage n="94"></stage>
+        <sp who="#pilatus" n="94"></sp>
+        <stage n="95"></stage>
+        <sp who="#ies" n="95"></sp>
+        <stage n="96"></stage>
+        <sp who="#pilatus" n="96"></sp>
+        <stage n="97"></stage>
+        <sp who="#ies" n="97"></sp>
+        <stage n="98"></stage>
+        <sp who="#pilatus" n="98"></sp>
+        <stage n="99"></stage>
+        <sp who="#pilatus" n="99"></sp>
+        <stage n="100"></stage>
+        <sp n="100"></sp>
+        <stage n="101"></stage>
+        <sp who="#pilatus" n="101"></sp>
+        <stage n="102"></stage>
+        <sp n="102"></sp>
+        <stage n="103"></stage>
+        <sp n="103"></sp>
+        <stage n="104"></stage>
+        <sp who="#pilatus" n="104"></sp>
+        <stage n="105"></stage>
+        <sp n="105"></sp>
+        <stage n="106"></stage>
+        <sp who="#pilatus" n="106"></sp>
+        <stage n="107"></stage>
+        <sp n="107"></sp>
+        <stage n="108"></stage>
+        <sp n="108"></sp>
+        <stage n="109"></stage>
+        <sp who="#pilatus" n="109"></sp>
+        <stage n="110"></stage>
+        <sp who="#pilatus" n="110"></sp>
+        <stage n="111"></stage>
+        <sp who="#pilatus" n="111"></sp>
+        <stage n="112"></stage>
+        <sp who="#ies" n="112"></sp>
+        <stage n="113"></stage>
+        <sp who="#pilatus" n="113"></sp>
+        <stage n="114"></stage>
+        <sp n="114"></sp>
+        <stage n="115"></stage>
+        <sp who="pilatus" n="115"></sp>
+        <stage n="116"></stage>
+        <sp who="#iudas" n="116"></sp>
+        <stage n="117"></stage>
+        <sp who="iudas" n="117"></sp>
+        <stage n="118"></stage>
+        <sp n="118"></sp>
+        <stage n="119"></stage>
+        <sp n="119"></sp>
+        <stage n="120"></stage>
+        <sp n="120"></sp>
+        <stage n="121"></stage>
+        <sp n="121"></sp>
+        <stage n="122"></stage>
+        <sp who="#pilatus" n="122"></sp>
+        <stage n="123"></stage>
+        <sp who="#maria" xml:lang="middle-high-german" n="123"></sp>
+        <stage n="124"></stage>
+        <sp who="#maria" xml:lang="middle-high-german" n="124"></sp>
+        <stage n="125"></stage>
+        <sp who="#maria" xml:lang="middle-high-german" n="125"></sp>
+        <stage n="126"></stage>
+        <sp who="#maria" xml:lang="middle-high-german" n="126"></sp>
+        <stage n="127"></stage>
+        <sp who="#maria" n="127"></sp>
+        <stage n="128"></stage>
+        <sp who="#maria" n="128"></sp>
+        <stage n="129"></stage>
+        <sp who="#maria" n="129"></sp>
+        <stage n="130"></stage>
+        <sp who="#maria" n="130"></sp>
+        <stage n="131"></stage>
+        <sp who="#iohannes" n="131"></sp>
+        <stage n="132"></stage>
+        <sp who="#ies" n="132"></sp>
+        <stage n="133"></stage>
+        <sp who="#ies" n="133"></sp>
+        <stage n="134"></stage>
+        <sp who="#ies" n="134"></sp>
+        <stage n="135"></stage>
+        <sp n="135"></sp>
+        <stage n="136"></stage>
+        <sp who="#longinus" xml:lang="middle-high-german" n="136"></sp>
+        <stage n="137"></stage>
+        <sp who="#ies" n="137"></sp>
+        <stage n="138"></stage>
+        <sp who="#longinus" xml:lang="middle-high-german" n="138"></sp>
+        <stage n="139"></stage>
+        <sp who="#longinus" xml:lang="middle-high-german" n="139"></sp>
+        <stage n="140"></stage>
+        <sp who="#longinus" xml:lang="middle-high-german" n="140"></sp>
+        <stage n="141"></stage>
+        <sp n="141"></sp>
+        <stage n="142"></stage>
+        <sp n="142"></sp>
+        <stage n="143"></stage>
+        <sp n="143"></sp>
+      </div>
+    </body>
+  </text>
+</TEI>

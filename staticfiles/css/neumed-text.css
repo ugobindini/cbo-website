@@ -22,10 +22,15 @@
 .stage {
   margin-top: 6px;
   margin-left: 6px;
+  font-style: italic;
 }
 
 .stage .word, .stage .pc {
   font-style: italic;
+}
+
+.stage-number {
+  font-style: normal;
 }
 
 p {

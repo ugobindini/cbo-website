@@ -455,13 +455,13 @@
                 </notatedMusic>
               </seg>
             </w>
-            <pc resp="#editor">,</pc>
+            <pc resp="#editor">.</pc>
           </l>
           <l n="3">
             <w>
               <app type="neume">
                 <lem>
-                  <seg type="syll">que<notatedMusic>
+                  <seg type="syll">Que<notatedMusic>
                   <neume fontname="buranus" glyph.num="7" label="vi" />
                 </notatedMusic>
               </seg>
@@ -549,7 +549,7 @@
                 </notatedMusic>
               </seg>
             </w>
-            <pc resp="#editor">.</pc>
+            <pc resp="#editor">?</pc>
           </l>
         </lg>
         <lg type="versicle" n="3" met="3p+3p/5p/3p+3p/5p/3p+3p/5p" rhyme="a+a/b/c+c/d/e+e/d">

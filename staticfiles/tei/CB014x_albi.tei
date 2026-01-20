@@ -82,10 +82,10 @@
             <w>torquent</w>
             <w>tua</w>
             <w>vulnera</w>
-            <pc resp="#editor">,</pc>
+            <pc resp="#editor">.</pc>
           </l>
           <l n="3">
-            <w>que</w>
+            <w>Que</w>
             <w>mater</w>
             <pc resp="#editor">,</pc>
             <w>que</w>
@@ -97,7 +97,7 @@
             <pc resp="#editor">,</pc>
             <w>tam</w>
             <w>misera</w>
-            <pc resp="#editor">.</pc>
+            <pc resp="#editor">?</pc>
           </l>
         </lg>
         <lg type="versicle" n="3a" met="3p+3p/5p/3p+3p/5p" rhyme="a+a/b/c+c/b">
@@ -359,6 +359,7 @@
           </l>
           <l n="3">
             <w>dummodo</w>
+            <pc resp="#editor">,</pc>
             <w>nate</w>
             <pc resp="#editor">,</pc>
           </l>
@@ -416,6 +417,7 @@
           <l n="2">
             <w>matrem</w>
             <w>crucifigite</w>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="3">
             <w>aut</w>

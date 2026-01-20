@@ -37,7 +37,7 @@
   </xsl:template>
 
   <xsl:template match="move | stage">
-    <p class="margin-6px"><i><xsl:apply-templates /></i></p>
+    <p class="stage"><span class="stage-number" style="color: gray; margin-right: 8px;"><xsl:value-of select="@n" /></span><xsl:apply-templates /></p>
   </xsl:template>
 
   <xsl:template match="sp">
