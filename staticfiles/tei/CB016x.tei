@@ -15818,16 +15818,12 @@
             <pc>&#183;</pc>
             <w>Lemasabactany</w>
             <pc>&#183;</pc>
-            <pc resp="#editor">.</pc>
-            <w>Hoc</w><w>est</w><w>Deus</w><w>meus</w>
-            <pc resp="#editor">.</pc>
-            <w>Deus</w><w>meus</w><w>ut</w><w>quid</w><w>dereliquisti</w><w>me</w>
-            <pc>&#183;</pc>
             <pc resp="#editor">?</pc>
           </p>
         </sp>
+        <stage><w>Hoc</w><w>est</w><pc resp="#editor">:</pc><w>Deus</w><w>meus</w><pc resp="#editor">,</pc><w>Deus</w><w>meus</w><pc resp="#editor">,</pc><w>ut</w><w>quid</w><w>dereliquisti</w><w>me</w><pc>&#183;</pc><pc resp="#editor">?</pc></stage>
         <stage n="138"><w>Et</w><w>inclinato</w><w>capite</w><w>emittat</w><w>spiritum</w><pc>&#183;</pc><pc resp="#editor">.</pc><w>Longinus</w></stage>
-        <sp who="#longinus" xml:lang="middle-high-german" n="138">
+        <sp who="#longinus" n="138">
           <p>
             <w>
               <seg type="syll" part="I">Ve<notatedMusic>

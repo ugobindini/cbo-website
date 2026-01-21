@@ -30,14 +30,16 @@ if __name__ == "__main__":
 		#####
 		#####
 
+		for lg in tree.findall(".//lg"):
+			for n, line in enumerate(lg.findall("./l")):
+				line.attrib['n'] = str(n+1)
+
 		for sp in tree.findall(".//sp"):
-			for child in sp.getchildren():
-				sp.remove(child)
-			sp.text = ''
+			if not len(sp.getchildren()) and sp.text is None:
+				sp.text = ''
 		for st in tree.findall(".//stage"):
-			for child in st.getchildren():
-				st.remove(child)
-			st.text = ''
+			if not len(st.getchildren()) and st.text is None:
+				st.text = ''
 
 		#####
 		#####
