@@ -2,7 +2,7 @@
   <teiHeader />
   <text>
     <body>
-      <div type="poem" met="7p/7pp/8pp/7p/7p/8pp/7p/7p/8pp/4pp+4pp+3p/8pp/4pp+4pp/8pp/7p" rhyme="a/b/b/a/a/b/a/a/c/c+c+a/d/d+e/e/a">
+      <div type="poem" met="7p/7pp/8pp/7p/7p/8pp/7p/7p/8pp/4pp+4pp+3p/8pp/4pp/4pp/8pp/7p" rhyme="a/b/b/a/a/b/a/a/c/c+c+a/d/d/e/e/a">
         <lg type="strophe" n="I">
           <l n="1">
             <w>Veritas</w>
@@ -12,7 +12,12 @@
           <l n="2">
             <w>via</w>
             <pc resp="#editor">,</pc>
-            <w>vite</w>
+            <app type="text">
+              <lem wit="CB Da O1 O2 R HS V T">
+                <w>vita</w>
+              </lem>
+              <rdg wit="cod."><w>vite</w></rdg>
+            </app>
             <pc resp="#editor">,</pc>
             <w>veritas</w>
             <pc resp="#editor">,</pc>
@@ -25,11 +30,11 @@
           <l n="4">
             <w>eliminans</w>
             <w>peccatum</w>
-            <pc resp="#editor">,</pc>
+            <pc resp="#editor">!</pc>
           </l>
           <l n="5">
-            <w>te</w>
-            <w>verbum</w>
+            <w>Te</w>
+            <w>Verbum</w>
             <w>incarnatum</w>
           </l>
           <l n="6">
@@ -63,7 +68,6 @@
             <seg type="hemistich">
               <w>das</w>
               <w>gratias</w>
-              <pc resp="#editor">,</pc>
             </seg>
             <seg type="hemistich">
               <w>ut</w>
@@ -82,28 +86,26 @@
             <pc resp="#editor">,</pc>
           </l>
           <l n="12">
-            <seg type="hemistich">
-              <w>quam</w>
-              <w>regia</w>
-            </seg>
-            <seg type="hemistich">
-              <w>vox</w>
-              <w>principis</w>
-              <pc resp="#editor">,</pc>
-            </seg>
+            <w>quam</w>
+            <w>regia</w>
           </l>
           <l n="13">
+            <w>vox</w>
+            <w>principis</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="14">
             <w>cum</w>
             <w>egrotanti</w>
             <w>precipis</w>
             <pc resp="#editor">:</pc>
           </l>
-          <l n="14">
+          <l n="15">
             <w>&#171;surge</w>
             <pc resp="#editor">,</pc>
             <w>tolle</w>
             <w>grabatum</w>
-            <pc resp="#editor">&#187;!</pc>
+            <pc resp="#editor">!&#187;</pc>
           </l>
         </lg>
         <lg type="strophe" n="II">
@@ -116,7 +118,7 @@
             <w>clausit</w>
             <w>Ade</w>
             <w>meritum</w>
-            <pc resp="#editor">;</pc>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="3">
             <w>dum</w>
@@ -128,10 +130,10 @@
             <w>non</w>
             <w>paruit</w>
             <w>mandato</w>
-            <pc resp="#editor">,</pc>
+            <pc resp="#editor">.</pc>
           </l>
           <l n="5">
-            <w>de</w>
+            <w>De</w>
             <w>statu</w>
             <w>tam</w>
             <w>beato</w>
@@ -141,10 +143,10 @@
             <w>dedit</w>
             <w>in</w>
             <w>interitum</w>
-            <pc resp="#editor">;</pc>
+            <pc resp="#editor">.</pc>
           </l>
           <l n="7">
-            <w>de</w>
+            <w>De</w>
             <w>morsu</w>
             <w>venenato</w>
           </l>
@@ -152,6 +154,7 @@
             <w>fel</w>
             <w>inhesit</w>
             <w>palato</w>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="9">
             <w>per</w>
@@ -178,22 +181,20 @@
             <w>poculum</w>
           </l>
           <l n="12">
-            <seg type="hemistich">
-              <w>in</w>
-              <w>seculum</w>
-            </seg>
-            <seg type="hemistich">
-              <w>transfunditur</w>
-              <pc resp="#editor">,</pc>
-            </seg>
+            <w>in</w>
+            <w>seculum</w>
           </l>
           <l n="13">
+            <w>transfunditur</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="14">
             <w>nil</w>
             <w>cui</w>
             <w>dulce</w>
             <w>bibitur</w>
           </l>
-          <l n="14">
+          <l n="15">
             <w>de</w>
             <w>vase</w>
             <w>vitiato</w>
@@ -230,7 +231,12 @@
           </l>
           <l n="6">
             <w>quo</w>
-            <w>revertentur</w>
+            <app type="text">
+              <lem wit="cod. O2 T">
+                <w>revertentur</w>
+              </lem>
+              <rdg wit="HS"><w>revertentur</w></rdg>
+            </app>
             <w>filii</w>
             <pc resp="#editor">,</pc>
           </l>
@@ -245,7 +251,7 @@
             <pc resp="#editor">.</pc>
           </l>
           <l n="9">
-            <w>sed</w>
+            <w>Sed</w>
             <w>quando</w>
             <w>sponsus</w>
             <w>veniet</w>
@@ -254,7 +260,6 @@
           <l n="10">
             <seg type="hemistich">
               <w>inveniet</w>
-              <pc resp="#editor">,</pc>
             </seg>
             <seg type="hemistich">
               <w>quid</w>
@@ -266,26 +271,40 @@
             </seg>
           </l>
           <l n="11">
-            <w>non</w>
-            <w>huic</w>
+            <w>Non</w>
+            <app type="text">
+              huic HS T&#61533; hc cod. ; hic O2
+              <lem wit="HS T">
+                <w>huic</w>
+              </lem>
+              <rdg wit="cod."><w>hc</w></rdg>
+              <rdg wit="O2"><w>hic</w></rdg>
+            </app>
             <w>penam</w>
             <w>abstulit</w>
-            <pc resp="#editor">,</pc>
           </l>
           <l n="12">
-            <seg type="hemistich">
-              <w>cui</w>
-              <w>distulit</w>
-              <pc resp="#editor">,</pc>
-            </seg>
-            <seg type="hemistich">
-              <w>sed</w>
-              <w>animam</w>
-            </seg>
+            <w>cui</w>
+            <w>distulit</w>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="13">
-            <w>nunc</w>
-            <w>impinguat</w>
+            <w>sed</w>
+            <app type="text">
+              <lem wit="O2 HS T">
+                <w>animam</w>
+              </lem>
+              <rdg wit="cod."><w>nunc</w><w>impinguat</w><w>animam</w></rdg>
+            </app>
+          </l>
+          <l n="13">
+            <app type="text">
+              <lem wit="O2 HS T">
+                <w>nunc</w>
+                <w>impinguat</w>
+              </lem>
+              <note>om. cod.</note>
+            </app>
             <w>ad</w>
             <w>victimam</w>
           </l>

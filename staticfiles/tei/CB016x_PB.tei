@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader/>
+  <teiHeader />
   <text>
     <body>
       <front>
@@ -153,14 +153,14 @@
             </lg>
           </div>
         </sp>
-        <stage n="20"></stage>
-        <sp who="#mar-magd" xml:lang="middle-high-german" n="20"></sp>
-        <stage></stage>
-        <sp who="#mar-magd" xml:lang="middle-high-german" n="20"></sp>
-        <stage></stage>
-        <sp who="#mar-magd" xml:lang="middle-high-german" n="20"></sp>
-        <stage></stage>
-        <sp who="#mar-magd" xml:lang="middle-high-german" n="20"></sp>
+        <stage n="20" />
+        <sp who="#mar-magd" xml:lang="middle-high-german" n="20" />
+        <stage />
+        <sp who="#mar-magd" xml:lang="middle-high-german" n="20" />
+        <stage />
+        <sp who="#mar-magd" xml:lang="middle-high-german" n="20" />
+        <stage />
+        <sp who="#mar-magd" xml:lang="middle-high-german" n="20" />
         <stage n="21">Ensuite qu&#8217;elle aille dormir, et que l&#8217;ange chante :</stage>
         <sp who="#angelus" n="21">
           <div type="poem">
@@ -180,11 +180,11 @@
         <stage n="22">Que l&#8217;ange se retire et que Marie se l&#232;ve, en chantant :</stage>
         <sp who="#mar-magd" n="22">Le plaisir du monde ...</sp>
         <stage n="23">Qu&#8217;arrive alors son amoureux, que Marie le salue ; et quand ils ont un peu parl&#233;, que Marie chante &#224; ses suivantes :</stage>
-        <sp who="#mar-magd" n="23"></sp>
-        <stage n="24"></stage>
-        <sp who="#mar-magd" n="24"></sp>
-        <stage n="25"></stage>
-        <sp who="#merc" xml:lang="middle-high-german" n="25"></sp>
+        <sp who="#mar-magd" n="23" />
+        <stage n="24" />
+        <sp who="#mar-magd" n="24" />
+        <stage n="25" />
+        <sp who="#merc" xml:lang="middle-high-german" n="25" />
         <stage n="26">Qu&#8217;elle prenne l&#8217;onguent et aille dormir [et que l&#8217;ange chante :]</stage>
         <sp who="#angelus" n="26">O Marie Madeleine ...</sp>
         <stage n="27">et qu&#8217;il disparaisse de nouveau. Que Marie se rel&#232;ve et chante :</stage>
@@ -254,10 +254,10 @@
             </lg>
           </div>
         </sp>
-        <stage n="35"></stage>
-        <sp xml:lang="middle-high-german" n="35"></sp>
-        <stage n="36"></stage>
-        <sp xml:lang="middle-high-german" n="36"></sp>
+        <stage n="35" />
+        <sp xml:lang="middle-high-german" n="35" />
+        <stage n="36" />
+        <sp xml:lang="middle-high-german" n="36" />
         <stage n="37">Que le pharisien se dise &#224; part lui :</stage>
         <sp who="#phar" n="37">Si celui-ci &#233;tait proph&#232;te, il saurait fort bien qui est celle qui le touche et ce qu&#8217;elle est : que c&#8217;est une p&#233;cheresse.</sp>
         <stage n="38">Et que Judas dise :</stage>
@@ -304,7 +304,7 @@
         <stage n="45">Et que J&#233;sus chante &#224; Marie :</stage>
         <sp who="#ies" n="45">Femme, tes p&#233;ch&#233;s te sont remis ; ta foi t&#8217;a sauv&#233;e, va en paix.</sp>
         <stage n="46">Qu&#8217;alors Marie se l&#232;ve et s&#8217;en aille en se lamentant, en chantant :</stage>
-        <sp who="#mar-magd" n="46"></sp>
+        <sp who="#mar-magd" n="46" />
         <stage n="47">Pendant ce temps que les disciples chantent :</stage>
         <sp n="47">Ce pharisien cherchait &#224; obstruer la fontaine de mis&#233;ricorde.</sp>
         <stage n="48">Alors que J&#233;sus aille ressusciter Lazare, et que s&#8217;y trouvent Marie Madeleine et Marthe pleurant Lazare, et que J&#233;sus chante :</stage>
@@ -455,7 +455,7 @@
         <stage n="107">Les Juifs :</stage>
         <sp n="107">Si tu le rel&#226;ches, tu n&#8217;es pas ami de C&#233;sar.</sp>
         <stage n="108">Et :</stage>
-        <sp n="108"></sp>
+        <sp n="108" />
         <stage n="109">Pilate :</stage>
         <sp who="#pilatus" n="109">D&#8217;o&#249; es-tu ?</sp>
         <stage n="110">J&#233;sus se tait. Pilate :</stage>
@@ -485,13 +485,13 @@
         <stage n="122">Pilate :</stage>
         <sp who="#pilatus" n="122">Ce que j&#8217;ai &#233;crit, je l&#8217;ai &#233;crit.</sp>
         <stage n="123">Que vienne alors la m&#232;re du Seigneur en se lamentant avec Jean l&#8217;&#233;vang&#233;liste, et s&#8217;approchant de la croix elle regarde le crucifi&#233; :</stage>
-        <sp who="#maria" xml:lang="middle-high-german" n="123"></sp>
+        <sp who="#maria" xml:lang="middle-high-german" n="123" />
         <stage n="124">Puis</stage>
-        <sp who="#maria" xml:lang="middle-high-german" n="124"></sp>
+        <sp who="#maria" xml:lang="middle-high-german" n="124" />
         <stage n="125">Puis</stage>
-        <sp who="#maria" xml:lang="middle-high-german" n="125"></sp>
+        <sp who="#maria" xml:lang="middle-high-german" n="125" />
         <stage n="126">Puis</stage>
-        <sp who="#maria" xml:lang="middle-high-german" n="126"></sp>
+        <sp who="#maria" xml:lang="middle-high-german" n="126" />
         <stage n="127">Et aussi, que la m&#232;re du Seigneur &#233;plor&#233;e, exhalant de nombreuses plaintes, qui crie aux femmes en pleurs, se lamentant &#233;perd&#251;ment :</stage>
         <sp who="#maria" n="127">
           <div type="poem">
@@ -567,16 +567,16 @@
         <stage n="135">Qu&#8217;aussit&#244;t les Juifs viennent lui pr&#233;senter une &#233;ponge impr&#233;gn&#233;e de vinaigre et que J&#233;sus boive :</stage>
         <sp n="135">Tout est accompli.</sp>
         <stage n="136">Qu&#8217;alors Longin vienne avec sa lance et lui perce le c&#244;t&#233; et qu&#8217;il dise clairement :</stage>
-        <sp who="#longinus" xml:lang="middle-high-german" n="136"></sp>
+        <sp who="#longinus" xml:lang="middle-high-german" n="136" />
         <stage n="137">J&#233;sus voyant sa fin arriver dit d&#8217;un grand cri :</stage>
         <sp who="#ies" n="137">Ely Elylamasabactani,</sp>
         <stage>ce qui signifie : Mon Dieu, mon Dieu, pourquoi m&#8217;as-tu abandonn&#233; ?</stage>
         <stage n="138">Et que penchant la t&#234;te il rende l&#8217;esprit. Longin :</stage>
         <sp who="#longinus" n="138">Vraiment celui-l&#224; &#233;tait le fils de Dieu.</sp>
         <stage n="139">Et :</stage>
-        <sp who="#longinus" xml:lang="middle-high-german" n="139"></sp>
+        <sp who="#longinus" xml:lang="middle-high-german" n="139" />
         <stage n="140">Puis :</stage>
-        <sp who="#longinus" xml:lang="middle-high-german" n="140"></sp>
+        <sp who="#longinus" xml:lang="middle-high-german" n="140" />
         <stage n="141">Et que l&#8217;un des Juifs dise aux autres :</stage>
         <sp n="141">Il appelle &#201;lie. Allons voir si &#201;lie va venir le lib&#233;rer ou non.</sp>
         <stage n="142">Un autre Juif :</stage>
