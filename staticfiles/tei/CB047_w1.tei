@@ -1,8 +1,8 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="6p+7pp/7pp/7pp/6p+7pp/4p+4p/7pp/4p+4p/7pp/8p/8p/8p+2p/8p/8p+2p" rhyme="a/a/a/a/b+b/c/d+d/c/e/e/e+f/e/e+f">
+      <div type="poem" met="6p+7pp/6p+7pp/4p+4p/7pp/4p+4p/7pp/8p/8p/8p+2p/8p/8p+2p" rhyme="a/a/b+b/c/d+d/c/e/e/e+f/e/e+f">
         <lg type="strophe" n="I">
           <l n="1">
             <seg type="hemistich">
@@ -15,16 +15,7 @@
               <w>altera</w>
             </seg>
           </l>
-          <l n="3">
-            <w>nova</w>
-            <w>Christi</w>
-            <w>vulnera</w>
-          </l>
-          <l n="4">
-            <w>arbor</w>
-            <w>salutifera</w>
-          </l>
-          <l n="5">
+          <l n="2">
             <seg type="hemistich">
               <w>perditur</w>
               <w>sepulchrum</w>
@@ -35,7 +26,7 @@
               <w>extera</w>
             </seg>
           </l>
-          <l n="7">
+          <l n="3">
             <seg type="hemistich">
               <w>violente</w>
             </seg>
@@ -44,12 +35,12 @@
               <w>gente</w>
             </seg>
           </l>
-          <l n="8">
+          <l n="4">
             <w>sola</w>
             <w>sedet</w>
             <w>civitas</w>
           </l>
-          <l n="9">
+          <l n="5">
             <seg type="hemistich">
               <w>agni</w>
               <w>fedus</w>
@@ -59,38 +50,38 @@
               <w>hedus</w>
             </seg>
           </l>
-          <l n="10">
+          <l n="6">
             <w>plorat</w>
-            <w>dotes</w>
+            <w>dotas</w>
             <w>perditas</w>
           </l>
-          <l n="11">
+          <l n="7">
             <w>Sponsa</w>
             <w>Syon</w>
             <w>immolatur</w>
           </l>
-          <l n="12">
+          <l n="8">
             <w>Ananias</w>
             <w>incurvatur</w>
           </l>
-          <l n="13">
+          <l n="9">
             <seg type="hemistich">
             <w>cornu</w>
-            <w>Davit</w>
+            <w>David</w>
             <w>flagellatur</w>
             </seg>
             <seg type="hemistich">
             <w>mundus</w>
             </seg>
           </l>
-          <l n="15">
+          <l n="10">
             <w>ab</w>
             <w>iniustis</w>
             <w>abdicatur</w>
           </l>
-          <l n="16">
+          <l n="11">
             <seg type="hemistich">
-            <w>pro</w>
+            <w>per</w>
             <w>quem</w>
             <w>iuste</w>
             <w>iudicatur</w>
