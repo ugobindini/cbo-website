@@ -1,0 +1,106 @@
+<TEI>
+  <teiHeader />
+  <text>
+    <body>
+      <div type="poem" met="6p+7pp/7pp/7pp/6p+7pp/4p+4p/7pp/4p+4p/7pp/8p/8p/8p+2p/8p/8p+2p" rhyme="a/a/a/a/b+b/c/d+d/c/e/e/e+f/e/e+f">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <seg type="hemistich">
+              <w>Crucifigat</w>
+              <w>omnes</w>
+            </seg>
+            <seg type="hemistich">
+              <w>Domini</w>
+              <w>crux</w>
+              <w>altera</w>
+            </seg>
+          </l>
+          <l n="3">
+            <w>nova</w>
+            <w>Christi</w>
+            <w>vulnera</w>
+          </l>
+          <l n="4">
+            <w>arbor</w>
+            <w>salutifera</w>
+          </l>
+          <l n="5">
+            <seg type="hemistich">
+              <w>perditur</w>
+              <w>sepulchrum</w>
+            </seg>
+            <seg type="hemistich">
+              <w>gens</w>
+              <w>evertit</w>
+              <w>dextera</w>
+            </seg>
+          </l>
+          <l n="7">
+            <seg type="hemistich">
+              <w>violente</w>
+            </seg>
+            <seg type="hemistich">
+              <w>plena</w>
+              <w>gente</w>
+            </seg>
+          </l>
+          <l n="8">
+            <w>sola</w>
+            <w>sedet</w>
+            <w>civitas</w>
+          </l>
+          <l n="9">
+            <seg type="hemistich">
+              <w>agni</w>
+              <w>phedus</w>
+            </seg>
+            <seg type="hemistich">
+              <w>rapit</w>
+              <w>edus</w>
+            </seg>
+          </l>
+          <l n="10">
+            <w>plorat</w>
+            <w>dotes</w>
+            <w>perditas</w>
+          </l>
+          <l n="11">
+            <w>Sponsa</w>
+            <w>Syon</w>
+            <w>inmolatur</w>
+          </l>
+          <l n="12">
+            <w>Ananias</w>
+            <w>incurvatur</w>
+          </l>
+          <l n="13">
+            <seg type="hemistich">
+            <w>cornu</w>
+            <w>David</w>
+            <w>fragellatur</w>
+            </seg>
+            <seg type="hemistich">
+            <w>mundus</w>
+            </seg>
+          </l>
+          <l n="15">
+            <w>ab</w>
+            <w>iniustis</w>
+            <w>abdicatur</w>
+          </l>
+          <l n="16">
+            <seg type="hemistich">
+            <w>per</w>
+            <w>quem</w>
+            <w>iuste</w>
+            <w>iudicatur</w>
+            </seg>
+            <seg type="hemistich">
+            <w>mundus</w>
+            </seg>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -3,6 +3,7 @@
   <text>
     <body>
       <div type="poem" met="7pp/7pp/7pp/7pp" rhyme="a/a/b/b">
+        <head>Item aliud</head>
         <lg type="strophe" n="I">
           <l n="1">
             <w>
@@ -114,16 +115,21 @@
               </lem>
               <rdg wit="cod."><w>mentes</w></rdg>
             </app>
-            <w>
+            <app type="text">
+              <lem>
+                <w>
               <seg type="syll" part="I">le<notatedMusic>
                 <neume fontname="buranus" glyph.num="7" label="vi" />
               </notatedMusic>
               </seg>
-              <seg type="syll" part="F">gis<notatedMusic>
+              <seg type="syll" part="F">ge<notatedMusic>
                 <neume fontname="buranus" glyph.num="1" label="pu" />
               </notatedMusic>
               </seg>
             </w>
+              </lem>
+              <rdg wit="cod. HS V T"><w>legis</w></rdg>
+            </app>
             <w>
               <seg type="syll" part="I">se<notatedMusic>
                 <neume fontname="buranus" glyph.num="7" label="vi" />
@@ -623,7 +629,7 @@
               <seg type="syll" part="M">ne</seg>
               <seg type="syll" part="F">bris</seg>
             </w>
-            <pc resp="#editor">&#187;.</pc>
+            <pc resp="#editor">.&#187;</pc>
           </l>
         </lg>
         <lg type="strophe" n="VII">
