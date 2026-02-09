@@ -9,11 +9,11 @@
             <w>cor</w>
             <w>tuum</w>
             <w>revertere</w>
+            <pc resp="#editor">,</pc>
           </l>
           <l n="2">
             <w>conditionis</w>
             <w>misere</w>
-            <pc resp="#editor">,</pc>
           </l>
           <l n="3">
             <w>homo</w>
@@ -28,16 +28,16 @@
             <w>dedicas</w>
             <w>te</w>
             <w>vitiis</w>
-            <pc resp="#editor">,</pc>
+            <pc resp="#editor">?</pc>
           </l>
           <l n="5">
-            <w>cur</w>
+            <w>Cur</w>
             <w>indulges</w>
             <w>malitiis</w>
-            <pc resp="#editor">,</pc>
+            <pc resp="#editor">?</pc>
           </l>
           <l n="6">
-            <w>cur</w>
+            <w>Cur</w>
             <w>excessus</w>
             <w>non</w>
             <w>corrigis</w>
@@ -86,7 +86,7 @@
             <pc resp="#editor">!</pc>
           </l>
         </lg>
-        <lg type="strophe" n="II" met="8pp/4pp+4pp/8pp/7p/7p/4p+4p/8pp/7pp/5pp/8pp/4pp+3p" rhyme="a/a+a/a/b/b/c+c///d/d/d+b/">
+        <lg type="strophe" n="II" met="8pp/4pp+4pp/8pp/7p/7p/4p+4p/8pp/4pp/8pp/8pp/7p" rhyme="a/a+a/a/b/b/c+c/d/d/e/e/b">
           <l n="1">
             <w>O</w>
             <w>conditio</w>
@@ -96,7 +96,6 @@
           <l n="2">
             <seg type="hemistich">
               <w>Considera</w>
-              <pc resp="#editor">,</pc>
             </seg>
             <seg type="hemistich">
               <w>quam</w>
@@ -117,7 +116,7 @@
             <w>sic</w>
             <w>immutat</w>
             <w>statum</w>
-            <pc resp="#editor">.</pc>
+            <pc resp="#editor">!</pc>
           </l>
           <l n="5">
             <w>Cur</w>
@@ -141,20 +140,18 @@
             <w>mortis</w>
             <w>tibi</w>
             <w>incognita</w>
-            <pc resp="#editor">.</pc>
+            <pc resp="#editor">?</pc>
           </l>
           <l n="8">
             <w>Et</w>
-            <w>in</w>
-            <w>vita</w>
-            <w>caritas</w>
+            <w>invita</w>
             <pc resp="#editor">,</pc>
           </l>
           <l n="9">
+            <w>caritas</w>
             <w>que</w>
             <w>non</w>
             <w>proficit</w>
-            <pc resp="#editor">,</pc>
           </l>
           <l n="10">
             <w>prorsus</w>
@@ -222,7 +219,6 @@
           <l n="1">
             <w>Ergo</w>
             <w>vide</w>
-            <pc resp="#editor">,</pc>
             <w>ne</w>
             <w>dormias</w>
             <pc resp="#editor">,</pc>
@@ -241,6 +237,7 @@
           </l>
           <l n="4">
             <w>Beatus</w>
+            <pc resp="#editor">,</pc>
             <w>quem</w>
             <w>invenerit</w>
           </l>
