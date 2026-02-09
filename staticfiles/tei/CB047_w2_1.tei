@@ -1,0 +1,54 @@
+<TEI>
+  <teiHeader />
+  <text>
+    <body>
+      <div type="poem" met="6p+7pp/7pp/7pp/6p+7pp/4p+4p/7pp/4p+4p/[7pp]" rhyme="a/a/a/a/b+b/c/d+d/[c]">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <seg type="hemistich">
+              <w>Crucifigat</w>
+              <w>omnes</w>
+            </seg>
+            <seg type="hemistich">
+              <w>Domini</w>
+              <w>crux</w>
+              <w>altera</w>
+            </seg>
+          </l>
+          <l n="3">
+            <w>nova</w>
+            <w>Christi</w>
+            <w>vulnera</w>
+          </l>
+          <l n="4">
+            <w>arbor</w>
+            <w>salutifera</w>
+          </l>
+          <l n="5">
+            <seg type="hemistich">
+              <w>perditur</w>
+              <w>sepulchrum</w>
+            </seg>
+            <seg type="hemistich">
+              <w>gens</w>
+              <w>evertit</w>
+              <w>extera</w>
+            </seg>
+          </l>
+          <l n="7">
+            <seg type="hemistich">
+              <w>violente</w>
+            </seg>
+            <seg type="hemistich">
+              <w>plena</w>
+              <w>gente</w>
+            </seg>
+          </l>
+          <l n="8">
+            <w>so[la...]</w>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
