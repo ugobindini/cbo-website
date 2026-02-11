@@ -3,6 +3,7 @@
 # Generic program to handle large corrections/updates/modifications of TEI files
 
 import lxml.etree as ET
+import itertools
 
 import os
 import argparse
@@ -29,10 +30,6 @@ if __name__ == "__main__":
 		# Add core code modifying the tree here!
 		#####
 		#####
-
-		for lg in tree.findall(".//lg"):
-			for n, line in enumerate(lg.findall("./l")):
-				line.attrib['n'] = str(n+1)
 
 		#####
 		#####

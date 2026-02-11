@@ -32,8 +32,10 @@ def browse_item(request):
             if len(form.cleaned_data['metrics']):
                 metrics = form.cleaned_data['metrics'].split(" ")
                 through_strophe_break = form.cleaned_data['through_strophe_break']
+                ignore_upbeat = form.cleaned_data['ignore_upbeat']
                 items = [item for item in items if item.contains_metrics(metrics,
-                                                                         through_strophe_break=through_strophe_break)
+                                                                         through_strophe_break=through_strophe_break,
+                                                                         ignore_upbeat=ignore_upbeat)
                          ]
 
             return render(request, "browse_item.html", {"form": form, "items": items})

@@ -287,7 +287,7 @@ class Item(models.Model):
                     break
         return n == len(words)
 
-    def metrics(self, through_strophe_break=False):
+    def metrics(self, through_strophe_break=False, ignore_upbeat=False):
         # return a list of strings: one string ('/'-separated, with a final slash) for each 'poem' unit in the item (there can be many, e.g. plays)
         import itertools
         tree = self.tei_tree
