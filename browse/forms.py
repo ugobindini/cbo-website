@@ -16,7 +16,7 @@ class BrowseItemForm(forms.Form):
     match_word_middle = forms.BooleanField(initial=False, required=False, label="Match occurrences in the middle of word")
     metrics = forms.CharField(max_length=2048, label="Containing metric...", help_text="Separate with whitespaces to match items containing all given units.\nSeparate with slash to match consecutive verses (or half-verses).", required=False)
     through_strophe_break = forms.BooleanField(initial=False, required=False, label="Search through strophe breaks for consecutive patterns")
-    ignore_upbeat = forms.BooleanField(initial=False, required=False, label="Ignore upbeat syllables")
+    ignore_upbeats = forms.BooleanField(initial=False, required=False, label="Ignore upbeat syllables")
 
 class MelodyGeneratorForm(forms.Form):
     template_name = "form_snippet.html"

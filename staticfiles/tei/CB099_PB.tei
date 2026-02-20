@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader/>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
@@ -91,7 +91,7 @@
           <l n="1">
             <seg type="hemistich">Je t&#8217;ai recueilli nu,</seg>
             <seg type="hemistich">et de tout d&#233;pourvu !</seg>
-            <seg type="hemistich"/>
+            <seg type="hemistich" />
           </l>
           <l n="2">
             <seg type="hemistich">Ainsi notre union</seg>

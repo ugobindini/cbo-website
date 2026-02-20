@@ -6,9 +6,11 @@ def parse(met):
 	elements = met.split('/')
 	ints = []
 	for element in elements:
-		if 'A' in element:
-			# accounting for german metric with 'Auftakt'
-			element = element.split('A')[1]
+		# remove upbeats
+		if '+' in element:
+			element = '+'.join([x.split('A')[-1] for x in element.split('+')])
+		else:
+			element = element.split('A')[-1]
 		# sum the integers appearing in the metric (possibly more than one due to hemistichs/composite verses)
 		ints.append(sum([int(''.join(filter(str.isdigit, x))) for x in re.findall(r'\d+', element)]))
 

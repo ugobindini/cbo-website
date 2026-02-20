@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader/>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
@@ -86,7 +86,7 @@
             <pc resp="#editor">!</pc>
           </l>
         </lg>
-        <lg type="strophe" n="II" met="8pp/4pp+4pp/8pp/7p/7p/4p+4p/8pp/4pp/8pp/8pp/7p" rhyme="a/a+a/a/b/b/c+c/d/d/e/e/b">
+        <lg type="strophe" n="II" met="8pp/4pp+4pp/8pp/7p/7p/4p+4p/8pp/4p/8pp/8pp/7p" rhyme="a/a+a/a/b/b/c+c/d/d/e/e/b">
           <l n="1">
             <w>O</w>
             <w>conditio</w>
@@ -145,7 +145,6 @@
           <l n="8">
             <w>Et</w>
             <w>invita</w>
-            <pc resp="#editor">,</pc>
           </l>
           <l n="9">
             <w>caritas</w>

@@ -287,7 +287,7 @@ class Item(models.Model):
                     break
         return n == len(words)
 
-    def metrics(self, through_strophe_break=False, ignore_upbeat=False):
+    def metrics(self, through_strophe_break=False, ignore_upbeats=False):
         # return a list of strings: one string ('/'-separated, with a final slash) for each 'poem' unit in the item (there can be many, e.g. plays)
         import itertools
         tree = self.tei_tree
@@ -314,12 +314,14 @@ class Item(models.Model):
                         poem_metrics += l.get('met') + "/"
                 if not through_strophe_break:
                     poem_metrics += "/"
+                if ignore_upbeats:
+                    poem_metrics = poem_metrics.replace("2A", "").replace("A", "")
             metrics.append(poem_metrics.replace('+', '/'))
         return metrics
 
-    def contains_metrics(self, metrics, through_strophe_break=True):
+    def contains_metrics(self, metrics, through_strophe_break=True, ignore_upbeats=False):
         # returns true if the text contains ALL the metrics in the given list
-        for metric in self.metrics(through_strophe_break=through_strophe_break):
+        for metric in self.metrics(through_strophe_break=through_strophe_break, ignore_upbeats=ignore_upbeats):
             if sum([1 for m in metrics if m + '/' in metric]) == len(metrics):
                 return True
         return False
