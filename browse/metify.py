@@ -5,14 +5,16 @@ import itertools
 def upbeat_variant(met1, met2):
 	hemistichs1 = met1.split('+')
 	hemistichs2 = met2.split('+')
-	assert len(hemistichs1) == len(hemistichs2)
-	print(hemistichs1, hemistichs2)
-	diff = sum([1 for n in range(len(hemistichs1)) if hemistichs1[n] != hemistichs2[n] and "A" + hemistichs2[n] != hemistichs1[n]])
-	print(diff)
-	if diff:
-		return False
+	if len(hemistichs1) == len(hemistichs2):
+		print(hemistichs1, hemistichs2)
+		diff = sum([1 for n in range(len(hemistichs1)) if hemistichs1[n] != hemistichs2[n] and "A" + hemistichs2[n] != hemistichs1[n]])
+		print(diff)
+		if diff:
+			return False
+		else:
+			return True
 	else:
-		return True
+		return False
 
 
 def metify(tree):

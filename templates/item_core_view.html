@@ -145,12 +145,41 @@
         prev_syl.find(".syl > .syl-text").append($(this));
       }
     });
-    //Assign data-text attribute to each word
+    //Assign data-word attribute to each word
     $("span.word").each(function(){
-      //TODO
+      var word = "";
+      $(this).find("span.syl-text").each(function(){
+        word += $(this).text().toLowerCase();
+      });
+      $(this).attr("data-word", word);
     });
   });
 </script>
+
+<script>
+  // This script makes the search work (highlight words)
+  function highlightWords() {
+    let filter = $("#searchInput").val().toLowerCase();
+    if (filter.length) {
+      $("span.word").each(function() {
+        if ($(this).attr("data-word").indexOf(filter) > -1) {
+          $(this).addClass("highlighted");
+        } else {
+          $(this).removeClass("highlighted");
+        }
+      });
+    }
+    else {
+      $("span.word").each(function() { $(this).removeClass("highlighted"); });
+    }
+  }
+</script>
+
+<style>
+  .highlighted {
+    background-color: yellow;
+  }
+</style>
 
 <script src="{% static 'javascript/set_leading_consonants.js' %}"></script>
 <script src="{% static 'javascript/indent.js' %}"></script>
@@ -182,6 +211,7 @@
       </div>
 
       <div id="text-{{ item.pk }}">
+        <input type="text" id="searchInput" onkeyup="highlightWords()" placeholder="Search word..." style="width: 100%;">
         {% autoescape off %}
         {{ item.formatted_transform }}
         {% endautoescape %}
@@ -217,6 +247,7 @@
 
   <div class="tabcontent" style="display: block;">
     <div id="mainContainer-{{ item.pk }}" style="height: 100%;">
+      <input type="text" id="searchInput" onkeyup="highlightWords()" placeholder="Search word...">
       <div id="formattedText-{{ item.pk }}">
         {% autoescape off %}
         {{ item.formatted_transform }}
