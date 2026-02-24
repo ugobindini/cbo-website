@@ -548,11 +548,19 @@
                     <neume fontname="buranus" glyph.num="7" label="vi" />
                   </notatedMusic>
                   </seg>
-                  <seg type="syll" part="M">po<notatedMusic>
+                  <app type="neume">
+                    <lem>
+                      <seg type="syll" part="M">po<notatedMusic>
+                    <neume fontname="buranus" glyph.num="49" label="vi" />
+                  </notatedMusic>
+                  </seg>
+                    </lem>
+                    <note>ut vid.</note>
+                  </app>
+                  <seg type="syll" part="F">ris<notatedMusic>
                     <neume fontname="buranus" glyph.num="49" label="cl" />
                   </notatedMusic>
                   </seg>
-                  <seg type="syll" part="F">ris</seg>
                 </w>
               </lem>
               <note>-i- corr. ex -e-</note>
