@@ -1,16 +1,16 @@
 <TEI>
-  <teiHeader></teiHeader>
+  <teiHeader />
   <text>
     <body>
       <div type="poem">
         <lg type="strophe" n="I">
           <l n="1">
-            <seg type="hemistich">C’est le temps du plaisir,</seg>
+            <seg type="hemistich">C&#8217;est le temps du plaisir,</seg>
             <seg type="hemistich">mesdemoiselles !</seg>
           </l>
           <l n="2">
-            <seg type="hemistich">Le temps de se réjouir,</seg>
-            <seg type="hemistich">vous les garçons !</seg>
+            <seg type="hemistich">Le temps de se r&#233;jouir,</seg>
+            <seg type="hemistich">vous les gar&#231;ons !</seg>
           </l>
           <l n="3">Oh oh !</l>
           <l n="4">Je suis tout en fleur !</l>
@@ -18,8 +18,8 @@
         <lg type="refrain">
           <head>Refrain</head>
           <l n="1">
-            <seg type="hemistich">Pour l’amour d’une pucelle,</seg>
-            <seg type="hemistich">je suis plein d’ardeur,</seg>
+            <seg type="hemistich">Pour l&#8217;amour d&#8217;une pucelle,</seg>
+            <seg type="hemistich">je suis plein d&#8217;ardeur,</seg>
           </l>
           <l n="2">
             <seg type="hemistich">amour tout neuf, amour nouveau,</seg>
@@ -32,44 +32,44 @@
             <seg type="hemistich">si doucement,</seg>
           </l>
           <l n="2">
-            <seg type="hemistich">et j’entends sa mélodie</seg>
-            <seg type="hemistich">d’un cœur brûlant.</seg>
+            <seg type="hemistich">et j&#8217;entends sa m&#233;lodie</seg>
+            <seg type="hemistich">d&#8217;un c&#339;ur br&#251;lant.</seg>
           </l>
           <l n="3">Oh oh !</l>
           <l n="4">Je suis tout en fleur ...</l>
         </lg>
         <lg type="strophe" n="III">
           <l n="1">
-            <seg type="hemistich">C’est la fleur des jeunes filles</seg>
-            <seg type="hemistich">que je chéris,</seg>
+            <seg type="hemistich">C&#8217;est la fleur des jeunes filles</seg>
+            <seg type="hemistich">que je ch&#233;ris,</seg>
           </l>
           <l n="2">
             <seg type="hemistich">la rose des roses qui fait</seg>
-            <seg type="hemistich">brûler mon cœur.</seg>
+            <seg type="hemistich">br&#251;ler mon c&#339;ur.</seg>
           </l>
           <l n="3">Oh oh !</l>
           <l n="4">Je suis tout en fleur ...</l>
         </lg>
         <lg type="strophe" n="IV">
           <l n="1">
-            <seg type="hemistich">Si tu te promets à moi,</seg>
-            <seg type="hemistich">j’en suis ravi,</seg>
+            <seg type="hemistich">Si tu te promets &#224; moi,</seg>
+            <seg type="hemistich">j&#8217;en suis ravi,</seg>
           </l>
           <l n="2">
-            <seg type="hemistich">si tu te refuses à moi,</seg>
-            <seg type="hemistich">j’en suis détruit !</seg>
+            <seg type="hemistich">si tu te refuses &#224; moi,</seg>
+            <seg type="hemistich">j&#8217;en suis d&#233;truit !</seg>
           </l>
           <l n="3">Oh oh !</l>
           <l n="4">Je suis tout en fleur ...</l>
         </lg>
         <lg type="strophe" n="V">
           <l n="1">
-            <seg type="hemistich">Elle s’amuse de moi,</seg>
-            <seg type="hemistich">ta virginité,</seg>
+            <seg type="hemistich">Elle s&#8217;amuse de moi,</seg>
+            <seg type="hemistich">ta virginit&#233;,</seg>
           </l>
           <l n="2">
-            <seg type="hemistich">elle me déconcerte,</seg>
-            <seg type="hemistich">ta simplicité.</seg>
+            <seg type="hemistich">elle me d&#233;concerte,</seg>
+            <seg type="hemistich">ta simplicit&#233;.</seg>
           </l>
           <l n="3">Oh oh !</l>
           <l n="4">Je suis tout en fleur ...</l>
@@ -80,7 +80,7 @@
             <seg type="hemistich">pour un moment,</seg>
           </l>
           <l n="2">
-            <seg type="hemistich">que jaillisse de mon cœur</seg>
+            <seg type="hemistich">que jaillisse de mon c&#339;ur</seg>
             <seg type="hemistich">mon propre chant.</seg>
           </l>
           <l n="3">Oh oh !</l>
@@ -88,7 +88,7 @@
         </lg>
         <lg type="strophe" n="VII">
           <l n="1">
-            <seg type="hemistich">L’homme peut être patient</seg>
+            <seg type="hemistich">L&#8217;homme peut &#234;tre patient</seg>
             <seg type="hemistich">par mauvais temps,</seg>
           </l>
           <l n="2">
@@ -100,12 +100,12 @@
         </lg>
         <lg type="strophe" n="VIII">
           <l n="1">
-            <seg type="hemistich">Viens à moi, viens, demoiselle,</seg>
+            <seg type="hemistich">Viens &#224; moi, viens, demoiselle,</seg>
             <seg type="hemistich">pour notre joie,</seg>
           </l>
           <l n="2">
             <seg type="hemistich">viens donc, viens, ma toute belle,</seg>
-            <seg type="hemistich">je n’en vis plus !</seg>
+            <seg type="hemistich">je n&#8217;en vis plus !</seg>
           </l>
           <l n="3">Oh oh !</l>
           <l n="4">Je suis tout en fleur ...</l>
