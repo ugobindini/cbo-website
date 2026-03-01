@@ -1,0 +1,229 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="sequence">
+        <lg type="versicle" n="1a" met="6pp/6pp/6pp/6pp/6pp/4pp+3p/6pp/4pp+3p" rhyme="a/b/a/b/c/c+d/e/e+d">
+          <l n="1">
+            <w>A</w>
+            <w>globo</w>
+            <w>veteri</w>
+          </l>
+          <l n="2">
+            <w>cum</w>
+            <w>rerum</w>
+            <w>faciem</w>
+          </l>
+          <l n="3">
+            <w>traxissent</w>
+            <w>superi</w>
+          </l>
+          <l n="4">
+            <w>mundique</w>
+            <w>seriem</w>
+          </l>
+          <l n="5">
+            <w>prudens</w>
+            <w>explicuit</w>
+          </l>
+          <l n="6">
+            <seg type="hemistich">
+              <w>et</w>
+              <w>texuit</w>
+            </seg>
+            <seg type="hemistich">
+              <w>Natura</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="7">
+            <w>iam</w>
+            <w>preconceperat</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="8">
+            <seg type="hemistich">
+              <w>quod</w>
+              <w>fuerat</w>
+            </seg>
+            <seg type="hemistich">
+              <w>factura</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="versicle" n="1b" met="6pp/6pp/6pp/6pp/6pp/4pp+3p/6pp/4pp+3p" rhyme="f/g/f/g/c/c+h/i/i+h">
+          <l n="1">
+            <w>Que</w>
+            <w>causas</w>
+            <w>machine</w>
+          </l>
+          <l n="2">
+            <w>mundane</w>
+            <w>suscitans</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>de</w>
+            <w>nostra</w>
+            <w>virgine</w>
+          </l>
+          <l n="4">
+            <w>iam</w>
+            <w>dudum</w>
+            <w>cogitans</w>
+          </l>
+          <l n="5">
+            <w>Plus</w>
+            <w>hanc</w>
+            <w>excoluit</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="6">
+            <seg type="hemistich">
+              <w>plus</w>
+              <w>prebuit</w>
+            </seg>
+            <seg type="hemistich">
+              <w>decoris</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="7">
+            <w>dans</w>
+            <w>privilegium</w>
+          </l>
+          <l n="8">
+            <seg type="hemistich">
+              <w>et</w>
+              <w>pretium</w>
+            </seg>
+            <seg type="hemistich">
+              <w>laboris</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="versicle" n="2" met="6pp/6pp/8pp/4pp/8pp/4pp/6pp" rhyme="a/a/b/b/c/c/b">
+          <l n="1">
+            <w>In</w>
+            <w>hac</w>
+            <w>pre</w>
+            <w>ceteris</w>
+          </l>
+          <l n="2">
+            <w>totius</w>
+            <w>operis</w>
+          </l>
+          <l n="3">
+            <w>Nature</w>
+            <w>lucet</w>
+            <w>opera</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="4">
+            <w>Tot</w>
+            <w>munera</w>
+          </l>
+          <l n="5">
+            <w>nulli</w>
+            <w>favoris</w>
+            <w>contulit</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="6">
+            <w>sed</w>
+            <w>extulit</w>
+          </l>
+          <l n="7">
+            <w>hanc</w>
+            <w>ultra</w>
+            <w>cetera</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="versicle" n="3" met="6pp/6p/6pp/6p/4pp/7pp/7p" rhyme="a/b/a/b/c/c/d">
+          <l n="1">
+            <w>Nature</w>
+            <w>studio</w>
+          </l>
+          <l n="2">
+            <w>longe</w>
+            <w>venustata</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>contendit</w>
+            <w>lilio</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>rugis</w>
+            <w>non</w>
+            <w>crispata</w>
+          </l>
+          <l n="5">
+            <w>frons</w>
+            <w>nivea</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="6">
+            <w>Simplices</w>
+            <w>siderea</w>
+          </l>
+          <l n="7">
+            <w>luce</w>
+            <w>micant</w>
+            <w>ocelli</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="versicle" n="4" met="8pp/4pp/8pp/4pp/7pp/7p/7pp/7pp/4pp+3p" rhyme="a/b/a/b/c/d/c/e/e+d">
+          <l n="1">
+            <w>Ab</w>
+            <w>utriusque</w>
+            <w>luminis</w>
+          </l>
+          <l n="2">
+            <w>confinio</w>
+          </l>
+          <l n="3">
+            <w>moderati</w>
+            <w>libraminis</w>
+          </l>
+          <l n="4">
+            <w>iudicio</w>
+          </l>
+          <l n="5">
+            <w>naris</w>
+            <w>eminentia</w>
+          </l>
+          <l n="6">
+            <w>producitur</w>
+            <w>venuste</w>
+          </l>
+          <l n="7">
+            <w>quadam</w>
+            <w>temperantia</w>
+            <pc resp="#editor">:</pc>
+          </l>
+          <l n="8">
+            <w>nec</w>
+            <w>nimis</w>
+            <w>erigitur</w>
+          </l>
+          <l n="9">
+            <seg type="hemistich">
+              <w>nec</w>
+              <w>premitur</w>
+            </seg>
+            <seg type="hemistich">
+              <w>iniuste</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

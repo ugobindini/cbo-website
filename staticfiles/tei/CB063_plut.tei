@@ -3,7 +3,7 @@
   <text>
     <body>
       <div type="sequence">
-        <lg type="strophe" n="1a" met="7pp/7pp/7pp/7pp/4pp/7pp/7pp/7pp/7pp/7p" rhyme="a/b/b/a/c/c/d/d/d/e">
+        <lg type="versicle" n="1a" met="7pp/7pp/7pp/7pp/4pp/7pp/7pp/7pp/7pp/7p" rhyme="a/b/b/a/c/c/d/d/d/e">
           <l n="1">
             <w>Olim</w>
             <w>sudor</w>
@@ -95,7 +95,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="1b" met="7pp/7pp/7pp/7pp/4pp/7pp/7pp/7pp/7pp/7p" rhyme="f/g/g/f/c/c/h/h/h/e">
+        <lg type="versicle" n="1b" met="7pp/7pp/7pp/7pp/4pp/7pp/7pp/7pp/7pp/7p" rhyme="f/g/g/f/c/c/h/h/h/e">
           <l n="1">
             <w>Hydra</w>
             <w>damno</w>
@@ -156,7 +156,7 @@
             <pc resp="#editor">...</pc>
           </l>
         </lg>
-        <lg type="strophe" n="2a" met="7pp/7pp/8pp/4pp/7pp/7pp/8pp/4pp/7pp/8pp" rhyme="a/a/b/c/a/a/b/c/c/b">
+        <lg type="versicle" n="2a" met="7pp/7pp/8pp/4pp/7pp/7pp/8pp/4pp/7pp/8pp" rhyme="a/a/b/c/a/a/b/c/c/b">
           <l n="1">
             <w>Caco</w>
             <w>tristis</w>
@@ -209,7 +209,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="2b" met="7pp/7pp/8pp/4pp/7pp/7pp/8pp/4pp/7pp/8pp" rhyme="d/d/e/c/d/d/e/c/c/e">
+        <lg type="versicle" n="2b" met="7pp/7pp/8pp/4pp/7pp/7pp/8pp/4pp/7pp/8pp" rhyme="d/d/e/c/d/d/e/c/c/e">
           <l n="1">
             <w>Jugo</w>
             <w>cessit</w>
@@ -269,7 +269,7 @@
             <pc resp="#editor">...</pc>
           </l>
         </lg>
-        <lg type="strophe" n="3a" met="6pp/6pp/6pp/6pp/7pp/7pp/7p/7pp/4pp/7pp/4pp+3p" rhyme="a/b/a/b/b/b/c/d/d/e/e+c">
+        <lg type="versicle" n="3a" met="6pp/6pp/6pp/6pp/7pp/7pp/7p/7pp/4pp/7pp/4pp+3p" rhyme="a/b/a/b/b/b/c/d/d/e/e+c">
           <l n="1">
             <w>Antei</w>
             <w>Lybici</w>
@@ -332,7 +332,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="3b" met="6pp/6pp/6pp/6pp/7pp/7pp/7p/7pp/4pp/7pp/4pp+3p" rhyme="f/g/f/g/g/g/h/i/i/j/j+h">
+        <lg type="versicle" n="3b" met="6pp/6pp/6pp/6pp/7pp/7pp/7p/7pp/4pp/7pp/4pp+3p" rhyme="f/g/f/g/g/g/h/i/i/j/j+h">
           <l n="1">
             <w>Tantis</w>
             <w>floruerat</w>
@@ -393,7 +393,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="4a" met="7pp/4pp/7pp/4pp/4pp/7pp/7pp/4pp+3p/7pp/4pp+3p" rhyme="a/a/b/b/c/c/d/d+e/f/f+e">
+        <lg type="versicle" n="4a" met="7pp/4pp/7pp/4pp/4pp/7pp/7pp/4pp+3p/7pp/4pp+3p" rhyme="a/a/b/b/c/c/d/d+e/f/f+e">
           <l n="1">
             <w>Sed</w>
             <w>Alcide</w>
@@ -456,7 +456,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="4b" met="7pp/4pp/7pp/4pp/4pp/7pp/7pp/4pp+3p/7pp/4pp+3p" rhyme="g/g/h/h/i/i/j/j+k/l/l+k">
+        <lg type="versicle" n="4b" met="7pp/4pp/7pp/4pp/4pp/7pp/7pp/4pp+3p/7pp/4pp+3p" rhyme="g/g/h/h/i/i/j/j+k/l/l+k">
           <l n="1">
             <w>Dulces</w>
             <w>nodos</w>
