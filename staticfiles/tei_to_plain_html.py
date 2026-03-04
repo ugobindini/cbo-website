@@ -10,7 +10,6 @@ def to_paragraph(p):
 	res = ""
 	elements = p.xpath(".//w|.//pc[@resp='#editor']")
 	if len(elements):
-		# A latin/german text
 		for el in p.xpath(".//w|.//pc[@resp='#editor']"):
 			if el.xpath("./ancestor::rdg") or el.xpath("./ancestor::note"):
 				# exclude words in app-readings or app-notes
@@ -29,7 +28,10 @@ def to_paragraph(p):
 			for i in range(3):
 				res = res.replace(f"{pc} ", pc)
 	else:
-		res = p.text
+		if p.text is None:
+			res = ""
+		else:
+			res = p.text
 
 	return res
 
@@ -38,7 +40,7 @@ def to_html(tei_file):
 	res = "<html>\n<body>\n"
 	from lxml import etree
 	xml = etree.parse('tei/' + tei_file)
-	for el in xml.xpath(".//stage|.//p|.//lg|.//head"):
+	for el in xml.xpath(".//stage|.//p|.//lg"):
 		print(el)
 		if el.tag == 'stage':
 			res += "<p><i>"
@@ -51,12 +53,16 @@ def to_html(tei_file):
 		elif el.tag == 'lg':
 			if 'n' in el.attrib.keys():
 				res += "<p><b>" + el.attrib['n'] + "</b></p>\n"
+			for head in el.findall('head'):
+				res += "<p><b>" + head.text + "</b></p>\n"
 			for line in el.findall('l'):
 				res += "<p>"
-				res += to_paragraph(line)
+				hemistichs = line.xpath("seg[@type='hemistich']")
+				if len(hemistichs):
+					res += " ".join([to_paragraph(hemistich) for hemistich in hemistichs])
+				else:
+					res += to_paragraph(line)
 				res += "</p>\n"
-		elif el.tag == 'head':
-			res += "<p><b>" + el.text + "</b></p>\n"
 	res += "</html>\n</body>\n"
 	return res
 
@@ -65,5 +71,6 @@ if __name__ == "__main__":
 	for file in os.listdir('tei'):
 		if file.endswith('.tei'):
 			html_file = open('html/' + file[:-3] + "html", 'w')
+			print(file)
 			html_file.write(to_html(file))
 			html_file.close()
