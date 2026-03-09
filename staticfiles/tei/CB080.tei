@@ -4,7 +4,7 @@
     <body>
       <div type="poem">
         <head>Item de eodem</head>
-        <lg type="strophe" n="I" met="7pp+6p/7pp+6p/7pp/A7pp/7p" rhyme="a+C/a+C/D/D/C">
+        <lg type="strophe" n="I" met="7pp+6p/7pp+6p/7pp/A7pp+A6p" rhyme="a+C/a+C/D/D+C">
           <l n="1">
             <seg type="hemistich">
               <w>
@@ -178,7 +178,8 @@
             </w>
           </l>
           <l n="4">
-            <w>
+            <seg type="hemistich">
+              <w>
               <seg type="syll">dum<notatedMusic>
                 <neume fontname="buranus" glyph.num="1" label="pu" />
               </notatedMusic>
@@ -219,9 +220,9 @@
               </seg>
             </w>
             <pc>&#183;</pc>
-          </l>
-          <l n="5">
-            <w>
+            </seg>
+            <seg type="hemistich">
+              <w>
               <seg type="syll" part="I">gar<notatedMusic>
                 <neume fontname="buranus" glyph.num="7" label="vi" />
               </notatedMusic>
@@ -254,6 +255,7 @@
               </seg>
             </w>
             <pc resp="#editor">.</pc>
+            </seg>
           </l>
         </lg>
         <lg type="refrain" met="7pp+A6p/7pp+A6p/7pp/A7pp+A6p" rhyme="A+B/A+B/A/A+C">
@@ -529,7 +531,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="II" met="A7pp+6p/7pp+6p/7pp/A7pp/7p" rhyme="a/a/D/D/C">
+        <lg type="strophe" n="II" met="A7pp+6p/7pp+6p/7pp/A7pp+A6p" rhyme="a/a/D/D+C">
           <l n="1">
             <seg type="hemistich">
               <w>
@@ -625,7 +627,8 @@
             <pc resp="#editor">,</pc>
           </l>
           <l n="4">
-            <w>
+            <seg type="hemistich">
+              <w>
               <seg type="syll">dum</seg>
             </w>
             <w>
@@ -641,9 +644,9 @@
               <seg type="syll" part="M">vi</seg>
               <seg type="syll" part="F">um</seg>
             </w>
-          </l>
-          <l n="5">
-            <w>
+            </seg>
+            <seg type="hemistich">
+              <w>
               <seg type="syll" part="I">gar</seg>
               <seg type="syll" part="M">ri</seg>
               <seg type="syll" part="F">tu</seg>
@@ -656,6 +659,7 @@
             </w>
             <pc>&#183;</pc>
             <pc resp="#editor">.</pc>
+            </seg>
           </l>
         </lg>
         <lg type="strophe" n="III" met="7pp/A7pp/7pp/A7pp/7pp/7pp/A7pp/7pp" rhyme="a/A/a/A/A/b/E/b">
