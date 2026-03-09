@@ -1,0 +1,383 @@
+<TEI>
+  <teiHeader></teiHeader>
+  <text>
+    <body>
+      <div type="poem">
+        <lg type="strophe" n="I">
+          <l n="1">
+            <seg type="hemistich">
+              <w>Axe</w>
+              <w>Phebus</w>
+              <w>aureo</w>
+            </seg>
+            <seg type="hemistich">
+              <w>celsiora</w>
+              <w>lustrat</w>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>et</w>
+              <w>nitore</w>
+              <w>roseo</w>
+            </seg>
+            <seg type="hemistich">
+              <w>radios</w>
+              <w>illustrat</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="II">
+          <l n="1">
+            <seg type="hemistich">
+              <w>Venustata</w>
+              <w>Cybele</w>
+            </seg>
+            <seg type="hemistich">
+              <w>facie</w>
+              <w>florente</w>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>florem</w>
+              <w>nato</w>
+              <w>Semele</w>
+            </seg>
+            <seg type="hemistich">
+              <w>dat</w>
+              <w>Phebo</w>
+              <w>favente</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="III">
+          <l n="1">
+            <seg type="hemistich">
+              <w>Aurarum</w>
+              <w>suavium</w>
+            </seg>
+            <seg type="hemistich">
+              <w>gratia</w>
+              <w>iuvante</w>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>sonat</w>
+              <w>nemus</w>
+              <w>avium</w>
+            </seg>
+            <seg type="hemistich">
+              <w>voce</w>
+              <w>modulante</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="IV">
+          <l n="1">
+            <seg type="hemistich">
+              <w>Philomena</w>
+              <w>querule</w>
+            </seg>
+            <seg type="hemistich">
+              <w>Terea</w>
+              <w>retractat</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>dum</w>
+              <w>canendo</w>
+              <w>merule</w>
+            </seg>
+            <seg type="hemistich">
+              <w>carmina</w>
+              <w>coaptat</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="V">
+          <l n="1">
+            <seg type="hemistich">
+              <w>Iam</w>
+              <w>Dionea</w>
+            </seg>
+            <seg type="hemistich">
+              <w>leta</w>
+              <w>chorea</w>
+            </seg>
+          </l>
+          <l n="2">
+            <w>sedula</w>
+            <w>resonat</w>
+          </l>
+          <l n="3">
+            <w>cantibus</w>
+            <w>horum</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="VI">
+          <l n="1">
+            <seg type="hemistich">
+              <w>Iamque</w>
+              <w>Dione</w>
+            </seg>
+            <seg type="hemistich">
+              <w>iocis</w>
+              <pc resp="#editor">,</pc>
+              <w>agone</w>
+            </seg>
+          </l>
+          <l n="2">
+            <w>relevat</w>
+            <pc resp="#editor">,</pc>
+            <w>cruciat</w>
+          </l>
+          <l n="3">
+            <w>corda</w>
+            <w>suorum</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="VII">
+          <l n="1">
+            <seg type="hemistich">
+              <w>Me</w>
+              <w>quoque</w>
+              <w>subtrahit</w>
+            </seg>
+            <seg type="hemistich">
+              <w>illa</w>
+              <w>sopori</w>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>invigilareque</w>
+            </seg>
+            <seg type="hemistich">
+              <w>cogit</w>
+              <w>amori</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="VIII">
+          <l n="1">
+            <seg type="hemistich">
+              <w>Tela</w>
+              <w>Cupidinis</w>
+            </seg>
+            <seg type="hemistich">
+              <w>aurea</w>
+              <w>gesto</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>igne</w>
+              <w>cremantia</w>
+            </seg>
+            <seg type="hemistich">
+              <w>corda</w>
+              <w>molesto</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="IX">
+          <l n="1">
+            <w>Quod</w>
+            <w>mihi</w>
+            <w>datur</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>expaveo</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>quodque</w>
+            <w>negatur</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>hoc</w>
+            <w>aveo</w>
+          </l>
+          <l n="5">
+            <w>mente</w>
+            <w>severa</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="X">
+          <l n="1">
+            <w>Que</w>
+            <w>michi</w>
+            <w>cedit</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>hanc</w>
+            <w>fugio</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="3">
+            <w>que</w>
+            <w>non</w>
+            <w>obedit</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>hanc</w>
+            <w>cupio</w>
+          </l>
+          <l n="5">
+            <w>sumque</w>
+            <w>re</w>
+            <w>vera</w>
+          </l>
+        </lg>
+        <lg type="strophe" n="XI">
+          <l n="1">
+            <w>Felix</w>
+            <pc resp="#editor">,</pc>
+            <w>seu</w>
+            <w>peream</w>
+          </l>
+          <l n="2">
+            <w>seu</w>
+            <w>relever</w>
+            <w>per</w>
+            <w>eam</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="3">
+            <w>plus</w>
+            <w>renuo</w>
+            <w>debitum</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>plus</w>
+            <w>libet</w>
+            <w>illicitum</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="5">
+            <w>plus</w>
+            <w>feror</w>
+            <w>in</w>
+            <w>vetitum</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="6">
+            <w>plus</w>
+            <w>libet</w>
+            <w>illicitum</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XII">
+          <l n="1">
+            <w>O</w>
+            <w>metuenda</w>
+          </l>
+          <l n="2">
+            <w>Dione</w>
+            <w>decreta</w>
+            <pc resp="#editor">!</pc>
+          </l>
+          <l n="3">
+            <w>O</w>
+            <w>fugienda</w>
+          </l>
+          <l n="4">
+            <w>venena</w>
+            <w>secreta</w>
+            <pc resp="#editor">!</pc>
+          </l>
+          <l n="5">
+            <w>Fraude</w>
+            <w>verenda</w>
+          </l>
+          <l n="6">
+            <w>doloque</w>
+            <w>repleta</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XIII">
+          <l n="1">
+            <w>Docta</w>
+            <w>furoris</w>
+          </l>
+          <l n="2">
+            <w>urentis</w>
+            <w>et</w>
+            <w>ire</w>
+          </l>
+          <l n="3">
+            <w>vite</w>
+            <w>que</w>
+            <w>cogit</w>
+          </l>
+          <l n="4">
+            <w>amara</w>
+            <w>subire</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XIV">
+          <l n="1">
+            <w>Hinc</w>
+            <w>mihi</w>
+            <w>metus</w>
+          </l>
+          <l n="2">
+            <w>abundat</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>hinc</w>
+            <w>ora</w>
+            <w>fletus</w>
+          </l>
+          <l n="4">
+            <w>inundat</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="strophe" n="XV">
+          <l n="1">
+            <w>Hinc</w>
+            <w>michi</w>
+            <w>pallor</w>
+          </l>
+          <l n="2">
+            <w>in</w>
+            <w>ore</w>
+          </l>
+          <l n="3">
+            <w>est</w>
+            <w>quia</w>
+            <w>fallor</w>
+          </l>
+          <l n="4">
+            <w>amore</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
