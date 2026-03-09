@@ -4,7 +4,7 @@
     <body>
       <div type="poem">
         <head>Item de eodem</head>
-        <lg type="strophe" n="I" met="7pp+6p/7pp+6p/7pp/A7pp+A6p" rhyme="a+C/a+C/D/D+C">
+        <lg type="strophe" n="I" met="7pp+6p/7pp+6p/7pp/.7pp+.6p" rhyme="a+C/a+C/D/D+C">
           <l n="1">
             <seg type="hemistich">
               <w>
@@ -258,7 +258,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="refrain" met="7pp+A6p/7pp+A6p/7pp/A7pp+A6p" rhyme="A+B/A+B/A/A+C">
+        <lg type="refrain" met="7pp+.6p/7pp+.6p/7pp/.7pp+.6p" rhyme="A+B/A+B/A/A+C">
           <head>Refl.</head>
           <l n="1">
             <seg type="hemistich">
@@ -531,7 +531,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="II" met="A7pp+6p/7pp+6p/7pp/A7pp+A6p" rhyme="a/a/D/D+C">
+        <lg type="strophe" n="II" met=".7pp+6p/7pp+6p/7pp/.7pp+.6p" rhyme="a/a/D/D+C">
           <l n="1">
             <seg type="hemistich">
               <w>
@@ -662,7 +662,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="III" met="7pp/A7pp/7pp/A7pp/7pp/7pp/A7pp/7pp" rhyme="a/A/a/A/A/b/E/b">
+        <lg type="strophe" n="III" met="7pp/.7pp/7pp/.7pp/7pp/7pp/.7pp/7pp" rhyme="a/A/a/A/A/b/E/b">
           <l n="1">
             <w>
               <seg type="syll">In</seg>
@@ -797,7 +797,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="IV" met="7pp/7pp/7pp/7pp/7pp/7pp/A7pp/A7pp" rhyme="a/E/a/E/b/A/b/A">
+        <lg type="strophe" n="IV" met="7pp/7pp/7pp/7pp/7pp/7pp/.7pp/.7pp" rhyme="a/E/a/E/b/A/b/A">
           <l n="1">
             <app type="text">
               <lem wit="HS T">
