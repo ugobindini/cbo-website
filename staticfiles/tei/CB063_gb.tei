@@ -1,0 +1,531 @@
+<TEI>
+  <teiHeader />
+  <text>
+    <body>
+      <div type="sequence">
+        <lg type="versicle" n="1a" met="7pp/7pp/7pp/7pp/4pp/7pp/7pp/7pp/7pp/7p" rhyme="a/b/b/a/c/c/d/d/d/e">
+          <l n="1">
+            <w>Olim</w>
+            <w>sudor</w>
+            <w>Herculis</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>monstra</w>
+            <w>late</w>
+            <w>conterens</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>pestes</w>
+            <w>orbis</w>
+            <w>auferens</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>claris</w>
+            <w>longe</w>
+            <w>titulis</w>
+          </l>
+          <l n="5">
+            <w>enituit</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="6">
+            <w>sed</w>
+            <w>tandem</w>
+            <w>defloruit</w>
+          </l>
+          <l n="7">
+            <w>fama</w>
+            <w>prius</w>
+            <w>celebris</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="8">
+            <w>cecis</w>
+            <w>clausa</w>
+            <w>tenebris</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="9">
+            <w>Ioles</w>
+            <w>illecebris</w>
+          </l>
+          <l n="10">
+            <w>Alcide</w>
+            <w>captivato</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="refrain" met="7pp/3p/7pp/3p/4pp/4pp/4pp/3p" rhyme="A/B/A/B/C/C/C/B">
+          <head>[Refl.]</head>
+          <l n="1">
+            <w>Amor</w>
+            <w>fame</w>
+            <w>meritum</w>
+          </l>
+          <l n="2">
+            <w>deflorat</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>amans</w>
+            <w>tempus</w>
+            <w>perditum</w>
+          </l>
+          <l n="4">
+            <w>non</w>
+            <w>plorat</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="5">
+            <w>sed</w>
+            <w>temere</w>
+          </l>
+          <l n="6">
+            <w>diffluere</w>
+          </l>
+          <l n="7">
+            <w>sub</w>
+            <w>Venere</w>
+          </l>
+          <l n="8">
+            <w>laborat</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="versicle" n="1b" met="7pp/7pp/7pp/7pp/4pp/7pp/7pp/7pp/7pp/7p" rhyme="f/g/g/f/c/c/h/h/h/e">
+          <l n="1">
+            <w>Hydra</w>
+            <w>damno</w>
+            <w>capitum</w>
+          </l>
+          <l n="2">
+            <w>facta</w>
+            <w>locupletior</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>omni</w>
+            <w>peste</w>
+            <w>sevior</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>reddere</w>
+            <w>sollicitum</w>
+          </l>
+          <l n="5">
+            <w>non</w>
+            <w>potuit</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="6">
+            <w>quem</w>
+            <w>puella</w>
+            <w>domuit</w>
+          </l>
+          <l n="7">
+            <w>iugo</w>
+            <w>cessit</w>
+            <w>Veneris</w>
+          </l>
+          <l n="8">
+            <w>vir</w>
+            <pc resp="#editor">,</pc>
+            <w>qui</w>
+            <w>maior</w>
+            <w>superis</w>
+          </l>
+          <l n="9">
+            <w>celum</w>
+            <w>tulit</w>
+            <w>humeris</w>
+          </l>
+          <l n="10">
+            <w>Atlante</w>
+            <w>fatigato</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="refrain" met="[7pp]" rhyme="[A]">
+          <head>[Refl.]</head>
+          <l n="1">
+            <w>Amor</w>
+            <pc resp="#editor">...</pc>
+          </l>
+        </lg>
+        <lg type="versicle" n="2a" met="7pp/7pp/8pp/4pp/7pp/7pp/8pp/4pp/7pp/8pp" rhyme="a/a/b/c/a/a/b/c/c/b">
+          <l n="1">
+            <w>Caco</w>
+            <w>tristis</w>
+            <w>halitus</w>
+          </l>
+          <l n="2">
+            <w>et</w>
+            <w>flammarum</w>
+            <w>vomitus</w>
+          </l>
+          <l n="3">
+            <w>vel</w>
+            <w>fuga</w>
+            <w>Nesso</w>
+            <w>duplici</w>
+          </l>
+          <l n="4">
+            <w>non</w>
+            <w>profuit</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="5">
+            <w>Geryon</w>
+            <w>Hesperius</w>
+          </l>
+          <l n="6">
+            <w>ianitorque</w>
+            <w>Stygius</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="7">
+            <w>uterque</w>
+            <w>forma</w>
+            <w>triplici</w>
+          </l>
+          <l n="8">
+            <w>non</w>
+            <w>terruit</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="9">
+            <w>quem</w>
+            <w>captivum</w>
+            <w>tenuit</w>
+          </l>
+          <l n="10">
+            <w>risu</w>
+            <w>puella</w>
+            <w>simplici</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="versicle" n="2b" met="7pp/7pp/8pp/4pp/7pp/7pp/8pp/4pp/7pp/8pp" rhyme="d/d/e/c/d/d/e/c/c/e">
+          <l n="1">
+            <w>Jugo</w>
+            <w>cessit</w>
+            <w>tenero</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>somno</w>
+            <w>qui</w>
+            <w>letifero</w>
+          </l>
+          <l n="3">
+            <w>horti</w>
+            <w>custodem</w>
+            <w>divitis</w>
+          </l>
+          <l n="4">
+            <w>implicuit</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="5">
+            <w>frontis</w>
+            <w>Acheloie</w>
+          </l>
+          <l n="6">
+            <w>cornu</w>
+            <w>dedit</w>
+            <w>Copie</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="7">
+            <w>apro</w>
+            <pc resp="#editor">,</pc>
+            <w>leone</w>
+            <w>domitis</w>
+          </l>
+          <l n="8">
+            <w>enituit</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="9">
+            <w>truces</w>
+            <w>equos</w>
+            <w>imbuit</w>
+          </l>
+          <l n="10">
+            <w>cruenti</w>
+            <w>cede</w>
+            <w>hospitis</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="refrain" met="[7pp]" rhyme="[A]">
+          <head>[Refl.]</head>
+          <l n="1">
+            <w>Amor</w>
+            <pc resp="#editor">...</pc>
+          </l>
+        </lg>
+        <lg type="versicle" n="3a" met="6pp/6pp/6pp/6pp/7pp/7pp/7p/7pp/4pp/7pp/4pp+3p" rhyme="a/b/a/b/b/b/c/d/d/e/e+c">
+          <l n="1">
+            <w>Antei</w>
+            <w>Lybici</w>
+          </l>
+          <l n="2">
+            <w>luctam</w>
+            <w>sustinuit</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>casus</w>
+            <w>sophistici</w>
+          </l>
+          <l n="4">
+            <w>fraudes</w>
+            <w>cohibuit</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="5">
+            <w>cadere</w>
+            <w>dum</w>
+            <w>vetuit</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="6">
+            <w>sed</w>
+            <w>qui</w>
+            <w>sic</w>
+            <w>explicuit</w>
+          </l>
+          <l n="7">
+            <w>lucte</w>
+            <w>nodosos</w>
+            <w>nexus</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="8">
+            <w>vincitur</w>
+            <w>et</w>
+            <w>vincitur</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="9">
+            <w>dum</w>
+            <w>labitur</w>
+          </l>
+          <l n="10">
+            <w>magna</w>
+            <w>Iovis</w>
+            <w>soboles</w>
+          </l>
+          <l n="11">
+            <seg type="hemistich">
+              <w>ad</w>
+              <w>Ioles</w>
+            </seg>
+            <seg type="hemistich">
+              <w>amplexus</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="versicle" n="3b" met="6pp/6pp/6pp/6pp/7pp/7pp/7p/7pp/4pp/7pp/4pp+3p" rhyme="f/g/f/g/g/g/h/i/i/j/j+h">
+          <l n="1">
+            <w>Tantis</w>
+            <w>floruerat</w>
+          </l>
+          <l n="2">
+            <w>laborum</w>
+            <w>titulis</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>quem</w>
+            <w>blandis</w>
+            <w>carcerat</w>
+          </l>
+          <l n="4">
+            <w>puella</w>
+            <w>vinculis</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="5">
+            <w>et</w>
+            <w>dum</w>
+            <w>lambit</w>
+            <w>osculis</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="6">
+            <w>nectar</w>
+            <w>huic</w>
+            <w>labellulis</w>
+          </l>
+          <l n="7">
+            <w>Venereum</w>
+            <w>propinat</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="8">
+            <w>vir</w>
+            <w>solutus</w>
+            <w>otiis</w>
+          </l>
+          <l n="9">
+            <w>et</w>
+            <w>gaudiis</w>
+          </l>
+          <l n="10">
+            <w>laborum</w>
+            <w>memoriam</w>
+          </l>
+          <l n="11">
+            <seg type="hemistich">
+              <w>et</w>
+              <w>gloriam</w>
+            </seg>
+            <seg type="hemistich">
+              <w>inclinat</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="versicle" n="4a" met="7pp/4pp/7pp/4pp/4pp/7pp/7pp/4pp+3p/7pp/4pp+3p" rhyme="a/a/b/b/c/c/d/d+e/f/f+e">
+          <l n="1">
+            <w>Sed</w>
+            <w>Alcide</w>
+            <w>fortior</w>
+          </l>
+          <l n="2">
+            <w>aggredior</w>
+          </l>
+          <l n="3">
+            <w>pugnam</w>
+            <w>contra</w>
+            <w>Venerem</w>
+            <pc resp="#editor">.</pc>
+          </l>
+          <l n="4">
+            <w>ut</w>
+            <w>superem</w>
+          </l>
+          <l n="5">
+            <w>hanc</w>
+            <pc resp="#editor">,</pc>
+            <w>fugio</w>
+            <pc resp="#editor">;</pc>
+          </l>
+          <l n="6">
+            <w>in</w>
+            <w>hoc</w>
+            <w>enim</w>
+            <w>prelio</w>
+          </l>
+          <l n="7">
+            <w>fugiendo</w>
+            <w>fortius</w>
+          </l>
+          <l n="8">
+            <seg type="hemistich">
+            <w>et</w>
+            <w>melius</w>
+            </seg>
+            <seg type="hemistich">
+            <w>pugnatur</w>
+            <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="9">
+            <w>sicque</w>
+            <w>Venus</w>
+            <w>vincitur</w>
+            <pc resp="#editor">:</pc>
+          </l>
+          <l n="10">
+            <seg type="hemistich">
+              <w>dum</w>
+              <w>fugitur</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>fugatur</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="versicle" n="4b" met="7pp/4pp/7pp/4pp/4pp/7pp/7pp/4pp+3p/7pp/4pp+3p" rhyme="g/g/h/h/i/i/j/j+k/l/l+k">
+          <l n="1">
+            <w>Dulces</w>
+            <w>nodos</w>
+            <w>Veneris</w>
+          </l>
+          <l n="2">
+            <w>et</w>
+            <w>carceris</w>
+          </l>
+          <l n="3">
+            <w>blandi</w>
+            <w>seras</w>
+            <w>resero</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="4">
+            <w>de</w>
+            <w>cetero</w>
+          </l>
+          <l n="5">
+            <w>ad</w>
+            <w>alia</w>
+          </l>
+          <l n="6">
+            <w>dum</w>
+            <w>traducor</w>
+            <w>studia</w>
+          </l>
+          <l n="7">
+            <w>o</w>
+            <w>Lycori</w>
+            <pc resp="#editor">,</pc>
+            <w>valeas</w>
+          </l>
+          <l n="8">
+            <seg type="hemistich">
+            <w>et</w>
+            <w>voveas</w>
+            <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+            <w>quod</w>
+            <w>vovi</w>
+            <pc resp="#editor">:</pc>
+            </seg>
+          </l>
+          <l n="9">
+            <w>ab</w>
+            <w>amore</w>
+            <w>spiritum</w>
+          </l>
+          <l n="10">
+            <seg type="hemistich">
+              <w>sollicitum</w>
+            </seg>
+            <seg type="hemistich">
+              <w>removi</w>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="refrain" met="[7pp]" rhyme="[A]">
+          <head>[Refl.]</head>
+          <l n="1">
+            <w>Amor</w>
+            <pc resp="#editor">...</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>
