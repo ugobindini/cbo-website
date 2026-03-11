@@ -102,16 +102,18 @@
             </seg>
           </l>
         </lg>
-        <lg type="versicle" n="3a" met="5p/5p/7pp+6p" rhyme="a/a/b+c">
+        <lg type="versicle" n="3a" met="5p/5p/7pp+6p" rhyme="a+a/b+c">
           <l n="1">
+            <seg type="hemistich">
               <w>Iam</w>
               <w>Dionea</w>
-          </l>
-          <l n="2">
+            </seg>
+            <seg type="hemistich">
               <w>leta</w>
               <w>chorea</w>
+            </seg>
           </l>
-          <l n="3">
+          <l n="2">
             <seg type="hemistich">
               <w>sedula</w>
             <w>resonat</w>
@@ -123,17 +125,19 @@
             </seg>
           </l>
         </lg>
-        <lg type="versicle" n="3b" met="5p/5p/7pp+6p" rhyme="d/d/b+c">
+        <lg type="versicle" n="3b" met="5p+5p/7pp+6p" rhyme="d+d/b+c">
           <l n="1">
+            <seg type="hemistich">
               <w>Iamque</w>
               <w>Dione</w>
-          </l>
-          <l n="2">
+            </seg>
+            <seg type="hemistich">
               <w>iocis</w>
               <pc resp="#editor">,</pc>
               <w>agone</w>
+            </seg>
           </l>
-          <l n="3">
+          <l n="2">
             <seg type="hemistich">
               <w>relevat</w>
             <pc resp="#editor">,</pc>

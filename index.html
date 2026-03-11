@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CBO</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- Add additional CSS in static file -->
+  <link rel="stylesheet" href="staticfiles/css/style.css"/>
+  <link rel="stylesheet" href="staticfiles/css/layout-generic.css"/>
+</head>
+<body>
+<div class="page-container">
+  <!-- Navbar + header -->
+  <div data-include="header"></div>
+
+  <main style="display: flex; flex: 1;">
+    <div class="flex-column">
+      <h1>Carmina Burana Online</h1>
+      <p>
+        Welcome to Carmina Burana Online!
+      </p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="cbo-center cbo-black cbo-padding-16" data-include="footer"></footer>
+</div>
+
+<script>
+  $(function () {
+    var includes = $('[data-include]')
+    $.each(includes, function () {
+      var file = 'templates/' + $(this).data('include') + '.html'
+      $(this).load(file)
+    })
+  })
+</script>
+
+</body>
+</html>
+
+
+
+
