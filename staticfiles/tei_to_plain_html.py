@@ -41,7 +41,6 @@ def to_html(tei_file):
 	from lxml import etree
 	xml = etree.parse('tei/' + tei_file)
 	for el in xml.xpath(".//stage|.//p|.//lg"):
-		print(el)
 		if el.tag == 'stage':
 			res += "<p><i>"
 			res += to_paragraph(el)
