@@ -1,9 +1,9 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="6pp+6pp/6pp+6pp/6pp+6pp/6pp+6pp/6pp/6pp+6pp" rhyme="a+b/a+b/a+b/a+b/b/a+b">
-        <lg type="strophe">
+      <div type="poem" met="4x(6pp+6pp)/6pp/6pp+6pp">
+        <lg type="strophe" met="6pp+6pp/6pp+6pp/6pp+6pp/6pp+6pp/6pp/6pp+6pp" rhyme="a+b/a+b/a+b/a+b/b/a+b">
           <l n="1">
             <seg type="hemistich">
               <w>Procurans</w>
@@ -11,7 +11,7 @@
             </seg>
             <seg type="hemistich">
               <app type="text">
-                <lem wit="CB F M HS V T">
+                <lem wit="CB F M HSB V T">
                   <w>effectu</w>
                 </lem>
                 <rdg wit="cod."><w>effectum</w></rdg>
@@ -57,7 +57,7 @@
           <l n="5">
             <w>fit</w>
             <app type="text">
-              <lem wit="CB F M HS V T">
+              <lem wit="CB F M HSB V T">
                 <w>hic</w>
               </lem>
               <rdg wit="cod."><w>hec</w></rdg>

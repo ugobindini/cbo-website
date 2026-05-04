@@ -1,9 +1,9 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="6p/7p/6p/7p/7pp/4pp/4pp/7p/7pp/7p/5pp/8p" rhyme="a/a/a/a/b/b/b/a/b/a/b/a">
-        <lg type="strophe" n="I">
+      <div type="poem" met="I-IV:2x(6p/7p)/7pp/2x4pp/7p/7pp/7p/5pp/8p">
+        <lg type="strophe" n="I" met="6p/7p/6p/7p/7pp/4pp/4pp/7p/7pp/7p/5pp/8p" rhyme="a/a/a/a/b/b/b/a/b/a/b/a">
           <l n="1">
             <w>Bulla</w>
             <w>fulminante</w>
@@ -30,7 +30,7 @@
               <lem wit="cod.">
                 <w>subprimitur</w>
               </lem>
-              <rdg wit="HS V T"><w>opprimitur</w></rdg>
+              <rdg wit="HSB V T"><w>opprimitur</w></rdg>
             </app>
             <pc resp="#editor">,</pc>
           </l>
@@ -72,7 +72,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="II">
+        <lg type="strophe" n="II" met="6p/7p/6p/7p/7pp/4pp/4pp/7p/7pp/7p/5pp/8p" rhyme="a/a/a/a/b/b/b/a/b/a/b/a">
           <l n="1">
             <w>Pape</w>
             <w>ianitores</w>
@@ -93,14 +93,14 @@
               <lem wit="cod.">
                 <w>nam</w>
               </lem>
-              <rdg wit="HS V T"><w>iam</w></rdg>
+              <rdg wit="HSB V T"><w>iam</w></rdg>
             </app>
             <w>etiamsi</w>
             <w>fores</w>
           </l>
           <l n="5" met="7p">
             <app type="text">
-              <lem wit="HS V T">
+              <lem wit="HSB V T">
                 <w>quem</w>
                 <w>audiit</w>
                 <pc resp="#editor">,</pc>
@@ -147,7 +147,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="III">
+        <lg type="strophe" n="III" met="6p/7p/6p/7p/7pp/4pp/4pp/7p/7pp/7p/5pp/8p" rhyme="a/a/a/a/b/b/b/a/b/a/b/a">
           <l n="1">
             <w>Si</w>
             <w>queris</w>
@@ -162,7 +162,7 @@
                 <w>vitam</w>
                 <w>pretendas</w>
               </lem>
-              <rdg wit="HS V T"><w>vitam</w><w>frustra</w><w>commendas</w></rdg>
+              <rdg wit="HSB V T"><w>vitam</w><w>frustra</w><w>commendas</w></rdg>
             </app>
             <pc resp="#editor">,</pc>
           </l>
@@ -217,7 +217,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="IV">
+        <lg type="strophe" n="IV" met="6p/7p/6p/7p/7pp/4pp/4pp/7p/7pp/7p/5pp/8p" rhyme="a/a/a/a/b/b/b/a/b/a/b/a">
           <l n="1">
             <w>Jupiter</w>
             <pc resp="#editor">,</pc>

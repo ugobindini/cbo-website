@@ -1,9 +1,9 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="4pp+6pp/4pp+6pp/4pp+6pp/4pp+6pp/4pp+6pp/4pp+6pp/4pp+6pp/4pp+6pp" rhyme="a+b/a+b/b+a/c+d/c+d/d+c/e+f/e+f">
-        <lg type="strophe">
+      <div type="poem" met="8x(4pp+6pp)">
+        <lg type="strophe" met="4pp+6pp/4pp+6pp/4pp+6pp/4pp+6pp/4pp+6pp/4pp+6pp/4pp+6pp/4pp+6pp" rhyme="a+b/a+b/b+a/c+d/c+d/d+c/e+f/e+f">
           <l n="1">
             <seg type="hemistich">
               <w>O</w>
@@ -18,7 +18,7 @@
           <l n="2">
             <seg type="hemistich">
               <app type="text">
-                <lem wit="HS V T"><w>dans</w></lem>
+                <lem wit="CB Fau R HSB V T"><w>dans</w></lem>
                 <rdg wit="cod."><w>dat</w> corr. ex <w>dan</w></rdg>
               </app>
               <w>dubium</w>
@@ -68,10 +68,7 @@
           <l n="6">
             <seg type="hemistich">
               <w>dans</w>
-              <app type="text">
-                <lem wit="cod."><w>premia</w></lem>
-                <rdg wit="HS V T"><w>dubia</w></rdg>
-              </app>
+              <w>premia</w>
             </seg>
             <seg type="hemistich">
               <w>tamen</w>
@@ -95,7 +92,7 @@
           <l n="8"><seg type="hemistich">
             <w>de</w>
             <app type="text">
-              <lem wit="HS V T"><w>rhetore</w></lem>
+              <lem wit="CB R HSB V T"><w>rhetore</w></lem>
               <rdg wit="cod."><w>recthore</w></rdg>
             </app>
           </seg>
@@ -103,7 +100,7 @@
               <w>consulem</w>
               <w>eligens</w>
               <pc>&#183;</pc>
-              <pc resp="#editor">,</pc>
+              <pc resp="#editor">.</pc>
             </seg>
           </l>
         </lg>

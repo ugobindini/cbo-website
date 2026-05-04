@@ -1,10 +1,10 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="8pp/8pp/8pp/4p" rhyme="a/a/a/B">
+      <div type="poem" met="I-IV:3x8pp/4p, Ref.:8pp/4pp">
         <head>Item</head>
-        <lg type="strophe" n="I">
+        <lg type="strophe" n="I" met="8pp/8pp/8pp/4p" rhyme="a/a/a/B">
           <l n="1">
             <w>
               <seg type="syll" part="I">Ve</seg>
@@ -108,7 +108,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="II">
+        <lg type="strophe" n="II" met="8pp/8pp/8pp/4p" rhyme="a/a/a/B">
           <l n="1">
             <w>
               <seg type="syll" part="I">Ec</seg>
@@ -175,7 +175,7 @@
             <pc resp="#editor">!</pc>
           </l>
         </lg>
-        <lg type="strophe" n="III">
+        <lg type="strophe" n="III" met="8pp/8pp/8pp/4p" rhyme="a/a/a/B">
           <l n="1">
             <w>
               <seg type="syll" part="I">Ec</seg>

@@ -1,9 +1,9 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" xml:lang="latin" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
-        <lg type="strophe" n="I">
+      <div type="poem" xml:lang="latin" met="I-VI:3x(8p/7pp)">
+        <lg type="strophe" n="I" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
           <l n="1">
             <w>
               <seg type="syll" part="I">Pan</seg>
@@ -102,7 +102,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="II">
+        <lg type="strophe" n="II" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
           <l n="1">
             <w>
               <seg type="syll" part="I">Im</seg>
@@ -205,7 +205,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="III">
+        <lg type="strophe" n="III" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
           <l n="1">
             <w>
               <seg type="syll">In</seg>
@@ -303,7 +303,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="IV">
+        <lg type="strophe" n="IV" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
           <l n="1">
             <w>
               <seg type="syll">Hoc</seg>
@@ -408,7 +408,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="V">
+        <lg type="strophe" n="V" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
           <l n="1">
             <w>
               <seg type="syll">Cum</seg>
@@ -513,7 +513,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="VI">
+        <lg type="strophe" n="VI" met="8p/7pp/8p/7pp/8p/7pp" rhyme="a/b/a/b/a/b">
           <l n="1">
             <w>
               <seg type="syll" part="I">Glo</seg>

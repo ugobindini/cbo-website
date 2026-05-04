@@ -1,31 +1,31 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="sequence">
+      <div type="sequence" met="1:2x8p/5x6pp/2x8p/4x6pp, 2:10x7pp, 3:4x7pp/4pp/2x8pp/4x7pp, 4:5x7pp/4pp/2x7pp/2x8p/7pp">
         <lg type="versicle" n="1a" met="8p/8p/6pp/6pp/6pp/6pp/6pp/8p/8p/6pp/6pp/6pp/6pp" rhyme="a/a/b/c/b/c/b/a/a/b/d/d/b">
           <l n="1">
             <pc resp="#editor" pre="true">&#171;</pc>
             <app type="text">
-              <lem wit="HS T">
+              <lem wit="HSB T">
                 <w>
                   <seg type="syll" part="I">A<notatedMusic>
-                    <neume fontname="buranus" glyph.num="7" label="vi" />
-                    <neume fontname="buranus" glyph.num="18" label="visu3" />
-                    <neume fontname="buranus" glyph.num="130" label="ci" />
-                    <neume fontname="buranus" glyph.num="18" label="visu3" />
+                    <neume fontname="buranus" glyph.num="7" label="vi"/>
+                    <neume fontname="buranus" glyph.num="19" label="visu3"/>
+                    <neume fontname="buranus" glyph.num="134" label="ci"/>
+                    <neume fontname="buranus" glyph.num="19" label="visu3"/>
                   </notatedMusic>
                   </seg>
                   <seg type="syll" part="M">ris<notatedMusic>
-                    <neume fontname="buranus" glyph.num="10" label="vs" />
+                    <neume fontname="buranus" glyph.num="10" label="vs"/>
                   </notatedMusic>
                   </seg>
                   <seg type="syll" part="M">tip<notatedMusic>
-                    <neume fontname="buranus" glyph.num="7" label="vi" />
+                    <neume fontname="buranus" glyph.num="7" label="vi"/>
                   </notatedMusic>
                   </seg>
                   <seg type="syll" part="F">pe<notatedMusic>
-                    <neume fontname="buranus" glyph.num="7" label="vi" />
+                    <neume fontname="buranus" glyph.num="7" label="vi"/>
                   </notatedMusic>
                   </seg>
                 </w>
@@ -49,7 +49,7 @@
               <seg type="syll" part="F">o</seg>
             </w>
             <app type="text">
-              <lem wit="HS T">
+              <lem wit="HSB T">
                 <w>
                   <seg type="syll" part="I">ta</seg>
                   <seg type="syll" part="F">men</seg>
@@ -160,7 +160,7 @@
           </l>
           <l n="9">
             <app type="text">
-              <lem wit="HS T">
+              <lem wit="HSB T">
                 <w>
                   <seg type="syll" part="I">Ver</seg>
                   <seg type="syll" part="F">ri</seg>
@@ -292,7 +292,7 @@
                   <seg type="syll" part="F">mum</seg>
                 </w>
               </lem>
-              <rdg wit="HS"><w>prius</w></rdg>
+              <rdg wit="HSB"><w>prius</w></rdg>
             </app>
             <w>
               <seg type="syll" part="I">ex</seg>
@@ -354,7 +354,7 @@
                   <seg type="syll" part="F">rum</seg>
                 </w>
               </lem>
-              <rdg wit="HS"><w>ipsorum</w></rdg>
+              <rdg wit="HSB"><w>ipsorum</w></rdg>
             </app>
             <w>
               <seg type="syll" part="I">im</seg>
@@ -371,7 +371,7 @@
                   <seg type="syll" part="F">tus</seg>
                 </w>
               </lem>
-              <rdg wit="HS"><w>carus</w></rdg>
+              <rdg wit="HSB"><w>carus</w></rdg>
             </app>
             <w>
               <seg type="syll" part="I">e</seg>
@@ -399,7 +399,7 @@
                   <seg type="syll" part="F">to</seg>
                 </w>
               </lem>
-              <rdg wit="HS"><w>prelatis</w></rdg>
+              <rdg wit="HSB"><w>prelatis</w></rdg>
             </app>
             <w>
               <seg type="syll" part="I">vi</seg>
@@ -459,7 +459,7 @@
                   <seg type="syll" part="F">tri</seg>
                 </w>
               </lem>
-              <rdg wit="HS T"><w>sacri</w></rdg>
+              <rdg wit="HSB T"><w>sacri</w></rdg>
             </app>
             <w>
               <seg type="syll" part="I">pon</seg>
@@ -574,7 +574,7 @@
                   <seg type="syll" part="F">re</seg>
                 </w>
               </lem>
-              <rdg wit="HS T"><w>dari</w></rdg>
+              <rdg wit="HSB T"><w>dari</w></rdg>
             </app>
             <w>
               <seg type="syll" part="I">fa</seg>
@@ -588,7 +588,7 @@
           </l>
           <l n="8">
             <app type="text">
-              <lem wit="HS T">
+              <lem wit="HSB T">
                 <w>
                   <seg type="syll" part="I">cu</seg>
                   <seg type="syll" part="M">i</seg>
@@ -840,7 +840,7 @@
           </l>
           <l n="3">
             <app type="text">
-              <lem wit="HS V T">
+              <lem wit="HSB V T">
                 <w>
                   <seg type="syll" part="I">blan</seg>
                   <seg type="syll" part="M">di</seg>
@@ -1007,7 +1007,7 @@
           </l>
           <l n="2">
             <app type="text">
-              <lem wit="HS T">
+              <lem wit="HSB T">
                 <w>
                   <seg type="syll">ne</seg>
                 </w>
@@ -1062,7 +1062,7 @@
           </l>
           <l n="5">
             <app type="text">
-              <lem wit="HS T">
+              <lem wit="HSB T">
                 <w>
                   <seg type="syll" part="I">par</seg>
                   <seg type="syll" part="M">ti</seg>
@@ -1077,7 +1077,7 @@
           <l n="6">
             <app type="text">
               Gaudent a HS V T&#61533; om. cod.
-              <lem wit="HS V T">
+              <lem wit="HSB V T">
                 <w>
                   <seg type="syll" part="I">Gau</seg>
                   <seg type="syll" part="F">dent</seg>
@@ -1100,7 +1100,7 @@
           </l>
           <l n="7">
             <app type="text">
-              <lem wit="HS T">
+              <lem wit="HSB T">
                 <w>
                   <seg type="syll" part="I">su</seg>
                   <seg type="syll" part="F">os</seg>
@@ -1130,11 +1130,11 @@
                 </w>
               </lem>
               <rdg wit="cod. V"><w>in</w><w>Iezy</w></rdg>
-              <rdg wit="HS T"><w>Giezi</w></rdg>
+              <rdg wit="HSB T"><w>Giezi</w></rdg>
               <note><w>Iezy</w> corr. ex <w>Iecy</w> man. r. cod.</note>
             </app>
             <app type="text">
-              <lem wit="HS V T">
+              <lem wit="HSB V T">
                 <w>
                   <seg type="syll" part="I">par</seg>
                   <seg type="syll" part="M">ti</seg>
@@ -1163,7 +1163,7 @@
                   <seg type="syll" part="F">y</seg>
                 </w>
               </lem>
-              <rdg wit="HS T"><w>Protei</w></rdg>
+              <rdg wit="HSB T"><w>Protei</w></rdg>
             </app>
           </l>
           <l n="10">
@@ -1216,7 +1216,7 @@
             </w>
             <pc resp="#editor">,</pc>
             <app type="text">
-              <lem wit="HS T">
+              <lem wit="HSB T">
                 <w>
                   <seg type="syll" part="I">Sa</seg>
                   <seg type="syll" part="M">tha</seg>
@@ -1261,7 +1261,7 @@
               <seg type="syll" part="F">nim</seg>
             </w>
             <app type="text">
-              <lem wit="HS T">
+              <lem wit="HSB T">
                 <w>
                   <seg type="syll" part="I">con</seg>
                   <seg type="syll" part="M">su</seg>
@@ -1348,7 +1348,7 @@
               <note><w>sed</w> add. man. r. cod.</note>
             </app>
             <app type="text">
-              <lem wit="HS V T">
+              <lem wit="HSB V T">
                 <w>
                   <seg type="syll" part="I">Pal</seg>
                   <seg type="syll" part="M">po</seg>
@@ -1496,7 +1496,7 @@
               <seg type="syll">et</seg>
             </w>
             <app type="text">
-              <lem wit="HS V T">
+              <lem wit="HSB V T">
                 <w>
                   <seg type="syll" part="I">a</seg>
                   <seg type="syll" part="M">be</seg>

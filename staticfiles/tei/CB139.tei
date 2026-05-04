@@ -1,0 +1,1047 @@
+<TEI>
+  <teiHeader/>
+  <text>
+    <body>
+      <div type="poem" met="I-VI:4x(7pp+6p), VII:2x(4+3-)/4/4+3-">
+        <head>Item aliud</head>
+        <lg type="strophe" n="I" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a+b/a+b/a+b/a+b">
+          <l n="1">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">Tem</seg>
+                <seg type="syll" part="F">pus</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">trans</seg>
+                <seg type="syll" part="F">it</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">hor</seg>
+                <seg type="syll" part="M">ri</seg>
+                <seg type="syll" part="F">dum</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">fri</seg>
+                <seg type="syll" part="F">gus</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">hy</seg>
+                <seg type="syll" part="M">e</seg>
+                <seg type="syll" part="M">ma</seg>
+                <seg type="syll" part="F">le</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">red</seg>
+                <seg type="syll" part="F">it</seg>
+              </w>
+              <pc resp="#editor">,</pc>
+              <w>
+                <seg type="syll">quod</seg>
+              </w>
+              <w>
+                <seg type="syll">est</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">pla</seg>
+                <seg type="syll" part="M">ci</seg>
+                <seg type="syll" part="F">dum</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">tem</seg>
+                <seg type="syll" part="F">pus</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">es</seg>
+                <seg type="syll" part="M">ti</seg>
+                <seg type="syll" part="M">va</seg>
+                <seg type="syll" part="F">le</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="3" rhyme="c+b">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">Quod</seg>
+              </w>
+              <w>
+                <seg type="syll">cum</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">A</seg>
+                <seg type="syll" part="F">mor</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">ex</seg>
+                <seg type="syll" part="M">i</seg>
+                <seg type="syll" part="F">git</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">si</seg>
+                <seg type="syll" part="F">bi</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">prin</seg>
+                <seg type="syll" part="M">ci</seg>
+                <seg type="syll" part="M">pa</seg>
+                <seg type="syll" part="F">le</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="4" rhyme="c+b">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">qui</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">A</seg>
+                <seg type="syll" part="M">mo</seg>
+                <seg type="syll" part="F">rem</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">di</seg>
+                <seg type="syll" part="M">li</seg>
+                <seg type="syll" part="F">git</seg>
+              </w>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">di</seg>
+                <seg type="syll" part="F">cat</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">e</seg>
+                <seg type="syll" part="F">i</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">va</seg>
+                <seg type="syll" part="F">le</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">!</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="II" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a+b/a+b/a+b/a+b">
+          <l n="1">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">Mu</seg>
+                <seg type="syll" part="M">ta</seg>
+                <seg type="syll" part="F">tis</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">tem</seg>
+                <seg type="syll" part="M">po</seg>
+                <seg type="syll" part="M">ri</seg>
+                <seg type="syll" part="F">bus</seg>
+              </w>
+              <pc>&#183;</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">tel</seg>
+                <seg type="syll" part="F">lus</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">pa</seg>
+                <seg type="syll" part="F">rit</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">flo</seg>
+                <seg type="syll" part="F">res</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">pro</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">di</seg>
+                <seg type="syll" part="M">ver</seg>
+                <seg type="syll" part="F">sis</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">flo</seg>
+                <seg type="syll" part="M">ri</seg>
+                <seg type="syll" part="F">bus</seg>
+              </w>
+              <pc>&#183;</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">va</seg>
+                <seg type="syll" part="M">ri</seg>
+                <seg type="syll" part="F">at</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">co</seg>
+                <seg type="syll" part="M">lo</seg>
+                <seg type="syll" part="F">res</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">Va</seg>
+                <seg type="syll" part="M">ri</seg>
+                <seg type="syll" part="F">is</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">co</seg>
+                <seg type="syll" part="M">lo</seg>
+                <seg type="syll" part="M">ri</seg>
+                <seg type="syll" part="F">bus</seg>
+              </w>
+              <pc>&#183;</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">pra</seg>
+                <seg type="syll" part="F">ta</seg>
+              </w>
+              <app type="text">
+                <lem>
+                  <w>
+                    <seg type="syll">dant</seg>
+                  </w>
+                  <w>
+                    <seg type="syll" part="I">o</seg>
+                    <seg type="syll" part="M">do</seg>
+                    <seg type="syll" part="F">res</seg>
+                  </w>
+                </lem>
+                <note>spat. vac. inter <w>dant</w> et <w>odores</w>; <w>-odores</w> post ras</note>
+              </app>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">phy</seg>
+                <seg type="syll" part="M">lo</seg>
+                <seg type="syll" part="M">me</seg>
+                <seg type="syll" part="F">na</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">can</seg>
+                <seg type="syll" part="M">ti</seg>
+                <seg type="syll" part="F">bus</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">su</seg>
+                <seg type="syll" part="M">sci</seg>
+                <seg type="syll" part="F">tat</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">a</seg>
+                <seg type="syll" part="M">mo</seg>
+                <seg type="syll" part="F">res</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="III" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a+b/a+b/a+b/a+b">
+          <l n="1">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">Quis</seg>
+                <seg type="syll" part="F">quis</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">a</seg>
+                <seg type="syll" part="F">mat</seg>
+              </w>
+              <pc resp="#editor">,</pc>
+              <w>
+                <seg type="syll" part="I">gau</seg>
+                <seg type="syll" part="M">de</seg>
+                <seg type="syll" part="F">at</seg>
+              </w>
+              <pc>&#183;</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">tem</seg>
+                <seg type="syll" part="F">pus</seg>
+              </w>
+              <w>
+                <seg type="syll">se</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">vi</seg>
+                <seg type="syll" part="M">de</seg>
+                <seg type="syll" part="F">re</seg>
+              </w>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">in</seg>
+              </w>
+              <app type="text">
+                <lem wit="HSB V T">
+                  <w>
+                    <seg type="syll">quo</seg>
+                  </w>
+                </lem>
+                <rdg wit="cod."><w>qua</w></rdg>
+              </app>
+              <w>
+                <seg type="syll" part="I">su</seg>
+                <seg type="syll" part="F">a</seg>
+              </w>
+              <app type="text">
+                <lem wit="HSB T">
+                  <w>
+                    <seg type="syll" part="I">de</seg>
+                    <seg type="syll" part="M">be</seg>
+                    <seg type="syll" part="F">at</seg>
+                  </w>
+                </lem>
+                <rdg wit="cod. V"><w>gaudia</w></rdg>
+              </app>
+            </seg>
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="HSB T">
+                  <w>
+                    <seg type="syll" part="I">gau</seg>
+                    <seg type="syll" part="M">di</seg>
+                    <seg type="syll" part="F">a</seg>
+                  </w>
+                </lem>
+                <rdg wit="cod. V"><w>debeat</w></rdg>
+              </app>
+              <w>
+                <seg type="syll" part="I">te</seg>
+                <seg type="syll" part="M">ne</seg>
+                <seg type="syll" part="F">re</seg>
+              </w>
+              <pc>&#183;</pc>
+            </seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">et</seg>
+              </w>
+              <w>
+                <seg type="syll">cum</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">A</seg>
+                <seg type="syll" part="F">mor</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">flo</seg>
+                <seg type="syll" part="M">re</seg>
+                <seg type="syll" part="F">at</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">qui</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">iu</seg>
+                <seg type="syll" part="F">bet</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">gau</seg>
+                <seg type="syll" part="M">de</seg>
+                <seg type="syll" part="F">re</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">iam</seg>
+              </w>
+              <w>
+                <seg type="syll">non</seg>
+              </w>
+              <w>
+                <seg type="syll">sit</seg>
+              </w>
+              <w>
+                <seg type="syll">qui</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">au</seg>
+                <seg type="syll" part="M">de</seg>
+                <seg type="syll" part="F">at</seg>
+              </w>
+              <pc>&#183;</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">in</seg>
+                <seg type="syll" part="F">ter</seg>
+              </w>
+              <w>
+                <seg type="syll">nos</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">lu</seg>
+                <seg type="syll" part="M">ge</seg>
+                <seg type="syll" part="F">re</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="IV" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a+b/a+b/a+b/a+b">
+          <l n="1">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">U</seg>
+                <seg type="syll" part="F">nam</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">qui</seg>
+                <seg type="syll" part="F">dem</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">pos</seg>
+                <seg type="syll" part="M">tu</seg>
+                <seg type="syll" part="F">lo</seg>
+              </w>
+              <pc>&#183;</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">tan</seg>
+                <seg type="syll" part="F">tum</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">mi</seg>
+                <seg type="syll" part="F">chi</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">da</seg>
+                <seg type="syll" part="F">ri</seg>
+              </w>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">cu</seg>
+                <seg type="syll" part="F">ius</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">qui</seg>
+                <seg type="syll" part="F">dem</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">os</seg>
+                <seg type="syll" part="M">cu</seg>
+                <seg type="syll" part="F">lo</seg>
+              </w>
+              <pc>&#183;</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">pot</seg>
+                <seg type="syll" part="F">est</seg>
+              </w>
+              <w>
+                <seg type="syll">mors</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">vi</seg>
+                <seg type="syll" part="M">ta</seg>
+                <seg type="syll" part="F">ri</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="HSB V T">
+                  <w>
+                    <seg type="syll" part="I">Hu</seg>
+                    <seg type="syll" part="F">ic</seg>
+                  </w>
+                </lem>
+                <rdg wit="cod."><w>hec</w></rdg>
+              </app>
+              <w>
+                <seg type="syll" part="I">a</seg>
+                <seg type="syll" part="M">mo</seg>
+                <seg type="syll" part="F">ris</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">vin</seg>
+                <seg type="syll" part="M">cu</seg>
+                <seg type="syll" part="F">lo</seg>
+              </w>
+              <pc>&#183;</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">cu</seg>
+                <seg type="syll" part="M">pi</seg>
+                <seg type="syll" part="F">o</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">li</seg>
+                <seg type="syll" part="M">ga</seg>
+                <seg type="syll" part="F">ri</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">Dul</seg>
+                <seg type="syll" part="F">ce</seg>
+              </w>
+              <w>
+                <seg type="syll">est</seg>
+              </w>
+              <w>
+                <seg type="syll">hoc</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">ia</seg>
+                <seg type="syll" part="M">cu</seg>
+                <seg type="syll" part="F">lo</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">vel</seg>
+                <seg type="syll" part="F">le</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">vul</seg>
+                <seg type="syll" part="M">ne</seg>
+                <seg type="syll" part="M">ra</seg>
+                <seg type="syll" part="F">ri</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">!</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="V" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a+b/a+b/a+b/a+b">
+          <l n="1">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">Si</seg>
+              </w>
+              <w>
+                <seg type="syll">post</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">vul</seg>
+                <seg type="syll" part="F">nus</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">ri</seg>
+                <seg type="syll" part="M">se</seg>
+                <seg type="syll" part="F">ro</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">dul</seg>
+                <seg type="syll" part="F">cis</seg>
+              </w>
+              <w>
+                <seg type="syll">est</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">le</seg>
+                <seg type="syll" part="M">su</seg>
+                <seg type="syll" part="F">ra</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">;</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">si</seg>
+              </w>
+              <w>
+                <seg type="syll">post</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">ri</seg>
+                <seg type="syll" part="F">sum</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">fle</seg>
+                <seg type="syll" part="M">ve</seg>
+                <seg type="syll" part="F">ro</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">ta</seg>
+                <seg type="syll" part="F">lis</seg>
+              </w>
+              <w>
+                <seg type="syll">est</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">na</seg>
+                <seg type="syll" part="M">tu</seg>
+                <seg type="syll" part="F">ra</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="3" rhyme="x+b">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">Sed</seg>
+              </w>
+              <w>
+                <seg type="syll">cum</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">e</seg>
+                <seg type="syll" part="F">tas</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">ve</seg>
+                <seg type="syll" part="M">ne</seg>
+                <seg type="syll" part="F">rit</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">se</seg>
+                <seg type="syll" part="M">nec</seg>
+                <seg type="syll" part="M">tu</seg>
+                <seg type="syll" part="F">tis</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">du</seg>
+                <seg type="syll" part="F">ra</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">lu</seg>
+                <seg type="syll" part="M">ge</seg>
+                <seg type="syll" part="F">at</seg>
+              </w>
+              <w>
+                <seg type="syll">quod</seg>
+              </w>
+              <app type="text">
+                <lem wit="T">
+                  <w>
+                    <seg type="syll" part="I">fe</seg>
+                    <seg type="syll" part="M">ce</seg>
+                    <seg type="syll" part="F">ro</seg>
+                  </w>
+                </lem>
+                <rdg wit="cod. HSB V"><w>fecero</w></rdg>
+              </app>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">pro</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">pe</seg>
+                <seg type="syll" part="F">na</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">fu</seg>
+                <seg type="syll" part="M">tu</seg>
+                <seg type="syll" part="F">ra</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="VI" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a+b/a+b/a+b/a+b">
+          <l n="1">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">Sed</seg>
+              </w>
+              <w>
+                <seg type="syll">quod</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">e</seg>
+                <seg type="syll" part="F">am</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">di</seg>
+                <seg type="syll" part="M">li</seg>
+                <seg type="syll" part="F">go</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">mi</seg>
+                <seg type="syll" part="F">ra</seg>
+              </w>
+              <w>
+                <seg type="syll">res</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">vi</seg>
+                <seg type="syll" part="M">de</seg>
+                <seg type="syll" part="F">tur</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">;</pc>
+            </seg>
+          </l>
+          <l n="2" rhyme="a'+b">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">o</seg>
+                <seg type="syll" part="F">nus</seg>
+              </w>
+              <w>
+                <seg type="syll">est</seg>
+              </w>
+              <app type="text">
+                <lem>
+                  <w>
+                    <seg type="syll">quo</seg>
+                  </w>
+                  <w>
+                    <seg type="syll" part="I">al</seg>
+                    <seg type="syll" part="M">li</seg>
+                    <seg type="syll" part="F">gor</seg>
+                  </w>
+                </lem>
+                <note>spat. vac. inter <w>quo</w> et <w>alligor</w>; <w>quo-</w> p. ras. cod.</note>
+              </app>
+              <pc>&#183;</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">et</seg>
+              </w>
+              <w>
+                <seg type="syll">vix</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">sus</seg>
+                <seg type="syll" part="M">ti</seg>
+                <seg type="syll" part="M">ne</seg>
+                <seg type="syll" part="F">tur</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="3">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">U</seg>
+                <seg type="syll" part="F">num</seg>
+              </w>
+              <w>
+                <seg type="syll">de</seg>
+              </w>
+              <w>
+                <seg type="syll">me</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">iu</seg>
+                <seg type="syll" part="M">di</seg>
+                <seg type="syll" part="F">co</seg>
+              </w>
+              <pc>&#183;</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">quod</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">ve</seg>
+                <seg type="syll" part="F">rum</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">ha</seg>
+                <seg type="syll" part="M">be</seg>
+                <seg type="syll" part="F">tur</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">:</pc>
+            </seg>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">mo</seg>
+                <seg type="syll" part="M">ri</seg>
+                <seg type="syll" part="F">or</seg>
+              </w>
+              <pc resp="#editor">,</pc>
+              <app type="text">
+                <lem>
+                  <w>
+                    <seg type="syll">quam</seg>
+                  </w>
+                  <w>
+                    <seg type="syll" part="I">e</seg>
+                    <seg type="syll" part="M">li</seg>
+                    <seg type="syll" part="F">go</seg>
+                  </w>
+                </lem>
+                <note>spat. vac. inter <w>quam</w> et <w>eligo</w>; <w>-eligo</w> p. ras. cod.</note>
+              </app>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">ni</seg>
+                <seg type="syll" part="F">si</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">mi</seg>
+                <seg type="syll" part="F">chi</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">de</seg>
+                <seg type="syll" part="F">tur</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+        <lg type="strophe" n="VII" xml:lang="middle-high-german" met=".4+.3-/.4+.3-/4/4+.3-" rhyme="a+b/a+b/a/a+b">
+          <l n="1">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">Zer</seg>
+                <seg type="syll" part="M">gan</seg>
+                <seg type="syll" part="F">gen</seg>
+              </w>
+              <w>
+                <seg type="syll">ist</seg>
+              </w>
+              <w>
+                <seg type="syll">der</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">win</seg>
+                <seg type="syll" part="F">der</seg>
+              </w>
+              <w>
+                <seg type="syll">chalt</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">der</seg>
+              </w>
+              <app type="text">
+                <lem>
+                  <w>
+                    <seg type="syll">mich</seg>
+                  </w>
+                </lem>
+                <note>-r? eras. et corr. s.l. -ch man. r. cod.</note>
+              </app>
+              <w>
+                <seg type="syll">so</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">se</seg>
+                <seg type="syll" part="F">re</seg>
+              </w>
+              <app type="text">
+                <lem>
+                  <w>
+                    <seg type="syll">mu&#868;te</seg>
+                  </w>
+                </lem>
+                <note>&#868; man. r. cod.</note>
+              </app>
+              <pc>&#183;</pc>
+              <pc resp="#editor">,</pc>
+            </seg>
+          </l>
+          <l n="2">
+            <seg type="hemistich">
+              <w>
+                <seg type="syll" part="I">ge</seg>
+                <seg type="syll" part="M">lo&#871;</seg>
+                <seg type="syll" part="F">bet</seg>
+              </w>
+              <w>
+                <seg type="syll">stat</seg>
+              </w>
+              <w>
+                <seg type="syll">der</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">gru&#870;</seg>
+                <seg type="syll" part="F">ne</seg>
+              </w>
+              <w>
+                <seg type="syll">walt</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">;</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">des</seg>
+              </w>
+              <w>
+                <seg type="syll">fro&#871;et</seg>
+              </w>
+              <w>
+                <seg type="syll">sih</seg>
+              </w>
+              <w>
+                <seg type="syll">min</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">ge</seg>
+                <seg type="syll" part="M">mu&#870;</seg>
+                <seg type="syll" part="F">te</seg>
+              </w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+          <l n="3">
+            <w>
+              <seg type="syll" part="I">Nie</seg>
+              <seg type="syll" part="F">man</seg>
+            </w>
+            <w>
+              <seg type="syll">chan</seg>
+            </w>
+            <w>
+              <seg type="syll">nu</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">wer</seg>
+              <seg type="syll" part="F">den</seg>
+            </w>
+            <w>
+              <seg type="syll">alt</seg>
+            </w>
+            <pc resp="#editor">!</pc>
+          </l>
+          <l n="4">
+            <seg type="hemistich">
+              <app type="text">
+                <lem>
+                  <w>
+                    <seg type="syll" part="I">Vro&#868;</seg>
+                    <seg type="syll" part="F">de</seg>
+                  </w>
+                </lem>
+                <note>&#868; man. r. cod.</note>
+              </app>
+              <w>
+                <seg type="syll">han</seg>
+              </w>
+              <w>
+                <seg type="syll">ih</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">ma</seg>
+                <seg type="syll" part="M">nich</seg>
+                <seg type="syll" part="F">valt</seg>
+              </w>
+            </seg>
+            <seg type="hemistich">
+              <w>
+                <seg type="syll">von</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">ei</seg>
+                <seg type="syll" part="F">nes</seg>
+              </w>
+              <w>
+                <seg type="syll" part="I">wi</seg>
+                <seg type="syll" part="F">bes</seg>
+              </w>
+              <app type="text">
+                <lem>
+                  <w>
+                    <seg type="syll" part="I">gu&#868;</seg>
+                    <seg type="syll" part="F">te</seg>
+                  </w>
+                </lem>
+                <note>&#868; man. r. cod.</note>
+              </app>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

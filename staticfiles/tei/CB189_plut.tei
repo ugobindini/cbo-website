@@ -1,12 +1,12 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="sequence">
+      <div type="sequence" met="1:2x8p/5x6pp/2x8p/4x6pp, 2:10x7pp, 3:4x7pp/4pp/2x8pp/4x7pp, 4:5x7pp/4pp/2x7pp/2x8p/7pp">
         <lg type="versicle" n="1a" met="8p/8p/6pp/6pp/6pp/6pp/6pp/8p/8p/6pp/6pp/6pp/6pp" rhyme="a/a/b/c/b/c/b/a/a/b/d/d/b">
           <l n="1">
             <app type="text">
-              <lem wit="HS T">
+              <lem wit="HSB T">
                 <w>Aristippe</w>
               </lem>
               <rdg wit="cod."><w>Aristirpe</w></rdg>
@@ -113,10 +113,10 @@
               <lem wit="cod.">
                 <w>Hiis</w>
               </lem>
-              <rdg wit="HS V T"><w>id</w></rdg>
+              <rdg wit="HSB V T"><w>id</w></rdg>
             </app>
             <app type="text">
-              <lem wit="cod. HS">
+              <lem wit="cod. HSB">
                 <w>prius</w>
               </lem>
               <rdg wit="V T"><w>primum</w></rdg>
@@ -144,7 +144,7 @@
           </l>
           <l n="7">
             <app type="text">
-              <lem wit="cod. HS">
+              <lem wit="cod. HSB">
                 <w>ipsorum</w>
               </lem>
               <rdg wit="V T"><w>illorum</w></rdg>
@@ -154,7 +154,7 @@
           </l>
           <l n="8">
             <app type="text">
-              <lem wit="cod. HS">
+              <lem wit="cod. HSB">
                 <w>Carus</w>
               </lem>
               <rdg wit="V T"><w>Gratus</w></rdg>
@@ -167,7 +167,7 @@
           <l n="9">
             <w>in</w>
             <app type="text">
-              <lem wit="cod. HS">
+              <lem wit="cod. HSB">
                 <w>prelatis</w>
               </lem>
               <rdg wit="V T"><w>prelato</w></rdg>
@@ -193,7 +193,7 @@
           </l>
           <l n="13">
             <app type="text">
-              <lem wit="cod. HS T">
+              <lem wit="cod. HSB T">
                 <w>sacri</w>
               </lem>
               <rdg wit="V"><w>nostri</w></rdg>
@@ -244,7 +244,7 @@
               <lem wit="cod. V">
                 <w>dare</w>
               </lem>
-              <rdg wit="HS T"><w>dari</w></rdg>
+              <rdg wit="HSB T"><w>dari</w></rdg>
             </app>
             <w>famam</w>
             <w>doleo</w>
@@ -259,7 +259,7 @@
           <l n="9">
             <w>nec</w>
             <app type="text">
-              <lem wit="HS V T">
+              <lem wit="HSB V T">
                 <w>impinguo</w>
               </lem>
               <rdg wit="cod."><w>impingo</w></rdg>
@@ -298,7 +298,7 @@
               <lem wit="cod.">
                 <w>facit</w>
               </lem>
-              <rdg wit="HS V T"><w>fecit</w></rdg>
+              <rdg wit="HSB V T"><w>fecit</w></rdg>
             </app>
             <w>exules</w>
             <pc>&#183;</pc>
@@ -449,7 +449,7 @@
           </l>
           <l n="8">
             <app type="text">
-              <lem wit="HS T">
+              <lem wit="HSB T">
                 <w>Gyesi</w>
               </lem>
               <rdg wit="cod."><w>Gysi</w></rdg>

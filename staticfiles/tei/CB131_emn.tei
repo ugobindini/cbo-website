@@ -1,9 +1,9 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="6pp/6pp/6pp/6pp/8p/8p/8p/8p/8pp/7p/8pp/7p" rhyme="a/a/a/a/b/b/c/c/d/e/d/e">
-        <lg type="strophe" n="I">
+      <div type="poem" met="4x6pp/4x8p/2x(8pp/7p)">
+        <lg type="strophe" met="6pp/6pp/6pp/6pp/8p/8p/8p/8p/8pp/7p/8pp/7p" rhyme="a/a/a/a/b/b/c/c/d/e/d/e">
           <l n="1">
             <w>[D]yc</w>
             <pc resp="#editor">,</pc>
@@ -64,14 +64,14 @@
             <w>Vel</w>
             <w>in</w>
             <app type="text">
-              <lem wit="HS">
+              <lem wit="HSB">
                 <w>fiscella</w>
               </lem>
               <rdg wit="cod."><w>fisella</w></rdg>
               <rdg wit="V T"><w>viscella</w></rdg>
             </app>
             <app type="text">
-              <lem wit="HS T">
+              <lem wit="HSB T">
                 <w>scirpea</w>
               </lem>
               <rdg wit="cod."><w>cirpea</w></rdg>

@@ -1,9 +1,9 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="6pp/6pp/6pp/6pp/8p/8p/8p/8p/8pp/7p/8pp/7p" rhyme="a/a/a/a/b/b/c/c/d/e/d/e">
-        <lg type="strophe" n="I">
+      <div type="poem" met="I-III:4x6pp/4x8p/2x(8pp/7p), Ia-IVa:2x(6p/7p)/7pp/2x4pp/7p/7pp/7p/5pp/8p">
+        <lg type="strophe" n="I" met="6pp/6pp/6pp/6pp/8p/8p/8p/8p/8pp/7p/8pp/7p" rhyme="a/a/a/a/b/b/c/c/d/e/d/e">
           <l n="1">
             <w>Dic</w>
             <pc resp="#editor">,</pc>
@@ -64,14 +64,14 @@
             <w>Vel</w>
             <w>in</w>
             <app type="text">
-              <lem wit="HS">
+              <lem wit="HSB">
                 <w>fiscella</w>
               </lem>
               <rdg wit="cod."><w>ficella</w></rdg>
               <rdg wit="V T"><w>viscella</w></rdg>
             </app>
             <app type="text">
-              <lem wit="HS T">
+              <lem wit="HSB T">
                 <w>scirpea</w>
               </lem>
               <rdg wit="cod."><w>cirpea</w></rdg>
@@ -98,7 +98,7 @@
             <pc resp="#editor">?</pc>
           </l>
         </lg>
-        <lg type="strophe" n="II">
+        <lg type="strophe" n="II" met="6pp/6pp/6pp/6pp/8p/8p/8p/8p/8pp/7p/8pp/7p" rhyme="a/a/a/a/b/b/c/c/d/e/d/e">
           <l n="1">
             <w>Respondit</w>
             <w>caritas</w>
@@ -122,7 +122,7 @@
             <w>Non</w>
             <w>sum</w>
             <app type="text">
-              <lem wit="HS">
+              <lem wit="HSB">
                 <w>quo</w>
             <w>mussitas</w>
               </lem>
@@ -154,7 +154,7 @@
             <w>in</w>
             <w>bisso</w>
             <app type="text">
-              <lem wit="cod. HS T">
+              <lem wit="cod. HSB T">
                 <w>vel</w>
               </lem>
               <rdg wit="V"><w>nec</w><w>in</w></rdg>
@@ -170,7 +170,7 @@
               <lem wit="cod.">
                 <w>vel</w>
               </lem>
-              <rdg wit="HS V T"><w>nec</w></rdg>
+              <rdg wit="HSB V T"><w>nec</w></rdg>
             </app>
             <w>in</w>
             <w>bulla</w>
@@ -202,7 +202,7 @@
             <pc resp="#editor">.&#187;</pc>
           </l>
         </lg>
-        <lg type="strophe" n="III">
+        <lg type="strophe" n="III" met="6pp/6pp/6pp/6pp/8p/8p/8p/8p/8pp/7p/8pp/7p" rhyme="a/a/a/a/b/b/c/c/d/e/d/e">
           <l n="1">
             <w>O</w>
             <w>vox</w>
@@ -243,7 +243,7 @@
           <l n="6">
             <w>neque</w>
             <app type="text">
-              <lem wit="HS V T">
+              <lem wit="HSB V T">
                 <w>David</w>
               </lem>
               <rdg wit="cod."><w>davit</w></rdg>
@@ -301,9 +301,7 @@
             <pc resp="#editor">!</pc>
           </l>
         </lg>
-      </div>
-      <div type="poem" met="6p/7p/6p/7p/7pp/4pp/4pp/7p/7pp/7p/5pp/8p" rhyme="a/a/a/a/b/b/b/a/b/a/b/a">
-        <lg type="strophe" n="Ia">
+        <lg type="strophe" n="Ia" met="6p/7p/6p/7p/7pp/4pp/4pp/7p/7pp/7p/5pp/8p" rhyme="a/a/a/a/b/b/b/a/b/a/b/a">
           <l n="1">
             <w>Bulla</w>
             <w>fulminante</w>
@@ -330,7 +328,7 @@
               <lem wit="cod.">
                 <w>supprimitur</w>
               </lem>
-              <rdg wit="HS V T"><w>opprimitur</w></rdg>
+              <rdg wit="HSB V T"><w>opprimitur</w></rdg>
             </app>
             <pc resp="#editor">,</pc>
           </l>
@@ -372,7 +370,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="IIa">
+        <lg type="strophe" n="IIa" met="6p/7p/6p/7p/7pp/4pp/4pp/7p/7pp/7p/5pp/8p" rhyme="a/a/a/a/b/b/b/a/b/a/b/a">
           <l n="1">
             <w>Pape</w>
             <w>ianitores</w>
@@ -394,7 +392,7 @@
               <lem wit="cod.">
                 <w>nam</w>
               </lem>
-              <rdg wit="HS V T"><w>iam</w></rdg>
+              <rdg wit="HSB V T"><w>iam</w></rdg>
             </app>
             <w>etiamsi</w>
             <w>fores</w>
@@ -402,7 +400,7 @@
           <l n="5" met="7p">
             <app type="text">
               quem audiit Orpheus HS&#61533; Orpheus quem audiit cod.; quem audit Orpheus T; Orpheus quem audiit V
-              <lem wit="HS">
+              <lem wit="HSB">
                 <w>quem</w>
             <w>audiit</w>
             <pc resp="#editor">,</pc>
@@ -449,7 +447,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="IIIa">
+        <lg type="strophe" n="IIIa" met="6p/7p/6p/7p/7pp/4pp/4pp/7p/7pp/7p/5pp/8p" rhyme="a/a/a/a/b/b/b/a/b/a/b/a">
           <l n="1">
             <w>Si</w>
             <w>queris</w>
@@ -464,7 +462,7 @@
             <w>vitam</w>
             <w>pretendas</w>
               </lem>
-              <rdg wit="HS V T"><w>vitam</w><w>frustra</w><w>commendas</w></rdg>
+              <rdg wit="HSB V T"><w>vitam</w><w>frustra</w><w>commendas</w></rdg>
             </app>
             <pc resp="#editor">,</pc>
           </l>
@@ -475,7 +473,7 @@
               <lem wit="cod.">
                 <w>commendas</w>
               </lem>
-              <rdg wit="HS V T"><w>pretendas</w></rdg>
+              <rdg wit="HSB V T"><w>pretendas</w></rdg>
             </app>
             <pc resp="#editor">,</pc>
           </l>
@@ -515,7 +513,7 @@
           </l>
           <l n="11">
             <app type="text">
-              <lem wit="cod. HS T">
+              <lem wit="cod. HSB T">
                 <w>paris</w>
               </lem>
               <rdg wit="V"><w>pari</w></rdg>
@@ -529,7 +527,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="IVa">
+        <lg type="strophe" n="IVa" met="6p/7p/6p/7p/7pp/4pp/4pp/7p/7pp/7p/5pp/8p" rhyme="a/a/a/a/b/b/b/a/b/a/b/a">
           <l n="1">
             <w>Jupiter</w>
             <pc resp="#editor">,</pc>
@@ -539,7 +537,7 @@
           <l n="2">
             <app type="text">
               Danen HS T&#61533; dampnem cod.
-              <lem wit="HS T">
+              <lem wit="HSB T">
                 <w>Danem</w>
               </lem>
               <rdg wit="cod."><w>dampnem</w></rdg>
@@ -600,7 +598,7 @@
               <lem wit="cod.">
                 <w>rectius</w>
               </lem>
-              <rdg wit="HS T"><w>iustius</w></rdg>
+              <rdg wit="HSB T"><w>iustius</w></rdg>
             </app>
             <pc resp="#editor">,</pc>
           </l>

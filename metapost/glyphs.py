@@ -86,6 +86,11 @@ GLYPHS = [
 		paths=[('virga', None), ('oriscus', None), ('punctum', '(6u,-7.5u)'), ('punctum', '(9u,-12u)'), ('stropha', '(15u,-6u)')]
 	),
 	Glyph(
+		description='Virga + 1 subpunctum',
+		code='visu1',
+		paths=[('virga', None), ('punctum', '(9u,-9u)')]
+	),
+	Glyph(
 		description='Virga liq. + 1 subpunctum',
 		code='vi)su1',
 		paths=[('virga_liq', None), ('punctum', '(9u,-9u)')]
@@ -216,6 +221,11 @@ GLYPHS = [
 		paths=[('pes', None), ('punctum', '(15u,6u)'), ('punctum', '(18u,3u)'), ('substropha', '(21u,0)'), ('stropha', '(27u,6u)')]
 	),
 	Glyph(
+		description='Pes + 4 subpuncta',
+		code='pesu4',
+		paths=[('pes', None), ('punctum', '(15u,6u)'), ('punctum', '(18u,4u)'), ('punctum', '(21u,2u)'), ('punctum', '(24u,0)')]
+	),
+	Glyph(
 		description='Pes + 4 subpuncta + stropha',
 		code='pesu4!st',
 		paths=[('pes', None), ('punctum', '(15u,6u)'), ('punctum', '(18u,4u)'), ('punctum', '(21u,2u)'), ('punctum', '(24u,0)'), ('stropha', '(30u,6u)')]
@@ -301,6 +311,11 @@ GLYPHS = [
 		paths=[('virga', None), ('clivis_end', None), ('punctum', '(-12u,-16.5u)'), ('punctum', '(-15u, -21u)'), ('stropha', '(15u,-3u)')]
 	),
 	Glyph(
+		description='Clivis + 1 subpunctum',
+		code='clsu1',
+		paths=[('virga', None), ('clivis_end', None), ('punctum', '(9u,-12u)')]
+	),
+	Glyph(
 		description='Clivis + 2 subpuncta',
 		code='clsu2',
 		paths=[('virga', None), ('clivis_end', None), ('punctum', '(9u,-9u)'), ('punctum', '(13.5u, -12u)')]
@@ -319,6 +334,11 @@ GLYPHS = [
 		description='Torculus',
 		code='to',
 		paths=[('torculus', None)]
+	),
+	Glyph(
+		description='Torculus liq.',
+		code='to)',
+		paths=[('torculus_liquescent', None)]
 	),
 	Glyph(
 		description='Torculus + 1 subpunctum',

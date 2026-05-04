@@ -1,9 +1,9 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="6pp/6pp/6pp/6pp/6p/4pp/4pp/6p/7pp/8pp/7pp/8pp/" rhyme="a/b/b/a/c/d/d/c/e/f/e/f">
-        <lg type="strophe" n="I">
+      <div type="poem" met="I-III:4x6pp/6p/2x4pp/6p/2x(7pp/8pp)">
+        <lg type="strophe" n="I" met="6pp/6pp/6pp/6pp/6p/4pp/4pp/6p/7pp/8pp/7pp/8pp/" rhyme="a/b/b/a/c/d/d/c/e/f/e/f">
           <l n="1">
             <w>O</w>
             <w>curas</w>
@@ -11,7 +11,7 @@
           </l>
           <l n="2">
             <app type="text">
-              <lem wit="HS V T">
+              <lem wit="HSB V T">
                 <w>quos</w>
               </lem>
               <rdg wit="cod."><w>quas</w></rdg>
@@ -77,7 +77,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="II">
+        <lg type="strophe" n="II" met="6pp/6pp/6pp/6pp/6p/4pp/4pp/6p/7pp/8pp/7pp/8pp/" rhyme="a/b/b/a/c/d/d/c/e/f/e/f">
           <l n="1">
             <w>Ab</w>
             <w>aula</w>
@@ -100,7 +100,7 @@
             <w>spem</w>
             <w>vanam</w>
             <app type="text">
-              <lem wit="HS V T">
+              <lem wit="HSB V T">
                 <w>concipis</w>
               </lem>
               <rdg wit="cod."><w>concipit</w></rdg>
@@ -112,7 +112,7 @@
               <lem wit="V">
                 <w>tenui</w>
               </lem>
-              <rdg wit="cod. HS T"><w>tenuis</w></rdg>
+              <rdg wit="cod. HSB T"><w>tenuis</w></rdg>
             </app>
             <w>fortuna</w>
             <pc resp="#editor">.</pc>
@@ -126,7 +126,7 @@
           </l>
           <l n="8">
             <app type="text">
-              <lem wit="HS V T">
+              <lem wit="HSB V T">
                 <w>omnium</w>
               </lem>
               <rdg wit="cod."><w>hominum</w></rdg>
@@ -140,7 +140,7 @@
             <w>a</w>
             <w>quo</w>
             <app type="text">
-              <lem wit="HS V T">
+              <lem wit="HSB V T">
                 <w>nil</w>
               </lem>
               <rdg wit="cod."><w>nichil</w></rdg>
@@ -165,7 +165,7 @@
           </l>
           <l n="12">
             <app type="text">
-              <lem wit="cod. HS">
+              <lem wit="cod. HSB">
                 <w>tenent</w>
             <w>omnes</w>
               </lem>
@@ -177,11 +177,11 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="III">
+        <lg type="strophe" n="III" met="6pp/6pp/6pp/6pp/6p/4pp/4pp/6p/7pp/8pp/7pp/8pp/" rhyme="a/b/b/a/c/d/d/c/e/f/e/f">
           <l n="1">
             <w>In</w>
             <app type="text">
-              <lem wit="HS V T">
+              <lem wit="HSB V T">
                 <w>levum</w>
               </lem>
               <rdg wit="cod."><w>lucrum</w></rdg>
@@ -235,7 +235,7 @@
               <lem wit="cod.">
                 <w>minuitur</w>
               </lem>
-              <rdg wit="HS V T"><w>diluitur</w></rdg>
+              <rdg wit="HSB V T"><w>diluitur</w></rdg>
             </app>
             <pc>&#183;</pc>
             <pc resp="#editor">.</pc>

@@ -1,10 +1,10 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="7pp+6p/7pp+6p" rhyme="A+B/A+B">
+      <div type="poem" met="I-III:2x(7pp+6p)">
         <head>Item</head>
-        <lg type="strophe" n="I">
+        <lg type="strophe" n="I" met="7pp+6p/7pp+6p" rhyme="A+B/A+B">
           <l n="1">
             <seg type="hemistich">
               <w>
@@ -71,7 +71,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="II">
+        <lg type="strophe" n="II" met="7pp+6p/7pp+6p" rhyme="A+B/A+B">
           <l n="1">
             <seg type="hemistich">
               <w>
@@ -144,7 +144,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="III" rhyme="a+b/a+b">
+        <lg type="strophe" n="III" met="7pp+6p/7pp+6p" rhyme="a+b/a+b">
           <l n="1">
             <seg type="hemistich">
               <w>

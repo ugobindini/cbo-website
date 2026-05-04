@@ -1,9 +1,9 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a/a/b/b">
-        <lg type="strophe" n="I">
+      <div type="poem" met="I-IV:4x(7pp+6p)">
+        <lg type="strophe" n="I" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a/a/b/b">
           <l n="1">
             <seg type="hemistich">
               <w>Tempus</w>
@@ -29,7 +29,7 @@
                 <lem>
                   <w>immutantur</w>
                 </lem>
-                <rdg wit="imp. W HS"><w>imitantur</w></rdg>
+                <rdg wit="imp. W HSB"><w>imitantur</w></rdg>
               </app>
               <w>mores</w>
               <pc resp="#editor">.</pc>
@@ -63,7 +63,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="II">
+        <lg type="strophe" n="II" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a/a/b/b">
           <l n="1" met="A7pp+6p">
             <seg type="hemistich">
               <w>Sunt</w>
@@ -95,7 +95,7 @@
               <w>gramina</w>
               <w>et</w>
               <app type="text">
-                <lem wit="imp. HS">
+                <lem wit="imp. HSB">
                   <w>plant&#230;</w>
                 </lem>
                 <rdg wit="W"><w>plant&#230;</w><w>[quae]</w></rdg>
@@ -121,7 +121,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="III">
+        <lg type="strophe" n="III" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a/a/b/b">
           <l n="1">
             <seg type="hemistich">
               <w>H&#230;c</w>
@@ -175,7 +175,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="IV">
+        <lg type="strophe" n="IV" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a/a/b/b">
           <l n="1" met="8pp+6p" rhyme="c+a">
             <seg type="hemistich">
               <w>Terra</w>

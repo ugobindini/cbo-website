@@ -31,6 +31,10 @@ if __name__ == "__main__":
 		#####
 		#####
 
+		for el in tree.xpath(".//lem") + tree.xpath(".//rdg"):
+			if "wit" in el.attrib.keys():
+				el.attrib["wit"] = el.attrib["wit"].replace("HS", "HSB")
+
 		#####
 		#####
 

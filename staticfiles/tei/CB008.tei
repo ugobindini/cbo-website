@@ -1,9 +1,9 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="8p/8p/8p/8p/7pp/7pp/7pp/6p" rhyme="a/a/a/a/b/b/b/a">
-        <lg type="strophe" n="I">
+      <div type="poem" met="I-VIII:4x8p/3x7pp/6p">
+        <lg type="strophe" n="I" met="8p/8p/8p/8p/7pp/7pp/7pp/6p" rhyme="a/a/a/a/b/b/b/a">
           <l n="1">
             <w>
               <seg type="syll" part="I">Li</seg>
@@ -140,7 +140,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="II">
+        <lg type="strophe" n="II" met="8p/8p/8p/8p/7pp/7pp/7pp/6p" rhyme="a/a/a/a/b/b/b/a">
           <l n="1">
             <w>
               <seg type="syll">Si</seg>
@@ -199,7 +199,7 @@
           </l>
           <l n="4">
             <app type="text">
-              <lem wit="HS V Tc T">
+              <lem wit="Ca To HSB V Tc T">
                 <w>
                   <seg type="syll">hac</seg>
                 </w>
@@ -243,17 +243,12 @@
               <seg type="syll" part="M">mo</seg>
               <seg type="syll" part="F">nis</seg>
             </w>
-            <app type="text">
-              <lem wit="cod. V T">
-                <w>
-                  <seg type="syll" part="I">of</seg>
-                  <seg type="syll" part="M">fi</seg>
-                  <seg type="syll" part="M">ci</seg>
-                  <seg type="syll" part="F">o</seg>
-                </w>
-              </lem>
-              <rdg wit="HS Tc"><w>auspicio</w></rdg>
-            </app>
+            <w>
+              <seg type="syll" part="I">of</seg>
+              <seg type="syll" part="M">fi</seg>
+              <seg type="syll" part="M">ci</seg>
+              <seg type="syll" part="F">o</seg>
+            </w>
             <pc>&#183;</pc>
             <pc resp="#editor">,</pc>
           </l>
@@ -276,30 +271,25 @@
             <pc resp="#editor">,</pc>
           </l>
           <l n="8">
-            <app type="text">
-              <lem wit="cod. V T">
-                <w>
-                  <seg type="syll">et</seg>
-                </w>
-                <w>
-                  <seg type="syll">sic</seg>
-                </w>
-                <w>
-                  <seg type="syll">fit</seg>
-                </w>
-                <w>
-                  <seg type="syll" part="I">Ie</seg>
-                  <seg type="syll" part="M">zi</seg>
-                  <seg type="syll" part="F">ta</seg>
-                </w>
-              </lem>
-              <rdg wit="HS Tc"><w>sic</w><w>fit</w><w>(G)Iezita</w></rdg>
-            </app>
+            <w>
+              <seg type="syll">et</seg>
+            </w>
+            <w>
+              <seg type="syll">sic</seg>
+            </w>
+            <w>
+              <seg type="syll">fit</seg>
+            </w>
+            <w>
+              <seg type="syll" part="I">Ie</seg>
+              <seg type="syll" part="M">zi</seg>
+              <seg type="syll" part="F">ta</seg>
+            </w>
             <pc>&#183;</pc>
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="III">
+        <lg type="strophe" n="III" met="8p/8p/8p/8p/7pp/7pp/7pp/6p" rhyme="a/a/a/a/b/b/b/a">
           <l n="1">
             <w>
               <seg type="syll" part="I">Ia</seg>
@@ -429,7 +419,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="IV">
+        <lg type="strophe" n="IV" met="8p/8p/8p/8p/7pp/7pp/7pp/6p" rhyme="a/a/a/a/b/b/b/a">
           <l n="1">
             <w>
               <seg type="syll" part="I">Do</seg>
@@ -570,7 +560,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="V">
+        <lg type="strophe" n="V" met="8p/8p/8p/8p/7pp/7pp/7pp/6p" rhyme="a/a/a/a/b/b/b/a">
           <l n="1">
             <w>
               <seg type="syll">Si</seg>
@@ -636,18 +626,19 @@
           </l>
           <l n="4">
             <app type="text">
-              <lem wit="HS Tc T">
+              <lem wit="HSB Tc T">
                 <w>
                   <seg type="syll" part="I">re</seg>
                   <seg type="syll" part="F">num</seg>
                 </w>
+                <w>
+                  <seg type="syll" part="I">mer</seg>
+                  <seg type="syll" part="F">sus</seg>
+                </w>
               </lem>
-              <rdg wit="cod. V"><w>rerum</w></rdg>
+              <rdg wit="cod. Ca CM Wr V"><w>rerum</w><w>mersus</w></rdg>
+              <rdg wit="E1 P To"><w>rerum</w><w>versus</w></rdg>
             </app>
-            <w>
-              <seg type="syll" part="I">mer</seg>
-              <seg type="syll" part="F">sus</seg>
-            </w>
             <w>
               <seg type="syll">in</seg>
             </w>
@@ -723,7 +714,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="VI">
+        <lg type="strophe" n="VI" met="8p/8p/8p/8p/7pp/7pp/7pp/6p" rhyme="a/a/a/a/b/b/b/a">
           <l n="1">
             <w>
               <seg type="syll">In</seg>
@@ -742,7 +733,7 @@
           </l>
           <l n="2">
             <app type="text">
-              <lem wit="HS V Tc T">
+              <lem wit="A Ca CM E1 O To Wr Z HSB V Tc T">
                 <w>
                   <seg type="syll" part="I">ti</seg>
                   <seg type="syll" part="F">ment</seg>
@@ -751,7 +742,7 @@
               <rdg wit="cod."><w>timet</w></rdg>
             </app>
             <app type="text">
-              <lem wit="HS Tc">
+              <lem wit="A Ca CM E1 O To Wr Z HSB Tc">
                 <w>
                   <seg type="syll" part="I">an</seg>
                   <seg type="syll" part="F">nos</seg>
@@ -768,11 +759,11 @@
             <pc>&#183;</pc>
           </l>
           <l n="3">
-            <w>
-              <seg type="syll">nec</seg>
-            </w>
             <app type="text">
               <lem wit="Z">
+                <w>
+                  <seg type="syll">nec</seg>
+                </w>
                 <w>
                   <seg type="syll">ut</seg>
                 </w>
@@ -781,7 +772,7 @@
                   <seg type="syll" part="F">ma</seg>
                 </w>
               </lem>
-              <rdg wit="cod. HS V Tc T"><w>fortuna</w></rdg>
+              <rdg wit="cod. Ca CM E1 O To Wr HSB V Tc T"><w>ne</w><w>fortuna</w></rdg>
             </app>
             <w>
               <seg type="syll" part="I">de</seg>
@@ -797,13 +788,14 @@
               <seg type="syll" part="F">sit</seg>
             </w>
             <app type="text">
-              <lem wit="HS V Tc T">
+              <lem wit="A Ca CM O To Wr Z HSB V Tc T">
                 <w>
                   <seg type="syll" part="I">e</seg>
                   <seg type="syll" part="F">is</seg>
                 </w>
               </lem>
               <rdg wit="cod."><w>ei</w></rdg>
+              <rdg wit="E1"><w>illis</w></rdg>
             </app>
             <w>
               <seg type="syll" part="I">splen</seg>
@@ -824,13 +816,14 @@
               <seg type="syll">dum</seg>
             </w>
             <app type="text">
-              <lem wit="HS V Tc T">
+              <lem wit="A Ca CM E1O Wr Z HSB V Tc T">
                 <w>
                   <seg type="syll" part="I">que</seg>
                   <seg type="syll" part="F">runt</seg>
                 </w>
               </lem>
               <rdg wit="cod."><w>querit</w></rdg>
+              <rdg wit="To"><w>querut</w></rdg>
             </app>
             <w>
               <seg type="syll" part="I">me</seg>
@@ -842,13 +835,15 @@
           </l>
           <l n="6">
             <app type="text">
-              <lem wit="HS V Tc T">
+              <lem wit="A Ca E1 O To Z HSB V Tc T">
                 <w>
                   <seg type="syll" part="I">ver</seg>
                   <seg type="syll" part="F">gunt</seg>
                 </w>
               </lem>
               <rdg wit="cod."><w>vergit</w></rdg>
+              <rdg wit="CM"><w>ruunt</w></rdg>
+              <rdg wit="Wr"><w>vertunt</w></rdg>
             </app>
             <w>
               <seg type="syll">in</seg>
@@ -879,14 +874,15 @@
           </l>
           <l n="8">
             <app type="text">
-              <lem wit="HS Tc T">
+              <lem wit="Ca CM E1 To HSB Tc T">
                 <w>
                   <seg type="syll" part="I">spe</seg>
                   <seg type="syll" part="M">ci</seg>
                   <seg type="syll" part="F">e</seg>
                 </w>
               </lem>
-              <rdg wit="cod. V"><w>spetiem</w></rdg>
+              <rdg wit="cod. O V"><w>spetiem</w></rdg>
+              <rdg wit="Z"><w>species</w></rdg>
             </app>
             <w>
               <seg type="syll" part="I">vir</seg>
@@ -897,7 +893,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="VII">
+        <lg type="strophe" n="VII" met="8p/8p/8p/8p/7pp/7pp/7pp/6p" rhyme="a/a/a/a/b/b/b/a">
           <l n="1">
             <w>
               <seg type="syll">Ut</seg>
@@ -1035,7 +1031,7 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="VIII">
+        <lg type="strophe" n="VIII" met="8p/8p/8p/8p/7pp/7pp/7pp/6p" rhyme="a/a/a/a/b/b/b/a">
           <l n="1">
             <w>
               <seg type="syll" part="I">Er</seg>
@@ -1149,7 +1145,7 @@
               <seg type="syll" part="F">cit</seg>
             </w>
             <app type="text">
-              <lem wit="HS V Tc T">
+              <lem wit="Ca HSB V Tc T">
                 <w>
                   <seg type="syll" part="I">per</seg>
                   <seg type="syll" part="M">vi</seg>

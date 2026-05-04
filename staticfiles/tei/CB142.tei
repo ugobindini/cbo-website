@@ -1,39 +1,39 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a/a/a/a">
-        <lg type="strophe" n="I">
+      <div type="poem" met="I-III:4x(7pp+6p), IV:4x(4+3-)">
+        <lg type="strophe" n="I" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a/a/a/a">
           <l n="1">
             <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">Tem<notatedMusic>
-                    <neume fontname="buranus" glyph.num="1" label="pu" />
+                    <neume fontname="buranus" glyph.num="1" label="pu"/>
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="F">pus<notatedMusic>
-                    <neume fontname="buranus" glyph.num="7" label="vi" />
+                    <neume fontname="buranus" glyph.num="7" label="vi"/>
                   </notatedMusic>
                 </seg>
               </w>
               <w>
                 <seg type="syll" part="I">ad<notatedMusic>
-                    <neume fontname="buranus" glyph.num="49" label="cl" />
+                    <neume fontname="buranus" glyph.num="51" label="cl"/>
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="F">est<notatedMusic>
-                    <neume fontname="buranus" glyph.num="7" label="vi" />
+                    <neume fontname="buranus" glyph.num="7" label="vi"/>
                   </notatedMusic>
                 </seg>
               </w>
               <w>
                 <seg type="syll" part="I">flo</seg>
                 <seg type="syll" part="M">ri<notatedMusic>
-                    <neume fontname="buranus" glyph.num="7" label="vi" />
+                    <neume fontname="buranus" glyph.num="7" label="vi"/>
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="F">dum<notatedMusic>
-                    <neume fontname="buranus" glyph.num="7" label="vi" />
+                    <neume fontname="buranus" glyph.num="7" label="vi"/>
                   </notatedMusic>
                 </seg>
               </w>
@@ -43,35 +43,35 @@
             <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">sur<notatedMusic>
-                    <neume fontname="buranus" glyph.num="1" label="pu" />
+                    <neume fontname="buranus" glyph.num="1" label="pu"/>
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="F">gunt<notatedMusic>
-                    <neume fontname="buranus" glyph.num="7" label="vi" />
+                    <neume fontname="buranus" glyph.num="7" label="vi"/>
                   </notatedMusic>
                 </seg>
               </w>
               <w>
                 <seg type="syll" part="I">nam</seg>
                 <seg type="syll" part="F">que<notatedMusic>
-                    <neume fontname="buranus" glyph.num="7" label="vi" />
+                    <neume fontname="buranus" glyph.num="7" label="vi"/>
                   </notatedMusic>
                 </seg>
               </w>
               <w>
                 <seg type="syll" part="I">flo<notatedMusic>
-                    <neume fontname="buranus" glyph.num="7" label="vi" />
+                    <neume fontname="buranus" glyph.num="7" label="vi"/>
                   </notatedMusic>
                 </seg>
                 <seg type="syll" part="F">res<notatedMusic>
-                    <neume fontname="buranus" glyph.num="7" label="vi" />
+                    <neume fontname="buranus" glyph.num="7" label="vi"/>
                   </notatedMusic>
                 </seg>
               </w>
               <pc resp="#editor">,</pc>
             </seg>
           </l>
-          <l n="2" met="A7pp+6p">
+          <l n="2" met=".7pp+6p">
             <seg type="hemistich">
               <w>
                 <seg type="syll" part="I">ver</seg>
@@ -92,7 +92,7 @@
             </seg>
             <seg type="hemistich">
               <app type="text">
-                <lem wit="HS T">
+                <lem wit="HSB T">
                   <w>
                 <seg type="syll" part="I">im</seg>
                 <seg type="syll" part="M">mu</seg>
@@ -177,8 +177,8 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="II">
-          <l n="1" met="A7pp+A6p" rhyme="b+a">
+        <lg type="strophe" n="II" met=".7pp+.6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a/a/a/a">
+          <l n="1" met=".7pp+.6p" rhyme="b+a">
             <seg type="hemistich">
               <w>
                 <seg type="syll">Stant</seg>
@@ -312,7 +312,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="III">
+        <lg type="strophe" n="III" met="7pp+6p/.7pp+6p/7pp+6p/7pp+6p" rhyme="a/a/a/a">
           <l n="1" rhyme="b+a">
             <seg type="hemistich">
               <w>
@@ -348,7 +348,7 @@
               <pc resp="#editor">?</pc>
             </seg>
           </l>
-          <l n="2" met="A7pp+6p" rhyme="b+a">
+          <l n="2" met=".7pp+6p" rhyme="b+a">
             <seg type="hemistich">
               <w>
                 <seg type="syll">an</seg>
@@ -413,7 +413,7 @@
                 <seg type="syll" part="F">lem</seg>
               </w>
               <app type="text">
-                <lem wit="HS V T">
+                <lem wit="HSB V T">
                   <w>
                 <seg type="syll" part="I">es</seg>
                 <seg type="syll" part="F">se</seg>
@@ -461,7 +461,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" xml:lang="middle-high-german" n="IV" met="4+3-/A4+A3-/4+3-/4+3-" rhyme="b+a/b+a/c+a/c+a">
+        <lg type="strophe" xml:lang="middle-high-german" n="IV" met="4+3-/.4+.3-/4+3-/4+3-" rhyme="b+a/b+a/c+a/c+a">
           <l n="1">
             <seg type="hemistich">
               <app type="text">
@@ -470,7 +470,7 @@
                 <seg type="syll">Ich</seg>
               </w>
                 </lem>
-                <rdg wit="HS"><w>Ih</w></rdg>
+                <rdg wit="HSB"><w>Ih</w></rdg>
                 <note>-c- man. r.</note>
               </app>
               <w>
@@ -599,7 +599,7 @@
             </seg>
             <seg type="hemistich">
               <app type="text">
-                <lem wit="cod. HS">
+                <lem wit="cod. HSB">
                   <w>
                 <seg type="syll" part="I">Du&#868;r</seg>
                 <seg type="syll" part="F">fent</seg>

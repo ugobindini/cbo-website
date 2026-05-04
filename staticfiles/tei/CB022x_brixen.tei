@@ -1,119 +1,125 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="sequence">
-        <lg type="versicle" n="I" met="8p/8p/7pp" rhyme="a/a/b">
-          <l n="1" met="4p+4p" rhyme="a+a">Hac in die laudes pie</l>
-          <l n="2">celi iungant armonie</l>
-          <l n="3">plausus et tripudia<pc>&#183;</pc></l>
+      <div type="sequence" met="1-4:2x8p/7pp, 5-6:2x(8p/7pp), 7-10:2x8p/7pp, 11:2x(8p/7pp)">
+        <lg type="versicle" n="1a" met="8p/8p/7pp" rhyme="a/a/b">
+          <l n="1" met="4p+4p" rhyme="a+a"><w>Hac</w><w>in</w><w>die</w><w>laudes</w><w>pie</w></l>
+          <l n="2"><w>celi</w><w>iungant</w><w>armonie</w></l>
+          <l n="3"><w>plausus</w><w>et</w><w>tripudia<pc>&#183;</pc></w></l>
         </lg>
-        <lg type="versicle" n="II" met="8p/8p/7pp" rhyme="c/c/b">
-          <l n="1">Qua conscendit ad divina</l>
-          <l n="2">Christi sponsa Katherina</l>
-          <l n="3">sublimi victoria</l>
+        <lg type="versicle" n="1b" met="8p/8p/7pp" rhyme="c/c/b">
+          <l n="1"><w>Qua</w><w>conscendit</w><w>ad</w><w>divina</w></l>
+          <l n="2"><w>Christi</w><w>sponsa</w><w>Katherina</w></l>
+          <l n="3"><w>sublimi</w><w>victoria</w></l>
         </lg>
-        <lg type="versicle" n="III" met="8p/8p/7pp" rhyme="a/a/b">
-          <l n="1">Virgo dolens christianos</l>
-          <l n="2">a profanis ut profanos</l>
-          <l n="3">subici martyrio<pc>&#183;</pc></l>
+        <lg type="versicle" n="2a" met="8p/8p/7pp" rhyme="a/a/b">
+          <l n="1"><w>Virgo</w><w>dolens</w><w>christianos</w></l>
+          <l n="2"><w>a</w><w>profanis</w><w>ut</w><w>profanos</w></l>
+          <l n="3"><w>subici</w><w>martyrio<pc>&#183;</pc></w></l>
         </lg>
-        <lg type="versicle" n="IV" met="8p/8p/7pp" rhyme="c/c/b">
-          <l n="1">Christum palam confitetur</l>
-          <l n="2">neque super hoc veretur</l>
-          <l n="3">obponi Maxencio</l>
+        <lg type="versicle" n="2b" met="8p/8p/7pp" rhyme="c/c/b">
+          <l n="1"><w>Christum</w><w>palam</w><w>confitetur</w></l>
+          <l n="2"><w>neque</w><w>super</w><w>hoc</w><w>veretur</w></l>
+          <l n="3"><w>obponi</w><w>Maxencio</w></l>
         </lg>
-        <lg type="versicle" n="V" met="8p/8p/7pp" rhyme="a/a/b">
-          <l n="1">Cuius victus documentis</l>
-          <l n="2">et conclusus argumentis</l>
-          <l n="3">querit adiutoria<pc>&#183;</pc></l>
+        <lg type="versicle" n="3a" met="8p/8p/7pp" rhyme="a/a/b">
+          <l n="1"><w>Cuius</w><w>victus</w><w>documentis</w></l>
+          <l n="2"><w>et</w><w>conclusus</w><w>argumentis</w></l>
+          <l n="3"><w>querit</w><w>adiutoria<pc>&#183;</pc></w></l>
         </lg>
-        <lg type="versicle" n="VI" met="8p/8p/7pp" rhyme="c/c/b">
-          <l n="1">Grecos querit oratores</l>
-          <l n="2">et in Grecis meliores</l>
-          <l n="3">hic surgunt litigia</l>
+        <lg type="versicle" n="3b" met="8p/8p/7pp" rhyme="c/c/b">
+          <l n="1"><w>Grecos</w><w>querit</w><w>oratores</w></l>
+          <l n="2"><w>et</w><w>in</w><w>Grecis</w><w>meliores</w></l>
+          <l n="3"><w>hic</w><w>surgunt</w><w>litigia</w></l>
         </lg>
-        <lg type="versicle" n="VII" met="8p/8p/7pp" rhyme="a/a/b">
-          <l n="1">Ad certamen accersitur</l>
-          <l n="2" met="4p+4p" rhyme="a+a">locus datur disputatur</l>
-          <l n="3">subcumbit rethorica<pc>&#183;</pc></l>
+        <lg type="versicle" n="4a" met="8p/8p/7pp" rhyme="a/a/b">
+          <l n="1"><w>Ad</w><w>certamen</w><w>accersitur</w></l>
+          <l n="2" met="4p+4p" rhyme="a+a"><w>locus</w><w>datur</w><w>disputatur</w></l>
+          <l n="3"><w>subcumbit</w><w>rethorica<pc>&#183;</pc></w></l>
         </lg>
-        <lg type="versicle" n="VIII" met="8p/8p/7pp" rhyme="c/c/b">
-          <l n="1">Virgo gaudet rex inflatur</l>
-          <l n="2">credit et martirizatur</l>
-          <l n="3">turba phylosophyca</l>
+        <lg type="versicle" n="4b" met="8p/8p/7pp" rhyme="c/c/b">
+          <l n="1"><w>Virgo</w><w>gaudet</w><w>rex</w><w>inflatur</w></l>
+          <l n="2"><w>credit</w><w>et</w><w>martirizatur</w></l>
+          <l n="3"><w>turba</w><w>phylosophyca</w></l>
         </lg>
-        <lg type="versicle" n="IX" met="8p/7pp/8p/7pp" rhyme="a/b/?/b">
-          <l n="1">Virgo decus puellare</l>
-          <l n="2">virgo proles regia</l>
-          <l n="3">formae comprovincialies</l>
-          <l n="4">vincens elegancia</l>
+        <lg type="versicle" n="5a" met="8p/7pp/8p/7pp" rhyme="x/a/x/a">
+          <l n="1"><w>Virgo</w><w>decus</w><w>puellare</w></l>
+          <l n="2"><w>virgo</w><w>proles</w><w>regia</w></l>
+          <l n="3"><w>formae</w><w>comprovincialies</w></l>
+          <l n="4"><w>vincens</w><w>elegancia</w></l>
         </lg>
-        <lg type="versicle" n="X" met="8p/7pp/8p/7pp" rhyme="?/b/?/b">
-          <l n="1">Tua stet in dicione</l>
-          <l n="2">res imperatoria</l>
-          <l n="3">tantum deis non detractes</l>
-          <l n="4">dare sacrificia</l>
+        <lg type="versicle" n="5b" met="8p/7pp/8p/7pp" rhyme="x/a/x/a">
+          <l n="1"><w>Tua</w><w>stet</w><w>in</w><w>dicione</w></l>
+          <l n="2"><w>res</w><w>imperatoria</w></l>
+          <l n="3"><w>tantum</w><w>deis</w><w>non</w><w>detractes</w></l>
+          <l n="4"><w>dare</w><w>sacrificia</w></l>
         </lg>
-        <lg type="versicle" n="XI" met="8p/7pp/8p/7pp" rhyme="?/b/?/b">
-          <l n="1">Ad hec virgo dic Maxenti</l>
-          <l n="2">quid dixisti bestia</l>
-          <l n="3">nescit verus declinari</l>
-          <l n="4">deus per pluralia<pc>&#183;</pc></l>
+        <lg type="versicle" n="6a" met="8p/7pp/8p/7pp" rhyme="x/a/x/a">
+          <l n="1"><w>Ad</w><w>hec</w><w>virgo</w><w>dic</w><w>Maxenti</w></l>
+          <l n="2"><w>quid</w><w>dixisti</w><w>bestia</w></l>
+          <l n="3"><w>nescit</w><w>verus</w><w>declinari</w></l>
+          <l n="4"><w>deus</w><w>per</w><w>pluralia<pc>&#183;</pc></w></l>
         </lg>
-        <lg type="versicle" n="XII" met="8p/7pp/8p/7pp" rhyme="?/b/?/b">
-          <l n="1">Unde si diis plura tuis</l>
-          <l n="2">das articularia</l>
-          <l n="3">miser a divinitate</l>
-          <l n="4">transis ad demonia</l>
+        <lg type="versicle" n="6b" met="8p/7pp/8p/7pp" rhyme="x/a/x/a">
+          <l n="1"><w>Unde</w><w>si</w><w>diis</w><w>plura</w><w>tuis</w></l>
+          <l n="2"><w>das</w><w>articularia</w></l>
+          <l n="3"><w>miser</w><w>a</w><w>divinitate</w></l>
+          <l n="4"><w>transis</w><w>ad</w><w>demonia</w></l>
         </lg>
-        <lg type="versicle" n="XIII" met="8p/8p/7pp" rhyme="a/a/b">
-          <l n="1">Resipisce resipisce</l>
-          <l n="2">veritatis viam disce</l>
-          <l n="3">Christo te concilia</l>
+        <lg type="versicle" n="7a" met="8p/8p/7pp" rhyme="a/a/b">
+          <l n="1"><w>Resipisce</w><w>resipisce</w></l>
+          <l n="2"><w>veritatis</w><w>viam</w><w>disce</w></l>
+          <l n="3"><w>Christo</w><w>te</w><w>concilia</w></l>
         </lg>
-        <lg type="versicle" n="XIV" met="8p/8p/7pp" rhyme="c/c/b">
-          <l n="1">Cecus ceca veneraris</l>
-          <l n="2">falsus falsa deprecaris</l>
-          <l n="3">similis similia</l>
+        <lg type="versicle" n="7b" met="8p/8p/7pp" rhyme="c/c/b">
+          <l n="1"><w>Cecus</w><w>ceca</w><w>veneraris</w></l>
+          <l n="2"><w>falsus</w><w>falsa</w><w>deprecaris</w></l>
+          <l n="3"><w>similis</w><w>similia</w></l>
         </lg>
-        <lg type="versicle" n="XV" met="8p/8p/7pp" rhyme="a/a/b">
-          <l n="1">Rex ad ista pertubatur</l>
-          <l n="2">furit frendet stomachatur</l>
-          <l n="3">latrat exit hominem</l>
+        <lg type="versicle" n="8a" met="8p/8p/7pp" rhyme="a/a/b">
+          <l n="1"><w>Rex</w><w>ad</w><w>ista</w><w>pertubatur</w></l>
+          <l n="2"><w>furit</w><w>frendet</w><w>stomachatur</w></l>
+          <l n="3"><w>latrat</w><w>exit</w><w>hominem</w></l>
         </lg>
-        <lg type="versicle" n="XVI" met="8p/8p/7pp" rhyme="a/a/b">
-          <l n="1">Rota fieri mandatur</l>
-          <l n="2">paganorum dum rotatur</l>
-          <l n="3">sternit multitudinem</l>
+        <lg type="versicle" n="8b" met="8p/8p/7pp" rhyme="a/a/b">
+          <l n="1"><w>Rota</w><w>fieri</w><w>mandatur</w></l>
+          <l n="2"><w>paganorum</w><w>dum</w><w>rotatur</w></l>
+          <l n="3"><w>sternit</w><w>multitudinem</w></l>
         </lg>
-        <lg type="versicle" n="XVII" met="8p/8p/7pp" rhyme="a/a/b">
-          <l n="1">Hinc hinc maga rapiatur</l>
-          <l n="2">hinc venefica trahatur</l>
-          <l n="3">ad squalorem carceris</l>
+        <lg type="versicle" n="9a" met="8p/8p/7pp" rhyme="a/a/b">
+          <l n="1"><w>Hinc</w><w>hinc</w><w>maga</w><w>rapiatur</w></l>
+          <l n="2"><w>hinc</w><w>venefica</w><w>trahatur</w></l>
+          <l n="3"><w>ad</w><w>squalorem</w><w>carceris</w></l>
         </lg>
-        <lg type="versicle" n="XVIII" met="8p/8p/7pp" rhyme="c/c/b">
-          <l n="1">Assunt mox apparitores</l>
-          <l n="2">mox laniste mox tortores</l>
-          <l n="3">iussa complent sceleris</l>
+        <lg type="versicle" n="9b" met="8p/8p/7pp" rhyme="c/c/b">
+          <l n="1"><w>Assunt</w><w>mox</w><w>apparitores</w></l>
+          <l>n="2"&gt;<w>mox</w><w>laniste</w><w>mox</w><w>tortores</w></l>
+          <l n="3"><w>iussa</w><w>complent</w><w>sceleris</w></l>
         </lg>
-        <lg type="versicle" n="XIX" met="8p/8p/7pp" rhyme="a/a/b">
-          <l n="1">Virgo constans decollatur</l>
-          <l n="2">pro cruore derivatur</l>
-          <l n="3">lac ab eius corpore</l>
+        <lg type="versicle" n="10a" met="8p/8p/7pp" rhyme="a/a/b">
+          <l n="1"><w>Virgo</w><w>constans</w><w>decollatur</w></l>
+          <l n="2"><w>pro</w><w>cruore</w><w>derivatur</w></l>
+          <l n="3"><w>lac</w><w>ab</w><w>eius</w><w>corpore</w></l>
         </lg>
-        <lg type="versicle" n="XX" met="8p/8p/7pp" rhyme="c/c/b">
-          <l n="1">Sponsa sponso sit unitur</l>
-          <l n="2">corpus Syria sepelitur</l>
-          <l n="3">angelorum opere</l>
+        <lg type="versicle" n="10b" met="8p/8p/7pp" rhyme="c/c/b">
+          <l n="1"><w>Sponsa</w><w>sponso</w><w>sit</w><w>unitur</w></l>
+          <l n="2"><w>corpus</w><w>Syria</w><w>sepelitur</w></l>
+          <l n="3"><w>angelorum</w><w>opere</w></l>
         </lg>
-        <lg type="versicle" n="XXI" met="8p/7pp" rhyme="?/b">
-          <l n="1">Tibi Christe sit perhennis</l>
-          <l n="2">decus et imperium</l>
-        </lg>
-        <lg type="versicle" n="XXII" met="8p/7pp" rhyme="?/b">
-          <l n="1">Tu beate Katherine</l>
-          <l n="2">nobis da consorcium</l>
+        <lg type="versicle" n="11" met="8p/7pp/8p/7pp" rhyme="x/a/x/a">
+          <l n="1">
+            <w>Tibi</w><w>Christe</w><w>sit</w><w>perhennis</w>
+          </l>
+          <l n="2">
+            <w>decus</w><w>et</w><w>imperium</w>
+          </l>
+          <l n="3">
+            <w>Tu</w><w>beate</w><w>Katherine</w>
+          </l>
+          <l n="4">
+            <w>nobis</w><w>da</w><w>consorcium</w>
+          </l>
         </lg>
       </div>
     </body>

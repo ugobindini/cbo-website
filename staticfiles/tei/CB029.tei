@@ -1,10 +1,10 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="7pp/7pp/7pp/7pp/7pp/7pp/4pp/4pp/7pp/7pp/7pp/7pp/7pp/7pp" rhyme="a/a/b/b/c/c/d/d/e/e/f/g/g/f">
+      <div type="poem" met="I-III:6x7pp/2x4pp/6x7pp">
         <head>De conversione hominum</head>
-        <lg type="strophe" n="I">
+        <lg type="strophe" n="I" met="7pp/7pp/7pp/7pp/7pp/7pp/4pp/4pp/7pp/7pp/7pp/7pp/7pp/7pp" rhyme="a/a/b/b/c/c/d/d/e/e/f/g/g/f">
           <l n="1">
             <w>
               <seg type="syll">In</seg>
@@ -77,7 +77,7 @@
               <seg type="syll" part="F">sas</seg>
             </w>
             <app type="text">
-              <lem wit="HS V W T">
+              <lem wit="HSB V W T">
                 <w>
                   <seg type="syll" part="I">nu</seg>
                   <seg type="syll" part="M">mi</seg>
@@ -126,7 +126,7 @@
           </l>
           <l n="9">
             <app type="text">
-              <lem wit="HS V W T">
+              <lem wit="HSB V W T">
                 <w>
                   <seg type="syll" part="I">cor</seg>
                   <seg type="syll" part="F">pus</seg>
@@ -196,7 +196,7 @@
               <seg type="syll">pro</seg>
             </w>
             <app type="text">
-              <lem wit="HS W T">
+              <lem wit="HSB W T">
                 <w>
                   <seg type="syll" part="I">iu</seg>
                   <seg type="syll" part="M">ven</seg>
@@ -228,7 +228,7 @@
             <pc resp="#editor">!</pc>
           </l>
         </lg>
-        <lg type="strophe" n="II">
+        <lg type="strophe" n="II" met="7pp/7pp/7pp/7pp/7pp/7pp/4pp/4pp/7pp/7pp/7pp/7pp/7pp/7pp" rhyme="a/a/b/b/c/c/d/d/e/e/f/g/g/f">
           <l n="1">
             <w>
               <seg type="syll" part="I">For</seg>
@@ -445,10 +445,10 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="strophe" n="III">
+        <lg type="strophe" n="III" met="7pp/7pp/7pp/7pp/7pp/7pp/4pp/4pp/7pp/7pp/7pp/7pp/7pp/7pp" rhyme="a/a/b/b/c/c/d/d/e/e/f/g/g/f">
           <l n="1">
             <app type="text">
-              <lem wit="HS W T">
+              <lem wit="HSB W T">
                 <w>
                   <seg type="syll">Ut</seg>
                 </w>
@@ -558,8 +558,8 @@
                   <seg type="syll" part="F">a</seg>
                 </w>
               </lem>
-              <rdg wit="HS"><w>Egyptia</w></rdg>
-              <rdg wit="cod. HS"><w>egiptiaca</w></rdg>
+              <rdg wit="HSB"><w>Egyptia</w></rdg>
+              <rdg wit="cod. HSB"><w>egiptiaca</w></rdg>
             </app>
             <pc>&#183;</pc>
             <pc resp="#editor">,</pc>
@@ -616,7 +616,7 @@
               <seg type="syll" part="F">tens</seg>
             </w>
             <app type="text">
-              <lem wit="HS V W T">
+              <lem wit="HSB V W T">
                 <w>
                   <seg type="syll" part="I">vin</seg>
                   <seg type="syll" part="M">ci</seg>

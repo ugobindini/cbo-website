@@ -1,9 +1,9 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="6pp+6pp/6pp+6pp/6pp+6pp/6pp+6pp/6pp/6pp+6pp" rhyme="A+B/A+B/A+B/A+B/B/A+B">
-        <lg type="strophe" n="I">
+      <div type="poem" met="I-II:4x(6pp+6pp)/6pp/6pp+6pp">
+        <lg type="strophe" n="I" met="6pp+6pp/6pp+6pp/6pp+6pp/6pp+6pp/6pp/6pp+6pp" rhyme="A+B/A+B/A+B/A+B/B/A+B">
           <l n="1">
             <seg type="hemistich">
               <w>Procurans</w>
@@ -17,7 +17,7 @@
           <l n="2">
             <seg type="hemistich">
               <app type="text">
-                <lem wit="CB Ma HS V T">
+                <lem wit="CB Ma HSB V T">
                   <w>vix</w>
                 </lem>
                 <rdg wit="cod."><w>ius</w></rdg>
@@ -70,7 +70,7 @@
             <seg type="hemistich">
               <w>felix</w>
               <app type="text">
-                <lem wit="CB F Ma HS V T">
+                <lem wit="CB F Ma HSB V T">
                   <w>condicio</w>
                 </lem>
                 <rdg wit="cod."><w>contricio</w></rdg>
@@ -79,7 +79,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="II">
+        <lg type="strophe" n="II" met="6pp+6pp/6pp+6pp/6pp+6pp/6pp+6pp/6pp/6pp+6pp" rhyme="A+B/A+B/A+B/A+B/B/A+B">
           <l n="1">
             <seg type="hemistich">
               <w>Insultus</w>
@@ -102,7 +102,7 @@
                   <w>fluxit</w>
                 </lem>
                 <rdg wit="cod."><w>fuxit</w></rdg>
-                <rdg wit="HS T"><w>fulsit</w></rdg>
+                <rdg wit="HSB T"><w>fulsit</w></rdg>
               </app>
               <w>occasio</w>
               <pc resp="#editor">.</pc>
@@ -111,7 +111,7 @@
           <l n="3">
             <seg type="hemistich">
               <app type="text">
-                <lem wit="CB F; HS V T">
+                <lem wit="CB F; HSB V T">
                   <w>Suspendunt</w>
                 </lem>
                 <rdg wit="cod."><w>suspendit</w></rdg>
@@ -120,7 +120,7 @@
             </seg>
             <seg type="hemistich">
               <app type="text">
-                <lem wit="CB HS V T">
+                <lem wit="CB HSB V T">
                   <w>pravo</w>
                 </lem>
                 <rdg wit="cod."><w>parvo</w></rdg>

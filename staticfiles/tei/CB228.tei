@@ -1,5 +1,5 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
       <div type="drama">
@@ -16,13 +16,13 @@
             <pc resp="#editor">.</pc>
           </p>
           <div type="poem" met="7pp+6p/7pp+6p/7pp/7pp/7pp/7pp" rhyme="a+b/a+b/c/c/d/d">
-            <lg type="strophe" n="I">
+            <lg type="strophe" n="I" met="7pp+6p/7pp+6p/7pp/7pp/7pp/7pp" rhyme="a+b/a+b/c/c/d/d">
               <l n="1">
                 <seg type="hemistich">
                   <w>Ab</w>
                   <w>estatis</w>
                   <app type="text">
-                    <lem wit="HS V T">
+                    <lem wit="HSB V T">
                       <w>foribus</w>
                     </lem>
                     <rdg wit="cod."><w>floribus</w></rdg>
@@ -72,7 +72,7 @@
                 <pc resp="#editor">.</pc>
               </l>
             </lg>
-            <lg type="strophe" n="II">
+            <lg type="strophe" n="II" met="7pp+6p/7pp+6p/7pp/7pp/7pp/7pp" rhyme="a+b/a+b/c/c/d/d">
               <l n="1">
                 <seg type="hemistich">
                   <w>Omnium</w>
@@ -114,7 +114,7 @@
               <l n="5">
                 <w>regna</w>
                 <app type="text">
-                  <lem wit="HS V T">
+                  <lem wit="HSB V T">
                     <w>Iovis</w>
                   </lem>
                   <rdg wit="cod."><w>iuvis</w></rdg>
@@ -139,7 +139,7 @@
         </stage>
         <sp n="2">
           <div type="poem" met="8p+7p/8p+7p/8p+7p" rhyme="a/a/a">
-            <lg type="strophe" n="I">
+            <lg type="strophe" n="I" met="8p+7p/8p+7p/8p+7p" rhyme="a/a/a">
               <l n="1">
                 <seg type="hemistich">
                   <w>Ad</w>
@@ -182,7 +182,7 @@
                 </seg>
               </l>
             </lg>
-            <lg type="strophe" n="II">
+            <lg type="strophe" n="II" met="8p+7p/8p+7p/8p+7p" rhyme="a/a/a">
               <l n="1">
                 <seg type="hemistich">
                   <w>Quem</w>
@@ -223,7 +223,7 @@
                 </seg>
               </l>
             </lg>
-            <lg type="strophe" n="III">
+            <lg type="strophe" n="III" met="8p+7p/8p+7p/8p+7p" rhyme="a/a/a">
               <l n="1">
                 <seg type="hemistich">
                   <w>Ab</w>
@@ -231,7 +231,7 @@
                     <lem wit="cod. V">
                       <w>hiis</w>
                     </lem>
-                    <rdg wit="HS T"><w>his</w></rdg>
+                    <rdg wit="HSB T"><w>his</w></rdg>
                   </app>
                   <w>secte</w>
                   <w>multiformes</w>
@@ -272,7 +272,7 @@
             </lg>
           </div>
           <div type="poem" met="6pp+5p/6pp+5p" rhyme="a+b/a+b">
-            <lg type="strophe" n="I">
+            <lg type="strophe" n="I" met="6pp+5p/6pp+5p" rhyme="a+b/a+b">
               <l n="1">
                 <seg type="hemistich">
                   <w>Hec</w>
@@ -345,7 +345,7 @@
                 </seg>
               </l>
             </lg>
-            <lg type="strophe" n="II">
+            <lg type="strophe" n="II" met="6pp+5p/6pp+5p" rhyme="a+b/a+b">
               <l n="1">
                 <seg type="hemistich">
                   <w>Heccine</w>
@@ -353,7 +353,7 @@
                     <lem wit="cod. V">
                       <w>gaudia</w>
                     </lem>
-                    <rdg wit="HS T"><w>frivola</w></rdg>
+                    <rdg wit="HSB T"><w>frivola</w></rdg>
                   </app>
                 </seg>
                 <seg type="hemistich">
@@ -373,13 +373,13 @@
                 </seg>
               </l>
             </lg>
-            <lg type="refrain">
+            <lg type="refrain" met="6pp+5p/6pp+5p" rhyme="a+b/a+b">
               <l n="1">
                 <w>Dulcia</w>
                 <pc resp="#editor">...</pc>
               </l>
             </lg>
-            <lg type="strophe" n="III">
+            <lg type="strophe" n="III" met="6pp+5p/6pp+5p" rhyme="a+b/a+b">
               <l n="1">
                 <seg type="hemistich">
                   <w>Apta</w>
@@ -398,7 +398,7 @@
                       <w>hac</w>
                       <w>viciis</w>
                     </lem>
-                    <rdg wit="HS"><w>hac</w>...<w>vitiis</w></rdg>
+                    <rdg wit="HSB"><w>hac</w>...<w>vitiis</w></rdg>
                     <rdg wit="V"><w>hac</w><w>simul</w><w>vitiis</w></rdg>
                     <rdg wit="T"><w>hac</w><w>via</w><w>vitiis</w></rdg>
                   </app>
@@ -411,13 +411,13 @@
                 </seg>
               </l>
             </lg>
-            <lg type="refrain">
+            <lg type="refrain" met="6pp+5p/6pp+5p" rhyme="a+b/a+b">
               <l n="1">
                 <w>D[ulcia]</w>
                 <pc resp="#editor">...</pc>
               </l>
             </lg>
-            <lg type="strophe" n="IV">
+            <lg type="strophe" n="IV" met="6pp+5p/6pp+5p" rhyme="a+b/a+b">
               <l n="1">
                 <seg type="hemistich">
                   <w>Affectionibus</w>
@@ -441,13 +441,13 @@
                 </seg>
               </l>
             </lg>
-            <lg type="refrain">
+            <lg type="refrain" met="6pp+5p/6pp+5p" rhyme="a+b/a+b">
               <l n="1">
                 <w>D[ulcia]</w>
                 <pc resp="#editor">...</pc>
               </l>
             </lg>
-            <lg type="strophe" n="V">
+            <lg type="strophe" n="V" met="6pp+5p/6pp+5p" rhyme="a+b/a+b">
               <l n="1">
                 <seg type="hemistich">
                   <w>Ista</w>
@@ -472,13 +472,13 @@
                 </seg>
               </l>
             </lg>
-            <lg type="refrain">
+            <lg type="refrain" met="6pp+5p/6pp+5p" rhyme="a+b/a+b">
               <l n="1">
                 <w>D[ulcia]</w>
                 <pc resp="#editor">...</pc>
               </l>
             </lg>
-            <lg type="strophe" n="VI">
+            <lg type="strophe" n="VI" met="6pp+5p/6pp+5p" rhyme="a+b/a+b">
               <l n="1">
                 <seg type="hemistich">
                   <w>Ista</w>
@@ -502,7 +502,7 @@
                 </seg>
               </l>
             </lg>
-            <lg type="refrain">
+            <lg type="refrain" met="6pp+5p/6pp+5p" rhyme="a+b/a+b">
               <l n="1">
                 <w>D[ulcia]</w>
                 <pc resp="#editor">...</pc>
@@ -541,7 +541,7 @@
         </stage>
         <sp n="4">
           <div type="poem" met="8p/8p/7pp/8p/8p/7pp" rhyme="a/a/b/c/c/b">
-            <lg type="strophe" n="I">
+            <lg type="strophe" n="I" met="8p/8p/7pp/8p/8p/7pp" rhyme="a/a/b/c/c/b">
               <l n="1">
                 <w>Hoc</w>
                 <w>est</w>
@@ -586,11 +586,11 @@
                 <pc resp="#editor">.</pc>
               </l>
             </lg>
-            <lg type="strophe" n="II">
+            <lg type="strophe" n="II" met="8p/8p/7pp/8p/8p/7pp" rhyme="a/a/b/c/c/b">
               <l n="1">
                 <w>Honor</w>
                 <app type="text">
-                  <lem wit="HS T">
+                  <lem wit="HSB T">
                     <w>Iovi</w>
                   </lem>
                   <rdg wit="cod. V"><w>Iovis</w></rdg>
@@ -658,7 +658,7 @@
         </stage>
         <sp n="5">
           <div type="poem" met="8p/8p/8p/7pp/8p/8p/8p/7pp" rhyme="a/a/a/b/c/c/c/b">
-            <lg type="strophe">
+            <lg type="strophe" met="8p/8p/8p/7pp/8p/8p/8p/7pp" rhyme="a/a/a/b/c/c/c/b">
               <l n="1">
                 <w>Audi</w>
                 <pc resp="#editor">,</pc>
@@ -705,7 +705,7 @@
                   <lem wit="cod. V">
                     <w>dii</w>
                   </lem>
-                  <rdg wit="HS T"><w>di</w></rdg>
+                  <rdg wit="HSB T"><w>di</w></rdg>
                 </app>
                 <w>fugati</w>
                 <w>fugierunt</w>
@@ -730,7 +730,7 @@
         </stage>
         <sp n="6">
           <div type="poem" met="hex/hex" rhyme="?/?">
-            <lg type="strophe">
+            <lg type="strophe" met="hex/hex" rhyme="?/?">
               <l n="1">
                 <w>Scire</w>
                 <w>volo</w>
@@ -799,7 +799,7 @@
         </stage>
         <sp n="9">
           <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p/hex/hex" rhyme="a/a/a/a/b/b">
-            <lg type="strophe">
+            <lg type="strophe" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p/hex/hex" rhyme="a/a/a/a/b/b">
               <l n="1">
                 <seg type="hemistich">
                   <w>Nostrum</w>
@@ -952,7 +952,7 @@
         </stage>
         <sp n="13">
           <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a/a/a/a">
-            <lg type="strophe">
+            <lg type="strophe" met="7pp+6p/7pp+6p/7pp+6p/7pp+6p" rhyme="a/a/a/a">
               <l n="1">
                 <seg type="hemistich">
                   <w>Rex</w>
@@ -1054,7 +1054,7 @@
         </stage>
         <sp n="16">
           <div type="poem" met="7pp+6p/7pp+6p" rhyme="a/a">
-            <lg type="strophe">
+            <lg type="strophe" met="7pp+6p/7pp+6p" rhyme="a/a">
               <l n="1">
                 <seg type="hemistich">
                   <w>Ille</w>
@@ -1104,7 +1104,7 @@
         </stage>
         <sp n="17">
           <div type="poem" met="8pp+7p/8pp+7p" rhyme="a+b/a+b">
-            <lg type="strophe">
+            <lg type="strophe" met="8pp+7p/8pp+7p" rhyme="a+b/a+b">
               <l n="1">
                 <seg type="hemistich">
                   <w>Deorum</w>
@@ -1141,7 +1141,7 @@
         </stage>
         <sp n="18">
           <div type="poem" met="9pp+7p/9pp+7p" rhyme="a+b/a+b">
-            <lg type="strophe">
+            <lg type="strophe" met="9pp+7p/9pp+7p" rhyme="a+b/a+b">
               <l n="1">
                 <seg type="hemistich">
                   <w>Stulti</w>
@@ -1183,7 +1183,7 @@
         </stage>
         <sp n="19">
           <div type="poem" met="8pp+7p/8pp+7p" rhyme="a+b/a+b">
-            <lg type="strophe">
+            <lg type="strophe" met="8pp+7p/8pp+7p" rhyme="a+b/a+b">
               <l n="1">
                 <seg type="hemistich">
                   <w>Si</w>
@@ -1234,7 +1234,7 @@
         </stage>
         <sp n="21">
           <div type="poem" met="6pp+7p/6pp+7p" rhyme="a/a">
-            <lg type="strophe">
+            <lg type="strophe" met="6pp+7p/6pp+7p" rhyme="a/a">
               <l n="1">
                 <seg type="hemistich">
                   <w>Finxit</w>
@@ -1281,7 +1281,7 @@
         </stage>
         <sp n="23">
           <div type="poem" met="6pp+7p/6pp+7p" rhyme="a+b/a+b">
-            <lg type="strophe" n="I">
+            <lg type="strophe" n="I" met="6pp+7p/6pp+7p" rhyme="a+b/a+b">
               <l n="1">
                 <seg type="hemistich">
                   <w>Fraudis</w>
@@ -1308,7 +1308,7 @@
                 </seg>
               </l>
             </lg>
-            <lg type="strophe" n="II">
+            <lg type="strophe" n="II" met="6pp+7p/6pp+7p" rhyme="a+b/a+b">
               <l n="1">
                 <seg type="hemistich">
                   <w>sub</w>
@@ -1347,7 +1347,7 @@
         </stage>
         <sp n="24">
           <div type="poem" met="6pp+7p/6pp+7p" rhyme="a/a">
-            <lg type="strophe">
+            <lg type="strophe" met="6pp+7p/6pp+7p" rhyme="a/a">
               <l n="1">
                 <seg type="hemistich">
                   <w>Tibi</w>
@@ -1384,7 +1384,7 @@
         </stage>
         <sp n="25">
           <div type="poem" met="6p+7p/6p+7p" rhyme="a/a">
-            <lg type="strophe">
+            <lg type="strophe" met="6p+7p/6p+7p" rhyme="a/a">
               <l n="1">
                 <seg type="hemistich">
                   <w>Omnium</w>
@@ -1403,7 +1403,7 @@
                   <w>tibi</w>
                   <w>tota</w>
                   <app type="text">
-                    <lem wit="cod. HS T">
+                    <lem wit="cod. HSB T">
                       <w>mente</w>
                     </lem>
                     <rdg wit="V"><w>menteque</w></rdg>
@@ -1419,7 +1419,7 @@
             </lg>
           </div>
           <div type="poem" met="8pp+7p/8pp+7p" rhyme="a+b/a+b">
-            <lg type="strophe" n="I">
+            <lg type="strophe" n="I" met="8pp+7p/8pp+7p" rhyme="a+b/a+b">
               <l n="1">
                 <seg type="hemistich">
                   <w>Egiptus</w>
@@ -1449,7 +1449,7 @@
                 </seg>
               </l>
             </lg>
-            <lg type="strophe" n="II">
+            <lg type="strophe" n="II" met="8pp+7p/8pp+7p" rhyme="a+b/a+b">
               <l n="1">
                 <seg type="hemistich">
                   <w>Ve</w>
@@ -1481,7 +1481,7 @@
                 </seg>
               </l>
             </lg>
-            <lg type="strophe" n="III">
+            <lg type="strophe" n="III" met="8pp+7p/8pp+7p" rhyme="a+b/a+b">
               <l n="1">
                 <seg type="hemistich">
                   <w>Egipti</w>
@@ -1511,7 +1511,7 @@
                 </seg>
               </l>
             </lg>
-            <lg type="strophe" n="IV">
+            <lg type="strophe" n="IV" met="8pp+7p/8pp+7p" rhyme="a+b/a+b">
               <l n="1">
                 <seg type="hemistich">
                   <w>Intende</w>
@@ -1531,7 +1531,7 @@
               <l n="2">
                 <seg type="hemistich">
                   <app type="text">
-                    <lem wit="HS V T">
+                    <lem wit="HSB V T">
                       <w>cum</w>
                       <w>roderis</w>
                     </lem>
@@ -1548,7 +1548,7 @@
                 </seg>
               </l>
             </lg>
-            <lg type="strophe" n="V">
+            <lg type="strophe" n="V" met="8pp+7p/8pp+7p" rhyme="a+b/a+b">
               <l n="1">
                 <seg type="hemistich">
                   <w>Ingrata</w>

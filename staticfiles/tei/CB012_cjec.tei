@@ -1,9 +1,9 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="[6pp]+6pp/6pp/6pp+6pp" rhyme="a+b/b/a+b">
-        <lg type="strophe">
+      <div type="poem" met="[6pp]+6pp/6pp/6pp+6pp">
+        <lg type="strophe" met="[6pp]+6pp/6pp/6pp+6pp" rhyme="a+b/b/a+b">
           <l n="4">
             <seg type="hemistich">
               <w>[...]trarium</w>
@@ -24,17 +24,11 @@
             <seg type="hemistich">
               <w>in</w>
               <w>hoc</w>
-              <app type="text">
-                <lem wit="cod."><w>adiutorium</w></lem>
-                <rdg wit="CB F M Ma HS V T"><w>amantium</w></rdg>
-              </app>
+              <w>adiutorium</w>
             </seg>
             <seg type="hemistich">
               <w>felix</w>
-              <app type="text">
-                <lem wit="cod."><w>audicio</w></lem>
-                <rdg wit="CB F M Ma HS V T"><w>conditio</w></rdg>
-              </app>
+              <w>audicio</w>
               <pc resp="#editor">!</pc>
             </seg>
           </l>

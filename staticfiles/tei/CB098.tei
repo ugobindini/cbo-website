@@ -1,51 +1,51 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="leich">
+      <div type="poem" met="I:9x7pp, II:6x8pp/2x(8pp/10pp), III:4x(3pp+3pp/7pp), IV:4x8pp, V:2x(4p+5p)/5pp+4pp+4pp/2x10pp/5pp+3pp/3pp+4pp/7pp/7p/8pp, VI:4x7p/2x8pp, VII:2x7p/2x8pp/2x7p, VIII:8x7pp, IX:2x10pp/2x8pp">
         <lg type="strophe" n="I" met="7pp/7pp/7pp/7pp/7pp/7pp/7pp/7pp/7pp" rhyme="a/a/b/c/c/b/d/d/b">
           <l n="1">
             <w>
               <seg type="syll" part="I">Tro<notatedMusic>
-                <neume fontname="buranus" glyph.num="32" label="pe)" />
+                <neume fontname="buranus" glyph.num="33" label="pe)"/>
               </notatedMusic>
               </seg>
               <seg type="syll" part="M">i<notatedMusic>
-                <neume fontname="buranus" glyph.num="1" label="pu" />
+                <neume fontname="buranus" glyph.num="1" label="pu"/>
               </notatedMusic>
               </seg>
               <seg type="syll" part="F">e<notatedMusic>
-                <neume fontname="buranus" glyph.num="7" label="vi" />
+                <neume fontname="buranus" glyph.num="7" label="vi"/>
               </notatedMusic>
               </seg>
             </w>
             <w>
               <seg type="syll">post<notatedMusic>
-                <neume fontname="buranus" glyph.num="7" label="vi" />
+                <neume fontname="buranus" glyph.num="7" label="vi"/>
               </notatedMusic>
               </seg>
             </w>
             <w>
               <seg type="syll" part="I">ex<notatedMusic>
-                <neume fontname="buranus" glyph.num="7" label="vi" />
+                <neume fontname="buranus" glyph.num="7" label="vi"/>
               </notatedMusic>
               </seg>
               <seg type="syll" part="M">ci<notatedMusic>
-                <neume fontname="buranus" glyph.num="7" label="vi" />
-                <neume fontname="buranus" glyph.num="130" label="ci" />
-                <neume fontname="buranus" glyph.num="101" label="ql" />
-                <neume fontname="buranus" glyph.num="33" label="pesu2" />
-                <neume fontname="buranus" glyph.num="39" label="pesu3!st" />
+                <neume fontname="buranus" glyph.num="7" label="vi"/>
+                <neume fontname="buranus" glyph.num="134" label="ci"/>
+                <neume fontname="buranus" glyph.num="105" label="ql"/>
+                <neume fontname="buranus" glyph.num="34" label="pesu2"/>
+                <neume fontname="buranus" glyph.num="40" label="pesu3!st"/>
               </notatedMusic>
               </seg>
               <seg type="syll" part="M">di<notatedMusic>
-                <neume fontname="buranus" glyph.num="130" label="ci" />
-                <neume fontname="buranus" glyph.num="33" label="pesu2" />
-                <neume fontname="buranus" glyph.num="112" label="ql!po" />
+                <neume fontname="buranus" glyph.num="134" label="ci"/>
+                <neume fontname="buranus" glyph.num="34" label="pesu2"/>
+                <neume fontname="buranus" glyph.num="116" label="ql!po"/>
               </notatedMusic>
               </seg>
               <seg type="syll" part="F">um<notatedMusic>
-                <neume fontname="buranus" glyph.num="49" label="cl" />
+                <neume fontname="buranus" glyph.num="51" label="cl"/>
               </notatedMusic>
               </seg>
             </w>
@@ -53,7 +53,7 @@
           <l n="2">
             <w>
               <seg type="syll">dux<notatedMusic>
-                <neume fontname="buranus" glyph.num="45" label="pe!po" />
+                <neume fontname="buranus" glyph.num="47" label="pe!po"/>
               </notatedMusic>
               </seg>
             </w>
@@ -167,7 +167,7 @@
           </l>
           <l n="8">
             <app type="text">
-              <lem wit="HS V Daub T">
+              <lem wit="HSB V Daub T">
                 <w>
                   <seg type="syll" part="I">hos</seg>
                   <seg type="syll" part="M">pi</seg>
@@ -187,7 +187,7 @@
           </l>
           <l n="9">
             <app type="text">
-              <lem wit="HS T">
+              <lem wit="HSB T">
                 <w>
                   <seg type="syll" part="I">a</seg>
                   <seg type="syll" part="M">li</seg>
@@ -275,7 +275,7 @@
               <seg type="syll" part="F">do</seg>
             </w>
             <app type="text">
-              <lem wit="cod. HS V T">
+              <lem wit="cod. HSB V T">
                 <w>
                   <seg type="syll" part="I">su</seg>
                   <seg type="syll" part="M">sce</seg>
@@ -393,7 +393,7 @@
                   <seg type="syll">fit</seg>
                 </w>
               </lem>
-              <rdg wit="HS V T"><w>crispata</w><w>sit</w></rdg>
+              <rdg wit="HSB V T"><w>crispata</w><w>sit</w></rdg>
               <rdg wit="Daub"><w>crispa</w></rdg>
             </app>
             <w>
@@ -424,7 +424,7 @@
           </l>
           <l n="10">
             <app type="text">
-              <lem wit="cod. HS V T">
+              <lem wit="cod. HSB V T">
                 <w>
                   <seg type="syll" part="I">e</seg>
                   <seg type="syll" part="M">i</seg>
@@ -465,7 +465,7 @@
                     <seg type="syll">dux</seg>
                   </w>
                 </lem>
-                <rdg wit="HS"><w>lux</w></rdg>
+                <rdg wit="HSB"><w>lux</w></rdg>
               </app>
               <pc resp="#editor">,</pc>
             </seg>
@@ -480,7 +480,7 @@
                     <seg type="syll">lux</seg>
                   </w>
                 </lem>
-                <rdg wit="HS"><w>dux</w></rdg>
+                <rdg wit="HSB"><w>dux</w></rdg>
               </app>
               <pc resp="#editor">,</pc>
             </seg>
@@ -531,7 +531,7 @@
               <seg type="syll" part="F">tu</seg>
             </w>
             <app type="text">
-              <lem wit="HS V T">
+              <lem wit="HSB V T">
                 <w>
                   <seg type="syll">vix</seg>
                 </w>
@@ -556,7 +556,7 @@
                     <seg type="syll">Ut</seg>
                   </w>
                 </lem>
-                <rdg wit="HS V T"><w>At</w></rdg>
+                <rdg wit="HSB V T"><w>At</w></rdg>
                 <rdg wit="Daub"><w>Et</w></rdg>
               </app>
               <w>
@@ -567,7 +567,7 @@
             </seg>
             <seg type="hemistich">
               <app type="text">
-                <lem wit="HS V Daub T">
+                <lem wit="HSB V Daub T">
                   <w>
                     <seg type="syll" part="I">ve</seg>
                     <seg type="syll" part="M">re</seg>
@@ -587,7 +587,7 @@
               <seg type="syll" part="F">tra</seg>
             </w>
             <app type="text">
-              <lem wit="HS V Daub T">
+              <lem wit="HSB V Daub T">
                 <w>
                   <seg type="syll" part="I">co</seg>
                   <seg type="syll" part="M">nu</seg>
@@ -625,7 +625,7 @@
               <seg type="syll" part="F">dunt</seg>
             </w>
             <app type="text">
-              <lem wit="HS Daub T">
+              <lem wit="HSB Daub T">
                 <w>
                   <seg type="syll" part="I">in</seg>
                   <seg type="syll" part="M">somp</seg>
@@ -789,7 +789,7 @@
                     <seg type="syll" part="F">i</seg>
                   </w>
                 </lem>
-                <rdg wit="cod. HS V"><w>pacti</w><w>rei</w></rdg>
+                <rdg wit="cod. HSB V"><w>pacti</w><w>rei</w></rdg>
                 <rdg wit="Daub"><w>pactis</w><w>ei</w></rdg>
               </app>
               <pc>&#183;</pc>
@@ -809,7 +809,7 @@
                     <seg type="syll" part="F">rem</seg>
                   </w>
                 </lem>
-                <rdg wit="cod. HS"><w>retraherem</w></rdg>
+                <rdg wit="cod. HSB"><w>retraherem</w></rdg>
                 <rdg wit="Daub"><w>detraherer</w></rdg>
               </app>
               <pc resp="#editor">,</pc>
@@ -819,7 +819,7 @@
                 <seg type="syll">non</seg>
               </w>
               <app type="text">
-                <lem wit="cod. HS V T">
+                <lem wit="cod. HSB V T">
                   <w>
                     <seg type="syll" part="I">co</seg>
                     <seg type="syll" part="M">ge</seg>
@@ -836,7 +836,7 @@
                 <seg type="syll">non</seg>
               </w>
               <app type="text">
-                <lem wit="cod. HS V T">
+                <lem wit="cod. HSB V T">
                   <w>
                     <seg type="syll" part="I">le</seg>
                     <seg type="syll" part="M">de</seg>
@@ -865,7 +865,7 @@
               <seg type="syll" part="F">san</seg>
             </w>
             <app type="text">
-              <lem wit="HS V Daub T">
+              <lem wit="HSB V Daub T">
                 <w>
                   <seg type="syll" part="I">sub</seg>
                   <seg type="syll" part="M">de</seg>
@@ -901,7 +901,7 @@
           <l n="6">
             <seg type="hemistich">
               <app type="text">
-                <lem wit="HS V Daub T">
+                <lem wit="HSB V Daub T">
                   <w>
                     <seg type="syll" part="I">ve</seg>
                     <seg type="syll" part="F">lit</seg>
@@ -928,7 +928,7 @@
           <l n="7">
             <seg type="hemistich">
               <app type="text">
-                <lem wit="HS Daub T">
+                <lem wit="HSB Daub T">
                   <w>
                     <seg type="syll" part="I">ful</seg>
                     <seg type="syll" part="M">mi</seg>
@@ -944,7 +944,7 @@
                 <seg type="syll">de</seg>
               </w>
               <app type="text">
-                <lem wit="HS Daub T">
+                <lem wit="HSB Daub T">
                   <w>
                     <seg type="syll" part="I">cul</seg>
                     <seg type="syll" part="M">mi</seg>
@@ -957,7 +957,7 @@
           </l>
           <l n="8">
             <app type="text">
-              <lem wit="HS V Daub T">
+              <lem wit="HSB V Daub T">
                 <w>
                   <seg type="syll" part="I">de</seg>
                   <seg type="syll" part="M">iec</seg>
@@ -997,7 +997,7 @@
           </l>
           <l n="10">
             <app type="text">
-              <lem wit="HS V Daub T">
+              <lem wit="HSB V Daub T">
                 <w>
                   <seg type="syll" part="I">Di</seg>
                   <seg type="syll" part="F">do</seg>
@@ -1038,7 +1038,7 @@
             <pc resp="#editor">:</pc>
             <pc resp="#editor" pre="true">&#171;</pc>
             <app type="text">
-              <lem wit="HS Daub T">
+              <lem wit="HSB Daub T">
                 <w>
                   <seg type="syll" part="I">As</seg>
                   <seg type="syll" part="M">sis</seg>
@@ -1080,7 +1080,7 @@
             </w>
             <pc resp="#editor">!</pc>
             <app type="text">
-              <lem wit="HS V Daub T">
+              <lem wit="HSB V Daub T">
                 <w>
                   <seg type="syll">Si</seg>
                 </w>
@@ -1112,7 +1112,7 @@
                   <seg type="syll">te</seg>
                 </w>
               </lem>
-              <rdg wit="cod. HS V T"><w>suisque</w></rdg>
+              <rdg wit="cod. HSB V T"><w>suisque</w></rdg>
             </app>
           </l>
           <l n="5">
@@ -1127,7 +1127,7 @@
                   <seg type="syll">vir</seg>
                 </w>
               </lem>
-              <rdg wit="HS T"><w>te</w></rdg>
+              <rdg wit="HSB T"><w>te</w></rdg>
               <note>om. cod. V</note>
             </app>
             <w>
@@ -1176,7 +1176,7 @@
           </l>
           <l n="2">
             <app type="text">
-              <lem wit="HS V Daub T">
+              <lem wit="HSB V Daub T">
                 <w>
                   <seg type="syll">in</seg>
                 </w>
@@ -1213,7 +1213,7 @@
           </l>
           <l n="4">
             <app type="text">
-              <lem wit="HS">
+              <lem wit="HSB">
                 <w>
                   <seg type="syll" part="I">ef</seg>
                   <seg type="syll" part="M">fu</seg>
@@ -1239,7 +1239,7 @@
               <seg type="syll" part="F">tro</seg>
             </w>
             <app type="text">
-              <lem wit="HS V Daub T">
+              <lem wit="HSB V Daub T">
                 <w>
                   <seg type="syll">cum</seg>
                 </w>
@@ -1294,7 +1294,7 @@
               <seg type="syll">dux</seg>
             </w>
             <app type="text">
-              <lem wit="HS V Daub T">
+              <lem wit="HSB V Daub T">
                 <w>
                   <seg type="syll" part="I">ex</seg>
                   <seg type="syll" part="M">po</seg>
@@ -1342,7 +1342,7 @@
                   <seg type="syll">et</seg>
                 </w>
               </lem>
-              <rdg wit="HS T"><w>sed</w></rdg>
+              <rdg wit="HSB T"><w>sed</w></rdg>
             </app>
             <w>
               <seg type="syll" part="I">quam</seg>
@@ -1435,7 +1435,7 @@
                 </w>
               </lem>
               <rdg wit="cod."><w>letare</w><w>splenduit</w> corr. ex <w>leta</w><w>resplenduit</w> ut vid. man. r.</rdg>
-              <rdg wit="HS V Daub T"><w>leta</w><w>resplenduit</w></rdg>
+              <rdg wit="HSB V Daub T"><w>leta</w><w>resplenduit</w></rdg>
             </app>
             <app type="text">
               <lem>
@@ -1449,7 +1449,7 @@
               <note>corr. ex <w>ethere</w> cod.</note>
             </app>
             <app type="text">
-              <lem wit="HS Daub T">
+              <lem wit="HSB Daub T">
                 <w>
                   <seg type="syll" part="I">re</seg>
                   <seg type="syll" part="M">gi</seg>

@@ -1,9 +1,9 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/5pp/7pp+6p" rhyme="a/a/a/b/b+a">
-        <lg type="strophe" n="I">
+      <div type="poem" met="I-V:3x(7pp+6p)/5pp/7pp+6p" rhyme="a/a/a/b/b+a">
+        <lg type="strophe" n="I" met="7pp+6p/7pp+6p/7pp+6p/5pp/7pp+6p" rhyme="a/a/a/b/b+a">
           <l n="1">
             <seg type="hemistich">
               <w>Fas</w>
@@ -12,14 +12,8 @@
               <w>ambulant</w>
             </seg>
             <seg type="hemistich">
-              <app type="text">
-                <lem wit="cod. Tc">
-                  <w>fere</w>
-                  <w>passu</w>
-                </lem>
-                <rdg wit="V"><w>passu</w><w>fere</w></rdg>
-                <rdg wit="HS T"><w>pene</w><w>passu</w></rdg>
-              </app>
+              <w>fere</w>
+              <w>passu</w>
               <w>pari</w>
               <pc>&#183;</pc>
               <pc resp="#editor">,</pc>
@@ -66,7 +60,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="II">
+        <lg type="strophe" n="II" met="7pp+6p/7pp+6p/7pp+6p/5pp/7pp+6p" rhyme="a/a/a/b/b+a">
           <l n="1">
             <seg type="hemistich">
               <w>Si</w>
@@ -111,21 +105,13 @@
             </seg>
           </l>
           <l n="4">
-            <app type="text">
-              <lem wit="cod. HS Tc T"><w>supra</w></lem>
-              <rdg wit="V"><w>inter</w></rdg>
-            </app>
+            <w>supra</w>
             <w>cetera</w>
           </l>
           <l n="5">
             <seg type="hemistich">
-              <app type="text">
-                <lem wit="HS Tc T">
-                  <w>primum</w>
-                  <w>hoc</w>
-                </lem>
-                <rdg wit="V"><w>hoc</w><w>primum</w></rdg>
-              </app>
+              <w>primum</w>
+              <w>hoc</w>
               <w>considera</w>
             </seg>
             <seg type="hemistich">
@@ -138,7 +124,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="III">
+        <lg type="strophe" n="III" met="7pp+6p/7pp+6p/7pp+6p/5pp/7pp+6p" rhyme="a/a/a/b/b+a">
           <l n="1">
             <seg type="hemistich">
               <w>Vultu</w>
@@ -203,7 +189,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="IV">
+        <lg type="strophe" n="IV" met="7pp+6p/7pp+6p/7pp+6p/5pp/7pp+6p" rhyme="a/a/a/b/b+a">
           <l n="1">
             <seg type="hemistich">
               <w>Dare</w>
@@ -228,13 +214,8 @@
               <w>quid</w>
             </seg>
             <seg type="hemistich">
-              <app type="text">
-                <lem wit="cod. HS Tc T">
-                  <w>sed</w>
-                  <w>non</w>
-                </lem>
-                <rdg wit="V"><w>et</w><w>non</w></rdg>
-              </app>
+              <w>sed</w>
+              <w>non</w>
               <w>absolute</w>
               <pc>&#183;</pc>
               <pc resp="#editor">.</pc>
@@ -256,7 +237,7 @@
           </l>
           <l n="4" met="7pp" rhyme="c">
             <app type="text">
-              <lem wit="HS V Tc T">
+              <lem wit="CB Cc Ly HSB V Tc T">
                 <w>famam</w>
                 <w>muneris</w>
               </lem>
@@ -268,10 +249,7 @@
           <l n="5">
             <seg type="hemistich">
               <w>si</w>
-              <app type="text">
-                <lem wit="cod. HS Tc T"><w>me</w></lem>
-                <rdg wit="V"><w>te</w></rdg>
-              </app>
+              <w>me</w>
               <w>prius</w>
               <w>noveris</w>
             </seg>
@@ -285,7 +263,7 @@
             </seg>
           </l>
         </lg>
-        <lg type="strophe" n="V">
+        <lg type="strophe" n="V" met="7pp+6p/7pp+6p/7pp+6p/5pp/7pp+6p" rhyme="a/a/a/b/b+a">
           <l n="1">
             <seg type="hemistich">
               <w>Si</w>
@@ -311,10 +289,7 @@
               <w>sed</w>
               <w>caveto</w>
               <pc resp="#editor">,</pc>
-              <app type="text">
-                <lem wit="cod. T"><w>cum</w></lem>
-                <rdg wit="HS V Tc"><w>dum</w></rdg>
-              </app>
+              <w>cum</w>
               <w>das</w>
               <pc resp="#editor">,</pc>
             </seg>
@@ -327,8 +302,8 @@
             <seg type="hemistich">
               <w>male</w>
               <app type="text">
-                <lem wit="HS V Tc T"><w>non</w></lem>
-                <lem wit="cod."><w>ne</w></lem>
+                <lem wit="CB Ly HSB V Tc T"><w>non</w></lem>
+                <rdg wit="cod."><w>ne</w></rdg>
               </app>
               <w>effundas</w>
               <pc>&#183;</pc>
@@ -338,7 +313,7 @@
           <l n="4" met="4pp">
             <w>In</w>
             <app type="text">
-              <lem><w>te</w></lem>
+              <lem wit="CB Ly HSB V Tc T"><w>te</w></lem>
               <note>om. cod.</note>
             </app>
             <w>glorior</w>
@@ -346,10 +321,7 @@
           </l>
           <l n="5">
             <seg type="hemistich">
-              <app type="text">
-                <lem wit="cod. V Tc T"><w>quia</w></lem>
-                <rdg wit="HS"><w>cum</w><w>sim</w></rdg>
-              </app>
+              <w>quia</w>
               <w>Codro</w>
               <w>Codrior</w>
             </seg>

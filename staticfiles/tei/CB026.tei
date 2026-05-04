@@ -1,8 +1,8 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem">
+      <div type="poem" met="I: 13x8pp, II:8pp/4pp+4pp/8pp/2x7p/4p+4p/8pp/4pp/2x8pp/7p, III:8pp/4pp/8p/6p/4pp/3x8pp, IV:5x8pp">
         <lg type="strophe" n="I" met="8pp/8pp/8pp/8pp/8pp/8pp/8pp/8pp/8pp/8pp/8pp/8pp/8pp" rhyme="a/a/a/b/b/c/c/d/d/e/f/f/e">
           <l n="1">
             <w>
@@ -236,7 +236,7 @@
             <pc resp="#editor">!</pc>
           </l>
         </lg>
-        <lg type="strophe" n="II" met="8pp/4pp+4pp/8pp/7p/7p/4p+4p/8pp/4pp/8pp/8pp/7p" rhyme="a/a+a/a/b/b/c+c/d/d/e/e/b/">
+        <lg type="strophe" n="II" met="8pp/4pp+4pp/8pp/7p/7p/4p+4p/8pp/4pp/8pp/8pp/7p" rhyme="a/a+a/a/b/b/c+c/d/d/e/e/b">
           <l n="1">
             <w>
               <seg type="syll">O</seg>
@@ -373,11 +373,18 @@
             <w>
               <seg type="syll">Et</seg>
             </w>
-            <w>
-              <seg type="syll" part="I">in</seg>
-              <seg type="syll" part="M">vi</seg>
-              <seg type="syll" part="F">ta</seg>
-            </w>
+            <app type="text">
+              <lem wit="Bu F Rss HSB T">
+                <w>
+                  <seg type="syll" part="I">in</seg>
+                  <seg type="syll" part="M">vi</seg>
+                  <seg type="syll" part="F">ta</seg>
+                </w>
+              </lem>
+              <rdg wit="cod. Br"><w>invicta</w></rdg>
+              <rdg wit="Da"><w>in</w><w>vita</w></rdg>
+              <rdg wit="V"><w>inficta</w></rdg>
+            </app>
           </l>
           <l n="11">
             <w>

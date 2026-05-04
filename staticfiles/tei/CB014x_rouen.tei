@@ -1,8 +1,8 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="sequence">
+      <div type="sequence" met="1:2x7pp/6p, 2:4x7pp, 3:2x(3p+3p/5p), 4:4x7pp, 5:6pp/5p/3p+3p/5p, 6:2x(7pp+6p), 7:4x5p, 8-9:5x7pp, 10:2x(7pp+6p), 11-12:4x7pp, 13:4x7pp/6p, 14:4x7pp">
         <lg type="versicle" n="1a" met="7pp/7pp/6p" rhyme="a/a/b">
           <l n="1">
             <w>Planctus</w>
@@ -273,47 +273,55 @@
             <pc resp="#editor">.</pc>
           </l>
         </lg>
-        <lg type="versicle" n="6a" met="7pp/6p/7pp/6p" rhyme="a/b/a/b">
+        <lg type="versicle" n="6a" met="7pp+6p/7pp+6p" rhyme="a+b/a+b">
           <l n="1">
-            <w>O</w>
+            <seg type="hemistich">
+              <w>O</w>
             <w>verum</w>
             <w>eloquium</w>
+            </seg>
+            <seg type="hemistich">
+              <w>iusti</w>
+            <w>Symeonis</w>
+            </seg>
           </l>
           <l n="2">
-            <w>iusti</w>
-            <w>Symeonis</w>
-          </l>
-          <l n="3">
-            <w>quem</w>
+            <seg type="hemistich">
+              <w>quem</w>
             <w>promisit</w>
             <pc resp="#editor">,</pc>
             <w>gladium</w>
-          </l>
-          <l n="4">
-            <w>sentio</w>
+            </seg>
+            <seg type="hemistich">
+              <w>sentio</w>
             <w>doloris</w>
             <pc resp="#editor">.</pc>
+            </seg>
           </l>
         </lg>
-        <lg type="versicle" n="6b" met="7pp/6p/7pp/6p" rhyme="c/b/c/b">
+        <lg type="versicle" n="6b" met="7pp+6p/7pp+6p" rhyme="c+b/c+b">
           <l n="1">
-            <w>Gemitus</w>
+            <seg type="hemistich">
+              <w>Gemitus</w>
             <pc resp="#editor">,</pc>
             <w>suspiria</w>
             <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>lacrimeque</w>
+            <w>foris</w>
+            </seg>
           </l>
           <l n="2">
-            <w>lacrimeque</w>
-            <w>foris</w>
-          </l>
-          <l n="3">
-            <w>vulneris</w>
+            <seg type="hemistich">
+              <w>vulneris</w>
             <w>indicia</w>
-          </l>
-          <l n="4">
-            <w>sunt</w>
+            </seg>
+            <seg type="hemistich">
+              <w>sunt</w>
             <w>interioris</w>
             <pc resp="#editor">.</pc>
+            </seg>
           </l>
         </lg>
         <lg type="versicle" n="7a" met="5p/5p/5p/5p" rhyme="a/a/a/b">

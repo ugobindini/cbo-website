@@ -1,0 +1,47 @@
+<TEI>
+  <teiHeader/>
+  <text>
+    <body>
+      <div type="sequence" met="1:2x7pp/6p">
+        <lg type="versicle" n="1a" met="7pp/7pp/6p" rhyme="a/a/b">
+          <l n="1">
+            <w>Planctus</w>
+            <w>ante</w>
+            <w>nescia</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>planctu</w>
+            <w>lassor</w>
+            <w>anxia</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>crucior</w>
+            <w>dolore</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+        <lg type="versicle" n="1b" met="7pp/7pp/6p" rhyme="c/c/b">
+          <l n="1">
+            <w>Orbat</w>
+            <w>orbem</w>
+            <w>radio</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="2">
+            <w>me</w>
+            <w>Iudea</w>
+            <w>filio</w>
+            <pc resp="#editor">,</pc>
+          </l>
+          <l n="3">
+            <w>gaudio</w>
+            <w>dulcore</w>
+            <pc resp="#editor">.</pc>
+          </l>
+        </lg>
+      </div>
+    </body>
+  </text>
+</TEI>

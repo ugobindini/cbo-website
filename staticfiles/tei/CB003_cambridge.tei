@@ -1,46 +1,52 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="7pp/6p/7pp/6p/7pp/6p" rhyme="a/b/a/b/a/b">
-        <lg type="strophe" n="I">
+      <div type="poem" met="I-IV:3x(7pp+6p), Ref.: 6p/7pp+6p">
+        <lg type="strophe" n="I" met="7pp+6p/7pp+6p/7pp+6p" rhyme="a+b/a+b/a+b">
           <l n="1">
-            <w>Ecce</w>
-            <w>torpet</w>
-            <w>probitas</w>
-            <pc resp="#editor">,</pc>
+            <seg type="hemistich">
+              <w>Ecce</w>
+              <w>torpet</w>
+              <w>probitas</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>virtus</w>
+              <w>sepelitur</w>
+              <pc resp="#editor">;</pc>
+            </seg>
           </l>
           <l n="2">
-            <w>virtus</w>
-            <w>sepelitur</w>
-            <pc resp="#editor">;</pc>
+            <seg type="hemistich">
+              <w>fit</w>
+              <w>iam</w>
+              <w>parca</w>
+              <w>largitas</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>parcitas</w>
+              <w>largitur</w>
+              <pc resp="#editor">;</pc>
+            </seg>
           </l>
           <l n="3">
-            <w>fit</w>
-            <w>iam</w>
-            <w>parca</w>
-            <w>largitas</w>
-            <pc resp="#editor">,</pc>
-          </l>
-          <l n="4">
-            <w>parcitas</w>
-            <w>largitur</w>
-            <pc resp="#editor">;</pc>
-          </l>
-          <l n="5">
-            <w>verum</w>
-            <w>dicit</w>
-            <w>falsitas</w>
-            <pc resp="#editor">,</pc>
-          </l>
-          <l n="6">
-            <w>veritas</w>
-            <w>mentitur</w>
-            <pc>&#183;</pc>
-            <pc resp="#editor">.</pc>
+            <seg type="hemistich">
+              <w>verum</w>
+              <w>dicit</w>
+              <w>falsitas</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>veritas</w>
+              <w>mentitur</w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
           </l>
         </lg>
-        <lg type="refrain" met="6p/7pp/6p" rhyme="A/b/A">
+        <lg type="refrain" met="6p/7pp+6p" rhyme="A/b+A">
           <head>[Refl.]</head>
           <l n="1">
             <w>Omnes</w>
@@ -53,72 +59,69 @@
             <w>ledunt</w>
           </l>
           <l n="2">
-            <w>et</w>
-            <w>ad</w>
-            <w>res</w>
-            <w>illicitas</w>
-          </l>
-          <l n="3">
-            <app type="text">
-              <lem wit="cod.">
-                <w>liciter</w>
-              </lem>
-              <rdg wit="HS V Tc T"><w>licite</w></rdg>
-            </app>
-            <app type="text">
-              <lem wit="cod.">
-                <w>accedunt</w>
-              </lem>
-              <rdg wit="HS Tc T"><w>recedunt</w></rdg>
-              <rdg wit="V"><w>procedunt</w></rdg>
-            </app>
-            <pc>&#183;</pc>
-            <pc resp="#editor">.</pc>
+            <seg type="hemistich">
+              <w>et</w>
+              <w>ad</w>
+              <w>res</w>
+              <w>illicitas</w>
+            </seg>
+            <seg type="hemistich">
+              <w>liciter</w>
+              <w>accedunt</w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
           </l>
         </lg>
-        <lg type="strophe" n="II">
+        <lg type="strophe" n="II" met="7pp+6p/7pp+6p/7pp+6p" rhyme="a+b/a+b/a+b">
           <l n="1">
-            <w>Regnat</w>
-            <w>avaricia</w>
-            <pc resp="#editor">,</pc>
+            <seg type="hemistich">
+              <w>Regnat</w>
+              <w>avaricia</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>regnant</w>
+              <w>et</w>
+              <app type="text">
+                <lem>
+                  <w>avari</w>
+                </lem>
+                <note>corr. ex <w>avaria</w> cod.</note>
+              </app>
+              <pc resp="#editor">;</pc>
+            </seg>
           </l>
           <l n="2">
-            <w>regnant</w>
-            <w>et</w>
-            <app type="text">
-              <lem>
-                <w>avari</w>
-              </lem>
-              <note>corr. ex <w>avaria</w> cod.</note>
-            </app>
-            <pc resp="#editor">;</pc>
+            <seg type="hemistich">
+              <w>mente</w>
+              <w>quivis</w>
+              <app type="text">
+                <lem wit="CB O Om HSB V Tc T">
+                  <w>anxia</w>
+                </lem>
+                <rdg wit="cod."><w>noxia</w></rdg>
+              </app>
+            </seg>
+            <seg type="hemistich">
+              <w>nititur</w>
+              <w>ditari</w>
+              <pc resp="#editor">,</pc>
+            </seg>
           </l>
           <l n="3">
-            <w>mente</w>
-            <w>quivis</w>
-            <app type="text">
-              <lem wit="HS V Tc T">
-                <w>anxia</w>
-              </lem>
-              <rdg wit="cod."><w>noxia</w></rdg>
-            </app>
-          </l>
-          <l n="4">
-            <w>nititur</w>
-            <w>ditari</w>
-            <pc resp="#editor">,</pc>
-          </l>
-          <l n="5">
-            <w>cum</w>
-            <w>sit</w>
-            <w>summa</w>
-            <w>gloria</w>
-          </l>
-          <l n="6">
-            <w>censu</w>
-            <w>gloriari</w>
-            <pc>&#183;</pc>
-            <pc resp="#editor">.</pc>
+            <seg type="hemistich">
+              <w>cum</w>
+              <w>sit</w>
+              <w>summa</w>
+              <w>gloria</w>
+            </seg>
+            <seg type="hemistich">
+              <w>censu</w>
+              <w>gloriari</w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
           </l>
         </lg>
         <lg type="refrain" met="[6p]" rhyme="A">
@@ -129,51 +132,47 @@
             <pc resp="#editor">...</pc>
           </l>
         </lg>
-        <lg type="strophe" n="III">
+        <lg type="strophe" n="III" met="7pp+6p/7pp+6p/7pp+6p" rhyme="a+b/a+b/a+b">
           <l n="1">
-            <w>Multum</w>
-            <w>habet</w>
-            <w>oneris</w>
+            <seg type="hemistich">
+              <w>Multum</w>
+              <w>habet</w>
+              <w>oneris</w>
+            </seg>
+            <seg type="hemistich">
+              <pc resp="#editor" pre="true">&#8216;</pc>
+              <w>do</w>
+              <w>das</w>
+              <w>dedi</w>
+              <w>dare</w>
+              <pc resp="#editor">&#8217;;</pc>
+            </seg>
           </l>
           <l n="2">
-            <pc resp="#editor" pre="true">&#8216;</pc>
-            <w>do</w>
-            <w>das</w>
-            <w>dedi</w>
-            <w>dare</w>
-            <pc resp="#editor">&#8217;;</pc>
+            <seg type="hemistich">
+              <w>verbum</w>
+              <w>hoc</w>
+              <w>pre</w>
+              <w>ceteris</w>
+            </seg>
+            <seg type="hemistich">
+              <w>volunt</w>
+              <w>ignorare</w>
+            </seg>
           </l>
           <l n="3">
-            <app type="text">
-              <lem wit="cod. V">
-                <w>hoc</w>
-                <w>verbum</w>
-              </lem>
-              <rdg wit="HS Tc T"><w>verbum</w><w>hoc</w></rdg>
-            </app>
-            <w>pre</w>
-            <w>ceteris</w>
-          </l>
-          <l n="4">
-            <app type="text">
-              <lem wit="cod.">
-                <w>volunt</w>
-              </lem>
-              <rdg wit="HS V Tc T"><w>norunt</w></rdg>
-            </app>
-            <w>ignorare</w>
-          </l>
-          <l n="5">
-            <w>divites</w>
-            <pc resp="#editor">,</pc>
-            <w>quos</w>
-            <w>poteris</w>
-          </l>
-          <l n="6">
-            <w>mari</w>
-            <w>comparare</w>
-            <pc>&#183;</pc>
-            <pc resp="#editor">.</pc>
+            <seg type="hemistich">
+              <w>divites</w>
+              <pc resp="#editor">,</pc>
+              <w>quos</w>
+              <w>poteris</w>
+            </seg>
+            <seg type="hemistich">
+              <w>mari</w>
+              <w>comparare</w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
           </l>
         </lg>
         <lg type="refrain" met="[6p]" rhyme="A">
@@ -184,45 +183,51 @@
             <pc resp="#editor">...</pc>
           </l>
         </lg>
-        <lg type="strophe" n="IV">
+        <lg type="strophe" n="IV" met="7pp+6p/7pp+6p/7pp+6p" rhyme="a+b/a+b/a+b">
           <l n="1">
-            <app type="text">
-              <lem wit="HS V Tc T">
-                <w>Cunctis</w>
-              </lem>
-              <rdg wit="cod."><w>cuntis</w></rdg>
-            </app>
-            <w>est</w>
-            <w>equaliter</w>
+            <seg type="hemistich">
+              <app type="text">
+                <lem wit="HSB V Tc T">
+                  <w>Cunctis</w>
+                </lem>
+                <rdg wit="cod."><w>cuntis</w></rdg>
+              </app>
+              <w>est</w>
+              <w>equaliter</w>
+            </seg>
+            <seg type="hemistich">
+              <w>insita</w>
+              <w>cupido</w>
+              <pc resp="#editor">;</pc>
+            </seg>
           </l>
           <l n="2">
-            <w>insita</w>
-            <w>cupido</w>
-            <pc resp="#editor">;</pc>
+            <seg type="hemistich">
+              <w>perit</w>
+              <w>fides</w>
+              <w>turpiter</w>
+              <pc resp="#editor">,</pc>
+            </seg>
+            <seg type="hemistich">
+              <w>nullus</w>
+              <w>fidus</w>
+              <w>fido</w>
+              <pc resp="#editor">,</pc>
+            </seg>
           </l>
           <l n="3">
-            <w>perit</w>
-            <w>fides</w>
-            <w>turpiter</w>
-            <pc resp="#editor">,</pc>
-          </l>
-          <l n="4">
-            <w>nullus</w>
-            <w>fidus</w>
-            <w>fido</w>
-            <pc resp="#editor">,</pc>
-          </l>
-          <l n="5">
-            <w>nec</w>
-            <w>Iunoni</w>
-            <w>Iupiter</w>
-          </l>
-          <l n="6">
-            <w>nec</w>
-            <w>Enee</w>
-            <w>Dido</w>
-            <pc>&#183;</pc>
-            <pc resp="#editor">.</pc>
+            <seg type="hemistich">
+              <w>nec</w>
+              <w>Iunoni</w>
+              <w>Iupiter</w>
+            </seg>
+            <seg type="hemistich">
+              <w>nec</w>
+              <w>Enee</w>
+              <w>Dido</w>
+              <pc>&#183;</pc>
+              <pc resp="#editor">.</pc>
+            </seg>
           </l>
         </lg>
       </div>

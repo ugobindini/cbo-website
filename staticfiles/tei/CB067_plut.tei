@@ -1,8 +1,8 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="sequence">
+      <div type="sequence" met="1:4x6pp/2x(6pp/4pp+3p), 2:2x6pp/8pp/4pp/8pp/4pp/6pp, 3:2x(6pp/6p)/4pp/7pp/7p, 4:2x(8pp/4pp)/7pp/7p/2x7pp/4pp+3p">
         <lg type="versicle" n="1a" met="6pp/6pp/6pp/6pp/6pp/4pp+3p/6pp/4pp+3p" rhyme="a/b/a/b/c/c+d/e/e+d">
           <l n="1">
             <w>A</w>

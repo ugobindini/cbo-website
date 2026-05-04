@@ -21,8 +21,6 @@ def main():
 if __name__ == '__main__':
     main()
 
-    """
-    # Uncomment this block for reloading the Neume.objects after adding/removing glyphs or items
     import json
     from browse.models import Item, Neume
 
@@ -32,4 +30,3 @@ if __name__ == '__main__':
         glyphs = json.load(f)
         for glyph in glyphs:
             Neume(n=glyph['n'], description=glyph['description'], count=sum([item.count_neumes(glyph['n']) for item in Item.objects.all()])).save()
-    """

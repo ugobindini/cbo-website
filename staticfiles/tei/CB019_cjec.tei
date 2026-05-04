@@ -1,9 +1,9 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="7pp+6p/7pp+6p/7pp+6p/5pp/7pp+6p" rhyme="a/a/a/b/b+a">
-        <lg type="strophe">
+      <div type="poem" met="3x(7pp+6p)/5pp/7pp+6p" rhyme="a/a/a/b/b+a">
+        <lg type="strophe" met="7pp+6p/7pp+6p/7pp+6p/5pp/7pp+6p" rhyme="a/a/a/b/b+a">
           <l n="1">
             <seg type="hemistich">
               <w>Fas</w>
@@ -12,14 +12,8 @@
               <w>ambulant</w>
             </seg>
             <seg type="hemistich">
-              <app type="text">
-                <lem wit="cod. Tc">
-                  <w>fere</w>
-                  <w>passu</w>
-                </lem>
-                <rdg wit="V"><w>passu</w><w>fere</w></rdg>
-                <rdg wit="HS T"><w>pene</w><w>passu</w></rdg>
-              </app>
+              <w>fere</w>
+              <w>passu</w>
               <w>pari</w>
               <pc resp="#editor">,</pc>
             </seg>

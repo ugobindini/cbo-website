@@ -1,9 +1,9 @@
 <TEI>
-  <teiHeader />
+  <teiHeader/>
   <text>
     <body>
-      <div type="poem" met="6p+7pp/7pp/7pp/6p+7pp/4p+4p/7pp/4p+4p/[7pp]" rhyme="a/a/a/a/b+b/c/d+d/[c]">
-        <lg type="strophe" n="I">
+      <div type="poem" met="6p+7pp/2x7pp/6p+7pp/4p+4p/7pp/4p+4p/[7pp]">
+        <lg type="strophe" met="6p+7pp/7pp/7pp/6p+7pp/4p+4p/7pp/4p+4p/[7pp]" rhyme="a/a/a/a/b+b/c/d+d/[c]">
           <l n="1">
             <seg type="hemistich">
               <w>Crucifigat</w>
